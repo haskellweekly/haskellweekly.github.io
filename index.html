@@ -7,14 +7,56 @@
     <title>Haskell Weekly</title>
 
     <style>
-      body {
-        font-family: sans-serif;
+      html {
+        background: #51445F;
+        color: #ffffff;
+        font: 1em/1.5em sans-serif;
         text-align: center;
+      }
+
+      body {
+        margin: 3em 1.5em 6em 1.5em;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      form {
+        display: inline-block;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      input {
+        background: #ffffff;
+        border: none;
+        color: #000000;
+        display: block;
+        height: 3em;
+        line-height: 3em;
+        padding: 0 0.75em;
+      }
+
+      .email {
+        border-bottom-left-radius: 0.25em;
+        border-top-left-radius: 0.25em;
+      }
+
+      .button {
+        border-bottom-right-radius: 0.25em;
+        border-left: thin solid #51445F;
+        border-top-right-radius: 0.25em;
+        cursor: pointer;
       }
     </style>
   </head>
 
   <body>
+    <img alt="" src="haskell-weekly.svg" width="100" height="100">
+
     <h1>Haskell Weekly</h1>
 
     <p>
@@ -25,13 +67,14 @@
       <div style="position: absolute; left: -5000px;" aria-hidden="true">
         <input type="text" name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" value="">
       </div>
-      <label for="mce-EMAIL">Email Address</label>
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      <div class="flex">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
     </form>
 
     <p>
-      <a href="http://us10.campaign-archive1.com/home/?u=49a6a2e17b12be2c5c4dcb232&id=ffbbbbd930">View previous issues.</a>
+      <a href="http://us10.campaign-archive1.com/home/?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930">View previous issues.</a>
     </p>
 
     <p>
