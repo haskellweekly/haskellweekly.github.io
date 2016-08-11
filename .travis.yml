@@ -1,3 +1,7 @@
+addons:
+  apt:
+    packages:
+    - libgmp-dev
 after_success:
 - cd _hakyll/site
 - echo haskellweekly.news > CNAME
@@ -20,6 +24,7 @@ cache:
 install:
 - stack setup
 - stack build --only-dependencies
+language: c
 script:
 - stack build
 - stack exec haskell-weekly rebuild
