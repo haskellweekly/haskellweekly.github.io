@@ -1,0 +1,31 @@
+category: Web
+description: Haskell Weekly is a weekly Haskell newsletter.
+executables:
+  haskell-weekly:
+    dependencies:
+    - base
+    - haskell-weekly
+    ghc-options:
+    - -rtsopts
+    - -threaded
+    - -with-rtsopts=-N
+    main: Main.hs
+    source-dirs: executable
+extra-source-files:
+- data/**/*
+- package.yaml
+- README.markdown
+- stack.yaml
+ghc-options: -Wall
+github: haskellweekly/haskellweekly.github.io
+library:
+  dependencies:
+  - base
+  - hakyll
+  source-dirs: library
+license: MIT
+license-file: LICENSE.markdown
+maintainer: Taylor Fausak
+name: haskell-weekly
+synopsis: A weekly Haskell newsletter.
+version: '0.0.0'

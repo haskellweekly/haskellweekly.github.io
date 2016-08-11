@@ -1,0 +1,24 @@
+---
+title: Home
+---
+
+<p>
+  Haskell Weekly is a free email newsletter about the Haskell programming
+  language. Each issue features about seven hand-picked links to interesting
+  Haskell content from around the web. New issues are published on Thursday
+  mornings.
+</p>
+
+$partial("templates/form.html")$
+
+<h2>
+  Past issues
+</h2>
+
+<ul>
+  $for(issues)$
+    <li>
+      <a href="$url$">$title$</a> &#xb7; <time>$date$</time>
+    </li>
+  $endfor$
+</ul>
