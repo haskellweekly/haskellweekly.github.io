@@ -1,0 +1,26 @@
+after_success:
+- cd _hakyll/site
+- echo haskellweekly.news > CNAME
+- git init
+- git add .
+- git commit --message "Automatic deploy of $TRAVIS_COMMIT"
+- git remote add origin git@github.com:haskellweekly/haskellweekly.github.io.git
+- git push --force origin master
+before_install:
+- mkdir -p ~/.local/bin
+- export PATH=$HOME/.local/bin:$PATH
+- travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards
+  --strip-components=1 -C ~/.local/bin '*/stack'
+branches:
+  only:
+  - hakyll
+cache:
+  directories:
+  - $HOME/.stack
+install:
+- stack setup
+- stack build --only-dependencies
+script:
+- stack build
+- stack exec haskell-weekly rebuild
+sudo: false
