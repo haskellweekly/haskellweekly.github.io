@@ -7,10 +7,10 @@ after_success:
 - echo haskellweekly.news > CNAME
 - git init
 - git add .
-- git commit --message "Automatic deploy of $TRAVIS_COMMIT"
-- git remote add origin https://$GITHUB_TOKEN@github.com/haskellweekly/haskellweekly.github.io.git
 - git config --global user.email 'taylor@fausak.me'
 - git config --global user.name 'Taylor Fausak'
+- git commit --message "Automatic deploy of $TRAVIS_COMMIT"
+- git remote add origin https://$GITHUB_TOKEN@github.com/haskellweekly/haskellweekly.github.io.git
 - git push --force origin master
 before_install:
 - mkdir -p ~/.local/bin
