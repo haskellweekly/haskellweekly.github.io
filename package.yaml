@@ -13,9 +13,7 @@ executables:
     source-dirs: executable
 extra-source-files:
 - data/**/*
-- package.yaml
 - README.markdown
-- stack.yaml
 ghc-options: -Wall
 github: haskellweekly/haskellweekly.github.io
 library:

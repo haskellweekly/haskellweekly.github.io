@@ -25,5 +25,6 @@ install:
 language: c
 script:
 - stack build
+- stack sdist --pvp-bounds both
 - stack exec haskell-weekly rebuild
 sudo: false
