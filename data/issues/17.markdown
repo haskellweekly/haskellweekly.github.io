@@ -6,3 +6,7 @@ published: 2016-08-25
 - [Mustache templates in Haskell](https://www.stackbuilders.com/tutorials/haskell/mustache-templates/)
 
   > Mustache templates are popular logic-less templates that can be used in web development as well as in any other domain where interpolation of data into some sort of template is needed.
+
+- [Making Movie Monad](https://lettier.github.io/posts/2016-08-15-making-movie-monad.html)
+
+  > Using only HTML, CSS, and JavaScript, you can use Electron to develop a desktop application. The nice part about Movie Monad, however, is that we will create the HTML, CSS, and JavaScript using Haskell.
