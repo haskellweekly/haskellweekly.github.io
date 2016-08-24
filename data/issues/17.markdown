@@ -18,3 +18,7 @@ published: 2016-08-25
 - [TechEmpower Benchmarks](https://turingjump.com/blog/tech-empower/)
 
   > Rather than wait for the official results, I ran the benchmarks with a handful of frameworks on a dedicated server. The results are, I think, enough to put these concerns to rest.
+
+- [dbrecord-opaleye](https://github.com/byteally/dbrecord-opaleye/blob/e70e2bacb49da9371563791f81f7e74992dfd57c/README.md#dbrecord-opaleye)
+
+  > dbrecord-opaleye is a haskell library that automatically takes care of changing the shape of your model depending on the operation (projection, aggregation, left join).
