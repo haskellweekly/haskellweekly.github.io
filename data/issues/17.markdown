@@ -26,3 +26,7 @@ published: 2016-08-25
 - [Bookkeeper](https://turingjump.com/blog/bookkeeper/)
 
   > If we keep all of the field-to-type mappings at the type-level representation of a datatype, we can use that to not have to write IsLabel instances manually. As an added bonus, we’ll get anonymous records!
+
+- [Pitfalls in Haskell](http://users.jyu.fi/~sapekiis/haskell-pitfalls/)
+
+  > This text demonstrates the difficulties people often face when learning Haskell. It is perhaps biased by my own experiences, so it may emphasize things that C and Scheme have taught me. Those would be paranoia and flexibility.
