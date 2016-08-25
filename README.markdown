@@ -5,11 +5,11 @@
 This repository generates the site at [haskellweekly.news][]. Run it locally
 with [Stack][]:
 
-1.  `stack setup`
+1.  `stack --install-ghc build --file-watch --exec 'haskell-weekly rebuild'`
 
-2.  `stack build`
+2.  `stack exec haskell-weekly server`
 
-3.  `stack exec haskell-weekly watch`
+3.  <http://localhost:8000>
 
 [Build badge]: https://travis-ci.org/haskellweekly/haskellweekly.github.io.svg?branch=hakyll
 [build]: https://travis-ci.org/haskellweekly/haskellweekly.github.io
