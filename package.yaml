@@ -11,7 +11,7 @@ executables:
     - -with-rtsopts=-N
     main: Main.hs
 extra-source-files:
-- data/**/*
+- content/**/*
 - README.markdown
 ghc-options: -Wall
 github: haskellweekly/haskellweekly.github.io

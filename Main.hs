@@ -16,7 +16,7 @@ configuration :: H.Configuration
 configuration = do
     H.defaultConfiguration
         { H.destinationDirectory = "_hakyll/site"
-        , H.providerDirectory = "data"
+        , H.providerDirectory = "content"
         , H.storeDirectory = "_hakyll/cache"
         , H.tmpDirectory = "_hakyll/tmp"
         }
