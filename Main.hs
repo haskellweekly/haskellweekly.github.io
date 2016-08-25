@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module HaskellWeekly
+module Main
     ( main
     ) where
 

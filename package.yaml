@@ -4,23 +4,17 @@ executables:
   haskell-weekly:
     dependencies:
     - base
-    - haskell-weekly
+    - hakyll
     ghc-options:
     - -rtsopts
     - -threaded
     - -with-rtsopts=-N
     main: Main.hs
-    source-dirs: executable
 extra-source-files:
 - data/**/*
 - README.markdown
 ghc-options: -Wall
 github: haskellweekly/haskellweekly.github.io
-library:
-  dependencies:
-  - base
-  - hakyll
-  source-dirs: library
 license: MIT
 license-file: LICENSE.markdown
 maintainer: Taylor Fausak
