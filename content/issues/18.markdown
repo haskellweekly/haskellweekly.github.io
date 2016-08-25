@@ -1,0 +1,8 @@
+---
+title: Issue 18
+published: 2016-09-01
+---
+
+- [Shareable APIs and more](https://www.spock.li/2016/08/25/shareable-apis.html)
+
+  > If you are already using the same language, I think calling an endpoint from the frontend should rather feel just like a type-safe function call. And that’s what “shareable” API definitions try to solve.
