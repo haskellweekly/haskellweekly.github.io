@@ -22,3 +22,7 @@ published: 2016-08-25
 - [dbrecord-opaleye](https://github.com/byteally/dbrecord-opaleye/blob/e70e2bacb49da9371563791f81f7e74992dfd57c/README.md#dbrecord-opaleye)
 
   > dbrecord-opaleye is a haskell library that automatically takes care of changing the shape of your model depending on the operation (projection, aggregation, left join).
+
+- [Bookkeeper](https://turingjump.com/blog/bookkeeper/)
+
+  > If we keep all of the field-to-type mappings at the type-level representation of a datatype, we can use that to not have to write IsLabel instances manually. As an added bonus, we’ll get anonymous records!
