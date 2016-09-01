@@ -19,6 +19,10 @@ published: 2016-09-01
 
   > Haskell might be “the closest thing to a secret weapon” when building server-side software, writes Better co-founder Carl Baatz, summarizing their four-year journey using Haskell in production.
 
+- [Announcing containers 0.5.8.1](https://mail.haskell.org/pipermail/haskell-cafe/2016-August/124763.html)
+
+  > There are plenty of brand-new functions [and] several key map, set, and sequence functions have sped up considerably.
+
 - [haskell.org and the Evil Cabal](http://www.snoyman.com/blog/2016/08/haskell-org-evil-cabal)
 
   > The haskell.org committee has consistently engaged in tactics which silence the voices of all non-members, and stacks the committee to prevent dissenting opinions from joining.
