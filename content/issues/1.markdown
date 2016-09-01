@@ -1,6 +1,9 @@
 ---
 title: Issue 1
 published: 2016-05-05
+subscribers: 7
+opens: 85.7
+clicks: 71.4
 ---
 
 - [GHC 8.0.1 RC4 released ](https://mail.haskell.org/pipermail/ghc-devs/2016-April/011955.html)

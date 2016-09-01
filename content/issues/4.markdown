@@ -1,6 +1,9 @@
 ---
 title: Issue 4
 published: 2016-05-26
+subscribers: 45
+opens: 75.6
+clicks: 26.7
 ---
 
 - [GHC 8.0.1 is available!](https://ghc.haskell.org/trac/ghc/blog/ghc-8.0.1-released)

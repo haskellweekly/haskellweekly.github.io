@@ -1,6 +1,9 @@
 ---
 title: Issue 12
 published: 2016-07-21
+subscribers: 78
+opens: 57.7
+clicks: 26.9
 ---
 
 - [What Template Haskell gets wrong and Racket gets right](http://blog.ezyang.com/2016/07/what-template-haskell-gets-wrong-and-racket-gets-right/)

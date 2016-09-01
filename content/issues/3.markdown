@@ -1,6 +1,9 @@
 ---
 title: Issue 3
 published: 2016-05-19
+subscribers: 40
+opens: 77.5
+clicks: 40.0
 ---
 
 - [Low latency, large working set, and GHC's garbage collector: pick two of three](https://blog.pusher.com/latency-working-set-ghc-gc-pick-two/)

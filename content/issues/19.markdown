@@ -1,6 +1,9 @@
 ---
 title: Issue 19
 published: 2016-09-08
+subscribers: 390
+opens: 66.6
+clicks: 28.8
 ---
 
 - [The Base of a String Theory for Haskell](http://blog.ezyang.com/2016/09/the-base-of-a-string-theory-for-haskell/)

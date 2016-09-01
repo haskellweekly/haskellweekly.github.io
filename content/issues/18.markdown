@@ -1,6 +1,9 @@
 ---
 title: Issue 18
 published: 2016-09-01
+subscribers: 377
+opens: 69.9
+clicks: 29.9
 ---
 
 - [cabal new-build is a package manager](http://blog.ezyang.com/2016/08/cabal-new-build-is-a-package-manager/)

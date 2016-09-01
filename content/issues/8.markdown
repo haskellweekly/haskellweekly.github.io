@@ -1,6 +1,9 @@
 ---
 title: Issue 8
 published: 2016-06-23
+subscribers: 75
+opens: 73.3
+clicks: 37.3
 ---
 
 - [Contributing to GHC](https://ghc.haskell.org/trac/ghc/blog/ContributingToGhc)

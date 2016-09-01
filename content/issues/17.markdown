@@ -1,6 +1,9 @@
 ---
 title: Issue 17
 published: 2016-08-25
+subscribers: 363
+opens: 70.4
+clicks: 39.2
 ---
 
 - [Mustache templates in Haskell](https://www.stackbuilders.com/tutorials/haskell/mustache-templates/)

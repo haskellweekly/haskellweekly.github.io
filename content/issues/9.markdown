@@ -1,6 +1,9 @@
 ---
 title: Issue 9
 published: 2016-06-30
+subscribers: 76
+opens: 67.1
+clicks: 35.5
 ---
 
 - [Announce: safe-exceptions, for async exception safety](https://www.fpcomplete.com/blog/2016/06/announce-safe-exceptions)
