@@ -14,3 +14,7 @@ published: 2016-09-01
 - [Shareable APIs and more](https://www.spock.li/2016/08/25/shareable-apis.html)
 
   > If you are already using the same language, I think calling an endpoint from the frontend should rather feel just like a type-safe function call. And that’s what “shareable” API definitions try to solve.
+
+- [haskell.org and the Evil Cabal](http://www.snoyman.com/blog/2016/08/haskell-org-evil-cabal)
+
+  > The haskell.org committee has consistently engaged in tactics which silence the voices of all non-members, and stacks the committee to prevent dissenting opinions from joining.
