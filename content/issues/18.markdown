@@ -15,6 +15,10 @@ published: 2016-09-01
 
   > If you are already using the same language, I think calling an endpoint from the frontend should rather feel just like a type-safe function call. And that’s what “shareable” API definitions try to solve.
 
+- [Retrospective: Haskell in Production](https://www.infoq.com/news/2016/08/haskell-production-retrospective)
+
+  > Haskell might be “the closest thing to a secret weapon” when building server-side software, writes Better co-founder Carl Baatz, summarizing their four-year journey using Haskell in production.
+
 - [haskell.org and the Evil Cabal](http://www.snoyman.com/blog/2016/08/haskell-org-evil-cabal)
 
   > The haskell.org committee has consistently engaged in tactics which silence the voices of all non-members, and stacks the committee to prevent dissenting opinions from joining.
