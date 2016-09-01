@@ -3,6 +3,10 @@ title: Issue 18
 published: 2016-09-01
 ---
 
+- [cabal new-build is a package manager](http://blog.ezyang.com/2016/08/cabal-new-build-is-a-package-manager/)
+
+  > An old article I occasionally see cited today is Repeat after me: "Cabal is not a Package Manager". Many of the complaints don't apply to cabal-install 1.24's new Nix-style local builds.
+
 - [Shareable APIs and more](https://www.spock.li/2016/08/25/shareable-apis.html)
 
   > If you are already using the same language, I think calling an endpoint from the frontend should rather feel just like a type-safe function call. And that’s what “shareable” API definitions try to solve.
