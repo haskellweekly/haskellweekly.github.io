@@ -7,6 +7,10 @@ published: 2016-09-08
 
   > Backpack solves these problems, by allowing you to parametrize over a signature rather than a concrete implementation of a string type, and instantiate such an indefinite library whenever you want.
 
+- [The Hashrocket websocket shootout in Haskell](http://bitemyapp.com//posts/2016-09-03-websocket-shootout-haskell.html)
+
+  > The idea is to test how many concurrent clients a single websocket server can serve and how efficiently it can broadcast messages to all the clients.
+
 - [Programming in Haskell: 2nd Edition](http://www.cs.nott.ac.uk/~pszgmh/pih.html)
 
   > This book is based on the author's experience of teaching Haskell for more than twenty years. All concepts are explained from first principles and no programming experience is required, making this book accessible to a broad spectrum of readers.
