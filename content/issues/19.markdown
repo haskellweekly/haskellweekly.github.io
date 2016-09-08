@@ -10,3 +10,7 @@ published: 2016-09-08
 - [Programming in Haskell: 2nd Edition](http://www.cs.nott.ac.uk/~pszgmh/pih.html)
 
   > This book is based on the author's experience of teaching Haskell for more than twenty years. All concepts are explained from first principles and no programming experience is required, making this book accessible to a broad spectrum of readers.
+
+- [Learning Haskell as a Category theorist](https://www.reddit.com/r/haskell/comments/516htg/learning_haskell_as_a_category_theorist/)
+
+  > The way Haskell uses the words Functor and Monad don't correspond to how I know them and furthermore, the explanations given often leave me even more confused because they are aimed at a different audience.
