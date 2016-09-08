@@ -11,6 +11,10 @@ published: 2016-09-08
 
   > This book is based on the author's experience of teaching Haskell for more than twenty years. All concepts are explained from first principles and no programming experience is required, making this book accessible to a broad spectrum of readers.
 
+- [Haskell eXchange, Hackathon, and Courses](http://www.well-typed.com/blog/2016/09/haskell-exchange-hackathon-and-courses/)
+
+  > In October 2016, we are co-organizing various events in London. Now is the time to register for: the Haskell eXchange, a two-day three-track conference with a large number of Haskell-related talks and workshops on a wide variety of topics, including keynotes by Simon Peyton Jones, Don Stewart, Conor McBride and Graham Hutton.
+
 - [Learn You an Elm](http://learnyouanelm.github.io)
 
   > I decided to write this because Learn You A Haskell is now a common resource for learning functional programming. But, Elm is developing into its own language, and has some significant technical and philosophical differences from Haskell. So, instead of throwing away the great resource that is LYAH, we’ve decided to adapt it.
