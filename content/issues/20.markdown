@@ -14,3 +14,7 @@ published: 2016-09-15
 - [Working with data in Haskell](https://www.fpcomplete.com/blog/2016/09/data-haskell)
 
   > In this post we've demonstrated: (1) Concisely handling a chain of problems smoothly like a bash script. (2) Done all the above in constant memory usage. (3) Done so with a type-safe parser, specifying our types statically, but without having to declare or name any record type ahead of time.
+
+- [Foundation](http://tab.snarc.org/posts/haskell/2016-09-09-foundation.html)
+
+  > A new hope. Foundation is a new library that tries to define a new modern Haskell framework. It is also trying to be more than a library: A common place for the community to improve things and define new things. It started as a thought experiment: What would a modern Haskell base looks like if I could start from scratch ?
