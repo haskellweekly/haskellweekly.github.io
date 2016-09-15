@@ -10,3 +10,7 @@ published: 2016-09-15
 - [Stackage LTS 7 is released](http://juhp.blogspot.com/2016/09/stackage-lts-7-is-released.html)
 
   > The Stackage curator team is pleased to announce the initial release of Stackage LTS 7 for ghc-8.0.1. Released over 3.5 months after LTS 6.0, the biggest change introduced with LTS 7.0 is the move from ghc-7.10.3 to ghc-8.0.1.
+
+- [Working with data in Haskell](https://www.fpcomplete.com/blog/2016/09/data-haskell)
+
+  > In this post we've demonstrated: (1) Concisely handling a chain of problems smoothly like a bash script. (2) Done all the above in constant memory usage. (3) Done so with a type-safe parser, specifying our types statically, but without having to declare or name any record type ahead of time.
