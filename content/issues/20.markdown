@@ -18,3 +18,7 @@ published: 2016-09-15
 - [Foundation](http://tab.snarc.org/posts/haskell/2016-09-09-foundation.html)
 
   > A new hope. Foundation is a new library that tries to define a new modern Haskell framework. It is also trying to be more than a library: A common place for the community to improve things and define new things. It started as a thought experiment: What would a modern Haskell base looks like if I could start from scratch ?
+
+- [(De)constructing the Front End](http://asivitz.com/posts/layers)
+
+  > In this post I will look at the ideas behind programming user interfaces and present a method for building them in a pure functional setting.
