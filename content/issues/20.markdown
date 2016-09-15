@@ -2,3 +2,7 @@
 title: Issue 20
 published: 2016-09-15
 ---
+
+- [Into the Core - Squeezing Haskell into Nine Constructors by Simon Peyton Jones](https://www.youtube.com/watch?v=uR_VzYxvbxg)
+
+  > GHC translates all of Haskell into a tiny but super-expressive intermediate language called Core, does a lot of optimizations on Core, and then generates executable code. Core is statically typed, making GHC one of the very few production compilers that is statically typed all the way through to code generation.
