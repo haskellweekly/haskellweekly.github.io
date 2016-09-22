@@ -11,6 +11,10 @@ published: 2016-09-22
 
   > Now there is an alternative that is simultaneously more convenient and more powerful: Haskell SpriteKit provides a purely functional, easy-to-use binding to a modern industrial-strength gaming framework. The price? Your are limited to 2D games on Apple platforms.
 
+- [Practical Haskell: Simple file mirror](https://www.fpcomplete.com/blog/2016/09/practical-haskell-simple-file-mirror-1)
+
+  > The program I put together is a simple client/server combo, where the client watches for local file changes and sends the updates to the server, which writes them to disk. This approach reduces latency significantly by keeping an open TCP connection, and can be tunneled over SSH for security. It's simple, and the code is short and readable.
+
 - [FitSpec](https://github.com/rudymatela/fitspec/blob/6bf63582828566605396286d2c301bcedb11dca3/README.md)
 
   > FitSpec provides automated assistance in the task of refining test properties for Haskell functions. FitSpec tests mutant variations of functions under test against a given property set, recording any surviving mutants that pass all tests. FitSpec then reports: surviving mutants, indicating incompleteness of properties; and conjectures, indicating redundancy in the property set.
