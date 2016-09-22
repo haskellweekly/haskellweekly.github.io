@@ -23,6 +23,10 @@ published: 2016-09-22
 
   > FitSpec provides automated assistance in the task of refining test properties for Haskell functions. FitSpec tests mutant variations of functions under test against a given property set, recording any surviving mutants that pass all tests. FitSpec then reports: surviving mutants, indicating incompleteness of properties; and conjectures, indicating redundancy in the property set.
 
+- [The generic-random library: simple generic Arbitrary instances](https://byorgey.wordpress.com/2016/09/20/the-generic-random-library-part-1-simple-generic-arbitrary-instances/)
+
+  > First, a quick recap of the problem we are trying to solve: the obvious, naive way of generating random instances of some recursive algebraic data type often produces really terrible distributions. For example, one might generate really tiny structures most of the time and then occasionally generate a humongous one.
+
 - [Oczor](https://github.com/ptol/oczor/blob/a3169043fbfbf208a4796a07c9cbb6251fc88eba/README.md)
 
   > A simple statically typed language that should be easily compiled to dynamically typed languages. Compiles to JavaScript, Lua, Ruby, and Emacs Lisp.
