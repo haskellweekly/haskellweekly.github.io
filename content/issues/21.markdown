@@ -30,3 +30,9 @@ published: 2016-09-22
 -   [Oczor](https://github.com/ptol/oczor/blob/a3169043fbfbf208a4796a07c9cbb6251fc88eba/README.md)
 
     > A simple statically typed language that should be easily compiled to dynamically typed languages. Compiles to JavaScript, Lua, Ruby, and Emacs Lisp.
+
+Did you like this issue?
+Let us know [on Twitter](https://twitter.com/haskellweekly)!
+Think it could be better?
+Send us [an email](info@haskellweekly.news) or open [an issue](https://github.com/haskellweekly/haskellweekly.github.io/issues/new).
+Thanks for reading!
