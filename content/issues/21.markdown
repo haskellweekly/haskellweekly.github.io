@@ -3,6 +3,10 @@ title: Issue 21
 published: 2016-09-22
 ---
 
+- [Stack 1.2](https://docs.haskellstack.org/en/stable/ChangeLog/#120)
+
+  This release adds the `stack hoogle` command along with dozens of other enhancements and bug fixes.
+
 - [FitSpec](https://github.com/rudymatela/fitspec/blob/6bf63582828566605396286d2c301bcedb11dca3/README.md)
 
   > FitSpec provides automated assistance in the task of refining test properties for Haskell functions. FitSpec tests mutant variations of functions under test against a given property set, recording any surviving mutants that pass all tests. FitSpec then reports: surviving mutants, indicating incompleteness of properties; and conjectures, indicating redundancy in the property set.
