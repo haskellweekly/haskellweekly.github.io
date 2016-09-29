@@ -11,6 +11,10 @@ published: 2016-09-29
 
     > With the addition of the new hackage-security metadata files to our S3 mirror, one nice benefit is that the FP Complete mirror is now an official Hackage mirror, and can be used natively by cabal-install without having to modify any configuration files.
 
+-   [Proposed Conduit reskin](http://www.snoyman.com/blog/2016/09/proposed-conduit-reskin)
+
+    > Conduit borrowed the operator syntax of `$$`, `=$` and `$=` from enumerator, and it made sense at the beginning of its lifecycle. However, for quite a while now conduit has evolved to the point of having a unified type for `Source`s, `Conduit`s, and `Sink`s, and the disparity of operators adds more confusion than it may be worth.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
