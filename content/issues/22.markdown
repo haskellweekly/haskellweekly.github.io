@@ -3,6 +3,10 @@ title: Issue 22
 published: 2016-09-29
 ---
 
+-   [Sharing, memory leaks, and Conduit and friends](http://www.well-typed.com/blog/2016/09/sharing-conduit/)
+
+    > Sharing conduit values leads to memory leaks. Make sure to disable the full laziness optimization in the module with your top-level calls to `runConduit` or (`$$`). Similar considerations apply to other streaming libraries and indeed any Haskell code that uses lazy data structures to drive computation.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
