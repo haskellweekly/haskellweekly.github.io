@@ -7,6 +7,10 @@ published: 2016-09-29
 
     > There's no denying that our shared dialogue as a community has taken a nose-dive in the last few months.  If this change of tone becomes established as a norm, I believe it will corrode our common life, perhaps permanently, and harm our shared purpose. I would be heartbroken if that happened.
 
+-   [Modern functional programming: part 2](http://degoes.net/articles/modern-fp-part-2)
+
+    > The result is a sequel to my original post, which consists of a newly-minted, tricked-out recommendation for architecting modern functional programs, along with new ways of thinking about the structure of this architecture.
+
 -   [Sharing, memory leaks, and Conduit and friends](http://www.well-typed.com/blog/2016/09/sharing-conduit/)
 
     > Sharing conduit values leads to memory leaks. Make sure to disable the full laziness optimization in the module with your top-level calls to `runConduit` or (`$$`). Similar considerations apply to other streaming libraries and indeed any Haskell code that uses lazy data structures to drive computation.
