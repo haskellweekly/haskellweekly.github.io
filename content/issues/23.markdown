@@ -3,6 +3,10 @@ title: Issue 23
 published: 2016-10-06
 ---
 
+-   [Qtah](http://khumba.net/projects/qtah/)
+
+    > Qtah is a set of Qt bindings for Haskell, providing a traditional imperative interface to a mature GUI toolkit.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
