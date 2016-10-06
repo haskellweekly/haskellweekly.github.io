@@ -7,6 +7,10 @@ published: 2016-10-06
 
     > By taking advantage of Haskell's expressive type system, it's possible to not only achieve parity with object-oriented testing techniques, but also to provide stronger static guarantees as well. Furthermore, it's all possible without resorting to extra-linguistic hacks that static object-oriented languages sometimes use for mocking.
 
+-   [Docker demons: PID-1, orphans, zombies, and signals](https://www.fpcomplete.com/blog/2016/10/docker-demons-pid1-orphans-zombies-signals)
+
+    > There are a number of corner cases to consider when dealing with Docker, multiple processes, and signals. Probably the most famous post on this matter is from the Phusion blog. Here, we'll see some examples of how to see these problems first hand, and one way to work around it: fpco/pid1.
+
 -   [wrecker](https://github.com/skedgeme/wrecker/blob/0aacc038931b5c7c45419cc314692ea3334b5bf3/README.md)
 
     > wrecker is an HTTP benchmarking library and executable for profiling several API actions. wrecker is designed from the ground-up for scripting complex API sequences sublimely. Benchmarks can utilize a wreq-like interface, perhaps the easiest-to-use Haskell library for HTTP interaction, and quickly create wonderful, typed API clients.
