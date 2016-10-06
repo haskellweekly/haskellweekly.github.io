@@ -27,15 +27,15 @@ published: 2016-10-06
 
     > Hackage now has multiple secure mirrors which can be used fully automatically by clients such as cabal.
 
--   [video] [ICFP 2016 Haskell videos](https://www.youtube.com/playlist?list=PLnqUlCo055hX8RkgLEjBYnETx6NuiL756)
+-   [ICFP 2016 Haskell videos](https://www.youtube.com/playlist?list=PLnqUlCo055hX8RkgLEjBYnETx6NuiL756)
 
     > ICFP 2016 is the 21st ACM SIGPLAN International Conference on Functional Programming. ICFP provides a forum for researchers and developers to hear about the latest work on the design, implementations, principles, and uses of functional programming. The conference covers the entire spectrum of work, from practice to theory, including its peripheries.
 
--   [job] [Full-time Haskell jobs in London, at Barclays](http://neilmitchell.blogspot.co.uk/2016/09/full-time-haskell-jobs-in-london-at.html)
+-   [Full-time Haskell jobs in London, at Barclays](http://neilmitchell.blogspot.co.uk/2016/09/full-time-haskell-jobs-in-london-at.html)
 
     > I work for Barclays, in London, working on a brand new Haskell project. We're looking for nine additional Haskell programmers to come and join the team.
 
--   [job] [Haskell Internship (Paid. Remote acceptable.)](https://www.vacationlabs.com/haskell-internship/)
+-   [Haskell Internship (Paid. Remote acceptable.)](https://www.vacationlabs.com/haskell-internship/)
 
     > Before we dive into Haskell head-first, we’re planning to first build a proof-of-concept (POC) webapp. We believe that a lot of questions need to be answered about building a large-scale webapp in Haskell.
 
