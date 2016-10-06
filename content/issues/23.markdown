@@ -11,6 +11,10 @@ published: 2016-10-06
 
     > There are a number of corner cases to consider when dealing with Docker, multiple processes, and signals. Probably the most famous post on this matter is from the Phusion blog. Here, we'll see some examples of how to see these problems first hand, and one way to work around it: fpco/pid1.
 
+-   [Patat and Myanmar travels](https://jaspervdj.be/posts/2016-10-02-patat-myanmar.html)
+
+    > At work, I frequently need to give (internal) presentations and demos using video conferencing. I prefer to do these quick-and-dirty presentations in the terminal. To this end, I wrote patat – Presentations And The ANSI Terminal – because I was not entirely happy with the available solutions.
+
 -   [wrecker](https://github.com/skedgeme/wrecker/blob/0aacc038931b5c7c45419cc314692ea3334b5bf3/README.md)
 
     > wrecker is an HTTP benchmarking library and executable for profiling several API actions. wrecker is designed from the ground-up for scripting complex API sequences sublimely. Benchmarks can utilize a wreq-like interface, perhaps the easiest-to-use Haskell library for HTTP interaction, and quickly create wonderful, typed API clients.
