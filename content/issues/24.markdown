@@ -23,6 +23,10 @@ published: 2016-10-13
 
     > If we were to compile pid1 completely static it could be portable (within a given range of Linux kernel versions). Let's explore different ways to compile a GHC executable with Stack. Maybe we can come up with a way to create portable binaries.
 
+-   [Descriptive variable names: A code smell?](http://degoes.net/articles/insufficiently-polymorphic)
+
+    > If you can name your variables after more descriptive things than `f`, `a`, `b`, and so on, then your code is probably monomorphic. Monomorphic code is much more likely to be incorrect than polymorphic code, because for every type signature, there are many more possible implementations.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
