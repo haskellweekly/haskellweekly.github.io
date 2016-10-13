@@ -11,6 +11,10 @@ published: 2016-10-13
 
     > In its fifth year, the Haskell eXchange is an annual conference created for and by the Skills Matter community. An opportunity for Haskellers to meet, learn and share skills, discover emerging technologies and help evolve the Haskell ecosystem.
 
+-   [dataHaskell: Data types for data science](http://www.datahaskell.org)
+
+    > Data science should be data driven with a strong focus on types. Our aim is to bring powerful tools to the best language for this task: Haskell.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
