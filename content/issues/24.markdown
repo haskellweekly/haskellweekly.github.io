@@ -7,6 +7,10 @@ published: 2016-10-13
 
     > Backpack, a new system for mix-in packages in Haskell, has landed in GHC HEAD. This means that it has become a lot easier to try Backpack out: you just need a nightly build of GHC.
 
+-   [Haskell eXchange 2016 skillscasts](https://skillsmatter.com/conferences/7276-haskell-exchange-2016#skillscasts)
+
+    > In its fifth year, the Haskell eXchange is an annual conference created for and by the Skills Matter community. An opportunity for Haskellers to meet, learn and share skills, discover emerging technologies and help evolve the Haskell ecosystem.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
