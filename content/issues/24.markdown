@@ -3,6 +3,10 @@ title: Issue 24
 published: 2016-10-13
 ---
 
+-   [Try Backpack: `ghc --backpack`](http://blog.ezyang.com/2016/10/try-backpack-ghc-backpack/)
+
+    > Backpack, a new system for mix-in packages in Haskell, has landed in GHC HEAD. This means that it has become a lot easier to try Backpack out: you just need a nightly build of GHC.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
