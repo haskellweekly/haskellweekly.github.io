@@ -19,6 +19,10 @@ published: 2016-10-13
 
     > Data science should be data driven with a strong focus on types. Our aim is to bring powerful tools to the best language for this task: Haskell.
 
+-   [Static compilation with Stack](https://www.fpcomplete.com/blog/2016/10/static-compilation-with-stack)
+
+    > If we were to compile pid1 completely static it could be portable (within a given range of Linux kernel versions). Let's explore different ways to compile a GHC executable with Stack. Maybe we can come up with a way to create portable binaries.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
