@@ -11,6 +11,10 @@ published: 2016-10-20
 
     > HyperHaskell is a graphical Haskell interpreter (REPL), not unlike GHCi, but hopefully more awesome. You use worksheets to enter expressions and evaluate them. Results are displayed using HTML.
 
+-   [servant-template: production-ready Haskell web services in 5 minutes](https://jml.io/2016/10/servant-template-production-ready-haskell-web-services-in-5-minutes.html)
+
+    > The cookiecutter template creates a simple Haskell web API service that does all of these things: logging with logging-effect, monitoring with Prometheus, continuous integration with CircleCI, tests with Tasty, deployment by building a Docker image, and command-line parsing with optparse-applicative.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
