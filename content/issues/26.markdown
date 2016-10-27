@@ -3,6 +3,10 @@ title: Issue 26
 published: 2016-10-27
 ---
 
+-   [Showcasing Applicative](http://www.joachim-breitner.de/blog/710-Showcasing_Applicative)
+
+    > My plan for this week's lecture of the CIS 194 Haskell course at the University of Pennsylvania is to dwell a bit on the concept of Functor, Applicative and Monad, and to highlight the value of the Applicative abstraction.
+
 -   [tensorflow-haskell](https://github.com/tensorflow/haskell)
 
     > The tensorflow-haskell package provides Haskell bindings to TensorFlow, an open source software library for machine intelligence.
