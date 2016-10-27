@@ -6,6 +6,10 @@ published: 2016-10-27
 -   [Showcasing Applicative](http://www.joachim-breitner.de/blog/710-Showcasing_Applicative)
 
     > My plan for this week's lecture of the CIS 194 Haskell course at the University of Pennsylvania is to dwell a bit on the concept of Functor, Applicative and Monad, and to highlight the value of the Applicative abstraction.
+    
+-   [Deploying a Haskell application to AWS Elastic Beanstalk](https://medium.com/@folsen/deploying-a-haskell-application-to-aws-elastic-beanstalk-24c7c29d3a8f#.bjlf8x1np)
+
+    > This article describes a simple approach to set up a continuous integration and continuous deployment pipeline for a sample Haskell application deploying to AWS Elastic Beanstalk.
 
 -   [tensorflow-haskell](https://github.com/tensorflow/haskell)
 
