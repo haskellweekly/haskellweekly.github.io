@@ -3,6 +3,10 @@ title: Issue 26
 published: 2016-10-27
 ---
 
+-   [tensorflow-haskell](https://github.com/tensorflow/haskell)
+
+    > The tensorflow-haskell package provides Haskell bindings to TensorFlow, an open source software library for machine intelligence.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
