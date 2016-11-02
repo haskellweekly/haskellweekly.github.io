@@ -1,9 +1,6 @@
 ---
 title: Issue 7
 published: 2016-06-16
-subscribers: 74
-opens: 70.3
-clicks: 37.8
 ---
 
 -   [The Story of Haskell at IMVU](https://chadaustin.me/2016/06/the-story-of-haskell-at-imvu/)

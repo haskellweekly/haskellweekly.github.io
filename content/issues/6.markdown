@@ -1,9 +1,6 @@
 ---
 title: Issue 6
 published: 2016-06-09
-subscribers: 71
-opens: 76.1
-clicks: 43.7
 ---
 
 -   [A Sticky Stringy Quandary](http://www.stephendiehl.com/posts/strings.html)

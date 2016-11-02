@@ -1,9 +1,6 @@
 ---
 title: Issue 5
 published: 2016-06-02
-subscribers: 61
-opens: 73.8
-clicks: 49.2
 ---
 
 -   [Moving Stackage Nightly to GHC 8.0](https://www.fpcomplete.com/blog/2016/05/moving-stackage-nightly-ghc-8)

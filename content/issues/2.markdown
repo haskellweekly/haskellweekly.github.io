@@ -1,9 +1,6 @@
 ---
 title: Issue 2
 published: 2016-05-12
-subscribers: 31
-opens: 74.2
-clicks: 38.7
 ---
 
 -   [Add files to GitHub releases](http://taylor.fausak.me/2016/05/09/add-files-to-github-releases/)

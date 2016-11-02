@@ -1,9 +1,6 @@
 ---
 title: Issue 22
 published: 2016-09-29
-subscribers: 406
-opens: 64.8
-clicks: 30.3
 ---
 
 -   [Simon Peyton Jones: Respect](https://mail.haskell.org/pipermail/haskell/2016-September/024995.html)

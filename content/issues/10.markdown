@@ -1,9 +1,6 @@
 ---
 title: Issue 10
 published: 2016-07-07
-subscribers: 77
-opens: 76.6
-clicks: 32.5
 ---
 
 -   [Support optionally-exposed modules](https://github.com/sol/hpack/pull/112)

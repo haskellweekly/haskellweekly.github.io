@@ -1,9 +1,6 @@
 ---
 title: Issue 13
 published: 2016-07-28
-subscribers: 85
-opens: 64.7
-clicks: 45.9
 ---
 
 -   [Dependent types in Haskell: Progress Report](https://typesandkinds.wordpress.com/2016/07/24/dependent-types-in-haskell-progress-report/)

@@ -1,9 +1,6 @@
 ---
 title: Issue 21
 published: 2016-09-22
-subscribers: 403
-opens: 63.9
-clicks: 24.9
 ---
 
 -   [Stack 1.2](https://docs.haskellstack.org/en/stable/ChangeLog/#120)

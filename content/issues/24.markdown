@@ -1,9 +1,6 @@
 ---
 title: Issue 24
 published: 2016-10-13
-subscribers: 413
-opens: 60.9
-clicks: 33.3
 ---
 
 -   [Try Backpack: `ghc --backpack`](http://blog.ezyang.com/2016/10/try-backpack-ghc-backpack/)

@@ -1,9 +1,6 @@
 ---
 title: Issue 15
 published: 2016-08-11
-subscribers: 90
-opens: 62.2
-clicks: 35.6
 ---
 
 -   [Backpack](https://github.com/ezyang/ghc-proposals/blob/9bdb9de01b2853298efa9b154f7af94db8bbc215/proposals/0000-backpack.rst)
