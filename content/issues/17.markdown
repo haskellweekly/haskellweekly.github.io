@@ -13,7 +13,7 @@ published: 2016-08-25
 
 -   [Lens and Linear: 2048's logic in 22 lines](http://www.nmattia.com/posts/2016-08-19-lens-linear-2048.html)
 
-    > It is actually a problem that can be solved elegantly in Haskell using a few Isos and Traversals. We’ll use the linear library for representing the data and the lens library for accessing it.
+    > It is actually a problem that can be solved elegantly in Haskell using a few Isos and Traversals. We'll use the linear library for representing the data and the lens library for accessing it.
 
 -   [TechEmpower Benchmarks](https://turingjump.com/blog/tech-empower/)
 
@@ -25,7 +25,7 @@ published: 2016-08-25
 
 -   [Bookkeeper](https://turingjump.com/blog/bookkeeper/)
 
-    > If we keep all of the field-to-type mappings at the type-level representation of a datatype, we can use that to not have to write IsLabel instances manually. As an added bonus, we’ll get anonymous records!
+    > If we keep all of the field-to-type mappings at the type-level representation of a datatype, we can use that to not have to write IsLabel instances manually. As an added bonus, we'll get anonymous records!
 
 -   [Pitfalls in Haskell](http://users.jyu.fi/~sapekiis/haskell-pitfalls/)
 

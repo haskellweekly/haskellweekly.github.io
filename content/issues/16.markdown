@@ -17,7 +17,7 @@ published: 2016-08-18
 
 -   [Climbing the infinite ladder of abstraction](https://lexi-lambda.github.io/blog/2016/08/11/climbing-the-infinite-ladder-of-abstraction/)
 
-    > Every time I climb to the next rung on the ladder of abstraction, those only a couple rungs below me (even if we’re all hundreds of rungs up!) find themselves perplexed.
+    > Every time I climb to the next rung on the ladder of abstraction, those only a couple rungs below me (even if we're all hundreds of rungs up!) find themselves perplexed.
 
 -   [Foundation: an alternative prelude with batteries and no dependencies](https://hackage.haskell.org/package/foundation-0.0.1)
 

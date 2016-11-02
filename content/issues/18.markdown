@@ -9,15 +9,15 @@ published: 2016-09-01
 
 -   [hindent 5: One style to rule them all](http://chrisdone.com/posts/hindent-5)
 
-    > But once the JohanTibell style in hindent was quite stable, I found that I didn’t mind using it while collaborating with people who prefer that style.
+    > But once the JohanTibell style in hindent was quite stable, I found that I didn't mind using it while collaborating with people who prefer that style.
 
 -   [Shareable APIs and more](https://www.spock.li/2016/08/25/shareable-apis.html)
 
-    > If you are already using the same language, I think calling an endpoint from the frontend should rather feel just like a type-safe function call. And that’s what “shareable” API definitions try to solve.
+    > If you are already using the same language, I think calling an endpoint from the frontend should rather feel just like a type-safe function call. And that's what "shareable" API definitions try to solve.
 
 -   [Retrospective: Haskell in Production](https://www.infoq.com/news/2016/08/haskell-production-retrospective)
 
-    > Haskell might be “the closest thing to a secret weapon” when building server-side software, writes Better co-founder Carl Baatz, summarizing their four-year journey using Haskell in production.
+    > Haskell might be "the closest thing to a secret weapon" when building server-side software, writes Better co-founder Carl Baatz, summarizing their four-year journey using Haskell in production.
 
 -   [Announcing containers 0.5.8.1](https://mail.haskell.org/pipermail/haskell-cafe/2016-August/124763.html)
 

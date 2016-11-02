@@ -25,7 +25,7 @@ published: 2016-10-27
     
 -   [Adventures in enumerating balanced brackets](https://byorgey.wordpress.com/2016/10/25/adventures-in-enumerating-balanced-brackets/)
 
-    > I recently solved a problem (using Haskell) that ended up being tougher than I thought, but I learned a lot along the way. Rather than just presenting a solution, I’d like to take you through my thought process, crazy detours and all.
+    > I recently solved a problem (using Haskell) that ended up being tougher than I thought, but I learned a lot along the way. Rather than just presenting a solution, I'd like to take you through my thought process, crazy detours and all.
 
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!

@@ -21,7 +21,7 @@ published: 2016-09-08
 
 -   [Learn You an Elm](http://learnyouanelm.github.io)
 
-    > I decided to write this because Learn You A Haskell is now a common resource for learning functional programming. But, Elm is developing into its own language, and has some significant technical and philosophical differences from Haskell. So, instead of throwing away the great resource that is LYAH, we’ve decided to adapt it.
+    > I decided to write this because Learn You A Haskell is now a common resource for learning functional programming. But, Elm is developing into its own language, and has some significant technical and philosophical differences from Haskell. So, instead of throwing away the great resource that is LYAH, we've decided to adapt it.
 
 -   [Learning Haskell as a Category theorist](https://www.reddit.com/r/haskell/comments/516htg/learning_haskell_as_a_category_theorist/)
 

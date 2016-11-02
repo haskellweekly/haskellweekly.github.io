@@ -17,7 +17,7 @@ published: 2016-09-22
 
 -   [Servant authentication and sessions via cookies](https://www.stackbuilders.com/tutorials/haskell/servant-auth/)
 
-    > Authentication in Servant is perhaps not as easy and powerful as it should be. However, with Servant 0.5 and later it's possible to use the feature called “generalized authentication” to add authentication that is closer to real-world expectations than anything before. In this tutorial we will go through building a small application that uses Servant for serving user-facing content, not an API.
+    > Authentication in Servant is perhaps not as easy and powerful as it should be. However, with Servant 0.5 and later it's possible to use the feature called "generalized authentication" to add authentication that is closer to real-world expectations than anything before. In this tutorial we will go through building a small application that uses Servant for serving user-facing content, not an API.
 
 -   [FitSpec](https://github.com/rudymatela/fitspec/blob/6bf63582828566605396286d2c301bcedb11dca3/README.md)
 

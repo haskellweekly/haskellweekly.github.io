@@ -13,7 +13,7 @@ published: 2016-10-06
 
 -   [Patat and Myanmar travels](https://jaspervdj.be/posts/2016-10-02-patat-myanmar.html)
 
-    > At work, I frequently need to give (internal) presentations and demos using video conferencing. I prefer to do these quick-and-dirty presentations in the terminal. To this end, I wrote patat – Presentations And The ANSI Terminal – because I was not entirely happy with the available solutions.
+    > At work, I frequently need to give (internal) presentations and demos using video conferencing. I prefer to do these quick-and-dirty presentations in the terminal. To this end, I wrote patat (Presentations And The ANSI Terminal) because I was not entirely happy with the available solutions.
 
 -   [wrecker](https://github.com/skedgeme/wrecker/blob/0aacc038931b5c7c45419cc314692ea3334b5bf3/README.md)
 
@@ -37,7 +37,7 @@ published: 2016-10-06
 
 -   [Haskell Internship (Paid. Remote acceptable.)](https://www.vacationlabs.com/haskell-internship/)
 
-    > Before we dive into Haskell head-first, we’re planning to first build a proof-of-concept (POC) webapp. We believe that a lot of questions need to be answered about building a large-scale webapp in Haskell.
+    > Before we dive into Haskell head-first, we're planning to first build a proof-of-concept (POC) webapp. We believe that a lot of questions need to be answered about building a large-scale webapp in Haskell.
 
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
