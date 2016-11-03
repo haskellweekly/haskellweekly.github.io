@@ -10,6 +10,10 @@ published: 2016-11-03
 -   [Powerline-hs](https://github.com/rdnetto/powerline-hs/blob/c6b552f594ae4a96f9e2af9fbc0726371fd005b6/README.md)
 
     > Powerline-hs is a Powerline clone written in Haskell. It is significantly faster than the original implementation, and makes the shell noticeably more responsive.
+    
+-   [Using Haskell to find unused Spring MVC code](https://tech.small-improvements.com/2016/11/01/using-haskell-to-find-unused-spring-mvc-code/)
+
+    > It is actually quite simple to find unused Java code. In essence I'm reading all the `.java` files in a folder, building an AST using `language-java` and then traversing the AST to collect information that can later be used to decide if a file is used or not.
 
 -   [Haskell div mod visualised](http://www.prigrammer.com/?p=321)
 
