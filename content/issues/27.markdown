@@ -3,6 +3,10 @@ title: Issue 27
 published: 2016-11-03
 ---
 
+-   [Call for participation: BayHac 2017 survey](https://mail.haskell.org/pipermail/haskell-cafe/2016-November/125423.html)
+
+    > BayHac is a Haskell hackathon weekend event for the San Francisco Bay Area and Silicon Valley. It will be a weekend of learning, hacking, and connecting with fellow Haskell enthusiasts.
+
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
 Think it could be better?
