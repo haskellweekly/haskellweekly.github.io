@@ -6,6 +6,10 @@ published: 2016-11-10
 -   [Exceptions best practices in Haskell](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
 
     > I consider the safe-exceptions library uncontroversial, simply addressing the reality of exceptions in GHC today. This blog post is the opinionated part: how I recommend you use exceptions in Haskell, and how to structure your code around them.
+    
+-   [Use MySQL safely in Yesod applications](http://www.yesodweb.com/blog/2016/11/use-mysql-safely-in-yesod)
+
+    > With the latest version of the mysql library, we now have the machinery needed to use it properly in a concurrent setting. In the past, any multi-threaded use was a little risky, although in practice it seems to have been satisfactory for applications which were not too demanding.
 
 -   [Functional Geekery Episode 72 – Gabriel Gonzalez](https://www.functionalgeekery.com/episode-72-gabriel-gonzalez/)
 
