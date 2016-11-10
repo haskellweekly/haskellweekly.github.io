@@ -26,6 +26,10 @@ published: 2016-11-10
 -   [Functional Geekery Episode 72 – Gabriel Gonzalez](https://www.functionalgeekery.com/episode-72-gabriel-gonzalez/)
 
     > In this episode I talk with Gabriel Gonzalez. We cover numerous topics around Haskell from stumbling blocks for beginners, to co-routines, to shell scripting with Haskell, to equational reasoning, and much, much more.
+    
+-   [Type bombs in Elm](http://blog.jenkster.com/2016/11/type-bombs-in-elm.html)
+
+    > If you want to make anyone on the core Elm team roll their eyes, just pick a feature that Haskell has and say, "Elm should have it too." Typeclasses is the most common way to play the game, but you'll get extra hipster points if you say higher-kinded types.
 
 Did you like this issue?
 Let us know [on Twitter](https://twitter.com/haskellweekly)!
