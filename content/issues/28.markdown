@@ -10,6 +10,10 @@ published: 2016-11-10
 -   [Use MySQL safely in Yesod applications](http://www.yesodweb.com/blog/2016/11/use-mysql-safely-in-yesod)
 
     > With the latest version of the mysql library, we now have the machinery needed to use it properly in a concurrent setting. In the past, any multi-threaded use was a little risky, although in practice it seems to have been satisfactory for applications which were not too demanding.
+    
+-   [Designing APIs for extensibility](http://www.snoyman.com/blog/2016/11/designing-apis-for-extensibility)
+
+    > Design your APIs from the outset to be extensible. There are common techniques employed in the Haskell world to make APIs that are resilient to changing feature-sets, and by employing them early on in your design process, you can hopefully avoid the painful choices between a better API and happy users.
 
 -   [Functional Geekery Episode 72 – Gabriel Gonzalez](https://www.functionalgeekery.com/episode-72-gabriel-gonzalez/)
 
