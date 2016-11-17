@@ -22,3 +22,7 @@ published: 2016-11-17
 -   [Haskell's Missing Concurrency Basics](http://www.snoyman.com/blog/2016/11/haskells-missing-concurrency-basics)
 
     > I want to discuss two limitations in standard Haskell libraries around concurrency, and discuss methods of improving the status quo. Overall, Haskell's concurrency story is the best in class versus any other language I'm aware of.
+
+-   [The perfect bug report: Debugging with Elm 0.18](http://elm-lang.org/blog/the-perfect-bug-report)
+
+    > In debug mode, Elm lets you import and export the exact sequence of events from a program. You get all the information necessary to reproduce the session exactly, from mouse clicks to HTTP requests.
