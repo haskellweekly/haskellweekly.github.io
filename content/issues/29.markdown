@@ -10,3 +10,7 @@ published: 2016-11-17
 -   [Eta FAQ](https://github.com/typelead/eta/blob/169d6391f0dcedc7d4e7934f1c6ca215697c79ac/docs/FAQ.md)
 
     > Eta is a dialect of Haskell that aims to bring the benefits of Haskell to the JVM, while supporting the vast majority of GHC extensions so that packages on Hackage can be used with little modification.
+
+-   [Haskell's Missing Concurrency Basics](http://www.snoyman.com/blog/2016/11/haskells-missing-concurrency-basics)
+
+    > I want to discuss two limitations in standard Haskell libraries around concurrency, and discuss methods of improving the status quo. Overall, Haskell's concurrency story is the best in class versus any other language I'm aware of.
