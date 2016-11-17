@@ -2,3 +2,7 @@
 title: Issue 29
 published: 2016-11-17
 ---
+
+-   [Parse and generate Rocket League replays with Haskell](http://taylor.fausak.me/2016/11/15/parse-and-generate-rocket-league-replays-with-haskell/)
+
+    > I am happy to announce version 1.0.0 of Rattletrap, a Rocket League replay parser and generator! It is a command-line utility for converting replays to and from JSON.
