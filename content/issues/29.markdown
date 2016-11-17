@@ -26,3 +26,9 @@ published: 2016-11-17
 -   [The perfect bug report: Debugging with Elm 0.18](http://elm-lang.org/blog/the-perfect-bug-report)
 
     > In debug mode, Elm lets you import and export the exact sequence of events from a program. You get all the information necessary to reproduce the session exactly, from mouse clicks to HTTP requests.
+
+Did you like this issue?
+Let us know [on Twitter](https://twitter.com/haskellweekly)!
+Do you think it could be better?
+Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io).
+Thanks for reading!
