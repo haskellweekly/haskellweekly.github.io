@@ -3,6 +3,10 @@ title: Issue 30
 published: 2016-11-24
 ---
 
+-   [Haskell, can we REST?](https://github.com/eborden/json-msg-pack/blob/6e19702ee0d3bd044602531550cd9ca5845263d1/README.md)
+
+    > What if we have a service that needs to support people and computers? REST allows us to do this. Can Haskell's Message Pack library actually perform as well or better than the venerable Aeson?
+
 -   [Clean alternatives with MaybeT](http://www.parsonsmatt.org/2016/11/18/clean_alternatives_with_maybet.html)
 
     > The Monad instance for Maybe covers a common case: given some sequence of functions which may fail, we want to try them all and if any of them fail then we'll short circuit it all. However, that's not the only case. Very often, you'll want to take the first thing that succeeds, rather than failing unless everything works.
