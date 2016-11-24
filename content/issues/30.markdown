@@ -3,6 +3,10 @@ title: 🦃 Issue 30
 published: 2016-11-24
 ---
 
+-   [The Haskell.org Website Working Group (HWWG)](https://neilmitchell.blogspot.com/2016/11/the-haskellorg-website-working-group.html)
+
+    > The goal of the Haskell Website Working Group is to make sure the Haskell website caters to the needs of Haskell programmers, particularly beginners. In doing so we hope to either combine or differentiate haskell.org and haskell-lang.org, and give people clear recommendations of what "downloading Haskell" means.
+
 -   [Haskell, can we REST?](https://github.com/eborden/json-msg-pack/blob/6e19702ee0d3bd044602531550cd9ca5845263d1/README.md)
 
     > What if we have a service that needs to support people and computers? REST allows us to do this. Can Haskell's Message Pack library actually perform as well or better than the venerable Aeson?
