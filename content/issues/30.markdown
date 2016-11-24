@@ -1,5 +1,5 @@
 ---
-title: Issue 30
+title: 🦃 Issue 30
 published: 2016-11-24
 ---
 
