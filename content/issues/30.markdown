@@ -11,9 +11,9 @@ published: 2016-11-24
 
     > What if we have a service that needs to support people and computers? REST allows us to do this. Can Haskell's Message Pack library actually perform as well or better than the venerable Aeson?
 
--   [Mastering time-to-market with Haskell](https://www.fpcomplete.com/blog/2016/11/mastering-time-to-market-haskell)
+-   [Comparative concurrency with Haskell](https://www.fpcomplete.com/blog/2016/11/comparative-concurrency-with-haskell)
 
-    > For bringing your product to market, there isn't just one metric for success. That depends on your business needs. Haskell is the pure functional programming language that brings tangible benefits over its competitors for a variety of TTM priorities.
+    > We'll start with approaches very similar to other languages like Go and Rust, and then dive into techniques like Software Transactional Memory which provide a much improved concurrency experience for more advanced workflows. Finally we'll dive into the async library, which provides some very high-level functions for writing concurrent code in a robust manner.
 
 -   [Clean alternatives with MaybeT](http://www.parsonsmatt.org/2016/11/18/clean_alternatives_with_maybet.html)
 
