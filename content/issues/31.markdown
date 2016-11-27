@@ -3,6 +3,10 @@ title: Issue 31
 published: 2016-12-01
 ---
 
+-   [GHC 8.0.2 release candidate 1](https://mail.haskell.org/pipermail/glasgow-haskell-users/2016-November/026410.html)
+
+    > The GHC team is happy to (finally!) announce the first candiate of the 8.0.2 release of the Glasgow Haskell Compiler. This is the first of what will hopefully be only two release candidates leading up the final 8.0.2 release.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
