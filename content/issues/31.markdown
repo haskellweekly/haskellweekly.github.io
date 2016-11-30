@@ -7,6 +7,10 @@ published: 2016-12-01
 
     > The GHC team is happy to (finally!) announce the first candiate of the 8.0.2 release of the Glasgow Haskell Compiler. This is the first of what will hopefully be only two release candidates leading up the final 8.0.2 release.
 
+-   [GHC optimization and fusion](https://www.stackbuilders.com/tutorials/haskell/ghc-optimization-and-fusion/)
+
+    > The tutorial walks through the details of using GHC pragmas such as `INLINE`, `SPECIALIZE`, and `RULES` to improve the performance of your Haskell programs. This tutorial is an attempt to show all important optimization "know-how" details in one place with practical examples benchmarked to demonstrate their effects.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
