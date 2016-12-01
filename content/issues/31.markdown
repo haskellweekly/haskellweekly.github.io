@@ -23,6 +23,10 @@ published: 2016-12-01
 
     > Welcome to Write You a Scheme, Version 2.0. You may be familiar with the original Write You a Scheme in 48 hours by Jonathan Tang, and this is a much needed upgraded version.
 
+-   [Haskell documentation, 2016 update](http://www.snoyman.com/blog/2016/11/haskell-documentation-2016-update)
+
+    > I've blogged, Tweeted, and conversed about Haskell documentation quite a bit in the past. Following up on tooling issues, all available evidence tells me that improving the situation for documentation in Haskell is the next obstacle we need to knock down.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
