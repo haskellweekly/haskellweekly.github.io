@@ -11,6 +11,10 @@ published: 2016-12-01
 
     > The tutorial walks through the details of using GHC pragmas such as `INLINE`, `SPECIALIZE`, and `RULES` to improve the performance of your Haskell programs. This tutorial is an attempt to show all important optimization "know-how" details in one place with practical examples benchmarked to demonstrate their effects.
 
+-   [Literate README](https://github.com/silky/literate-readme/blob/98f6b691195cc7c3b7613b07f74970e4168deba1/README.md#literate-readme)
+
+    > The README that builds itself! README files used to be able to lie. Now they can't! Woo!
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
