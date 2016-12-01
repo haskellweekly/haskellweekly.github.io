@@ -19,6 +19,10 @@ published: 2016-12-01
 
     > I think it's time for a little blog post summarizing progress of the Megaparsec project in the second half of 2016. There are quite a few new things I have never announced and I fear that from the changelog alone it isn’t obvious how useful they are.
 
+-   [Write you a Scheme, version 2.0](https://wespiser.com/writings/wyas/home.html)
+
+    > Welcome to Write You a Scheme, Version 2.0. You may be familiar with the original Write You a Scheme in 48 hours by Jonathan Tang, and this is a much needed upgraded version.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
