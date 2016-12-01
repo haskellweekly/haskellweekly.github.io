@@ -15,6 +15,10 @@ published: 2016-12-01
 
     > The README that builds itself! README files used to be able to lie. Now they can't! Woo!
 
+-   [Latest additions to Megaparsec](https://mrkkrp.github.io/posts/latest-additions-to-megaparsec.html)
+
+    > I think it's time for a little blog post summarizing progress of the Megaparsec project in the second half of 2016. There are quite a few new things I have never announced and I fear that from the changelog alone it isn’t obvious how useful they are.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
