@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import qualified Hakyll as H
+import qualified Hakyll as H hiding (relativizeUrls)
+import qualified RelativizeUrls as H
 
 
 main :: IO ()
