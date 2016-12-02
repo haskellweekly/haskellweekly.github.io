@@ -9,7 +9,8 @@ executables:
     - -rtsopts
     - -threaded
     - -with-rtsopts=-N
-    main: Main.hs
+    main: HaskellWeekly.hs
+    source-dirs: executables
 extra-source-files:
 - content/**/*
 - README.markdown
