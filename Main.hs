@@ -25,6 +25,7 @@ configuration = do
 rules :: H.Rules ()
 rules = do
     templateRules
+    imageRules
     styleRules
     issueRules
     feedRules
@@ -35,6 +36,13 @@ templateRules :: H.Rules ()
 templateRules = do
     H.match "templates/*" (do
         H.compile H.templateBodyCompiler)
+
+
+imageRules :: H.Rules ()
+imageRules = do
+    H.match "images/*" (do
+        H.route H.idRoute
+        H.compile H.getResourceLBS)
 
 
 styleRules :: H.Rules ()
