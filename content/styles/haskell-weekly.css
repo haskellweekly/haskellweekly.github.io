@@ -4,3 +4,35 @@ body {
   max-width: 40em;
   padding: 0 0.75em;
 }
+
+.logo {
+  display: block;
+  height: 6em;
+  margin: 0 auto;
+  width: auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background: transparent;
+  border: thin solid #babdb6;
+  font: inherit;
+  display: block;
+  line-height: 3em;
+}
+
+.email {
+  border-right: none;
+  padding: 0 0.25em;
+}
+
+.subscribe {
+  background: #5c3566;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0 0.75em;
+}
