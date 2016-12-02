@@ -5,6 +5,7 @@ executables:
     dependencies:
     - base
     - hakyll
+    - tagsoup
     ghc-options:
     - -rtsopts
     - -threaded
