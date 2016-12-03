@@ -1,7 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import qualified Hakyll as H hiding (relativizeUrls)
-import qualified RelativizeUrls as H
+import qualified Hakyll as H
 import qualified Text.HTML.TagSoup as TS
 
 
