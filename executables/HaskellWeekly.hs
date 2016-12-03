@@ -2,6 +2,7 @@
 
 import qualified Hakyll as H hiding (relativizeUrls)
 import qualified RelativizeUrls as H
+import qualified Text.HTML.TagSoup as TS
 
 
 main :: IO ()
@@ -72,7 +73,15 @@ issueContext = do
 defaultContext :: H.Context String
 defaultContext = do
     mconcat
-        [ H.field "summary" (\_ -> pure "TODO 1")
+        [ H.field "summary" (\item -> do
+            let body = H.itemBody item
+            let tags = TS.parseTags body
+            let extractText tag = case tag of
+                    TS.TagText x -> x
+                    _ -> ""
+            let text = map extractText tags
+            let summary = unwords (take 27 (words (unwords text)))
+            pure summary)
         , H.defaultContext
         ]
 
