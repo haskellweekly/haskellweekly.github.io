@@ -3,6 +3,10 @@ title: Issue 32
 published: 2016-12-08
 ---
 
+-   [Golang's real-time GC in theory and practice](https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
+
+    > The system we have been building is a pub/sub message bus with an in-memory store of published messages. This version in Go is a rewrite of our first implementation in Haskell. We stopped work on our Haskell version in May, after discovering fundamental latency problems with GHC's garbage collector.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
