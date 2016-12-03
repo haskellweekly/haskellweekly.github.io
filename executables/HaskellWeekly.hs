@@ -1,10 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Main
-    ( main
-    ) where
-
-import qualified Hakyll as H
+import qualified Hakyll as H hiding (relativizeUrls)
+import qualified RelativizeUrls as H
+import qualified Text.HTML.TagSoup as TS
 
 
 main :: IO ()
@@ -60,15 +58,31 @@ issueRules = do
             H.pandocCompiler
                 >>= H.saveSnapshot "content"
                 >>= H.loadAndApplyTemplate "templates/issue.html" issueContext
-                >>= H.loadAndApplyTemplate "templates/base.html" H.defaultContext
+                >>= H.loadAndApplyTemplate "templates/base.html" defaultContext
                 >>= H.relativizeUrls))
 
 
 issueContext :: H.Context String
 issueContext = do
     mconcat
-        [ H.defaultContext
-        , H.dateField "date" "%B %-e %Y"
+        [ H.dateField "date" "%B %-e %Y"
+        , defaultContext
+        ]
+
+
+defaultContext :: H.Context String
+defaultContext = do
+    mconcat
+        [ H.field "summary" (\item -> do
+            let body = H.itemBody item
+            let tags = TS.parseTags body
+            let extractText tag = case tag of
+                    TS.TagText x -> x
+                    _ -> ""
+            let text = map extractText tags
+            let summary = unwords (take 27 (words (unwords text)))
+            pure summary)
+        , H.defaultContext
         ]
 
 
@@ -103,8 +117,8 @@ loadIssues maybeLimit = do
 feedContext :: H.Context String
 feedContext = do
     mconcat
-        [ issueContext
-        , H.bodyField "description"
+        [ H.bodyField "description"
+        , issueContext
         ]
 
 
@@ -126,11 +140,11 @@ pageRules = do
         H.compile (do
             issues <- loadIssues Nothing
             let context = mconcat
-                    [ H.defaultContext
-                    , H.listField "issues" issueContext (pure issues)
+                    [ H.listField "issues" issueContext (pure issues)
+                    , defaultContext
                     ]
 
             H.getResourceBody
                 >>= H.applyAsTemplate context
-                >>= H.loadAndApplyTemplate "templates/base.html" H.defaultContext
+                >>= H.loadAndApplyTemplate "templates/base.html" defaultContext
                 >>= H.relativizeUrls))
