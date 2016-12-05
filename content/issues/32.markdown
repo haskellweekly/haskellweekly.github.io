@@ -11,6 +11,10 @@ published: 2016-12-08
 
     > The system we have been building is a pub/sub message bus with an in-memory store of published messages. This version in Go is a rewrite of our first implementation in Haskell. We stopped work on our Haskell version in May, after discovering fundamental latency problems with GHC's garbage collector.
 
+-   [24 days of PureScript](https://github.com/paf31/24-days-of-purescript-2016)
+
+    > Two years ago, I wrote a series of blog posts inspired by Oliver Charles' 24 Days of Hackage, to highlight some of the great work which was being done in the PureScript community. That original series focused on library development, but this year I've decided to write a series of short blog posts to highlight some of the work being done on the compiler itself.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
