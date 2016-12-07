@@ -7,6 +7,10 @@ published: 2016-12-08
 
     > The hamilton library is on Hackage! It was mostly a proof-of-concept toy experiment to simulate motion on Bezier curves, but it became usable enough and accurate enough (to my surprise, admittedly) that I finished up some final touches to make it complete and put it on Hackage as a general-purpose physics simulator.
 
+-   [Scaling ghc --make](http://trofi.github.io/posts/193-scaling-ghc-make.html)
+
+    > The problem is that even on my machine `ghc --make -j3` works better than `ghc --make -j8` and I could not get more than 1.5x speedup. I’d like to see 8x speedup. Another problem is quick performance degradation once you exceed number of CPUs. Running `ghc --make -j20` on my machine makes things seriously worse: compilation time is longer than in non-parallel mode!
+
 -   [Golang's real-time GC in theory and practice](https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
 
     > The system we have been building is a pub/sub message bus with an in-memory store of published messages. This version in Go is a rewrite of our first implementation in Haskell. We stopped work on our Haskell version in May, after discovering fundamental latency problems with GHC's garbage collector.
