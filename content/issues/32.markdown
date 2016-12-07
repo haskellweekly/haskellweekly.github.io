@@ -11,6 +11,10 @@ published: 2016-12-08
 
     > I'm releasing a new configuration language named Dhall with Haskell bindings. Even if you don't use Haskell you might still find this language interesting. This language started out as an experiment to answer common objections to programmable configuration files. Almost all of these objections are, at their root, criticisms of Turing-completeness.
 
+-   [Hyper](https://owickstrom.github.io/hyper/)
+
+    > The goals of this little hack, called Hyper, is to make use of row polymorphism and other tasty type system features in PureScript to enforce correctly stacked middleware in HTTP server applications. All effects of middleware should be reflected in the types to ensure that otherwise common mistakes cannot be made.
+
 -   [Scaling ghc --make](http://trofi.github.io/posts/193-scaling-ghc-make.html)
 
     > The problem is that even on my machine `ghc --make -j3` works better than `ghc --make -j8` and I could not get more than 1.5x speedup. I’d like to see 8x speedup. Another problem is quick performance degradation once you exceed number of CPUs. Running `ghc --make -j20` on my machine makes things seriously worse: compilation time is longer than in non-parallel mode!
