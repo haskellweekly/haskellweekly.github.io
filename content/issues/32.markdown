@@ -7,6 +7,10 @@ published: 2016-12-08
 
     > The hamilton library is on Hackage! It was mostly a proof-of-concept toy experiment to simulate motion on Bezier curves, but it became usable enough and accurate enough (to my surprise, admittedly) that I finished up some final touches to make it complete and put it on Hackage as a general-purpose physics simulator.
 
+-   [Dhall: A non-Turing-complete configuration language](http://www.haskellforall.com/2016/12/dhall-non-turing-complete-configuration.html)
+
+    > I'm releasing a new configuration language named Dhall with Haskell bindings. Even if you don't use Haskell you might still find this language interesting. This language started out as an experiment to answer common objections to programmable configuration files. Almost all of these objections are, at their root, criticisms of Turing-completeness.
+
 -   [Scaling ghc --make](http://trofi.github.io/posts/193-scaling-ghc-make.html)
 
     > The problem is that even on my machine `ghc --make -j3` works better than `ghc --make -j8` and I could not get more than 1.5x speedup. I’d like to see 8x speedup. Another problem is quick performance degradation once you exceed number of CPUs. Running `ghc --make -j20` on my machine makes things seriously worse: compilation time is longer than in non-parallel mode!
