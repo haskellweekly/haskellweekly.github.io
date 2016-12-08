@@ -17,7 +17,7 @@ published: 2016-12-01
 
 -   [Latest additions to Megaparsec](https://mrkkrp.github.io/posts/latest-additions-to-megaparsec.html)
 
-    > I think it's time for a little blog post summarizing progress of the Megaparsec project in the second half of 2016. There are quite a few new things I have never announced and I fear that from the changelog alone it isn’t obvious how useful they are.
+    > I think it's time for a little blog post summarizing progress of the Megaparsec project in the second half of 2016. There are quite a few new things I have never announced and I fear that from the changelog alone it isn't obvious how useful they are.
 
 -   [Write you a Scheme, version 2.0](https://wespiser.com/writings/wyas/home.html)
 

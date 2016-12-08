@@ -17,7 +17,7 @@ published: 2016-12-08
 
 -   [Scaling ghc --make](http://trofi.github.io/posts/193-scaling-ghc-make.html)
 
-    > The problem is that even on my machine `ghc --make -j3` works better than `ghc --make -j8` and I could not get more than 1.5x speedup. I’d like to see 8x speedup. Another problem is quick performance degradation once you exceed number of CPUs. Running `ghc --make -j20` on my machine makes things seriously worse: compilation time is longer than in non-parallel mode!
+    > The problem is that even on my machine `ghc --make -j3` works better than `ghc --make -j8` and I could not get more than 1.5x speedup. I'd like to see 8x speedup. Another problem is quick performance degradation once you exceed number of CPUs. Running `ghc --make -j20` on my machine makes things seriously worse: compilation time is longer than in non-parallel mode!
 
 -   [The HaLVM status report, issue 1](http://uhsure.com/halvm-status1.html)
 

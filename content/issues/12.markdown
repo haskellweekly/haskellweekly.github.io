@@ -13,7 +13,7 @@ published: 2016-07-21
 
 -   [Algebraic patterns - Semigroup](http://philipnilsson.github.io/Badness10k/posts/2016-07-14-functional-patterns-semigroup.html)
 
-    > A Semigroup is a data type together with a method of composition, ⊕, satisfying the associativity rule.
+    > A Semigroup is a data type together with a method of composition satisfying the associativity rule.
 
 -   [Rank 'n Classy Limited Effects](http://www.parsonsmatt.org/2016/07/14/rank_n_classy_limited_effects.html)
 
