@@ -1,0 +1,8 @@
+---
+title: Issue 33
+published: 2016-12-15
+---
+
+Thanks for reading!
+Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
+Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
