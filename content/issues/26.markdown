@@ -3,10 +3,10 @@ title: Issue 26
 published: 2016-10-27
 ---
 
--   [Showcasing Applicative](http://www.joachim-breitner.de/blog/710-Showcasing_Applicative)
+-   [Showcasing Applicative](https://www.joachim-breitner.de/blog/710-Showcasing_Applicative)
 
     > My plan for this week's lecture of the CIS 194 Haskell course at the University of Pennsylvania is to dwell a bit on the concept of Functor, Applicative and Monad, and to highlight the value of the Applicative abstraction.
-    
+
 -   [Deploying a Haskell application to AWS Elastic Beanstalk](https://medium.com/@folsen/deploying-a-haskell-application-to-aws-elastic-beanstalk-24c7c29d3a8f#.bjlf8x1np)
 
     > This article describes a simple approach to set up a continuous integration and continuous deployment pipeline for a sample Haskell application deploying to AWS Elastic Beanstalk.
@@ -22,7 +22,7 @@ published: 2016-10-27
 -   [Beautiful folds are practical, too](https://www.youtube.com/watch?v=6a5Ti0r8Q2s)
 
     > A keynote talk at MuniHac 2016 given by Gabriel Gonzalez. This talk covers an analytics trick that commonly arises in distributed/parallel programming. Haskell permits an elegant, efficient, and general implementation of this trick which also has useful applications outside of high-performance computing.
-    
+
 -   [Adventures in enumerating balanced brackets](https://byorgey.wordpress.com/2016/10/25/adventures-in-enumerating-balanced-brackets/)
 
     > I recently solved a problem (using Haskell) that ended up being tougher than I thought, but I learned a lot along the way. Rather than just presenting a solution, I'd like to take you through my thought process, crazy detours and all.

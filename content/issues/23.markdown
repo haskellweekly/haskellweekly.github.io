@@ -23,7 +23,7 @@ published: 2016-10-06
 
     > Qtah is a set of Qt bindings for Haskell, providing a traditional imperative interface to a mature GUI toolkit.
 
--   [Hackage reliability via mirroring](http://www.well-typed.com/blog/2016/09/hackage-reliability-via-mirroring/)
+-   [Hackage reliability via mirroring](https://www.well-typed.com/blog/2016/09/hackage-reliability-via-mirroring/)
 
     > Hackage now has multiple secure mirrors which can be used fully automatically by clients such as cabal.
 
@@ -31,7 +31,7 @@ published: 2016-10-06
 
     > ICFP 2016 is the 21st ACM SIGPLAN International Conference on Functional Programming. ICFP provides a forum for researchers and developers to hear about the latest work on the design, implementations, principles, and uses of functional programming. The conference covers the entire spectrum of work, from practice to theory, including its peripheries.
 
--   [Full-time Haskell jobs in London, at Barclays](http://neilmitchell.blogspot.co.uk/2016/09/full-time-haskell-jobs-in-london-at.html)
+-   [Full-time Haskell jobs in London, at Barclays](https://neilmitchell.blogspot.co.uk/2016/09/full-time-haskell-jobs-in-london-at.html)
 
     > I work for Barclays, in London, working on a brand new Haskell project. We're looking for nine additional Haskell programmers to come and join the team.
 

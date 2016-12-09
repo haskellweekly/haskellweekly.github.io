@@ -27,6 +27,6 @@ published: 2016-06-30
 
     > They are a programming language abstraction for understanding how programs access the context or environment in which they execute.
 
--   [Practical examples of using Void](http://stackoverflow.com/questions/38014339/practical-examples-of-using-void)
+-   [Practical examples of using Void](https://stackoverflow.com/questions/38014339/practical-examples-of-using-void)
 
     > So I ask you to provide very practical examples, where usage of Void adds clarity, brevity, genericity to the code.

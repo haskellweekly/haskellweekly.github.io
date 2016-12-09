@@ -19,6 +19,6 @@ published: 2016-07-14
 
     > The resulting proposal is strongly inspired by the RFC process in place in the Rust community, the leaders of which have thought quite hard about fostering community growth and participation.
 
--   [Good way to convert between ad-hoc polymorphic functions and parametric polymorphic ones](http://stackoverflow.com/questions/38326420/good-way-to-convert-between-ad-hoc-polymorphic-functions-and-parametric-polymorp)
+-   [Good way to convert between ad-hoc polymorphic functions and parametric polymorphic ones](https://stackoverflow.com/questions/38326420/good-way-to-convert-between-ad-hoc-polymorphic-functions-and-parametric-polymorp)
 
     > What are the general techniques for converting between ad-hoc polymorphic functions and parametric ones?

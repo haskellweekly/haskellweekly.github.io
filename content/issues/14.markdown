@@ -11,7 +11,7 @@ published: 2016-08-04
 
     > What I've found when working with Haskell relative to Ruby is I have a much higher level of confidence in the system even without writing any tests.
 
--   [First-class sums and products](http://nikita-volkov.github.io/first-class-sums-and-products/)
+-   [First-class sums and products](https://nikita-volkov.github.io/first-class-sums-and-products/)
 
     > This library provides first-class multi-arity product- and sum-types and neat type-level utilities for their composition.
 

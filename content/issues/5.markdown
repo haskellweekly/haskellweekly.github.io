@@ -25,6 +25,6 @@ published: 2016-06-02
 
     > I'd like to discuss some of the techniques I've picked up in the hopes that other Haskellers looking to use Haskell in "enterprise" software can at least have a jumping off point.
 
--   [Why is the F# version of this program 6x faster than the Haskell one?](http://stackoverflow.com/questions/37526740/why-is-the-f-version-of-this-program-6x-faster-than-the-haskell-one)
+-   [Why is the F# version of this program 6x faster than the Haskell one?](https://stackoverflow.com/questions/37526740/why-is-the-f-version-of-this-program-6x-faster-than-the-haskell-one)
 
     > I am finding it difficult to figure out how to write efficient Haskell code.
