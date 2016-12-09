@@ -23,7 +23,7 @@ published: 2016-08-18
 
     > This package has the following goals: provide a better and more efficient prelude than base's prelude.
 
--   [The Four Flaws of Haskell](http://neilmitchell.blogspot.com/2016/08/the-four-flaws-of-haskell.html)
+-   [The Four Flaws of Haskell](https://neilmitchell.blogspot.com/2016/08/the-four-flaws-of-haskell.html)
 
     > Last year I made a list of four flaws with Haskell. Most have improved significantly over the last year.
 

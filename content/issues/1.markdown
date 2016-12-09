@@ -23,14 +23,14 @@ published: 2016-05-05
 
     > People have a tendency to over-complicate things, then they reward themselves for solving difficult problems rather than avoiding them.
 
--   [Resolving cyclic module dependencies](http://stackoverflow.com/questions/36978780/haskell-resolving-cyclical-module-dependency)
+-   [Resolving cyclic module dependencies](https://stackoverflow.com/questions/36978780/haskell-resolving-cyclical-module-dependency)
 
     > Use {-# SOURCE #-} pragmas to break the circular dependency.
 
--   [Are side effects everything that cannot be found in a pure function?](http://stackoverflow.com/questions/36969344/are-side-effects-everything-that-cannot-be-found-in-a-pure-function)
+-   [Are side effects everything that cannot be found in a pure function?](https://stackoverflow.com/questions/36969344/are-side-effects-everything-that-cannot-be-found-in-a-pure-function)
 
     > A pure function always returns the same result and does not modify the environment. An impure function can return different results when it is executed repeatedly.
 
--   [ML modules vs. Haskell type classes](http://stackoverflow.com/questions/36927169/ml-modules-vs-haskell-type-classes)
+-   [ML modules vs. Haskell type classes](https://stackoverflow.com/questions/36927169/ml-modules-vs-haskell-type-classes)
 
     > There is no system built into Haskell's type class system which allows you to choose between multiple instances. Instead you have to jump through hoops by wrapping and unwrapping them in skeleton types.

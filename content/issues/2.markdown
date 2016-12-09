@@ -19,7 +19,7 @@ published: 2016-05-12
 
     > Making a native GUI in Haskell doesn't have to be hard, thanks to the thoughtful design of the FLTK bindings. "Static typing is pretty sweet kool aid."
 
--   [GHC Development: OutsideIn](http://www.arcadianvisions.com/blog/2016/ghc-contributing.html)
+-   [GHC Development: OutsideIn](https://www.arcadianvisions.com/blog/2016/ghc-contributing.html)
 
     > An outsider's perspective on contributing to the de facto standard Haskell compiler. "I think GHC is slightly dysfunctional as an open source project"
 
@@ -31,6 +31,6 @@ published: 2016-05-12
 
     > Elm, a Haskell-like language for the web front end, ditches FRP in favor of subscriptions and commands. "Elm does more than ever, but is also simpler than ever"
 
--   [Are monad laws enforced in Haskell?](http://stackoverflow.com/questions/37124471/are-monad-laws-enforced-in-haskell)
+-   [Are monad laws enforced in Haskell?](https://stackoverflow.com/questions/37124471/are-monad-laws-enforced-in-haskell)
 
     > Does the compiled actually check the laws listed in type class documentation? "The monad laws are not enforced by the language."

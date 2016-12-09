@@ -11,11 +11,11 @@ published: 2016-09-29
 
     > The result is a sequel to my original post, which consists of a newly-minted, tricked-out recommendation for architecting modern functional programs, along with new ways of thinking about the structure of this architecture.
 
--   [Sharing, memory leaks, and Conduit and friends](http://www.well-typed.com/blog/2016/09/sharing-conduit/)
+-   [Sharing, memory leaks, and Conduit and friends](https://www.well-typed.com/blog/2016/09/sharing-conduit/)
 
     > Sharing conduit values leads to memory leaks. Make sure to disable the full laziness optimization in the module with your top-level calls to `runConduit` or (`$$`). Similar considerations apply to other streaming libraries and indeed any Haskell code that uses lazy data structures to drive computation.
 
--   [Lambdaman shirt, supporting Bootstrap](http://wadler.blogspot.com/2016/09/lambdaman-supporting-bootstrap.html)
+-   [Lambdaman shirt, supporting Bootstrap](https://wadler.blogspot.com/2016/09/lambdaman-supporting-bootstrap.html)
 
     > After watching talks or videos of Propositions as Types, folk ask me how they can get their own Lambdaman t-shirt. CustomInk has agreed to print the design as a Booster. Sign up now, order will be printed on October 15. Any profits go to Bootstrap, an organisation run by Shriram Krishnamurthi, Matthias Felleisen, and the PLT group that teaches functional programming to middle and high school students.
 

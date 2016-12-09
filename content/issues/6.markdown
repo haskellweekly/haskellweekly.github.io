@@ -7,7 +7,7 @@ published: 2016-06-09
 
     > This is not only a bad representation, it's quite possibly the least efficient (non-contrived) representation of text data possible and has horrible performance in both time and space.
 
--   [Intero for Emacs](http://commercialhaskell.github.io/intero/)
+-   [Intero for Emacs](https://commercialhaskell.github.io/intero/)
 
     > Complete interactive development program for Haskell.
 
@@ -27,6 +27,6 @@ published: 2016-06-09
 
     > It creates a proliferation of Typeable constraints.
 
--   [Isn't it redundant for Control.Lens.Setter to wrap types in functors?](http://stackoverflow.com/questions/37666781/isnt-it-redundant-for-control-lens-setter-to-wrap-types-in-functors)
+-   [Isn't it redundant for Control.Lens.Setter to wrap types in functors?](https://stackoverflow.com/questions/37666781/isnt-it-redundant-for-control-lens-setter-to-wrap-types-in-functors)
 
     > Since the same effect can be achieved in a simpler manner, why Control.Lens wraps things in functors?

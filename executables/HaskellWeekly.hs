@@ -127,7 +127,7 @@ feedConfiguration = do
         { H.feedAuthorEmail = "info@haskellweekly.news"
         , H.feedAuthorName = "Haskell Weekly"
         , H.feedDescription = "A weekly Haskell newsletter."
-        , H.feedRoot = "http://haskellweekly.news"
+        , H.feedRoot = "https://haskellweekly.news"
         , H.feedTitle = "Haskell Weekly"
         }
 

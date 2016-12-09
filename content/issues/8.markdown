@@ -11,7 +11,7 @@ published: 2016-06-23
 
     > Catch the synchronous ones and recover, never recover from asynchronous exceptions.
 
--   [Token authentication with Servant](http://jerrington.me/posts/2016-06-18-token-authentication-with-servant.html)
+-   [Token authentication with Servant](https://jerrington.me/posts/2016-06-18-token-authentication-with-servant.html)
 
     > It's precisely because HasServer is a type class with an associated type that we can extend it without needing to modify the servant-server library itself.
 
@@ -23,10 +23,10 @@ published: 2016-06-23
 
     > I tried this in Haskell and it's got the same problems as JavaScript: [] == "".
 
--   [Best practices for distributing a Haskell application and updating it](http://stackoverflow.com/questions/37874974/best-practices-for-distributing-a-haskell-application-and-updating-it)
+-   [Best practices for distributing a Haskell application and updating it](https://stackoverflow.com/questions/37874974/best-practices-for-distributing-a-haskell-application-and-updating-it)
 
     > I want the executable to be easy to install and upgrade, even for non-Haskellers.
 
--   [Why did making Haskell lazy have an impact on performance?](http://stackoverflow.com/questions/37914428/why-did-making-haskell-lazy-have-an-impact-on-performance)
+-   [Why did making Haskell lazy have an impact on performance?](https://stackoverflow.com/questions/37914428/why-did-making-haskell-lazy-have-an-impact-on-performance)
 
     > Simon Peyton Jones says that making Haskell Lazy helped them with resource-constraints on the machines they had at the time.

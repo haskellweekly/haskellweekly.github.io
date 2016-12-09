@@ -13,5 +13,5 @@ with [Stack][]:
 
 [Build badge]: https://travis-ci.org/haskellweekly/haskellweekly.github.io.svg?branch=hakyll
 [build]: https://travis-ci.org/haskellweekly/haskellweekly.github.io
-[haskellweekly.news]: http://haskellweekly.news
+[haskellweekly.news]: https://haskellweekly.news
 [Stack]: https://docs.haskellstack.org/en/stable/README/

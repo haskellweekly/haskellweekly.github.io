@@ -23,14 +23,14 @@ published: 2016-05-19
 
     > While removing unused imports is a nice thing to do, their presence does not actually indicate any potential issues with our code.
 
--   [Reason](http://facebook.github.io/reason/)
+-   [Reason](https://facebook.github.io/reason/)
 
     > Reason is a new interface to OCaml
 
--   [When to evaluate strictly in Haskell?](http://stackoverflow.com/questions/37249546/when-to-evaluate-strictly-in-haskell)
+-   [When to evaluate strictly in Haskell?](https://stackoverflow.com/questions/37249546/when-to-evaluate-strictly-in-haskell)
 
     > Is there some way to detect when lazy evaluation will get in the way of performance?
 
--   [Who invented proxy passing and when?](http://stackoverflow.com/questions/37261593/who-invented-proxy-passing-and-when)
+-   [Who invented proxy passing and when?](https://stackoverflow.com/questions/37261593/who-invented-proxy-passing-and-when)
 
     > Then someone figured out the proxy idiom, and everything changed.

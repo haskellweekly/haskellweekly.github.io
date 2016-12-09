@@ -7,7 +7,7 @@ published: 2016-07-28
 
     > When can we expect dependent types in GHC? The short answer: GHC 8.4 (2018) at the very earliest.
 
--   [Haskell documentation on Stack Overflow](http://stackoverflow.com/documentation/haskell/topics)
+-   [Haskell documentation on Stack Overflow](https://stackoverflow.com/documentation/haskell/topics)
 
     > Together, we can do for Documentation what we did for Q&A.
 
@@ -15,7 +15,7 @@ published: 2016-07-28
 
     > Allow a systematic way for community members to report security holes and major bugs in a specific version of a package.
 
--   [Algebraic patterns - Monoid](http://philipnilsson.github.io/Badness10k/posts/2016-07-21-functional-patterns-monoid.html)
+-   [Algebraic patterns - Monoid](https://philipnilsson.github.io/Badness10k/posts/2016-07-21-functional-patterns-monoid.html)
 
     > The monoid pattern models the many structures that are semigroups and also have identity elements.
 
@@ -27,6 +27,6 @@ published: 2016-07-28
 
     > A 2D game engine written in and for Haskell.
 
--   [How is Data.Void.absurd different from undefined?](http://stackoverflow.com/questions/38556531/how-is-data-void-absurd-different-from-⊥)
+-   [How is Data.Void.absurd different from undefined?](https://stackoverflow.com/questions/38556531/how-is-data-void-absurd-different-from-⊥)
 
     > Thankfully, it doesn't actually matter in the end, because the whole old definition is a bit of a silly exercise.
