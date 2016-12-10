@@ -19,40 +19,35 @@ configuration =
 
 rules :: H.Rules ()
 rules = do
-  templateRules
-  imageRules
-  styleRules
-  issueRules
-  feedRules
-  pageRules
+  H.match "templates/*" templateRules
+  H.match "images/*" imageRules
+  H.match "styles/*" styleRules
+  H.match "issues/*" issueRules
+  H.create ["haskell-weekly.atom"] (feedRules H.renderAtom)
+  H.create ["haskell-weekly.rss"] (feedRules H.renderRss)
+  H.match "pages/*" pageRules
 
 templateRules :: H.Rules ()
-templateRules = H.match "templates/*" (H.compile H.templateBodyCompiler)
+templateRules = H.compile H.templateBodyCompiler
 
 imageRules :: H.Rules ()
-imageRules =
-  H.match
-    "images/*"
-    (do H.route H.idRoute
-        H.compile H.getResourceLBS)
+imageRules = do
+  H.route H.idRoute
+  H.compile H.getResourceLBS
 
 styleRules :: H.Rules ()
-styleRules =
-  H.match
-    "styles/*"
-    (do H.route H.idRoute
-        H.compile H.compressCssCompiler)
+styleRules = do
+  H.route H.idRoute
+  H.compile H.compressCssCompiler
 
 issueRules :: H.Rules ()
-issueRules =
-  H.match
-    "issues/*"
-    (do H.route (H.setExtension ".html")
-        H.compile
-          (H.pandocCompiler >>= H.saveSnapshot "content" >>=
-           H.loadAndApplyTemplate "templates/issue.html" issueContext >>=
-           H.loadAndApplyTemplate "templates/base.html" defaultContext >>=
-           H.relativizeUrls))
+issueRules = do
+  H.route (H.setExtension ".html")
+  H.compile
+    (H.pandocCompiler >>= H.saveSnapshot "content" >>=
+     H.loadAndApplyTemplate "templates/issue.html" issueContext >>=
+     H.loadAndApplyTemplate "templates/base.html" defaultContext >>=
+     H.relativizeUrls)
 
 issueContext :: H.Context String
 issueContext = mconcat [H.dateField "date" "%B %-e %Y", defaultContext]
@@ -75,21 +70,15 @@ defaultContext =
     , H.defaultContext
     ]
 
-feedRules :: H.Rules ()
-feedRules = do
+feedRules
+  :: (H.FeedConfiguration -> H.Context String -> [H.Item String] -> H.Compiler (H.Item String))
+  -> H.Rules ()
+feedRules render = do
   let limit = Just 8
-  H.create
-    ["haskell-weekly.atom"]
-    (do H.route H.idRoute
-        H.compile
-          (do issues <- loadIssues limit
-              H.renderAtom feedConfiguration feedContext issues))
-  H.create
-    ["haskell-weekly.rss"]
-    (do H.route H.idRoute
-        H.compile
-          (do issues <- loadIssues limit
-              H.renderRss feedConfiguration feedContext issues))
+  H.route H.idRoute
+  H.compile
+    (do issues <- loadIssues limit
+        render feedConfiguration feedContext issues)
 
 loadIssues :: Maybe Int -> H.Compiler [H.Item String]
 loadIssues maybeLimit = do
@@ -115,17 +104,15 @@ feedConfiguration =
   }
 
 pageRules :: H.Rules ()
-pageRules =
-  H.match
-    "pages/*"
-    (do H.route (H.customRoute (drop 6 . H.toFilePath))
-        H.compile
-          (do issues <- loadIssues Nothing
-              let context =
-                    mconcat
-                      [ H.listField "issues" issueContext (pure issues)
-                      , defaultContext
-                      ]
-              H.getResourceBody >>= H.applyAsTemplate context >>=
-                H.loadAndApplyTemplate "templates/base.html" defaultContext >>=
-                H.relativizeUrls))
+pageRules = do
+  H.route (H.customRoute (drop 6 . H.toFilePath))
+  H.compile
+    (do issues <- loadIssues Nothing
+        let context =
+              mconcat
+                [ H.listField "issues" issueContext (pure issues)
+                , defaultContext
+                ]
+        H.getResourceBody >>= H.applyAsTemplate context >>=
+          H.loadAndApplyTemplate "templates/base.html" defaultContext >>=
+          H.relativizeUrls)
