@@ -46,11 +46,16 @@ issueRules = do
   H.compile
     (H.pandocCompiler >>= H.saveSnapshot "content" >>=
      H.loadAndApplyTemplate "templates/issue.html" issueContext >>=
-     H.loadAndApplyTemplate "templates/base.html" defaultContext >>=
+     H.loadAndApplyTemplate "templates/base.html" issueContext >>=
      H.relativizeUrls)
 
 issueContext :: H.Context String
-issueContext = mconcat [H.dateField "date" "%B %-e %Y", defaultContext]
+issueContext =
+  mconcat
+    [ H.boolField "hasTitle" (const True)
+    , H.dateField "date" "%B %-e %Y"
+    , defaultContext
+    ]
 
 defaultContext :: H.Context String
 defaultContext = mconcat [H.field "summary" summarize, H.defaultContext]
@@ -116,5 +121,8 @@ indexRules = do
                 , defaultContext
                 ]
         H.getResourceBody >>= H.applyAsTemplate context >>=
-          H.loadAndApplyTemplate "templates/base.html" defaultContext >>=
+          H.loadAndApplyTemplate "templates/base.html" indexContext >>=
           H.relativizeUrls)
+
+indexContext :: H.Context String
+indexContext = mconcat [H.boolField "hasTitle" (const False), defaultContext]
