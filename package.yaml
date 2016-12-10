@@ -10,7 +10,7 @@ executables:
     - -threaded
     - -with-rtsopts=-N
     main: Main.hs
-    source-dirs: executables
+    source-dirs: source/executables
 extra-source-files:
 - content/**/*
 - README.markdown
@@ -21,7 +21,7 @@ library:
   - base
   - hakyll
   - tagsoup
-  source-dirs: library
+  source-dirs: source/library
 license: MIT
 license-file: LICENSE.markdown
 maintainer: Taylor Fausak
