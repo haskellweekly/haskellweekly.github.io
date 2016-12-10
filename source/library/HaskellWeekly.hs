@@ -7,12 +7,12 @@ import qualified Text.HTML.TagSoup as TS
 
 
 main :: IO ()
-main = do
+main =
     H.hakyllWith configuration rules
 
 
 configuration :: H.Configuration
-configuration = do
+configuration =
     H.defaultConfiguration
         { H.destinationDirectory = "_hakyll/site"
         , H.providerDirectory = "content"
@@ -32,30 +32,30 @@ rules = do
 
 
 templateRules :: H.Rules ()
-templateRules = do
-    H.match "templates/*" (do
+templateRules =
+    H.match "templates/*" (
         H.compile H.templateBodyCompiler)
 
 
 imageRules :: H.Rules ()
-imageRules = do
+imageRules =
     H.match "images/*" (do
         H.route H.idRoute
         H.compile H.getResourceLBS)
 
 
 styleRules :: H.Rules ()
-styleRules = do
+styleRules =
     H.match "styles/*" (do
         H.route H.idRoute
         H.compile H.compressCssCompiler)
 
 
 issueRules :: H.Rules ()
-issueRules = do
+issueRules =
     H.match "issues/*" (do
         H.route (H.setExtension ".html")
-        H.compile (do
+        H.compile (
             H.pandocCompiler
                 >>= H.saveSnapshot "content"
                 >>= H.loadAndApplyTemplate "templates/issue.html" issueContext
@@ -64,7 +64,7 @@ issueRules = do
 
 
 issueContext :: H.Context String
-issueContext = do
+issueContext =
     mconcat
         [ H.dateField "date" "%B %-e %Y"
         , defaultContext
@@ -72,7 +72,7 @@ issueContext = do
 
 
 defaultContext :: H.Context String
-defaultContext = do
+defaultContext =
     mconcat
         [ H.field "summary" (\item -> do
             let body = H.itemBody item
@@ -116,7 +116,7 @@ loadIssues maybeLimit = do
 
 
 feedContext :: H.Context String
-feedContext = do
+feedContext =
     mconcat
         [ H.bodyField "description"
         , issueContext
@@ -124,7 +124,7 @@ feedContext = do
 
 
 feedConfiguration :: H.FeedConfiguration
-feedConfiguration = do
+feedConfiguration =
     H.FeedConfiguration
         { H.feedAuthorEmail = "info@haskellweekly.news"
         , H.feedAuthorName = "Haskell Weekly"
@@ -135,7 +135,7 @@ feedConfiguration = do
 
 
 pageRules :: H.Rules ()
-pageRules = do
+pageRules =
     H.match "pages/*" (do
         H.route (H.customRoute (drop 6 . H.toFilePath))
         H.compile (do
