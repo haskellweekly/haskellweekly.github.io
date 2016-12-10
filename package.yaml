@@ -4,19 +4,24 @@ executables:
   haskell-weekly:
     dependencies:
     - base
-    - hakyll
-    - tagsoup
+    - haskell-weekly
     ghc-options:
     - -rtsopts
     - -threaded
     - -with-rtsopts=-N
-    main: HaskellWeekly.hs
+    main: Main.hs
     source-dirs: executables
 extra-source-files:
 - content/**/*
 - README.markdown
 ghc-options: -Wall
 github: haskellweekly/haskellweekly.github.io
+library:
+  dependencies:
+  - base
+  - hakyll
+  - tagsoup
+  source-dirs: library
 license: MIT
 license-file: LICENSE.markdown
 maintainer: Taylor Fausak

@@ -1,5 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+module HaskellWeekly where
+
 import qualified Hakyll as H
 import qualified Text.HTML.TagSoup as TS
 
