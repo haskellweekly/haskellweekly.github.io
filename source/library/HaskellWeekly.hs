@@ -25,7 +25,7 @@ rules = do
   H.match "issues/*" issueRules
   H.create ["haskell-weekly.atom"] (feedRules H.renderAtom)
   H.create ["haskell-weekly.rss"] (feedRules H.renderRss)
-  H.match "pages/*" pageRules
+  H.match "pages/index.html" indexRules
 
 templateRules :: H.Rules ()
 templateRules = H.compile H.templateBodyCompiler
@@ -105,9 +105,9 @@ feedConfiguration =
   , H.feedTitle = "Haskell Weekly"
   }
 
-pageRules :: H.Rules ()
-pageRules = do
-  H.route (H.customRoute (drop 6 . H.toFilePath))
+indexRules :: H.Rules ()
+indexRules = do
+  H.route (H.constRoute "index.html")
   H.compile
     (do issues <- loadIssues Nothing
         let context =
