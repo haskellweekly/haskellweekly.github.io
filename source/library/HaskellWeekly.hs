@@ -53,22 +53,24 @@ issueContext :: H.Context String
 issueContext = mconcat [H.dateField "date" "%B %-e %Y", defaultContext]
 
 defaultContext :: H.Context String
-defaultContext =
-  mconcat
-    [ H.field
-        "summary"
-        (\item -> do
-           let body = H.itemBody item
-           let tags = TS.parseTags body
-           let extractText tag =
-                 case tag of
-                   TS.TagText x -> x
-                   _ -> ""
-           let text = map extractText tags
-           let summary = unwords (take 27 (words (unwords text)))
-           pure summary)
-    , H.defaultContext
-    ]
+defaultContext = mconcat [H.field "summary" summarize, H.defaultContext]
+
+summarize :: H.Item String -> H.Compiler String
+summarize item = do
+  let body = H.itemBody item
+  let tags = TS.parseTags body
+  let text = map extractText tags
+  let summary = takeWords 27 (unwords text)
+  pure summary
+
+extractText :: TS.Tag String -> String
+extractText tag =
+  case tag of
+    TS.TagText x -> x
+    _ -> ""
+
+takeWords :: Int -> String -> String
+takeWords n = unwords . take n . words
 
 feedRules
   :: (H.FeedConfiguration -> H.Context String -> [H.Item String] -> H.Compiler (H.Item String))
