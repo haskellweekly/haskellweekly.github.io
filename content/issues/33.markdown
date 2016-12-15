@@ -19,6 +19,10 @@ published: 2016-12-15
 
     > Implement timer_create and related system calls. This enables GHC support.
 
+-   [Extensible records explained](https://www.schoolofhaskell.com/user/fumieval/extensible-records)
+
+    > extensible is a library for extensible data types. It provides extensible product and sum types parameterized by type-level lists. This tutorial introduces extensible records, an application of the extensible products.
+
 -   [Algebraic blindness](https://github.com/quchen/articles/blob/8c42682fbe71452c25af1b729d5b5391f702d936/algebraic-blindness.md)
 
     > Algebraic data types make data more flexible, but also prone to a form of generalized Boolean Blindness, making code more difficult to maintain. Luckily, refactoring the issues is completely type-safe.
