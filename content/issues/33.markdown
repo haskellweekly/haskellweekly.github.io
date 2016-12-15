@@ -19,6 +19,10 @@ published: 2016-12-15
 
     > Implement timer_create and related system calls. This enables GHC support.
 
+-   [Algebraic blindness](https://github.com/quchen/articles/blob/8c42682fbe71452c25af1b729d5b5391f702d936/algebraic-blindness.md)
+
+    > Algebraic data types make data more flexible, but also prone to a form of generalized Boolean Blindness, making code more difficult to maintain. Luckily, refactoring the issues is completely type-safe.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
