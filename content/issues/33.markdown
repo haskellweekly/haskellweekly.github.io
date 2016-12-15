@@ -11,6 +11,10 @@ published: 2016-12-15
 
     This release of Stack features 3 major changes, 3 behavior changes, 28 other enhancements, and 12 bug fixes. 29 people contributed to this release.
 
+-   [Summer of Haskell 2016 wrap-up](https://mail.haskell.org/pipermail/haskell-cafe/2016-December/125702.html)
+
+    > We wanted to let folks know what happened with all our Summer of Haskell projects: Native metaprogramming in Haskell; GHCVM, a JVM backend for GHC; Completing the LLVM backend for Accelerate; Hackage improvements; Derivable Storable and Prim instances; Visual block-based programming language for CodeWorld; Jupyter for GHCJS; and Live profiling and performance monitoring server.
+
 -   [Bash on Ubuntu on Windows, build 14986](https://msdn.microsoft.com/en-us/commandline/wsl/release_notes#build-14986)
 
     > Implement timer_create and related system calls. This enables GHC support.
