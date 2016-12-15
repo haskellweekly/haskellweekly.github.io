@@ -23,6 +23,10 @@ published: 2016-12-15
 
     > extensible is a library for extensible data types. It provides extensible product and sum types parameterized by type-level lists. This tutorial introduces extensible records, an application of the extensible products.
 
+-   [Strelka](https://github.com/nikita-volkov/strelka/blob/b298fe63bf696531c8e34213b361d0df0816d9f0/README.md)
+
+    > Haskell is famous for being best at parsing things. It's all due to its great abstractions like Applicative, Alternative and Monad, which let us approach the infinitely complex problems with decomposition. Yet for some reason the area of web-routing hasn't been approached that way much before.
+
 -   [Algebraic blindness](https://github.com/quchen/articles/blob/8c42682fbe71452c25af1b729d5b5391f702d936/algebraic-blindness.md)
 
     > Algebraic data types make data more flexible, but also prone to a form of generalized Boolean Blindness, making code more difficult to maintain. Luckily, refactoring the issues is completely type-safe.
