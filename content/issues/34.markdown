@@ -7,6 +7,10 @@ published: 2016-12-22
 
     > This post covers everything you need to know about developing a Haskell package. I wrote it because I made a few packages and nothing covers the entire process.
 
+-   [Haskell pitfalls](http://lorepub.com/post/2016-12-17-Haskell-Pitfalls)
+
+    > Mark Wotton and Chris Allen were discussing some of the newbie traps in the Haskell ecosystem, particularly in libraries. They’re a recurring topic for us and we finally decided to round some of the more common ones up into a list. Hopefully this prevents some pain in the future.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
