@@ -23,6 +23,10 @@ published: 2016-12-22
 
     > Being passionate about Haskell I decided that the first thing to do was to get it running on my new toy. So here is my guide to get Haskell running on the Raspberry Pi.
 
+-   [Thoughts about Spec-ulation](http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/)
+
+    > My feeling is that a large amount of breakage associated with software change that is just a product of negligence; breakage not for any good reason, breakage that could have been avoided if there was a little more help from tooling.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
