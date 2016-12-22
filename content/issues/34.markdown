@@ -15,6 +15,10 @@ published: 2016-12-22
 
     > This behavior is very clearly documented in System.IO, namely that GHC will follow system-specific rules to determine the appropriate character encoding rules, and open up Handles with that character encoding set. However, I'm also going to claim the following: In exactly 0 cases in my Haskell career have I desired the character encoding guessing functionality of the textual readFile functions.
 
+-   [Setting up a Haskell development environment](http://www.prigrammer.com/?p=332)
+
+    > In this post, I'm going to go through step by step how to set up a Haskell development environment using Stack (a Haskell build tool), GHC, ghc-mod and other wonderful Haskell tools, and integrating all this with the Atom editor.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
