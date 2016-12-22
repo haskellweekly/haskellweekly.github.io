@@ -9,7 +9,7 @@ published: 2016-12-22
 
 -   [Haskell pitfalls](http://lorepub.com/post/2016-12-17-Haskell-Pitfalls)
 
-    > Mark Wotton and Chris Allen were discussing some of the newbie traps in the Haskell ecosystem, particularly in libraries. They’re a recurring topic for us and we finally decided to round some of the more common ones up into a list. Hopefully this prevents some pain in the future.
+    > Mark Wotton and Chris Allen were discussing some of the newbie traps in the Haskell ecosystem, particularly in libraries. They're a recurring topic for us and we finally decided to round some of the more common ones up into a list. Hopefully this prevents some pain in the future.
 
 -   [Beware of `readFile`](http://www.snoyman.com/blog/2016/12/beware-of-readfile)
 
