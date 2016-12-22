@@ -19,6 +19,10 @@ published: 2016-12-22
 
     > In this post, I'm going to go through step by step how to set up a Haskell development environment using Stack (a Haskell build tool), GHC, ghc-mod and other wonderful Haskell tools, and integrating all this with the Atom editor.
 
+-   [Haskell on Raspberry Pi 3](http://allocinit.io/haskell/haskell-on-raspberry-pi-3/)
+
+    > Being passionate about Haskell I decided that the first thing to do was to get it running on my new toy. So here is my guide to get Haskell running on the Raspberry Pi.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
