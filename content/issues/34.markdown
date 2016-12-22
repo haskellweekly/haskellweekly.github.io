@@ -23,6 +23,10 @@ published: 2016-12-22
 
     > Being passionate about Haskell I decided that the first thing to do was to get it running on my new toy. So here is my guide to get Haskell running on the Raspberry Pi.
 
+-   [Control flow with an open sum type](http://hsyl20.fr/home/posts/2016-12-12-control-flow-in-haskell-part-0.html)
+
+    > A typical approach to avoid exceptions is to make functions return values indicating which control path to follow. We see how to define an open sum type that allows us to deal with this issue without any boilerplate code.
+
 -   [Thoughts about Spec-ulation](http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/)
 
     > My feeling is that a large amount of breakage associated with software change that is just a product of negligence; breakage not for any good reason, breakage that could have been avoided if there was a little more help from tooling.
