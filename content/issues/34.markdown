@@ -27,6 +27,10 @@ published: 2016-12-22
 
     > A typical approach to avoid exceptions is to make functions return values indicating which control path to follow. We see how to define an open sum type that allows us to deal with this issue without any boilerplate code.
 
+-   [Servant in Yesod](http://www.parsonsmatt.org/2016/12/18/servant_in_yesod_-_yo_dawg.html)
+
+    > Both Servant and Yesod expose functions to convert them to WAI applications, and both have means of running arbitrary WAI applications.
+
 -   [Thoughts about Spec-ulation](http://blog.ezyang.com/2016/12/thoughts-about-spec-ulation-rich-hickey/)
 
     > My feeling is that a large amount of breakage associated with software change that is just a product of negligence; breakage not for any good reason, breakage that could have been avoided if there was a little more help from tooling.
