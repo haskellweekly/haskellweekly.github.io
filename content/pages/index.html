@@ -20,7 +20,7 @@ $partial("templates/form.html")$
 <ul>
   $for(issues)$
     <li>
-      <a href="$url$">$title$</a> - $date$
+      $isoDate$: <a href="$url$">$title$</a>
     </li>
   $endfor$
 </ul>

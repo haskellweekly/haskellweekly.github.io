@@ -61,6 +61,7 @@ issueContext =
   mconcat
     [ H.boolField "hasTitle" (const True)
     , H.dateField "date" "%B %-e %Y"
+    , H.dateField "isoDate" "%Y-%m-%d"
     , defaultContext
     ]
 
