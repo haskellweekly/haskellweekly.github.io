@@ -7,6 +7,10 @@ published: 2016-12-29
 
     > The GHC team is happy to announce the second candiate of the 8.0.2 release of the Glasgow Haskell Compiler. This is the second and likely final release candidate leading up the 8.0.2 release. If all goes well we should have a final 8.0.2 release out shortly after the new year.
 
+-   [How to write a small, useful command line application in Haskell](https://bollu.github.io/teleport/)
+
+    > We're going to build a command line application called `teleport`, It allows people to add "warp points" to navigate the file system. The warp points support creating new warp points, deleting them, and listing them.
+
 Thanks for reading!
 Let us know [on Twitter](https://twitter.com/haskellweekly) if you liked this issue.
 Open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io) if you think it could be better.
