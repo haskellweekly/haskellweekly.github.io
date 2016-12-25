@@ -11,6 +11,10 @@ published: 2016-12-29
 
     > Well, 2016 ... that just happened. About the only thing I can put in perspective at closing of this year is progress and innovation in Haskell ecosystem. There was a lot inspiring work and progress that pushed the state of the art forward.
 
+-   [Haskell communities and activities report](https://www.haskell.org/communities/11-2016/html/report.html)
+
+    > This is the 31st edition of the Haskell Communities and Activities Report. There are several interesting entries in the report, including updated tutorials and books, new user groups, interesting tools and applications.
+
 -   [How to write a small, useful command line application in Haskell](https://bollu.github.io/teleport/)
 
     > We're going to build a command line application called `teleport`, It allows people to add "warp points" to navigate the file system. The warp points support creating new warp points, deleting them, and listing them.
