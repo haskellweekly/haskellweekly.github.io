@@ -15,6 +15,10 @@ published: 2016-12-29
 
     > This is the 31st edition of the Haskell Communities and Activities Report. There are several interesting entries in the report, including updated tutorials and books, new user groups, interesting tools and applications.
 
+-   [Haskus](http://www.haskus.org/system/)
+
+    > Haskus system is a framework written in Haskell that can be used for system programming. The long-term aim is to provide a full Haskell user-space environment on top of the Linux kernel.
+
 -   [How to write a small, useful command line application in Haskell](https://bollu.github.io/teleport/)
 
     > We're going to build a command line application called `teleport`, It allows people to add "warp points" to navigate the file system. The warp points support creating new warp points, deleting them, and listing them.
