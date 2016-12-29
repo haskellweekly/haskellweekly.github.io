@@ -1,10 +1,9 @@
 module Main
-    ( main
-    ) where
+  ( main
+  ) where
 
 import qualified Distribution.Simple
 
-
 main :: IO ()
 main = do
-    Distribution.Simple.defaultMain
+  Distribution.Simple.defaultMain
