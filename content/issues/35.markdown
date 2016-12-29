@@ -9,7 +9,7 @@ these are the most-clicked links of 2016.
 
 1.  [Why Haskell sucks](https://secure.plaimi.net/~alexander/tmp/pres/2016-05-11-why-haskell-sucks.html)
 2.  [Haskell sucks!](https://dl.dropboxusercontent.com/u/40457956/haskell_sucks.pdf)
-3.  [New haskell-leng.org](https://haskell-lang.org/announcements#haskell-lang-live)
+3.  [New haskell-lang.org](https://haskell-lang.org/announcements#haskell-lang-live)
 4.  [Powerline-hs](https://github.com/rdnetto/powerline-hs/blob/be579f68840c1bb7709d169ea2453a62fafe62d6/README.md)
 5.  [HyperHaskell: the strongly hyped Haskell interpreter](https://mail.haskell.org/pipermail/haskell/2016-October/025010.html)
 6.  [Good way to convert between ad-hoc polymorphic functions and parametric polymorphic ones](http://stackoverflow.com/questions/38326420/good-way-to-convert-between-ad-hoc-polymorphic-functions-and-parametric-polymorp)
