@@ -13,11 +13,10 @@ after_success:
 - git remote add origin "https://$GITHUB_TOKEN@github.com/haskellweekly/haskellweekly.github.io.git"
 - test "$TRAVIS_BRANCH" = 'hakyll' && test "$TRAVIS_PULL_REQUEST" = 'false' && git push --force --quiet origin master
 before_install:
-- mkdir -p ~/.local/bin
-- export PATH="$HOME/.local/bin:$PATH"
-- travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+- sh tools/install-stack.sh
 cache:
   directories:
+  - $HOME/.local/bin
   - $HOME/.stack
 install:
 - stack setup
