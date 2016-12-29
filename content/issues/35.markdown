@@ -23,6 +23,10 @@ published: 2016-12-29
 
     > Pattern synonyms allow us give names to pattern matches. It is a relatively new GHC extension which was first introduced in GHC 7.8 and further enhanced in GHC 8.0. In this post, I will show you an usage of pattern synonyms with a practical example.
 
+-   [Problematic versioning policy](http://taylor.fausak.me/2016/12/28/problematic-versioning-policy/)
+
+    > I think the PVP is a bad policy and the Haskell community should abandon it in favor of SemVer.
+
 Haskell Weekly readers clicked on these links the most in 2016:
 
 1.  [Why Haskell sucks](https://secure.plaimi.net/~alexander/tmp/pres/2016-05-11-why-haskell-sucks.html)
