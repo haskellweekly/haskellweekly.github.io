@@ -33,6 +33,10 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 
     > My colleague Esther proposed the following challenge: given a string, decompose it into elemental symbols from the periodic table (if possible). For example, "Hi Esther" becomes "H I Es Th Er". In general there might be no solutions, one solution, or several.
 
+-   [A tale of backwards compatibility in ASTs](http://blog.ezyang.com/2016/12/a-tale-of-backwards-compatibility-in-asts/)
+
+    > Those that espouse the value of backwards compatibility often claim that backwards compatibility is simply a matter of never removing things. But anyone who has published APIs that involve data structures know that the story is not so simple.
+
 -   [Conflicting module names](http://www.snoyman.com/blog/2017/01/conflicting-module-names)
 
     > Hackage enforces that package names are unique (so that no one else can claim the name `conduit`, for instance), but does nothing to ensure unique module names (so someone else could write a package named `my-conduit` with a module named `Data.Conduit`).
