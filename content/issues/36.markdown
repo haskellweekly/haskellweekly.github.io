@@ -25,6 +25,10 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 
     > You will often see top-level modules like Data.Time that simply re-export modules below them in the hierarchy. Doing this by hand is tedious and error-prone. Autoexporter does this tedious work for you.
 
+-   [FLAC for Haskell](https://github.com/mrkkrp/flac/blob/a406852b51906a8fe19d0ec8c25aa0e95fbc9cc3/README.md#readme)
+
+    > FLAC is awesome and Haskell is awesome, surely there should be a way to achieve an even higher level of awesomeness by coding a safe Haskell API to the fast libFLAC library.
+
 -   [Decomposing a string into its elements](https://www.stephanboyer.com/post/126/decomposing-a-string-into-its-elements)
 
     > My colleague Esther proposed the following challenge: given a string, decompose it into elemental symbols from the periodic table (if possible). For example, "Hi Esther" becomes "H I Es Th Er". In general there might be no solutions, one solution, or several.
