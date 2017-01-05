@@ -41,6 +41,10 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 
     > Hackage enforces that package names are unique (so that no one else can claim the name `conduit`, for instance), but does nothing to ensure unique module names (so someone else could write a package named `my-conduit` with a module named `Data.Conduit`).
 
+-   [Type defaulting in Haskell](https://kseo.github.io/posts/2017-01-04-type-defaulting-in-haskell.html)
+
+    > Type defaulting is introduced to solve the ambiguous type problems caused by type classes. The compiler can't arbitrarily choose a type because the choice of the type affects the program behavior.
+
 -   [Software project maintenance is where Haskell shines](https://www.fpcomplete.com/blog/2016/12/software-project-maintenance-is-where-haskell-shines)
 
     > From our own experience and the literature, we can conclude that maintenance is perhaps the most important part of developing software. In this article we'll explore why Haskell shines in maintenance.
