@@ -9,7 +9,7 @@ This is a weekly summary of what's going on in its community.
 You can subscribe to [the email newsletter](https://news.us10.list-manage.com/subscribe?u=49a6a2e17b12be2c5c4dcb232&id=ffbbbbd930) or [the Atom feed](/haskell-weekly.atom).
 
 Want to contribute to Haskell Weekly?
-Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io).
+Send [HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io).
 
 ## News from the Haskell community
 
@@ -58,4 +58,4 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 For the first time ever, Haskell Weekly is picking a package of the week!
 The package of this week is [Rapid](https://hackage.haskell.org/package/rapid), a helper library for rapid prototyping in GHCi sessions.
 
-Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet to nominate next week's package!
+Send [HaskellWeekly](https://twitter.com/haskellweekly) a tweet to nominate next week's package!
