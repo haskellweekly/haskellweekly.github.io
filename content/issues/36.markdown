@@ -13,6 +13,10 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 
 ## News from the Haskell community
 
+-   [Rascal: a Haskell with more parentheses](https://lexi-lambda.github.io/blog/2017/01/02/rascal-a-haskell-with-more-parentheses/)
+
+    > So, let's assume that we do want Haskell's strong type system and that we also want a powerful metaprogramming model that permits syntactic extensions. What would that look like?
+
 -   [Automatically export Haskell modules](http://taylor.fausak.me/2016/12/30/automatically-export-haskell-modules/)
 
     > You will often see top-level modules like Data.Time that simply re-export modules below them in the hierarchy. Doing this by hand is tedious and error-prone. Autoexporter does this tedious work for you.
