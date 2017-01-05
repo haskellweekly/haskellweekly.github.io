@@ -33,6 +33,10 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 
     > My colleague Esther proposed the following challenge: given a string, decompose it into elemental symbols from the periodic table (if possible). For example, "Hi Esther" becomes "H I Es Th Er". In general there might be no solutions, one solution, or several.
 
+-   [Conflicting module names](http://www.snoyman.com/blog/2017/01/conflicting-module-names)
+
+    > Hackage enforces that package names are unique (so that no one else can claim the name `conduit`, for instance), but does nothing to ensure unique module names (so someone else could write a package named `my-conduit` with a module named `Data.Conduit`).
+
 ## Package of the week
 
 For the first time ever, Haskell Weekly is picking a package of the week!
