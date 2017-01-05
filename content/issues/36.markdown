@@ -21,3 +21,5 @@ Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet or open an issu
 
 For the first time ever, Haskell Weekly is picking a package of the week!
 The package of this week is [Rapid](https://hackage.haskell.org/package/rapid), a helper library for rapid prototyping in GHCi sessions.
+
+Send [@HaskellWeekly](https://twitter.com/haskellweekly) a tweet to nominate next week's package!
