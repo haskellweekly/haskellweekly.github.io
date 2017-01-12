@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The GHC team is happy to at last announce the 8.0.2 release of the Glasgow Haskell Compiler. This is the second release of the 8.0 series and fixes nearly two-hundred bugs. This release is the result of six months of effort by the GHC development community.
 
+-   [Fast Haskell: Competing with C at parsing XML](http://chrisdone.com/posts/fast-haskell-c-parsing-xml)
+
+    > In this post we're going to look at parsing XML in Haskell, how it compares with an efficient C parser, and steps you can take in Haskell to build a fast library from the ground up. We're going to get fairly detailed and get our hands dirty.
+
 ## Package of the week
 
 todo
