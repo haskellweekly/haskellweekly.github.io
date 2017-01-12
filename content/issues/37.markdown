@@ -49,6 +49,8 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## Package of the week
 
-todo
+This week's package of the week is [Bench](https://hackage.haskell.org/package/bench),
+a more powerful alternative to the time command.
+It is a command-line tool to benchmark a command using Criterion.
 
 Send us a message [on Twitter](https://twitter.com/haskellweekly) to nominate next week's package!
