@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > For the most part I look for something that should exist for some deep underlying mathematical reason that doesn't yet exist in code in a reusable form and try to figure out how to bring it about.
 
+-   [Visible type application in GHC 8](https://kseo.github.io//posts/2017-01-08-visible-type-application-ghc8.html)
+
+    > GHC 8.0 introduced a new GHC extension named TypeApplications which allows us to give explicit type arguments to a polymorphic function.
+
 -   [Linearity, uniqueness, and Haskell](http://edsko.net/2017/01/08/linearity-in-haskell/)
 
     > There is a group of people working on a proposal for adding linear types to Haskell. In this blog post I will attempt to put this proposal in some context. I will explain what linearity is and how it relates to its close cousin uniqueness typing, and I will compare the proposal to some other ways of doing things. My hope is that this will make the work more accessible.
