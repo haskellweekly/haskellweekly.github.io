@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > In this post we're going to look at parsing XML in Haskell, how it compares with an efficient C parser, and steps you can take in Haskell to build a fast library from the ground up. We're going to get fairly detailed and get our hands dirty.
 
+-   [An interview with Haskell developer Edward Kmett](https://theinitialcommit.com/2017/01/10/edward-kmett/)
+
+    > For the most part I look for something that should exist for some deep underlying mathematical reason that doesn't yet exist in code in a reusable form and try to figure out how to bring it about.
+
 ## Package of the week
 
 todo
