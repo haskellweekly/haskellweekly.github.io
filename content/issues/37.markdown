@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [GHC 8.0.2 is available!](https://ghc.haskell.org/trac/ghc/blog/ghc-8.0.2-released)
+
+    > The GHC team is happy to at last announce the 8.0.2 release of the Glasgow Haskell Compiler. This is the second release of the 8.0 series and fixes nearly two-hundred bugs. This release is the result of six months of effort by the GHC development community.
 
 ## Package of the week
 
