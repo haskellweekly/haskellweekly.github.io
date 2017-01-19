@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The typical examples you'll find online have deceptively simple code. The examples make it hard to learn how their succinct tests are possible, and how to customize them when things go wrong. This guide puts it all together piece by piece so you can use QuickCheck with confidence.
 
+-   [Monads made difficult](http://www.stephendiehl.com/posts/monads.html)
+
+    > This is a short, fast and analogy-free introduction to Haskell monads derived from a categorical perspective. This assumes you are familiar with Haskell and basic category theory.
+
 -   [Expressive types, not oppressive types](https://literateprogrammer.blogspot.com.au/2017/01/expressive-types-not-oppressive-types.html)
 
     > Uncle Bob looks at advanced type systems and sees them as more oppressive rather than more expressive. Being able to describe whether or not a function can return null is an opportunity, not a constraint.
