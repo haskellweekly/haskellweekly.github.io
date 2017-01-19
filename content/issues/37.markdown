@@ -5,7 +5,7 @@ published: 2017-01-12
 
 Welcome to Haskell Weekly!
 [Haskell](https://haskell-lang.org) is an advanced, purely functional programming language.
-This is a weekly summary of what’s going on in its community.
+This is a weekly summary of what's going on in its community.
 You can subscribe to [the email newsletter](https://news.us10.list-manage.com/subscribe?u=49a6a2e17b12be2c5c4dcb232&id=ffbbbbd930)
 or [the Atom feed](/haskell-weekly.atom).
 
@@ -41,7 +41,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 -   [Nested monadic loops may cause space leaks](https://ro-che.info/articles/2017-01-10-nested-loop-space-leak)
 
-    > These nested loops happen often in server-side programming. About a year ago, when I worked for Signal Vine, this happened to my code: the inner loop was a big streaming computation; the outer loop was something that would restart the inner loop should it fail. So why would such an innocent-looking piece of code consume unbounded amounts of memory? To find out, let’s trace the program execution on the STG level.
+    > These nested loops happen often in server-side programming. About a year ago, when I worked for Signal Vine, this happened to my code: the inner loop was a big streaming computation; the outer loop was something that would restart the inner loop should it fail. So why would such an innocent-looking piece of code consume unbounded amounts of memory? To find out, let's trace the program execution on the STG level.
 
 -   [Linearity, uniqueness, and Haskell](http://edsko.net/2017/01/08/linearity-in-haskell/)
 
