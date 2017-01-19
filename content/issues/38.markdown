@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > My new PL course is now finished, and all the course materials are freely available. Working through all the exercises should be a great option for anyone wishing to learn some basics of programming language design and implementation.
 
+-   [CLaSH 0.7 released: GHC 8 support and more](https://groups.google.com/forum/#!topic/clash-language/vG8GqAyjAa8)
+
+    > Our company has been hired to do FPGA development work, and best of all, we get to use CLaSH. As a consequence, I cannot put as much time into CLaSH development as during my days as a PhD/PostDoc. However, we do now get to use CLaSH in industry! And as part of the contract there is time to find and fix bugs in CLaSH!
+
 -   [Expressive types, not oppressive types](https://literateprogrammer.blogspot.com.au/2017/01/expressive-types-not-oppressive-types.html)
 
     > Uncle Bob looks at advanced type systems and sees them as more oppressive rather than more expressive. Being able to describe whether or not a function can return null is an opportunity, not a constraint.
