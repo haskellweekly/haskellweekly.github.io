@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > There are not many people who have worked on production applications in multiple frontend FP systems, and lived to tell the tale. So here goes, my guide to selecting a functional programming platform for the browser.
 
+-   [The design and use of QuickCheck](https://begriffs.com/posts/2017-01-14-design-use-quickcheck.html)
+
+    > The typical examples you'll find online have deceptively simple code. The examples make it hard to learn how their succinct tests are possible, and how to customize them when things go wrong. This guide puts it all together piece by piece so you can use QuickCheck with confidence.
+
 -   [Expressive types, not oppressive types](https://literateprogrammer.blogspot.com.au/2017/01/expressive-types-not-oppressive-types.html)
 
     > Uncle Bob looks at advanced type systems and sees them as more oppressive rather than more expressive. Being able to describe whether or not a function can return null is an opportunity, not a constraint.
