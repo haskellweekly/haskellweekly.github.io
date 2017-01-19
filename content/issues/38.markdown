@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Our company has been hired to do FPGA development work, and best of all, we get to use CLaSH. As a consequence, I cannot put as much time into CLaSH development as during my days as a PhD/PostDoc. However, we do now get to use CLaSH in industry! And as part of the contract there is time to find and fix bugs in CLaSH!
 
+-   [safe-prelude: a thought experiment](http://www.snoyman.com/blog/2017/01/safe-prelude-a-thought-experiment)
+
+    > This is a thought experiment in a different point in the alternative prelude design space. After my blog post on readFile, I realized I was unhappy with the polymorphic nature of readFile in classy-prelude. Adding that with Haskell Pitfalls I've been itching to try something else.
+
 -   [Selecting a platform: JavaScript vs Elm vs PureScript vs GHCJS vs Scala.js](http://mutanatum.com/posts/2017-01-12-Browser-FP-Head-to-Head.html)
 
     > There are not many people who have worked on production applications in multiple frontend FP systems, and lived to tell the tale. So here goes, my guide to selecting a functional programming platform for the browser.
