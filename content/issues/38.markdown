@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > My new PL course is now finished, and all the course materials are freely available. Working through all the exercises should be a great option for anyone wishing to learn some basics of programming language design and implementation.
 
+-   [Expressive types, not oppressive types](https://literateprogrammer.blogspot.com.au/2017/01/expressive-types-not-oppressive-types.html)
+
+    > Uncle Bob looks at advanced type systems and sees them as more oppressive rather than more expressive. Being able to describe whether or not a function can return null is an opportunity, not a constraint.
+
 -   [LiquidHaskell](https://ucsd-progsys.github.io/liquidhaskell-blog/)
 
     > LiquidHaskell (LH) refines Haskell's types with logical predicates that let you enforce critical properties at compile time.
