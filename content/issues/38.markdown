@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > This is a short, fast and analogy-free introduction to Haskell monads derived from a categorical perspective. This assumes you are familiar with Haskell and basic category theory.
 
+-   [Constraint kinds](https://kseo.github.io//posts/2017-01-13-constraint-kinds.html)
+
+    > In this blog post, I will show some examples of using the ConstraintKinds GHC extension. Classes and contexts were not first-class citizens in Haskell, but the introduction of the Constraint kind has changed this and allows them to be used as parameters of types.
+
 -   [Expressive types, not oppressive types](https://literateprogrammer.blogspot.com.au/2017/01/expressive-types-not-oppressive-types.html)
 
     > Uncle Bob looks at advanced type systems and sees them as more oppressive rather than more expressive. Being able to describe whether or not a function can return null is an opportunity, not a constraint.
