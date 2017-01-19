@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [LiquidHaskell](https://ucsd-progsys.github.io/liquidhaskell-blog/)
+
+    > LiquidHaskell (LH) refines Haskell's types with logical predicates that let you enforce critical properties at compile time.
 
 ## Package of the week
 
