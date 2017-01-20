@@ -19,6 +19,8 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [hint](https://hackage.haskell.org/package/hint),
+a runtime Haskell interpreter.
+It allows you to load and browse Haskell modules, type-check and evaluate strings with Haskell expressions and even coerce them into values.
 
 Send us a message [on Twitter](https://twitter.com/haskellweekly) to nominate next week's package!
