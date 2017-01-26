@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Asynchronous exceptions are a controversial feature of Haskell. You can throw an exception to another thread, at any time. So you have to be ready for an asynchronous exception to fire at any point in your code. Isn't that a scary thought?
 
+-   [Stackage design choices: making Haskell curated package sets](http://www.snoyman.com/blog/2017/01/stackage-design-choices)
+
+    > This post is going to talk about some of the design choices made over the years around the Stackage project, a curated package set for Haskell. While many of these points will be Haskell- and Stackage-specific, I think the ideas would translate well to other languages interested in created curated package sets.
+
 -   [The monad fear](https://e.xtendo.org/monad)
 
     > Just call them "IO action" or "IO type", and explain they are similar to Unix commands, and there will be nothing more to teach. But we call them IO monads and cause this chaos. "How do I deal with a sequence of multiple numbers in Haskell?" "Use List." No one replies with "Use the List monad" unless they're pure evil!
