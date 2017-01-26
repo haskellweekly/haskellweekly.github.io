@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [GHC 8.0.2 on Stackage Nightly. Here's the LTS plan.](https://lwm.github.io/stackage-8.0.2/)
+
+    > GHC 8.0.2 has been released! A big congratulations to everyone who was involved. Accordingly, the Stackage curators teams has been quickly able to cut a new nightly release which supports GHC 8.0.2. Thanks to the efforts of the package authors and Stackage maintainers so far!
+
 -   [Fun with hint](http://kseo.github.io//posts/2017-01-19-fun-with-hint.html)
 
     > GHC allows us to compile and execute Haskell code dynamically through GHC API. The hint library provides a Haskell interpreter built on top of GHC API. It allows us to load and execute Haskell expressions and even coerce them into values.
