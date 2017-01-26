@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > GHC allows us to compile and execute Haskell code dynamically through GHC API. The hint library provides a Haskell interpreter built on top of GHC API. It allows us to load and execute Haskell expressions and even coerce them into values.
 
+-   [Asynchronous exceptions in practice](https://simonmar.github.io/posts/2017-01-24-asynchronous-exceptions.html)
+
+    > Asynchronous exceptions are a controversial feature of Haskell. You can throw an exception to another thread, at any time. So you have to be ready for an asynchronous exception to fire at any point in your code. Isn't that a scary thought?
+
 -   [The monad fear](https://e.xtendo.org/monad)
 
     > Just call them "IO action" or "IO type", and explain they are similar to Unix commands, and there will be nothing more to teach. But we call them IO monads and cause this chaos. "How do I deal with a sequence of multiple numbers in Haskell?" "Use List." No one replies with "Use the List monad" unless they're pure evil!
