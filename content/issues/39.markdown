@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Just call them "IO action" or "IO type", and explain they are similar to Unix commands, and there will be nothing more to teach. But we call them IO monads and cause this chaos. "How do I deal with a sequence of multiple numbers in Haskell?" "Use List." No one replies with "Use the List monad" unless they're pure evil!
 
+-   [If Haskell is so great, why hasn't it taken over the world? And the curious case of Go.](https://pchiusano.github.io/2017-01-20/why-not-haskell.html)
+
+    > The simplest explanation is probably that Haskell is not that much better than, say, Java, for many of the software systems people write today. Why might this be?
+
 ## Package of the week
 
 This week's package of the week is [fltkhs](https://hackage.haskell.org/package/fltkhs),
