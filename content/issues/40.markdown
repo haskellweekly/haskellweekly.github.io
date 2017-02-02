@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > You need at least two things to produce a random number: an initial "seed" value and a pure function that produces a new number from that seed ("RNG"). That's all for a single number. Most programming languages will hide these details from you unless you need them.
 
+-   [Haskell type equality constraints](http://blog.infinitenegativeutility.com/2017/1/haskell-type-equality-constraints)
+
+    > The constraint `a ~ b` in this declaration is a type equality constraint: it means that `a` and `b` must be the same type. One of my coworkers saw this and remarked, more or less, "Why did you write it in that obtuse way? You could have just declared an instance for `C a a`, which means the same thing."
+
 ## Package of the week
 
 todo
