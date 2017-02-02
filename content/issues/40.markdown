@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > It lets you take a GraphQL schema and translate it into a Haskell type that represents the schema. You can then write handlers that accept and return native Haskell types. graphql-api will take care of parsing and validating your user queries, and Haskell's type system will make sure that your handlers handle the right thing.
 
+-   [HaskellDO](https://github.com/theam/haskell-do/blob/7143c708915638b8189e5bf18e92b3fd621cca58/README.md#readme)
+
+    > HaskellDO is a Haskell code editor, centered around interactive development.
+
 ## Package of the week
 
 This week's package of the week is [servant-named](https://hackage.haskell.org/package/servant-named),
