@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Back in 2000, Thomas Hallgren showed an implementation of insertion sort as an example of static computation using functional dependencies.  In this post, I will show you a more "functional-style" implementation of insertion sort using closed type families.
 
+-   [Haskell and Docker: Down the rabbit hole and back](https://denibertovic.com/posts/haskell-and-docker-down-the-rabbit-hole-and-back/)
+
+    > The first attempt was awful. But it worked! Of course, the API of the library was horrendous. There were very little type guarantees for anything and the whole thing was just one big giant IO blob. Having realized this, I went on a crusade to learn all the fancy type machinery and make use of every trick and extension under the sun.
+
 ## Package of the week
 
 This week's package of the week is [servant-named](https://hackage.haskell.org/package/servant-named),
