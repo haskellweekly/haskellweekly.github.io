@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The constraint `a ~ b` in this declaration is a type equality constraint: it means that `a` and `b` must be the same type. One of my coworkers saw this and remarked, more or less, "Why did you write it in that obtuse way? You could have just declared an instance for `C a a`, which means the same thing."
 
+-   [Announcing graphql-api: Haskell library for GraphQL](https://jml.io/2017/01/graphql-api.html)
+
+    > It lets you take a GraphQL schema and translate it into a Haskell type that represents the schema. You can then write handlers that accept and return native Haskell types. graphql-api will take care of parsing and validating your user queries, and Haskell's type system will make sure that your handlers handle the right thing.
+
 ## Package of the week
 
 todo
