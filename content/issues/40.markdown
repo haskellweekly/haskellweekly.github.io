@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > HaskellDO is a Haskell code editor, centered around interactive development.
 
+-   [Type-level insertion sort](https://kseo.github.io/posts/2017-01-30-type-level-insertion-sort.html)
+
+    > Back in 2000, Thomas Hallgren showed an implementation of insertion sort as an example of static computation using functional dependencies.  In this post, I will show you a more "functional-style" implementation of insertion sort using closed type families.
+
 ## Package of the week
 
 This week's package of the week is [servant-named](https://hackage.haskell.org/package/servant-named),
