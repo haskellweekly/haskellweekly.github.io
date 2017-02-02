@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > It's no secret that most people consider Haskell not just a difficult language to learn technically, but an intimidating language. It has undoubted psychological hurdles. People seem to give up on Haskell at a higher rate than most other languages. By naming these problems, we can overcome them.
 
+-   [Haskell Bits #1: Randomness](http://www.kovach.me/posts/2017-01-30-haskell-bits-randomness.html)
+
+    > You need at least two things to produce a random number: an initial "seed" value and a pure function that produces a new number from that seed ("RNG"). That's all for a single number. Most programming languages will hide these details from you unless you need them.
+
 ## Package of the week
 
 todo
