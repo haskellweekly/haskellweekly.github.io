@@ -33,6 +33,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## Package of the week
 
-todo
+This week's package of the week is [servant-named](https://hackage.haskell.org/package/servant-named),
+a library that allows you to name endpoints for Servant APIs and servers.
 
 Send us a message [on Twitter](https://twitter.com/haskellweekly) to nominate next week's package!
