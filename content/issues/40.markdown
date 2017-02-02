@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Easing Haskell's intimidating glare](https://medium.com/@james_32022/easing-haskells-intimidating-glare-2341095e88aa)
+
+    > It's no secret that most people consider Haskell not just a difficult language to learn technically, but an intimidating language. It has undoubted psychological hurdles. People seem to give up on Haskell at a higher rate than most other languages. By naming these problems, we can overcome them.
 
 ## Package of the week
 
