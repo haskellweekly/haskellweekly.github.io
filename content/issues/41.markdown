@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Herculus beta: purely function spreadsheets]https://www.herculus.io)
+
+    > Build rock-solid tools in no time and focus on the things that matter.
 
 ## Package of the week
 
