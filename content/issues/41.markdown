@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Are you comfortable creating data types, manipulating lists, composing functions, etc, but not sure how to make a "useful program" with Haskell? This is a very common stumbling block when learning. It might be the complaint I've heard the most.
 
+-   [Raspberry Pi GPIO Servant API](https://www.reddit.com/r/haskell/comments/5s36m2/raspberry_pi_gpio_servant_api/)
+
+    > I've just finished up a first pass at a Stack-built Servant application to use wiringPi for Raspberry Pi GPIO control. This enables you to access your Pi's GPIO pins over the web easily. It builds on the excellent wiringPi Hackage package and underlying C-lib.
+
 ## Package of the week
 
 This week's package of the week is [monad-metrics](https://hackage.haskell.org/package/monad-metrics),
