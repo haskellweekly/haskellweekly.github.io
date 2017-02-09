@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Build rock-solid tools in no time and focus on the things that matter.
 
+-   [Why prove programs equivalent when your compiler can do that for you?](https://www.joachim-breitner.de/blog/717-Why_prove_programs_equivalent_when_your_compiler_can_do_that_for_you_)
+
+    > I proved all the laws, but I was very unhappy. I have a PhD on something about Haskell and theorem proving. I have worked with Isabelle, Agda and Coq. Both Haskell and theorem proving is decades old. And yet, I sit here, and tediously write manual proofs by hand. Is this really the best we can do?
+
 ## Package of the week
 
 This week's package of the week is [monad-metrics](https://hackage.haskell.org/package/monad-metrics),
