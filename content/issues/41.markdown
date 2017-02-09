@@ -15,7 +15,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
--   [Herculus beta: purely function spreadsheets]https://www.herculus.io)
+-   [Herculus beta: Purely function spreadsheets](https://www.herculus.io)
 
     > Build rock-solid tools in no time and focus on the things that matter.
 
@@ -26,6 +26,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 -   [MonadMask vs MonadBracket](https://www.fpcomplete.com/blog/2017/02/monadmask-vs-monadbracket)
 
     > This is a generalization of the `bracket` function. Importantly, it allows you to provide different cleanup functions for the success and failure cases. It also provides you with more information for cleanup, namely the exception that occured or the success value.
+
+-   [Haskell Bits #2: Application beginnings](http://www.kovach.me/posts/2017-02-03-haskell-bits-application-beginnings.html)
+
+    > Are you comfortable creating data types, manipulating lists, composing functions, etc, but not sure how to make a "useful program" with Haskell? This is a very common stumbling block when learning. It might be the complaint I've heard the most.
 
 ## Package of the week
 
