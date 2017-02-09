@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I proved all the laws, but I was very unhappy. I have a PhD on something about Haskell and theorem proving. I have worked with Isabelle, Agda and Coq. Both Haskell and theorem proving is decades old. And yet, I sit here, and tediously write manual proofs by hand. Is this really the best we can do?
 
+-   [MonadMask vs MonadBracket](https://www.fpcomplete.com/blog/2017/02/monadmask-vs-monadbracket)
+
+    > This is a generalization of the `bracket` function. Importantly, it allows you to provide different cleanup functions for the success and failure cases. It also provides you with more information for cleanup, namely the exception that occured or the success value.
+
 ## Package of the week
 
 This week's package of the week is [monad-metrics](https://hackage.haskell.org/package/monad-metrics),
