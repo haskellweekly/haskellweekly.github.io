@@ -19,6 +19,7 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [monad-metrics](https://hackage.haskell.org/package/monad-metrics),
+a convenient wrapper around EKG metrics.
 
 Send us a message [on Twitter](https://twitter.com/haskellweekly) to nominate next week's package!
