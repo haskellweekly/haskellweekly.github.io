@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I've just finished up a first pass at a Stack-built Servant application to use wiringPi for Raspberry Pi GPIO control. This enables you to access your Pi's GPIO pins over the web easily. It builds on the excellent wiringPi Hackage package and underlying C-lib.
 
+-   [Monads in category theory for laymen](https://andyshiue.github.io/functional/programming/2017/02/06/monad.html)
+
+    > You should know there are 3 coherence laws since you knew what monads are, but they might seem like black magic for most of you. What I'm going to do is to show that those 3 laws are "obvious" in some sense without actually teaching you the whole category theory behind it.
+
 ## Package of the week
 
 This week's package of the week is [monad-metrics](https://hackage.haskell.org/package/monad-metrics),
