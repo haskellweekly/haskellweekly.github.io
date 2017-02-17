@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Luckily, GHCi is quite configurable! Using the `-interactive-print` flag, We can replace `IO.print` as the pretty-printer of choice, and slot in any function we please. My favourite alternative pretty-printer is Iavor Diatchki's wonderful pretty-show, which uses a Haskell lexer.
 
+-   [Aelve Guide: Haskell CPP](https://guide.aelve.com/haskell/cpp-vww0qd72)
+
+    > With `{-# LANGUAGE CPP #-}` enabled, `.hs` files will be processed with C preprocessor before the code is compiled.
+
 ## Package of the week
 
 This week's package of the week is [hip](https://www.stackage.org/package/hip),
