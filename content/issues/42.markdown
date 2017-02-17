@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > With `{-# LANGUAGE CPP #-}` enabled, `.hs` files will be processed with C preprocessor before the code is compiled.
 
+-   [Better exception messages](http://www.snoyman.com/blog/2017/02/better-exception-messages)
+
+    > When you throw an exception in your code, whether it be via throwIO, returning Left, using fail, or using error, please give us some context. During development, it's a pain to have to dive into the code, add some trace statements, figure out what the actual problem is, and then remove the trace statements.
+
 ## Package of the week
 
 This week's package of the week is [hip](https://www.stackage.org/package/hip),
