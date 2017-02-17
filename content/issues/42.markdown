@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > This tutorial will get you up to speed with GHC generics quickly. It should be noted that generics is not something academic and useless, quite the contrary, it's a very pragmatic way to reduce the amount of boilerplate (and associated with it errors) in your functional code with minimal mental overhead.
 
+-   [Haskell on Bash/WSL](https://blogs.msdn.microsoft.com/commandline/2017/02/09/haskell-on-bashwsl/)
+
+    > Haskell is a popular and powerful functional programming language which wasn't able to run on Bash/WSL in Anniversary Update or earlier Insider builds, because WSL had not yet implemented the `timer_create()` syscall. Now that WSL builds >= #14986 do support `timer_create()` we can run Haskell and many other tools (e.g. Elm, Cabal, Pandoc, Agda, etc.).
+
 ## Package of the week
 
 todo
