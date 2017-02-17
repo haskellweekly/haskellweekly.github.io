@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Haskell is a popular and powerful functional programming language which wasn't able to run on Bash/WSL in Anniversary Update or earlier Insider builds, because WSL had not yet implemented the `timer_create()` syscall. Now that WSL builds >= #14986 do support `timer_create()` we can run Haskell and many other tools (e.g. Elm, Cabal, Pandoc, Agda, etc.).
 
+-   [Stricter JSON parsing with Haskell and Aeson](https://arunraghavan.net/2017/02/stricter-json-parsing-with-haskell-and-aeson/)
+
+    > However, as this nice tour of how Aeson works demonstrate, if the input has keys that we don't recognise, no error will be raised. This behaviour would not be undesirable in use-cases such as mine; if the client is sending fields we don't understand, I'd like for the server to signal an error so the underlying problem can be caught early.
+
 ## Package of the week
 
 todo
