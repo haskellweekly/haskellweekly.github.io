@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [Stackage LTS 8.0](https://www.stackage.org/lts-8.0)
+
+    This is the first Stackage LTS snapshot with GHC 8.0.2.
+
 -   [GHC generics explained](https://stackbuilders.com/tutorials/haskell/generics/)
 
     > This tutorial will get you up to speed with GHC generics quickly. It should be noted that generics is not something academic and useless, quite the contrary, it's a very pragmatic way to reduce the amount of boilerplate (and associated with it errors) in your functional code with minimal mental overhead.
