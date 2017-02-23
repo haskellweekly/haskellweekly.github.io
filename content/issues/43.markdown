@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [Ten example uses of Monads](https://haskellexists.blogspot.de/2017/02/ten-example-uses-of-monads.html)
+
+    > In this "monad tutorial" we are not going to learn what monads are, how they are implemented or how they work internally. Instead we are going to look at ten example use cases. We will look at monadic APIs for safe concurrency, build dependencies, stream processing, probabilistic programming, web server programming, mutable references, logic programming, test specification, parsing and HTML5 canvas manipulation.
+
 -   [Haskell Bits #4: Environment variables](http://www.kovach.me/posts/2017-02-22-environment-variables.html)
 
     > It's likely that you’ll have to deal with environment variables at some point. What I'll describe here is a kicking-off point for robust environment handling with little overhead. We'll build a tiny library you can drop into any application that will make dealing with environment variables for configuration a lot easier.
