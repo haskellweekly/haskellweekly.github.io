@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [Haskell Bits #4: Environment variables](http://www.kovach.me/posts/2017-02-22-environment-variables.html)
+
+    > It's likely that you’ll have to deal with environment variables at some point. What I'll describe here is a kicking-off point for robust environment handling with little overhead. We'll build a tiny library you can drop into any application that will make dealing with environment variables for configuration a lot easier.
+
 -   [Code Podcast episode 5: Type systems](http://codepodcast.com/s0e5.html)
 
     > Code Podcast is about concepts behind programming languages, frameworks and libraries. Same beautiful patterns that are present in completely different environments. Occasionally we will invite clever programmers to talk about their favourite techniques.
