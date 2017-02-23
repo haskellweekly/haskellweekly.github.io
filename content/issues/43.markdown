@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > It's likely that you’ll have to deal with environment variables at some point. What I'll describe here is a kicking-off point for robust environment handling with little overhead. We'll build a tiny library you can drop into any application that will make dealing with environment variables for configuration a lot easier.
 
+-   [Object oriented programming in Haskell: Data inheritance](http://www.parsonsmatt.org/2017/02/17/ooph_data_inheritance.html)
+
+    > "Does Haskell have inheritance?" Well, no, it doesn't, because Haskell does not have objects, and inheritance is a relationship between two objects. Objects are a combination of internal state (data) and methods (behavior). Since inheritance is a combination of both of these things, we'll need to treat them separately.
+
 -   [Code Podcast episode 5: Type systems](http://codepodcast.com/s0e5.html)
 
     > Code Podcast is about concepts behind programming languages, frameworks and libraries. Same beautiful patterns that are present in completely different environments. Occasionally we will invite clever programmers to talk about their favourite techniques.
