@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Over the past year, I have continued to work on Hask Anything, a website aimed at collecting and organizing the collective knowledge of the Haskell community: papers, blog posts, code snippets, gists, StackOverflow answers, Reddit threads, presentations, videos, tutorials and so on.
 
+-   [QuickCheck is fun, deal with it](https://deque.blog/2017/02/17/quickcheck-is-fun-deal-with-it/)
+
+    > It does not seem fair however to associate QuickCheck with serious testing business only. QuickCheck is really a fun library to use. This post is dedicated to do justice to QuickCheck by exploring some of those more exotic use cases of QuickCheck. Do not expect anything serious in this post: we will embrace the absurd world of generating random stuff.
+
 -   [Code Podcast episode 5: Type systems](http://codepodcast.com/s0e5.html)
 
     > Code Podcast is about concepts behind programming languages, frameworks and libraries. Same beautiful patterns that are present in completely different environments. Occasionally we will invite clever programmers to talk about their favourite techniques.
