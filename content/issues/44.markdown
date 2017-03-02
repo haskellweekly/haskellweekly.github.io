@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [Lessons learned porting a game from PureScript to Elm](https://alpacaaa.net/blog/post/elm-purescript-in-depth-overview/)
+
+    > You can see a pattern here: Elm strives to be total and prevent you from shooting yourself in the foot in any way, while PureScript gives you more freedom, but you have to understand the consequences of what you're doing.
+
 -   [On games and simulations](https://www.jeroenkeiren.nl/blog/on-games-and-simulations/)
 
     > It seems that the architectural choice (of writing the core of the application in Haskell/Frege and use only Java for interactivity and visualization) is a good one, for several reasons.
