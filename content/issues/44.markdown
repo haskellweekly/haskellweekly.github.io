@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We are able to refactor without fear. We have been experimenting with adding some new features to the job assignment algorithm recently, and the procedure of extending it is rather mechanical: extend the types to reflect information you need, fix all type errors, write a test, and change code until the tests are green.
 
+-   [Summer of Haskell 2017](https://www.reddit.com/r/haskell/comments/5wpwkq/summer_of_haskell_2017/)
+
+    > We are sorry to announce that this year Haskell.org was not accepted for the 2017 Google Summer of Code. But, as last year, we plan to organize our own Summer of Haskell!
+
 -   [Lessons learned porting a game from PureScript to Elm](https://alpacaaa.net/blog/post/elm-purescript-in-depth-overview/)
 
     > You can see a pattern here: Elm strives to be total and prevent you from shooting yourself in the foot in any way, while PureScript gives you more freedom, but you have to understand the consequences of what you're doing.
