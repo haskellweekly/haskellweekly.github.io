@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We've spent a few months figuring out what book we, as Haskell users, want to see. The Joy of Haskell is a work in progress, the culmination of those discussions, the kind of book we want to help us write better, happier Haskell.
 
+-   [The typed-process library](https://www.fpcomplete.com/blog/2017/02/typed-process)
+
+    > In October of last year, I published a new library: typed-process. It builds on top of the veritable process package, and provides an alternative API. After I got sufficiently fed up with limitations in the existing API, I decided to take a crack at doing it all from scratch.
+
 -   [On games and simulations](https://www.jeroenkeiren.nl/blog/on-games-and-simulations/)
 
     > It seems that the architectural choice (of writing the core of the application in Haskell/Frege and use only Java for interactivity and visualization) is a good one, for several reasons.
