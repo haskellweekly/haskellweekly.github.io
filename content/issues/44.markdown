@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [On games and simulations](https://www.jeroenkeiren.nl/blog/on-games-and-simulations/)
+
+    > It seems that the architectural choice (of writing the core of the application in Haskell/Frege and use only Java for interactivity and visualization) is a good one, for several reasons.
 
 ## Package of the week
 
