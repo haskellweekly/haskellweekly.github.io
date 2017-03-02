@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > It seems that the architectural choice (of writing the core of the application in Haskell/Frege and use only Java for interactivity and visualization) is a good one, for several reasons.
 
+-   [How do you guys get anything done?](https://www.reddit.com/r/haskell/comments/5wb5qw/how_do_you_guys_get_anything_done/)
+
+    > I readily concede that maybe it gets better but some of these things I can't see ever getting better. I'm seriously considering rewriting this entire codebase in Go and I'm here for some words of encouragement.
+
 ## Package of the week
 
 todo
