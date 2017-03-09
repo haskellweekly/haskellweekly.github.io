@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     Videos of 11 talks by Chris Allen, Gabriel Gonzalez, John DeGoes, and others.
 
+-   [REST API in Haskell](http://maciek.io/rest-api-in-haskell/)
+
+    > Recently I've discovered world of functional programming and was really surprised by the amount of fun which it gives back. Not without a reason Haskell is the king of weekend programming. I want to show you how to build simple REST API with Haskell.
+
 ## Package of the week
 
 todo
