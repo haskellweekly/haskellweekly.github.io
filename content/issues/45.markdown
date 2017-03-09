@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Recently I've discovered world of functional programming and was really surprised by the amount of fun which it gives back. Not without a reason Haskell is the king of weekend programming. I want to show you how to build simple REST API with Haskell.
 
+-   [The Haskell Cast episode 11: Austin Seipp on security](http://www.haskellcast.com/episode/011-austin-seipp-on-security)
+
+    > Austin Seipp joins us to discuss Haskell security and infrastructure. We talk about how Haskell security differs from C (and where it doesn't) and some coming changes to Cabal security.
+
 ## Package of the week
 
 This week's package of the week is [postgrest](https://hackage.haskell.org/package/postgrest),
