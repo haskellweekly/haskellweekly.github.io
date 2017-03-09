@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Safe map merge](http://teh.id.au/posts/2017/03/03/map-merge/index.html)
+
+    > One of my most frequent bug sources is `Data.Map.union`, a left-biased map merge that discards the right-hand side value when it encounters on duplicates. The `Monoid` instance for `Map` uses this as its associative function (`mappend`), so it's easy as hell to just cram two maps together and ignore the consequences.
 
 ## Package of the week
 
