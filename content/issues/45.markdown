@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > One of my most frequent bug sources is `Data.Map.union`, a left-biased map merge that discards the right-hand side value when it encounters on duplicates. The `Monoid` instance for `Map` uses this as its associative function (`mappend`), so it's easy as hell to just cram two maps together and ignore the consequences.
 
+-   [LambdaConf 2017 Winter Retreat](https://www.youtube.com/playlist?list=PL7DZ7q3nEWhy9wMify6MXW6F339W4g4Eo)
+
+    Videos of 11 talks by Chris Allen, Gabriel Gonzalez, John DeGoes, and others.
+
 ## Package of the week
 
 todo
