@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Austin Seipp joins us to discuss Haskell security and infrastructure. We talk about how Haskell security differs from C (and where it doesn't) and some coming changes to Cabal security.
 
+-   [Today I used laziness for...](https://www.reddit.com/r/haskell/comments/5xge0v/today_i_used_laziness_for/)
+
+    > Laziness as default seems to be one of the most controversial feature of Haskell if not the most. However, some people swear by it, and would argue that is one of the best feature of Haskell and makes it so unique.
+
 ## Package of the week
 
 This week's package of the week is [postgrest](https://hackage.haskell.org/package/postgrest),
