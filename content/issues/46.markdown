@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Programmers usually learn "Haskell as a second language" and try to connect its concepts to things they understand from past experience. Java programmers ask whether Haskell's typeclasses are like Java's interfaces. This is okay for initial intuition, but it obscures some important differences.
 
+-   [Minimal Cabal files](https://jpvillaisaza.github.io/2017/03/14/minimal-cabal-files/)
+
+    > Every Haskell package has a Cabal file, which contains metadata about the package. Have you ever wondered what a minimal Cabal file looks like? In other words, what is the minimum amount of data you absolutely need to include in a Cabal file so that it yields a fully functional Haskell package?
+
 -   [Linear types make performance more predictable](http://blog.tweag.io/posts/2017-03-13-linear-types.html)
 
     > Ever since Jean-Yves Girard discovered linear logic in 1986, researchers around the world have been going: "Wow! Resource tracking; this must be useful for programming languages". After all, any real computation on a real machine takes resources (memory pages, disk blocks, interrupts, buffers etc) that then aren't available anymore unless restored somehow.
