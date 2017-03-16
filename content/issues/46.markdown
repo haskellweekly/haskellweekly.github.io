@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We've introduced partiality into our function! Instead of being well behaved and returning a `Nothing`, our program now creates an impure exception that blows up in our face, definitely not what we wanted with a simple refactoring. The problem here is that, when using `let`, an incomplete pattern match turns into a partial value.
 
+-   [When you should use lists in Haskell (Mostly, you should not)](http://www.imn.htwk-leipzig.de/~waldmann/etc/untutorial/list-or-not-list/)
+
+    > One goal of language design is to make typical expected usage easy to write. Once the design is cast in stone, this becomes self-fulfilling: unsuspecting users of the language will write programs in what they think is idiomatic style, as suggested by built-in syntactical convenience. So it seems that it is typical Haskell to: not declare types for identifiers, and use machine numbers and lists all over the place.
+
 -   [Minimal Cabal files](https://jpvillaisaza.github.io/2017/03/14/minimal-cabal-files/)
 
     > Every Haskell package has a Cabal file, which contains metadata about the package. Have you ever wondered what a minimal Cabal file looks like? In other words, what is the minimum amount of data you absolutely need to include in a Cabal file so that it yields a fully functional Haskell package?
