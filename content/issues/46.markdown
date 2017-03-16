@@ -43,6 +43,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I think we're missing a general "standard data structures performance" source of data. The "When You Should Use Lists" discussion had a striking lack of citations of actual benchmarks. I think there should be a place people can reference when they decide on a data structure.
 
+-   [Designing the Backpack signature ecosystem](http://blog.ezyang.com/2017/03/designing-the-backpack-signature-ecosystem/)
+
+    > Suppose you are a library writer interested in using Backpack. Backpack says that you can replace a direct dependency on a function, type or package with one or more signatures. You typecheck against a signature and your end user picks how they want to eventually implement the signature.
+
 -   [Linear types make performance more predictable](http://blog.tweag.io/posts/2017-03-13-linear-types.html)
 
     > Ever since Jean-Yves Girard discovered linear logic in 1986, researchers around the world have been going: "Wow! Resource tracking; this must be useful for programming languages". After all, any real computation on a real machine takes resources (memory pages, disk blocks, interrupts, buffers etc) that then aren't available anymore unless restored somehow.
