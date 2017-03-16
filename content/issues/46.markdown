@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [Stack version 1.4.0 released](https://github.com/commercialhaskell/stack/releases/tag/v1.4.0)
+
+    > A new command, `script`, has been added, intended to make the script interpreter workflow more reliable, easier to use, and more efficient.
+
 -   [Typeclasses in translation](https://joyofhaskell.com/posts/2017-03-15-typeclasses-in-translation.html)
 
     > Programmers usually learn "Haskell as a second language" and try to connect its concepts to things they understand from past experience. Java programmers ask whether Haskell's typeclasses are like Java's interfaces. This is okay for initial intuition, but it obscures some important differences.
