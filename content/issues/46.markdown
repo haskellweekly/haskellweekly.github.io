@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Programmers usually learn "Haskell as a second language" and try to connect its concepts to things they understand from past experience. Java programmers ask whether Haskell's typeclasses are like Java's interfaces. This is okay for initial intuition, but it obscures some important differences.
 
+-   [BayHac 2017](https://wiki.haskell.org/BayHac2017)
+
+    > A San Francisco Bay Area and Silicon Valley Haskell Hackathon. Come join a group of Haskell hackers to enjoy a weekend of learning, sharing, and hacking on a variety of projects. Bring your laptop! All skill levels are welcome.
+
 ## Package of the week
 
 todo
