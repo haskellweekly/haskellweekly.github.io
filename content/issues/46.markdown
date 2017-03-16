@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Programmers usually learn "Haskell as a second language" and try to connect its concepts to things they understand from past experience. Java programmers ask whether Haskell's typeclasses are like Java's interfaces. This is okay for initial intuition, but it obscures some important differences.
 
+-   [Partial patterns in do blocks: let vs return](https://www.fpcomplete.com/blog/2017/03/partial-patterns-do-blocks)
+
+    > We've introduced partiality into our function! Instead of being well behaved and returning a `Nothing`, our program now creates an impure exception that blows up in our face, definitely not what we wanted with a simple refactoring. The problem here is that, when using `let`, an incomplete pattern match turns into a partial value.
+
 -   [Minimal Cabal files](https://jpvillaisaza.github.io/2017/03/14/minimal-cabal-files/)
 
     > Every Haskell package has a Cabal file, which contains metadata about the package. Have you ever wondered what a minimal Cabal file looks like? In other words, what is the minimum amount of data you absolutely need to include in a Cabal file so that it yields a fully functional Haskell package?
