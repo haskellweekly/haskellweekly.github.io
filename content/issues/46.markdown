@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Programmers usually learn "Haskell as a second language" and try to connect its concepts to things they understand from past experience. Java programmers ask whether Haskell's typeclasses are like Java's interfaces. This is okay for initial intuition, but it obscures some important differences.
 
+-   [Creating a REPL in Haskell](https://open.bekk.no/creating-a-repl-in-haskell)
+
+    > A read-eval-print-loop is an interactive shell that repeatedly takes input from the user, evaluates it, and prints out the result. We often see such REPLs come bundled along with programming language toolkits, providing an interactive environment for that language. In this article, we will look at how we can create our very own REPL in Haskell.
+
 -   [Partial patterns in do blocks: let vs return](https://www.fpcomplete.com/blog/2017/03/partial-patterns-do-blocks)
 
     > We've introduced partiality into our function! Instead of being well behaved and returning a `Nothing`, our program now creates an impure exception that blows up in our face, definitely not what we wanted with a simple refactoring. The problem here is that, when using `let`, an incomplete pattern match turns into a partial value.
