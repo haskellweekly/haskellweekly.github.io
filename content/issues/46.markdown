@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Every Haskell package has a Cabal file, which contains metadata about the package. Have you ever wondered what a minimal Cabal file looks like? In other words, what is the minimum amount of data you absolutely need to include in a Cabal file so that it yields a fully functional Haskell package?
 
+-   [Haskell performance benchmarks](https://www.reddit.com/r/haskell/comments/5ym276/haskell_performance_benchmarks/)
+
+    > I think we're missing a general "standard data structures performance" source of data. The "When You Should Use Lists" discussion had a striking lack of citations of actual benchmarks. I think there should be a place people can reference when they decide on a data structure.
+
 -   [Linear types make performance more predictable](http://blog.tweag.io/posts/2017-03-13-linear-types.html)
 
     > Ever since Jean-Yves Girard discovered linear logic in 1986, researchers around the world have been going: "Wow! Resource tracking; this must be useful for programming languages". After all, any real computation on a real machine takes resources (memory pages, disk blocks, interrupts, buffers etc) that then aren't available anymore unless restored somehow.
