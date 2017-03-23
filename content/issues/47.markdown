@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The inliner's job is to replace a function with its definition. This removes one layer of indirection and most importantly allows other optimisations to fire. The specialiser is important for optimising code which uses type classes. Type classes are desugared into dictionary passing style but the specialiser removes a layer of indirection by creating new functions with the relevant dictionaries already supplied.
 
+-   [Applicative sorting](https://elvishjerricco.github.io/2017/03/23/applicative-sorting.html)
+
+    > Continuing my unending train of thoughts on static analysis of effects, in this post I'm going to talk about using `Applicative` to sort any collection. The `Traversable` typeclass is one of my favorites because it generalizes the idea of a collection so elegantly. I will show how to use `traverse` to sort any such collection safely using a special applicative.
+
 ## Package of the week
 
 This week's package of the week is [eve](https://hackage.haskell.org/package/eve),
