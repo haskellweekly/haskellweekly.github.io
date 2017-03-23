@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We've discussed three major type classes: functors, applicative functors, and monads. They all have particular laws their instances should follow. Other programmers who use your code will expect any instances you make to follow these laws. Once you are familiar with the types, you will likely create instances that follow the laws. But if you are unsure, you can use the QuickCheck utility to verify them.
 
+-   [A specification for dependently-typed Haskell](http://www.seas.upenn.edu/~sweirich/papers/systemd-submission.pdf) [pdf]
+
+    > Our goal is to design Dependent Haskell, an extension of Haskell with full-spectrum dependent types. The main feature of Dependent Haskell is that, unlike current Haskell, it makes no distinction between types and terms; both compile-time and runtime computation share the same syntax and semantics
+
 ## Package of the week
 
 This week's package of the week is [eve](https://hackage.haskell.org/package/eve),
