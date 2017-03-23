@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > If you use a Foldable function like length or null, where instance selection is solely determined by the input argument, you should make your code more robust by introducing an explicit type application specifying which instance you want. This isn't necessary for a function like fold, where the return type can cross-check if you've gotten it right or not.
 
+-   [Automating static analysis for Haskell projects](https://lwm.github.io/haskell-static/)
+
+    > As a maintainer, I need to have confidence that new patches are appropriate both in terms of logic and style. Especially when I did not write those patches. Naturally, I spend the majority of my time on the former. Static analysis tools can greatly reduce the manual work necessary for the latter.
+
 ## Package of the week
 
 This week's package of the week is [eve](https://hackage.haskell.org/package/eve),
