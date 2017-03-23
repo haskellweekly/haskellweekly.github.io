@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Inlining and specialization](https://mpickering.github.io/posts/2017-03-20-inlining-and-specialisation.html)
+
+    > The inliner's job is to replace a function with its definition. This removes one layer of indirection and most importantly allows other optimisations to fire. The specialiser is important for optimising code which uses type classes. Type classes are desugared into dictionary passing style but the specialiser removes a layer of indirection by creating new functions with the relevant dictionaries already supplied.
 
 ## Package of the week
 
