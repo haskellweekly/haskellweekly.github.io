@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Continuing my unending train of thoughts on static analysis of effects, in this post I'm going to talk about using `Applicative` to sort any collection. The `Traversable` typeclass is one of my favorites because it generalizes the idea of a collection so elegantly. I will show how to use `traverse` to sort any such collection safely using a special applicative.
 
+-   [Proposal: Suggest explicit type application for Foldable length and friends](http://blog.ezyang.com/2017/03/proposal-suggest-explicit-type-application-for-foldable-length/)
+
+    > If you use a Foldable function like length or null, where instance selection is solely determined by the input argument, you should make your code more robust by introducing an explicit type application specifying which instance you want. This isn't necessary for a function like fold, where the return type can cross-check if you've gotten it right or not.
+
 ## Package of the week
 
 This week's package of the week is [eve](https://hackage.haskell.org/package/eve),
