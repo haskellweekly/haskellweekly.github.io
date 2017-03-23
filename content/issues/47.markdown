@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > As a maintainer, I need to have confidence that new patches are appropriate both in terms of logic and style. Especially when I did not write those patches. Naturally, I spend the majority of my time on the former. Static analysis tools can greatly reduce the manual work necessary for the latter.
 
+-   [Haskell for Mac 1.4.0 is out](http://blog.haskellformac.com/blog/haskell-for-mac-140-is-out)
+
+    > This release comes with a range of improvements, but the outstanding feature is the ability to install packages from within the app.
+
 ## Package of the week
 
 This week's package of the week is [eve](https://hackage.haskell.org/package/eve),
