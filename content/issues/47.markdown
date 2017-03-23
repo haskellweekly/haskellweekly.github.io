@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > This release comes with a range of improvements, but the outstanding feature is the ability to install packages from within the app.
 
+-   [Obey the (type) laws](https://medium.com/@james_32022/obey-the-type-laws-ffb2fa4e5fe2)
+
+    > We've discussed three major type classes: functors, applicative functors, and monads. They all have particular laws their instances should follow. Other programmers who use your code will expect any instances you make to follow these laws. Once you are familiar with the types, you will likely create instances that follow the laws. But if you are unsure, you can use the QuickCheck utility to verify them.
+
 ## Package of the week
 
 This week's package of the week is [eve](https://hackage.haskell.org/package/eve),
