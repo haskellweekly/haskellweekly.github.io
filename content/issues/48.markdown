@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > After years of dragging my feet I've been learning Haskell with the help of a few friends. Many Haskell concepts can be quite daunting so I decided to write one sentence summaries to simplify them for myself. These are not by any means complete but are useful as a jumping off point.
 
+-   [Hapistrano's new features](https://stackbuilders.com/news/hapistrano-s-new-features)
+
+    > The Hapistrano tool that we at Stack Builders use for deployment has been almost completely rewritten and new features have been added. The reason for such a rewrite was that we wished to make configuration easier and to avoid re-building our software on target hosts when possible, thus making CI cycles that deploy our software much quicker.
+
 ## Package of the week
 
 todo
