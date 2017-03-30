@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I'm going to talk a little bit about Conway's Game of Life, comonads in practical use, and the performance improvement that they have to offer.
 
+-   [How clean does a Haskell codebase remain over time?](https://www.reddit.com/r/haskell/comments/6155r4/how_clean_does_a_haskell_codebase_remain_over_time/)
+
+    > Codebases written in untyped languages most often rot as the years set in. I'm new to Typed FP, and it seems that the static type system in Haskell can help avoid most of these pitfalls. How is this in practice?
+
 ## Package of the week
 
 todo
