@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Announcing Haskell Tools](https://haskelltools.blogspot.hu/2017/04/announcing-haskell-tools.html)
+
+    > The beta version of Haskell Tools is released! You can use Haskell Tools to refactor your Haskell code whether it is a set of Cabal packages with hundreds of source files, or just a single module. It has an Atom plugin that enables you to use it in a rich development environment.
 
 ## Package of the week
 
