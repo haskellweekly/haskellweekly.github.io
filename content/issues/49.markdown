@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > It may seem really weird that you can just redefine a function like `(+)`. What happens if you just do that accidentally? Isn't Haskell a language that's supposed to be all pure and safe?
 
+-   [A beginner friendly step by step tutorial for reflex-dom](https://github.com/hansroland/reflex-dom-inbits/blob/84189eb93f87060a1bfa9128ffea43447a2d5c8f/README.md)
+
+    > This is a beginner-friendly tutorial for reflex-dom. It shows how to write Haskell programs with a graphical user interface. It contains an introductionary text and examples in short bits.
+
 ## Package of the week
 
 todo
