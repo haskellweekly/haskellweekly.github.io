@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The beta version of Haskell Tools is released! You can use Haskell Tools to refactor your Haskell code whether it is a set of Cabal packages with hundreds of source files, or just a single module. It has an Atom plugin that enables you to use it in a rich development environment.
 
+-   [Selling monads](http://www.usrsb.in/selling-monads.html)
+
+    > I think the code reuse justification is greatly undersold, and it's been undersold to such an extent that many languages that adopt abstractions like monads often don't do it in a way that allows for code reuse. Scala is an example of this, where many classes have a `flatMap` method, but this method is not implemented as part of any interface.
+
 ## Package of the week
 
 todo
