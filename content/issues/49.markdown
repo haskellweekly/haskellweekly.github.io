@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > This is a beginner-friendly tutorial for reflex-dom. It shows how to write Haskell programs with a graphical user interface. It contains an introductionary text and examples in short bits.
 
+-   [Deploying Haskell on AWS Lambda](http://engineers.irisconnect.net/posts/2017-03-16-deploying-haskell-on-aws-lambda.html)
+
+    > AWS Lambda is capable of running any binary, as long as it's statically linked and compiled for x86 Linux, but at the same time it doesn't offer first-class support for Haskell, but it's possible to spawn an external process via the Node.js API.
+
 ## Package of the week
 
 todo
