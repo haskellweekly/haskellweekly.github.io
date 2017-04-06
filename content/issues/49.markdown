@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > AWS Lambda is capable of running any binary, as long as it's statically linked and compiled for x86 Linux, but at the same time it doesn't offer first-class support for Haskell, but it's possible to spawn an external process via the Node.js API.
 
+-   [Beware of numeric type classes](https://cse.iitk.ac.in/users/ppk/posts/2017-04-04-Beware-of-Numeric-Types.html)
+
+    > This blog post is to document some cases where unconstrained `Num` type definitons can seriously compromise type safety. None of what I say here is new but it is worth repeating. Take it as a note of warning against being zealous when defining instances of some standard type classes, in particular the `Num` class.
+
 ## Package of the week
 
 todo
