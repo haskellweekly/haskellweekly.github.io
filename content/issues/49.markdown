@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I think the code reuse justification is greatly undersold, and it's been undersold to such an extent that many languages that adopt abstractions like monads often don't do it in a way that allows for code reuse. Scala is an example of this, where many classes have a `flatMap` method, but this method is not implemented as part of any interface.
 
+-   [2 + 2 = 5 and why compiler warnings are good](https://medium.com/position-development-blog/2-2-5-and-why-compiler-warnings-are-good-e50bc5cfab22)
+
+    > It may seem really weird that you can just redefine a function like `(+)`. What happens if you just do that accidentally? Isn't Haskell a language that's supposed to be all pure and safe?
+
 ## Package of the week
 
 todo
