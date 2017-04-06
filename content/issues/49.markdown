@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > This blog post is to document some cases where unconstrained `Num` type definitons can seriously compromise type safety. None of what I say here is new but it is worth repeating. Take it as a note of warning against being zealous when defining instances of some standard type classes, in particular the `Num` class.
 
+-   [Compile driven learning](https://mmhaskell.com/blog/2017/4/3/compile-driven-learning)
+
+    > In this article, I'll share my approach to solving this learning problem. I refer to it as "Compile Driven Learning". To learn a new library or system, you should start out by writing as little code as you can to make the code continue to compile. It is intricately related to the ideas of test driven development. 
+
 ## Package of the week
 
 This week's package of the week is [Accelerate](http://www.acceleratehs.org/),
