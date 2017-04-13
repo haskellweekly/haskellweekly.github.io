@@ -15,6 +15,12 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [GHC 8.2.1 release candidate 1](https://mail.haskell.org/pipermail/ghc-devs/2017-April/014096.html)
+
+    > The GHC team is very pleased to announce the first candidate of the 8.2.1 release of the Glasgow Haskell Compiler. This is the first of a few release candidates leading up the final 8.2.1 release.
+
+    Editor's note: Use [this `stack.yaml`](https://gist.github.com/tfausak/a36862c53a2cc53029cab18a05788b95/79e3c9a944900424fd83275d0e5d6e3c1d4844a5) to test GHC 8.2.1-rc1 with Stack.
+
 -   [Intel Labs Functional Language Research Compiler](https://github.com/IntelLabs/flrc/tree/42126d36f36e3a2a55fbc6c1cbdb322d653d631f#readme)
 
     > The Functional Language Research Compiler (FLRC) was designed to be a general compiler framework for functional languages. The only supported compiler that is being released is a Haskell Research Compiler (HRC). FLRC is open sourced as is. We at Intel Labs are no longer actively working on this compiler.
@@ -24,8 +30,6 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
     > Criss stares at you for a long, long moment. "You never... you never wrote an actual *value*. You... do realize that the type system is meant to constrain *values*, right?"
     >
     > "No," you inform him, matter-of-factly. "No, that doesn't sound right."
-
-
 
 ## Package of the week
 
