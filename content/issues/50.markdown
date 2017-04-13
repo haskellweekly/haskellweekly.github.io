@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Intel Labs Functional Language Research Compiler](https://github.com/IntelLabs/flrc/tree/42126d36f36e3a2a55fbc6c1cbdb322d653d631f#readme)
+
+    > The Functional Language Research Compiler (FLRC) was designed to be a general compiler framework for functional languages. The only supported compiler that is being released is a Haskell Research Compiler (HRC). FLRC is open sourced as is. We at Intel Labs are no longer actively working on this compiler.
 
 ## Package of the week
 
