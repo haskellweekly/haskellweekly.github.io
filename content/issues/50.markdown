@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
     >
     > "No," you inform him, matter-of-factly. "No, that doesn't sound right."
 
+-   [Maybe? Use a type parameter!](http://www.parsonsmatt.org/2017/04/08/maybe_use_a_type_parameter.html)
+
+    > Haskell's a powerful and flexible language for modeling the real world. By pushing information into the type level, we can make our program safer and easier to refactor. Where many safety features provide limitations, we also get flexibility from these.
+
 ## Package of the week
 
 todo
