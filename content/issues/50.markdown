@@ -29,6 +29,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I spent most of this last weekend at BayHac, the Bay Area Haskell Hackathon! It was hosted at Takt headquarters in San Francisco. I had been looking forward to the event for a long time and I was not disappointed. I had a blast and met a ton of smart, interesting people.
 
+-   [HLint 2.0 with YAML configuration](https://neilmitchell.blogspot.com/2017/04/hlint-20-with-yaml-configuration.html)
+
+    > I've just released HLint 2.0 to Hackage. HLint has always been configurable by writing a specially crafted Haskell file (e.g. to ignore certain hints or add new ones). With HLint 2.0 we now support YAML configuration files, and moreover encourage them over the Haskell format.
+
 -   [Typing the technical interview](https://aphyr.com/posts/342-typing-the-technical-interview)
 
     > Criss stares at you for a long, long moment. "You never... you never wrote an actual *value*. You... do realize that the type system is meant to constrain *values*, right?"
