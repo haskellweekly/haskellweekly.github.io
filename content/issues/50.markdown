@@ -51,6 +51,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We're drawing closer to a release of GHC 8.2, which will feature a variety of enhancements to GHC's `deriving`-related extensions. None of the improvements are particularly revolutionary, and for most code, you won't notice a difference. But there are quite a few quality-of-life fixes that should make doing certain things with `deriving` a little less of a hassle.
 
+-   [Better Haskell packages with hpack](http://taylor.fausak.me/2017/04/12/better-haskell-packages-with-hpack/)
+
+    > Writing a Haskell package requires putting the package metadata in a Cabal file. Unfortunately the Cabal file format is custom, tedious, and verbose. Simon Hengel's hpack tool provides a better way to define Haskell packages.
+
 ## Package of the week
 
 This week's package of the week is [fmt](https://hackage.haskell.org/package/fmt),
