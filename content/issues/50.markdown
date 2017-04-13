@@ -19,6 +19,14 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The Functional Language Research Compiler (FLRC) was designed to be a general compiler framework for functional languages. The only supported compiler that is being released is a Haskell Research Compiler (HRC). FLRC is open sourced as is. We at Intel Labs are no longer actively working on this compiler.
 
+-   [Typing the technical interview](https://aphyr.com/posts/342-typing-the-technical-interview)
+
+    > Criss stares at you for a long, long moment. "You never... you never wrote an actual *value*. You... do realize that the type system is meant to constrain *values*, right?"
+    >
+    > "No," you inform him, matter-of-factly. "No, that doesn't sound right."
+
+
+
 ## Package of the week
 
 todo
