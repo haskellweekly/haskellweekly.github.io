@@ -33,6 +33,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I've just released HLint 2.0 to Hackage. HLint has always been configurable by writing a specially crafted Haskell file (e.g. to ignore certain hints or add new ones). With HLint 2.0 we now support YAML configuration files, and moreover encourage them over the Haskell format.
 
+-   [Announcing Hail: A service for pull-based continuous deployment from Hydra](https://code.takt.com/announcing-hail-4da7208df56d)
+
+    > Here at Takt we're using Nix to build our Haskell projects, so of course we're using Hydra. Hydra works well as a continuous integration solution, but doesn't fit very smoothly into any existing continuous deployment system. Enter Hail. Write a Hydra job that builds a script to setup your service, point Hail to that job, and your machine will keep itself up to date as the job changes.
+
 -   [Typing the technical interview](https://aphyr.com/posts/342-typing-the-technical-interview)
 
     > Criss stares at you for a long, long moment. "You never... you never wrote an actual *value*. You... do realize that the type system is meant to constrain *values*, right?"
