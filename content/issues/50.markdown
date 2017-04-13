@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Haskell's a powerful and flexible language for modeling the real world. By pushing information into the type level, we can make our program safer and easier to refactor. Where many safety features provide limitations, we also get flexibility from these.
 
+-   [Improvements to deriving in GHC 8.2](https://ryanglscott.github.io/2017/04/12/improvements-to-deriving-in-ghc-82/)
+
+    > We're drawing closer to a release of GHC 8.2, which will feature a variety of enhancements to GHC's `deriving`-related extensions. None of the improvements are particularly revolutionary, and for most code, you won't notice a difference. But there are quite a few quality-of-life fixes that should make doing certain things with `deriving` a little less of a hassle.
+
 ## Package of the week
 
 todo
