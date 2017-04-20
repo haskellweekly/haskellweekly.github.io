@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > The current state of GHC for mobile development (Android and iOS) via cross compilation is not as smooth as we'd like. We intend to improve the status quo considerably! To kick this off, we have prepared a survey regarding cross compilation with GHC (not just for mobile development) and would like to invite you to help us understand the needs of the community better.
 
+-   [GHC as a cross-compiler update](https://trofi.github.io/posts/200-ghc-as-a-crosscompiler-update.html)
+
+    > Gentoo's `dev-lang/ghc-8.2.1_rc1` supports both cross-building and cross-compiling modes! It's useful for cross-compiling Haskell software and initial porting of GHC itself on a new Gentoo target.
+
 ## Package of the week
 
 todo
