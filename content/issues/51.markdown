@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > You could take the view (and I suspect that you do) that `regex-0.1.0.0` was a shoddy release and that I should have taken longer to get the API right, and avoid the confusion and loss of confidence by making all of those releases, and there is a part of me that agrees with you. But is this right?
 
+-   [What pure functional programming is all about](https://www.fpcomplete.com/blog/2017/04/pure-functional-programming)
+
+    > This is a technical post series about pure functional programming. The intended audience is general programmers who are familiar with closures and some functional programming. We're going to be seeing how pure functional programming differs from regular "functional programming", in a significant way.
+
 ## Package of the week
 
 todo
