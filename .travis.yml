@@ -3,7 +3,7 @@ addons:
     packages:
     - libgmp-dev
 after_success:
-- sh tools/deploy.sh
+- stack tools/deploy.hs
 before_install:
 - sh tools/install-stack.sh
 cache:
