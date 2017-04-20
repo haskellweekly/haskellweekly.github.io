@@ -43,7 +43,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > This release includes several breaking changes, in preparation for the 1.0 release, as well as many enhancements and bug fixes. `=>` now acts like a binary type operator; `*` and `!` kinds have been removed; implicitly discarded values in `do` blocks now raise errors; no more dependency on the Bower executable; pattern guards; duplicate labels; row constraints; patterns in `let` expressions; record accessors in type directed search.
 
--   [Functional Geekery Episode 88 – Justin Woo](https://www.functionalgeekery.com/episode-88-justin-woo/)
+-   [Functional Geekery Episode 88 - Justin Woo](https://www.functionalgeekery.com/episode-88-justin-woo/)
 
     > In this episode I talk with Justin Woo. We talk his introduction to functional programming; the transition from ClojureScript to Elm to PureScript for side projects; the appeal of PureScript; evangelizing PureScript and more.
 
