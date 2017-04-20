@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [The Haskell Cast episode 12: Neil Mitchell on development tools](http://www.haskellcast.com/episode/012-neil-mitchell-on-development-tools)
+
+    > Neil Mitchell shares with us his enthusiasm for building development tools. We hear the story of how he built Hoogle in order to learn Haskell, why he created the Shake build system and what he hopes to accomplish with it, and how he uses HLint in his own development work.
+
 -   [A cross compilation survey](https://medium.com/@zw3rk/hello-world-a-cross-compilation-survey-890cb95029d7)
 
     > The current state of GHC for mobile development (Android and iOS) via cross compilation is not as smooth as we'd like. We intend to improve the status quo considerably! To kick this off, we have prepared a survey regarding cross compilation with GHC (not just for mobile development) and would like to invite you to help us understand the needs of the community better.
