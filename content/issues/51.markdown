@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Gentoo's `dev-lang/ghc-8.2.1_rc1` supports both cross-building and cross-compiling modes! It's useful for cross-compiling Haskell software and initial porting of GHC itself on a new Gentoo target.
 
+-   [Iterative package development](http://regex.uk/blog/posts/2017-04-18-iterative-development.html)
+
+    > You could take the view (and I suspect that you do) that `regex-0.1.0.0` was a shoddy release and that I should have taken longer to get the API right, and avoid the confusion and loss of confidence by making all of those releases, and there is a part of me that agrees with you. But is this right?
+
 ## Package of the week
 
 todo
