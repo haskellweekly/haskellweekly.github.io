@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [A cross compilation survey](https://medium.com/@zw3rk/hello-world-a-cross-compilation-survey-890cb95029d7)
+
+    > The current state of GHC for mobile development (Android and iOS) via cross compilation is not as smooth as we'd like. We intend to improve the status quo considerably! To kick this off, we have prepared a survey regarding cross compilation with GHC (not just for mobile development) and would like to invite you to help us understand the needs of the community better.
 
 ## Package of the week
 
