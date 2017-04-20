@@ -10,7 +10,7 @@ You can run this site locally with [Stack][]:
 
 2.  Build the project with `stack build`.
 
-3.  Run the server with `stack exec haskell-weekly server`.
+3.  Run the server with `stack exec haskell-weekly watch`.
 
 4.  Go to <http://localhost:8000>.
 
