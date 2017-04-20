@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [Glassery](http://oleg.fi/gists/posts/2017-04-18-glassery.html)
+
+    > Gathering and classifying all possible optic types gives us a reference point to guide the implementation. In this post I systematically introduce various optic types, using programming language Haskell.
+
 -   [The Haskell Cast episode 12: Neil Mitchell on development tools](http://www.haskellcast.com/episode/012-neil-mitchell-on-development-tools)
 
     > Neil Mitchell shares with us his enthusiasm for building development tools. We hear the story of how he built Hoogle in order to learn Haskell, why he created the Shake build system and what he hopes to accomplish with it, and how he uses HLint in his own development work.
