@@ -9,8 +9,8 @@ executables:
     - -rtsopts
     - -threaded
     - -with-rtsopts=-N
-    main: Main.hs
-    source-dirs: source/executables
+    main: haskell-weekly.hs
+    source-dirs: executables
 extra-source-files:
 - content/**/*
 - README.markdown
@@ -21,7 +21,7 @@ library:
   - base
   - hakyll
   - tagsoup
-  source-dirs: source/library
+  source-dirs: library
 license: MIT
 license-file: LICENSE.markdown
 maintainer: Taylor Fausak
