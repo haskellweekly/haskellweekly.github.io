@@ -23,8 +23,9 @@ main = do
 
   Monad.guard (branch == "hakyll")
   Monad.guard (isPullRequest == "false")
-  
+
   Directory.setCurrentDirectory (FilePath.joinPath ["_hakyll", "site"])
+  writeFile "CNAME" "haskellweekly.news"
   let git = Process.callProcess "git"
 
   git ["init"]
