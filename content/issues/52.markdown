@@ -49,7 +49,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 -   [My "Haskell in production" story](https://medium.com/@djoyner/my-haskell-in-production-story-e48897ed54c)
 
-    > These last two problems in particular made me glad that I’d chosen Haskell for this project. I'm sure they could have been solved in Go, but the elegance and concision of the Haskell-based solution is impressive.
+    > These last two problems in particular made me glad that I'd chosen Haskell for this project. I'm sure they could have been solved in Go, but the elegance and concision of the Haskell-based solution is impressive.
 
 ## Package of the week
 
