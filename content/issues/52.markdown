@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We are looking to expand the stackage curator team! As a Stackage curator you will help the community by curating and publishing the widely used nightly and LTS snapshots: Collections of packages that are guaranteed to play well together. All curators are volunteers.
 
+-   [The water jug problem in Hedgehog](http://clrnd.com.ar/posts/2017-04-21-the-water-jug-problem-in-hedgehog.html)
+
+    > Let's try Hedgehog with the water jug problem. You have 2 water jugs that you can either fill or empty. One has 5 litter capacity and the other 3. You win by leaving 4 litters in the big one.
+
 ## Package of the week
 
 todo
