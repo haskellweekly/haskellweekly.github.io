@@ -35,6 +35,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > To make that goal of a formally verified compiler more feasible, I set out and implemented code generation from GHC's intermediate language Core to LLVM IR, with simplicity as the main design driving factor.
 
+-   [Haskell success stories](https://www.snoyman.com/blog/2017/04/haskell-success-stories)
+
+    > I think we have a problem in the Haskell community. We all know that using Haskell to create a simple web service, a CRUD app, a statically linked command line tool, or a dozen other things is not only possible, but commonplace, trivial, and not even noteworthy.
+
 ## Package of the week
 
 todo
