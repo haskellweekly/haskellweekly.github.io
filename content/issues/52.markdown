@@ -15,7 +15,9 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
-todo
+-   [Student applications are now open](https://summer.haskell.org/news/2017-04-25-student-applications-open.html)
+
+    > We are now happy to announce that we have opened student applications for Summer of Haskell 2017. The application period is open until the 6th of May, so that should give you plenty of time. At this time, we are also actively seeking mentors. In case you would like to mentor a project, please let us know. Thanks to the generous donations of our sponsors, we will be able to sponsor around 10 students this year.
 
 ## Package of the week
 
