@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > I think we have a problem in the Haskell community. We all know that using Haskell to create a simple web service, a CRUD app, a statically linked command line tool, or a dozen other things is not only possible, but commonplace, trivial, and not even noteworthy.
 
+-   [Parse Ruby objects in Haskell](https://filib.io/posts/2017-04-24-parse-ruby-objects-in-haskell.html)
+
+    > In 2015 I released my first Haskell project ruby-marshal. It's a package that uses the binary package to parse Ruby objects serialised with Marshal.dump. I wrote it in my spare time because I was curious to know whether I could devise a strategy to incrementally migrate legacy Ruby on Rails applications over to Haskell without the risk associated with a full rewrite.
+
 ## Package of the week
 
 todo
