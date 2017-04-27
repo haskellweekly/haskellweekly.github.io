@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We are now happy to announce that we have opened student applications for Summer of Haskell 2017. The application period is open until the 6th of May, so that should give you plenty of time. At this time, we are also actively seeking mentors. In case you would like to mentor a project, please let us know. Thanks to the generous donations of our sponsors, we will be able to sponsor around 10 students this year.
 
+-   [BayHac 2017](https://www.youtube.com/playlist?list=PL5lgjzYOvyYNchlkMzvDqd1F6gS-COCDo)
+
+    Presentations by Julie Moronuki, John Wiegley, Rúnar Bjarnason, Gabriel Gonzalez, Chris Smith, Doug Beardsley, James Bowen, Luite Stegeman, Greg Hale, Tikhon Jelvis, Dimitri DeFigueiredo, Adelbert Chang, John Leo, Judah Jacobson, Frederick Mayle, and Sandy Maguire.
+
 ## Package of the week
 
 todo
