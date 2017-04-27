@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     Presentations by Julie Moronuki, John Wiegley, Rúnar Bjarnason, Gabriel Gonzalez, Chris Smith, Doug Beardsley, James Bowen, Luite Stegeman, Greg Hale, Tikhon Jelvis, Dimitri DeFigueiredo, Adelbert Chang, John Leo, Judah Jacobson, Frederick Mayle, and Sandy Maguire.
 
+-   [Become a curator](https://github.com/fpco/stackage/blob/8b9d77980df221f393580438bedb9787f50922fc/become-a-curator.md)
+
+    > We are looking to expand the stackage curator team! As a Stackage curator you will help the community by curating and publishing the widely used nightly and LTS snapshots: Collections of packages that are guaranteed to play well together. All curators are volunteers.
+
 ## Package of the week
 
 todo
