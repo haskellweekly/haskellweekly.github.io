@@ -53,6 +53,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## Package of the week
 
-todo
+This week's package of the week is [Hedgehog](https://hackage.haskell.org/package/hedgehog),
+a modern property-based testing system in the spirit of QuickCheck.
 
 Send us a message [on Twitter](https://twitter.com/haskellweekly) to nominate next week's package!
