@@ -31,6 +31,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Let's try Hedgehog with the water jug problem. You have 2 water jugs that you can either fill or empty. One has 5 litter capacity and the other 3. You win by leaving 4 litters in the big one.
 
+-   [Veggies: Haskell code generation from scratch](https://www.joachim-breitner.de/blog/719-veggies__Haskell_code_generation_from_scratch)
+
+    > To make that goal of a formally verified compiler more feasible, I set out and implemented code generation from GHC's intermediate language Core to LLVM IR, with simplicity as the main design driving factor.
+
 ## Package of the week
 
 todo
