@@ -23,6 +23,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Haskell is a great programming language. It requires some effort at the beginning, but you get to learn a very different way of thinking about your problems. At the same time, the ecosystem matured significantly (hopefully signalling a trend) and the language can be great to work with.
 
+-   [Open sourcing our new Duckling](https://wit.ai/blog/2017/05/01/new-duckling)
+
+    > One of these rule-based systems is Duckling, our open-sourced probabilistic parser to detect entities like dates and times, numbers, and durations. Due to our extensive growth, Duckling was not scaling as fast as we were. After considering several options, we decided to go with a rewrite in Haskell.
+
 -   [Stutter: the anti-grep](http://www.nmattia.com/posts/2017-05-01-release-stutter.html)
 
     > I'm going to introduce stutter, a command line tool for generating strings. I'll first show some examples, then talk a bit about the performance and finally about the implementation (for the Haskell friendly reader).
