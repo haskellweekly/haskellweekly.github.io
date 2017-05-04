@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > While we cannot eliminate the instances entirely without somewhat dangerous techniques like overlapping instances, we can automatically derive them using features of modern GHC, eliminating the truly unnecessary boilerplate.
 
+-   [What a Haskell study group is not](http://bitemyapp.com//posts/2017-05-03-what-a-haskell-study-group-is-not.html)
+
+    > In this article, I will share my thoughts on what made our group successful, where we went astray, and in particular on what a Haskell study group should not be—as the pitfalls are many but advice for avoiding them, based on actual experience, scant.
+
 -   [Using Haskell in Rust](https://mgattozzi.com/rust-haskell)
 
     > I'm hoping that examples like this will allow Rust users in the future to leverage the power Haskell has, such as infinite lists, in their code or vice versa and allowing Haskell to have a type safe fast language when speed truly is critical.
