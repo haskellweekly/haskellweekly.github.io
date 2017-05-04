@@ -39,6 +39,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > In this article, I will share my thoughts on what made our group successful, where we went astray, and in particular on what a Haskell study group should not be—as the pitfalls are many but advice for avoiding them, based on actual experience, scant.
 
+-   [What's a monad? Digging into Haskell](https://blog.scottnonnenberg.com/what-s-a-monad-digging-into-haskell/)
+
+    > Haskell is incredibly powerful, and incredibly complex. I see now why it has the reputation it does. There's a huge barrier to entry, and it really is vastly different from the set of languages primarily taught and used today.
+
 -   [Using Haskell in Rust](https://mgattozzi.com/rust-haskell)
 
     > I'm hoping that examples like this will allow Rust users in the future to leverage the power Haskell has, such as infinite lists, in their code or vice versa and allowing Haskell to have a type safe fast language when speed truly is critical.
