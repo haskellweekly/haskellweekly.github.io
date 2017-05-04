@@ -27,6 +27,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > While we cannot eliminate the instances entirely without somewhat dangerous techniques like overlapping instances, we can automatically derive them using features of modern GHC, eliminating the truly unnecessary boilerplate.
 
+-   [Using Haskell in Rust](https://mgattozzi.com/rust-haskell)
+
+    > I'm hoping that examples like this will allow Rust users in the future to leverage the power Haskell has, such as infinite lists, in their code or vice versa and allowing Haskell to have a type safe fast language when speed truly is critical.
+
 ## Package of the week
 
 This week's package of the week is [Chart](https://hackage.haskell.org/package/Chart),
