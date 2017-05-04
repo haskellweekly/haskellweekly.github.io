@@ -15,6 +15,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 ## News from the Haskell community
 
+-   [One year of Haskell Weekly](http://taylor.fausak.me/2017/05/04/one-year-of-haskell-weekly/)
+
+    > One year ago I published the first issue of Haskell Weekly, a free email newsletter about the Haskell programming language. For the first few months I ran it in stealth mode, making sure the idea made sense and ironing out all the kinks.
+
 -   [I tried Haskell for 5 years and here's how it was](https://metarabbit.wordpress.com/2017/05/02/i-tried-haskell-for-5-years-and-heres-how-it-was/)
 
     > Haskell is a great programming language. It requires some effort at the beginning, but you get to learn a very different way of thinking about your problems. At the same time, the ecosystem matured significantly (hopefully signalling a trend) and the language can be great to work with.
