@@ -19,6 +19,10 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > Haskell is a great programming language. It requires some effort at the beginning, but you get to learn a very different way of thinking about your problems. At the same time, the ecosystem matured significantly (hopefully signalling a trend) and the language can be great to work with.
 
+-   [Stutter: the anti-grep](http://www.nmattia.com/posts/2017-05-01-release-stutter.html)
+
+    > I'm going to introduce stutter, a command line tool for generating strings. I'll first show some examples, then talk a bit about the performance and finally about the implementation (for the Haskell friendly reader).
+
 -   [Lifts for free: making mtl typeclasses derivable](https://lexi-lambda.github.io/blog/2017/04/28/lifts-for-free-making-mtl-typeclasses-derivable/)
 
     > While we cannot eliminate the instances entirely without somewhat dangerous techniques like overlapping instances, we can automatically derive them using features of modern GHC, eliminating the truly unnecessary boilerplate.
