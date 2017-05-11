@@ -14,3 +14,7 @@ published: 2017-05-11
 -   [Dialogues on do notation](https://joyofhaskell.com/posts/2017-05-07-do-notation.html)
 
     > These dialogue snippets are from a series of conversations occurring over months, but we've edited them to try to present a mostly coherent presentation of what we think about do notation and why. The first time we realized that we have a disagreement came in a conversation about Applicative. This was right before I was going to teach a class about Applicative and was trying to figure out what syntax people unfamiliar with Applicative find easiest to read.
+
+-   [The worst function in Conduit](https://www.snoyman.com/blog/2017/05/worst-function-in-conduit)
+
+    > My point here is that we have two legitimate definitions of a function. And from my experience, different people expect different behavior for the function. In fact, some people (myself included) intuitively expect different behavior depending on the circumstance! This is what earns `drop` the title of worst function in conduit.
