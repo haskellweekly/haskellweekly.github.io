@@ -22,3 +22,7 @@ published: 2017-05-11
 -   [Tour of an open-source Elm SPA](https://dev.to/rtfeldman/tour-of-an-open-source-elm-spa)
 
     > People often ask me if I can point them to an open-source Elm Single Page Application so they can peruse its code. Ilias van Peer linked me to the RealWorld project, which seemed perfect for this. They provide a back-end API, static markup, styles, and a spec, and you build a SPA front-end for it using your technology of choice. Here's the result. I had a ton of fun building it!
+
+-   [4 Steps to a better imports list](https://mmhaskell.com/blog/2017/5/8/4-steps-to-a-better-imports-list)
+
+    > Imagine someone is trying to make their first contribution to your codebase. They have no idea which functions are defined where. They aren't necessarily familiar with the libraries you use. So what happens when they come across a function they don't know? They'll search for the definition in the file itself. But if it's not there, they'll have to look to the imports section.
