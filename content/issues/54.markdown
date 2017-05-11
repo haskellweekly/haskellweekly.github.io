@@ -18,3 +18,7 @@ published: 2017-05-11
 -   [The worst function in Conduit](https://www.snoyman.com/blog/2017/05/worst-function-in-conduit)
 
     > My point here is that we have two legitimate definitions of a function. And from my experience, different people expect different behavior for the function. In fact, some people (myself included) intuitively expect different behavior depending on the circumstance! This is what earns `drop` the title of worst function in conduit.
+
+-   [Tour of an open-source Elm SPA](https://dev.to/rtfeldman/tour-of-an-open-source-elm-spa)
+
+    > People often ask me if I can point them to an open-source Elm Single Page Application so they can peruse its code. Ilias van Peer linked me to the RealWorld project, which seemed perfect for this. They provide a back-end API, static markup, styles, and a spec, and you build a SPA front-end for it using your technology of choice. Here's the result. I had a ton of fun building it!
