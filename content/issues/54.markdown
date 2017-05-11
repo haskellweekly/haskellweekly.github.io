@@ -34,3 +34,8 @@ published: 2017-05-11
 -   [Continuations all the way down](http://teh.id.au/posts/2017/05/10/lambdajam-slides/index.html)
 
     > Here are the slides for my Lambda Jam talk, "Continuations all the way down." It was originally going to be a collection of "why is it fast" anecdotes from popular Hackage libraries, since I know of several that observed significant improvements via CPS. When this happens, it could be due to the elimination of some incidentally complicated internal expression, either by something akin to `fmap` fusion or by tweaking the associativity.
+
+## Package of the week
+
+This week's package of the week is [microlens-aeson](https://hackage.haskell.org/package/microlens-aeson),
+a library for working with JSON values using lenses.
