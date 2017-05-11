@@ -2,3 +2,7 @@
 title: Issue 54
 published: 2017-05-11
 ---
+
+-   [Loc, Span, and Area](https://chris-martin.org/2017/loc)
+
+    > I started using haskell-src-exts recently to parse Haskell files to turn them into LaTeX for The Joy of Haskell. I wasn't used to this sort of parser that produces an AST that's mapped back to the source file by line and column numbers, so it took me a while to wrap my head around what to do with its output. After a while, I settled on some types, invented some terminology, and published a library: loc.
