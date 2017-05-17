@@ -1,0 +1,133 @@
+html {
+  background: #d3d7cf;
+}
+
+body {
+  background: #ffffff;
+  color: #2e3436;
+  font: 20px/1.5em 'Verdana', sans-serif;
+  margin: 0;
+}
+
+a {
+  border-bottom: thin solid;
+  color: #3465a4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #75507b;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 0 0.5em;
+}
+
+header {
+  background: #d3d7cf;
+  margin-bottom: 1.5em;
+}
+
+header h1 {
+  font: inherit;
+  font-size: 2em;
+  line-height: 3em;
+  margin: 0;
+  text-align: center;
+}
+
+header a {
+  border: none;
+  color: #5c3566;
+  display: block;
+}
+
+header img {
+  display: inline-block;
+  height: 1em;
+  vertical-align: baseline;
+}
+
+@media only screen and (max-width: 500px) {
+  header span {
+    display: none;
+  }
+}
+
+main article {
+  margin: 1.5em 0;
+}
+
+main h2 {
+  font: inherit;
+  font-size: 1.5em;
+  line-height: 1em;
+  margin: 1em 0;
+}
+
+main time {
+  display: block;
+  font-style: italic;
+  margin-top: -1.5em;
+}
+
+main p {
+  margin: 1.5em 0;
+}
+
+main ul {
+  list-style-type: square;
+  margin: 1.5em 0;
+  padding: 0 0 0 1em;
+}
+
+main blockquote {
+  border-left: thin solid #d3d7cf;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+main aside {
+  border-top: thin solid #d3d7cf;
+  margin: 1.5em 0;
+}
+
+main form {
+  line-height: 3em;
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+main fieldset {
+  border: thin solid #d3d7cf;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+main input {
+  border: none;
+  border-radius: 0;
+  display: inline-block;
+  font: inherit;
+  padding: 0 0.5em;
+  width: 10em;
+}
+
+main button {
+  background: #3465a4;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  padding: 0 0.5em;
+}
+
+footer {
+  background: #d3d7cf;
+  margin-top: 1.5em;
+  padding: 1.5em 0;
+}

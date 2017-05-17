@@ -21,8 +21,7 @@ rules :: H.Rules ()
 rules = do
   H.match "templates/*" (H.compile H.templateBodyCompiler)
   H.match "images/*" imageRules
-  H.match "styles/*" (H.compile H.compressCssCompiler)
-  H.create ["styles/all.css"] styleRules
+  H.match "styles/*" styleRules
   H.match "issues/*" issueRules
   H.create ["haskell-weekly.atom"] (feedRules H.renderAtom)
   H.create ["haskell-weekly.rss"] (feedRules H.renderRss)
@@ -36,16 +35,7 @@ imageRules = do
 styleRules :: H.Rules ()
 styleRules = do
   H.route H.idRoute
-  H.compile
-    (do let styles =
-              [ "styles/pure-base.css"
-              , "styles/pure-buttons.css"
-              , "styles/pure-forms.css"
-              , "styles/haskell-weekly.css"
-              ]
-        bodies <- mapM H.loadBody styles
-        let body = concat bodies :: String
-        H.makeItem body)
+  H.compile H.compressCssCompiler
 
 issueRules :: H.Rules ()
 issueRules = do

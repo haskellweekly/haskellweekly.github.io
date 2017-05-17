@@ -12,8 +12,7 @@
 
     <title>$if(hasTitle)$$title$ :: $endif$Haskell Weekly</title>
 
-    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly (Atom)" type="application/atom+xml">
-    <link href="/haskell-weekly.rss" rel="alternate" title="Haskell Weekly (RSS)" type="application/rss+xml">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
     <link href="/styles/all.css" rel="stylesheet">
     <link href="/images/favicon.ico" rel="shortcut icon">
     <link href="$url$" rel="canonical">
@@ -21,22 +20,31 @@
 
   <body>
     <header>
-      <a href="/" title="Haskell Weekly">
-        <img alt="Haskell Weekly" class="logo" src="/images/logo.svg">
-      </a>
+      <div class="wrapper">
+        <h1>
+          <a href="/">
+            <img alt src="/images/logo.svg">
+            <span>
+              Haskell Weekly
+            </span>
+          </a>
+        </h1>
+      </div>
     </header>
 
     <main>
-      $body$
+      <div class="wrapper">
+        $body$
+      </div>
     </main>
 
     <footer>
-      <hr>
-
-      <p>
-        Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
-        The source code for this site is available <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
-      </p>
+      <div class="wrapper">
+        <p>
+          Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
