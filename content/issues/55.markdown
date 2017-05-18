@@ -25,6 +25,10 @@ This is a weekly summary of what's going on in its community.
 
     > It turned out that a misplaced INLINE pragma was causing a lot of simplification work to be duplicated. Removing the pragma allowed the compiler to operate faster whilst producing the same code.
 
+-   [Haskell Bits #5: Easily working with JSON](http://www.kovach.me/posts/2017-05-11-easy-json.html)
+
+    > JSON is ubiquitous nowadays, perhaps most importantly for web APIs. We'll probably need to interact with (or build) one of those at some point, so we must be able to handle JSON in Haskell, right? Yep --- also it's pretty easy. Let's talk about it!
+
 ## Package of the week
 
 todo
