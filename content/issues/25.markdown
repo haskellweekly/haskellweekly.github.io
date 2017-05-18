@@ -6,7 +6,7 @@ published: 2016-10-20
 -   [A new ecosystem for Haskell: the JVM](http://blog.tweag.io/posts/2016-10-17-inline-java.html)
 
     > With `jvm`, you can call any method known to the JVM from Haskell. With `inline-java`, you can moreover call these methods in Java syntax, embedded in your source files.
-    
+
 -   [HyperHaskell: the strongly hyped Haskell interpreter](https://mail.haskell.org/pipermail/haskell/2016-October/025010.html)
 
     > HyperHaskell is a graphical Haskell interpreter (REPL), not unlike GHCi, but hopefully more awesome. You use worksheets to enter expressions and evaluate them. Results are displayed using HTML.
