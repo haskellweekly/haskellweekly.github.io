@@ -43,4 +43,5 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-todo
+This week's package of the week is [wreq](https://www.stackage.org/lts-8.14/package/wreq-0.5.0.1),
+an HTTP client library that's easy to use.
