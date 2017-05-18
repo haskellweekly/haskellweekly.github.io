@@ -37,6 +37,10 @@ This is a weekly summary of what's going on in its community.
 
     > But do spread the word about monoids. They are, quite literally, everywhere --- whether you take advantage of their useful properties or not. Obviously, you should.
 
+-   [Untangling Haskell's strings](https://mmhaskell.com/blog/2017/5/15/untangling-haskells-strings)
+
+    > There are, in total, five different types representing strings in Haskell. In this article we'll go over these five different types. We'll examine their different use cases, and observe how to convert between them.
+
 ## Package of the week
 
 todo
