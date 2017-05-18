@@ -21,13 +21,17 @@ This is a weekly summary of what's going on in its community.
 
     zw3rk also published their [cross compilation survey results](https://medium.com/@zw3rk/cross-compilation-survey-results-3988ad1b677b) recently.
 
--   [INLIN(E)ing: a case study](https://mpickering.github.io/posts/2017-05-17-inlining-case-study.html)
+-   [INLIN(E)ing: A case study](https://mpickering.github.io/posts/2017-05-17-inlining-case-study.html)
 
     > It turned out that a misplaced INLINE pragma was causing a lot of simplification work to be duplicated. Removing the pragma allowed the compiler to operate faster whilst producing the same code.
 
 -   [Haskell Bits #5: Easily working with JSON](http://www.kovach.me/posts/2017-05-11-easy-json.html)
 
     > JSON is ubiquitous nowadays, perhaps most importantly for web APIs. We'll probably need to interact with (or build) one of those at some point, so we must be able to handle JSON in Haskell, right? Yep --- also it's pretty easy. Let's talk about it!
+
+-   [On type class instance selection](https://hackernoon.com/typeclass-instance-selection-fea1068920e6)
+
+    > Many Haskellers have bad memories of failed attempts to use type classes successfully. My hope is by demystifying how type class instance selection works, we can avoid undue anguish.
 
 ## Package of the week
 
