@@ -33,6 +33,10 @@ This is a weekly summary of what's going on in its community.
 
     > Many Haskellers have bad memories of failed attempts to use type classes successfully. My hope is by demystifying how type class instance selection works, we can avoid undue anguish.
 
+-   [Five minutes to monoid](https://medium.com/@sjsyrek/five-minutes-to-monoid-fe6f364d0bba)
+
+    > But do spread the word about monoids. They are, quite literally, everywhere --- whether you take advantage of their useful properties or not. Obviously, you should.
+
 ## Package of the week
 
 todo
