@@ -21,6 +21,10 @@ This is a weekly summary of what's going on in its community.
 
     zw3rk also published their [cross compilation survey results](https://medium.com/@zw3rk/cross-compilation-survey-results-3988ad1b677b) recently.
 
+-   [INLIN(E)ing: a case study](https://mpickering.github.io/posts/2017-05-17-inlining-case-study.html)
+
+    > It turned out that a misplaced INLINE pragma was causing a lot of simplification work to be duplicated. Removing the pragma allowed the compiler to operate faster whilst producing the same code.
+
 ## Package of the week
 
 todo
