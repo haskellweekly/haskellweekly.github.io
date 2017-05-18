@@ -19,7 +19,7 @@ published: 2016-06-30
 
     > Implement a robust and scalable distributed computing middleware for Haskell, by reusing Apache Spark.
 
--   [STGi - STG interpreter](https://github.com/quchen/stgi/blob/ad42c7e676276f8551cc43ec082cf0c46c330882/README.md#readme)
+-   [STGi: STG interpreter](https://github.com/quchen/stgi/blob/ad42c7e676276f8551cc43ec082cf0c46c330882/README.md#readme)
 
     > STGi is a visual STG implementation to help understand Haskell's execution model.
 

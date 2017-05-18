@@ -7,7 +7,7 @@ published: 2016-05-19
 
     > We discovered in particular that [GHC's GC's] pause times relate linearly to the size of the working set.
 
--   [GHCVM - A JVM backend for GHC](https://github.com/rahulmutt/ghcvm)
+-   [GHCVM: A JVM backend for GHC](https://github.com/rahulmutt/ghcvm)
 
     > Compile Haskell to the JVM, with the primary goal of seamless compatibility with GHC 7.10.3's Haskell.
 

@@ -29,7 +29,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
 -   [GRAKN.AI and Haskell](https://blog.grakn.ai/grakn-ai-and-haskell-c166c7cc1d23)
 
-    > This blog post introduces graql-haskell, which is a library that lets you interface with the Grakn knowledge graph using Haskell. It is ideal for applications like data science -- using Grakn as the database, Haskell for data processing and Graql as the intermediary between the two.
+    > This blog post introduces graql-haskell, which is a library that lets you interface with the Grakn knowledge graph using Haskell. It is ideal for applications like data science --- using Grakn as the database, Haskell for data processing and Graql as the intermediary between the two.
 
 -   [An interview with Haskell developer Edward Kmett](https://theinitialcommit.com/2017/01/10/edward-kmett/)
 

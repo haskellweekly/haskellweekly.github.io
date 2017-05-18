@@ -15,7 +15,7 @@ published: 2016-07-28
 
     > Allow a systematic way for community members to report security holes and major bugs in a specific version of a package.
 
--   [Algebraic patterns - Monoid](https://philipnilsson.github.io/Badness10k/posts/2016-07-21-functional-patterns-monoid.html)
+-   [Algebraic patterns: Monoid](https://philipnilsson.github.io/Badness10k/posts/2016-07-21-functional-patterns-monoid.html)
 
     > The monoid pattern models the many structures that are semigroups and also have identity elements.
 
