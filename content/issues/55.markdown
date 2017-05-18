@@ -7,7 +7,9 @@ Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a purely functional programming language that focuses on robustness, concision, and correctness.
 This is a weekly summary of what's going on in its community.
 
-todo
+-   [GHC 8.2.1 release candidate 2](https://mail.haskell.org/pipermail/ghc-devs/2017-May/014197.html)
+
+    > The GHC team is very pleased to announce the second candidate of the 8.2.1 release of the Glasgow Haskell Compiler. Source and binary distributions are available. This is the second of what will likely be either two or three release candidates leading up the final 8.2.1 release.
 
 ## Package of the week
 
