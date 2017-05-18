@@ -13,7 +13,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [Testing GHC release candidates with Stack](http://taylor.fausak.me/2017/05/17/testing-ghc-release-candidates-with-stack/)
 
-    > Using the new compiler or interpreter directly is easy enough, but what about building an entire project? How can a Haskell developer test their code with the latest release candidate? I’m going to show you how to use Stack to do just that.
+    > Using the new compiler or interpreter directly is easy enough, but what about building an entire project? How can a Haskell developer test their code with the latest release candidate? I'm going to show you how to use Stack to do just that.
 
 -   [The Haskell Cabal and cross compilation](https://medium.com/@zw3rk/the-haskell-cabal-and-cross-compilation-e9885fd5e2f)
 
