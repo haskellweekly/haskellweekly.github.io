@@ -1,126 +1,139 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module HaskellWeekly where
+module HaskellWeekly (main) where
 
-import qualified Hakyll as H
-import qualified Text.HTML.TagSoup as TS
+import Data.Maybe (mapMaybe)
+import Hakyll
+
+import qualified Text.HTML.TagSoup as Html
+
+-- Main
 
 main :: IO ()
-main = H.hakyllWith configuration rules
+main = hakyllWith configuration rules
 
-configuration :: H.Configuration
-configuration =
-  H.defaultConfiguration
-  { H.destinationDirectory = "_hakyll/site"
-  , H.providerDirectory = "content"
-  , H.storeDirectory = "_hakyll/cache"
-  , H.tmpDirectory = "_hakyll/tmp"
+-- Configuration
+
+configuration :: Configuration
+configuration = defaultConfiguration
+  { destinationDirectory = "_hakyll/site"
+  , providerDirectory = "content"
+  , storeDirectory = "_hakyll/cache"
+  , tmpDirectory = "_hakyll/tmp"
   }
 
-rules :: H.Rules ()
+-- Rules
+
+rules :: Rules ()
 rules = do
-  H.match "templates/*" (H.compile H.templateBodyCompiler)
-  H.match "images/*" imageRules
-  H.match "styles/*" styleRules
-  H.match "issues/*" issueRules
-  H.create ["haskell-weekly.atom"] (feedRules H.renderAtom)
-  H.create ["haskell-weekly.rss"] (feedRules H.renderRss)
-  H.match "pages/index.html" indexRules
+  match "templates/*" templateRules
+  match "images/*" imageRules
+  match "styles/*" styleRules
+  match "issues/*" issueRules
+  create ["haskell-weekly.atom"] (feedRules renderAtom)
+  create ["haskell-weekly.rss"] (feedRules renderRss)
+  match "pages/index.html" indexRules
 
-imageRules :: H.Rules ()
+templateRules :: Rules ()
+templateRules = compile templateBodyCompiler
+
+imageRules :: Rules ()
 imageRules = do
-  H.route H.idRoute
-  H.compile H.getResourceLBS
+  route idRoute
+  compile getResourceLBS
 
-styleRules :: H.Rules ()
+styleRules :: Rules ()
 styleRules = do
-  H.route H.idRoute
-  H.compile H.compressCssCompiler
+  route idRoute
+  compile compressCssCompiler
 
-issueRules :: H.Rules ()
+issueRules :: Rules ()
 issueRules = do
-  H.route (H.setExtension ".html")
-  H.compile
-    (H.pandocCompiler >>= H.saveSnapshot "content" >>=
-     H.loadAndApplyTemplate "templates/issue.html" issueContext >>=
-     H.loadAndApplyTemplate "templates/base.html" issueContext >>=
-     H.relativizeUrls)
+  route (setExtension ".html")
+  compile (pandocCompiler
+    >>= saveSnapshot "content"
+    >>= loadAndApplyTemplate "templates/issue.html" issueContext
+    >>= loadAndApplyTemplate "templates/base.html" issueContext
+    >>= relativizeUrls)
 
-issueContext :: H.Context String
-issueContext =
-  mconcat
-    [ H.boolField "hasTitle" (const True)
-    , H.dateField "date" "%B %-e %Y"
-    , H.dateField "isoDate" "%Y-%m-%d"
-    , defaultContext
-    ]
+feedRules :: RenderFeed -> Rules ()
+feedRules render = do
+  route idRoute
+  compile (do
+    issues <- loadIssues (Just 8)
+    render feedConfiguration feedContext issues)
 
-defaultContext :: H.Context String
-defaultContext = mconcat [H.field "summary" summarize, H.defaultContext]
+indexRules :: Rules ()
+indexRules = do
+  route (constRoute "index.html")
+  compile (do
+    issues <- loadIssues Nothing
+    let context = indexContext issues
+    getResourceBody
+      >>= applyAsTemplate context
+      >>= loadAndApplyTemplate "templates/base.html" context
+      >>= relativizeUrls)
 
-summarize :: H.Item String -> H.Compiler String
-summarize item = do
-  let body = H.itemBody item
-  let tags = TS.parseTags body
-  let text = map extractText tags
-  let summary = takeWords 27 (unwords text)
-  pure summary
+-- Contexts
 
-extractText :: TS.Tag String -> String
-extractText tag =
-  case tag of
-    TS.TagText x -> x
-    _ -> ""
+baseContext :: Context String
+baseContext = mconcat [field "summary" summarize, defaultContext]
+
+issueContext :: Context String
+issueContext = mconcat
+  [ boolField "hasTitle" (const True)
+  , dateField "date" "%B %-e %Y"
+  , dateField "isoDate" "%Y-%m-%d"
+  , baseContext
+  ]
+
+feedContext :: Context String
+feedContext = mconcat [bodyField "description", issueContext]
+
+indexContext :: [Item String] -> Context String
+indexContext issues = mconcat
+  [ boolField "hasTitle" (const False)
+  , listField "issues" issueContext (pure issues)
+  , baseContext
+  ]
+
+-- Helpers
+
+type RenderFeed = FeedConfiguration
+  -> Context String
+  -> [Item String]
+  -> Compiler (Item String)
+
+extractText :: Html.Tag String -> Maybe String
+extractText tag = case tag of
+  Html.TagText x -> Just x
+  _ -> Nothing
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+  { feedAuthorEmail = "info@haskellweekly.news"
+  , feedAuthorName = "Haskell Weekly"
+  , feedDescription = "A weekly Haskell newsletter."
+  , feedRoot = "https://haskellweekly.news"
+  , feedTitle = "Haskell Weekly"
+  }
+
+loadIssues :: Maybe Int -> Compiler [Item String]
+loadIssues limit = do
+  issues <- loadAllSnapshots "issues/*" "content"
+  sortedIssues <- recentFirst issues
+  pure (maybeTake limit sortedIssues)
+
+maybeTake :: Maybe Int -> [a] -> [a]
+maybeTake = maybe id take
+
+summarize :: Item String -> Compiler String
+summarize = pure
+  . takeWords 32
+  . unwords
+  . mapMaybe extractText
+  . Html.parseTags
+  . itemBody
 
 takeWords :: Int -> String -> String
 takeWords n = unwords . take n . words
-
-feedRules
-  :: (H.FeedConfiguration -> H.Context String -> [H.Item String] -> H.Compiler (H.Item String))
-  -> H.Rules ()
-feedRules render = do
-  let limit = Just 8
-  H.route H.idRoute
-  H.compile
-    (do issues <- loadIssues limit
-        render feedConfiguration feedContext issues)
-
-loadIssues :: Maybe Int -> H.Compiler [H.Item String]
-loadIssues maybeLimit = do
-  allIssues <- H.loadAllSnapshots "issues/*" "content"
-  allSortedIssues <- H.recentFirst allIssues
-  case maybeLimit of
-    Nothing -> pure allSortedIssues
-    Just limit -> do
-      let someSortedIssues = take limit allSortedIssues
-      pure someSortedIssues
-
-feedContext :: H.Context String
-feedContext = mconcat [H.bodyField "description", issueContext]
-
-feedConfiguration :: H.FeedConfiguration
-feedConfiguration =
-  H.FeedConfiguration
-  { H.feedAuthorEmail = "info@haskellweekly.news"
-  , H.feedAuthorName = "Haskell Weekly"
-  , H.feedDescription = "A weekly Haskell newsletter."
-  , H.feedRoot = "https://haskellweekly.news"
-  , H.feedTitle = "Haskell Weekly"
-  }
-
-indexRules :: H.Rules ()
-indexRules = do
-  H.route (H.constRoute "index.html")
-  H.compile
-    (do issues <- loadIssues Nothing
-        let context =
-              mconcat
-                [ H.listField "issues" issueContext (pure issues)
-                , defaultContext
-                ]
-        H.getResourceBody >>= H.applyAsTemplate context >>=
-          H.loadAndApplyTemplate "templates/base.html" indexContext >>=
-          H.relativizeUrls)
-
-indexContext :: H.Context String
-indexContext = mconcat [H.boolField "hasTitle" (const False), defaultContext]

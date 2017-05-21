@@ -1,21 +1,21 @@
+sudo: false
+language: c
 addons:
   apt:
     packages:
-    - libgmp-dev
-after_success:
-- stack tools/deploy.hs
-before_install:
-- sh tools/install-stack.sh
+      - libgmp-dev
 cache:
   directories:
-  - $HOME/.local/bin
-  - $HOME/.stack
-install:
-- stack setup
-- stack build --only-dependencies
-language: c
+    - $HOME/.local/bin
+    - $HOME/.stack
+before_install:
+  - sh tools/install-stack.sh
+  install:
+    - stack setup
+    - stack build --only-dependencies
 script:
-- stack build
-- stack sdist --pvp-bounds both
-- stack exec haskell-weekly rebuild
-sudo: false
+  - stack build
+  - stack sdist --pvp-bounds both
+  - stack exec haskell-weekly rebuild
+after_success:
+  - stack tools/deploy.hs
