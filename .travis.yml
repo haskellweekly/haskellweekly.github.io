@@ -10,9 +10,9 @@ cache:
     - $HOME/.stack
 before_install:
   - sh tools/install-stack.sh
-  install:
-    - stack setup
-    - stack build --only-dependencies
+install:
+  - stack setup
+  - stack build --only-dependencies
 script:
   - stack build
   - stack sdist --pvp-bounds both
