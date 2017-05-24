@@ -86,25 +86,18 @@ main aside {
 }
 
 main form {
-  line-height: 3em;
-  margin: 1.5em 0;
-  text-align: center;
-}
-
-main fieldset {
   border: thin solid #d3d7cf;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  line-height: 3em;
+  margin: 1.5em auto;
+  max-width: 20em;
 }
 
 main input {
   border: none;
-  border-radius: 0;
-  display: inline-block;
   font: inherit;
   padding: 0 0.5em;
-  width: 10em;
+  width: 100%;
 }
 
 main button {
@@ -112,7 +105,6 @@ main button {
   border: none;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
   font: inherit;
   padding: 0 0.5em;
 }
