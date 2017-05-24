@@ -39,6 +39,7 @@ header img {
   display: inline-block;
   height: 1em;
   vertical-align: baseline;
+  width: auto;
 }
 
 @media only screen and (max-width: 500px) {
