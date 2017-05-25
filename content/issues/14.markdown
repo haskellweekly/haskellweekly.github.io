@@ -23,6 +23,6 @@ published: 2016-08-04
 
     > SML is really limited to the areas of the Haskell type system you'd be accustomed to after reading Learn You A Haskell!
 
--   [Type level unit tests](https://www.reddit.com/r/haskell/comments/4vl0yn/ann_type_level_unittests/)
+-   [Type level unit tests](https://np.reddit.com/r/haskell/comments/4vl0yn/ann_type_level_unittests/)
 
     > The compiler only states what doesn't work, this is about what does work.

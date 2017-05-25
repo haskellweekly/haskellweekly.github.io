@@ -11,7 +11,7 @@ published: 2016-07-28
 
     > Together, we can do for Documentation what we did for Q&A.
 
--   [Tracking security holes and major bugs with Stackage](https://www.reddit.com/r/haskell/comments/4uta1e/proposal_tracking_security_holes_and_major_bugs/)
+-   [Tracking security holes and major bugs with Stackage](https://np.reddit.com/r/haskell/comments/4uta1e/proposal_tracking_security_holes_and_major_bugs/)
 
     > Allow a systematic way for community members to report security holes and major bugs in a specific version of a package.
 

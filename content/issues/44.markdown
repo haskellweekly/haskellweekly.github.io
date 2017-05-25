@@ -19,7 +19,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > We are able to refactor without fear. We have been experimenting with adding some new features to the job assignment algorithm recently, and the procedure of extending it is rather mechanical: extend the types to reflect information you need, fix all type errors, write a test, and change code until the tests are green.
 
--   [Summer of Haskell 2017](https://www.reddit.com/r/haskell/comments/5wpwkq/summer_of_haskell_2017/)
+-   [Summer of Haskell 2017](https://np.reddit.com/r/haskell/comments/5wpwkq/summer_of_haskell_2017/)
 
     > We are sorry to announce that this year Haskell.org was not accepted for the 2017 Google Summer of Code. But, as last year, we plan to organize our own Summer of Haskell!
 
@@ -39,7 +39,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > It seems that the architectural choice (of writing the core of the application in Haskell/Frege and use only Java for interactivity and visualization) is a good one, for several reasons.
 
--   [How do you guys get anything done?](https://www.reddit.com/r/haskell/comments/5wb5qw/how_do_you_guys_get_anything_done/)
+-   [How do you guys get anything done?](https://np.reddit.com/r/haskell/comments/5wb5qw/how_do_you_guys_get_anything_done/)
 
     > I readily concede that maybe it gets better but some of these things I can't see ever getting better. I'm seriously considering rewriting this entire codebase in Go and I'm here for some words of encouragement.
 

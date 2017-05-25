@@ -27,6 +27,6 @@ published: 2016-09-01
 
     > The haskell.org committee has consistently engaged in tactics which silence the voices of all non-members, and stacks the committee to prevent dissenting opinions from joining.
 
--   [Resignation](https://www.reddit.com/r/haskell/comments/50389g/resignation/)
+-   [Resignation](https://np.reddit.com/r/haskell/comments/50389g/resignation/)
 
     > Edward Kmett: "I'm officially resigning from the haskell.org committee effective immediately after the end of the Summer of Haskell."

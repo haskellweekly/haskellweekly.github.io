@@ -27,7 +27,7 @@ or open an issue [on GitHub](https://github.com/haskellweekly/haskellweekly.gith
 
     > "Does Haskell have inheritance?" Well, no, it doesn't, because Haskell does not have objects, and inheritance is a relationship between two objects. Objects are a combination of internal state (data) and methods (behavior). Since inheritance is a combination of both of these things, we'll need to treat them separately.
 
--   [Hask Anything: Now less alpha!](https://www.reddit.com/r/haskell/comments/5vd4ag/hask_anything_now_less_alpha/)
+-   [Hask Anything: Now less alpha!](https://np.reddit.com/r/haskell/comments/5vd4ag/hask_anything_now_less_alpha/)
 
     > Over the past year, I have continued to work on Hask Anything, a website aimed at collecting and organizing the collective knowledge of the Haskell community: papers, blog posts, code snippets, gists, StackOverflow answers, Reddit threads, presentations, videos, tutorials and so on.
 

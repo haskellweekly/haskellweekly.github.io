@@ -23,7 +23,7 @@ published: 2016-06-09
 
     > A superset of Prelude that allows for more intuitive notation in some cases.
 
--   [What is the point of Typeable?](https://www.reddit.com/r/haskell/comments/4mu30y/what_is_the_point_of_typeable/)
+-   [What is the point of Typeable?](https://np.reddit.com/r/haskell/comments/4mu30y/what_is_the_point_of_typeable/)
 
     > It creates a proliferation of Typeable constraints.
 
