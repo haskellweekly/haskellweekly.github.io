@@ -31,6 +31,10 @@ This is a weekly summary of what's going on in its community.
 
     > If you haven't encountered them before, typed holes are a feature where you put one or more variables starting with `_` on the right hand side of a definition to get GHC to tell you the type of the value that fits in that hole, and you can narrow the hole as necessary to get the type of a subexpression until you have enough information to complete the definition.
 
+-   [Servant checked exceptions](https://functor.tokyo/blog/2017-05-10-servant-checked-exceptions)
+
+    > I have been using Servant for about two years now. I really like it. It's easy to use and type-safe. If I need to write a JSON API in Haskell, Servant is almost always my first choice. However, one thing I have always wanted is an easy way to handle errors in my server handlers.
+
 -   [Haskell on Android using Eta](https://brianmckenna.org/blog/eta_android)
 
     > Eta is a fork of GHC which provides Haskell with a JVM backend. I've been working on it recently and did a presentation on it at LambdaJam. One of the questions from my presentation was "since Eta takes Haskell and produces JVM code, can I use it to write Android apps?" I had a feeling Eta was close to being able to. It turns out it's not just close, it's pretty easy!
