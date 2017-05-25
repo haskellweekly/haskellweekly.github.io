@@ -7,7 +7,9 @@ Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a purely functional programming language that focuses on robustness, concision, and correctness.
 This is a weekly summary of what's going on in its community.
 
-todo
+-   [Accepted projects for 2017](https://summer.haskell.org/news/2017-05-24-accepted-projects.html)
+
+    > We are happy to announce the 15 projects accepted for Summer of Haskell 2017 and that the community bonding period has begun.
 
 ## Package of the week
 
