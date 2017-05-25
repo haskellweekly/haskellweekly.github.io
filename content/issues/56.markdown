@@ -27,6 +27,10 @@ This is a weekly summary of what's going on in its community.
 
     > Last week we explored the many different string types in Haskell. But this isn't the only situation where we seem to have an abundance of similar types. We can also see this in Haskell's numeric types. Again, we have the issue that we often want to represent numbers in slightly different ways.
 
+-   [Discovering continuations with typed holes](http://vaibhavsagar.com/blog/2017/05/22/discovering-continuations/)
+
+    > If you haven't encountered them before, typed holes are a feature where you put one or more variables starting with `_` on the right hand side of a definition to get GHC to tell you the type of the value that fits in that hole, and you can narrow the hole as necessary to get the type of a subexpression until you have enough information to complete the definition.
+
 ## Package of the week
 
 todo
