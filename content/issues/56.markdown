@@ -45,4 +45,5 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-todo
+This week's package of the week is [Amazonka](https://www.stackage.org/lts-8.15/package/amazonka-1.4.5),
+a comprehensive Amazon Web Services (AWS) SDK.
