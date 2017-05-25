@@ -15,6 +15,10 @@ This is a weekly summary of what's going on in its community.
 
     > As programmers we occasionally find ourselves in "Programmer's Hell", where our regular abstractions fail to satisfactory solve certain recurrent problems. In this post we'll have a look at some instances of such situations, their "ad hoc" solutions provided at the language level, and finally at how these problems can be solved in a uniform way using monads.
 
+-   [Cross compiling Template Haskell](https://medium.com/@zw3rk/cross-compiling-template-haskell-7e38c00c2914)
+
+    > As laid out yesterday, there are some interesting questions pertaining to Template Haskell and cross compilation. Today we will put all the pieces together and cross compile Template Haskell to our Raspberry Pi with file and process IO!
+
 ## Package of the week
 
 todo
