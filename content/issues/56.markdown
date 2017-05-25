@@ -11,6 +11,10 @@ This is a weekly summary of what's going on in its community.
 
     > We are happy to announce the 15 projects accepted for Summer of Haskell 2017 and that the community bonding period has begun.
 
+-   [Escaping hell with monads](https://philipnilsson.github.io/Badness10k/posts/2017-05-07-escaping-hell-with-monads.html)
+
+    > As programmers we occasionally find ourselves in "Programmer's Hell", where our regular abstractions fail to satisfactory solve certain recurrent problems. In this post we'll have a look at some instances of such situations, their "ad hoc" solutions provided at the language level, and finally at how these problems can be solved in a uniform way using monads.
+
 ## Package of the week
 
 todo
