@@ -19,6 +19,10 @@ This is a weekly summary of what's going on in its community.
 
     > As laid out yesterday, there are some interesting questions pertaining to Template Haskell and cross compilation. Today we will put all the pieces together and cross compile Template Haskell to our Raspberry Pi with file and process IO!
 
+-   [Type class patterns and anti-patterns](https://hackernoon.com/type-class-patterns-and-anti-patterns-efd045c5af66)
+
+    > In a prior post I wrote about how type class instance selection worked. To help get a sense of good type class design, I want to walk through a type class pattern and a related type class anti-pattern.
+
 ## Package of the week
 
 todo
