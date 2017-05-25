@@ -35,6 +35,10 @@ This is a weekly summary of what's going on in its community.
 
     > Eta is a fork of GHC which provides Haskell with a JVM backend. I've been working on it recently and did a presentation on it at LambdaJam. One of the questions from my presentation was "since Eta takes Haskell and produces JVM code, can I use it to write Android apps?" I had a feeling Eta was close to being able to. It turns out it's not just close, it's pretty easy!
 
+-   [What are the important Haskell libraries that are no longer maintained?](https://np.reddit.com/r/haskell/comments/6cbgq3/what_are_the_important_haskell_libs_that_are_no/)
+
+    > Of course open source work is all volunteer and I'm grateful for whatever the authors choose to do, but we may want to consider which packages are languishing and need new maintainers to help.
+
 ## Package of the week
 
 todo
