@@ -23,6 +23,10 @@ This is a weekly summary of what's going on in its community.
 
     > In a prior post I wrote about how type class instance selection worked. To help get a sense of good type class design, I want to walk through a type class pattern and a related type class anti-pattern.
 
+-   [Numbers of every shape and size](https://mmhaskell.com/blog/2017/5/22/numbers-of-every-shape-and-size)
+
+    > Last week we explored the many different string types in Haskell. But this isn't the only situation where we seem to have an abundance of similar types. We can also see this in Haskell's numeric types. Again, we have the issue that we often want to represent numbers in slightly different ways.
+
 ## Package of the week
 
 todo
