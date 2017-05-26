@@ -11,7 +11,7 @@ published: 2016-08-11
 
     > While 0.11.x was mostly regression fixes 1.x adds a lot of improvements that had been in the pipeline for a long time.
 
--   [Let's Write Documentation for Haskell](http://lwm.github.io/posts/html/document-haskell.html)
+-   [Let's Write Documentation for Haskell](https://lwm.github.io/lets-write-documentation-for-haskell/)
 
     > As a beginner Haskell programmer, I am constantly confronted with a lack of comprehensive documentation for the standard library.
 
