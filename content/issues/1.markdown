@@ -11,7 +11,7 @@ published: 2016-05-05
 
     > GPG signing of packages while uploading to Hackage is now the default.
 
--   [Cabal 1.24 released](http://coldwa.st/e/blog/2016-05-04-Cabal-1-24.html)
+-   [Cabal 1.24 released](https://github.com/23Skidoo/homepage/blob/41d92f3381f64c5bbade010e539e27192712725b/content/blog/2016-05-04-Cabal-1-24.md)
 
     > Nix-style local builds in cabal-install (so far only a technical preview).
 
@@ -19,7 +19,7 @@ published: 2016-05-05
 
     > The goal of the Haskell Language committee together with the Core Libraries Committee is to work towards a new Haskell 2020 Language Report.
 
--   [Haskell Sucks!](https://dl.dropboxusercontent.com/u/40457956/haskell_sucks.pdf)
+-   [Haskell Sucks!](http://paul.bone.id.au/pub/pbone-2016-haskell-sucks/)
 
     > People have a tendency to over-complicate things, then they reward themselves for solving difficult problems rather than avoiding them.
 

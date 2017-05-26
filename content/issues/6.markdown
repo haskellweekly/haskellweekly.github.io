@@ -11,7 +11,7 @@ published: 2016-06-09
 
     > Complete interactive development program for Haskell.
 
--   [Hierarchy of documentation dysfunction](http://blog.fightingtanukis.com/posts/2016-05-23-documentation-hierarchy.html)
+-   [Hierarchy of documentation dysfunction](https://lorepub.com/post/2016-05-23-Hierarchy-of-documentation-dysfunction)
 
     > There isn't a single body of knowledge, or even a consistent idiomatic style, that is common to most of the libraries on Hackage.
 

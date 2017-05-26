@@ -23,7 +23,7 @@ published: 2016-09-01
 
     > There are plenty of brand-new functions [and] several key map, set, and sequence functions have sped up considerably.
 
--   [haskell.org and the Evil Cabal](http://www.snoyman.com/blog/2016/08/haskell-org-evil-cabal)
+-   [haskell.org and the Evil Cabal](https://github.com/snoyberg/snoyman.com-content/blob/a796432a685907c8017eb84c9062c20cf139367b/posts/haskell-org-evil-cabal.md)
 
     > The haskell.org committee has consistently engaged in tactics which silence the voices of all non-members, and stacks the committee to prevent dissenting opinions from joining.
 
