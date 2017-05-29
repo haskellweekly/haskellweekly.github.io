@@ -41,10 +41,11 @@
       </p>
     </footer>
 
-    <script src="https://www.google-analytics.com/analytics.js"></script>
     <script>
-      ga('create', 'UA-99854195-1', 'auto')
-      ga('send', 'pageview')
+      window.ga = function () { ga.q.push(arguments) }
+      ga.l = +new Date
+      ga.q = [['create', 'UA-99854195-1', 'auto'], ['send', 'pageview']]
     </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
   </body>
 </html>
