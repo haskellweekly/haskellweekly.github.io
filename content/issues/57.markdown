@@ -9,7 +9,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [Wire is hiring a Software Backend Developer (Operations) in Berlin, Germany](https://wire.softgarden.io/job/839014?l=en) (ad)
 
-    > Wire is an open source, end-to-end encrypted messenger for personal and business use. For our development center in Berlin we are hiring two Backend Developers. As Software Developer Backend Operations you will maintain our infrastructure, ensuring that it runs 24/7. Check out our jobs at [wire.com/jobs](https://wire.com/en/jobs/) and our open source code on [github.com/wireapp](https://github.com/wireapp).
+    > Wire is an open source, end-to-end encrypted messenger for personal and business use. For our development center in Berlin we are hiring two Backend Haskell Developers. As Software Developer Backend Operations you will maintain our infrastructure, ensuring that it runs 24/7. Check out our jobs at [wire.com/jobs](https://wire.com/en/jobs/) and our open source code on [github.com/wireapp](https://github.com/wireapp).
 
 ## Package of the week
 
