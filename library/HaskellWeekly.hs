@@ -29,7 +29,6 @@ rules = do
   match "partials/*" partialRules
   match "templates/*" templateRules
   match "images/*" imageRules
-  match "styles/*" styleRules
   match "issues/*" issueRules
   create ["haskell-weekly.atom"] (feedRules renderAtom)
   create ["haskell-weekly.rss"] (feedRules renderRss)
@@ -45,11 +44,6 @@ imageRules :: Rules ()
 imageRules = do
   route idRoute
   compile getResourceLBS
-
-styleRules :: Rules ()
-styleRules = do
-  route idRoute
-  compile compressCssCompiler
 
 issueRules :: Rules ()
 issueRules = do
