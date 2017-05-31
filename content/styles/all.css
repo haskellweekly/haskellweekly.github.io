@@ -35,7 +35,7 @@ header a {
   display: block;
 }
 
-header img {
+header svg {
   display: inline-block;
   height: 1em;
   vertical-align: baseline;
