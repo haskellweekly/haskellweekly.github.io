@@ -26,16 +26,12 @@ configuration = defaultConfiguration
 
 rules :: Rules ()
 rules = do
-  match "partials/*" partialRules
   match "templates/*" templateRules
   match "images/*" imageRules
   match "issues/*" issueRules
   create ["haskell-weekly.atom"] (feedRules renderAtom)
   create ["haskell-weekly.rss"] (feedRules renderRss)
   match "pages/index.html" indexRules
-
-partialRules :: Rules ()
-partialRules = compile templateBodyCompiler
 
 templateRules :: Rules ()
 templateRules = compile templateBodyCompiler
