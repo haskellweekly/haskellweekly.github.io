@@ -7,6 +7,10 @@ Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a purely functional programming language that focuses on robustness, concision, and correctness.
 This is a weekly summary of what's going on in its community.
 
+-   [Realizing Hackett, a metaprogrammable Haskell](https://lexi-lambda.github.io/blog/2017/05/27/realizing-hackett-a-metaprogrammable-haskell/)
+
+    > Almost five months ago, I wrote a blog post about my new programming language, Hackett, a fanciful sketch of a programming language from a far-off land with Haskell's type system and Racket's macros. [...] Hackett is not only real, it's working, and you can try it out yourself!
+
 -   [Wire is hiring a Software Backend Developer (Operations) in Berlin, Germany](https://wire.softgarden.io/job/1022464?l=en) (ad)
 
     > Wire is an open source, end-to-end encrypted messenger for personal and business use. For our development center in Berlin we are hiring two Backend Haskell Developers. As Software Developer Backend Operations you will maintain our infrastructure, ensuring that it runs 24/7. Check out our jobs at [wire.com/jobs](https://wire.com/en/jobs/) and our open source code on [github.com/wireapp](https://github.com/wireapp).
