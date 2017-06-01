@@ -35,6 +35,10 @@ This is a weekly summary of what's going on in its community.
 
     > Parsing options is not the hardest problem. However, if you do not create a pattern the rest of your team can follow, your program can become a tangled mess of random file reads, environment variable lookups and unpredictable defaulting. The `Monoid` class is a rock solid abstraction for combining options.
 
+-   [Playing with lens-aeson](https://www.snoyman.com/blog/2017/05/playing-with-lens-aeson)
+
+    > That works, but it's far from inspiring. We're declaring a `Color` data type simply for the purpose of writing a type class instance. But it feels pretty heavyweight to have to declare a data type and make a type class instance for just one use site.
+
 ## Package of the week
 
 todo
