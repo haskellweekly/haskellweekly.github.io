@@ -31,6 +31,10 @@ This is a weekly summary of what's going on in its community.
 
     > These dialogues somewhat pedantically dissect what we mean when we say *a type is an instance of a type class* or *a type has an instance of a type class* and why. Through the course of conversation, we touch on the nature of types, type constructors, and type classes, which led to us talking about math, set theory and category theory, and what they have to do with types and type classes.
 
+-   [The partial options monoid](https://medium.com/@jonathangfischoff/the-partial-options-monoid-pattern-31914a71fc67)
+
+    > Parsing options is not the hardest problem. However, if you do not create a pattern the rest of your team can follow, your program can become a tangled mess of random file reads, environment variable lookups and unpredictable defaulting. The `Monoid` class is a rock solid abstraction for combining options.
+
 ## Package of the week
 
 todo
