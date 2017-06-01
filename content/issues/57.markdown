@@ -27,6 +27,10 @@ This is a weekly summary of what's going on in its community.
 
     > Wire is an open source, end-to-end encrypted messenger for personal and business use. For our development center in Berlin we are hiring two Backend Haskell Developers. As Software Developer Backend Operations you will maintain our infrastructure, ensuring that it runs 24/7. Check out our jobs at [wire.com/jobs](https://wire.com/en/jobs/) and our open source code on [github.com/wireapp](https://github.com/wireapp).
 
+-   [What we talk about when we talk about types](https://joyofhaskell.com/posts/2017-05-31-is-vs-has.html)
+
+    > These dialogues somewhat pedantically dissect what we mean when we say *a type is an instance of a type class* or *a type has an instance of a type class* and why. Through the course of conversation, we touch on the nature of types, type constructors, and type classes, which led to us talking about math, set theory and category theory, and what they have to do with types and type classes.
+
 ## Package of the week
 
 todo
