@@ -19,6 +19,9 @@ This is a weekly summary of what's going on in its community.
 
     > Finally launching and running the application on the device, we are greeted with "Hello from Haskell". While the utility of this application is certainly questionable it illustrates the essential steps required to build, link and run an Android application calling a native Haskell function.
 
+-   [Smart data with conduits](https://mmhaskell.com/blog/2017/5/29/smart-data-with-conduits)
+
+    > If you're a programmer now, there's one reality you'd best be getting used to. People expect you to know how to deal with big data. The kind of data that will take a while to process. The kind that will crash your program if you try to bring it all into memory at the same time.
 
 -   [Wire is hiring a Software Backend Developer (Operations) in Berlin, Germany](https://wire.softgarden.io/job/1022464?l=en) (ad)
 
