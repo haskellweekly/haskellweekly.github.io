@@ -39,6 +39,11 @@ This is a weekly summary of what's going on in its community.
 
     > That works, but it's far from inspiring. We're declaring a `Color` data type simply for the purpose of writing a type class instance. But it feels pretty heavyweight to have to declare a data type and make a type class instance for just one use site.
 
-## Package of the week
+## Packages of the week
 
-todo
+Several interesting packages were announced this week. Instead of picking one to feature, all four are this week's packages of the week!
+
+- [double-pendulum-simulation](https://github.com/lotz84/double-pendulum-simulation) simulates and renders a double pendulum system.
+- [legion](https://github.com/aviaviavi/legion) implements a simple block chain server that synchronizes nodes over the network.
+- [prettyprinter](https://github.com/quchen/prettyprinter) aims to end the Wadler/Leijen zoo dilemma by being a modern, well-documented pretty printer.
+- [sitepipe](https://github.com/ChrisPenner/SitePipe) generates static sites with plain values and less magic.
