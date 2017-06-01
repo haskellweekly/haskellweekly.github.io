@@ -15,6 +15,11 @@ This is a weekly summary of what's going on in its community.
 
     > Why don't we do this all the time, when Haskell is at least a serviceable imperative language? Because writing imperative programs is hard! They don't compose as well, have less useful type signatures, and are harder to reason about. Getting away from those things is why we have Haskell to begin with!
 
+-   [A Haskell cross compiler for Android](https://medium.com/@zw3rk/a-haskell-cross-compiler-for-android-8e297cb74e8a)
+
+    > Finally launching and running the application on the device, we are greeted with "Hello from Haskell". While the utility of this application is certainly questionable it illustrates the essential steps required to build, link and run an Android application calling a native Haskell function.
+
+
 -   [Wire is hiring a Software Backend Developer (Operations) in Berlin, Germany](https://wire.softgarden.io/job/1022464?l=en) (ad)
 
     > Wire is an open source, end-to-end encrypted messenger for personal and business use. For our development center in Berlin we are hiring two Backend Haskell Developers. As Software Developer Backend Operations you will maintain our infrastructure, ensuring that it runs 24/7. Check out our jobs at [wire.com/jobs](https://wire.com/en/jobs/) and our open source code on [github.com/wireapp](https://github.com/wireapp).
