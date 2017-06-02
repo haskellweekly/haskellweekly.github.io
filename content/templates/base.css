@@ -93,6 +93,18 @@ main form {
   margin: 1.5em auto;
   max-width: 20em;
 }
+  @media only screen and (max-width: 470px) {
+    main form {
+      border: none;
+      display: block;
+      max-width: 340px;
+    }
+  }
+  @media only screen and (max-width: 359px) {
+    main form {
+      max-width: 300px;
+    }
+  }
 
 main input {
   border: none;
@@ -100,6 +112,17 @@ main input {
   padding: 0 0.5em;
   width: 100%;
 }
+  @media only screen and (max-width: 470px) {
+    main input {
+      border: thin solid #d3d7cf;
+      width: 320px;
+    }
+  }
+  @media only screen and (max-width: 359px) {
+    main input {
+      width: 280px;
+    }
+  }
 
 main button {
   background: #3465a4;
@@ -109,6 +132,12 @@ main button {
   font: inherit;
   padding: 0 0.5em;
 }
+  @media only screen and (max-width: 470px) {
+    main button {
+      display: block;
+      margin: 0.5em auto 0;
+    }
+  }
 
 footer {
   border-top: thin solid #d3d7cf;
