@@ -99,6 +99,7 @@ main input {
   font: inherit;
   padding: 0 0.5em;
   width: 100%;
+  min-width: 0;
 }
 
 main button {
