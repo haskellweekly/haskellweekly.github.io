@@ -7,7 +7,9 @@ Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a purely functional programming language that focuses on robustness, concision, and correctness.
 This is a weekly summary of what's going on in its community.
 
-todo
+-   [How well do you know your programming tools? Take the survey and test your skills!](http://vmob.me/DE3Q17Haskellweek) (ad)
+
+    > "It is a good survey which, in addition to remembering what I already knew, gave me new tools to learn about and work with." This is how developers feel about the Developer Economics survey. The survey also shows you how you compare to other developers in your country. Plus you may win an iPhone 7 or a Pixel 32GB phone.
 
 ## Package of the week
 
