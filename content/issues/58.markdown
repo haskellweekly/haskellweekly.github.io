@@ -31,6 +31,10 @@ This is a weekly summary of what's going on in its community.
 
     > At a certain point, our Haskell programs have to be compatible with other programs running on the web. This is especially useful given the growing usage of micro-services as an architecture. Regardless, it's very common to be transferring data between applications on different stacks.
 
+-   [Tagless final encoding of a test language](https://wickstrom.tech/programming/2017/06/05/tagless-final-encoding-of-a-test-language.html)
+
+    > I have experimented with a test language encoded in tagless final style, instead of algebraic data types, to support the typed combinators `beforeEach` and `beforeAll`. I want to share the Haskell prototype I ended up with, and explain how I got there.
+
 ## Package of the week
 
 todo
