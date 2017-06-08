@@ -47,6 +47,10 @@ This is a weekly summary of what's going on in its community.
 
     > It's difficult to learn functional programming without hearing about continuations. Often they're mentioned while talking about boosting the performance of pure functional code, sometimes there's talk of control flow, and occasionally with "time-travel" thrown in there to make it all seem more obscure.
 
+-   [How to send me a pull request](https://www.snoyman.com/blog/2017/06/how-to-send-me-a-pull-request)
+
+    > I find myself repeating a lot of the same comments in pull requests, so I decided to put together a list of what I consider the most important features of a good pull request. Other people will have different feelings on some of these, but the points below are what apply to my projects.
+
 ## Package of the week
 
 todo
