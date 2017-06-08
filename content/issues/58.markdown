@@ -23,6 +23,10 @@ This is a weekly summary of what's going on in its community.
 
     > "It is a good survey which, in addition to remembering what I already knew, gave me new tools to learn about and work with." This is how developers feel about the Developer Economics survey. The survey also shows you how you compare to other developers in your country. Plus you may win an iPhone 7 or a Pixel 32GB phone.
 
+-   [Assume it worked and fix it later](https://hackernoon.com/assume-it-worked-and-fix-later-8436d18b7ed3)
+
+    > If your email service is down, it can be beneficial to have the signup succeed regardless. By decoupling the success of an email request from the success of account signup, you can improve the reliability of your application.
+
 ## Package of the week
 
 todo
