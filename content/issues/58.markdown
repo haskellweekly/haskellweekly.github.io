@@ -53,4 +53,5 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-todo
+This week's package of the week is [Yesod](https://www.stackage.org/package/yesod),
+a web framework for productive development of type-safe, RESTful, high performance web applications.
