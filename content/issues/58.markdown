@@ -39,6 +39,10 @@ This is a weekly summary of what's going on in its community.
 
     > It's a fun puzzle so you may want to take a crack at it yourself before reading on. But this isn't really about that puzzle. This is about how sometimes when the mathematical insights aren't flowing it's good to be a programmer.
 
+-   [The Typeclassopedia is now up to date](https://byorgey.wordpress.com/2017/06/07/the-typeclassopedia-is-now-up-to-date/)
+
+    > The title pretty much says it all: I have finally finished (I hope) updating the Typeclassopedia to reflect various recent changes to the language and standard libraries (such as the AMP and BBP/FTP). Along the way I also added more links to related reading as well as more exercises.
+
 ## Package of the week
 
 todo
