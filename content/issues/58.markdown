@@ -43,6 +43,10 @@ This is a weekly summary of what's going on in its community.
 
     > The title pretty much says it all: I have finally finished (I hope) updating the Typeclassopedia to reflect various recent changes to the language and standard libraries (such as the AMP and BBP/FTP). Along the way I also added more links to related reading as well as more exercises.
 
+-   [Continuations from the ground up](http://blog.ielliott.io/continuations-from-the-ground-up/)
+
+    > It's difficult to learn functional programming without hearing about continuations. Often they're mentioned while talking about boosting the performance of pure functional code, sometimes there's talk of control flow, and occasionally with "time-travel" thrown in there to make it all seem more obscure.
+
 ## Package of the week
 
 todo
