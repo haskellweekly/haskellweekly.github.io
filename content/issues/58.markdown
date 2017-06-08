@@ -27,6 +27,10 @@ This is a weekly summary of what's going on in its community.
 
     > If your email service is down, it can be beneficial to have the signup succeed regardless. By decoupling the success of an email request from the success of account signup, you can improve the reliability of your application.
 
+-   [Flexible data with Aeson](https://mmhaskell.com/blog/2017/6/5/flexible-data-with-aeson)
+
+    > At a certain point, our Haskell programs have to be compatible with other programs running on the web. This is especially useful given the growing usage of micro-services as an architecture. Regardless, it's very common to be transferring data between applications on different stacks.
+
 ## Package of the week
 
 todo
