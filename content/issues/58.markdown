@@ -35,6 +35,10 @@ This is a weekly summary of what's going on in its community.
 
     > I have experimented with a test language encoded in tagless final style, instead of algebraic data types, to support the typed combinators `beforeEach` and `beforeAll`. I want to share the Haskell prototype I ended up with, and explain how I got there.
 
+-   [Can't see the four-est for the trees](http://www.gigamonkeys.com/trees/)
+
+    > It's a fun puzzle so you may want to take a crack at it yourself before reading on. But this isn't really about that puzzle. This is about how sometimes when the mathematical insights aren't flowing it's good to be a programmer.
+
 ## Package of the week
 
 todo
