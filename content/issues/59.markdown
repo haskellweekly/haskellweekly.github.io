@@ -7,7 +7,9 @@ Welcome to another issue of Haskell Weekly!
 Haskell is a purely functional programming language that focuses on robustness, concision, and correctness.
 This is a weekly summary of what's going on in its community.
 
-todo
+-   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
+
+    > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
 
 ## Package of the week
 
