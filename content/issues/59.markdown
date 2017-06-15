@@ -43,6 +43,10 @@ This is a weekly summary of what's going on in its community.
 
     > The performance tests do two things: first, they make sure that when people change the compiler, they don't accidentally make it slower; secondly, they make sure that when people change the compiler, they don't accidentally make the generated code less efficient.
 
+-   [Use hpack](https://e.xtendo.org/haskell/hpack)
+
+    > One of the remaining problems is that the `project.cabal` file is in a custom format. Custom formats are generally not good because you can't leverage the existing tools and free-ride other people's work.
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
