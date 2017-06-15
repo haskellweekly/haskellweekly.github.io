@@ -31,6 +31,10 @@ This is a weekly summary of what's going on in its community.
 
     > text-metrics-0.3.0 is written in pure Haskell, almost as fast as the previous versions (especially for not very long inputs), and is more correct (we handle characters represented as two `Word16` values properly).
 
+-   [ZuriHac 2017 recap](https://jship.github.io/posts/2017-06-11-zurihac-recap.html)
+
+    > This was my first time attending ZuriHac and it was too much fun --- will definitely be back next year! Big thanks to Jasper Van der Jeugt, Simon Meier, and all of the HSR folks that made the event happen. Props to the Haskell community too for being friendly and inviting.
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
