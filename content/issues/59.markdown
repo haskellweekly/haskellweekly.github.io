@@ -23,6 +23,10 @@ This is a weekly summary of what's going on in its community.
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
 
+-   [10 things Idris improved over Haskell](https://deque.blog/2017/06/14/10-things-idris-improved-over-haskell/)
+
+    > This post describes some of the pleasant surprises you get trying out Idris, coming from the Haskell world. These pleasant surprises have nothing to do with the dependent typing features. They are simple yet impacting modifications, which improve the developer experience substantially.
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
