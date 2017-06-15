@@ -11,6 +11,10 @@ This is a weekly summary of what's going on in its community.
 
     > With our framework, writing professional Haskell apps and games becomes a reality. In minutes one can have the complete toolchain and see the first app running on a phone or published on the online store. If you weren't considering using Haskell yet, we hope you soon change your mind.
 
+-   [Translating a C++ parser to Haskell](http://www.haskellforall.com/2017/06/translating-c-parser-to-haskell.html)
+
+    > Recently I translated Nix's derivation parser to Haskell and I thought this would make an instructive example for how C++ idioms map to Haskell idioms. This post targets people who understand Haskell's basic syntax but perhaps have difficulty translating imperative style to a functional style. 
+
 -   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
