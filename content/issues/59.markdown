@@ -39,6 +39,10 @@ This is a weekly summary of what's going on in its community.
 
     > This page is a single-page quick reference for the markup used in GHC's Haddock documentation format. It doesn't list all the details of the format, just the basic markup, so for the vagaries and edge-cases of the syntax, it would be helpful to consult the Haddock user guide.
 
+-   [Haskell Summer of Code](https://jaredweakly.com/blog/haskell-summer-of-code/)
+
+    > The performance tests do two things: first, they make sure that when people change the compiler, they don't accidentally make it slower; secondly, they make sure that when people change the compiler, they don't accidentally make the generated code less efficient.
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
