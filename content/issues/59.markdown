@@ -13,7 +13,11 @@ This is a weekly summary of what's going on in its community.
 
 -   [Translating a C++ parser to Haskell](http://www.haskellforall.com/2017/06/translating-c-parser-to-haskell.html)
 
-    > Recently I translated Nix's derivation parser to Haskell and I thought this would make an instructive example for how C++ idioms map to Haskell idioms. This post targets people who understand Haskell's basic syntax but perhaps have difficulty translating imperative style to a functional style. 
+    > Recently I translated Nix's derivation parser to Haskell and I thought this would make an instructive example for how C++ idioms map to Haskell idioms. This post targets people who understand Haskell's basic syntax but perhaps have difficulty translating imperative style to a functional style.
+
+-   [The `ReaderT` design pattern](https://www.fpcomplete.com/blog/2017/06/readert-design-pattern)
+
+    > What many languages address via patterns, in Haskell we address via language features (like built-in immutability, lambdas, laziness, etc.). However, I believe there is still room for some high-level guidance on structuring programs, which I'll loosely refer to as a Haskell design pattern.
 
 -   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
 
