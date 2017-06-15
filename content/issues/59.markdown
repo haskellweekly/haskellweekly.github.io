@@ -7,6 +7,8 @@ Welcome to another issue of Haskell Weekly!
 Haskell is a purely functional programming language that focuses on robustness, concision, and correctness.
 This is a weekly summary of what's going on in its community.
 
+## Featured
+
 -   [Haskell on Android and iOS](http://keera.co.uk/blog/2017/06/01/haskell-android-ios/)
 
     > With our framework, writing professional Haskell apps and games becomes a reality. In minutes one can have the complete toolchain and see the first app running on a phone or published on the online store. If you weren't considering using Haskell yet, we hope you soon change your mind.
@@ -55,3 +57,13 @@ This is a weekly summary of what's going on in its community.
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
 a library that exposes generic data structure operations as lenses.
+
+## In brief
+
+-   [Binary instances for GADTs (or: RTTI in Haskell)](https://www.well-typed.com/blog/2017/06/rtti/)
+-   [Data structures are antithetical to functional programming](http://degoes.net/articles/kill-data)
+-   [Drive-by Haskell contributions](http://ndmitchell.com/downloads/slides-drive-by_haskell_contributions-09_jun_2017.pdf)
+-   [On friendly contributing policies](https://ro-che.info/articles/2017-06-12-friendly-contributing-policies)
+-   [Taking a close look at lenses](https://mmhaskell.com/blog/2017/6/12/taking-a-close-look-at-lenses)
+-   [Teaching Haskell for understanding](https://docs.google.com/presentation/d/1_I5mYXivG5NbOHnICld_Xo41uOyAT57Yade5qfz2toQ/edit#slide=id.p)
+-   [The Haskell Cast episode 14: Richard Eisenberg on dependent types](http://www.haskellcast.com/episode/014-richard-eisenberg-on-dependent-types-in-haskell)
