@@ -35,6 +35,10 @@ This is a weekly summary of what's going on in its community.
 
     > This was my first time attending ZuriHac and it was too much fun --- will definitely be back next year! Big thanks to Jasper Van der Jeugt, Simon Meier, and all of the HSR folks that made the event happen. Props to the Haskell community too for being friendly and inviting.
 
+-   [Haddock markup quick reference](https://github.com/aisamanra/haddock-cheatsheet/blob/c3485d33e6bb42beb41c9768f6f8050eed4aaabc/haddocks.md#readme)
+
+    > This page is a single-page quick reference for the markup used in GHC's Haddock documentation format. It doesn't list all the details of the format, just the basic markup, so for the vagaries and edge-cases of the syntax, it would be helpful to consult the Haddock user guide.
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
