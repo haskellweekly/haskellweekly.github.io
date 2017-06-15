@@ -47,6 +47,10 @@ This is a weekly summary of what's going on in its community.
 
     > One of the remaining problems is that the `project.cabal` file is in a custom format. Custom formats are generally not good because you can't leverage the existing tools and free-ride other people's work.
 
+-   [Haskell taketh away: Limiting side effects for parallel programming](https://www.youtube.com/watch?v=lC5UWG5N8oY)
+
+    > In designing parallel programming abstractions, taking away user capabilities is as important as granting them. In this talk, I'll explain the role of this idea in several different parallel programming libraries for Haskell, C++, and other languages --- spanning from shared memory to big data.
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
