@@ -27,6 +27,10 @@ This is a weekly summary of what's going on in its community.
 
     > This post describes some of the pleasant surprises you get trying out Idris, coming from the Haskell world. These pleasant surprises have nothing to do with the dependent typing features. They are simple yet impacting modifications, which improve the developer experience substantially.
 
+-   [Migrating text metrics to pure Haskell](https://markkarpov.com/post/migrating-text-metrics.html)
+
+    > text-metrics-0.3.0 is written in pure Haskell, almost as fast as the previous versions (especially for not very long inputs), and is more correct (we handle characters represented as two `Word16` values properly).
+
 ## Package of the week
 
 This week's package of the week is [generic-lens](https://hackage.haskell.org/package/generic-lens-0.2.0.0),
