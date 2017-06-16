@@ -47,7 +47,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [Use hpack](https://e.xtendo.org/haskell/hpack)
 
-    > One of the remaining problems is that the `project.cabal` file is in a custom format. Custom formats are generally not good because you can't leverage the existing tools and free-ride other people's work.
+    > One of the remaining problems is that the `package.cabal` file is in a custom format. Custom formats are generally not good because you can't leverage the existing tools and free-ride other people's work.
 
 -   [Haskell taketh away: Limiting side effects for parallel programming](https://www.youtube.com/watch?v=lC5UWG5N8oY)
 
