@@ -13,6 +13,10 @@ This is a weekly summary of what's going on in its community.
 
     > Instead of just teaching you how to use the library, this post will demonstrate why you need it and how it works internally, to help you avoid some of the potential pitfalls of the library.
 
+-   [Announcing Weeder: dead export detection](https://neilmitchell.blogspot.com/2017/06/announcing-weeder-dead-export-detection.html)
+
+    > Most projects accumulate code over time. To combat that, I've written Weeder which detects unused Haskell exports, allowing dead code to be removed (pulling up the weeds).
+
 -   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
