@@ -29,6 +29,10 @@ This is a weekly summary of what's going on in its community.
 
     > In this post I'll show how to make database programming fun by using packages that make testing easy. I'll walk through a example of building a durable queue backed with PostgreSQL.
 
+-   [Exceptional Servant handling](http://www.parsonsmatt.org/2017/06/21/exceptional_servant_handling.html)
+
+    > There are various good reasons why you might want to strip `ExceptT` from your Servant handlers. There are various good reasons why you wouldn't want to do that. I'm in the first camp --- I don't want `ExceptT` over `IO`.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
