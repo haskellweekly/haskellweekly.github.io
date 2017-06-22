@@ -45,6 +45,10 @@ This is a weekly summary of what's going on in its community.
 
     > This post develops a simple blockchain with the goal of understanding the basics of the chain. The most straightforward part of a blockchain is the chain itself, a sequence of blocks.
 
+-   [Mezzo: type-safe music composition](https://github.com/DimaSamoz/mezzo/blob/1d46c5edd5d7d360a027a614c618bb2830d9f93e/README.md)
+
+    > Its novelty is in the fact that it can enforce various rules of music composition statically, that is, at compile-time. This effectively means that if you write "bad" music, your composition will not compile --- think of it as a very strict spell-checker for music.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
