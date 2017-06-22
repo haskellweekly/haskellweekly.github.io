@@ -41,6 +41,10 @@ This is a weekly summary of what's going on in its community.
 
     > This is where benchmarking and profiling come in. We're going to take a specific problem and learn how we can use some Haskell tools to zero in on the problem point.
 
+-   [The chain in blockchain](http://haroldcarr.com/posts/2017-06-19-the-chain-in-blockchain.html)
+
+    > This post develops a simple blockchain with the goal of understanding the basics of the chain. The most straightforward part of a blockchain is the chain itself, a sequence of blocks.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
