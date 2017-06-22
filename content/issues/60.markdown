@@ -25,6 +25,10 @@ This is a weekly summary of what's going on in its community.
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
 
+-   [Testing PostgreSQL for fun](https://hackernoon.com/testing-postgresql-for-fun-af891047e5fc)
+
+    > In this post I'll show how to make database programming fun by using packages that make testing easy. I'll walk through a example of building a durable queue backed with PostgreSQL.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
