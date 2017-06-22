@@ -60,4 +60,8 @@ a library that allows you to run IO operations asynchronously and wait for their
 
 ## In brief
 
-todo
+-   [An alternate definition of Haskell's `Functor` type class](https://github.com/rampion/kinder-functor/blob/20e5c57867eaae2da56a4d73ac083b8bc2ce7de4/README.md)
+-   [Configurable data types](http://mazzo.li/posts/customizable-data-types.html)
+-   [Generic unification](https://ro-che.info/articles/2017-06-17-generic-unification)
+-   [The linearity monad](https://www.cis.upenn.edu/~jpaykin/papers/pz_linearity_monad_2017.pdf) (pdf)
+-   [A terminal interface for Tetris](https://github.com/samtay/tetris/blob/5d9c74cc0c337b5215f01d411d8facb87995c5ae/README.md)
