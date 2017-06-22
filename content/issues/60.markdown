@@ -33,6 +33,10 @@ This is a weekly summary of what's going on in its community.
 
     > There are various good reasons why you might want to strip `ExceptT` from your Servant handlers. There are various good reasons why you wouldn't want to do that. I'm in the first camp --- I don't want `ExceptT` over `IO`.
 
+-   [On competing with C using Haskell](https://two-wrongs.com/on-competing-with-c-using-haskell)
+
+    > By writing very straight-forward pure, functional Haskell code without any special trickery, you can get performance equivalent to what you'd get by calling out to a C function, which is also in the same order of magnitude as the same algorithm implemented in a program completely written in C.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
