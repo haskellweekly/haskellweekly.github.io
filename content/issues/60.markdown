@@ -49,6 +49,10 @@ This is a weekly summary of what's going on in its community.
 
     > Its novelty is in the fact that it can enforce various rules of music composition statically, that is, at compile-time. This effectively means that if you write "bad" music, your composition will not compile --- think of it as a very strict spell-checker for music.
 
+-   [Linear types 101 and its relevance to streams](https://m0ar.github.io/safe-streaming/2017/06/19/linear-types-101.html)
+
+    > It creates a resource aware type system, which not only knows types of values but also number of uses; a linearly typed value is guaranteed to only have one reference to it at any time, duplication or ignoring will not compile.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
