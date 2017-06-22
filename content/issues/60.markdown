@@ -13,7 +13,8 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
+a library that allows you to run IO operations asynchronously and wait for their results.
 
 ## In brief
 
