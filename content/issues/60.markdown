@@ -17,6 +17,10 @@ This is a weekly summary of what's going on in its community.
 
     > Most projects accumulate code over time. To combat that, I've written Weeder which detects unused Haskell exports, allowing dead code to be removed (pulling up the weeds).
 
+-   [Dhall is now a template engine](http://www.haskellforall.com/2017/06/dhall-is-now-template-engine.html)
+
+    > Now you can use Dhall as a template engine with the newly released `dhall-text` library which provides a `dhall-to-text` executable for templating text.
+
 -   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
