@@ -37,6 +37,10 @@ This is a weekly summary of what's going on in its community.
 
     > By writing very straight-forward pure, functional Haskell code without any special trickery, you can get performance equivalent to what you'd get by calling out to a C function, which is also in the same order of magnitude as the same algorithm implemented in a program completely written in C.
 
+-   [How well does it work? Profiling in Haskell](https://mmhaskell.com/blog/2017/6/19/profiling-in-haskell)
+
+    > This is where benchmarking and profiling come in. We're going to take a specific problem and learn how we can use some Haskell tools to zero in on the problem point.
+
 ## Package of the week
 
 This week's package of the week is [async](https://www.stackage.org/lts-8.19/package/async-2.1.1.1),
