@@ -33,6 +33,10 @@ This is a weekly summary of what's going on in its community.
 
     > The value in this approach is that I don't have to think about what functions to call to collect the images: it's always `images`. In the prior example, I had to think about the how to collect the images each time, and it took brain power better spent elsewhere.
 
+-   [A tale of two brackets](https://www.fpcomplete.com/blog/2017/06/tale-of-two-brackets)
+
+    > I hope the primary thing you take away from it is a deeper understanding of how monad transformer stacks interact with operations in the base monad, and how monad-control works in general.
+
 ## Package of the week
 
 This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
