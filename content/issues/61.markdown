@@ -29,6 +29,10 @@ This is a weekly summary of what's going on in its community.
 
     > In this post I want to argue that threads are also a resource, in the sense that they require management after we've created them. A stray thread will consume memory, CPU cycles, and really whatever resource it might need to execute.
 
+-   [The `Has` type class pattern](https://medium.com/@jonathangfischoff/the-has-type-class-pattern-ca12adab70ae)
+
+    > The value in this approach is that I don't have to think about what functions to call to collect the images: it's always `images`. In the prior example, I had to think about the how to collect the images each time, and it took brain power better spent elsewhere.
+
 ## Package of the week
 
 This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
