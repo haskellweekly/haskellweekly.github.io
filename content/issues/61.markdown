@@ -49,6 +49,10 @@ This is a weekly summary of what's going on in its community.
 
     > There are quite a few ways to store mutable data in Haskell. Let's talk about some of them! Specifically, we will focus on mutable containers that store a single value that can be modified by one or more threads at any given time. I'm not going to go into a ton of detail here --- I just want to give an overview.
 
+-   [Interfaces and type classes: Number APIs in C# and Haskell](https://mzabani.wordpress.com/2017/06/22/interfaces-and-typeclasses-number-apis-in-c-and-haskell/)
+
+    > In C# sometimes I sorely miss something like an `INumber<T>` interface with methods add, subtract, multiply, and others. The lack of this means it is cumbersome to write generic code on numbers.
+
 ## Package of the week
 
 This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
