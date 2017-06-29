@@ -41,6 +41,10 @@ This is a weekly summary of what's going on in its community.
 
     > `RecordWildCards` is a GHC extension that makes working with Haskell records more convenient. The extension has been blogged about in a few places already, so this post intends to provide a different motivating example: binary parsing.
 
+-   [On naming things: library design](http://www.parsonsmatt.org/2017/06/23/on_naming_things.html)
+
+    > I've written a few libraries now and have tried out different naming and exporting conventions. I've developed a bit of a feel for how it is to write and use them, and I'm going to put out my personal preferences and opinions on library design here.
+
 ## Package of the week
 
 This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
