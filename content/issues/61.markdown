@@ -9,7 +9,7 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
--   [Haxl: making concurrency unreasonably easy](http://events.techcast.com/bigtechday10/Garmisch-1345/)
+-   [Haxl: Making concurrency unreasonably easy](http://events.techcast.com/bigtechday10/Garmisch-1345/)
 
     > Haxl is a big hammer for doing I/O concurrently, testing I/O, and modularity (caching & memoization).
 
@@ -17,7 +17,7 @@ This is a weekly summary of what's going on in its community.
 
     > I'm going to give a short introduction to Brick, a Haskell library for building terminal user interfaces. So far I've used brick to implement Conway's Game of Life and a Tetris clone. I'll explain the basics, walk through an example snake application, and then explain some more complicated scenarios.
 
--   [Simplexhc: an STG to LLVM compiler](https://pixel-druid.com/blog/announcing-simplexhc/)
+-   [Simplexhc: An STG to LLVM compiler](https://pixel-druid.com/blog/announcing-simplexhc/)
 
     > STG's lowering to C-- and the decisions taken when implementing it were based in the '90s. That's not to say that the GHC team hasn't done an awesome job keeping it up to date; they have! But, I wonder what a complete rewrite of this lowering would look like. Hence, I'm trying to experiment in this space and see what happens.
 
@@ -41,9 +41,13 @@ This is a weekly summary of what's going on in its community.
 
     > `RecordWildCards` is a GHC extension that makes working with Haskell records more convenient. The extension has been blogged about in a few places already, so this post intends to provide a different motivating example: binary parsing.
 
--   [On naming things: library design](http://www.parsonsmatt.org/2017/06/23/on_naming_things.html)
+-   [On naming things: Library design](http://www.parsonsmatt.org/2017/06/23/on_naming_things.html)
 
     > I've written a few libraries now and have tried out different naming and exporting conventions. I've developed a bit of a feel for how it is to write and use them, and I'm going to put out my personal preferences and opinions on library design here.
+
+-   [Haskell Bits #6: A guide to mutable references](http://www.kovach.me/posts/2017-06-22-mutable-references.html)
+
+    > There are quite a few ways to store mutable data in Haskell. Let's talk about some of them! Specifically, we will focus on mutable containers that store a single value that can be modified by one or more threads at any given time. I'm not going to go into a ton of detail here --- I just want to give an overview.
 
 ## Package of the week
 
