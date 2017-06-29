@@ -15,7 +15,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-todo
+This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
+a library that provides a simple extensible product system.
 
 ## In brief
 
