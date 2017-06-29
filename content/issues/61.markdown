@@ -25,6 +25,10 @@ This is a weekly summary of what's going on in its community.
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
 
+-   [Threading responsibly: `forkIO` considered harmful](http://mazzo.li/posts/threads-resources.html)
+
+    > In this post I want to argue that threads are also a resource, in the sense that they require management after we've created them. A stray thread will consume memory, CPU cycles, and really whatever resource it might need to execute.
+
 ## Package of the week
 
 This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
