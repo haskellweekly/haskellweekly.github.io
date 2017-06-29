@@ -37,6 +37,10 @@ This is a weekly summary of what's going on in its community.
 
     > I hope the primary thing you take away from it is a deeper understanding of how monad transformer stacks interact with operations in the base monad, and how monad-control works in general.
 
+-   [`RecordWildCards` and binary parsing](https://jship.github.io/posts/2017-06-24-record-wildcards-and-binary-parsing.html)
+
+    > `RecordWildCards` is a GHC extension that makes working with Haskell records more convenient. The extension has been blogged about in a few places already, so this post intends to provide a different motivating example: binary parsing.
+
 ## Package of the week
 
 This week's package of the week is [data-has](https://www.stackage.org/lts-8.20/package/data-has-0.2.1.0),
