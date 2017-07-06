@@ -41,6 +41,10 @@ This is a weekly summary of what's going on in its community.
 
     > Fusion is one of those words that made me recoil for quite a few years, since it sounds extremely complicated and arcane. A few years into building applications in Haskell, I still hadn't forced the thunk.
 
+-   [SuperRecord: Anonymous records for Haskell](https://www.athiemann.net/2017/07/02/superrecord.html)
+
+    > A practical library for anonymous records that is both fast and has an ergonomic interface for both using and extending it.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
