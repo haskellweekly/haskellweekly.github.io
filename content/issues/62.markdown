@@ -33,6 +33,10 @@ This is a weekly summary of what's going on in its community.
 
     > I made a way to get more free stuff and free stuff is good.
 
+-   [New version of FLTKHS with much better error messages and OpenGL integration](https://np.reddit.com/r/haskell/comments/6l85uj/announcement_new_version_of_fltkhs_with_much/)
+
+    > Happy to announce a new major version of FLTKHS, the Haskell binding to the FLTK for easy native cross-platform GUI apps in Haskell.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
