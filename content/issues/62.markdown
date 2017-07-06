@@ -45,6 +45,10 @@ This is a weekly summary of what's going on in its community.
 
     > A practical library for anonymous records that is both fast and has an ergonomic interface for both using and extending it.
 
+-   [Typesafe modular arithmetic in Haskell](https://rkrishnan.org/posts/2017-06-20-typesafe-modulus-in-haskell.html)
+
+    > We would like to get a type error (at compile time) if we do a operation involving two numbers with a different modulus. The role of a type system is to represent the invariants and so it will be great to encode as many invariants of a particular value into the type.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
