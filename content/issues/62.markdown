@@ -29,6 +29,10 @@ This is a weekly summary of what's going on in its community.
 
     > The version 6 thus will aim to be not just a parser for human-readable texts and source code, but "one size fits all" general solution to parsing in Haskell, including low-level binary parsing.
 
+-   [Derive instances of representationally equal types](https://gist.github.com/Icelandjack/d258b88a0e0b3be2c0b3711fdd833045/fe806ce795006be545833742dd1bdcdc31738ca5)
+
+    > I made a way to get more free stuff and free stuff is good.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
