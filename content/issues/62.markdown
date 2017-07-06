@@ -17,6 +17,10 @@ This is a weekly summary of what's going on in its community.
 
     A collection of Conor McBride's Stack Overflow answers.
 
+-   [Unit testing effectful Haskell with monad-mock](https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/)
+
+    > While monad-mock might not be anything drastically different from existing testing techniques, my hope is that it can provide an opinionated mechanism to make testing easy and accessible, even for complex interactions with other services and systems.
+
 -   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
