@@ -49,6 +49,10 @@ This is a weekly summary of what's going on in its community.
 
     > We would like to get a type error (at compile time) if we do a operation involving two numbers with a different modulus. The role of a type system is to represent the invariants and so it will be great to encode as many invariants of a particular value into the type.
 
+-   [Lessons learned building a toy compiler](https://jaseemabid.github.io/2017/07/04/compiler.html)
+
+    > We tend to think of compilers as big black boxes which transform some high level language, let's say C into a binary in one big step. I'd like to present it as a pipeline of languages and transformations, each a bit simpler and slightly lower level than the one before it.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
