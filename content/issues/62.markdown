@@ -66,7 +66,3 @@ a small isomorphic front-end framework.
 -   [Idris dependent typing challenge: Bowling kata](https://deque.blog/2017/07/01/idris-bowling-kata/)
 -   [The Spiderman principle](https://www.snoyman.com/blog/2017/07/the-spiderman-principle)
 -   [What should a PostgreSQL migrator do?](https://medium.com/@jonathangfischoff/what-should-a-postgresql-migrator-do-47fd34804be)
-
-## Events
-
-todo
