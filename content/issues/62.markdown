@@ -25,6 +25,10 @@ This is a weekly summary of what's going on in its community.
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
 
+-   [A major upgrade to Megaparsec: more speed, more power](https://markkarpov.com/post/megaparsec-more-speed-more-power.html)
+
+    > The version 6 thus will aim to be not just a parser for human-readable texts and source code, but "one size fits all" general solution to parsing in Haskell, including low-level binary parsing.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
