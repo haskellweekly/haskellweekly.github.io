@@ -37,6 +37,10 @@ This is a weekly summary of what's going on in its community.
 
     > Happy to announce a new major version of FLTKHS, the Haskell binding to the FLTK for easy native cross-platform GUI apps in Haskell.
 
+-   [Notes on fusion](http://teh.id.au/posts/2017/06/30/notes-on-fusion/index.html)
+
+    > Fusion is one of those words that made me recoil for quite a few years, since it sounds extremely complicated and arcane. A few years into building applications in Haskell, I still hadn't forced the thunk.
+
 ## Package of the week
 
 This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
