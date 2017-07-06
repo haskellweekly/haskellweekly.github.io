@@ -27,7 +27,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-todo
+This week's package of the week is [Miso](https://hackage.haskell.org/package/miso-0.1.2.0),
+a small isomorphic front-end framework.
 
 ## In brief
 
