@@ -60,7 +60,12 @@ a small isomorphic front-end framework.
 
 ## In brief
 
-todo
+-   [Diskhash: Disk-based, persistent hash tables](https://metarabbit.wordpress.com/2017/06/30/ann-diskhash-disk-based-persistent-hash-tables/)
+-   [Graphing it out](https://mmhaskell.com/blog/2017/6/21/graphing-it-out)
+-   [highlight CLI application](https://functor.tokyo/blog/2017-07-01-highlight)
+-   [Idris dependent typing challenge: Bowling kata](https://deque.blog/2017/07/01/idris-bowling-kata/)
+-   [The Spiderman principle](https://www.snoyman.com/blog/2017/07/the-spiderman-principle)
+-   [What should a PostgreSQL migrator do?](https://medium.com/@jonathangfischoff/what-should-a-postgresql-migrator-do-47fd34804be)
 
 ## Events
 
