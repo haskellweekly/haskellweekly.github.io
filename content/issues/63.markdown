@@ -47,6 +47,10 @@ This is a weekly summary of what's going on in its community.
 
     > Objects can be thought of as Mealy machines of effects, and their Haskell encoding is actually straightforward. This novel building block might be too strong to use everyday, but I'm pretty sure there are places where this abstraction fits well, like game programming.
 
+-   [Playing match maker](https://mmhaskell.com/blog/2017/7/10/playing-match-maker)
+
+    > So at this point, are we condemned to choose between a fast inaccurate algorithm and a correct but slow one? In this case the answer is no! This problem is actually best solved by using a graph algorithm!
+
 ## Package of the week
 
 This week's package of the week is [Solga](https://www.stackage.org/lts-8.22/package/solga-0.1.0.2),
