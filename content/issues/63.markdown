@@ -30,7 +30,7 @@ Here are some tasks from the Haskell community for you to pick and get started!
 - [stack: `stack new` can't be pointed at an intranet site](https://github.com/commercialhaskell/stack/issues/2804)
 - [text: Add tshow function](https://github.com/bos/text/issues/183)
 
-Email info@haskellweekly.news with your beginner-friendly issues to get them included.
+Email <info@haskellweekly.news> with your beginner-friendly issues to get them included.
 
 ## In brief
 
