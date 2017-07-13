@@ -73,4 +73,8 @@ Email <info@haskellweekly.news> with your beginner-friendly issues to get them i
 
 ## In brief
 
-todo
+-   [A tale of two provers: Verifying monoidal string matching in Liquid Haskell and Coq](https://nikivazou.github.io/static/Haskell17/a-tale.pdf)
+-   [Named extensible effects](https://www.schoolofhaskell.com/user/fumieval/extensible/named-extensible-effects)
+-   [Profunctor optics: Modular data accessors](https://arxiv.org/abs/1703.10857)
+-   [Profunctor optics: The categorical view](https://bartoszmilewski.com/2017/07/07/profunctor-optics-the-categorical-view/)
+-   [PureScript 0.11.6](https://github.com/purescript/purescript/releases/tag/v0.11.6)
