@@ -31,6 +31,10 @@ This is a weekly summary of what's going on in its community.
 
     > Real streaming data is handled at the library level in Haskell, with many different options available. Rust does things differently: it bakes in a concept called iterators not only with the standard library, but the language itself: `for` loops are built-in syntax for iterators.
 
+-   [Reader monad part 2](https://medium.com/@jonathangfischoff/monad-reader-part-2-d812dda1d03e)
+
+    > In part 1 I went over the basics of the reader monad. In this post I'll cover some more advanced topics and alternatives to the reader monad.
+
 ## Package of the week
 
 This week's package of the week is [Solga](https://www.stackage.org/lts-8.22/package/solga-0.1.0.2),
