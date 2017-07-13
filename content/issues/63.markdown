@@ -31,6 +31,10 @@ This is a weekly summary of what's going on in its community.
 
     > Real streaming data is handled at the library level in Haskell, with many different options available. Rust does things differently: it bakes in a concept called iterators not only with the standard library, but the language itself: `for` loops are built-in syntax for iterators.
 
+-   [Introducing Vaultenv: Keeping your secrets secure with Vault and Haskell](https://tech.channable.com/posts/2017-07-06-introducing-vaultenv-keeping-your-secrets-safe-with-vault-and-haskell.html)
+
+    > We're pleased to announce our first bit of open source code. It is a CLI utility that fetches secrets from the HashiCorp Vault secret store. It makes secrets available using environment variables to a process of your choosing.
+
 -   [Reader monad part 2](https://medium.com/@jonathangfischoff/monad-reader-part-2-d812dda1d03e)
 
     > In part 1 I went over the basics of the reader monad. In this post I'll cover some more advanced topics and alternatives to the reader monad.
