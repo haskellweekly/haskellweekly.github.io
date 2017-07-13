@@ -27,6 +27,10 @@ This is a weekly summary of what's going on in its community.
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
 
+-   [Iterators and streams in Rust and Haskell](https://www.fpcomplete.com/blog/2017/07/iterators-streams-rust-haskell)
+
+    > Real streaming data is handled at the library level in Haskell, with many different options available. Rust does things differently: it bakes in a concept called iterators not only with the standard library, but the language itself: `for` loops are built-in syntax for iterators.
+
 ## Package of the week
 
 This week's package of the week is [Solga](https://www.stackage.org/lts-8.22/package/solga-0.1.0.2),
