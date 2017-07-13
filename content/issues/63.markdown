@@ -9,6 +9,12 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
+-   [GHC 8.2.1 release candidate 3 available](https://mail.haskell.org/pipermail/ghc-devs/2017-July/014364.html)
+
+    > This release candidate fixes a number of regressions from 8.0.2 found in release candidate 2, as well as a major correctness bug present in several previous GHC major releases. Users taking advantage of parallelism in their programs will be strongly encouraged to upgrade to 8.2.1 once it is released.
+
+    Editor's note: Use [this `stack.yaml`](https://gist.github.com/tfausak/623d283cfe7a338bcbfca56ddfec0ecd/cc31f363737a40d297af934f813730b022fdfd64) to test GHC 8.2.1-rc3 with Stack.
+
 -   [Front Row is hiring a senior backend Haskell engineer](https://frontrow.workable.com/j/463B843754) (ad)
 
     > Come change how 6.5+ million K-12 US students learn Math, Language Arts, Social Studies and more. Use data, advanced type systems, great product design and deep pedagogy to change lives.
