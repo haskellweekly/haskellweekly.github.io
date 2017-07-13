@@ -25,7 +25,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-todo
+This week's package of the week is [Solga](https://www.stackage.org/lts-8.22/package/solga-0.1.0.2),
+a library for easily specifying web APIs and implementing them in a type-safe way.
 
 ## Call for participation
 
