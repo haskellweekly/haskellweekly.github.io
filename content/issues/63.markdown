@@ -35,6 +35,10 @@ This is a weekly summary of what's going on in its community.
 
     > We're pleased to announce our first bit of open source code. It is a CLI utility that fetches secrets from the HashiCorp Vault secret store. It makes secrets available using environment variables to a process of your choosing.
 
+-   [Danger and HLint](http://allocinit.io/haskell/danger-and-hlint/)
+
+    > Danger is a Ruby gem that you can use on your continuous integration process to automate code reviews. Danger can automatically go through the code in a an open pull request and check if it respects the rules your team and you have established.
+
 -   [Reader monad part 2](https://medium.com/@jonathangfischoff/monad-reader-part-2-d812dda1d03e)
 
     > In part 1 I went over the basics of the reader monad. In this post I'll cover some more advanced topics and alternatives to the reader monad.
