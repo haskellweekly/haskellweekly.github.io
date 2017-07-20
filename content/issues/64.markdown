@@ -29,6 +29,10 @@ published: 2017-07-20
 
     > If you look at the original property-based testing library, QuickCheck, tests are very closely tied to types: The way you typically specify a property is by inferring the data that needs to be generated from the types the test function expects for its arguments. This is a bad idea.
 
+-   [Get started with sending SMS in Haskell](https://www.twilio.com/blog/2017/07/setting-up-your-haskell-developer-environment-with-twilio.html)
+
+    > Functional programming languages are gaining in popularity so let's hop on that Haskell bandwagon. With Haskell, you can write clean, concise, and expressive code.
+
 ## Package of the week
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
