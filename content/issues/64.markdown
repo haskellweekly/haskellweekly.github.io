@@ -3,6 +3,10 @@ title: Issue 64
 published: 2017-07-20
 ---
 
+Welcome to another issue of Haskell Weekly!
+Haskell is a purely functional programming language that focuses on correctness, productivity, and expressiveness.
+This is a weekly summary of what's going on in its community.
+
 ## Featured
 
 -   [Announcing: the new unliftio library](https://www.fpcomplete.com/blog/2017/07/announcing-new-unliftio-library)
@@ -53,6 +57,17 @@ published: 2017-07-20
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
 a library for dealing with the Ninja build language.
+
+## Call for participation
+
+-   [cabal: Before testing if libraries link, do a vanilla run to check if the compiler is misconfigured](https://github.com/haskell/cabal/issues/4395)
+-   [hindent: Indenting class creates syntax error](https://github.com/commercialhaskell/hindent/issues/433)
+-   [miso: Fix 7.8, 7.6 builds](https://github.com/dmjio/miso/issues/181)
+-   [stack: `stack new` can't be pointed at an intranet site](https://github.com/commercialhaskell/stack/issues/2804)
+-   [text: Add `tshow` function](https://github.com/bos/text/issues/183)
+
+Do you have a beginner-friendly issue you want some help with?
+Email <info@haskellweekly.news> to get it included here!
 
 ## In brief
 
