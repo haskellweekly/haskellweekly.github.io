@@ -53,3 +53,10 @@ published: 2017-07-20
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
 a library for dealing with the Ninja build language.
+
+## In brief
+
+-   [Cleaning up our projects with hpack](https://mmhaskell.com/blog/2017/7/17/cleaning-up-our-projects-with-hpack)
+-   [Haskell IDE Engine progress report for July 2017](https://github.com/haskell/haskell-ide-engine/blob/8cb23e7d55a20696f8d2d743ca4a53ba70b2c5c5/docs/Report-2017-07.md)
+-   [R and Haskell: Best of both worlds with HaskellR](https://www.tweag.io/posts/2017-07-10-haskell-r-best-both-worlds.html)
+-   [ZuriHac plays](https://jaspervdj.be/posts/2017-07-17-zurihac-plays.html)
