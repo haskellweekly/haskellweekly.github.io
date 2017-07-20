@@ -21,6 +21,10 @@ published: 2017-07-20
 
     > [NStack](https://nstack.com) lets data scientists and analysts to do sophisticated data work in the cloud without a team of engineers. Come help us build the platform for composable, data-driven microservices, using a mixture of Haskell and Linux systems tech. Reply via the link or email <jobs@nstack.com>.
 
+-   [Demystifying Haskell assignment](http://www.haskellforall.com/2017/07/demistifying-haskell-assignment.html)
+
+    > This post clarifies the distinction between `<-` and `=` in Haskell, which sometimes mystifies newcomers to the language. Most languages use only one symbol to assign values (such as `=` or `:=`), so why does Haskell use two?
+
 ## Package of the week
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
