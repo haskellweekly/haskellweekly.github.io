@@ -37,6 +37,10 @@ published: 2017-07-20
 
     > Our platonic ideal of a Haskell library is something that exports a single, coherent concept in such a way that it never needs to be reimplemented. This is not that: scraping is a dirty, error-prone, highly contingent endeavor.
 
+-   [State machine testing with Hedgehog](http://teh.id.au/posts/2017/07/15/state-machine-testing/index.html)
+
+    > This is a really nice way to specify and test effectful systems. It's much more effective than example-testing with canned action sequences. There's also a lot of potential for test reuse: anything implementing the same interface can use the same property.
+
 ## Package of the week
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
