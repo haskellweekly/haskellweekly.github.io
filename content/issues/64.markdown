@@ -9,6 +9,10 @@ published: 2017-07-20
 
     > For the past few years, Francesco Mazzoli and I have discussed issues around monad transformers --- and the need to run their actions in IO --- on a fairly regular basis. I wrote the monad-unlift library a while ago to try and address these concerns.
 
+-   [Type safe dimensional analysis in Haskell](https://www.stephanboyer.com/post/131/type-safe-dimensional-analysis-in-haskell)
+
+    > Years ago my colleague Gustavo asked how I would represent physical units like `m/s` or `kg*m/s^2` as types so the compiler can check that they match up and cancel correctly. F# supports this natively, but it felt weird to have it baked into the type system.
+
 -   [NStack is hiring Haskellers in London (onsite/remote)](https://angel.co/nstack/jobs) (ad)
 
     > [NStack](https://nstack.com) lets data scientists and analysts to do sophisticated data work in the cloud without a team of engineers. Come help us build the platform for composable, data-driven microservices, using a mixture of Haskell and Linux systems tech. Reply via the link or email <jobs@nstack.com>.
