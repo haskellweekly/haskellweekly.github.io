@@ -41,6 +41,10 @@ published: 2017-07-20
 
     > This is a really nice way to specify and test effectful systems. It's much more effective than example-testing with canned action sequences. There's also a lot of potential for test reuse: anything implementing the same interface can use the same property.
 
+-   [The world's fastest extensible effects framework](https://www.schoolofhaskell.com/user/fumieval/extensible/the-world-s-fastest-extensible-effects-framework)
+
+    > I uploaded a new version of `monad-skeleton-0.1.4`, an operational monad library. As a result of performance optimization in the new version, extensible, the extensible effects library based on it, is now much faster than the other well-known libraries.
+
 ## Package of the week
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
