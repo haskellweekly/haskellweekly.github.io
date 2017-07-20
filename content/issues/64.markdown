@@ -45,6 +45,10 @@ published: 2017-07-20
 
     > I uploaded a new version of `monad-skeleton-0.1.4`, an operational monad library. As a result of performance optimization in the new version, extensible, the extensible effects library based on it, is now much faster than the other well-known libraries.
 
+-   [Free monad cheatsheet](http://jeremymikkola.com/posts/2017_07_11_free_monad_cheatsheet.html)
+
+    > The free monad allows you to build your own custom monad. This lets you use the do notation for whatever you want. I find that a lot of the tutorials on the Free monad have too much build-up, and it's hard to figure out what the code should actually be at the end.
+
 ## Package of the week
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
