@@ -3,6 +3,12 @@ title: Issue 64
 published: 2017-07-20
 ---
 
+## Featured
+
+-   [Announcing: the new unliftio library](https://www.fpcomplete.com/blog/2017/07/announcing-new-unliftio-library)
+
+    > For the past few years, Francesco Mazzoli and I have discussed issues around monad transformers --- and the need to run their actions in IO --- on a fairly regular basis. I wrote the monad-unlift library a while ago to try and address these concerns.
+
 -   [NStack is hiring Haskellers in London (onsite/remote)](https://angel.co/nstack/jobs) (ad)
 
     > [NStack](https://nstack.com) lets data scientists and analysts to do sophisticated data work in the cloud without a team of engineers. Come help us build the platform for composable, data-driven microservices, using a mixture of Haskell and Linux systems tech. Reply via the link or email <jobs@nstack.com>.
