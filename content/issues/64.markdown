@@ -25,6 +25,10 @@ published: 2017-07-20
 
     > This post clarifies the distinction between `<-` and `=` in Haskell, which sometimes mystifies newcomers to the language. Most languages use only one symbol to assign values (such as `=` or `:=`), so why does Haskell use two?
 
+-   [Moving beyond types](http://hypothesis.works/articles/types-and-properties/)
+
+    > If you look at the original property-based testing library, QuickCheck, tests are very closely tied to types: The way you typically specify a property is by inferring the data that needs to be generated from the types the test function expects for its arguments. This is a bad idea.
+
 ## Package of the week
 
 This week's package of the week is [language-ninja](https://hackage.haskell.org/package/language-ninja-0.1.0),
