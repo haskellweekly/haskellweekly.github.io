@@ -35,3 +35,4 @@ Email <info@haskellweekly.news> to get it included here!
 
 -   [Stack 1.5.0 released](https://github.com/commercialhaskell/stack/releases/tag/v1.5.0)
 -   [Stackage LTS 9.0 released](https://www.stackage.org/lts-9.0)
+-   [Yi 0.14 released](https://yi-editor.github.io/posts/2017-07-25-release-0.14/)
