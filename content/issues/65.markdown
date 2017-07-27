@@ -17,6 +17,10 @@ This is a weekly summary of what's going on in its community.
 
     > Today, we're excited to release the developer preview of Eta which features the first binary release. The focus for this series will be bug fixes, documentation updates, performance improvements, and standard library changes.
 
+-   [The `RIO` monad](https://www.fpcomplete.com/blog/2017/07/the-rio-monad)
+
+    > I've played with the idea of a `RIO` (`Reader` + `IO`) monad a number of times in the past, but never bit the bullet to do it. As I've been hashing out ideas with some people and working through cleanups on Stack, it became clear that the time was right to try this out.
+
 ## Jobs
 
 -   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
