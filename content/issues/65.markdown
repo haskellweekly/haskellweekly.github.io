@@ -74,7 +74,15 @@ Email <info@haskellweekly.news> to get it included here!
 
 ## In brief
 
+-   [Adjunctions and Battleship](http://chrispenner.ca/posts/adjunction-battleship)
+-   [Connecting a Haskell backend to a PureScript frontend](https://www.stackbuilders.com/tutorials/functional-full-stack/purescript-bridge/)
+-   [Generic programming in Haskell](https://jeltsch.wordpress.com/2016/02/22/generic-programming-in-haskell/)
+-   [Getting the user's opinion: Options in Haskell](https://mmhaskell.com/blog/2017/7/24/getting-the-users-opinion-options-in-haskell)
+-   [I've briefly tried VCache, and here is how it was](https://gist.github.com/anonymous/f005d8387382db8c474c6f8159d33e92/5d4dc3e44a9867b8abac07ed359d7a906af55dc6)
+-   [Is having a `(a -> b) -> b` equivalent to having an `a`?](https://stackoverflow.com/questions/45287954/is-having-a-a-b-b-equivalent-to-having-an-a)
 -   [jl: A tiny functional language for querying and manipulating JSON](https://github.com/chrisdone/jl/blob/3831a1285aa9a1005bbcce3fff10e484f7e2d6ac/README.md)
+-   [Ray tracer demo](https://disciple-devel.blogspot.com.au/2017/07/ray-tracer-demo.html)
 -   [Stack 1.5.0 released](https://github.com/commercialhaskell/stack/releases/tag/v1.5.0)
 -   [Stackage LTS 9.0 released](https://www.stackage.org/lts-9.0)
+-   [Using Coq to write fast and correct Haskell](https://www.cs.purdue.edu/homes/bendy/Fiat/FiatByteString.pdf)
 -   [Yi 0.14 released](https://yi-editor.github.io/posts/2017-07-25-release-0.14/)
