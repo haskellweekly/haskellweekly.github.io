@@ -29,6 +29,10 @@ This is a weekly summary of what's going on in its community.
 
     > We may not need all of the tools from the `lens` package. I believe the best way to start using lenses is Haskell is by implementing a simple subset.
 
+-   [Homegrown linear monads with `RebindableSyntax`](https://m0ar.github.io/safe-streaming/2017/07/20/homegrown-linear-monads.html)
+
+    > A linear monad class would allow relying on the type system to ensure that a monadic value can only be used once by forcing the bind to consume its first argument (disallowing multiple uses of earlier stream references), effectively making the previously shown runtime errors impossible.
+
 ## Jobs
 
 -   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
