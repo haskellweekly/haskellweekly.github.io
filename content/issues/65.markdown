@@ -33,6 +33,10 @@ This is a weekly summary of what's going on in its community.
 
     > A linear monad class would allow relying on the type system to ensure that a monadic value can only be used once by forcing the bind to consume its first argument (disallowing multiple uses of earlier stream references), effectively making the previously shown runtime errors impossible.
 
+-   [Evolution of error messages](https://markkarpov.com/post/evolution-of-error-messages.html)
+
+    > This is the second and final post about Megaparsec 6.0.0 development. This time we are going to walk through re-design of parse error messages.
+
 ## Jobs
 
 -   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
