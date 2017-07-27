@@ -58,20 +58,6 @@ This is a weekly summary of what's going on in its community.
 Are you looking to hire a Haskell developer?
 Get in touch with <info@haskellweekly.news> for advertising opportunities!
 
-## Package of the week
-
-This week's package of the week is [una](https://hackage.haskell.org/package/una-2.1.0),
-a universal un-archiving utility application.
-
-## Call for participation
-
--   [blaze-markup: Add a Semigroup instance for AttributeValue](https://github.com/jaspervdj/blaze-markup/issues/28)
--   [hspec: `shouldFail` spectree](https://github.com/hspec/hspec/issues/304)
--   [miso: miso-from-html](https://github.com/dmjio/miso/issues/198)
-
-Do you have a beginner-friendly issue you want some help with?
-Email <info@haskellweekly.news> to get it included here!
-
 ## In brief
 
 -   [Adjunctions and Battleship](http://chrispenner.ca/posts/adjunction-battleship)
@@ -86,3 +72,17 @@ Email <info@haskellweekly.news> to get it included here!
 -   [Stackage LTS 9.0 released](https://www.stackage.org/lts-9.0)
 -   [Using Coq to write fast and correct Haskell](https://www.cs.purdue.edu/homes/bendy/Fiat/FiatByteString.pdf)
 -   [Yi 0.14 released](https://yi-editor.github.io/posts/2017-07-25-release-0.14/)
+
+## Package of the week
+
+This week's package of the week is [una](https://hackage.haskell.org/package/una-2.1.0),
+a universal un-archiving utility application.
+
+## Call for participation
+
+-   [blaze-markup: Add a Semigroup instance for AttributeValue](https://github.com/jaspervdj/blaze-markup/issues/28)
+-   [hspec: `shouldFail` spectree](https://github.com/hspec/hspec/issues/304)
+-   [miso: miso-from-html](https://github.com/dmjio/miso/issues/198)
+
+Do you have a beginner-friendly issue you want some help with?
+Email <info@haskellweekly.news> to get it included here!
