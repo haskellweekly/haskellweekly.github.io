@@ -13,7 +13,8 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [una](https://hackage.haskell.org/package/una-2.1.0),
+a universal un-archiving utility application.
 
 ## Call for participation
 
