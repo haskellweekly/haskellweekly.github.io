@@ -13,6 +13,10 @@ This is a weekly summary of what's going on in its community.
 
     > The GHC developers are very happy to announce the long-awaited 8.2.1 release of Glasgow Haskell Compiler. This is the second release in the 8.0 series. As such, the focus of this release is performance, stability, and consolidation.
 
+-   [Announcing Eta v0.1 developer preview](https://medium.com/eta-programming-language/announcing-eta-0-1-developer-preview-65b6c1838c6)
+
+    > Today, we're excited to release the developer preview of Eta which features the first binary release. The focus for this series will be bug fixes, documentation updates, performance improvements, and standard library changes.
+
 ## Package of the week
 
 This week's package of the week is [una](https://hackage.haskell.org/package/una-2.1.0),
