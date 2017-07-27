@@ -45,6 +45,10 @@ This is a weekly summary of what's going on in its community.
 
     > Greetings and salutations! If you're reading this, it means I haven't died yet, which is pretty great. So, as my last blog post mentioned, I've been spending this summer working on a Haskell Summer of Code project: Bringing sanity to the GHC performance test-suite.
 
+-   [Haskell library in a C project](https://ro-che.info/articles/2017-07-26-haskell-library-in-c-project)
+
+    > Usually, people are more interested in calling C libraries from Haskell than vice versa. But at NStack, we are going in the opposite direction. We want to build a Haskell library that is going to be used by the programming languages that we support, such as Python.
+
 ## Jobs
 
 -   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
