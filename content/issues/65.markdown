@@ -29,4 +29,4 @@ Email <info@haskellweekly.news> to get it included here!
 
 ## In brief
 
-todo
+-   [Stack 1.5.0 released](https://github.com/commercialhaskell/stack/releases/tag/v1.5.0)
