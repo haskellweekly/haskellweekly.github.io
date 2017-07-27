@@ -9,7 +9,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-todo
+-   [GHC 8.2.1 is available](https://ghc.haskell.org/trac/ghc/blog/ghc-8.2.11-released)
+
+    > The GHC developers are very happy to announce the long-awaited 8.2.1 release of Glasgow Haskell Compiler. This is the second release in the 8.0 series. As such, the focus of this release is performance, stability, and consolidation.
 
 ## Package of the week
 
