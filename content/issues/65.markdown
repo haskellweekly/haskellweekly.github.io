@@ -17,6 +17,12 @@ This is a weekly summary of what's going on in its community.
 
     > Today, we're excited to release the developer preview of Eta which features the first binary release. The focus for this series will be bug fixes, documentation updates, performance improvements, and standard library changes.
 
+## Jobs
+
+-   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
+
+    > Facebook's Static Analysis team is seeking an experienced software engineer with expertise in C++ and typed functional programming to help build and improve our analysis tools. You will help design and extend Infer for C++, which is used to find bugs across all Facebook engineering.
+
 ## Package of the week
 
 This week's package of the week is [una](https://hackage.haskell.org/package/una-2.1.0),
