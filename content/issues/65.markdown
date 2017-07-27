@@ -23,6 +23,9 @@ This is a weekly summary of what's going on in its community.
 
     > Facebook's Static Analysis team is seeking an experienced software engineer with expertise in C++ and typed functional programming to help build and improve our analysis tools. You will help design and extend Infer for C++, which is used to find bugs across all Facebook engineering.
 
+Are you looking to hire a Haskell developer?
+Get in touch with <info@haskellweekly.news> for advertising opportunities!
+
 ## Package of the week
 
 This week's package of the week is [una](https://hackage.haskell.org/package/una-2.1.0),
