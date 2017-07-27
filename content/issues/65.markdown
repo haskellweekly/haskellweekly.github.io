@@ -25,6 +25,10 @@ This is a weekly summary of what's going on in its community.
 
     > The latest version of inline-c, 0.6.0.0, does not require manual specification of generated C files. Moreover, GHCi now works, provided you use `-fobject-code`. The build process as a whole is much more reliable.
 
+-   [Lens tutorial: `SimpleLens`](http://www.mchaver.com/posts/2017-07-12-lens-tutorial-1.html)
+
+    > We may not need all of the tools from the `lens` package. I believe the best way to start using lenses is Haskell is by implementing a simple subset.
+
 ## Jobs
 
 -   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
