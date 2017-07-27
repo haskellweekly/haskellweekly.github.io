@@ -41,6 +41,10 @@ This is a weekly summary of what's going on in its community.
 
     > In this blog post I talk about my progress in haskell-interactive-mode (clone of haskell-mode). At this point, I'm not an elisp noob anymore. The most important thing that I had to do was, split haskell-interactive-mode from haskell-mode.
 
+-   [Halfway there, or "I want to say I know what I'm doing, but it's a dangerous thing to say"](https://jaredweakly.com/blog/halfway-there/)
+
+    > Greetings and salutations! If you're reading this, it means I haven't died yet, which is pretty great. So, as my last blog post mentioned, I've been spending this summer working on a Haskell Summer of Code project: Bringing sanity to the GHC performance test-suite.
+
 ## Jobs
 
 -   [Facebook: Software Engineer, Static Analysis](https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/)
