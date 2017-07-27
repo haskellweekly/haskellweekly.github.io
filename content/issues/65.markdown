@@ -33,6 +33,7 @@ Email <info@haskellweekly.news> to get it included here!
 
 ## In brief
 
+-   [jl: A tiny functional language for querying and manipulating JSON](https://github.com/chrisdone/jl/blob/3831a1285aa9a1005bbcce3fff10e484f7e2d6ac/README.md)
 -   [Stack 1.5.0 released](https://github.com/commercialhaskell/stack/releases/tag/v1.5.0)
 -   [Stackage LTS 9.0 released](https://www.stackage.org/lts-9.0)
 -   [Yi 0.14 released](https://yi-editor.github.io/posts/2017-07-25-release-0.14/)
