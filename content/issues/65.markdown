@@ -30,3 +30,4 @@ Email <info@haskellweekly.news> to get it included here!
 ## In brief
 
 -   [Stack 1.5.0 released](https://github.com/commercialhaskell/stack/releases/tag/v1.5.0)
+-   [Stackage LTS 9.0 released](https://www.stackage.org/lts-9.0)
