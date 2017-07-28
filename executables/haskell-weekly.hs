@@ -20,6 +20,8 @@ main = do
   form <- readFile (FilePath.joinPath [input, "includes", "form.html"])
   issueTemplate <- readFile (FilePath.joinPath [input, "templates", "issue.html"])
   logo <- readFile (FilePath.joinPath [input, "includes", "logo.svg"])
+  rss <- readFile (FilePath.joinPath [input, "templates", "rss.xml"])
+  rssItem <- readFile (FilePath.joinPath [input, "templates", "rss-item.xml"])
   script <- readFile (FilePath.joinPath [input, "includes", "script.js"])
   snippet <- readFile (FilePath.joinPath [input, "templates", "snippet.html"])
   style <- readFile (FilePath.joinPath [input, "includes", "style.css"])
@@ -122,6 +124,20 @@ main = do
       ]
       atom
     writeFile (FilePath.combine output "haskell-weekly.atom") contents
+
+  do
+    items <- Monad.forM issues (\ (number, day, contents) -> render
+      [ ("description", contents & Text.pack & Text.replace (Text.pack "&") (Text.pack "&amp;") & Text.replace (Text.pack "<") (Text.pack "&lt;") & Text.unpack)
+      , ("link", "https://haskellweekly.news/issues/" ++ show number ++ ".html")
+      , ("pubDate", Time.formatTime Time.defaultTimeLocale "%a, %d %b %Y 00:00:00 GMT" day)
+      , ("title", "Issue " ++ show number)
+      ]
+      rssItem)
+    contents <- render
+      [ ("items", concat items)
+      ]
+      rss
+    writeFile (FilePath.combine output "haskell-weekly.rss") contents
 
 render :: Monad m => [(String, String)] -> String -> m String
 render values template = do

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haskell Weekly</title>
+    <link>https://haskellweekly.news</link>
+    <description></description>
+    <atom:link rel="self" href="https://haskellweekly.news/haskell-weekly.rss" />
+
+    $items$
+  </channel>
+</rss>
