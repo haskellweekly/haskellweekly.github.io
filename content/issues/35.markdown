@@ -1,7 +1,4 @@
----
-title: Issue 35
-published: 2016-12-29
----
+<!-- 2016-12-29 -->
 
 This is the last issue of 2016.
 Looking back on the year,

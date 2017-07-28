@@ -1,7 +1,4 @@
----
-title: Issue 34
-published: 2016-12-22
----
+<!-- 2016-12-22 -->
 
 -   [Haskell package checklist](http://taylor.fausak.me/2016/12/05/haskell-package-checklist/)
 

@@ -1,7 +1,4 @@
----
-title: Issue 27
-published: 2016-11-03
----
+<!-- 2016-11-03 -->
 
 -   [Learn me a Haskell](https://blog.cotten.io/learn-me-a-haskell-5970bf4ac206)
 

@@ -1,7 +1,4 @@
----
-title: Issue 24
-published: 2016-10-13
----
+<!-- 2016-10-13 -->
 
 -   [Try Backpack: `ghc --backpack`](http://blog.ezyang.com/2016/10/try-backpack-ghc-backpack/)
 

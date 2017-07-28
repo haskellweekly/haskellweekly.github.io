@@ -1,7 +1,4 @@
----
-title: Issue 14
-published: 2016-08-04
----
+<!-- 2016-08-04 -->
 
 -   [A founder's perspective on 4 years with Haskell](http://baatz.io/posts/haskell-in-a-startup/)
 

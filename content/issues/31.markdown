@@ -1,7 +1,4 @@
----
-title: Issue 31
-published: 2016-12-01
----
+<!-- 2016-12-01 -->
 
 -   [GHC 8.0.2 release candidate 1](https://mail.haskell.org/pipermail/glasgow-haskell-users/2016-November/026410.html)
 

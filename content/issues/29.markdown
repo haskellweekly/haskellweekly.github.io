@@ -1,7 +1,4 @@
----
-title: Issue 29
-published: 2016-11-17
----
+<!-- 2016-11-17 -->
 
 -   [Parse and generate Rocket League replays with Haskell](http://taylor.fausak.me/2016/11/15/parse-and-generate-rocket-league-replays-with-haskell/)
 

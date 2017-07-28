@@ -1,7 +1,4 @@
----
-title: Issue 30
-published: 2016-11-24
----
+<!-- 2016-11-24 -->
 
 -   [The Haskell.org Website Working Group (HWWG)](https://neilmitchell.blogspot.com/2016/11/the-haskellorg-website-working-group.html)
 

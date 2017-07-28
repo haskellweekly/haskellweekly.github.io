@@ -1,7 +1,4 @@
----
-title: Issue 32
-published: 2016-12-08
----
+<!-- 2016-12-08 -->
 
 -   [Introducing the Hamilton library](https://blog.jle.im/entry/introducing-the-hamilton-library.html)
 

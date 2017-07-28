@@ -1,7 +1,4 @@
----
-title: Issue 16
-published: 2016-08-18
----
+<!-- 2016-08-18 -->
 
 -   [Why building web-apps in Haskell is harder than it ought to be](https://medium.com/@saurabhnanda/why-building-web-apps-in-haskell-is-harder-than-it-ought-to-be-c9b13de0be4f#.biieoeofz)
 

@@ -1,7 +1,4 @@
----
-title: Issue 7
-published: 2016-06-16
----
+<!-- 2016-06-16 -->
 
 -   [The Story of Haskell at IMVU](https://chadaustin.me/2016/06/the-story-of-haskell-at-imvu/)
 

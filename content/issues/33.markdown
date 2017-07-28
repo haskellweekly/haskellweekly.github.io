@@ -1,7 +1,4 @@
----
-title: Issue 33
-published: 2016-12-15
----
+<!-- 2016-12-15 -->
 
 -   [Haskell in the datacentre](http://simonmar.github.io/posts/2016-12-08-Haskell-in-the-datacentre.html)
 

@@ -1,7 +1,4 @@
----
-title: Issue 20
-published: 2016-09-15
----
+<!-- 2016-09-15 -->
 
 -   [Into the Core: Squeezing Haskell into Nine Constructors by Simon Peyton Jones](https://www.youtube.com/watch?v=uR_VzYxvbxg)
 

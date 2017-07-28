@@ -1,7 +1,7 @@
 #!/usr/bin/env stack
 {-
   stack
-  --resolver lts-8.0
+  --resolver lts-9.0
   script
   --package directory
   --package filepath
@@ -24,7 +24,7 @@ main = do
   Monad.guard (branch == "hakyll")
   Monad.guard (isPullRequest == "false")
 
-  Directory.setCurrentDirectory (FilePath.joinPath ["_hakyll", "site"])
+  Directory.setCurrentDirectory (FilePath.joinPath ["_site"])
   writeFile "CNAME" "haskellweekly.news"
   let git = Process.callProcess "git"
 

@@ -10,21 +10,19 @@ license: MIT
 maintainer: Taylor Fausak
 synopsis: A weekly Haskell newsletter.
 
-dependencies: base
-ghc-options: -Wall
-
-library:
-  dependencies:
-    - hakyll
-    - tagsoup
-  source-dirs: library
-
 executables:
   haskell-weekly:
-    dependencies: haskell-weekly
+    dependencies:
+      - base
+      - cmark
+      - directory
+      - filepath
+      - text
+      - time
     ghc-options:
       - -rtsopts
       - -threaded
+      - -Wall
       - -with-rtsopts=-N
     main: haskell-weekly.hs
     source-dirs: executables

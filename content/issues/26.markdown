@@ -1,7 +1,4 @@
----
-title: Issue 26
-published: 2016-10-27
----
+<!-- 2016-10-27 -->
 
 -   [Showcasing Applicative](https://www.joachim-breitner.de/blog/710-Showcasing_Applicative)
 
