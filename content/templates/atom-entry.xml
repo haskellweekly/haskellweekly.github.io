@@ -1,9 +1,7 @@
 <entry>
-  <id>$url$</id>
-  <title>$title$</title>
+  <id>$baseUrl$/issues/$number$.html</id>
+  <title>Issue $number$</title>
   <updated>$updated$</updated>
-  <link href="$url$" />
-  <content type="html">
-    $content$
-  </content>
+  <link href="$baseUrl$/issues/$number$.html" />
+  <content type="html">$content$</content>
 </entry>

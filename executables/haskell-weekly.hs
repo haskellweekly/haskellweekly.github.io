@@ -1,146 +1,232 @@
-import Data.Function ((&))
-
 import qualified CMark
-import qualified Control.Monad as Monad
 import qualified Data.List as List
-import qualified Data.Maybe as Maybe
 import qualified Data.Ord as Ord
 import qualified Data.Text as Text
 import qualified Data.Time as Time
 import qualified System.Directory as Directory
 import qualified System.FilePath as FilePath
-import qualified Text.Read as Read
 
 main :: IO ()
 main = do
+
+  -- Configure input and output directories.
   let input = "content"
-  atom <- readFile (FilePath.joinPath [input, "templates", "atom.xml"])
-  atomEntry <- readFile (FilePath.joinPath [input, "templates", "atom-entry.xml"])
-  baseTemplate <- readFile (FilePath.joinPath [input, "templates", "base.html"])
-  form <- readFile (FilePath.joinPath [input, "includes", "form.html"])
-  issueTemplate <- readFile (FilePath.joinPath [input, "templates", "issue.html"])
-  logo <- readFile (FilePath.joinPath [input, "includes", "logo.svg"])
-  rss <- readFile (FilePath.joinPath [input, "templates", "rss.xml"])
-  rssItem <- readFile (FilePath.joinPath [input, "templates", "rss-item.xml"])
-  script <- readFile (FilePath.joinPath [input, "includes", "script.js"])
-  snippet <- readFile (FilePath.joinPath [input, "templates", "snippet.html"])
-  style <- readFile (FilePath.joinPath [input, "includes", "style.css"])
-
-  issueFiles <- Directory.listDirectory (FilePath.combine input "issues")
-  issueContents <- issueFiles
-    & filter (\ file -> FilePath.takeExtension file == ".markdown")
-    & map FilePath.takeBaseName
-    & Maybe.mapMaybe Read.readMaybe
-    & map (\ number -> number :: Word)
-    & List.sortBy (Ord.comparing Ord.Down)
-    & mapM (\ number -> do
-      contents <- readFile (FilePath.joinPath [input, "issues", FilePath.addExtension (show number) "markdown"])
-      pure (number, contents))
-  let issues = issueContents
-        & Maybe.mapMaybe (\ (number, contents) -> case lines contents of
-          first : rest -> pure (number, first, unlines rest)
-          _ -> fail "missing first line")
-        & Maybe.mapMaybe (\ (number, first, contents) -> case words first of
-          ["<!--", date, "-->"] -> pure (number, date, contents)
-          _ -> fail "invalid first line")
-        & Maybe.mapMaybe (\ (number, date, contents) -> case Time.parseTimeM False Time.defaultTimeLocale "%Y-%m-%d" date of
-          Just day -> pure (number, (day :: Time.Day), contents)
-          _ -> fail "invalid date")
-        & map (\ (number, day, contents) ->
-          ( number
-          , day
-          , contents & Text.pack & CMark.commonmarkToHtml [] & Text.unpack
-          ))
-
   let output = "_site"
+
+  -- Clean the output directory to avoid stale files.
   Directory.removePathForcibly output
-  Directory.createDirectoryIfMissing True output
 
-  Directory.createDirectoryIfMissing True (FilePath.combine output "images")
-  Directory.copyFile (FilePath.joinPath [input, "images", "favicon.ico"]) (FilePath.joinPath [output, "images", "favicon.ico"])
-  Directory.copyFile (FilePath.joinPath [input, "images", "twitter-card.png"]) (FilePath.joinPath [output, "images", "twitter-card.png"])
+  -- Create the expected hierarchy in the output directory.
+  mapM_ createDirectoryAt
+    [ [output]
+    , [output, "images"]
+    , [output, "issues"]
+    ]
 
-  Directory.createDirectoryIfMissing True (FilePath.combine output "issues")
-  Monad.forM_ issues (\ (number, day, issue) -> do
-    body <- render
-      [ ("body", issue)
-      , ("date", Time.formatTime Time.defaultTimeLocale "%B %e %Y" day)
-      , ("form", form)
-      , ("title", "Issue " ++ show number)
-      ]
-      issueTemplate
-    contents <- render
-      [ ("body", body)
-      , ("logo", logo)
-      , ("script", script)
-      , ("style", style)
-      , ("summary", "Issue " ++ show number ++ " of Haskell Weekly.")
-      , ("title", "Issue " ++ show number ++ " :: Haskell Weekly")
-      , ("url", "/issues/" ++ show number ++ ".html")
-      ]
-      baseTemplate
-    writeFile (FilePath.joinPath [output, "issues", FilePath.addExtension (show number) "html"]) contents)
+  -- Copy over static files.
+  mapM_ (copyFileAt input output)
+    [ ["images", "favicon.ico"]
+    , ["images", "twitter-card.png"]
+    ]
 
+  -- Read includes and inject them into the context.
+  form <- readFileAt [input, "includes", "form.html"]
+  logo <- readFileAt [input, "includes", "logo.svg"]
+  script <- readFileAt [input, "includes", "script.js"]
+  style <- readFileAt [input, "includes", "style.css"]
+  let context =
+        [ ("baseUrl", "https://haskellweekly.news")
+        , ("form", form)
+        , ("logo", logo)
+        , ("script", script)
+        , ("style", style)
+        ]
+
+  -- Read templates.
+  atomEntryTemplate <- readFileAt [input, "templates", "atom-entry.xml"]
+  atomTemplate <- readFileAt [input, "templates", "atom.xml"]
+  baseTemplate <- readFileAt [input, "templates", "base.html"]
+  indexTemplate <- readFileAt [input, "templates", "index.html"]
+  issueTemplate <- readFileAt [input, "templates", "issue.html"]
+  rssItemTemplate <- readFileAt [input, "templates", "rss-item.xml"]
+  rssTemplate <- readFileAt [input, "templates", "rss.xml"]
+  snippetTemplate <- readFileAt [input, "templates", "snippet.html"]
+
+  -- Load issues.
+  issueFiles <- listDirectoryAt [input, "issues"]
+  issuesByNumber <- issueFiles
+    |> filter (hasExtension "markdown")
+    |> map FilePath.takeBaseName
+    |> mapMaybe safeRead
+    |> mapM (\ number -> do
+      contents <- readFileAt [input, "issues", FilePath.addExtension (show number) "markdown"]
+      pure (number, contents))
+
+  -- Parse issues.
+  let issues = sortIssues (mapMaybe parseIssue issuesByNumber)
+
+  -- Create issue pages.
+  forM_ issues (\ issue -> do
+    let number = show (issueNumber issue)
+    contents <- renderIssue baseTemplate issueTemplate context issue
+    writeFileAt [output, "issues", FilePath.addExtension number "html"] contents)
+
+  -- Create home page.
   do
-    index <- readFile (FilePath.joinPath [input, "pages", "index.html"])
-    snippets <- Monad.forM issues (\ (number, day, _) -> render
-      [ ("date", Time.formatTime Time.defaultTimeLocale "%Y-%m-%d" day)
-      , ("title", "Issue " ++ show number)
-      , ("url", "/issues/" ++ show number ++ ".html")
-      ]
-      snippet)
-    body <- render
-      [ ("form", form)
-      , ("issues", concat snippets)
-      ] index
-    contents <- render
-      [ ("body", body)
-      , ("form", form)
-      , ("logo", logo)
-      , ("script", script)
-      , ("style", style)
-      , ("summary", "Haskell Weekly is a free email newsletter about the Haskell programming language. Each issue features several hand-picked links to interesting content about Haskell from around the web.")
-      , ("title", "Haskell Weekly")
-      , ("url", "/index.html")
-      ]
-      baseTemplate
-    writeFile (FilePath.combine output "index.html") contents
+    contents <- renderIndex baseTemplate indexTemplate snippetTemplate context issues
+    writeFileAt [output, "index.html"] contents
 
+  -- Create Atom feed.
   do
-    entries <- Monad.forM issues (\ (number, day, contents) -> render
-      [ ("content", contents & Text.pack & Text.replace (Text.pack "&") (Text.pack "&amp;") & Text.replace (Text.pack "<") (Text.pack "&lt;") & Text.unpack)
-      , ("title", "Issue " ++ show number)
-      , ("updated", Time.formatTime Time.defaultTimeLocale "%y-%m-%dT00:00:00Z" day)
-      , ("url", "https://haskellweekly.news/issues/" ++ show number ++ ".html")
-      ]
-      atomEntry)
-    contents <- render
-      [ ("entries", concat entries)
-      , ("updated", issues
-      & Maybe.listToMaybe
-      & fmap (\(_, day, _) -> day)
-      & Maybe.fromMaybe (Time.fromGregorian 1970 1 1)
-      & Time.formatTime Time.defaultTimeLocale "%y-%m-%dT00:00:00Z")
-      ]
-      atom
-    writeFile (FilePath.combine output "haskell-weekly.atom") contents
+    contents <- renderAtom atomTemplate atomEntryTemplate context issues
+    writeFileAt [output, "haskell-weekly.atom"] contents
 
+  -- Create RSS feed.
   do
-    items <- Monad.forM issues (\ (number, day, contents) -> render
-      [ ("description", contents & Text.pack & Text.replace (Text.pack "&") (Text.pack "&amp;") & Text.replace (Text.pack "<") (Text.pack "&lt;") & Text.unpack)
-      , ("link", "https://haskellweekly.news/issues/" ++ show number ++ ".html")
-      , ("pubDate", Time.formatTime Time.defaultTimeLocale "%a, %d %b %Y 00:00:00 GMT" day)
-      , ("title", "Issue " ++ show number)
-      ]
-      rssItem)
-    contents <- render
-      [ ("items", concat items)
-      ]
-      rss
-    writeFile (FilePath.combine output "haskell-weekly.rss") contents
+    contents <- renderRss rssTemplate rssItemTemplate context issues
+    writeFileAt [output, "haskell-weekly.rss"] contents
 
-render :: Monad m => [(String, String)] -> String -> m String
-render values template = do
+-- Types
+
+data Issue = Issue
+  { issueNumber :: Word
+  , issueDay :: Time.Day
+  , issueContents :: String
+  }
+
+type Context = [(String, String)]
+
+-- Business helpers
+
+commonMark :: String -> String
+commonMark markdown =
+  Text.unpack (CMark.commonmarkToHtml [] (Text.pack markdown))
+
+escapeHtml :: String -> String
+escapeHtml html =
+  html
+  |> replace "&" "&amp;"
+  |> replace "<" "&lt;"
+
+getDay :: String -> Maybe Time.Day
+getDay meta =
+  case words meta of
+    ["<!--", day, "-->"] -> parseDay day
+    _ -> Nothing
+
+isoDay :: Time.Day -> String
+isoDay day =
+  Time.formatTime Time.defaultTimeLocale "%Y-%m-%dT00:00:00Z" day
+
+issueTitle :: Issue -> String
+issueTitle issue =
+  "Issue " ++ show (issueNumber issue)
+
+issueUrl :: Issue -> String
+issueUrl issue =
+  concat ["/issues/", show (issueNumber issue), ".html"]
+
+lastUpdated :: [Issue] -> Time.Day
+lastUpdated issues =
+  issues
+  |> map issueDay
+  |> safeHead
+  |> withDefault (Time.fromGregorian 1970 1 1)
+
+parseDay :: String -> Maybe Time.Day
+parseDay day =
+  Time.parseTimeM False Time.defaultTimeLocale "%Y-%m-%d" day
+
+parseIssue :: (Word, String) -> Maybe Issue
+parseIssue (number, contents) = do
+  (meta, body) <- splitFirstLine contents
+  day <- getDay meta
+  Just Issue
+    { issueNumber = number
+    , issueDay = day
+    , issueContents = commonMark body
+    }
+
+prettyDay :: Time.Day -> String
+prettyDay day =
+  Time.formatTime Time.defaultTimeLocale "%B %e %Y" day
+
+rfcDay :: Time.Day -> String
+rfcDay day =
+  Time.formatTime Time.defaultTimeLocale "%a, %d %b %Y 00:00:00 GMT" day
+
+sortIssues :: [Issue] -> [Issue]
+sortIssues issues =
+  List.sortBy (Ord.comparing (\ issue -> Ord.Down (issueDay issue))) issues
+
+-- Rendering helpers
+
+renderAtom :: Monad m => String -> String -> Context -> [Issue] -> m String
+renderAtom template entryTemplate context issues = do
+  entries <- mapM (renderAtomEntry entryTemplate context) issues
+  renderTemplate template (context ++
+    [ ("entries", concat entries)
+    , ("updated", isoDay (lastUpdated issues))
+    ])
+
+renderAtomEntry :: Monad m => String -> Context -> Issue -> m String
+renderAtomEntry template context issue =
+  renderTemplate template (context ++
+    [ ("content", escapeHtml (issueContents issue))
+    , ("number", show (issueNumber issue))
+    , ("updated", isoDay (issueDay issue))
+    ])
+
+renderIndex :: Monad m => String -> String -> String -> Context -> [Issue] -> m String
+renderIndex baseTemplate template snippetTemplate context issues = do
+  snippets <- mapM (renderSnippet snippetTemplate context) issues
+  body <- renderTemplate template (("issues", concat snippets) : context)
+  renderTemplate baseTemplate (context ++
+    [ ("body", body)
+    , ("summary", "Haskell Weekly is a free email newsletter about the Haskell programming language. Each issue features several hand-picked links to interesting content about Haskell from around the web.")
+    , ("title", "Haskell Weekly")
+    , ("url", "")
+    ])
+
+renderIssue :: Monad m => String -> String -> Context -> Issue -> m String
+renderIssue baseTemplate issueTemplate context issue = do
+  let title = issueTitle issue
+  body <- renderTemplate issueTemplate (context ++
+    [ ("body", issueContents issue)
+    , ("date", prettyDay (issueDay issue))
+    , ("title", title)
+    ])
+  renderTemplate baseTemplate (context ++
+    [ ("body", body)
+    , ("summary", "Issue " ++ show (issueNumber issue) ++ " of Haskell Weekly.")
+    , ("title", title ++ " :: Haskell Weekly")
+    , ("url", issueUrl issue)
+    ])
+
+renderRss :: Monad m => String -> String -> Context -> [Issue] -> m String
+renderRss template itemTemplate context issues = do
+  items <- mapM (renderRssItem itemTemplate context) issues
+  renderTemplate template (("items", concat items) : context)
+
+renderRssItem :: Monad m => String -> Context -> Issue -> m String
+renderRssItem template context issue =
+  renderTemplate template (context ++
+    [ ("description", escapeHtml (issueContents issue))
+    , ("pubDate", rfcDay (issueDay issue))
+    , ("title", issueTitle issue)
+    , ("url", issueUrl issue)
+    ])
+
+renderSnippet :: Monad m => String -> Context -> Issue -> m String
+renderSnippet template context issue =
+  renderTemplate template (context ++
+    [ ("date", prettyDay (issueDay issue))
+    , ("title", issueTitle issue)
+    , ("url", issueUrl issue)
+    ])
+
+renderTemplate :: Monad m => String -> Context -> m String
+renderTemplate template context = do
   let separator = '$'
   case break (== separator) template of
     (left, "") -> pure left
@@ -148,8 +234,81 @@ render values template = do
       case break (== separator) middle of
         (_, "") -> fail "unterminated replacement"
         (key, _ : right) ->
-          case lookup key values of
+          case lookup key context of
             Nothing -> fail ("unknown key: " ++ show key)
             Just value -> do
-              rest <- render values right
+              rest <- renderTemplate right context
               pure (concat [left, value, rest])
+
+-- Generic helpers
+
+infixl 1 |>
+(|>) :: a -> (a -> b) -> b
+x |> f =
+  f x
+
+copyFileAt :: FilePath -> FilePath -> [FilePath] -> IO ()
+copyFileAt input output path =
+  Directory.copyFile
+    (FilePath.joinPath (input : path))
+    (FilePath.joinPath (output : path))
+
+createDirectoryAt :: [FilePath] -> IO ()
+createDirectoryAt path =
+  Directory.createDirectoryIfMissing True (FilePath.joinPath path)
+
+forM_ :: Monad m => [a] -> (a -> m b) -> m ()
+forM_ xs f =
+  mapM_ f xs
+
+hasExtension :: String -> FilePath -> Bool
+hasExtension extension file =
+  FilePath.takeExtension file == '.' : extension
+
+listDirectoryAt :: [FilePath] -> IO [FilePath]
+listDirectoryAt path =
+  Directory.listDirectory (FilePath.joinPath path)
+
+mapMaybe :: (a -> Maybe b) -> [a] -> [b]
+mapMaybe f l =
+  case l of
+    [] -> []
+    h : t -> case f h of
+      Nothing -> mapMaybe f t
+      Just x -> x : mapMaybe f t
+
+readFileAt :: [FilePath] -> IO String
+readFileAt path =
+  readFile (FilePath.joinPath path)
+
+replace :: String -> String -> String -> String
+replace old new s =
+  Text.unpack (Text.replace (Text.pack old) (Text.pack new) (Text.pack s))
+
+safeHead :: [a] -> Maybe a
+safeHead l =
+  case l of
+    [] -> Nothing
+    h : _ -> Just h
+
+safeRead :: Read a => String -> Maybe a
+safeRead s =
+  case readsPrec 0 s of
+    [(x, "")] -> Just x
+    _ -> Nothing
+
+splitFirstLine :: String -> Maybe (String, String)
+splitFirstLine s =
+  case lines s of
+    [] -> Nothing
+    h : t -> Just (h, unlines t)
+
+withDefault :: a -> Maybe a -> a
+withDefault d m =
+  case m of
+    Nothing -> d
+    Just x -> x
+
+writeFileAt :: [FilePath] -> String -> IO ()
+writeFileAt path contents =
+  writeFile (FilePath.joinPath path) contents
