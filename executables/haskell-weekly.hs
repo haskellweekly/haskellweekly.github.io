@@ -14,6 +14,8 @@ import qualified Text.Read as Read
 main :: IO ()
 main = do
   let input = "content"
+  atom <- readFile (FilePath.joinPath [input, "templates", "atom.xml"])
+  atomEntry <- readFile (FilePath.joinPath [input, "templates", "atom-entry.xml"])
   baseTemplate <- readFile (FilePath.joinPath [input, "templates", "base.html"])
   form <- readFile (FilePath.joinPath [input, "includes", "form.html"])
   issueTemplate <- readFile (FilePath.joinPath [input, "templates", "issue.html"])
@@ -101,6 +103,25 @@ main = do
       ]
       baseTemplate
     writeFile (FilePath.combine output "index.html") contents
+
+  do
+    entries <- Monad.forM issues (\ (number, day, contents) -> render
+      [ ("content", contents & Text.pack & Text.replace (Text.pack "&") (Text.pack "&amp;") & Text.replace (Text.pack "<") (Text.pack "&lt;") & Text.unpack)
+      , ("title", "Issue " ++ show number)
+      , ("updated", Time.formatTime Time.defaultTimeLocale "%y-%m-%dT00:00:00Z" day)
+      , ("url", "https://haskellweekly.news/issues/" ++ show number ++ ".html")
+      ]
+      atomEntry)
+    contents <- render
+      [ ("entries", concat entries)
+      , ("updated", issues
+      & Maybe.listToMaybe
+      & fmap (\(_, day, _) -> day)
+      & Maybe.fromMaybe (Time.fromGregorian 1970 1 1)
+      & Time.formatTime Time.defaultTimeLocale "%y-%m-%dT00:00:00Z")
+      ]
+      atom
+    writeFile (FilePath.combine output "haskell-weekly.atom") contents
 
 render :: Monad m => [(String, String)] -> String -> m String
 render values template = do

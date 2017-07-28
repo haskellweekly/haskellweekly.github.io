@@ -1,0 +1,9 @@
+<entry>
+  <id>$url$</id>
+  <title>$title$</title>
+  <updated>$updated$</updated>
+  <link href="$url$" />
+  <content type="html">
+    $content$
+  </content>
+</entry>
