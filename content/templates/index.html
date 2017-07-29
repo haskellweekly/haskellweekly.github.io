@@ -11,16 +11,12 @@
   or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
 </p>
 
-$partial("templates/form.html")$
+$form$
 
 <h2>
   Issues
 </h2>
 
 <ul>
-  $for(issues)$
-    <li>
-      $isoDate$: <a href="$url$">$title$</a>
-    </li>
-  $endfor$
+  $issues$
 </ul>

@@ -1,7 +1,4 @@
----
-title: Issue 58
-published: 2017-06-08
----
+<!-- 2017-06-08 -->
 
 Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a purely functional programming language that focuses on robustness, concision, and correctness.

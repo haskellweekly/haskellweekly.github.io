@@ -11,11 +11,11 @@ cache:
 before_install:
   - sh tools/install-stack.sh
 install:
-  - stack --jobs 1 setup
-  - stack --jobs 1 build --flag hakyll:-checkExternal --flag hakyll:-previewServer --flag hakyll:-watchServer --only-dependencies
+  - stack setup
+  - stack build --only-dependencies
 script:
-  - stack --jobs 1 build --flag hakyll:-checkExternal --flag hakyll:-previewServer --flag hakyll:-watchServer
+  - stack build
   - stack sdist --pvp-bounds both
-  - stack exec haskell-weekly rebuild
+  - stack exec haskell-weekly
 after_success:
   - stack tools/deploy.hs

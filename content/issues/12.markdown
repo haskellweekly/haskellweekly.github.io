@@ -1,7 +1,4 @@
----
-title: Issue 12
-published: 2016-07-21
----
+<!-- 2016-07-21 -->
 
 -   [What Template Haskell gets wrong and Racket gets right](http://blog.ezyang.com/2016/07/what-template-haskell-gets-wrong-and-racket-gets-right/)
 
@@ -19,7 +16,7 @@ published: 2016-07-21
 
     > Applications, then, are just an environment comonad of monad morphisms. More plainly, they're a record of effect interpreters.
 
--   [Destroy All Ifs --- A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
+-   [Destroy All Ifs: A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
 
     > By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic.
 

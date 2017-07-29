@@ -1,7 +1,4 @@
----
-title: Issue 6
-published: 2016-06-09
----
+<!-- 2016-06-09 -->
 
 -   [A Sticky Stringy Quandary](http://www.stephendiehl.com/posts/strings.html)
 

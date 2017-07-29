@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>$baseUrl$/haskell-weekly.atom</id>
+  <link rel="self" href="$baseUrl$/haskell-weekly.atom" />
+  <title>Haskell Weekly</title>
+  <updated>$updated$</updated>
+  <author>
+    <name>Haskell Weekly</name>
+    <email>info@haskellweekly.news</email>
+  </author>
+
+  $entries$
+</feed>

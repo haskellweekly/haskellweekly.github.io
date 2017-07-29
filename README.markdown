@@ -8,11 +8,13 @@ You can run this site locally with [Stack][]:
 
 1.  Install GHC with `stack setup`.
 
-2.  Build the project with `stack build`.
+2.  Build the project with `stack build --file-watch --exec haskell-weekly`.
 
-3.  Run the server with `stack exec haskell-weekly watch`.
+3.  Build the server with `stack build wai-app-static`.
 
-4.  Go to <http://localhost:8000>.
+4.  Run the server with `stack exec warp -- --docroot _site`.
+
+5.  Go to <http://localhost:3000>.
 
 [Build badge]: https://travis-ci.org/haskellweekly/haskellweekly.github.io.svg?branch=hakyll
 [build]: https://travis-ci.org/haskellweekly/haskellweekly.github.io

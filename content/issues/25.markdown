@@ -1,7 +1,4 @@
----
-title: Issue 25
-published: 2016-10-20
----
+<!-- 2016-10-20 -->
 
 -   [A new ecosystem for Haskell: the JVM](http://blog.tweag.io/posts/2016-10-17-inline-java.html)
 

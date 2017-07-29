@@ -1,7 +1,4 @@
----
-title: Issue 11
-published: 2016-07-14
----
+<!-- 2016-07-14 -->
 
 -   [New haskell-lang.org](https://haskell-lang.org/announcements)
 

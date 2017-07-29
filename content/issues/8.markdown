@@ -1,7 +1,4 @@
----
-title: Issue 8
-published: 2016-06-23
----
+<!-- 2016-06-23 -->
 
 -   [Contributing to GHC](https://ghc.haskell.org/trac/ghc/blog/ContributingToGhc)
 

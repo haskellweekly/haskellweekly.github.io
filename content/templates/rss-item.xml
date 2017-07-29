@@ -1,0 +1,7 @@
+<item>
+  <guid>$baseUrl$$url$</guid>
+  <title>$title$</title>
+  <link>$baseUrl$$url$</link>
+  <pubDate>$pubDate$</pubDate>
+  <description>$description$</description>
+</item>

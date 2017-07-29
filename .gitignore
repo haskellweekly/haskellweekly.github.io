@@ -1,3 +1,5 @@
-/_hakyll/
+/_site/
 /.stack-work/
 /*.cabal
+/*.hp
+/*.prof

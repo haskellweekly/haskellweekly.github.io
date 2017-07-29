@@ -1,7 +1,4 @@
----
-title: Issue 21
-published: 2016-09-22
----
+<!-- 2016-09-22 -->
 
 -   [Stack 1.2](https://docs.haskellstack.org/en/stable/ChangeLog/#120)
 

@@ -1,0 +1,7 @@
+<entry>
+  <id>$baseUrl$/issues/$number$.html</id>
+  <title>Issue $number$</title>
+  <updated>$updated$</updated>
+  <link href="$baseUrl$/issues/$number$.html" />
+  <content type="html">$content$</content>
+</entry>

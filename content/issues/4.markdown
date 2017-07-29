@@ -1,7 +1,4 @@
----
-title: Issue 4
-published: 2016-05-26
----
+<!-- 2016-05-26 -->
 
 -   [GHC 8.0.1 is available!](https://ghc.haskell.org/trac/ghc/blog/ghc-8.0.1-released)
 

@@ -1,7 +1,4 @@
----
-title: Issue 2
-published: 2016-05-12
----
+<!-- 2016-05-12 -->
 
 -   [Add files to GitHub releases](http://taylor.fausak.me/2016/05/09/add-files-to-github-releases/)
 

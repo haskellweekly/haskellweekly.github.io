@@ -1,7 +1,4 @@
----
-title: Issue 36
-published: 2017-01-05
----
+<!-- 2017-01-05 -->
 
 Welcome to the first issue of Haskell Weekly in 2017!
 [Haskell](https://haskell-lang.org/) is an advanced, purely functional programming language.

@@ -1,7 +1,4 @@
----
-title: Issue 28
-published: 2016-11-10
----
+<!-- 2016-11-10 -->
 
 -   [Exercism](http://exercism.io/languages/haskell/about)
 
