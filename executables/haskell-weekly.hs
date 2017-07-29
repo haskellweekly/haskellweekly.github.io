@@ -311,3 +311,4 @@ writeFileAt path contents = do
   handle <- IO.openFile (FilePath.joinPath path) IO.WriteMode
   IO.hSetEncoding handle IO.utf8
   IO.hPutStr handle contents
+  IO.hFlush handle
