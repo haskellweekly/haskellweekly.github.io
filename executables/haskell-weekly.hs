@@ -140,7 +140,7 @@ parseDay day =
 
 parseIssue :: (Word, String) -> Maybe Issue
 parseIssue (number, contents) = do
-  (meta, body) <- splitFirstLine contents
+  let (meta, body) = break (== '\n') contents
   day <- getDay meta
   Just Issue
     { issueNumber = number
@@ -299,12 +299,6 @@ safeRead s =
   case readsPrec 0 s of
     [(x, "")] -> Just x
     _ -> Nothing
-
-splitFirstLine :: String -> Maybe (String, String)
-splitFirstLine s =
-  case lines s of
-    [] -> Nothing
-    h : t -> Just (h, unlines t)
 
 withDefault :: a -> Maybe a -> a
 withDefault d m =
