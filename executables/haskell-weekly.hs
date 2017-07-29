@@ -5,6 +5,7 @@ import qualified Data.Text as Text
 import qualified Data.Time as Time
 import qualified System.Directory as Directory
 import qualified System.FilePath as FilePath
+import qualified System.IO as IO
 
 main :: IO ()
 main = do
@@ -278,8 +279,10 @@ mapMaybe f l =
       Just x -> x : mapMaybe f t
 
 readFileAt :: [FilePath] -> IO String
-readFileAt path =
-  readFile (FilePath.joinPath path)
+readFileAt path = do
+  handle <- IO.openFile (FilePath.joinPath path) IO.ReadMode
+  IO.hSetEncoding handle IO.utf8
+  IO.hGetContents handle
 
 replace :: String -> String -> String -> String
 replace old new s =
@@ -310,5 +313,7 @@ withDefault d m =
     Just x -> x
 
 writeFileAt :: [FilePath] -> String -> IO ()
-writeFileAt path contents =
-  writeFile (FilePath.joinPath path) contents
+writeFileAt path contents = do
+  handle <- IO.openFile (FilePath.joinPath path) IO.WriteMode
+  IO.hSetEncoding handle IO.utf8
+  IO.hPutStr handle contents
