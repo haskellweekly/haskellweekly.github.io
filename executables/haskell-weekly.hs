@@ -100,7 +100,7 @@ type Context = [(String, String)]
 
 commonMark :: String -> String
 commonMark markdown =
-  Text.unpack (CMark.commonmarkToHtml [] (Text.pack markdown))
+  Text.unpack (CMark.commonmarkToHtml [CMark.optNormalize, CMark.optSmart] (Text.pack markdown))
 
 escapeHtml :: String -> String
 escapeHtml html =
