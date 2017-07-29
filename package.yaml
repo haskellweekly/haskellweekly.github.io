@@ -20,7 +20,10 @@ executables:
       - text
       - time
     ghc-options:
+      - -rtsopts
+      - -threaded
       - -Weverything
+      - -with-rtsopts=-N
       - -Wno-implicit-prelude
       - -Wno-unsafe
     main: haskell-weekly.hs
