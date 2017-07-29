@@ -79,12 +79,12 @@ main = do
 
   -- Create Atom feed.
   do
-    contents <- renderAtom atomTemplate atomEntryTemplate context issues
+    contents <- renderAtom atomTemplate atomEntryTemplate context (take 7 issues)
     writeFileAt [output, "haskell-weekly.atom"] contents
 
   -- Create RSS feed.
   do
-    contents <- renderRss rssTemplate rssItemTemplate context issues
+    contents <- renderRss rssTemplate rssItemTemplate context (take 7 issues)
     writeFileAt [output, "haskell-weekly.rss"] contents
 
 -- Types
