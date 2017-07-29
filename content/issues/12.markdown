@@ -16,7 +16,7 @@
 
     > Applications, then, are just an environment comonad of monad morphisms. More plainly, they're a record of effect interpreters.
 
--   [Destroy All Ifs --- A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
+-   [Destroy All Ifs: A Perspective from Functional Programming](http://degoes.net/articles/destroy-all-ifs)
 
     > By replacing conditionals with lambdas, we can invert control and make our code both easier to reason about and more generic.
 

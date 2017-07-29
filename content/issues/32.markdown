@@ -12,7 +12,7 @@
 
     > The goals of this little hack, called Hyper, is to make use of row polymorphism and other tasty type system features in PureScript to enforce correctly stacked middleware in HTTP server applications. All effects of middleware should be reflected in the types to ensure that otherwise common mistakes cannot be made.
 
--   [Scaling ghc --make](https://trofi.github.io/posts/193-scaling-ghc-make.html)
+-   [Scaling `ghc --make`](https://trofi.github.io/posts/193-scaling-ghc-make.html)
 
     > The problem is that even on my machine `ghc --make -j3` works better than `ghc --make -j8` and I could not get more than 1.5x speedup. I'd like to see 8x speedup. Another problem is quick performance degradation once you exceed number of CPUs. Running `ghc --make -j20` on my machine makes things seriously worse: compilation time is longer than in non-parallel mode!
 
