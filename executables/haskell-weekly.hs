@@ -1,11 +1,16 @@
+import Data.Function ((&))
+
 import qualified CMark
+import qualified Control.Monad as Monad
 import qualified Data.List as List
+import qualified Data.Maybe as Maybe
 import qualified Data.Ord as Ord
 import qualified Data.Text as Text
 import qualified Data.Time as Time
 import qualified System.Directory as Directory
 import qualified System.FilePath as FilePath
 import qualified System.IO as IO
+import qualified Text.Read as Read
 
 main :: IO ()
 main = do
@@ -56,18 +61,18 @@ main = do
   -- Load issues.
   issueFiles <- listDirectoryAt [input, "issues"]
   issuesByNumber <- issueFiles
-    |> filter (hasExtension "markdown")
-    |> map FilePath.takeBaseName
-    |> mapMaybe safeRead
-    |> mapM (\ number -> do
+    & filter (hasExtension "markdown")
+    & map FilePath.takeBaseName
+    & Maybe.mapMaybe Read.readMaybe
+    & mapM (\ number -> do
       contents <- readFileAt [input, "issues", FilePath.addExtension (show number) "markdown"]
       pure (number, contents))
 
   -- Parse issues.
-  let issues = sortIssues (mapMaybe parseIssue issuesByNumber)
+  let issues = sortIssues (Maybe.mapMaybe parseIssue issuesByNumber)
 
   -- Create issue pages.
-  forM_ issues (\ issue -> do
+  Monad.forM_ issues (\ issue -> do
     let number = show (issueNumber issue)
     contents <- renderIssue baseTemplate issueTemplate context issue
     writeFileAt [output, "issues", FilePath.addExtension number "html"] contents)
@@ -110,8 +115,8 @@ commonMark markdown =
 escapeHtml :: String -> String
 escapeHtml html =
   html
-  |> replace '&' "&amp;"
-  |> replace '<' "&lt;"
+  & replace '&' "&amp;"
+  & replace '<' "&lt;"
 
 getDay :: String -> Maybe Time.Day
 getDay meta =
@@ -134,9 +139,9 @@ issueUrl issue =
 lastUpdated :: [Issue] -> Time.Day
 lastUpdated issues =
   issues
-  |> map issueDay
-  |> safeHead
-  |> withDefault (Time.fromGregorian 1970 1 1)
+  & map issueDay
+  & Maybe.listToMaybe
+  & Maybe.fromMaybe (Time.fromGregorian 1970 1 1)
 
 parseDay :: String -> Maybe Time.Day
 parseDay day =
@@ -257,11 +262,6 @@ toPieces template =
 
 -- Generic helpers
 
-infixl 1 |>
-(|>) :: a -> (a -> b) -> b
-x |> f =
-  f x
-
 copyFileAt :: FilePath -> FilePath -> [FilePath] -> IO ()
 copyFileAt input output path =
   Directory.copyFile
@@ -272,10 +272,6 @@ createDirectoryAt :: [FilePath] -> IO ()
 createDirectoryAt path =
   Directory.createDirectoryIfMissing True (FilePath.joinPath path)
 
-forM_ :: Monad m => [a] -> (a -> m b) -> m ()
-forM_ xs f =
-  mapM_ f xs
-
 hasExtension :: String -> FilePath -> Bool
 hasExtension extension file =
   FilePath.takeExtension file == '.' : extension
@@ -284,47 +280,22 @@ listDirectoryAt :: [FilePath] -> IO [FilePath]
 listDirectoryAt path =
   Directory.listDirectory (FilePath.joinPath path)
 
-mapMaybe :: (a -> Maybe b) -> [a] -> [b]
-mapMaybe f l =
-  case l of
-    [] -> []
-    h : t -> case f h of
-      Nothing -> mapMaybe f t
-      Just x -> x : mapMaybe f t
-
 readFileAt :: [FilePath] -> IO String
 readFileAt path = do
   handle <- IO.openFile (FilePath.joinPath path) IO.ReadMode
   IO.hSetEncoding handle IO.utf8
   IO.hGetContents handle
 
-replace :: Char -> String -> String -> String
+-- replace :: Char -> String -> String -> String
+replace :: Eq a => a -> [a] -> [a] -> [a]
 replace old new s =
-  foldr (\ c t -> if c == old then new ++ t else c : t) "" s
+  foldr (\ c t -> if c == old then new ++ t else c : t) [] s
 
-safeHead :: [a] -> Maybe a
-safeHead l =
-  case l of
-    [] -> Nothing
-    h : _ -> Just h
-
-safeRead :: Read a => String -> Maybe a
-safeRead s =
-  case readsPrec 0 s of
-    [(x, "")] -> Just x
-    _ -> Nothing
-
-splitOn :: Char -> String -> [String]
+splitOn :: Eq a => a -> [a] -> [[a]]
 splitOn d s =
   case break (== d) s of
     (x, []) -> [x]
     (x, _ : y) -> x : splitOn d y
-
-withDefault :: a -> Maybe a -> a
-withDefault d m =
-  case m of
-    Nothing -> d
-    Just x -> x
 
 writeFileAt :: [FilePath] -> String -> IO ()
 writeFileAt path contents = do
