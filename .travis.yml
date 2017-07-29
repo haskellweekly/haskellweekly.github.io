@@ -8,7 +8,6 @@ cache:
   directories:
     - $HOME/.local/bin
     - $HOME/.stack
-    - .stack-work
 before_install:
   - sh tools/install-stack.sh
 install:
