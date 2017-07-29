@@ -106,8 +106,8 @@ commonMark markdown =
 escapeHtml :: String -> String
 escapeHtml html =
   html
-  |> replace "&" "&amp;"
-  |> replace "<" "&lt;"
+  |> replace '&' "&amp;"
+  |> replace '<' "&lt;"
 
 getDay :: String -> Maybe Time.Day
 getDay meta =
@@ -284,9 +284,9 @@ readFileAt path = do
   IO.hSetEncoding handle IO.utf8
   IO.hGetContents handle
 
-replace :: String -> String -> String -> String
+replace :: Char -> String -> String -> String
 replace old new s =
-  Text.unpack (Text.replace (Text.pack old) (Text.pack new) (Text.pack s))
+  foldr (\ c t -> if c == old then new ++ t else c : t) "" s
 
 safeHead :: [a] -> Maybe a
 safeHead l =
