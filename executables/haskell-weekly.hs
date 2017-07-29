@@ -97,6 +97,10 @@ data Issue = Issue
 
 type Context = [(String, String)]
 
+data Piece
+  = Literal String
+  | Variable String
+
 -- Business helpers
 
 commonMark :: String -> String
@@ -204,6 +208,19 @@ renderIssue baseTemplate issueTemplate context issue = do
     , ("url", issueUrl issue)
     ])
 
+renderPiece :: Monad m => Context -> Piece -> m String
+renderPiece context piece =
+  case piece of
+    Literal string -> pure string
+    Variable name -> case lookup name context of
+      Nothing -> fail ("unknown variable: " ++ show name)
+      Just value -> pure value
+
+renderPieces :: Monad m => Context -> [Piece] -> m String
+renderPieces context pieces = do
+  rendered <- mapM (renderPiece context) pieces
+  pure (concat rendered)
+
 renderRss :: Monad m => String -> String -> Context -> [Issue] -> m String
 renderRss template itemTemplate context issues = do
   items <- mapM (renderRssItem itemTemplate context) issues
@@ -227,19 +244,16 @@ renderSnippet template context issue =
     ])
 
 renderTemplate :: Monad m => String -> Context -> m String
-renderTemplate template context = do
-  let separator = '$'
-  case break (== separator) template of
-    (left, "") -> pure left
-    (left, _ : middle) ->
-      case break (== separator) middle of
-        (_, "") -> fail "unterminated replacement"
-        (key, _ : right) ->
-          case lookup key context of
-            Nothing -> fail ("unknown key: " ++ show key)
-            Just value -> do
-              rest <- renderTemplate right context
-              pure (concat [left, value, rest])
+renderTemplate template context =
+  renderPieces context (toPieces template)
+
+toPieces :: String -> [Piece]
+toPieces template =
+  let go chunks = case chunks of
+        [] -> []
+        [string] -> [Literal string]
+        string : name : rest -> Literal string : Variable name : go rest
+  in go (splitOn '$' template)
 
 -- Generic helpers
 
@@ -299,6 +313,12 @@ safeRead s =
   case readsPrec 0 s of
     [(x, "")] -> Just x
     _ -> Nothing
+
+splitOn :: Char -> String -> [String]
+splitOn d s =
+  case break (== d) s of
+    (x, []) -> [x]
+    (x, _ : y) -> x : splitOn d y
 
 withDefault :: a -> Maybe a -> a
 withDefault d m =
