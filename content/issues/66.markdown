@@ -22,14 +22,8 @@ todo
 
 ## Call for participation
 
--   [attoparsec: Test suite build failure with GHC 8.2](https://github.com/bos/attoparsec/issues/131)
--   [derive: Build failure with GHC 8.2](https://github.com/ndmitchell/derive/issues/25)
 -   [haskell-language-dockerfile: Test suite compilation failure with GHC 8.2](https://github.com/beijaflor-io/haskell-language-dockerfile/issues/8)
--   [hmatrix: Build failure with GHC 8.2](https://github.com/albertoruiz/hmatrix/issues/232)
 -   [solga: Build failure with GHC 8.2](https://github.com/chpatrick/solga/issues/9)
--   [superrecord: Build failure with GHC 8.2](https://github.com/agrafix/superrecord/issues/3)
--   [tagged-binary: Build failure with GHC 8.2](https://github.com/mstksg/tagged-binary/issues/2)
--   [unicode-transforms: Benchmark build failure with GHC 8.2](https://github.com/harendra-kumar/unicode-transforms/issues/16)
 -   [vty: Test suite build failure (due to GHC 8.2 perhaps)](https://github.com/jtdaugherty/vty/issues/132)
 
 Do you have a beginner-friendly issue you want some help with?
