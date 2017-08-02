@@ -26,4 +26,4 @@ todo
 
 ## Events
 
-todo
+-   August 28: [Compose :: Melbourne](http://www.composeconference.org/2017-melbourne/)
