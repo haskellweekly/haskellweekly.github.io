@@ -34,8 +34,7 @@ This is a weekly summary of what's going on in its community.
 
     > We have managed to take a set of functionality that would have been exceptionally difficult to build using our old methods, and using the strengths of the Elm language and architecture, successfully developed the largest feature in our entire software product to date.
 
--   [Encode state transitions in types
-using linear types](https://www.tweag.io/posts/2017-08-03-linear-typestates.html)
+-   [Encode state transitions in types using linear types](https://www.tweag.io/posts/2017-08-03-linear-typestates.html)
 
     > One has to be careful not to use `s` ever again to avoid ill effects: types have failed us once again. What we need is the ability to consume the old `s`, to make it inaccessible. Which, coincidentally, is exactly what linear types enable.
 
@@ -53,7 +52,19 @@ todo
 
 ## In brief
 
-todo
+-   [Gotta Go Fast: A command line utility for practicing typing](https://github.com/hot-leaf-juice/gotta-go-fast)
+-   [Haskell in Leipzig 2017 submission deadline shifted](https://jeltsch.wordpress.com/2017/08/02/haskell-in-leipzig-2017-submission-deadline-shifted/)
+-   [I am a functional programming evangelist](https://www.tweag.io/posts/2017-08-01-chak-joins-tweag.html)
+-   [Invert your mocks!](http://www.parsonsmatt.org/2017/07/27/inverted_mocking.html)
+-   [Meet Jenkins: GHC's new CI and build infrastructure](https://ghc.haskell.org/trac/ghc/blog/jenkins-ci)
+-   [purerl updates for 0.11](http://nwolverson.uk/devlog/2017/08/01/purerl-0.11.html)
+-   [Streaming programs without laziness: A short primer](https://www.tweag.io/posts/2017-07-27-streaming-programs.html)
+-   [The block in blockchain explained (Merkle trees)](http://haroldcarr.com/posts/2017-07-31-the-block-in-blockchain-merkle-trees.html)
+-   [The oracle-free subset of Lamping's abstract algorithm is Turing complete](https://github.com/MaiaVictor/articles/tree/306144e00c05e72121c5d6b7ad9315f46ce75700/0000-oracle-free-terms-are-turing-complete)
+-   [Today's Stackage nightly snapshot uses GHC 8.2.1!](https://www.reddit.com/r/haskell/comments/6qoxgj/todays_stack_nightly_snapshot_uses_ghc_821/)
+-   [What is new in cross compiling Haskell](https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-ffa8f6d90043)
+-   [What's the next best big thing for Haskell after dependent types?](https://www.reddit.com/r/haskell/comments/6pqre3/whats_the_next_best_big_thing_for_haskell_after/)
+-   [Yi modularization](https://yi-editor.github.io/posts/2017-07-29-modularization/)
 
 ## Package of the week
 
