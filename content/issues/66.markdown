@@ -14,6 +14,10 @@ This is a weekly summary of what's going on in its community.
 
     > Haskell doesn't really have a call stack. The evaluation strategy is more like a graph reduction. If you don't understand that, that's okay --- I don't either! All I know about it is that it makes questions like "What's the stack trace for this error?" surprisingly difficult to answer.
 
+-   [GHC warnings you should use in addition to `-Wall`](https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable)
+
+    > There are some useful warnings that are not turned on by `-Wall`. This post will describe which additional warnings you should enable. It will also show examples of bad code that will trigger the warnings. Keep in mind that this bad code will *not* get caught by `-Wall`.
+
 ## Jobs
 
 todo
