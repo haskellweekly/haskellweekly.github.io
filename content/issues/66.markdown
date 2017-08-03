@@ -48,7 +48,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Jobs
 
-todo
+-   [FP Complete hiring devops engineers](https://www.fpcomplete.com/blog/2017/07/hiring-devops-engineers)
+
+    > We are currently seeking to fill multiple devops positions, focusing on rolling out new build, deploy, and monitoring infrastructure. We are looking to hire both remote workers, and at least one engineer in the Phoenix, Arizona area for on site customer work.
 
 ## In brief
 
