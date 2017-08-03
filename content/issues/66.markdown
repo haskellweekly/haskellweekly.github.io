@@ -18,6 +18,10 @@ This is a weekly summary of what's going on in its community.
 
     > There are some useful warnings that are not turned on by `-Wall`. This post will describe which additional warnings you should enable. It will also show examples of bad code that will trigger the warnings. Keep in mind that this bad code will *not* get caught by `-Wall`.
 
+-   [Reflections on GHC's release schedule](https://ghc.haskell.org/trac/ghc/blog/2017-release-schedule)
+
+    > With 8.2.1 at long last behind us, now is a good time to reflect on why these cycles are so long, what release schedule we would like to have, and what we can change to realize such a schedule.
+
 ## Jobs
 
 todo
