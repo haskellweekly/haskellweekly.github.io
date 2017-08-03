@@ -4,6 +4,10 @@ Welcome to another issue of Haskell Weekly!
 Haskell is a purely functional programming language that focuses on correctness, productivity, and expressiveness.
 This is a weekly summary of what's going on in its community.
 
+Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
+
 ## Featured
 
 -   [Faster command line tools with Haskell](https://codygman.github.io/posts/2017-07-30-faster-command-line-tools-with-haskell.html)
@@ -78,9 +82,6 @@ a library that provide guarantees about the presence of keys within containers.
 -   [haskell-language-dockerfile: Test suite compilation failure with GHC 8.2](https://github.com/beijaflor-io/haskell-language-dockerfile/issues/8)
 -   [solga: Build failure with GHC 8.2](https://github.com/chpatrick/solga/issues/9)
 -   [vty: Test suite build failure (due to GHC 8.2 perhaps)](https://github.com/jtdaugherty/vty/issues/132)
-
-Do you have a beginner-friendly issue you want some help with?
-Email <info@haskellweekly.news> to get it included here!
 
 ## Events
 
