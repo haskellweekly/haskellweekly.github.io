@@ -18,7 +18,8 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [justified-containers](https://hackage.haskell.org/package/justified-containers-0.1.2.0),
+a library that provide guarantees about the presence of keys within containers.
 
 ## Call for participation
 
