@@ -39,6 +39,10 @@ using linear types](https://www.tweag.io/posts/2017-08-03-linear-typestates.html
 
     > One has to be careful not to use `s` ever again to avoid ill effects: types have failed us once again. What we need is the ability to consume the old `s`, to make it inaccessible. Which, coincidentally, is exactly what linear types enable.
 
+-   [How is coinduction the dual of induction?](https://www.joachim-breitner.de/blog/727-How_is_coinduction_the_dual_of_induction_)
+
+    > The coinduction rule is not the direct dual of the induction rule, but both are specializations of more general, relational proof methods, where the duality is clearly present.
+
 ## Jobs
 
 todo
