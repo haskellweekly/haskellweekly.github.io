@@ -26,6 +26,10 @@ This is a weekly summary of what's going on in its community.
 
     > With 8.2.1 at long last behind us, now is a good time to reflect on why these cycles are so long, what release schedule we would like to have, and what we can change to realize such a schedule.
 
+-   [Coping with (code) failures](https://mmhaskell.com/blog/2017/7/31/coping-with-code-failures)
+
+    > Haskell's error facilities are a lot better than most languages. This week we'll look at some common error handling patterns. We'll see a couple clear instances where Haskell has simpler and cleaner code.
+
 ## Jobs
 
 todo
