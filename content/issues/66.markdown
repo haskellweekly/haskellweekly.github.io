@@ -43,6 +43,10 @@ using linear types](https://www.tweag.io/posts/2017-08-03-linear-typestates.html
 
     > The coinduction rule is not the direct dual of the induction rule, but both are specializations of more general, relational proof methods, where the duality is clearly present.
 
+-   [Faster (re)deploys with docker-build-cacher](http://chairnerd.seatgeek.com/faster-redeploys-with-docker-build-cacher/)
+
+    > We traced these shortcomings to a missing key feature: It is not possible to carry statically generated cache files from one build to another once certain source files in the project change.
+
 ## Jobs
 
 todo
