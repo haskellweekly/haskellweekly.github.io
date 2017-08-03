@@ -22,7 +22,12 @@ todo
 
 ## Call for participation
 
-todo
+-   [haskell-language-dockerfile: Test suite compilation failure with GHC 8.2](https://github.com/beijaflor-io/haskell-language-dockerfile/issues/8)
+-   [solga: Build failure with GHC 8.2](https://github.com/chpatrick/solga/issues/9)
+-   [vty: Test suite build failure (due to GHC 8.2 perhaps)](https://github.com/jtdaugherty/vty/issues/132)
+
+Do you have a beginner-friendly issue you want some help with?
+Email <info@haskellweekly.news> to get it included here!
 
 ## Events
 
