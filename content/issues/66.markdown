@@ -34,6 +34,11 @@ This is a weekly summary of what's going on in its community.
 
     > We have managed to take a set of functionality that would have been exceptionally difficult to build using our old methods, and using the strengths of the Elm language and architecture, successfully developed the largest feature in our entire software product to date.
 
+-   [Encode state transitions in types
+using linear types](https://www.tweag.io/posts/2017-08-03-linear-typestates.html)
+
+    > One has to be careful not to use `s` ever again to avoid ill effects: types have failed us once again. What we need is the ability to consume the old `s`, to make it inaccessible. Which, coincidentally, is exactly what linear types enable.
+
 ## Jobs
 
 todo
