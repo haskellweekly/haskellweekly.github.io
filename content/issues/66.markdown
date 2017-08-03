@@ -6,6 +6,10 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
+-   [Faster command line tools with Haskell](https://codygman.github.io/posts/2017-07-30-faster-command-line-tools-with-haskell.html)
+
+    > What I wish to be true: I write high level Haskell code as declaratively and naively as possible and sufficiently smart compiler optimizations make it as fast as hand tuned Go code. Let's see if it works out that way!
+
 -   [Using GHC `CallStack`s](http://www.parsonsmatt.org/2017/07/29/using_ghc_callstacks.html)
 
     > Haskell doesn't really have a call stack. The evaluation strategy is more like a graph reduction. If you don't understand that, that's okay --- I don't either! All I know about it is that it makes questions like "What's the stack trace for this error?" surprisingly difficult to answer.
