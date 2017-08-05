@@ -1,4 +1,5 @@
 import Data.Function ((&))
+import Data.Semigroup ((<>))
 
 import qualified CMark
 import qualified Control.Monad as Monad
@@ -6,6 +7,7 @@ import qualified Data.List as List
 import qualified Data.Maybe as Maybe
 import qualified Data.Ord as Ord
 import qualified Data.Text as Text
+import qualified Data.Text.IO as Text
 import qualified Data.Time as Time
 import qualified System.Directory as Directory
 import qualified System.FilePath as FilePath
@@ -41,11 +43,11 @@ main = do
   script <- readFileAt [input, "includes", "script.js"]
   style <- readFileAt [input, "includes", "style.css"]
   let context =
-        [ ("baseUrl", "https://haskellweekly.news")
-        , ("form", form)
-        , ("logo", logo)
-        , ("script", script)
-        , ("style", style)
+        [ (Text.pack "baseUrl", Text.pack "https://haskellweekly.news")
+        , (Text.pack "form", form)
+        , (Text.pack "logo", logo)
+        , (Text.pack "script", script)
+        , (Text.pack "style", style)
         ]
 
   -- Read templates.
@@ -97,44 +99,46 @@ main = do
 data Issue = Issue
   { issueNumber :: Word
   , issueDay :: Time.Day
-  , issueContents :: String
+  , issueContents :: Text.Text
   }
 
-type Context = [(String, String)]
+type Context = [(Text.Text, Text.Text)]
 
 data Piece
-  = Literal String
-  | Variable String
+  = Literal Text.Text
+  | Variable Text.Text
 
 -- Business helpers
 
-commonMark :: String -> String
+commonMark :: Text.Text -> Text.Text
 commonMark markdown =
-  Text.unpack (CMark.commonmarkToHtml [CMark.optNormalize, CMark.optSmart] (Text.pack markdown))
+  CMark.commonmarkToHtml [CMark.optNormalize, CMark.optSmart] markdown
 
-escapeHtml :: String -> String
+escapeHtml :: Text.Text -> Text.Text
 escapeHtml html =
   html
-  & replace '&' "&amp;"
-  & replace '<' "&lt;"
+  & Text.replace (Text.pack "&") (Text.pack "&amp;")
+  & Text.replace (Text.pack "<") (Text.pack "&lt;")
 
-getDay :: String -> Maybe Time.Day
+getDay :: Text.Text -> Maybe Time.Day
 getDay meta =
-  case words meta of
-    ["<!--", day, "-->"] -> parseDay day
+  case Text.words meta of
+    [open, day, close] -> if open == Text.pack "<!--" && close == Text.pack "-->"
+      then parseDay day
+      else Nothing
     _ -> Nothing
 
-isoDay :: Time.Day -> String
+isoDay :: Time.Day -> Text.Text
 isoDay day =
-  Time.formatTime Time.defaultTimeLocale "%Y-%m-%dT00:00:00Z" day
+  Text.pack (Time.formatTime Time.defaultTimeLocale "%Y-%m-%dT00:00:00Z" day)
 
-issueTitle :: Issue -> String
+issueTitle :: Issue -> Text.Text
 issueTitle issue =
-  "Issue " ++ show (issueNumber issue)
+  Text.pack "Issue " <> Text.pack (show (issueNumber issue))
 
-issueUrl :: Issue -> String
+issueUrl :: Issue -> Text.Text
 issueUrl issue =
-  concat ["/issues/", show (issueNumber issue), ".html"]
+  Text.concat [Text.pack "/issues/", Text.pack (show (issueNumber issue)), Text.pack ".html"]
 
 lastUpdated :: [Issue] -> Time.Day
 lastUpdated issues =
@@ -143,13 +147,13 @@ lastUpdated issues =
   & Maybe.listToMaybe
   & Maybe.fromMaybe (Time.fromGregorian 1970 1 1)
 
-parseDay :: String -> Maybe Time.Day
+parseDay :: Text.Text -> Maybe Time.Day
 parseDay day =
-  Time.parseTimeM False Time.defaultTimeLocale "%Y-%m-%d" day
+  Time.parseTimeM False Time.defaultTimeLocale "%Y-%m-%d" (Text.unpack day)
 
-parseIssue :: (Word, String) -> Maybe Issue
+parseIssue :: (Word, Text.Text) -> Maybe Issue
 parseIssue (number, contents) = do
-  let (meta, body) = break (== '\n') contents
+  let (meta, body) = Text.breakOn (Text.pack "\n") contents
   day <- getDay meta
   Just Issue
     { issueNumber = number
@@ -157,13 +161,13 @@ parseIssue (number, contents) = do
     , issueContents = commonMark body
     }
 
-prettyDay :: Time.Day -> String
+prettyDay :: Time.Day -> Text.Text
 prettyDay day =
-  Time.formatTime Time.defaultTimeLocale "%B %e %Y" day
+  Text.pack (Time.formatTime Time.defaultTimeLocale "%B %e %Y" day)
 
-rfcDay :: Time.Day -> String
+rfcDay :: Time.Day -> Text.Text
 rfcDay day =
-  Time.formatTime Time.defaultTimeLocale "%a, %d %b %Y 00:00:00 GMT" day
+  Text.pack (Time.formatTime Time.defaultTimeLocale "%a, %d %b %Y 00:00:00 GMT" day)
 
 sortIssues :: [Issue] -> [Issue]
 sortIssues issues =
@@ -171,94 +175,94 @@ sortIssues issues =
 
 -- Rendering helpers
 
-renderAtom :: Monad m => String -> String -> Context -> [Issue] -> m String
+renderAtom :: Monad m => Text.Text -> Text.Text -> Context -> [Issue] -> m Text.Text
 renderAtom template entryTemplate context issues = do
   entries <- mapM (renderAtomEntry entryTemplate context) issues
-  renderTemplate template (context ++
-    [ ("entries", concat entries)
-    , ("updated", isoDay (lastUpdated issues))
+  renderTemplate template (context <>
+    [ (Text.pack "entries", Text.concat entries)
+    , (Text.pack "updated", isoDay (lastUpdated issues))
     ])
 
-renderAtomEntry :: Monad m => String -> Context -> Issue -> m String
+renderAtomEntry :: Monad m => Text.Text -> Context -> Issue -> m Text.Text
 renderAtomEntry template context issue =
-  renderTemplate template (context ++
-    [ ("content", escapeHtml (issueContents issue))
-    , ("number", show (issueNumber issue))
-    , ("updated", isoDay (issueDay issue))
+  renderTemplate template (context <>
+    [ (Text.pack "content", escapeHtml (issueContents issue))
+    , (Text.pack "number", Text.pack (show (issueNumber issue)))
+    , (Text.pack "updated", isoDay (issueDay issue))
     ])
 
-renderIndex :: Monad m => String -> String -> String -> Context -> [Issue] -> m String
+renderIndex :: Monad m => Text.Text -> Text.Text -> Text.Text -> Context -> [Issue] -> m Text.Text
 renderIndex baseTemplate template snippetTemplate context issues = do
   snippets <- mapM (renderSnippet snippetTemplate context) issues
-  body <- renderTemplate template (("issues", concat snippets) : context)
-  renderTemplate baseTemplate (context ++
-    [ ("body", body)
-    , ("summary", "Haskell Weekly is a free email newsletter about the Haskell programming language. Each issue features several hand-picked links to interesting content about Haskell from around the web.")
-    , ("title", "Haskell Weekly")
-    , ("url", "")
+  body <- renderTemplate template ((Text.pack "issues", Text.concat snippets) : context)
+  renderTemplate baseTemplate (context <>
+    [ (Text.pack "body", body)
+    , (Text.pack "summary", Text.pack "Haskell Weekly is a free email newsletter about the Haskell programming language. Each issue features several hand-picked links to interesting content about Haskell from around the web.")
+    , (Text.pack "title", Text.pack "Haskell Weekly")
+    , (Text.pack "url", Text.pack "")
     ])
 
-renderIssue :: Monad m => String -> String -> Context -> Issue -> m String
+renderIssue :: Monad m => Text.Text -> Text.Text -> Context -> Issue -> m Text.Text
 renderIssue baseTemplate issueTemplate context issue = do
   let title = issueTitle issue
-  body <- renderTemplate issueTemplate (context ++
-    [ ("body", issueContents issue)
-    , ("date", prettyDay (issueDay issue))
-    , ("title", title)
+  body <- renderTemplate issueTemplate (context <>
+    [ (Text.pack "body", issueContents issue)
+    , (Text.pack "date", prettyDay (issueDay issue))
+    , (Text.pack "title", title)
     ])
-  renderTemplate baseTemplate (context ++
-    [ ("body", body)
-    , ("summary", "Issue " ++ show (issueNumber issue) ++ " of Haskell Weekly.")
-    , ("title", title ++ " :: Haskell Weekly")
-    , ("url", issueUrl issue)
+  renderTemplate baseTemplate (context <>
+    [ (Text.pack "body", body)
+    , (Text.pack "summary", Text.pack "Issue " <> Text.pack (show (issueNumber issue)) <> Text.pack " of Haskell Weekly.")
+    , (Text.pack "title", title <> Text.pack " :: Haskell Weekly")
+    , (Text.pack "url", issueUrl issue)
     ])
 
-renderPiece :: Monad m => Context -> Piece -> m String
+renderPiece :: Monad m => Context -> Piece -> m Text.Text
 renderPiece context piece =
   case piece of
-    Literal string -> pure string
+    Literal text -> pure text
     Variable name -> case lookup name context of
-      Nothing -> fail ("unknown variable: " ++ show name)
+      Nothing -> fail ("unknown variable: " <> show name)
       Just value -> pure value
 
-renderPieces :: Monad m => Context -> [Piece] -> m String
+renderPieces :: Monad m => Context -> [Piece] -> m Text.Text
 renderPieces context pieces = do
   rendered <- mapM (renderPiece context) pieces
-  pure (concat rendered)
+  pure (Text.concat rendered)
 
-renderRss :: Monad m => String -> String -> Context -> [Issue] -> m String
+renderRss :: Monad m => Text.Text -> Text.Text -> Context -> [Issue] -> m Text.Text
 renderRss template itemTemplate context issues = do
   items <- mapM (renderRssItem itemTemplate context) issues
-  renderTemplate template (("items", concat items) : context)
+  renderTemplate template ((Text.pack "items", Text.concat items) : context)
 
-renderRssItem :: Monad m => String -> Context -> Issue -> m String
+renderRssItem :: Monad m => Text.Text -> Context -> Issue -> m Text.Text
 renderRssItem template context issue =
-  renderTemplate template (context ++
-    [ ("description", escapeHtml (issueContents issue))
-    , ("pubDate", rfcDay (issueDay issue))
-    , ("title", issueTitle issue)
-    , ("url", issueUrl issue)
+  renderTemplate template (context <>
+    [ (Text.pack "description", escapeHtml (issueContents issue))
+    , (Text.pack "pubDate", rfcDay (issueDay issue))
+    , (Text.pack "title", issueTitle issue)
+    , (Text.pack "url", issueUrl issue)
     ])
 
-renderSnippet :: Monad m => String -> Context -> Issue -> m String
+renderSnippet :: Monad m => Text.Text -> Context -> Issue -> m Text.Text
 renderSnippet template context issue =
-  renderTemplate template (context ++
-    [ ("date", prettyDay (issueDay issue))
-    , ("title", issueTitle issue)
-    , ("url", issueUrl issue)
+  renderTemplate template (context <>
+    [ (Text.pack "date", prettyDay (issueDay issue))
+    , (Text.pack "title", issueTitle issue)
+    , (Text.pack "url", issueUrl issue)
     ])
 
-renderTemplate :: Monad m => String -> Context -> m String
+renderTemplate :: Monad m => Text.Text -> Context -> m Text.Text
 renderTemplate template context =
   renderPieces context (toPieces template)
 
-toPieces :: String -> [Piece]
+toPieces :: Text.Text -> [Piece]
 toPieces template =
   let go chunks = case chunks of
         [] -> []
-        [string] -> [Literal string]
-        string : name : rest -> Literal string : Variable name : go rest
-  in go (splitOn '$' template)
+        [text] -> [Literal text]
+        text : name : rest -> Literal text : Variable name : go rest
+  in go (Text.splitOn (Text.pack "$") template)
 
 -- Generic helpers
 
@@ -280,26 +284,15 @@ listDirectoryAt :: [FilePath] -> IO [FilePath]
 listDirectoryAt path =
   Directory.listDirectory (FilePath.joinPath path)
 
-readFileAt :: [FilePath] -> IO String
+readFileAt :: [FilePath] -> IO Text.Text
 readFileAt path = do
   handle <- IO.openFile (FilePath.joinPath path) IO.ReadMode
   IO.hSetEncoding handle IO.utf8
-  IO.hGetContents handle
+  Text.hGetContents handle
 
--- replace :: Char -> String -> String -> String
-replace :: Eq a => a -> [a] -> [a] -> [a]
-replace old new s =
-  foldr (\ c t -> if c == old then new ++ t else c : t) [] s
-
-splitOn :: Eq a => a -> [a] -> [[a]]
-splitOn d s =
-  case break (== d) s of
-    (x, []) -> [x]
-    (x, _ : y) -> x : splitOn d y
-
-writeFileAt :: [FilePath] -> String -> IO ()
+writeFileAt :: [FilePath] -> Text.Text -> IO ()
 writeFileAt path contents = do
   handle <- IO.openFile (FilePath.joinPath path) IO.WriteMode
   IO.hSetEncoding handle IO.utf8
-  IO.hPutStr handle contents
+  Text.hPutStr handle contents
   IO.hFlush handle
