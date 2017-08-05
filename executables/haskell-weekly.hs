@@ -51,7 +51,8 @@ main = do
   let
     context :: Context
     context =
-      [ ("baseUrl", "https://haskellweekly.news")
+      [ ("", "$")
+      , ("baseUrl", "https://haskellweekly.news")
       , ("form", form)
       , ("logo", logo)
       , ("script", script)
@@ -59,6 +60,7 @@ main = do
       ]
 
   -- Read templates.
+  advertisingTemplate <- readFileAt [input, "templates", "advertising.html"]
   atomEntryTemplate <- readFileAt [input, "templates", "atom-entry.xml"]
   atomTemplate <- readFileAt [input, "templates", "atom.xml"]
   baseTemplate <- readFileAt [input, "templates", "base.html"]
@@ -96,6 +98,11 @@ main = do
   do
     contents <- renderRss rssTemplate rssItemTemplate context recentIssues
     writeFileAt [output, "haskell-weekly.rss"] contents
+
+  -- Create advertising page.
+  do
+    contents <- renderAdvertising baseTemplate advertisingTemplate context
+    writeFileAt [output, "advertising.html"] contents
 
   -- Create home page.
   do
@@ -192,6 +199,16 @@ summary =
   \content about Haskell from around the web."
 
 -- Rendering helpers
+
+renderAdvertising :: Monad m => Text -> Text -> Context -> m Text
+renderAdvertising template advertisingTemplate context = do
+  body <- renderTemplate advertisingTemplate context
+  renderTemplate template (context <>
+    [ ("body", body)
+    , ("summary", "Information about advertising with Haskell Weekly.")
+    , ("title", pageTitle (Just "Advertising"))
+    , ("url", "/advertising.html")
+    ])
 
 renderAtom :: Monad m => Text -> Text -> Context -> [Issue] -> m Text
 renderAtom template entryTemplate context issues = do
