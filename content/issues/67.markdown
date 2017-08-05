@@ -1,0 +1,29 @@
+<!-- 2017-08-10 -->
+
+Welcome to another issue of Haskell Weekly!
+Haskell is a purely functional programming language that focuses on correctness, productivity, and expressiveness.
+This is a weekly summary of what's going on in its community.
+
+## Featured
+
+todo
+
+## Jobs
+
+todo
+
+## In brief
+
+todo
+
+## Package of the week
+
+todo
+
+## Call for participation
+
+todo
+
+## Events
+
+todo
