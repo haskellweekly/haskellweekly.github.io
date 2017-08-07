@@ -22,7 +22,9 @@ todo
 
 ## Call for participation
 
-todo
+-   [brittany: Quadratic run-time behaviour in size of input](https://github.com/lspitzner/brittany/issues/34)
+-   [cabal: Wiki release instructions are out of date](https://github.com/haskell/cabal/issues/4622)
+-   [stack: Add `--cwd` parameter to stack exec](https://github.com/commercialhaskell/stack/issues/3264)
 
 ## Events
 
