@@ -22,6 +22,10 @@ This is a weekly summary of what's going on in its community.
 
     > Let's say we have a foreign function that takes a C data structure. Our task is to allocate the structure in memory, fill in the fields, call the function, and deallocate the memory. In this article, I will explore different ways to track all the allocated pointers and free them reliably.
 
+-   [Why libuv, why multicore?](https://github.com/winterland1989/stdio/wiki/Why-libuv,-why-multicore%3F/b8fe3ae9f04ed1e0e9f614939da0896087e63003)
+
+    > Alright, so I finally got time to explain the whole I/O system in stdio. The code is not production ready yet, but the big framework has been laid out. Once we figure out a way to bridge libuv with GHC's light weight threads runtime, we got everything we want.
+
 ## Jobs
 
 todo
