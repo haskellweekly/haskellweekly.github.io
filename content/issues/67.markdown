@@ -34,6 +34,10 @@ This is a weekly summary of what's going on in its community.
 
     > This post series will serve as a guide for a few of the approaches we can take to optimize Haskell programs. We will build a small but complete Haskell package, iteratively improving on its performance.
 
+-   [Brittany: Haskell source code formatting tool](https://mail.haskell.org/pipermail/haskell/2017-August/025250.html)
+
+    > I am happy to (finally) announce the first Hackage release of Brittany, a configurable Haskell source code formatter based on ghc-exactprint. Brittany aims to nicely layout the code and retain empty lines and comments as they appear in the input.
+
 ## Jobs
 
 todo
