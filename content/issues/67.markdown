@@ -42,6 +42,10 @@ This is a weekly summary of what's going on in its community.
 
     > We'd like to update the wider Haskell community on the state of the Summer of Haskell projects, now that the midterm evaluation has passed. We are very happy that almost everyone passed the evaluation.
 
+-   [Case study: Building a URL bouncer](https://vadosware.io/post/case-study-building-a-url-bouncer/)
+
+    > Building a simple URL bouncer with Servant isn't that hard, and the usual warm fuzzies you get from well-typed functions, interfaces, and code still apply.
+
 ## Jobs
 
 todo
