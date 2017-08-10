@@ -38,6 +38,10 @@ This is a weekly summary of what's going on in its community.
 
     > I am happy to (finally) announce the first Hackage release of Brittany, a configurable Haskell source code formatter based on ghc-exactprint. Brittany aims to nicely layout the code and retain empty lines and comments as they appear in the input.
 
+-   [Midterm update for 2017](https://summer.haskell.org/news/2017-08-04-midterm-update.html)
+
+    > We'd like to update the wider Haskell community on the state of the Summer of Haskell projects, now that the midterm evaluation has passed. We are very happy that almost everyone passed the evaluation.
+
 ## Jobs
 
 todo
