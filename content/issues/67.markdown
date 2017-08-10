@@ -30,6 +30,10 @@ This is a weekly summary of what's going on in its community.
 
     > In order to make this code useful to others, I would like to take the time to explain exactly how it works. In this file, we will go through the unification algorithm being used and how it is implemented in the code.
 
+-   [Writing performant Haskell (1 of 6): Intro](https://jship.github.io/posts/2017-08-09-writing-performant-haskell-part-1.html)
+
+    > This post series will serve as a guide for a few of the approaches we can take to optimize Haskell programs. We will build a small but complete Haskell package, iteratively improving on its performance.
+
 ## Jobs
 
 todo
