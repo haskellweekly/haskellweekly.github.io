@@ -18,6 +18,10 @@ This is a weekly summary of what's going on in its community.
 
     > What if focusing on the correct data structure, while still understanding your algorithm, could improve maintainability and collaterally speed up execution by a factor of over 15x compared to over-engineered C# code?
 
+-   [5 ways to manage allocated memory in Haskell](https://ro-che.info/articles/2017-08-06-manage-allocated-memory-haskell)
+
+    > Let's say we have a foreign function that takes a C data structure. Our task is to allocate the structure in memory, fill in the fields, call the function, and deallocate the memory. In this article, I will explore different ways to track all the allocated pointers and free them reliably.
+
 ## Jobs
 
 todo
