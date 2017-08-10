@@ -10,6 +10,10 @@ This is a weekly summary of what's going on in its community.
 
     > This is a demonstration program that is able to load a web page up and render it like in the early '90s. It supports laying out text, different font sizes for headings, inline and block elements, hyperlinks, bold and italics. It supports mouse wheel scrolling, too.
 
+-   [Array programming in Haskell](https://www.tweag.io/posts/2017-08-09-array-programming-in-haskell.html)
+
+    > On the confusing side, there are several different array libraries with overlapping feature sets, but distinct focus, strengths, and level of support, and often they have got widely different performance characteristics. This can make it hard to know where to start.
+
 ## Jobs
 
 todo
