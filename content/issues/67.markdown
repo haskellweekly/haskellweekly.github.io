@@ -56,7 +56,16 @@ todo
 
 ## In brief
 
-todo
+-   [Conway's Game of Life using `Representable` and `Comonad`s](http://chrispenner.ca/posts/conways-game-of-life.html)
+-   [Building Haskell projects with GHC](https://fun-discoveries.blogspot.com/2017/08/building-haskell-projects-with-ghc.html)
+-   [Implementing Clojure-like transducers in Idris](https://deque.blog/2017/08/04/transducers-in-idris-2/)
+-   [Integrating Eta into your Scala projects](https://blog.eta-lang.org/integrating-eta-into-your-scala-projects-a8d494a2c5b0)
+-   [Redirect vulnerabilities](http://teh.id.au/posts/2017/08/09/redirect-vulnerabilities/index.html)
+-   [Stack 1.5.1 released](https://mail.haskell.org/pipermail/haskell-cafe/2017-August/127686.html)
+-   [Stack issue triagers](https://www.fpcomplete.com/blog/2017/08/stack-issue-triagers)
+-   [`take` & `zip`: An issue with linear streams](https://m0ar.github.io/safe-streaming/2017/08/08/take-and-zip.html)
+-   [The future is functional: Haskell and the AI-native world](https://mmhaskell.com/blog/2017/8/7/the-future-is-functional-haskell-and-the-ai-native-world)
+-   [Why you should use PureScript](https://gist.github.com/paf31/adfd15fbb1ac8b99fc68be2c9aca8427)
 
 ## Package of the week
 
