@@ -4,6 +4,10 @@ Welcome to another issue of Haskell Weekly!
 Haskell is a purely functional programming language that focuses on correctness, productivity, and expressiveness.
 This is a weekly summary of what's going on in its community.
 
+Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
+
 ## Featured
 
 -   [Wish: A trivial web browser written in Haskell](https://github.com/chrisdone/wish/blob/f6cb6ffa38e88a8fa082b2cff33c2da56c249608/README.md)
