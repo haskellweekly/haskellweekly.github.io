@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-todo
+-   [Wish: A trivial web browser written in Haskell](https://github.com/chrisdone/wish/blob/f6cb6ffa38e88a8fa082b2cff33c2da56c249608/README.md)
+
+    > This is a demonstration program that is able to load a web page up and render it like in the early '90s. It supports laying out text, different font sizes for headings, inline and block elements, hyperlinks, bold and italics. It supports mouse wheel scrolling, too.
 
 ## Jobs
 
