@@ -14,6 +14,10 @@ This is a weekly summary of what's going on in its community.
 
     > On the confusing side, there are several different array libraries with overlapping feature sets, but distinct focus, strengths, and level of support, and often they have got widely different performance characteristics. This can make it hard to know where to start.
 
+-   [Programming as if the correct data structure (and performance) mattered](http://h2.jaguarpaw.co.uk/posts/data-structures-matter/)
+
+    > What if focusing on the correct data structure, while still understanding your algorithm, could improve maintainability and collaterally speed up execution by a factor of over 15x compared to over-engineered C# code?
+
 ## Jobs
 
 todo
