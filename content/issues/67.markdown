@@ -18,7 +18,8 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [monad-control](https://www.stackage.org/haddock/nightly-2017-08-10/monad-control-1.0.2.2/Control-Monad-Trans-Control.html),
+a library that provides lift control operations (like exception catching) through monad transformers.
 
 ## Call for participation
 
