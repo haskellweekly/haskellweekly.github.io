@@ -26,6 +26,10 @@ This is a weekly summary of what's going on in its community.
 
     > Alright, so I finally got time to explain the whole I/O system in stdio. The code is not production ready yet, but the big framework has been laid out. Once we figure out a way to bridge libuv with GHC's light weight threads runtime, we got everything we want.
 
+-   [An explanation of higher-order unification](https://github.com/jozefg/higher-order-unification/blob/21382f44205aa3d8b115fe2b2eba47489da4b492/explanation.md)
+
+    > In order to make this code useful to others, I would like to take the time to explain exactly how it works. In this file, we will go through the unification algorithm being used and how it is implemented in the code.
+
 ## Jobs
 
 todo
