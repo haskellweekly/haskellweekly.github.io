@@ -10,7 +10,9 @@ todo
 
 ## Jobs
 
-todo
+-   [Jobs at Lumi.com](https://www.lumi.com/jobs/full-stack-engineer)
+
+    > Lumi is a platform that helps e-commerce businesses manage their packaging supply chain. We are currently hiring backend and frontend engineers. You will work closely with Phil Freeman (creator of PureScript) and our small, distributed engineering team headquartered in Los Angeles. Remote applicants across all US time zones are encouraged!
 
 ## In brief
 
