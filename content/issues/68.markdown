@@ -24,7 +24,9 @@ todo
 
 ## Call for participation
 
-todo
+-   [http2-client: Use `encodeTokenHeader` (resp. `decodeTokenHeader`)](https://github.com/lucasdicioccio/http2-client/issues/4)
+-   [miso: 2048 Example](https://github.com/haskell-miso/miso/issues/246)
+-   [stack: Improve `stack upgrade --help` documentation](https://github.com/commercialhaskell/stack/issues/3070)
 
 ## Events
 
