@@ -26,6 +26,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Haskell, the world's finest imperative programming language, can now be used to write games for the ZX Spectrum, the world's finest 80s microcomputer.
 
+-   [`MonadFix` is time travel](https://elvishjerricco.github.io/2017/08/22/monadfix-is-time-travel.html)
+
+    > `MonadFix` is a pretty difficult concept, and I personally found much of the existing content about it online to be somewhat unhelpful. I answered a request for an ELI5 of `MonadFix` on Reddit, and someone suggested I turn my answer into a blog post.
+
 -   [Functors, applicatives, and monads: You don't need to know theory to use them](https://joyfulmantis.github.io/posts/2017-08-23-functors-applicatives-monads.html)
 
     > Figuring out how to use the common functional programming type classess is not as hard as you would think. The key here is not to start with understanding the category theory behind them, but rather first start with using their implementations in the standard datatypes.
