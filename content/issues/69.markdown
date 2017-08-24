@@ -26,6 +26,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > `fmap` can be implemented using the `Applicative` methods, so every `Applicative` is a functor whether we like it or not; the `Functor` constraint forces us to be honest.
 
+-   [Coyoneda and `fmap` fusion](http://alpmestan.com/posts/2017-08-17-coyoneda-fmap-fusion.html)
+
+    > Let's quickly see how the (dual variant of the) Yoneda lemma can speed up some Haskell programs --- more specifically ones that are repeatedly calling `fmap` to transform some data within a `Functor`.
+
 ## Jobs
 
 todo
