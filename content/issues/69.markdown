@@ -18,6 +18,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Although there many different types of tensor,  the computations for each type of tensor are the same, i.e, they share the same interface. Since Backpack lets you program against one interface which can have multiple implementations, it is the perfect tool for implementing a tensor library.
 
+-   [Diversity through inline code](http://www.tweag.io/posts/2017-08-17-inline-code.html)
+
+    > Haskell is an awesome language, but we need to remember that it is not very useful in isolation. In almost any realistic application, Haskell has to coexist with other languages, even if only to call existing C libraries or to make use of operating system services.
+
 -   [Functors, applicatives, and monads: You don't need to know theory to use them](https://joyfulmantis.github.io/posts/2017-08-23-functors-applicatives-monads.html)
 
     > Figuring out how to use the common functional programming type classess is not as hard as you would think. The key here is not to start with understanding the category theory behind them, but rather first start with using their implementations in the standard datatypes.
