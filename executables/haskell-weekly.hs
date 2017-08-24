@@ -1,7 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Data.Function ((&))
-import Data.Semigroup ((<>))
 import Data.Text (Text)
 
 import qualified CMark
@@ -145,17 +144,28 @@ isoDay :: Time.Day -> Text
 isoDay day =
   formatDay "%Y-%m-%dT00:00:00Z" day
 
+issueContext :: Issue -> Context
+issueContext issue =
+  [ ("number", showText (issueNumber issue))
+  ]
+
 issueSummary :: Issue -> Text
 issueSummary issue =
-  "Issue " <> showText (issueNumber issue) <> " of Haskell Weekly."
+  unsafeRenderTemplate
+    "Issue $number$ of Haskell Weekly."
+    (issueContext issue)
 
 issueTitle :: Issue -> Text
 issueTitle issue =
-  "Issue " <> showText (issueNumber issue)
+  unsafeRenderTemplate
+    "Issue $number$"
+    (issueContext issue)
 
 issueUrl :: Issue -> Text
 issueUrl issue =
-  mconcat ["/issues/", showText (issueNumber issue), ".html"]
+  unsafeRenderTemplate
+    "/issues/$number$.html"
+    (issueContext issue)
 
 lastUpdated :: [Issue] -> Time.Day
 lastUpdated issues =
@@ -168,7 +178,9 @@ pageTitle :: Maybe Text -> Text
 pageTitle maybeTitle =
   case maybeTitle of
     Nothing -> "Haskell Weekly"
-    Just title -> title <> " :: Haskell Weekly"
+    Just title -> unsafeRenderTemplate
+      "$title$ :: Haskell Weekly"
+      [("title", title)]
 
 parseIssue :: (Word, Text) -> Maybe Issue
 parseIssue (number, contents) = do
@@ -203,7 +215,7 @@ summary =
 renderAdvertising :: Monad m => Text -> Text -> Context -> m Text
 renderAdvertising template advertisingTemplate context = do
   body <- renderTemplate advertisingTemplate context
-  renderTemplate template (context <>
+  renderTemplate template (context ++
     [ ("body", body)
     , ("summary", "Information about advertising with Haskell Weekly.")
     , ("title", pageTitle (Just "Advertising"))
@@ -213,14 +225,14 @@ renderAdvertising template advertisingTemplate context = do
 renderAtom :: Monad m => Text -> Text -> Context -> [Issue] -> m Text
 renderAtom template entryTemplate context issues = do
   entries <- mapM (renderAtomEntry entryTemplate context) issues
-  renderTemplate template (context <>
+  renderTemplate template (context ++
     [ ("entries", mconcat entries)
     , ("updated", isoDay (lastUpdated issues))
     ])
 
 renderAtomEntry :: Monad m => Text -> Context -> Issue -> m Text
 renderAtomEntry template context issue =
-  renderTemplate template (context <>
+  renderTemplate template (context ++
     [ ("content", escapeHtml (issueContents issue))
     , ("number", showText (issueNumber issue))
     , ("updated", isoDay (issueDay issue))
@@ -230,7 +242,7 @@ renderIndex :: Monad m => Text -> Text -> Text -> Context -> [Issue] -> m Text
 renderIndex baseTemplate template snippetTemplate context issues = do
   snippets <- mapM (renderSnippet snippetTemplate context) issues
   body <- renderTemplate template (("issues", mconcat snippets) : context)
-  renderTemplate baseTemplate (context <>
+  renderTemplate baseTemplate (context ++
     [ ("body", body)
     , ("summary", summary)
     , ("title", pageTitle Nothing)
@@ -240,12 +252,12 @@ renderIndex baseTemplate template snippetTemplate context issues = do
 renderIssue :: Monad m => Text -> Text -> Context -> Issue -> m Text
 renderIssue baseTemplate issueTemplate context issue = do
   let title = issueTitle issue
-  body <- renderTemplate issueTemplate (context <>
+  body <- renderTemplate issueTemplate (context ++
     [ ("body", issueContents issue)
     , ("date", prettyDay (issueDay issue))
     , ("title", title)
     ])
-  renderTemplate baseTemplate (context <>
+  renderTemplate baseTemplate (context ++
     [ ("body", body)
     , ("summary", issueSummary issue)
     , ("title", pageTitle (Just title))
@@ -257,7 +269,9 @@ renderPiece context piece =
   case piece of
     Literal text -> pure text
     Variable name -> case lookup name context of
-      Nothing -> fail ("unknown variable: " <> show name)
+      Nothing -> failText (unsafeRenderTemplate
+        "unknown variable: $name$"
+        [("name", showText name)])
       Just value -> pure value
 
 renderPieces :: Monad m => Context -> [Piece] -> m Text
@@ -272,7 +286,7 @@ renderRss template itemTemplate context issues = do
 
 renderRssItem :: Monad m => Text -> Context -> Issue -> m Text
 renderRssItem template context issue =
-  renderTemplate template (context <>
+  renderTemplate template (context ++
     [ ("description", escapeHtml (issueContents issue))
     , ("pubDate", rfcDay (issueDay issue))
     , ("title", issueTitle issue)
@@ -281,7 +295,7 @@ renderRssItem template context issue =
 
 renderSnippet :: Monad m => Text -> Context -> Issue -> m Text
 renderSnippet template context issue =
-  renderTemplate template (context <>
+  renderTemplate template (context ++
     [ ("date", prettyDay (issueDay issue))
     , ("title", issueTitle issue)
     , ("url", issueUrl issue)
@@ -293,11 +307,18 @@ renderTemplate template context =
 
 toPieces :: Text -> [Piece]
 toPieces template =
-  let go chunks = case chunks of
-        [] -> []
-        [text] -> [Literal text]
-        text : name : rest -> Literal text : Variable name : go rest
+  let
+    go chunks = case chunks of
+      [] -> []
+      [text] -> [Literal text]
+      text : name : rest -> Literal text : Variable name : go rest
   in go (Text.splitOn "$" template)
+
+unsafeRenderTemplate :: Text -> Context -> Text
+unsafeRenderTemplate template context =
+  case renderTemplate template context of
+    Left message -> error message
+    Right text -> text
 
 -- Generic helpers
 
@@ -310,6 +331,10 @@ copyFileAt input output path =
 createDirectoryAt :: [FilePath] -> IO ()
 createDirectoryAt path =
   Directory.createDirectoryIfMissing True (FilePath.joinPath path)
+
+failText :: Monad m => Text -> m a
+failText message =
+  fail (Text.unpack message)
 
 formatDay :: String -> Time.Day -> Text
 formatDay format day =
