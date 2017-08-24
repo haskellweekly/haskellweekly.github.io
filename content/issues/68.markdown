@@ -24,11 +24,11 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 -   [Starting out with Haskell Tensor Flow](https://mmhaskell.com/blog/2017/8/14/starting-out-with-haskell-tensor-flow)
 
-    > In this first article, we’ll go over the basic concepts of Tensor Flow. We'll see how they’re implemented in Python (the most common language for TF). We'll then translate these concepts to Haskell.
+    > In this first article, we'll go over the basic concepts of Tensor Flow. We'll see how they're implemented in Python (the most common language for TF). We'll then translate these concepts to Haskell.
 
 -   [End to end testing with Hspec (almost)](https://vadosware.io/post/end-to-end-testing-with-hspec-almost/)
 
-    > This is a story about setting up end to end (“E2E”, AKA acceptance tests) testing running in Haskell.
+    > This is a story about setting up end to end ("E2E", AKA acceptance tests) testing running in Haskell.
 
 -   [time.gif](https://hookrace.net/blog/time.gif/)
 
@@ -36,7 +36,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 -   [Efficient immutable collections](https://michael.steindorfer.name/publications/phd-thesis-efficient-immutable-collections.pdf)
 
-    > In this thesis we introduce data structures that are more performant than comparable state-of-the-art standard library data structures—in terms of operation runtimes and memory footprints—and more general by supporting storage and retrieval of type-heterogeneous data where parametric polymorphism on the language level falls short.
+    > In this thesis we introduce data structures that are more performant than comparable state-of-the-art standard library data structures --- in terms of operation runtimes and memory footprints --- and more general by supporting storage and retrieval of type-heterogeneous data where parametric polymorphism on the language level falls short.
 
 -   [Usability issues with linear Haskell](https://m0ar.github.io/safe-streaming/2017/08/11/usability-implications-of-linearity.html)
 
@@ -44,7 +44,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 -   [User-programmable infix operators in Racket](https://lexi-lambda.github.io/blog/2017/08/12/user-programmable-infix-operators-in-racket/)
 
-    > The resulting technique makes it possible for fixity information to be specified locally in a way that cooperates nicely with the Racket macro system, allowing the parsing of infix expressions to be manipulated at compile-time by users’ macros.
+    > The resulting technique makes it possible for fixity information to be specified locally in a way that cooperates nicely with the Racket macro system, allowing the parsing of infix expressions to be manipulated at compile-time by users' macros.
 
 -   [Writing Performant Haskell (5 of 6): Dive Into Text](https://jship.github.io/posts/2017-08-14-writing-performant-haskell-part-5.html)
 
