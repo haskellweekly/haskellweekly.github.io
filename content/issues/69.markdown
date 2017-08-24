@@ -52,7 +52,9 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Jobs
 
-todo
+Sadly we aren't currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider [advertising with us](/advertising.html)!
 
 ## In brief
 
