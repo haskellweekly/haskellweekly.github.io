@@ -40,7 +40,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 -   [Functors, applicatives, and monads: You don't need to know theory to use them](https://joyfulmantis.github.io/posts/2017-08-23-functors-applicatives-monads.html)
 
-    > Figuring out how to use the common functional programming type classess is not as hard as you would think. The key here is not to start with understanding the category theory behind them, but rather first start with using their implementations in the standard datatypes.
+    > Figuring out how to use the common functional programming type classes is not as hard as you would think. The key here is not to start with understanding the category theory behind them, but rather first start with using their implementations in the standard datatypes.
 
 -   [`fmap` in applicative and monad](http://www.halogenandtoast.com/fmap-in-applicative-and-monad/)
 
@@ -56,7 +56,19 @@ todo
 
 ## In brief
 
-todo
+-   [A follow up of the study of 4 money class designs: Why not having currencies as type parameters?](https://deque.blog/2017/08/22/a-follow-up-of-the-study-of-4-money-class-designs-why-not-having-currencies-as-type-parameters/)
+-   [A unified array interface](http://winterland.me/2017/08/18/an%20unified%20array%20interface/)
+-   [Digging in deep: Solving a real problem with Haskell Tensor Flow](https://mmhaskell.com/blog/2017/8/21/digging-in-deep-solving-a-real-problem-with-haskell-tensor-flow)
+-   [Ghcid and VS Code](https://neilmitchell.blogspot.com/2017/08/ghcid-and-vs-code.html)
+-   [Lock-step simulation is child’s play](https://www.youtube.com/watch?v=2kKvVe673MA)
+-   [Reflecting on 5 years of Haskell in production](https://www.youtube.com/watch?v=KlfbAneiMNw)
+-   [Rolling your own block chain in Haskell](http://www.michaelburge.us/2017/08/17/rolling-your-own-blockchain.html)
+-   [Traversing syntax trees](https://twanvl.nl/blog/haskell/traversing-syntax-trees)
+-   [Understanding asymmetric numeral systems](https://ro-che.info/articles/2017-08-20-understanding-ans)
+-   [Unifying OS installation and configuration management](https://joeyh.name/blog/entry/unifying_OS_installation_and_configuration_management/)
+-   [Where are the simple "Let's build ___ with Haskell" posts?](https://www.reddit.com/r/haskell/comments/6uoys8/where_are_the_simple_lets_build_with_haskell_posts/)
+-   [Why I'm excited about Scalaz 8](http://degoes.net/articles/scalaz8-is-the-future)
+-   [Writing performant Haskell (6 of 6): Closing](https://jship.github.io/posts/2017-08-19-writing-performant-haskell-part-6.html)
 
 ## Package of the week
 
