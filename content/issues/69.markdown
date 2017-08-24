@@ -24,7 +24,8 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [reflex-sdl2](https://hackage.haskell.org/package/reflex-sdl2-0.1.0.0),
+a minimal host for SDL2-based Reflex apps.
 
 ## Call for participation
 
