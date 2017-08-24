@@ -22,6 +22,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Figuring out how to use the common functional programming type classess is not as hard as you would think. The key here is not to start with understanding the category theory behind them, but rather first start with using their implementations in the standard datatypes.
 
+-   [`fmap` in applicative and monad](http://www.halogenandtoast.com/fmap-in-applicative-and-monad/)
+
+    > `fmap` can be implemented using the `Applicative` methods, so every `Applicative` is a functor whether we like it or not; the `Functor` constraint forces us to be honest.
+
 ## Jobs
 
 todo
