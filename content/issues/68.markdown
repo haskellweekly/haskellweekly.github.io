@@ -10,7 +10,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Featured
 
--   [Build a Reddit Slack Bot in Haskell](https://www.twilio.com/blog/2017/08/build-a-reddit-slack-bot-in-haskell.html)
+-   [Build a Reddit Slack bot in Haskell](https://www.twilio.com/blog/2017/08/build-a-reddit-slack-bot-in-haskell.html)
 
     > Do you like Reddit? Do you like bots? If you answered yes to one, both, or neither of those, then you are in luck. This post will go over how to build a Reddit Slack bot in Haskell.
 
@@ -46,7 +46,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > The resulting technique makes it possible for fixity information to be specified locally in a way that cooperates nicely with the Racket macro system, allowing the parsing of infix expressions to be manipulated at compile-time by users' macros.
 
--   [Writing Performant Haskell (5 of 6): Dive Into Text](https://jship.github.io/posts/2017-08-14-writing-performant-haskell-part-5.html)
+-   [Writing performant Haskell (5 of 6): Dive into text](https://jship.github.io/posts/2017-08-14-writing-performant-haskell-part-5.html)
 
     > In this post, we finally return to the proposition from the second post that using `text` gives us more optimization flexibility. We will dive into the internals of the `text` package and hopefully come out with some seriously fast functions.
 
@@ -59,7 +59,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 ## In brief
 
 -   [Announcing Hasky Stack](https://markkarpov.com/post/announcing-hasky-stack.html)
--   [Functional Programming Cheat Sheet](https://blog.qfpl.io/posts/fp-cheat-sheet/)
+-   [Functional programming cheat sheet](https://blog.qfpl.io/posts/fp-cheat-sheet/)
 -   [Haskell in Leipzig 2017 submission deadline ahead](https://jeltsch.wordpress.com/2017/08/14/haskell-in-leipzig-2017-submission-deadline-ahead/)
 -   [hs-flatris is a Flatris clone coded by @ptigwe in Haskell using the Miso library](https://flatris.haskell-miso.org/)
 -   [ICFP Bingo 2017](https://gergo.erdi.hu/projects/icfp-bingo-2017/)
