@@ -34,6 +34,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > `MonadFix` is a pretty difficult concept, and I personally found much of the existing content about it online to be somewhat unhelpful. I answered a request for an ELI5 of `MonadFix` on Reddit, and someone suggested I turn my answer into a blog post.
 
+-   [Providing an API for extensible effects and monad transformers](https://ocharles.org.uk/blog/posts/2017-08-23-extensible-effects-and-transformers.html)
+
+    > Interacting with ListenBrainz requires some sort of IO so whatever API I will be offering has to live within some sort of monad. Currently, there are three major options. So, which do we choose? Evaluating the options, I have some concerns.
+
 -   [Functors, applicatives, and monads: You don't need to know theory to use them](https://joyfulmantis.github.io/posts/2017-08-23-functors-applicatives-monads.html)
 
     > Figuring out how to use the common functional programming type classess is not as hard as you would think. The key here is not to start with understanding the category theory behind them, but rather first start with using their implementations in the standard datatypes.
