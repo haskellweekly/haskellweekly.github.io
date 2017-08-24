@@ -10,7 +10,9 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Featured
 
-todo
+-   [Abusing Haskell dependent types to make Redis queues safer](https://medium.com/@zyxoas/abusing-haskell-dependent-types-to-make-redis-queues-safer-cc31db943b6c)
+
+    > I don't know about you, but quite frankly I'm tired of seeing the same tired vector example being used to demonstrate why dependent types are useful.
 
 ## Jobs
 
