@@ -152,7 +152,8 @@ issueContext issue =
 issueSummary :: Issue -> Text
 issueSummary issue =
   unsafeRenderTemplate
-    "Issue $number$ of Haskell Weekly."
+    "Issue $number$ of Haskell Weekly, a free email newsletter about the \
+    \Haskell programming language."
     (issueContext issue)
 
 issueTitle :: Issue -> Text
