@@ -26,7 +26,10 @@ todo
 
 ## Call for participation
 
-todo
+-   [aeson: Documentation of Option fields disappeared](https://github.com/bos/aeson/issues/576)
+-   [liquidhaskell: Annotations are ignored when comment is not closed with @-}](https://github.com/ucsd-progsys/liquidhaskell/issues/1049)
+-   [nanocoin: Reward Transaction on Mining](https://github.com/tdietert/nanocoin/issues/7)
+-   [stack: `stack script --optimize` clutters the current directory with *.hi and *.o files](https://github.com/commercialhaskell/stack/issues/3371)
 
 ## Events
 
