@@ -42,6 +42,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > To understand what's happening, let's look at a simplified version of the implementation of the `exitWith` function. I would have anticipated that this would, you know, actually exit the process.
 
+-   [Fixed-length vector types in Haskell](https://blog.jle.im/entry/fixed-length-vector-types-in-haskell.html)
+
+    > So here we are in 2017. GHC 8.2 is here, and base is in version 4.10. What's the "right" way to do fixed-length vectors in Haskell?
+
 ## Jobs
 
 todo
