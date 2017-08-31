@@ -18,6 +18,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > In this post, I want to use the same idea of tracking states in types, but applied to a more unusual example from our paper: sending rich structured data types across the network and back with as little copying as possible.
 
+-   [Roll your own Bitcoin exchange in Haskell](http://www.michaelburge.us/2017/08/31/roll-your-own-bitcoin-exchange.html)
+
+    > This article will show you how to: Design an order book that can handle limit orders and market orders; Install automated sanity checks that run on every write to the order book, preventing hacks and implementation bugs.
+
 ## Jobs
 
 todo
