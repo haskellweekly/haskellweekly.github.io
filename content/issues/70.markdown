@@ -70,7 +70,9 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 
 ## Package of the week
 
-todo
+This week's package of the week is [stm](https://www.stackage.org/lts-9.2/package/stm-2.4.4.1),
+a library that provides software transactional memory.
+STM is a modular, composable concurrency abstraction.
 
 ## Call for participation
 
