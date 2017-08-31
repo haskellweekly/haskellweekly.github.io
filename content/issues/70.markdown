@@ -38,6 +38,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > I noticed that running the server was costing me more than I'd like. This was because the REST API consumed too much memory, which cost me a bit too much money. So, to save money, I decided to rewrite the API in Haskell.
 
+-   [Exiting a Haskell process](https://www.fpcomplete.com/blog/2017/08/exiting-haskell-process)
+
+    > To understand what's happening, let's look at a simplified version of the implementation of the `exitWith` function. I would have anticipated that this would, you know, actually exit the process.
+
 ## Jobs
 
 todo
