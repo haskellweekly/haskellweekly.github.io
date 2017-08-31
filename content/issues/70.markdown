@@ -46,6 +46,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > So here we are in 2017. GHC 8.2 is here, and base is in version 4.10. What's the "right" way to do fixed-length vectors in Haskell?
 
+-   [Type Tac Toe: Advanced type safety](http://chrispenner.ca/posts/type-tac-toe)
+
+    > Today we'll be looking at type programming in Haskell. Programming in type-land allows us to teach the compiler a few new tricks and to verify additional constraints at compile-time rather than run-time.
+
 ## Jobs
 
 todo
