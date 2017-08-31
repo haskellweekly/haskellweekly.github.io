@@ -30,6 +30,7 @@ todo
 -   [liquidhaskell: Annotations are ignored when comment is not closed with @-}](https://github.com/ucsd-progsys/liquidhaskell/issues/1049)
 -   [nanocoin: Reward Transaction on Mining](https://github.com/tdietert/nanocoin/issues/7)
 -   [stack: `stack script --optimize` clutters the current directory with *.hi and *.o files](https://github.com/commercialhaskell/stack/issues/3371)
+-   [stack: Allow installing from GitHub](https://github.com/commercialhaskell/stack/issues/1278)
 
 ## Events
 
