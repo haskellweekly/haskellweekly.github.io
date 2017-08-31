@@ -58,7 +58,15 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 
 ## In brief
 
-todo
+-   [A ByteString performance mystery](http://teh.id.au/posts/2017/08/23/bytestring-performance-mystery/)
+-   [Closure conversion as coyoneda](http://prl.ccs.neu.edu/blog/2017/08/28/closure-conversion-as-coyoneda/)
+-   [Haskell for Mac: The highlights of version 1.5](http://blog.haskellformac.com/blog/version-15)
+-   [Haskell Platform 8.2.1](https://mail.haskell.org/pipermail/haskell-cafe/2017-August/127789.html)
+-   [Monad transformer commutativity](https://jship.github.io/posts/2017-08-27-monad-transformer-commutativity.html)
+-   [Nanocoin](https://github.com/tdietert/nanocoin/blob/25fe5e8f24ccf54e475b3376eedce6766094bb38/README.md)
+-   [Putting the flow in Tensor Flow](https://mmhaskell.com/blog/2017/8/28/putting-the-flow-in-tensor-flow)
+-   [Right and left folds, primitive recursion patterns in Python and Haskell](http://eli.thegreenplace.net/2017/right-and-left-folds-primitive-recursion-patterns-in-python-and-haskell)
+-   [Stackage to Nix](https://blog.typeable.io/posts/2017-08-24-stackage2nix.html)
 
 ## Package of the week
 
