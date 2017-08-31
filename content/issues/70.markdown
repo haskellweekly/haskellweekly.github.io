@@ -10,7 +10,9 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Featured
 
-todo
+-   [Cross-referenced codebase for Stackage LTS 9.2 available](https://mail.haskell.org/pipermail/haskell-cafe/2017-August/127823.html)
+
+    > To find out who else uses your favorite functions and how. For example, click `async` to get all the call sites of that method.
 
 ## Jobs
 
