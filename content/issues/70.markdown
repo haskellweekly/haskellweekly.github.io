@@ -26,6 +26,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > The problem is about finding out in how many ways you can make change for a certain amount of money using an infinite supply of coins of different values.
 
+-   [Beginner mistakes and oddities I encountered](https://jaredweakly.com/blog/beginner-mistakes-and-oddities-i-encountered/)
+
+    > Time sure does fly don't it? I'm going to go over a lot of the beginner mistakes and little pitfalls and paper cuts I've encountered so far while working on the GHC test suite.
+
 ## Jobs
 
 todo
