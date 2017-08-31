@@ -30,6 +30,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Time sure does fly don't it? I'm going to go over a lot of the beginner mistakes and little pitfalls and paper cuts I've encountered so far while working on the GHC test suite.
 
+-   [Introducing Haskey (Summer of Haskell 2017)](https://deliquus.com/posts/2017-08-24-introducing-haskey.html)
+
+    > This blog post introduces the Haskey project, an ACID compliant embedded key-value store entirely written in Haskell, based on an MVCC B+-tree implementation.
+
 ## Jobs
 
 todo
