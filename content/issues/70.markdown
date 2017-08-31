@@ -22,6 +22,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > This article will show you how to: Design an order book that can handle limit orders and market orders; Install automated sanity checks that run on every write to the order book, preventing hacks and implementation bugs.
 
+-   [An example of using laziness](https://noughtmare.gitlab.io/posts/2017-08-30-an-example-of-using-laziness.html)
+
+    > The problem is about finding out in how many ways you can make change for a certain amount of money using an infinite supply of coins of different values.
+
 ## Jobs
 
 todo
