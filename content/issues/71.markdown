@@ -20,7 +20,10 @@ todo
 
 ## Call for participation
 
-todo
+-   [dejafu: STM actions should be undone in reverse order](https://github.com/barrucadu/dejafu/issues/111)
+-   [haskell-lang: "How to contribute" page](https://github.com/haskell-lang/haskell-lang/issues/131)
+-   [highlight: support utf8 regexes](https://github.com/cdepillabout/highlight/issues/5)
+-   [miso: Snake](https://github.com/haskell-miso/miso/issues/281)
 
 ## Events
 
