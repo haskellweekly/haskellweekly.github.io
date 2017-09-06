@@ -24,4 +24,4 @@ todo
 
 ## Events
 
-todo
+-  September 18: [Vancouver's Haskell Workshop](https://workshops.vanfp.org/haskell/)
