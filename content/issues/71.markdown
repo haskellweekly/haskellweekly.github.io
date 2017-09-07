@@ -1,6 +1,12 @@
 <!-- 2017-09-07 -->
 
-todo
+Welcome to another issue of Haskell Weekly!
+Haskell is a safe, compiled, purely functional programming language with a fast, concurrent, garbage-collected runtime.
+This is a weekly summary of what's going on in its community.
+
+Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
 
 ## Featured
 
