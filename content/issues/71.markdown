@@ -38,6 +38,10 @@ todo
 
     Editor's note: Press `s` to view speaker notes.
 
+-   [Type level merge sort](https://www.athiemann.net/2017/08/31/mergesort.html)
+
+    > I guessed that the current type level insertion sort (which is O(n^2) in worst case complexity) was at fault. This turned out to be wrong, but I still implemented a more efficient merge sort at type level and would like to share the journey as it was quite fun.
+
 ## Jobs
 
 todo
