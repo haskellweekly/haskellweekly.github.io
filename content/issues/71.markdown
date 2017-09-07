@@ -42,6 +42,10 @@ todo
 
     > I guessed that the current type level insertion sort (which is O(n^2) in worst case complexity) was at fault. This turned out to be wrong, but I still implemented a more efficient merge sort at type level and would like to share the journey as it was quite fun.
 
+-   [How the list monad helped me better understand NP time complexity](https://deque.blog/2017/09/04/list-monad-and-np-complexity/)
+
+    > This short post will show how a basic understanding of the list monad helped me (and can therefore help you as well) building an intuition on how a non-deterministic Turing machine behaves, and how you can get a feel of how it would be to program one such computer, thanks to Haskell.
+
 ## Jobs
 
 todo
