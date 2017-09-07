@@ -52,7 +52,12 @@ todo
 
 ## In brief
 
-todo
+-   [Deeper still: Convolutional neural networks](https://mmhaskell.com/blog/2017/9/4/deeper-still-convolutional-neural-networks)
+-   [Just enough functional programming](https://medium.com/@bfil/just-enough-functional-programming-a0c4fd09c8f7)
+-   [Learning me a Haskell for my own good](https://medium.com/@mickduprez/learning-me-a-haskell-for-my-own-good-c59eddb7f45a)
+-   [Quick and minimal Haskell hacking with Nix](http://alpmestan.com/posts/2017-09-06-quick-haskell-hacking-with-nix.html)
+-   [Websockets reactive Game of Score](https://www.schoolofhaskell.com/user/dschalk/Websockets%20Game%20of%20Score)
+-   [What is new in cross compiling Haskell](https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-6d86bc8d6aa3)
 
 ## Package of the week
 
