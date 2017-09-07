@@ -4,7 +4,9 @@ todo
 
 ## Featured
 
-todo
+-   [Let's make a GTK video player with Haskell](https://lettier.github.io/posts/2017-08-30-haskell-gtk-video-player.html)
+
+    > Revisiting the Movie Monad project, we remade the application using the software libraries GTK+ and GStreamer. By using GTK+ and GStreamer, the application remains as portable as the Electron version. Movie Monad can now handle large video files and comes with all of the standard controls one would expect.
 
 ## Jobs
 
