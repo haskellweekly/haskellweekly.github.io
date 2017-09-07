@@ -16,6 +16,10 @@ todo
 
     > In this post I'll show you how to see the performance of your software project improve over the entire lifetime of the project. For that, you'll need to systematically track and store benchmark results over time.
 
+-   [Combining Brick and Haskeline](https://rootmos.github.io/main/2017/08/31/combining-brick-and-haskeline.html)
+
+    > I started to look for alternatives to rlwrap and settled on Brick for handling the terminal user interface and Haskeline for providing the command-line functionality. However, Haskeline needed some coaxing to play nice with Brick.
+
 ## Jobs
 
 todo
