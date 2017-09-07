@@ -8,6 +8,10 @@ todo
 
     > Revisiting the Movie Monad project, we remade the application using the software libraries GTK+ and GStreamer. By using GTK+ and GStreamer, the application remains as portable as the Electron version. Movie Monad can now handle large video files and comes with all of the standard controls one would expect.
 
+-   [Monads, monoids, and categories](https://bartoszmilewski.com/2017/09/06/monads-monoids-and-categories/)
+
+    > There is no good place to end a book on category theory. There's always more to learn. Category theory is a vast subject. At the same time, it's obvious that the same themes, concepts, and patterns keep showing up over and over again.
+
 ## Jobs
 
 todo
