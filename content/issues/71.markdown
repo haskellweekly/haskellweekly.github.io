@@ -48,7 +48,9 @@ todo
 
 ## Jobs
 
-todo
+Sadly we aren't currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider [advertising with us](https://haskellweekly.news/advertising.html)!
 
 ## In brief
 
