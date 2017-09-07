@@ -12,6 +12,10 @@ todo
 
     > There is no good place to end a book on category theory. There's always more to learn. Category theory is a vast subject. At the same time, it's obvious that the same themes, concepts, and patterns keep showing up over and over again.
 
+-   [Tracking performance over the entire software lifecyle](https://www.tweag.io/posts/2017-09-06-hyperion.html)
+
+    > In this post I'll show you how to see the performance of your software project improve over the entire lifetime of the project. For that, you'll need to systematically track and store benchmark results over time.
+
 ## Jobs
 
 todo
