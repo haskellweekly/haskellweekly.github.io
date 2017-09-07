@@ -28,6 +28,10 @@ todo
 
     > Dependency graphs are everywhere in computing. This article will show how you how to: Construct a graph by reading folders and files from disk; Render the graph into a `.dot` file; Render the `.dot` file into an image.
 
+-   [Static binaries for Haskell: A convoluted approach](https://vadosware.io/post/static-binaries-for-haskell-a-convoluted-approach/)
+
+    > Today's post isn't about how easy it is to do this with Go, however, it's actually about how easy it was (or wasn't, I'll let you decide) to do this with Haskell.
+
 ## Jobs
 
 todo
