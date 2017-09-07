@@ -24,6 +24,10 @@ todo
 
     > Inspired by my recent forays into learning more mathematics, I've had an (obvious) insight into how to learn things, and that's to model them in systems I already understand. I'm pretty good at functional programming, so it seemed like a pretty reasonable approach.
 
+-   [Visualizing graphs in Haskell](http://www.michaelburge.us/2017/09/01/how-to-use-graphviz-in-haskell.html)
+
+    > Dependency graphs are everywhere in computing. This article will show how you how to: Construct a graph by reading folders and files from disk; Render the graph into a `.dot` file; Render the `.dot` file into an image.
+
 ## Jobs
 
 todo
