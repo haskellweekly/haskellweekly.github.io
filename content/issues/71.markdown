@@ -32,6 +32,12 @@ todo
 
     > Today's post isn't about how easy it is to do this with Go, however, it's actually about how easy it was (or wasn't, I'll let you decide) to do this with Haskell.
 
+-   [Overcoming the record problem](http://www.parsonsmatt.org/overcoming-records/#/)
+
+    > Records are, morally speaking, maps from strings to values, so let's just do that. We're going to dig into the highly unsafe and somewhat hilarious record library I wrote. Along the way, we're going to learn about some neat type level tricks.
+
+    Editor's note: Press `s` to view speaker notes.
+
 ## Jobs
 
 todo
