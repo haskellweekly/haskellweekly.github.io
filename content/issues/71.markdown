@@ -16,7 +16,9 @@ todo
 
 ## Package of the week
 
-todo
+This week's package of the week is [Dhall](https://hackage.haskell.org/package/dhall-1.6.0),
+an explicitly typed configuration language that is not Turing complete.
+Despite being Turing incomplete, Dhall is a real programming language with a type-checker and evaluator.
 
 ## Call for participation
 
