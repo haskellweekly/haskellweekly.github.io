@@ -20,6 +20,10 @@ todo
 
     > I started to look for alternatives to rlwrap and settled on Brick for handling the terminal user interface and Haskeline for providing the command-line functionality. However, Haskeline needed some coaxing to play nice with Brick.
 
+-   [Modeling music](http://reasonablypolymorphic.com/blog/modeling-music)
+
+    > Inspired by my recent forays into learning more mathematics, I've had an (obvious) insight into how to learn things, and that's to model them in systems I already understand. I'm pretty good at functional programming, so it seemed like a pretty reasonable approach.
+
 ## Jobs
 
 todo
