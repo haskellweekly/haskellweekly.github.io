@@ -4,7 +4,7 @@ undefined
 
 ## Featured
 
-undefined
+[Haskell Study Startup](https://github.com/sjsyrek/haskell-study-startup) - Launch your own Haskell study group
 
 ## Jobs
 
