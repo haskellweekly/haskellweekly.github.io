@@ -34,7 +34,7 @@ This is a weekly summary of what's going on in its community.
 
     > This is the second and final post about Megaparsec 6.0.0 development. This time we are going to walk through re-design of parse error messages.
 
--   [Haskell Summer of Code status update](https://blog.hustlr.in/posts/2017-07-19-midterm-eval.html)
+-   [Haskell Summer of Code status update](https://gitlab.com/vasanthaganeshk/hustlr-in/blob/9e8d8b23926165ddef9f11d22d2bc560f0f2cf08/posts/2017-07-19-midterm-eval.md)
 
     > In this blog post I talk about my progress in haskell-interactive-mode (clone of haskell-mode). At this point, I'm not an elisp noob anymore. The most important thing that I had to do was, split haskell-interactive-mode from haskell-mode.
 
