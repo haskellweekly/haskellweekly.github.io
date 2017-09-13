@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [elm-repl: Command to "clean" the REPL output](https://github.com/elm-lang/elm-repl/issues/158)
+-   [eta: Improve code for `get*()` series of methods for data constructors](https://github.com/typelead/eta/issues/505)
+-   [purescript: Default method implementations](https://github.com/purescript/purescript/issues/3067)
 
 ## Events
 
