@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+- [Haskell study startup](https://github.com/sjsyrek/haskell-study-startup/commit/f6a205b48fa05883873fab7331e8de4336bdcf3f)
+
+Learning Haskell is a good idea, but you don't have to do it alone. This repo brings together a number of resources for people who would like to start their own Haskell study groups but aren't sure how to do it. Included here is advice for publicizing your group, guidelines for participants, a recommended schedule, and other resources.
 
 ## Jobs
 
