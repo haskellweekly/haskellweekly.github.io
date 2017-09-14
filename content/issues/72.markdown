@@ -22,6 +22,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > This blog post was inspired by some questions around writing efficient Conduit code, so I'll try to address some of that directly at the end. The concepts, though, are general, and will transfer to not only other streaming libraries, but non-streaming data libraries too.
 
+-   [Migrating from RethinkDB to Postgres: An experience report](https://medium.com/fuzzy-sharp/migrating-to-postgres-2dc1519a6dc7)
+
+    > We switched from RethinkDB and ElasticSearch to Postgres, leaning heavily on Haskell in order to fill in some of the gaps quickly. The project was a success, and we're very happy with the switch. Haskell has been invaluable for refactoring safely and confidently.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
