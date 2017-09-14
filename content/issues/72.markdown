@@ -14,6 +14,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Learning Haskell is a good idea, but you don't have to do it alone. This repo brings together a number of resources for people who would like to start their own Haskell study groups but aren't sure how to do it. Included here is advice for publicizing your group, guidelines for participants, a recommended schedule, and other resources.
 
+-   [Coxswain: A type checker plugin for row types](https://ghc.haskell.org/trac/ghc/wiki/Plugins/TypeChecker/RowTypes/Coxswain?version=5)
+
+    > I've been recently developing a Coxswain library that defines row types and implements row unification. I think the Haskell community is hungry for row types, especially records and variants. This wiki page outlines the basic design and intended use of the library, use cases I envision, and my open questions.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
