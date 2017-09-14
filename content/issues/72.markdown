@@ -30,6 +30,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Once we were over the infamous Haskell learning curve, we began looking for functional programming, immutability, and types everywhere! Given that one-third of our code runs in the browser, it is only a matter of time before we make the switch to typed FP for front end development as well. But, which language/framework/library should we use?
 
+-   [Less parentheses](https://www.joachim-breitner.de/blog/730-Less_parentheses)
+
+    > Yesterday, at the Haskell Implementers Workshop 2017 in Oxford, I gave a lightning talk titled "syntactic musings", where I presented three possibly useful syntactic features that one might want to add to a language like Haskell.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
