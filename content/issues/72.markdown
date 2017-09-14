@@ -18,6 +18,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > I've been recently developing a Coxswain library that defines row types and implements row unification. I think the Haskell community is hungry for row types, especially records and variants. This wiki page outlines the basic design and intended use of the library, use cases I envision, and my open questions.
 
+-   [All about strictness](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
+
+    > This blog post was inspired by some questions around writing efficient Conduit code, so I'll try to address some of that directly at the end. The concepts, though, are general, and will transfer to not only other streaming libraries, but non-streaming data libraries too.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
