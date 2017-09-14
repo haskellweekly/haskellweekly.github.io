@@ -46,6 +46,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > What I'm going to talk about here is an alternative which provides most of the benefits with a very low barrier to entry: splitting up IO into granular monad type classes.
 
+-   [Last mile for `cabal new-build`: First and last status update](http://fgaz.me/posts/2017-09-13-hsoc-cabal-new-build-status-update-1/)
+
+    > Time flies! The Haskell Summer of Code is over, and this is my first and last status update. Last in the HSoC, but not in the project, as you'll see. My goal was to bring `new-build` to a usable state, to eventually replace the old commands.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
