@@ -1,6 +1,12 @@
 <!-- 2017-09-14 -->
 
-undefined
+Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
 
 ## Featured
 
@@ -10,7 +16,9 @@ undefined
 
 ## Jobs
 
-undefined
+Sadly we aren't currently aware of any Haskell job openings.
+Are you looking to hire a Haskell developer?
+If so, consider [advertising with us](https://haskellweekly.news/advertising.html)!
 
 ## In brief
 
@@ -28,4 +36,4 @@ undefined
 
 ## Events
 
-undefined
+-  September 18: [Vancouver's Haskell Workshop](https://workshops.vanfp.org/haskell/)
