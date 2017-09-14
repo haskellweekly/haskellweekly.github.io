@@ -42,6 +42,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > I'm very proud to announce Squeal, a new database library for Haskell. Squeal is the culmination of my Haskell experience for the last 4 years. It's been a fun road and I've learned so much from so many friends and strangers in the community. So Squeal is dedicated to them.
 
+-   [`MonadIO` considered harmful](http://chrispenner.ca/posts/monadio-considered-harmful)
+
+    > What I'm going to talk about here is an alternative which provides most of the benefits with a very low barrier to entry: splitting up IO into granular monad type classes.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
