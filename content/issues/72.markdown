@@ -26,7 +26,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [thank-you-stars](https://hackage.haskell.org/package/thank-you-stars-0.1.0),
+a command-line utility for starring the GitHub repositories of your dependencies.
 
 ## Call for participation
 
