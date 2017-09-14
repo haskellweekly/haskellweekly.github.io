@@ -26,6 +26,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > We switched from RethinkDB and ElasticSearch to Postgres, leaning heavily on Haskell in order to fill in some of the gaps quickly. The project was a success, and we're very happy with the switch. Haskell has been invaluable for refactoring safely and confidently.
 
+-   [Benchmarks: GHCJS (Reflex, Miso) & Purescript (Pux, Thermite, Halogen)](https://medium.com/@saurabhnanda/benchmarks-fp-languages-libraries-for-front-end-development-a11af0542f7e)
+
+    > Once we were over the infamous Haskell learning curve, we began looking for functional programming, immutability, and types everywhere! Given that one-third of our code runs in the browser, it is only a matter of time before we make the switch to typed FP for front end development as well. But, which language/framework/library should we use?
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
