@@ -58,7 +58,19 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 
 ## In brief
 
-undefined
+-   [A fully functional, fully functional webapp](http://www.nmattia.com/posts/2017-09-07-fully-functional-webapp.html)
+-   [A media player in FLTKHS](https://www.reddit.com/r/haskell/comments/6z9up7/a_media_player_in_fltkhs/)
+-   [Debugging types: A stream of thought](http://www.parsonsmatt.org/2017/09/13/debugging_types_a_stream_of_thought.html)
+-   [Deep learning and deep types: Tensor flow and dependent types](https://mmhaskell.com/blog/2017/9/11/deep-learning-and-deep-types-tensor-flow-and-dependent-types)
+-   [Differentiating functional programs](http://languagengine.co/blog/differentiating-functional-programs/)
+-   [Exemplary Read World backend API built with Scotty](https://github.com/eckyputrady/haskell-scotty-realworld-example-app/blob/74cb5481422d6f01811562331db396e610c87959/README.md#readme)
+-   [Firefly: A dead simple HTTP framework](https://github.com/ChrisPenner/Firefly/blob/28c2f7e65881ad032ab340b409b7860bb8206d7a/README.md#readme)
+-   [Functional Geekery Episode 107: Julie Moronuki](https://www.functionalgeekery.com/episode-107-julie-moronuki/)
+-   [Improving on Vi Improved](https://yi-editor.github.io/posts/2017-09-07-improving-on-vi-improved/)
+-   [Monoids: What they are, why they are useful, and what they teach us about software](https://deque.blog/2017/09/13/monoids-what-they-are-why-they-are-useful-and-what-they-teach-us-about-software/)
+-   [neovim-ghci: Interactive Haskell development using GHCi in Neovim](https://github.com/owickstrom/neovim-ghci/blob/deed2a0a481a8a13b487ffde946f69da520d8284/README.md#readme)
+-   [PureScript News: Issue 1](http://purescript.news/issues/1)
+-   [Type of HTML: High performance, type safe HTML generation](https://github.com/knupfer/type-of-html/blob/a80b400a3e79cd4f96a7367d38c8bfc2b94dd4c0/Readme.md#readme)
 
 ## Package of the week
 
