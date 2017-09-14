@@ -62,7 +62,7 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 -   [A unified array interface](http://winterland.me/2017/08/18/an%20unified%20array%20interface/)
 -   [Digging in deep: Solving a real problem with Haskell Tensor Flow](https://mmhaskell.com/blog/2017/8/21/digging-in-deep-solving-a-real-problem-with-haskell-tensor-flow)
 -   [Ghcid and VS Code](https://neilmitchell.blogspot.com/2017/08/ghcid-and-vs-code.html)
--   [Lock-step simulation is child’s play](https://www.youtube.com/watch?v=2kKvVe673MA)
+-   [Lock-step simulation is child's play](https://www.youtube.com/watch?v=2kKvVe673MA)
 -   [Reflecting on 5 years of Haskell in production](https://www.youtube.com/watch?v=KlfbAneiMNw)
 -   [Rolling your own block chain in Haskell](http://www.michaelburge.us/2017/08/17/rolling-your-own-blockchain.html)
 -   [Traversing syntax trees](https://twanvl.nl/blog/haskell/traversing-syntax-trees)
