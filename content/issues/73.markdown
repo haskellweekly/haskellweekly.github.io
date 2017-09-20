@@ -18,7 +18,10 @@ undefined
 undefined
 
 ## Call for participation
-undefined
+
+-   [purescript: purs ide: adding conflicting imports](https://github.com/purescript/purescript/issues/3083)
+-   [servant-persistent: Parameterize the App type on the base monad](https://github.com/parsonsmatt/servant-persistent/issues/18)
+-   [stack: Windows: Substituted paths are not resolved correctly](https://github.com/commercialhaskell/stack/issues/3442)
 
 ## Events
 
