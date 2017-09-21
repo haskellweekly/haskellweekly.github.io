@@ -15,7 +15,9 @@ undefined
 undefined
 
 ## Package of the week
-undefined
+
+This week's package of the week is [static-tensor](https://hackage.haskell.org/package/static-tensor-0.2.0.0),
+a library providing a toolkit for working with tensors of statically known size and element type.
 
 ## Call for participation
 
