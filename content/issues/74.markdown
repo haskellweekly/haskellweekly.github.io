@@ -8,7 +8,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
+
+    > We're Wrinkl, a well-funded startup working closely with Obsidian Systems to build a powerful new communications platform. We use Haskell on both the backend and the frontend (using GHCJS and Reflex). And we're looking to hire Haskell developers, preferably in the Philly area or willing to relocate to Philly. Women and minorities strongly encouraged to apply.
 
 ## In brief
 
