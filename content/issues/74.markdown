@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [Beautiful aggregations with Haskell](http://tech.frontrowed.com/2017/09/22/aggregations/)
+
+    > Aggregating data is a common, tedious task. In imperative languages we often end up with a rat's nest of mutable variables, nested loops and other awful constructs. In functional languages a naive implementation also results in spaghetti and usually less than ideal performance.
 
 ## Jobs
 
