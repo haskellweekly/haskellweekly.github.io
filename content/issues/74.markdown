@@ -12,7 +12,7 @@ undefined
 
     > Well written code based on unboxed arrays and using the discussed pattern to create arrays by initializing a mutable version, which is subsequently frozen, can achieve performance comparable to low-level C code.
 
--   [apecs tutorial: Making games fast](https://github.com/jonascarpay/apecs/blob/63733dc7b894ea589c7bfecb1409c8ac7f0923b9/tutorials/GoingFast.md)
+-   [apecs tutorial: Making games fast](https://github.com/jonascarpay/apecs/blob/63733dc7b894ea589c7bfecb1409c8ac7f0923b9/tutorials/GoingFast.md#readme)
 
     > The reason for this tutorial is not that you need to know all of this in order to use apecs. For simple 2D games, apecs won't be a bottleneck. Once you start worrying about 3D and render times however, that's when you might need apecs to be fast, and this is how you do that.
 
@@ -39,6 +39,10 @@ undefined
 -   [Debugging C with Haskell's `Divisible`](http://www.michaelburge.us/2017/09/27/delta-debugging-in-haskell.html)
 
     > This article: Introduces the Delta Debugging technique; Implements a general-purpose delta-debugging tool; Uses Haskell's FFI to control a C chess engine; Locates an error introduced into the chess engine.
+
+-   [Simula: A 3D window manager for Linux](https://github.com/SimulaVR/Simula/blob/2d59a6d734fd2a8ace17d2a43a502af566035531/README.md#readme)
+
+    > Mission: Facilitate a Linux future for VR & AR Desktop. In the short-run, this means allowing people to run 2D Linux apps with current generation headsets. In the long-run, this means allowing people to run Linux in standalone AR & VR HMDs.
 
 ## Jobs
 
