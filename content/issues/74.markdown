@@ -24,7 +24,6 @@ undefined
 
 -   [purebred: Refactor acceptance test code](https://github.com/purebred-mua/purebred/issues/67)
 -   [stack: stack script should allow setting ghc-options](https://github.com/commercialhaskell/stack/issues/3454)
--   [tensorflow/haskell: Monad transformer version of Session](https://github.com/tensorflow/haskell/issues/153)
 
 ## Events
 
