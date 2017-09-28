@@ -56,7 +56,9 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [tree-diff](https://hackage.haskell.org/package/tree-diff-0),
+a library for diffing expression trees.
+It also provides a way to diff arbitrary data types using `Generic` helpers.
 
 ## Call for participation
 
