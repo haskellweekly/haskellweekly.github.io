@@ -8,6 +8,10 @@ undefined
 
     > Aggregating data is a common, tedious task. In imperative languages we often end up with a rat's nest of mutable variables, nested loops and other awful constructs. In functional languages a naive implementation also results in spaghetti and usually less than ideal performance.
 
+-   [Immutability and unboxing in array programming](https://www.tweag.io/posts/2017-09-27-array-package.html)
+
+    > Well written code based on unboxed arrays and using the discussed pattern to create arrays by initializing a mutable version, which is subsequently frozen, can achieve performance comparable to low-level C code.
+
 ## Jobs
 
 -   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
