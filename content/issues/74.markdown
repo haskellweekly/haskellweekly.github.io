@@ -36,6 +36,10 @@ undefined
 
     > The aim of this post is to show another way of achieving the same result, with tools that are available in PureScript --- a strongly-typed functional language, with no dependent types.
 
+-   [Debugging C with Haskell's `Divisible`](http://www.michaelburge.us/2017/09/27/delta-debugging-in-haskell.html)
+
+    > This article: Introduces the Delta Debugging technique; Implements a general-purpose delta-debugging tool; Uses Haskell's FFI to control a C chess engine; Locates an error introduced into the chess engine.
+
 ## Jobs
 
 -   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
