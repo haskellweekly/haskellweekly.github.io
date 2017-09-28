@@ -24,6 +24,10 @@ undefined
 
     > To tame that complexity, we factored the "what to do next" back out into a new data type, this time called `Free` instead of `List`. `Free` and `List` are similar; and we can use `Free` to write `List` and other interesting data structures.
 
+-   [Free monad considered harmful](https://markkarpov.com/post/free-monad-considered-harmful.html)
+
+    > Of course the title is a click bait and I do not mean to be so categorical. Free monads do have their uses, but in most cases I'd think twice before committing to that style of programming because it's somewhat tedious and inefficient.
+
 ## Jobs
 
 -   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
