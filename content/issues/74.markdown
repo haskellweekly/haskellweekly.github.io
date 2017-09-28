@@ -12,6 +12,10 @@ undefined
 
     > Well written code based on unboxed arrays and using the discussed pattern to create arrays by initializing a mutable version, which is subsequently frozen, can achieve performance comparable to low-level C code.
 
+-   [apecs tutorial: Making games fast](https://github.com/jonascarpay/apecs/blob/63733dc7b894ea589c7bfecb1409c8ac7f0923b9/tutorials/GoingFast.md)
+
+    > The reason for this tutorial is not that you need to know all of this in order to use apecs. For simple 2D games, apecs won't be a bottleneck. Once you start worrying about 3D and render times however, that's when you might need apecs to be fast, and this is how you do that.
+
 ## Jobs
 
 -   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
