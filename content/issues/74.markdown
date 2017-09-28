@@ -16,6 +16,10 @@ undefined
 
     > The reason for this tutorial is not that you need to know all of this in order to use apecs. For simple 2D games, apecs won't be a bottleneck. Once you start worrying about 3D and render times however, that's when you might need apecs to be fast, and this is how you do that.
 
+-   [Type-driven strictness](http://www.haskellforall.com/2017/09/type-driven-strictness.html)
+
+    > How can we know when to be lazy or strict? We can use Dhall's type system to guide whether or not we keep the accumulator strict. We already have access to the type of the accumulator for our loop, so we can define a function that tells us if our accumulator type is compact or not.
+
 ## Jobs
 
 -   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
