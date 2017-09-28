@@ -28,6 +28,10 @@ undefined
 
     > Of course the title is a click bait and I do not mean to be so categorical. Free monads do have their uses, but in most cases I'd think twice before committing to that style of programming because it's somewhat tedious and inefficient.
 
+-   [Working with the DOM](https://blog.qfpl.io/posts/reflex/basics/dom/)
+
+    > We'll be building up pieces of a todo-list application along the way. It is probably becoming a cliche by now, but it is familiar to a lot of people and will give me something concrete to use while demonstrating some of the cooler things that `reflex` provides as the series progresses.
+
 ## Jobs
 
 -   [Code Haskell. Build great things.](https://www.wrinkl.com/jobs/) (ad)
