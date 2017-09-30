@@ -24,4 +24,4 @@ undefined
 
 ## Events
 
-undefined
+-   October 26 -- October 28: [Haskell in Leipzig 2017](https://hal2017.softbase.org)
