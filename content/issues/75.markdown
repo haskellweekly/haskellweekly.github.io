@@ -16,6 +16,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     Editor's note: Use [this `stack.yaml`](https://gist.github.com/tfausak/640a1b27252bfce33f1f2229d39781f5/8f70d7ccc38ee5854f7c8dfe19aea3c1be581a03) to easily test GHC 8.2.2-rc1 with Stack.
 
+-   [A tale of two monads: Free vs MTL](http://tech.frontrowed.com/2017/09/28/benching-free/)
+
+    > Much has been said about the benefits of `Free` monads. The idea of expressing computation as a data type is very powerful. Separating interpretation from representation gives us a lot of freedom, but what are its costs?
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
