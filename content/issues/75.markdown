@@ -20,7 +20,9 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [ghcid](https://hackage.haskell.org/package/ghcid-0.6.7),
+a bare bones IDE.
+It is a very simple Haskell development tool which shows you the errors in your project and updates them whenever you save.
 
 ## Call for participation
 
