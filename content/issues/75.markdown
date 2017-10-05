@@ -36,6 +36,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > One area which makes my brain tingle on a regular basis is the combination of Haskell and category theory. The topic of this blog post is one simple example: I'm going to show a way of thinking of functions as functors which, at least to me, makes it intuitive.
 
+-   [From design patterns to category theory](http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/)
+
+    > Category theory generalizes some intuitive relations, such as how numbers combine. Instead of discussing numbers, however, category theory considers abstract "objects". This field of mathematics explore how object relate and compose.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
