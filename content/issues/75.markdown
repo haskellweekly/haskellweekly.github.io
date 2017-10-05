@@ -52,7 +52,13 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 
 ## In brief
 
-undefined
+-   [Catch-all considered harmful?](https://gist.github.com/vimuel/ee9b054b42bbc2ed06992a323b7dfbd8/c59d01dcf7fd1dcc33a166b3d7b809eba3c75ef1)
+-   [Don't fear the profunctor optics](https://github.com/hablapps/DontFearTheProfunctorOptics/blob/8ad20e680f28ba630f42da30c53664810ca114dc/Optics.md)
+-   [Haxl: A big hammer for concurrency](https://www.youtube.com/watch?v=sT6VJkkhy0o)
+-   [How to compose streaming programs](https://www.tweag.io/posts/2017-10-05-streaming2.html)
+-   [Simple text-based drawing DSL](https://www.reddit.com/r/haskell/comments/7337fi/simple_textbased_drawing_dsl/)
+-   [Switching [Reflex FRP tutorial]](https://blog.qfpl.io/posts/reflex/basics/switching/)
+-   [Trouble with databases? Persevere with Persistent](https://mmhaskell.com/blog/2017/10/2/trouble-with-databases-persevere-with-persistent)
 
 ## Package of the week
 
