@@ -32,6 +32,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > My long weekend project is (arguably) useful enough to share, so I've published it. It's called `hgrep`, and it uses `ghc-exactprint` and regular expressions to search Haskell source code from the command line.
 
+-   [Making your brain tingle: Functions as functors](http://blogs.intevation.de/wilde/haskell/functions-as-functors/)
+
+    > One area which makes my brain tingle on a regular basis is the combination of Haskell and category theory. The topic of this blog post is one simple example: I'm going to show a way of thinking of functions as functors which, at least to me, makes it intuitive.
+
 ## Jobs
 
 Sadly we aren't currently aware of any Haskell job openings.
