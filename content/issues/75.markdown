@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [dejafu: ThreadAction for threadDelay](https://github.com/barrucadu/dejafu/issues/131)
+-   [hgrep: Adjacent search results should be folded together](https://github.com/thumphries/hgrep/issues/1)
+-   [servant-persistent: Update to a GHC 8 LTS stackage](https://github.com/parsonsmatt/servant-persistent/issues/25)
 
 ## Events
 
