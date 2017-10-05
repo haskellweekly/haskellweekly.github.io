@@ -4,7 +4,11 @@ undefined
 
 ## Featured
 
-undefined
+-   [GHC 8.2.2 release candidate 1](https://mail.haskell.org/pipermail/ghc-devs/2017-October/014777.html)
+
+    > The GHC team is very pleased to announce the first candidate of the 8.2.2 release of the Glasgow Haskell Compiler. This is the first of two release candidates leading up the final 8.2.2 release.
+
+    Editor's note: Use [this `stack.yaml`](https://gist.github.com/tfausak/640a1b27252bfce33f1f2229d39781f5/8f70d7ccc38ee5854f7c8dfe19aea3c1be581a03) to easily test GHC 8.2.2-rc1 with Stack.
 
 ## Jobs
 
