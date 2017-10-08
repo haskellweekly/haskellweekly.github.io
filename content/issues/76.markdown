@@ -8,7 +8,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
+
+    > We need someone with a strong Haskell background to help maintain and develop new features across our PostgreSQL-Haskell-React stack. We have a stable backend written in Haskell, that interfaces with PostgreSQL using hpqtypes, with a dash of Java for manipulating PDFs. Scrive is the Nordic market-leading provider of electronic signatures.
 
 ## In brief
 
