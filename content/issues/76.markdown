@@ -1,6 +1,12 @@
 <!-- 2017-10-12 -->
 
-undefined
+Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
 
 ## Featured
 
@@ -29,4 +35,4 @@ undefined
 
 ## Events
 
-undefined
+-   October 26 -- October 28: [Haskell in Leipzig 2017](https://hal2017.softbase.org)
