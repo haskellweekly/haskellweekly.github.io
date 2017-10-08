@@ -20,7 +20,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [hasql](https://www.stackage.org/lts-9.6/package/hasql-0.19.18.2),
+an efficient PostgreSQL driver and a flexible mapping API.
 
 ## Call for participation
 
