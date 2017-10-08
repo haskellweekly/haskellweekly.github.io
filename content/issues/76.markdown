@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [scalendar: Time management in Haskell](https://www.stackbuilders.com/news/scalendar-time-management-in-haskell)
+
+    > This is the kind of problem that scalendar approaches --- namely, managing availability over time for a set of identifiers (which represent resources), where the availability varies according to the state of a calendar that is affected by the history of reservations previously performed.
 
 ## Jobs
 
