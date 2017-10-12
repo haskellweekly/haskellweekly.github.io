@@ -42,6 +42,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Yes, this is a yet another "write you a language". But this one is a little bit different. First, the language I'm going to implement is rather different from languages you used to see in such tutorials. Second, I have little experience in creating programming languages, so a lot of things will be new to me as well.
 
+-   [Functor-oriented programming](http://r6.ca/blog/20171010T001746Z.html)
+
+    > With functor oriented programming, one divides data structures into layers of functors that, when composed together, form the data structures that your program operates on. Instead of writing transformations between data structures, one writes natural transformations between functors.
+
 ## Jobs
 
 -   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
