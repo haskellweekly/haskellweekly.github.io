@@ -30,6 +30,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > We gain some useful things when we have referential transparency. And what do we lose? When I started doing functional programming, I assumed there must be some trade-offs, because trade-offs in programming are so common.
 
+-   [Using Servant to orchestrate LXD containers](https://deliquus.com/posts/2017-10-02-using-servant-to-orchestrate-lxd-containers.html)
+
+    > This blog post explains how the Servant libraries are used to create a non-trivial type-safe HTTP/WebSockets client and discusses the efforts involved.
+
 ## Jobs
 
 -   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
