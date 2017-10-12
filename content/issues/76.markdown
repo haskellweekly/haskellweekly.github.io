@@ -22,6 +22,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > I wrote this post to challenge basic assumptions that people make about software architecture, which is why I chose a deliberately provocative title. You might not agree with all the points that I am about to make, but I do hope that this post changes the way that you think about programming.
 
+-   [Performance debugging in Aeson](https://blog.poisson.chat/posts/2017-10-08-aeson-perf.html)
+
+    > Ideally, whether we are using Template Haskell or Generics, we would like automatically derived code to be as fast as code we could have written and optimized manually. To understand what it takes to achieve such a result, I've recently started to work on the performance of Aeson, a JSON library in Haskell.
+
 ## Jobs
 
 -   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
