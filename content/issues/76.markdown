@@ -38,6 +38,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > We'll construct our API using the Servant library. Servant involves some advanced type level constructs, so there's a lot to wrap your head around. There are definitely simpler approaches to HTTP servers than what Servant uses. But I've found that the power Servant gives us is well worth the effort.
 
+-   [Writing a concatenative programming language](https://github.com/suhr/wcpl/blob/f70ea536e0f82d347307677ca4a7bf08f6b9155e/intro.md#readme)
+
+    > Yes, this is a yet another "write you a language". But this one is a little bit different. First, the language I'm going to implement is rather different from languages you used to see in such tutorials. Second, I have little experience in creating programming languages, so a lot of things will be new to me as well.
+
 ## Jobs
 
 -   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
