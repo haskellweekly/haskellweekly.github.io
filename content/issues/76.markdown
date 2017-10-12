@@ -46,6 +46,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > With functor oriented programming, one divides data structures into layers of functors that, when composed together, form the data structures that your program operates on. Instead of writing transformations between data structures, one writes natural transformations between functors.
 
+-   [if-then-else, case expressions, and guards! Oh my!](https://debugsteven.github.io/if-then-else-case-expressions-and-guards-oh-my/)
+
+    > Haskell is quite a bit different when it comes to control structures for directing your program flow. In this post, I want to focus on the difference between if-then-else, case expressions, and guards.
+
 ## Jobs
 
 -   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
