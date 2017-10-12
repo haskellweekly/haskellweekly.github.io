@@ -18,6 +18,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > I saw this article comparing Ecto and ActiveRecord. I thought I would track alongside that post and show what the equivalent code looks like if you're using the Persistent Haskell library.
 
+-   [Why do our programs need to read input and write output?](http://www.haskellforall.com/2017/10/why-do-our-programs-need-to-read-input.html)
+
+    > I wrote this post to challenge basic assumptions that people make about software architecture, which is why I chose a deliberately provocative title. You might not agree with all the points that I am about to make, but I do hope that this post changes the way that you think about programming.
+
 ## Jobs
 
 -   [Haskell Full Stack Developer](https://stackoverflow.com/jobs/156727/haskell-full-stack-developer-scrive) (ad)
