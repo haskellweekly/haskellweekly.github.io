@@ -31,7 +31,9 @@ an efficient PostgreSQL driver and a flexible mapping API.
 
 ## Call for participation
 
-undefined
+-   [liquidhaskell: Importing infix annotations](https://github.com/ucsd-progsys/liquidhaskell/issues/1123)
+-   [smooch: Make it easier to test set uploads in development](https://github.com/emhoracek/smooch/issues/43)
+-   [stack: Nix integration should use GC roots](https://github.com/commercialhaskell/stack/issues/3479)
 
 ## Events
 
