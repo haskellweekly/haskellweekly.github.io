@@ -20,7 +20,10 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [herms: Convert oven temperatures in recipe directions between Fahrenheit and Celsius](https://github.com/JackKiefer/herms/issues/39)
+-   [hs-init: Update `b` script for 8.2.1 ghc version](https://github.com/vrom911/hs-init/issues/27)
+-   [servant-auth: Prepare to be official](https://github.com/haskell-servant/servant-auth/issues/64)
+-   [Yampa: maybeToEvent not exported](https://github.com/ivanperez-keera/Yampa/issues/28)
 
 ## Events
 
