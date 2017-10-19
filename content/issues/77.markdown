@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [Hotswapping Haskell](https://simonmar.github.io/posts/2017-10-17-hotswapping-haskell.html)
+
+    > It's like driving a car down the road, having a new engine fall into your lap, installing it on-the-fly, and dumping the old engine behind you, all while never touching the brakes.
 
 ## Jobs
 
