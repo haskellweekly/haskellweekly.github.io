@@ -76,6 +76,10 @@ undefined
 -   [servant-auth: Prepare to be official](https://github.com/haskell-servant/servant-auth/issues/64)
 -   [Yampa: maybeToEvent not exported](https://github.com/ivanperez-keera/Yampa/issues/28)
 
+Looking for something to contribute to?
+Check out [the Hacktoberfest issues](https://github.com/search?l=Haskell&type=Issues&state=open&q=label%3Ahacktoberfest
+) on GitHub!
+
 ## Events
 
 -   October 19: [San Diego Functional Programmers: October meetup: Intro to functional programming](https://www.meetup.com/San-Diego-Functional-Programmers/events/243077781/)
