@@ -50,7 +50,13 @@ undefined
 
 ## In brief
 
-undefined
+-   [ALGT2: A tool to specify arbitrary programming languages](https://www.reddit.com/r/haskell/comments/776f2w/i_created_a_tool_to_specify_arbitrary_programming/)
+-   [Computational geometry: Set operations on polytopes](https://maxow.github.io/posts/computational-geometry-set-operations-on-polytopes.html)
+-   [Growing a date picker in Reflex: Part 2](https://qfpl.io/posts/reflex/widget/growing-a-date-picker-2/)
+-   [Haskell eXchange 2017 videos](https://skillsmatter.com/conferences/8522-haskell-exchange-2017#skillscasts)
+-   [hs-init: A tool for creating batteries-included Haskell projects](https://www.reddit.com/r/haskell/comments/76iti2/ann_hsinit_tool_for_creating_batteriesincluded/)
+-   [LambdaConf 2017 videos](https://www.youtube.com/watch?v=2xyZeovFqCA&list=PL7DZ7q3nEWhx5bgmpAgqArzrh0pL-tc3P)
+-   [Ordered-indexed graphs with lenses: Looking for feedback](https://www.reddit.com/r/haskell/comments/76fm11/orderedindexed_graphs_with_lenses_looking_for/)
 
 ## Package of the week
 
