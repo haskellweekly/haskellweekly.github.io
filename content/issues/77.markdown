@@ -8,6 +8,10 @@ undefined
 
     > It's like driving a car down the road, having a new engine fall into your lap, installing it on-the-fly, and dumping the old engine behind you, all while never touching the brakes.
 
+-   [Advice for Haskell beginners](http://www.haskellforall.com/2017/10/advice-for-haskell-beginners.html)
+
+    > Hopefully these tips will help provide some guard rails for learning the language for the first time. That's not to say that Haskell is perfect, but I think you will enjoy the language if you avoid these common beginner pitfalls.
+
 ## Jobs
 
 undefined
