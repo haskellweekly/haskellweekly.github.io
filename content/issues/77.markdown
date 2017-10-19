@@ -28,6 +28,10 @@ undefined
 
     > I will show you how it is possible to write object-oriented code in Haskell using only a minimal set of utility code, and without giving up much of Haskell's pure functional benefits.
 
+-   [Type safety back and forth](http://www.parsonsmatt.org/2017/10/11/type_safety_back_and_forth.html)
+
+    > If pushing responsibility forward means accepting whatever parameters and having the caller of the code handle possibility of failure, then pushing it back is going to mean we accept stricter parameters that we can't fail with.
+
 ## Jobs
 
 undefined
