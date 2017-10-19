@@ -67,7 +67,8 @@ If so, [advertise with us](https://haskellweekly.news/advertising.html)!
 
 ## Package of the week
 
-undefined
+This week's package of the week is [tagged](https://www.stackage.org/lts-9.9/package/tagged-0.8.5),
+a library providing phantom types to avoid unsafely passing dummy arguments.
 
 ## Call for participation
 
