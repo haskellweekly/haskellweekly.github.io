@@ -32,6 +32,10 @@ undefined
 
     > If pushing responsibility forward means accepting whatever parameters and having the caller of the code handle possibility of failure, then pushing it back is going to mean we accept stricter parameters that we can't fail with.
 
+-   [Modeling with union types](https://robots.thoughtbot.com/modeling-with-union-types)
+
+    > Tagged unions are a killer language feature as they allow you to expressively model problem domains and avoid some of the pitfalls of relying entirely on primitives.
+
 ## Jobs
 
 undefined
