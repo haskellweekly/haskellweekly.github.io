@@ -18,11 +18,15 @@ undefined
 
 -   [Haskell typeclasses vs. C++ classes](http://www.michaelburge.us/2017/10/15/haskell-typeclasses-vs-cpp-classes.html)
 
-    > Classes from Object-Oriented Programming languages such as C++ allow types to declare a pre-selected list of overridable functions. Typeclasses in Haskell are a general-purpose way to write functions whose implementations change depending on the type of a parameter.
+    > Classes from Object-oriented programming languages such as C++ allow types to declare a pre-selected list of overridable functions. Typeclasses in Haskell are a general-purpose way to write functions whose implementations change depending on the type of a parameter.
 
 -   [Java interfaces map to Haskell records](https://chris-martin.org/2017/interfaces-and-records)
 
     > In retrospect, my inclination to use typeclasses in inappropriate ways was a big problem in my earlier Haskell days. I made this mistake a lot: I thought Java interfaces mapped to Haskell typeclasses. But really, more often they map to Haskell records.
+
+-   [Object-oriented Haskell](https://programming.tobiasdammers.nl/blog/2017-10-17-object-oriented-haskell)
+
+    > I will show you how it is possible to write object-oriented code in Haskell using only a minimal set of utility code, and without giving up much of Haskell's pure functional benefits.
 
 ## Jobs
 
