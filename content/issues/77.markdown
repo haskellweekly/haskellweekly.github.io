@@ -12,6 +12,10 @@ undefined
 
     > Hopefully these tips will help provide some guard rails for learning the language for the first time. That's not to say that Haskell is perfect, but I think you will enjoy the language if you avoid these common beginner pitfalls.
 
+-   [Is Haskell the right language for teaching functional programming principles?](https://profsjt.blogspot.com/2017/10/is-haskell-right-language-for-teaching.html)
+
+    > The point about this is that no one is in disagreement about how good a language Haskell is for doing real work. Rather, the question is about whether the principles that Haskell is built on get obscured by the fact it's a large and complicated language.
+
 ## Jobs
 
 undefined
