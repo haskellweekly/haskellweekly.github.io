@@ -16,6 +16,10 @@ undefined
 
     > The point about this is that no one is in disagreement about how good a language Haskell is for doing real work. Rather, the question is about whether the principles that Haskell is built on get obscured by the fact it's a large and complicated language.
 
+-   [Haskell typeclasses vs. C++ classes](http://www.michaelburge.us/2017/10/15/haskell-typeclasses-vs-cpp-classes.html)
+
+    > Classes from Object-Oriented Programming languages such as C++ allow types to declare a pre-selected list of overridable functions. Typeclasses in Haskell are a general-purpose way to write functions whose implementations change depending on the type of a parameter.
+
 ## Jobs
 
 undefined
