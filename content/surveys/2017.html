@@ -7,14 +7,14 @@
 
 <form action="https://formspree.io/info@haskellweekly.news" class="survey" method="POST">
   <ol>
-    <li>
+    <li class="question">
       <label>
-        Email address
+        What is your email address?
         <input type="email" name="email" placeholder="lazy-and-classy@example.com">
       </label>
     </li>
 
-    <li>
+    <li class="question">
       Do you use Haskell?
       <ul>
         <li>
@@ -38,7 +38,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       If you stopped using Haskell, how long did you use it before you stopped?
       <ul>
         <li>
@@ -74,21 +74,21 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       <label>
         If you stopped using Haskell, why did you stop?
         <textarea name="stopped-because" placeholder="I stopped using Haskell because ..."></textarea>
       </label>
     </li>
 
-    <li>
+    <li class="question">
       <label>
         If you don't use Haskell, why not?
         <textarea name="why-not" placeholder="I don't use Haskell because ..."></textarea>
       </label>
     </li>
 
-    <li>
+    <li class="question">
       How long have you been using Haskell?
       <ul>
         <li>
@@ -124,7 +124,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       How frequently do you use Haskell?
       <ul>
         <li>
@@ -160,7 +160,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       How do you primarily use Haskell?
       <ul>
         <li>
@@ -190,7 +190,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       Do you use Haskell at work?
       <ul>
         <li>
@@ -220,7 +220,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       What is the total size of all the Haskell projects you work on?
       <ul>
         <li>
@@ -250,7 +250,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       Which platforms do you develop on?
       <ul>
         <li>
@@ -280,7 +280,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       Which platforms do you target?
       <ul>
         <li>
@@ -322,7 +322,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       Which Haskell compilers do you use?
       <ul>
         <li>
@@ -358,7 +358,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       If you use GHC, how do you install it?
       <ul>
         <li>
@@ -394,7 +394,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       If you use GHC, has upgrading GHC broken your code in the last year?
       <ul>
         <li>
@@ -412,7 +412,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       If you use GHC, which versions of it do you use?
       <ul>
         <li>
@@ -484,7 +484,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       Which build tools do you use?
       <ul>
         <li>
@@ -514,7 +514,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       How do you edit Haskell code?
       <ul>
         <li>
@@ -551,7 +551,7 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       Where do you get packages from?
       <ul>
         <li>
@@ -581,14 +581,14 @@
       </ul>
     </li>
 
-    <li>
+    <li class="question">
       <label>
         In your opinion, what is Haskell's biggest problem?
         <textarea placeholder="Haskell's biggest problem is ..."></textarea>
       </label>
     </il>
 
-    <li>
+    <li class="question">
       <label>
         Any other comments?
         <textarea></textarea>
@@ -596,5 +596,5 @@
     </il>
   </ol>
 
-  <input type="submit">
+  <input type="submit" value="Submit">
 </form>

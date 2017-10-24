@@ -69,10 +69,14 @@ main p {
   margin: 1.5em 0;
 }
 
+main ol,
 main ul {
-  list-style-type: square;
   margin: 1.5em 0;
   padding: 0 0 0 1em;
+}
+
+main ul {
+  list-style-type: square;
 }
 
 main blockquote {
@@ -109,6 +113,26 @@ main aside {
   cursor: pointer;
   font: inherit;
   padding: 0 0.5em;
+}
+
+.survey .question {
+  margin: 1.5em 0;
+}
+
+.survey input,
+.survey textarea {
+  font: inherit;
+}
+
+.survey textarea {
+  display: block;
+  width: 100%;
+}
+
+.survey ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
