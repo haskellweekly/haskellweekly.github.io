@@ -69,10 +69,14 @@ main p {
   margin: 1.5em 0;
 }
 
+main ol,
 main ul {
-  list-style-type: square;
   margin: 1.5em 0;
   padding: 0 0 0 1em;
+}
+
+main ul {
+  list-style-type: square;
 }
 
 main blockquote {
@@ -86,7 +90,7 @@ main aside {
   margin: 1.5em 0;
 }
 
-main form {
+.subscribe {
   border: thin solid #d3d7cf;
   display: flex;
   line-height: 3em;
@@ -94,7 +98,7 @@ main form {
   max-width: 20em;
 }
 
-main input {
+.subscribe input {
   border: none;
   font: inherit;
   padding: 0 0.5em;
@@ -102,13 +106,33 @@ main input {
   min-width: 0;
 }
 
-main button {
+.subscribe button {
   background: #3465a4;
   border: none;
   color: #ffffff;
   cursor: pointer;
   font: inherit;
   padding: 0 0.5em;
+}
+
+.survey .question {
+  margin: 1.5em 0;
+}
+
+.survey input,
+.survey textarea {
+  font: inherit;
+}
+
+.survey textarea {
+  display: block;
+  width: 100%;
+}
+
+.survey ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
