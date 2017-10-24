@@ -86,7 +86,7 @@ main aside {
   margin: 1.5em 0;
 }
 
-main form {
+.subscribe {
   border: thin solid #d3d7cf;
   display: flex;
   line-height: 3em;
@@ -94,7 +94,7 @@ main form {
   max-width: 20em;
 }
 
-main input {
+.subscribe input {
   border: none;
   font: inherit;
   padding: 0 0.5em;
@@ -102,7 +102,7 @@ main input {
   min-width: 0;
 }
 
-main button {
+.subscribe button {
   background: #3465a4;
   border: none;
   color: #ffffff;

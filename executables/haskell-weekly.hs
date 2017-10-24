@@ -34,6 +34,7 @@ main = do
     [ [output]
     , [output, "images"]
     , [output, "issues"]
+    , [output, "surveys"]
     ]
 
   -- Copy over static files.
@@ -64,12 +65,23 @@ main = do
   issueTemplate <- readFileAt [input, "templates", "issue.html"]
   rssItemTemplate <- readFileAt [input, "templates", "rss-item.xml"]
   snippetTemplate <- readFileAt [input, "templates", "snippet.html"]
+  surveyTemplate <- readFileAt [input, "templates", "survey.html"]
 
   -- Read page templates.
   advertisingTemplate <- readFileAt [input, "pages", "advertising.html"]
   atomTemplate <- readFileAt [input, "pages", "atom.xml"]
   indexTemplate <- readFileAt [input, "pages", "index.html"]
   rssTemplate <- readFileAt [input, "pages", "rss.xml"]
+
+  -- Read survey templates.
+  surveyFiles <- listDirectoryAt [input, "surveys"]
+  surveysByYear <- surveyFiles
+    & filter (hasExtension "html")
+    & map FilePath.takeBaseName
+    & Maybe.mapMaybe Read.readMaybe
+    & mapM (\ year -> do
+      template <- readFileAt [input, "surveys", FilePath.addExtension (show year) "html"]
+      pure (year, template))
 
   -- Load issues.
   issueFiles <- listDirectoryAt [input, "issues"]
@@ -104,6 +116,11 @@ main = do
   do
     contents <- renderAdvertising baseTemplate advertisingTemplate context
     writeFileAt [output, "advertising.html"] contents
+
+  -- Create survey pages.
+  Monad.forM_ surveysByYear (\ (year, template) -> do
+    contents <- renderSurvey baseTemplate surveyTemplate template context year
+    writeFileAt [output, "surveys", FilePath.addExtension (show year) "html"] contents)
 
   -- Create home page.
   do
@@ -207,11 +224,29 @@ sortIssues :: [Issue] -> [Issue]
 sortIssues issues =
   List.sortBy (Ord.comparing (\ issue -> Ord.Down (issueDay issue))) issues
 
-summary :: Text
-summary =
-  "Haskell Weekly is a free email newsletter about the Haskell programming \
-  \language. Each issue features several hand-picked links to interesting \
-  \content about Haskell from around the web."
+surveyContext :: Integer -> Context
+surveyContext year =
+  [ ("year", showText year)
+  ]
+
+surveySummary :: Monad m => Integer -> m Text
+surveySummary year =
+  renderTemplate
+    "The $year$ survey of Haskell users by Haskell Weekly, a free email \
+    \newsletter about the Haskell programming language."
+    (surveyContext year)
+
+surveyTitle :: Monad m => Integer -> m Text
+surveyTitle year =
+  renderTemplate
+    "$year$ survey"
+    (surveyContext year)
+
+surveyUrl :: Monad m => Integer -> m Text
+surveyUrl year =
+  renderTemplate
+    "/surveys/$year$.html"
+    (surveyContext year)
 
 -- Rendering helpers
 
@@ -245,6 +280,12 @@ renderIndex :: Monad m => Text -> Text -> Text -> Context -> [Issue] -> m Text
 renderIndex baseTemplate template snippetTemplate context issues = do
   snippets <- mapM (renderSnippet snippetTemplate context) issues
   body <- renderTemplate template (("issues", mconcat snippets) : context)
+  let
+    summary :: Text
+    summary =
+      "Haskell Weekly is a free email newsletter about the Haskell \
+      \programming language. Each issue features several hand-picked links to \
+      \interesting content about Haskell from around the web."
   renderTemplate baseTemplate (context ++
     [ ("body", body)
     , ("summary", summary)
@@ -302,6 +343,24 @@ renderSnippet template context issue =
     [ ("date", prettyDay (issueDay issue))
     , ("title", issueTitle issue)
     , ("url", issueUrl issue)
+    ])
+
+renderSurvey :: Monad m => Text -> Text -> Text -> Context -> Integer -> m Text
+renderSurvey baseTemplate surveyTemplate template context year = do
+  partialBody <- renderTemplate template context
+  partialTitle <- surveyTitle year
+  body <- renderTemplate surveyTemplate (context ++
+    [ ("body", partialBody)
+    , ("title", partialTitle)
+    ])
+  summary <- surveySummary year
+  let title = pageTitle (Just partialTitle)
+  url <- surveyUrl year
+  renderTemplate baseTemplate (context ++
+    [ ("body", body)
+    , ("summary", summary)
+    , ("title", title)
+    , ("url", url)
     ])
 
 renderTemplate :: Monad m => Text -> Context -> m Text
