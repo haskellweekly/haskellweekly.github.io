@@ -59,15 +59,17 @@ main = do
       ]
 
   -- Read templates.
-  advertisingTemplate <- readFileAt [input, "templates", "advertising.html"]
   atomEntryTemplate <- readFileAt [input, "templates", "atom-entry.xml"]
-  atomTemplate <- readFileAt [input, "templates", "atom.xml"]
   baseTemplate <- readFileAt [input, "templates", "base.html"]
-  indexTemplate <- readFileAt [input, "templates", "index.html"]
   issueTemplate <- readFileAt [input, "templates", "issue.html"]
   rssItemTemplate <- readFileAt [input, "templates", "rss-item.xml"]
-  rssTemplate <- readFileAt [input, "templates", "rss.xml"]
   snippetTemplate <- readFileAt [input, "templates", "snippet.html"]
+
+  -- Read page templates.
+  advertisingTemplate <- readFileAt [input, "pages", "advertising.html"]
+  atomTemplate <- readFileAt [input, "pages", "atom.xml"]
+  indexTemplate <- readFileAt [input, "pages", "index.html"]
+  rssTemplate <- readFileAt [input, "pages", "rss.xml"]
 
   -- Load issues.
   issueFiles <- listDirectoryAt [input, "issues"]
