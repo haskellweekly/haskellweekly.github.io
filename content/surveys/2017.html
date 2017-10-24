@@ -3,7 +3,7 @@
     <li>
       <label>
         Email address
-        <input type="email" name="email" placeholder="someone@example.com">
+        <input type="email" name="email" placeholder="lazy-and-classy@example.com">
       </label>
     </li>
 
@@ -32,7 +32,7 @@
     </li>
 
     <li>
-      How long did you use Haskell before you stopped?
+      If you stopped using Haskell, how long did you use it before you stopped?
       <ul>
         <li>
           <label>
@@ -68,8 +68,17 @@
     </li>
 
     <li>
-      Why don't you use Haskell?
-      <textarea name="why-not" placeholder="I don't use Haskell because ..."></textarea>
+      <label>
+        If you stopped using Haskell, why did you stop?
+        <textarea name="stopped-because" placeholder="I stopped using Haskell because ..."></textarea>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        If you don't use Haskell, why not?
+        <textarea name="why-not" placeholder="I don't use Haskell because ..."></textarea>
+      </label>
     </li>
 
     <li>
@@ -341,6 +350,243 @@
         </li>
       </ul>
     </li>
+
+    <li>
+      If you use GHC, how do you install it?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="compiler-install" value="stack">
+            Stack
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="compiler-install" value="haskell-platform">
+            Haskell Platform (Core or Full)
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="compiler-install" value="minimal-installer">
+            Minimal installer
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="compiler-install" value="package">
+            Operating system package (APT, Chocolatey, Homebrew, ...)
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="compiler-install" value="source">
+            From source
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      If you use GHC, has upgrading GHC broken your code in the last year?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="broken-by-compiler" value="no">
+            No
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="broken-by-compiler" value="yes">
+            Yes
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      If you use GHC, which versions of it do you use?
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="8.2.1">
+            8.2.1
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="8.0.2">
+            8.0.2
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="8.0.1">
+            8.0.1
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.10.3">
+            7.10.3
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.10.2">
+            7.10.2
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.10.1">
+            7.10.1
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.8.4">
+            7.8.4
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.8.3">
+            7.8.3
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.8.2">
+            7.8.2
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ghc-versions" value="7.8.1">
+            7.8.1
+          </label>
+        </li>
+        <li>
+          <label>
+            Other
+            <input type="text" name="other-ghc-versions" placeholder="8.2.2-rc1, HEAD">
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      Which build tools do you use?
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="build-tools" value="cabal-install">
+            cabal-install
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="build-tools" value="ghc-pkg">
+            ghc-pkg
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="build-tools" value="stack">
+            Stack
+          </label>
+        </li>
+        <li>
+          <label>
+            Other
+            <input type="text" name="other-build-tools" placeholder="Halcyon, Mafia">
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      How do you edit Haskell code?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="editor" value="atom">
+            Atom
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="editor" value="emacs">
+            Emacs
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="editor" value="vim">
+            Vim
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="editor" value="vs-code">
+            Visual Studio Code
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="editor" value="other">
+            Other
+            <input type="text" name="other-editor" placeholder="Notepad++, Light Table">
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      Where do you get packages from?
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="package-repositories" value="hackage">
+            Hackage
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="package-repositories" value="stackage">
+            Stackage
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="package-repositories" value="source">
+            Source (Bitbucket, GitLab, GitHub, ...)
+          </label>
+        </li>
+        <li>
+          <label>
+            Other
+            <input type="text" name="other-package-repositories" placeholder="Shake, Halcyon">
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <label>
+        In your opinion, what is Haskell's biggest problem?
+        <textarea placeholder="Haskell's biggest problem is ..."></textarea>
+      </label>
+    </il>
+
+    <li>
+      <label>
+        Any other comments?
+        <textarea></textarea>
+      </label>
+    </il>
   </ol>
 
   <input type="submit">
