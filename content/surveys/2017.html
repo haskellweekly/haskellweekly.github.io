@@ -1,20 +1,23 @@
 <p>
-  Pssst, don't submit this!
-  This survey is a work in progress.
-  It's only here to collect feedback before we publish it.
-  <a href="https://github.com/haskellweekly/haskellweekly.github.io">github.com/haskellweekly/haskellweekly.github.io</a>
+  Welcome to Haskell Weekly's 2017 survey!
+  The goal of this survey is to better understand how Haskell users feel about the language, ecosystem, and community.
+  Every question is optional,
+  so please only answer the ones that you want to.
+  There are 40 questions.
+  Filling out the survey should take less than 10 minutes.
 </p>
 
 <form action="https://formspree.io/info@haskellweekly.news" class="survey" method="POST">
   <ol>
-    <li class="question">
+    <li class="question" id="question-1">
       <label>
         What is your email address?
+        <br>
         <input type="email" name="email" placeholder="lazy-and-classy@example.com">
       </label>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-2">
       Do you use Haskell?
       <ul>
         <li>
@@ -22,12 +25,14 @@
             <input type="radio" name="use-haskell" value="yes">
             Yes, I currently use Haskell.
           </label>
+          (Skip to <a href="#question-6">question 6</a>.)
         </li>
         <li>
           <label>
             <input type="radio" name="use-haskell" value="not-ever">
             No, I never used Haskell.
           </label>
+          (Skip to <a href="#question-5">question 5</a>.)
         </li>
         <li>
           <label>
@@ -38,7 +43,7 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-3">
       If you stopped using Haskell, how long did you use it before you stopped?
       <ul>
         <li>
@@ -74,21 +79,23 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-4">
       <label>
         If you stopped using Haskell, why did you stop?
         <textarea name="stopped-because" placeholder="I stopped using Haskell because ..."></textarea>
       </label>
+      (Skip to <a href="#question-38">question 38</a>.)
     </li>
 
-    <li class="question">
+    <li class="question" id="question-5">
       <label>
         If you don't use Haskell, why not?
         <textarea name="why-not" placeholder="I don't use Haskell because ..."></textarea>
       </label>
+      (Skip to <a href="#question-38">question 38</a>.)
     </li>
 
-    <li class="question">
+    <li class="question" id="question-6">
       How long have you been using Haskell?
       <ul>
         <li>
@@ -124,7 +131,7 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-7">
       How frequently do you use Haskell?
       <ul>
         <li>
@@ -160,7 +167,7 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-8">
       How do you primarily use Haskell?
       <ul>
         <li>
@@ -190,7 +197,7 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-9">
       Do you use Haskell at work?
       <ul>
         <li>
@@ -198,12 +205,14 @@
             <input type="radio" name="work-usage" value="all-the-time">
             Yes, I work with Haskell almost all the time.
           </label>
+          (Skip to <a href="#question-11">question 11</a>.)
         </li>
         <li>
           <label>
             <input type="radio" name="work-usage" value="some-of-the-time">
             Yes, I sometimes work with Haskell.
           </label>
+          (Skip to <a href="#question-11">question 11</a>.)
         </li>
         <li>
           <label>
@@ -220,7 +229,14 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-10">
+      <label>
+        If you don't use Haskell at work, why not?
+        <textarea name="why-not-work" placeholder="I don't use Haskell at work because ..."></textarea>
+      </label>
+    </il>
+
+    <li class="question" id="question-11">
       What is the total size of all the Haskell projects you work on?
       <ul>
         <li>
@@ -250,7 +266,7 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-12">
       Which platforms do you develop on?
       <ul>
         <li>
@@ -274,13 +290,13 @@
         <li>
           <label>
             Other
-            <input type="text" name="other-build-platforms" placeholder="BSD, Solaris">
+            <input type="text" name="other-build-platforms" placeholder="BSD, Solaris, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-13">
       Which platforms do you target?
       <ul>
         <li>
@@ -316,13 +332,13 @@
         <li>
           <label>
             Other
-            <input type="text" name="other-target-platforms" placeholder="BSD, Solaris">
+            <input type="text" name="other-target-platforms" placeholder="BSD, Solaris, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-14">
       Which Haskell compilers do you use?
       <ul>
         <li>
@@ -352,13 +368,13 @@
         <li>
           <label>
             Other
-            <input type="text" name="other-compilers" placeholder="GHCJS, Eta">
+            <input type="text" name="other-compilers" placeholder="Eta, GHCJS, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-15">
       If you use GHC, how do you install it?
       <ul>
         <li>
@@ -382,7 +398,7 @@
         <li>
           <label>
             <input type="radio" name="compiler-install" value="package">
-            Operating system package (APT, Chocolatey, Homebrew, ...)
+            Operating system package (Chocolatey, Homebrew, ...)
           </label>
         </li>
         <li>
@@ -394,8 +410,8 @@
       </ul>
     </li>
 
-    <li class="question">
-      If you use GHC, has upgrading GHC broken your code in the last year?
+    <li class="question" id="question-16">
+      If you use GHC, has upgrading it broken your code in the last year?
       <ul>
         <li>
           <label>
@@ -412,7 +428,7 @@
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-17">
       If you use GHC, which versions of it do you use?
       <ul>
         <li>
@@ -478,13 +494,13 @@
         <li>
           <label>
             Other
-            <input type="text" name="other-ghc-versions" placeholder="8.2.2-rc1, HEAD">
+            <input type="text" name="other-ghc-versions" placeholder="8.2.2-rc1, HEAD, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-18">
       Which build tools do you use?
       <ul>
         <li>
@@ -508,51 +524,104 @@
         <li>
           <label>
             Other
-            <input type="text" name="other-build-tools" placeholder="Halcyon, Mafia">
+            <input type="text" name="other-build-tools" placeholder="Halcyon, Mafia, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
-      How do you edit Haskell code?
+    <li class="question" id="question-19">
+      Which editors do you use for Haskell?
       <ul>
         <li>
           <label>
-            <input type="radio" name="editor" value="atom">
+            <input type="checkbox" name="editors" value="atom">
             Atom
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="editor" value="emacs">
+            <input type="checkbox" name="editors" value="emacs">
             Emacs
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="editor" value="vim">
+            <input type="checkbox" name="editors" value="notepad-plus-plus">
+            Notepad++
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="editors" value="sublime-text">
+            Sublime Text
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="editors" value="vim">
             Vim
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="editor" value="vs-code">
+            <input type="checkbox" name="editors" value="visual-studio">
+            Visual Studio
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="editors" value="visual-studio-code">
             Visual Studio Code
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="editor" value="other">
             Other
-            <input type="text" name="other-editor" placeholder="Notepad++, Light Table">
+            <input type="text" name="other-editors" placeholder="IntelliJ, Light Table, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
-      Where do you get packages from?
+    <li class="question" id="question-20">
+      Which version control systems do you use for Haskell?
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="source-controllers" value="darcs">
+            Darcs
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="source-controllers" value="git">
+            Git
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="source-controllers" value="mercurial">
+            Mercurial
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="source-controllers" value="subversion">
+            Subversion
+          </label>
+        </li>
+        <li>
+          <label>
+            Other
+            <input type="text" name="other-source-controllers" placeholder="Bazaar, TFS, ...">
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-21">
+      Where do you get Haskell packages from?
       <ul>
         <li>
           <label>
@@ -569,32 +638,585 @@
         <li>
           <label>
             <input type="checkbox" name="package-repositories" value="source">
-            Source (Bitbucket, GitLab, GitHub, ...)
+            Source (Bitbucket, GitHub, ...)
           </label>
         </li>
         <li>
           <label>
             Other
-            <input type="text" name="other-package-repositories" placeholder="Shake, Halcyon">
+            <input type="text" name="other-package-repositories" placeholder="FTP, Homebrew, ...">
           </label>
         </li>
       </ul>
     </li>
 
-    <li class="question">
+    <li class="question" id="question-22">
+      How do you interact with the Haskell community?
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="communities" value="irc">
+            IRC
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="communities" value="mailing-lists">
+            Mailing lists (haskell-beginners, haskell-cafe, ...)
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="communities" value="reddit">
+            Reddit
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="communities" value="slack">
+            Slack
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="communities" value="stack-overflow">
+            Stack Overflow
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="communities" value="twitter">
+            Twitter
+          </label>
+        </li>
+        <li>
+          <label>
+            Other
+            <input type="text" name="other-communities" placeholder="Gitter, Mastodon, ...">
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-23">
+      Have you contributed to an open source Haskell project?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="open-source-contributor" value="no">
+            No
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="open-source-contributor" value="yes">
+            Yes
+          </label>
+          (Skip to <a href="#question-25">question 25</a>.)
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-24">
+      <label>
+        If you have not contributed to an open source Haskell project, why not?
+        <textarea name="why-not-open-source" placeholder="I have not contributed because ..."></textarea>
+      </label>
+    </il>
+
+    <li class="question" id="question-25">
+      How would you rate your proficiency in Haskell?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="proficiency" value="beginner">
+            Beginner
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="proficiency" value="intermediate">
+            Intermediate
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="proficiency" value="advanced">
+            Advanced
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="proficiency" value="expert">
+            Expert
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-26">
+      I am satisfied with Haskell as a language.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="language-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="language-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="language-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="language-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="language-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-27">
+      I am satisfied with Haskell's build tools (such as cabal-install or Stack).
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="build-tool-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="build-tool-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="build-tool-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="build-tool-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="build-tool-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-28">
+      I am satisfied with Haskell's package repositories (such as Hackage or Stackage).
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="package-repository-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="package-repository-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="package-repository-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="package-repository-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="package-repository-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-29">
+      I can find Haskell libraries for the things that I need.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-existence-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-existence-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-existence-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-existence-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-existence-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-30">
+      I think Haskell libraries are high quality.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-quality-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-quality-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-quality-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-quality-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-quality-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-31">
+      I think Haskell libraries are well documented.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-documentation-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-documentation-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-documentation-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-documentation-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-documentation-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-32">
+      I can easily compare Haskell libraries to select the best one.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-comparison-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-comparison-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-comparison-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-comparison-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-comparison-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-33">
+      I find Haskell libraries easy to use.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-ease-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-ease-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-ease-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-ease-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-ease-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-34">
+      I find that Haskell libraries provide a stable API.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-stability-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-stability-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-stability-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-stability-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-stability-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-35">
+      I find that Haskell libraries work well with other libraries.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-compatibility-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-compatibility-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-compatibility-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-compatibility-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-compatibility-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-36">
+      I find that Haskell libraries perform well.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="library-performance-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-performance-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-performance-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-performance-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="library-performance-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-37">
+      I can easily reason about the performance of my Haskell programs.
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="program-performance-satisfaction" value="strongly-disagree">
+            Strongly disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="program-performance-satisfaction" value="disagree">
+            Disagree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="program-performance-satisfaction" value="neutral">
+            Neutral
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="program-performance-satisfaction" value="agree">
+            Agree
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="program-performance-satisfaction" value="strongly-agree">
+            Strongly agree
+          </label>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-38">
       <label>
         In your opinion, what is Haskell's biggest problem?
         <textarea name="biggest-problem" placeholder="Haskell's biggest problem is ..."></textarea>
       </label>
     </il>
 
-    <li class="question">
+    <li class="question" id="question-39">
       <label>
-        Any other comments?
+        If you could change anything about Haskell's community, what would it be?
+        <textarea name="biggest-problem" placeholder="I would change the Haskell community's ..."></textarea>
+      </label>
+    </il>
+
+    <li class="question" id="question-40">
+      <label>
+        Do you have any other comments about Haskell, its ecosystem, its community, or this survey?
         <textarea name="other-comments"></textarea>
       </label>
     </il>
   </ol>
+
+  <!-- TODO -->
+  <p>
+    Pssst, don't submit this!
+    It's a work in progress,
+    only here to collect feedback before publication.
+    Comment on
+    <a href="https://github.com/haskellweekly/haskellweekly.github.io/issues/102">this GitHub issue</a>
+    if you have feedback!
+  </p>
 
   <input type="submit" value="Submit">
 </form>
