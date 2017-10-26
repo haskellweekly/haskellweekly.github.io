@@ -26,6 +26,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Seeing this for the first time, trying to wrap my head around it, had created a bug inside my head. It had conflicted with what I knew --- that all languages worked the same, and the difference was merely syntax! But here, I was seeing something that just worked differently, and did not fit my world view!
 
+-   [Sixten](https://github.com/ollef/sixten/blob/53218f727e82c07938d5e5a2d818e57f91203d56/README.md#readme)
+
+    > Sixten is an experimental functional programming language where all data is unboxed by default. Functional programming with fewer indirections! Sixten is very related to other functional languages such as Haskell, Agda, and Idris. The biggest difference between other languages and Sixten is the way that Sixten allows us to control the memory layout of data.
+
 ## Jobs
 
 -   [Tenure-track assistant professor of Computer Science](https://www.calstatela.edu/2018/college-engineering-computer-science-technology/ecst-cs-ttf)
