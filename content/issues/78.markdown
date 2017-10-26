@@ -42,6 +42,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > In this article I demonstrate how to use classy prisms and `Plated` to write and apply optimizations to programs written in a free monad DSL. `Plated` is a class in lens that provides powerful tools to work with self-recursive data structures.
 
+-   [The pickled onion problem](http://argumatronic.com/posts/2017-10-22-helpers.html)
+
+    > I think that if you, well-intentioned as you are, want to really encourage beginners to ask more questions and seek help, you need to look around and see how many programmers are leaving pickled onions in the food drive boxes.
+
 ## Jobs
 
 -   [Tenure-track assistant professor of Computer Science](https://www.calstatela.edu/2018/college-engineering-computer-science-technology/ecst-cs-ttf)
