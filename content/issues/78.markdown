@@ -16,7 +16,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Hasmin](https://hackage.haskell.org/package/hasmin-1.0),
+a CSS minifier that reduces the size of the output and improves Gzip compression.
 
 ## Call for participation
 
