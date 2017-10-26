@@ -22,6 +22,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > As mentioned in the September edition of *What is New in Cross Compiling Haskell*, I've been working on producing binary distributions of cross compilers, so that installing a cross compiler becomes almost as trivial as installing a GHC binary distribution.
 
+-   [Submitting a pull request to GHC](https://chris-martin.org/2017/phabricator-ghc-pull-request)
+
+    > When you find things incomplete or unclear in Haskell's documentation, please fix them! I've submitted a handful of pull requests so far to make tweaks to the API docs. GHC seemed intimidating at first, but I've found the maintainers to be quite friendly.
+
 -   [Becoming foolish](https://hmemcpy.com/2017/10/becoming-foolish/)
 
     > Seeing this for the first time, trying to wrap my head around it, had created a bug inside my head. It had conflicted with what I knew --- that all languages worked the same, and the difference was merely syntax! But here, I was seeing something that just worked differently, and did not fit my world view!
