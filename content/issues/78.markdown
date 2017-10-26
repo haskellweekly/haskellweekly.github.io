@@ -14,6 +14,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > It is time to put out a call for new nominations (typically but not necessarily self-nominations) to the haskell.org committee. The Haskell.org committee serves as a board of directors for Haskell.org, a 501(c)3 nonprofit which oversees technical and financial resources related to Haskell community infrastructure.
 
+-   [Stack 1.6 pre-release testing and binaries](https://groups.google.com/d/msg/haskell-stack/SEvMu1yymWk/phVkkc9VBwAJ)
+
+    > There have been some major changes to Stack's internals since version 1.5.1 in order to update the `package` and `extra-deps` syntax, support extensible custom snapshots, and to support version 2.0 of the Cabal library. We'd appreciate extra testing before we cut a release candidate for version 1.6 to make sure we catch any edge cases.
+
 ## Jobs
 
 -   [Tenure-track assistant professor of Computer Science](https://www.calstatela.edu/2018/college-engineering-computer-science-technology/ecst-cs-ttf)
