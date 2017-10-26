@@ -18,6 +18,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > There have been some major changes to Stack's internals since version 1.5.1 in order to update the `package` and `extra-deps` syntax, support extensible custom snapshots, and to support version 2.0 of the Cabal library. We'd appreciate extra testing before we cut a release candidate for version 1.6 to make sure we catch any edge cases.
 
+-   [GHC cross compiler binary distributions](https://medium.com/@zw3rk/ghc-cross-compiler-binary-distributions-490bb2c0c411)
+
+    > As mentioned in the September edition of *What is New in Cross Compiling Haskell*, I've been working on producing binary distributions of cross compilers, so that installing a cross compiler becomes almost as trivial as installing a GHC binary distribution.
+
 ## Jobs
 
 -   [Tenure-track assistant professor of Computer Science](https://www.calstatela.edu/2018/college-engineering-computer-science-technology/ecst-cs-ttf)
