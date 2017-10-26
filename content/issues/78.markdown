@@ -10,7 +10,9 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Featured
 
-undefined
+-   [Call for haskell.org committee nominations](https://mail.haskell.org/pipermail/haskell-cafe/2017-October/128060.html)
+
+    > It is time to put out a call for new nominations (typically but not necessarily self-nominations) to the haskell.org committee. The Haskell.org committee serves as a board of directors for Haskell.org, a 501(c)3 nonprofit which oversees technical and financial resources related to Haskell community infrastructure.
 
 ## Jobs
 
