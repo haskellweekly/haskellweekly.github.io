@@ -46,6 +46,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > I think that if you, well-intentioned as you are, want to really encourage beginners to ask more questions and seek help, you need to look around and see how many programmers are leaving pickled onions in the food drive boxes.
 
+-   [Manipulating maintainers](https://www.snoyman.com/blog/2017/10/manipulating-maintainers)
+
+    > I'd like to share some thoughts on this from a much more positive standpoint, which will help you get people to pay more attention, be more helpful, and --- perhaps most importantly --- create a healthier open source community over all.
+
 ## Jobs
 
 -   [Tenure-track assistant professor of Computer Science](https://www.calstatela.edu/2018/college-engineering-computer-science-technology/ecst-cs-ttf)
