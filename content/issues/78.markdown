@@ -58,7 +58,13 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## In brief
 
-undefined
+-   [Adding SQLite-powered full-text search to a Servant-powered Haskell app](https://vadosware.io/post/adding-sqlite-powered-fts-search-to-a-servant-powered-haskell-app/)
+-   [Diagrams with text: Knowledge graph software aimed at non-programmers](https://github.com/JeffreyBenjaminBrown/digraphs-with-text/blob/47e4ac96c4bacd01ec35d9c9ec376cc593c5c515/README.md#readme)
+-   [`GetOpt` and extensible records](https://www.schoolofhaskell.com/user/fumieval/extensible/getopt-and-extensible-records)
+-   [Tangled webs: Testing an integrated system](https://mmhaskell.com/blog/2017/10/23/tangled-webs-testing-an-integrated-system)
+-   [The Disciplined Disciple Compiler v0.5.1](https://disciple-devel.blogspot.com.au/2017/10/the-disciplined-disciple-compiler-v051.html)
+-   [The economics of semantic coding](https://blog.isomorf.io/the-economics-of-semantic-coding-7e8fd1b421e6)
+-   [Version you an API for great good](http://jxv.io/blog/2017-10-20-Version-You-an-API-for-Great-Good.html)
 
 ## Package of the week
 
