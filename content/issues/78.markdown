@@ -34,6 +34,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Sixten is an experimental functional programming language where all data is unboxed by default. Functional programming with fewer indirections! Sixten is very related to other functional languages such as Haskell, Agda, and Idris. The biggest difference between other languages and Sixten is the way that Sixten allows us to control the memory layout of data.
 
+-   [Scrap all your type classes but one](http://h2.jaguarpaw.co.uk/posts/scrap-all-your-typeclasses-but-one/)
+
+    > In "Scrap your type classes" Gabriel Gonzales explains how we can replace type classes with dictionary passing. In this article I describe a sort of "halfway house" to scrapping all our type classes. Suppose we were only allowed one type class. Which would we choose?
+
 ## Jobs
 
 -   [Tenure-track assistant professor of Computer Science](https://www.calstatela.edu/2018/college-engineering-computer-science-technology/ecst-cs-ttf)
