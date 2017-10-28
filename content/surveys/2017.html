@@ -3,7 +3,7 @@
   The goal of this survey is to better understand how Haskell users feel about the language, ecosystem, and community.
   Every question is optional,
   so please only answer the questions that you want to.
-  There are 42 questions.
+  There are 45 questions.
   Filling out the survey should take less than 10 minutes.
 </p>
 
@@ -84,7 +84,7 @@
         If you stopped using Haskell, why did you stop?
         <textarea name="stopped-because" placeholder="I stopped using Haskell because ..."></textarea>
       </label>
-      (Skip to <a href="#question-40">question 40</a>.)
+      (Skip to <a href="#question-43">question 43</a>.)
     </li>
 
     <li class="question" id="question-5">
@@ -92,7 +92,7 @@
         If you don't use Haskell, why not?
         <textarea name="why-not" placeholder="I don't use Haskell because ..."></textarea>
       </label>
-      (Skip to <a href="#question-40">question 40</a>.)
+      (Skip to <a href="#question-43">question 43</a>.)
     </li>
 
     <li class="question" id="question-6">
@@ -217,7 +217,7 @@
         <li>
           <label>
             <input type="radio" name="work-usage" value="no">
-            I don't use Haskell for work at all.
+            I don't use Haskell at work.
           </label>
         </li>
       </ul>
@@ -503,6 +503,660 @@
     </li>
 
     <li class="question" id="question-19">
+      Have you ever contributed to GHC?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="ghc-contributor" value="no">
+            No
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="ghc-contributor" value="yes">
+            Yes
+          </label>
+          (Skip to <a href="#question-21">question 21</a>.)
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-20">
+      <label>
+        If you have not contributed to GHC, why not?
+        <textarea name="why-not-ghc-contributor" placeholder="I have not contributed to GHC because ..."></textarea>
+      </label>
+    </li>
+
+    <li class="question" id="question-21">
+      Which language extensions would you like to be enabled by default?
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="AllowAmbiguousTypes">
+            <code>AllowAmbiguousTypes</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XAllowAmbiguousTypes">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ApplicativeDo">
+            <code>ApplicativeDo</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XApplicativeDo">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="Arrows">
+            <code>Arrows</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XArrows">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="BangPatterns">
+            <code>BangPatterns</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XBangPatterns">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="BinaryLiterals">
+            <code>BinaryLiterals</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XBinaryLiterals">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ConstrainedClassMethods">
+            <code>ConstrainedClassMethods</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XConstrainedClassMethods">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ConstraintKinds">
+            <code>ConstraintKinds</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XConstraintKinds">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="CPP">
+            <code>CPP</code>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DataKinds">
+            <code>DataKinds</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDataKinds">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DefaultSignatures">
+            <code>DefaultSignatures</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDefaultSignatures">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveAnyClass">
+            <code>DeriveAnyClass</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveAnyClass">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveDataTypeable">
+            <code>DeriveDataTypeable</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveDataTypeable">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveFoldable">
+            <code>DeriveFoldable</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveFoldable">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveFunctor">
+            <code>DeriveFunctor</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveFunctor">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveGeneric">
+            <code>DeriveGeneric</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveGeneric">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveLift">
+            <code>DeriveLift</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveLift">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DeriveTraversable">
+            <code>DeriveTraversable</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDeriveTraversable">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DisambiguateRecordFields">
+            <code>DisambiguateRecordFields</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDisambiguateRecordFields">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="DuplicateRecordFields">
+            <code>DuplicateRecordFields</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XDuplicateRecordFields">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="EmptyCase">
+            <code>EmptyCase</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XEmptyCase">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="EmptyDataDecls">
+            <code>EmptyDataDecls</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XEmptyDataDecls">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ExistentialQuantification">
+            <code>ExistentialQuantification</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XExistentialQuantification">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ExplicitForAll">
+            <code>ExplicitForAll</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XExplicitForAll">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ExplicitNamespaces">
+            <code>ExplicitNamespaces</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XExplicitNamespaces">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="FlexibleContexts">
+            <code>FlexibleContexts</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XFlexibleContexts">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="FlexibleInstances">
+            <code>FlexibleInstances</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XFlexibleInstances">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="FunctionalDependencies">
+            <code>FunctionalDependencies</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XFunctionalDependencies">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="GADTs">
+            <code>GADTs</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XGADTs">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="GADTSyntax">
+            <code>GADTSyntax</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XGADTSyntax">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="GeneralizedNewtypeDeriving">
+            <code>GeneralizedNewtypeDeriving</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XGeneralizedNewtypeDeriving">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ImplicitParams">
+            <code>ImplicitParams</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XImplicitParams">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ImpredicativeTypes">
+            <code>ImpredicativeTypes</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XImpredicativeTypes">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="IncoherentInstances">
+            <code>IncoherentInstances</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XIncoherentInstances">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="InstanceSigs">
+            <code>InstanceSigs</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XInstanceSigs">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="KindSignatures">
+            <code>KindSignatures</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XKindSignatures">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="LambdaCase">
+            <code>LambdaCase</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XLambdaCase">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="LiberalTypeSynonyms">
+            <code>LiberalTypeSynonyms</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XLiberalTypeSynonyms">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="MagicHash">
+            <code>MagicHash</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMagicHash">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="MonadComprehensions">
+            <code>MonadComprehensions</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMonadComprehensions">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="MonadFailDesugaring">
+            <code>MonadFailDesugaring</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMonadFailDesugaring">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="MonoLocalBinds">
+            <code>MonoLocalBinds</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMonoLocalBinds">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="MultiParamTypeClasses">
+            <code>MultiParamTypeClasses</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMultiParamTypeClasses">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="MultiWayIf">
+            <code>MultiWayIf</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMultiWayIf">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NamedFieldPuns">
+            <code>NamedFieldPuns</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNamedFieldPuns">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NamedWildCards">
+            <code>NamedWildCards</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNamedWildCards">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NegativeLiterals">
+            <code>NegativeLiterals</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNegativeLiterals">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NoImplicitPrelude">
+            <code>NoImplicitPrelude</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNoImplicitPrelude">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NoMonomorphismRestriction">
+            <code>NoMonomorphismRestriction</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNoMonomorphismRestriction">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NoTraditionalRecordSyntax">
+            <code>NoTraditionalRecordSyntax</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNoTraditionalRecordSyntax">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NPlusKPatterns">
+            <code>NPlusKPatterns</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNPlusKPatterns">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NullaryTypeClasses">
+            <code>NullaryTypeClasses</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNullaryTypeClasses">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="NumDecimals">
+            <code>NumDecimals</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XNumDecimals">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="OverlappingInstances">
+            <code>OverlappingInstances</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XOverlappingInstances">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="OverloadedLabels">
+            <code>OverloadedLabels</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XOverloadedLabels">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="OverloadedLists">
+            <code>OverloadedLists</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XOverloadedLists">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="OverloadedStrings">
+            <code>OverloadedStrings</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XOverloadedStrings">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="PackageImports">
+            <code>PackageImports</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XPackageImports">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ParallelListComp">
+            <code>ParallelListComp</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XParallelListComp">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="PartialTypeSignatures">
+            <code>PartialTypeSignatures</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XPartialTypeSignatures">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="PatternSynonyms">
+            <code>PatternSynonyms</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XPatternSynonyms">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="PolyKinds">
+            <code>PolyKinds</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XPolyKinds">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="PostfixOperators">
+            <code>PostfixOperators</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XPostfixOperators">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="QuasiQuotes">
+            <code>QuasiQuotes</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XQuasiQuotes">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="Rank2Types">
+            <code>Rank2Types</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRank2Types">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="RankNTypes">
+            <code>RankNTypes</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRankNTypes">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="RebindableSyntax">
+            <code>RebindableSyntax</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRebindableSyntax">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="RecordWildCards">
+            <code>RecordWildCards</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRecordWildCards">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="RecursiveDo">
+            <code>RecursiveDo</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRecursiveDo">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="RoleAnnotations">
+            <code>RoleAnnotations</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRoleAnnotations">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ScopedTypeVariables">
+            <code>ScopedTypeVariables</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XScopedTypeVariables">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="StandaloneDeriving">
+            <code>StandaloneDeriving</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XStandaloneDeriving">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="StaticPointers">
+            <code>StaticPointers</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XStaticPointers">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="Strict">
+            <code>Strict</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XStrict">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="StrictData">
+            <code>StrictData</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XStrictData">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TemplateHaskell">
+            <code>TemplateHaskell</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTemplateHaskell">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TemplateHaskellQuotes">
+            <code>TemplateHaskellQuotes</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTemplateHaskellQuotes">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TransformListComp">
+            <code>TransformListComp</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTransformListComp">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TupleSections">
+            <code>TupleSections</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTupleSections">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TypeApplications">
+            <code>TypeApplications</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTypeApplications">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TypeFamilies">
+            <code>TypeFamilies</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTypeFamilies">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TypeFamilyDependencies">
+            <code>TypeFamilyDependencies</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTypeFamilyDependencies">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TypeInType">
+            <code>TypeInType</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTypeInType">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TypeOperators">
+            <code>TypeOperators</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTypeOperators">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="TypeSynonymInstances">
+            <code>TypeSynonymInstances</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XTypeSynonymInstances">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="UnboxedTuples">
+            <code>UnboxedTuples</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XUnboxedTuples">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="UndecidableInstances">
+            <code>UndecidableInstances</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XUndecidableInstances">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="UndecidableSuperClasses">
+            <code>UndecidableSuperClasses</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XUndecidableSuperClasses">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="UnicodeSyntax">
+            <code>UnicodeSyntax</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XUnicodeSyntax">?</a>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="language-extensions" value="ViewPatterns">
+            <code>ViewPatterns</code>
+          </label>
+          <a href="https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/glasgow_exts.html#ghc-flag--XViewPatterns">?</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-22">
       Which build tools do you use?
       <ul>
         <li>
@@ -538,7 +1192,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-20">
+    <li class="question" id="question-23">
       What is your preferred build tool?
       <ul>
         <li>
@@ -575,7 +1229,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-21">
+    <li class="question" id="question-24">
       Which editors do you use for Haskell?
       <ul>
         <li>
@@ -629,7 +1283,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-22">
+    <li class="question" id="question-25">
       Which version control systems do you use for Haskell?
       <ul>
         <li>
@@ -665,7 +1319,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-23">
+    <li class="question" id="question-26">
       Where do you get Haskell packages from?
       <ul>
         <li>
@@ -695,7 +1349,33 @@
       </ul>
     </li>
 
-    <li class="question" id="question-24">
+    <li class="question" id="question-27">
+      Have you contributed to an open source Haskell project?
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="open-source-contributor" value="no">
+            No
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="open-source-contributor" value="yes">
+            Yes
+          </label>
+          (Skip to <a href="#question-29">question 29</a>.)
+        </li>
+      </ul>
+    </li>
+
+    <li class="question" id="question-28">
+      <label>
+        If you have not contributed to an open source Haskell project, why not?
+        <textarea name="why-not-open-source" placeholder="I have not contributed to an open source Haskell project because ..."></textarea>
+      </label>
+    </il>
+
+    <li class="question" id="question-29">
       How do you interact with the Haskell community?
       <ul>
         <li>
@@ -743,33 +1423,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-25">
-      Have you contributed to an open source Haskell project?
-      <ul>
-        <li>
-          <label>
-            <input type="radio" name="open-source-contributor" value="no">
-            No
-          </label>
-        </li>
-        <li>
-          <label>
-            <input type="radio" name="open-source-contributor" value="yes">
-            Yes
-          </label>
-          (Skip to <a href="#question-27">question 27</a>.)
-        </li>
-      </ul>
-    </li>
-
-    <li class="question" id="question-26">
-      <label>
-        If you have not contributed to an open source Haskell project, why not?
-        <textarea name="why-not-open-source" placeholder="I have not contributed to an open source Haskell project because ..."></textarea>
-      </label>
-    </il>
-
-    <li class="question" id="question-27">
+    <li class="question" id="question-30">
       How would you rate your proficiency in Haskell?
       <ul>
         <li>
@@ -799,7 +1453,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-28">
+    <li class="question" id="question-31">
       I am satisfied with Haskell as a language.
       <ul>
         <li>
@@ -835,7 +1489,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-29">
+    <li class="question" id="question-32">
       I am satisfied with Haskell's build tools (such as cabal-install or Stack).
       <ul>
         <li>
@@ -871,7 +1525,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-30">
+    <li class="question" id="question-33">
       I am satisfied with Haskell's package repositories (such as Hackage or Stackage).
       <ul>
         <li>
@@ -907,7 +1561,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-31">
+    <li class="question" id="question-34">
       I can find Haskell libraries for the things that I need.
       <ul>
         <li>
@@ -943,7 +1597,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-32">
+    <li class="question" id="question-35">
       I think Haskell libraries are high quality.
       <ul>
         <li>
@@ -979,7 +1633,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-33">
+    <li class="question" id="question-36">
       I think Haskell libraries are well documented.
       <ul>
         <li>
@@ -1015,7 +1669,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-34">
+    <li class="question" id="question-37">
       I can easily compare Haskell libraries to select the best one.
       <ul>
         <li>
@@ -1051,7 +1705,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-35">
+    <li class="question" id="question-38">
       I find Haskell libraries easy to use.
       <ul>
         <li>
@@ -1087,7 +1741,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-36">
+    <li class="question" id="question-39">
       I find that Haskell libraries provide a stable API.
       <ul>
         <li>
@@ -1123,7 +1777,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-37">
+    <li class="question" id="question-40">
       I find that Haskell libraries work well with other libraries.
       <ul>
         <li>
@@ -1159,7 +1813,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-38">
+    <li class="question" id="question-41">
       I find that Haskell libraries perform well.
       <ul>
         <li>
@@ -1195,7 +1849,7 @@
       </ul>
     </li>
 
-    <li class="question" id="question-39">
+    <li class="question" id="question-42">
       I can easily reason about the performance of my Haskell programs.
       <ul>
         <li>
@@ -1231,21 +1885,21 @@
       </ul>
     </li>
 
-    <li class="question" id="question-40">
+    <li class="question" id="question-43">
       <label>
         In your opinion, what is Haskell's biggest problem?
         <textarea name="biggest-problem" placeholder="Haskell's biggest problem is ..."></textarea>
       </label>
     </il>
 
-    <li class="question" id="question-41">
+    <li class="question" id="question-44">
       <label>
         If you could change anything about Haskell's community, what would it be?
         <textarea name="biggest-problem" placeholder="I would change the Haskell community's ..."></textarea>
       </label>
     </il>
 
-    <li class="question" id="question-42">
+    <li class="question" id="question-45">
       <label>
         Do you have any other comments about Haskell, its ecosystem, its community, or this survey?
         <textarea name="other-comments"></textarea>
