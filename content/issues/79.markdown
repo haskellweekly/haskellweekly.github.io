@@ -4,7 +4,7 @@ undefined
 
 ## Featured
 
--   [Persistent Red Black Tree in Haskell](https://abhiroop.github.io/Haskell-Red-Black-Tree/)
+-   [Persistent Red Black Trees in Haskell](https://abhiroop.github.io/Haskell-Red-Black-Tree/)
 
     > While Haskell is steadily gaining mainstream adoption in the industry, it still remains one of the most viable languages used as a teaching medium. In this post we will be looking at the construction and operations of Red Black trees. Of special interest here would be the deletion of nodes, as the operation of delete is inherently opposed to Haskell’s fundamentals of immutability.
 
