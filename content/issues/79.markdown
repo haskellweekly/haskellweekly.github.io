@@ -8,6 +8,10 @@ undefined
 
     > While Haskell is steadily gaining mainstream adoption in the industry, it still remains one of the most viable languages used as a teaching medium. In this post we will be looking at the construction and operations of red-black trees. Of special interest here would be the deletion of nodes, as the operation of delete is inherently opposed to Haskell's fundamentals of immutability.
 
+-   [Motor: Finite-state machines in Haskell](https://wickstrom.tech/programming/2017/10/27/motor-finite-state-machines-haskell.html)
+
+    > While writing my talk "Finite-state machines? Your compiler wants in!", I have worked on porting the Idris ST library to Haskell. I call it Motor. Motor is an experimental Haskell library for building finite-state machines with type-safe transitions and effects.
+
 undefined
 
 ## Jobs
