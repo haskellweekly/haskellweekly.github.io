@@ -20,7 +20,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Importify](https://github.com/serokell/importify/blob/1bbdf99bf2f0f4990d7a4a1fedc7a53971d42707/README.md#readme),
+a tool that helps you to manage the import section of your Haskell project modules.
 
 ## Call for participation
 
