@@ -29,7 +29,10 @@ a tool that helps you to manage the import section of your Haskell project modul
 
 ## Call for participation
 
-undefined
+-   [foundation: Add terminal size (row+column) capability in Basement.Terminal](https://github.com/haskell-foundation/foundation/issues/433)
+-   [hpack: Wrong cabal-version when custom-setup is used](https://github.com/sol/hpack/issues/210)
+-   [ngless: Update samtools](https://github.com/luispedro/ngless/issues/40)
+-   [yesod: For all yesodweb projects: Adding an PR/issue template](https://github.com/yesodweb/yesod/issues/1450)
 
 ## Events
 
