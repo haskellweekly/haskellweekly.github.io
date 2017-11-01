@@ -136,6 +136,12 @@ main aside {
   padding: 0;
 }
 
+.language-extensions {
+  border: thin solid;
+  max-height: 8.25em;
+  overflow-y: auto;
+}
+
 footer {
   border-top: thin solid #d3d7cf;
   margin: 1.5em 0 3em 0;
