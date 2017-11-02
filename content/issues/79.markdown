@@ -22,6 +22,10 @@ undefined
 
     This is such a massive release to the universal markup converter that it's hard to summarize. Tons of new features, changes, fixes, and improvements.
 
+-   [Building GHC: The package database](https://medium.com/@zw3rk/building-ghc-the-package-database-50c37cf6ce33)
+
+    > While we usually build packages for use with GHC via `cabal`, the packages GHC knows about are those registered in the known package database. The global package database usually resides next to the `ghc` binary and is called `package.conf.d`.
+
 ## Jobs
 
 -   [New fintech startup hiring 1-2 Haskell backend engineers](https://www.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
