@@ -30,6 +30,10 @@ undefined
 
     > This post serves as notes and explorations of my first patch to GHC. I'm going to start from the very beginning --- so it might be kind of boring!
 
+-   [Dueling rhetoric of Clojure and Haskell](http://tech.frontrowed.com/2017/11/01/rhetoric-of-clojure-and-haskell/)
+
+    > Recently Lispcast wrote a post interpreting Rich Hickey's controversial statements on static types. This post had some very interesting perspectives and some unfortunate misinformation.
+
 ## Jobs
 
 -   [New fintech startup hiring 1-2 Haskell backend engineers](https://www.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
