@@ -34,6 +34,10 @@ undefined
 
     > Recently Lispcast wrote a post interpreting Rich Hickey's controversial statements on static types. This post had some very interesting perspectives and some unfortunate misinformation.
 
+-   [Short `ByteString` and `Text`](https://markkarpov.com/post/short-bs-and-text.html)
+
+    > There are other under-appreciated types and libraries that complement `ByteString` and `Text`. These may be a better choice in some circumstances, but I believe many Haskellers are not aware of them. This post aims to rectify that.
+
 ## Jobs
 
 -   [New fintech startup hiring 1-2 Haskell backend engineers](https://www.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
