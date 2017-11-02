@@ -1,6 +1,12 @@
 <!-- 2017-11-02 -->
 
-undefined
+Welcome to another issue of Haskell Weekly!
+[Haskell](https://haskell-lang.org) is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
 
 ## Featured
 
@@ -52,6 +58,9 @@ undefined
 
     > Mercury is hiring 1-2 backend engineers to join our stealth B2B fintech startup. Since we're a new startup, you'll be shaping our backend codebase.
 
+Are you looking to hire a Haskell developer?
+If so, [advertise with us](https://haskellweekly.news/advertising.html)!
+
 ## In brief
 
 -   [A space of their own: adding a type namespace to Hackett](https://lexi-lambda.github.io/blog/2017/10/27/a-space-of-their-own-adding-a-type-namespace-to-hackett/)
@@ -76,6 +85,9 @@ a tool that helps you to manage the import section of your Haskell project modul
 -   [ngless: Update samtools](https://github.com/luispedro/ngless/issues/40)
 -   [yesod: For all yesodweb projects: Adding an PR/issue template](https://github.com/yesodweb/yesod/issues/1450)
 
+Do you have a beginner-friendly issue you want some help with?
+Email <info@haskellweekly.news> to get it included here!
+
 ## Events
 
 -   November 2: [Regensburg Haskell Meetup: Digesting past events](https://www.meetup.com/Regensburg-Haskell-Meetup/events/244377298/)
@@ -84,3 +96,6 @@ a tool that helps you to manage the import section of your Haskell project modul
 -   November 7: [Haskallywags: Chapter 3 & 4 ("Strings", "Basica Datatypes")](https://www.meetup.com/Haskallywags/events/244117419/)
 -   November 8: [Haskell DC: Functional Reactive Programming](https://www.meetup.com/Haskell-DC/events/244173483/)
 -   November 9: [Haskell Hackers: The South SF Bay Haskell User Group: Jon Coens: Hotswapping Haskell](https://www.meetup.com/haskellhackers/events/244525354/)
+
+Know of an event that Haskell users would enjoy?
+Let <info@haskellweekly.news> know about it!
