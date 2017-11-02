@@ -18,6 +18,10 @@ undefined
 
     > While writing my talk "Finite-state machines? Your compiler wants in!", I have worked on porting the Idris ST library to Haskell. I call it Motor. Motor is an experimental Haskell library for building finite-state machines with type-safe transitions and effects.
 
+-   [Pandoc 2.0](https://github.com/jgm/pandoc/releases/tag/2.0)
+
+    This is such a massive release to the universal markup converter that it's hard to summarize. Tons of new features, changes, fixes, and improvements.
+
 ## Jobs
 
 undefined
