@@ -38,6 +38,10 @@ undefined
 
     > There are other under-appreciated types and libraries that complement `ByteString` and `Text`. These may be a better choice in some circumstances, but I believe many Haskellers are not aware of them. This post aims to rectify that.
 
+-   [The exodus to Streamgard, an epic poem](https://www.tweag.io/posts/2017-11-01-streaming-and-foldl.html)
+
+    > The Serpent will assemble its minions, Early-close and Strictness of effects, and unleash its wrath upon our world. Foldl, son of Haskell and brother of Foldr, would lead humanity to its last bastion, Streamgard, and organize the final fight...
+
 ## Jobs
 
 -   [New fintech startup hiring 1-2 Haskell backend engineers](https://www.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
