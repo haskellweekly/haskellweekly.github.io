@@ -4,6 +4,12 @@ undefined
 
 ## Featured
 
+-   [GHC 8.2.2 release candidate 2](https://mail.haskell.org/pipermail/ghc-devs/2017-October/014994.html)
+
+    > The GHC team is very pleased to announce the second candidate of the 8.2.2 release of the Glasgow Haskell Compiler. This is the second and hopefully last of two release candidates leading up the final 8.2.2 release.
+
+    Editor's note: Use [this `stack.yaml`](https://gist.github.com/tfausak/e60fe3fa93344c747ac38891fa55a0db/413b18b84a78ee10b48bfbb4adf898ff56d7e55d) to easily test GHC 8.2.2-rc2 with Stack.
+
 -   [Persistent red-black trees in Haskell](https://abhiroop.github.io/Haskell-Red-Black-Tree/)
 
     > While Haskell is steadily gaining mainstream adoption in the industry, it still remains one of the most viable languages used as a teaching medium. In this post we will be looking at the construction and operations of red-black trees. Of special interest here would be the deletion of nodes, as the operation of delete is inherently opposed to Haskell's fundamentals of immutability.
@@ -11,8 +17,6 @@ undefined
 -   [Motor: Finite-state machines in Haskell](https://wickstrom.tech/programming/2017/10/27/motor-finite-state-machines-haskell.html)
 
     > While writing my talk "Finite-state machines? Your compiler wants in!", I have worked on porting the Idris ST library to Haskell. I call it Motor. Motor is an experimental Haskell library for building finite-state machines with type-safe transitions and effects.
-
-undefined
 
 ## Jobs
 
