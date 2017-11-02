@@ -8,6 +8,15 @@ Want to see something featured in Haskell Weekly?
 We love contributions!
 Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull request](https://github.com/haskellweekly/haskellweekly.github.io).
 
+## Survey
+
+We are excited to announce [the first annual Haskell users survey](https://haskellweekly.news/surveys/2017.html)!
+It is inspired by Rust's recent surveys and Johan Tibell's state of Haskell surveys from a few years ago.
+The goal of the survey is to better understand how Haskell users feel about the language, ecosystem, and community.
+So please, if you're reading this:
+Take 10 minutes and fill out the survey.
+Thanks!
+
 ## Featured
 
 -   [GHC 8.2.2 release candidate 2](https://mail.haskell.org/pipermail/ghc-devs/2017-October/014994.html)
