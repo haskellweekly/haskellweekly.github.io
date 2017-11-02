@@ -26,6 +26,10 @@ undefined
 
     > While we usually build packages for use with GHC via `cabal`, the packages GHC knows about are those registered in the known package database. The global package database usually resides next to the `ghc` binary and is called `package.conf.d`.
 
+-   [Contributing to GHC](http://www.parsonsmatt.org/2017/10/29/contributing_to_ghc.html)
+
+    > This post serves as notes and explorations of my first patch to GHC. I'm going to start from the very beginning --- so it might be kind of boring!
+
 ## Jobs
 
 -   [New fintech startup hiring 1-2 Haskell backend engineers](https://www.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
