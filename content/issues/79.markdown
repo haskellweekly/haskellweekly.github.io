@@ -54,7 +54,14 @@ undefined
 
 ## In brief
 
-undefined
+-   [A space of their own: adding a type namespace to Hackett](https://lexi-lambda.github.io/blog/2017/10/27/a-space-of-their-own-adding-a-type-namespace-to-hackett/)
+-   [An introduction to Brick+Reflex](http://hexagoxel.de/postsforpublish/posts/2017-10-30-brick-plus-reflex.html)
+-   [Duckling: A Haskell library that parses text into structured data](https://github.com/facebook/duckling/blob/f0a0c1e6b8233a810f86e36b3350ed4408a9da58/README.md#readme)
+-   [Functional Geekery Episode 113: Oskar Wickstr&#xf6;m](https://www.functionalgeekery.com/episode-113-oskar-wickstrom/)
+-   [Haskell is not programming: Introduction to the "Haskell in Pictures"](https://superstrings.io/haskell-is-not-programming-3246779f2ef6)
+-   [NixCon 2017 videos](https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos)
+-   [Refactoring to pure code and dealing with exceptions](http://www.andrevdm.com/posts/2017-10-31-refactor-away-io.html)
+-   [Writing a concurrency testing library part 2: Exceptions](https://www.barrucadu.co.uk/posts/concurrency/2017-10-28-writing-a-concurrency-testing-library-02.html)
 
 ## Package of the week
 
