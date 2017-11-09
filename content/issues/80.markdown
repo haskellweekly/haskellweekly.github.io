@@ -38,6 +38,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Instead of fighting, we should strive together to find a deeper understanding of the principles and trade-off that are involved when writing and evolving code. I would like to make such attempt today by opening a conversation on the communicative power of types.
 
+-   [Proofs and programs and rhetoric](https://blog.infinitenegativeutility.com/2017/11/proofs-and-programs-and-rhetoric)
+
+    > When such a person reads the statement in question, it comes across as being a self-satisfied kind of ivory-tower sentiment. Which --- not at all coincidentally! --- is exactly the impression that many working programmers have of functional programmers.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
