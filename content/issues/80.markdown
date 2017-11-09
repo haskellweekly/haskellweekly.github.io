@@ -58,7 +58,8 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## In brief
 
-undefined
+-   [Lambda World 2017 videos](https://www.youtube.com/playlist?list=PL4yAk3UBuBSrQXe_mZkR4khTNtQ_z5baQ)
+-   [Unie: University of Nottingham Improvement Engine](https://github.com/mathandley/Unie/tree/f6d747606f0689236d8c87b49fd9898668375e03)
 
 ## Package of the week
 
