@@ -26,6 +26,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > We wanted to try out some of these new (to us) ideas to see how they would gel together and whether we would want to use any of them in production. What follows is my account of using David Reaver's event-sourcing/CQRS library, Eventful, to build our email sign-up backend.
 
+-   [Organizing our effects effectively](https://mmhaskell.com/blog/2017/11/6/organizing-our-effects-effectively)
+
+    > We'll observe some of the weaknesses of this system, and how we can improve on them. This week will focus on an approach with type classes and monad transformers. In a couple weeks, we'll consider free monads, and how we can use them.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
