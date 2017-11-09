@@ -29,7 +29,9 @@ a language for describing state machines as well as a compiler that interprets a
 
 ## Call for participation
 
-undefined
+-   [dejafu: Add named-thread variants of the withAsync functions](https://github.com/barrucadu/dejafu/issues/148)
+-   [hadrian: Put cWarnings in a different file](https://github.com/snowleopard/hadrian/issues/451)
+-   [servant-checked-exceptions: add note about having to be careful with letting aeson derive FromJSON and ToJSON instances](https://github.com/cdepillabout/servant-checked-exceptions/issues/14)
 
 ## Events
 
