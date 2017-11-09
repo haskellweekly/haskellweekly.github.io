@@ -46,6 +46,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Functional programming provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
+-   [Sum of heights in a binary tree](https://byorgey.wordpress.com/2017/11/03/sum-of-heights-in-a-binary-tree/)
+
+    > Every year when teaching data structures I always forget how to analyze the cost of building a binary heap, which amounts to summing the heights of all the nodes in a full binary tree. So I'm writing down the (lovely) proof here in the hopes that I will remember it next time.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
