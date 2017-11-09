@@ -34,6 +34,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > The Dhall configuration language just added support for "semantic integrity checks". This post explains what "semantic integrity check" means, motivates the new feature, and compares to semantic versioning.
 
+-   [On types and intent: How much can we communicate using types?](http://jawaninja.com/programming/2017/10/29/on-types-and-intent)
+
+    > Instead of fighting, we should strive together to find a deeper understanding of the principles and trade-off that are involved when writing and evolving code. I would like to make such attempt today by opening a conversation on the communicative power of types.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
