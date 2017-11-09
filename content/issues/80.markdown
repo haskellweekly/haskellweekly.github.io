@@ -30,6 +30,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > We'll observe some of the weaknesses of this system, and how we can improve on them. This week will focus on an approach with type classes and monad transformers. In a couple weeks, we'll consider free monads, and how we can use them.
 
+-   [Semantic integrity checks are the next generation of semantic versioning](http://www.haskellforall.com/2017/11/semantic-integrity-checks-are-next.html)
+
+    > The Dhall configuration language just added support for "semantic integrity checks". This post explains what "semantic integrity check" means, motivates the new feature, and compares to semantic versioning.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
