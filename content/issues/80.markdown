@@ -10,7 +10,9 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Featured
 
-undefined
+-   [Understanding HLint rules](https://neilmitchell.blogspot.com/2017/11/understanding-hlint-rules.html)
+
+    > I've just released HLint 2.0.10, which includes a rule to recognize uses of `foldr` that should really be `map`. As an example: `foldr (\curr acc -> (+1) curr : acc) []` Can be rewritten as: `map (\curr -> (+1) curr)`
 
 ## Jobs
 
