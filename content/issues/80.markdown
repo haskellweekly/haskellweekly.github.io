@@ -8,7 +8,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
+
+    > Myrtle is looking for skilled developers to join our growing development team and assist with the development of our core compiler technology. Ideally candidates would have an interest in either efficient hardware design and/or machine learning models and frameworks.
 
 ## In brief
 
