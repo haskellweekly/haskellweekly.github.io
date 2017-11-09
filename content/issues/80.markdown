@@ -22,6 +22,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > This article is about `servant-server` 0.11's `experimental-auth` which is still in experimental stage. Deployment in production is not encouraged. And yes, I know about `servant-auth` but I haven't read it thoroughly, yet.
 
+-   [Eventful email signup](https://medium.com/@concertdaw/eventful-email-signup-f0814fc7d7fa)
+
+    > We wanted to try out some of these new (to us) ideas to see how they would gel together and whether we would want to use any of them in production. What follows is my account of using David Reaver's event-sourcing/CQRS library, Eventful, to build our email sign-up backend.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
