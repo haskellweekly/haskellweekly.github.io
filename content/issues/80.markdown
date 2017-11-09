@@ -42,6 +42,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > When such a person reads the statement in question, it comes across as being a self-satisfied kind of ivory-tower sentiment. Which --- not at all coincidentally! --- is exactly the impression that many working programmers have of functional programmers.
 
+-   [Functional programming jargon](https://functional.works-hub.com/blog/Functional-Programming-Jargon)
+
+    > Functional programming provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
