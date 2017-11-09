@@ -18,6 +18,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Edward Kmett recently posted a puzzling gist seemingly showing that at the type level, the `()` kind has more than one inhabitant. The goal of this post is to explain what's going on.
 
+-   [Authorization in Servant: Walkthrough](https://ibnuda.gitlab.io/636452721192300168_authorizationinservant.html)
+
+    > This article is about `servant-server` 0.11's `experimental-auth` which is still in experimental stage. Deployment in production is not encouraged. And yes, I know about `servant-auth` but I haven't read it thoroughly, yet.
+
 ## Jobs
 
 -   [Functional programmers at Myrtle Software](https://www.myrtlesoftware.com/vacancies/)
