@@ -16,7 +16,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Smudge](https://github.com/Bose/Smudge/blob/c59fb0e2ce80d411456a68bb33d518e426a3ecde/README.md#readme),
+a language for describing state machines as well as a compiler that interprets and validates those descriptions to generate code and documentation for them.
 
 ## Call for participation
 
