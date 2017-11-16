@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [hpack: cabal-version is not set properly when using ^>= bounds](https://github.com/sol/hpack/issues/213)
+-   [hs-gauge: Remove code-page package](https://github.com/vincenthz/hs-gauge/issues/38)
+-   [stack: Should warn about overlapping "hs-source-dirs"](https://github.com/commercialhaskell/stack/issues/3575)
 
 ## Events
 
