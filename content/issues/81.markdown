@@ -46,7 +46,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Health eFilings: Backend Ruby and Haskell engineer](https://functionaljobs.com/jobs/9050-backend-ruby-and-haskell-engineer-at-health-efilings)
+
+    > Our current code base is written in Ruby and Coffee Script, but some new modules are being written in Haskell. You will be on the front lines of creating a Haskell-based infrastructure that is maintainable and can scale to support our needs as we grow.
 
 ## In brief
 
