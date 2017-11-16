@@ -50,7 +50,10 @@ undefined
 
 ## In brief
 
-undefined
+-   [Inspection testing for Haskell](https://github.com/nomeata/inspection-testing/tree/0545e91517957c7d9aac02b0a81ab29d6fd7c22f#readme)
+-   [jsn: An absolutely simple & terse CLI app to manipulate JSON data](https://github.com/goldenlynx/jsn/tree/917ea4a9e9bc1e76a8676519ff9fc448219155c2#readme)
+-   [phycs: 2D physics engine for games, with optional simple rendering](https://github.com/jonascarpay/phycs/tree/08b2ba30b4c6915755aba503477ec00f89a6e58d#readme)
+-   [Zero to continuous integrated testing a Gaskell project with GitLab](https://vadosware.io/post/zero-to-continuous-integrated-testing-a-haskell-project-with-gitlab/)
 
 ## Package of the week
 
