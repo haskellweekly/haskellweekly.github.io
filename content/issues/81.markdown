@@ -16,6 +16,10 @@ undefined
 
     > This proposal introduces a notion of linear function to GHC. Linear functions are regular functions that guarantee that they will use their argument exactly once. We propose a new language extension, `-XLinearTypes`.
 
+-   [Finite-state machines part 1: Modeling with Haskell data types](https://wickstrom.tech/finite-state-machines/2017/11/10/finite-state-machines-part-1-modeling-with-haskell.html)
+
+    > By teaching the type system about possible states and state transitions in our program, it can verify that we follow our own business rules, both when we write new code, and when we modify existing code.
+
 ## Jobs
 
 undefined
