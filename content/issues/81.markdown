@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [2017 state of Haskell survey results](http://taylor.fausak.me/2017/11/15/2017-state-of-haskell-survey-results/)
+
+    > I am excited to announce the results of the 2017 state of Haskell survey, published by Haskell Weekly! To the 1,335 people that responded to the survey: Thank you! I appreciate your feedback.
 
 ## Jobs
 
