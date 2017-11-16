@@ -59,7 +59,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [cmark](https://hackage.haskell.org/package/cmark-0.5.6),
+a fast and accurate CommonMark (Markdown) parser and renderer.
 
 ## Call for participation
 
