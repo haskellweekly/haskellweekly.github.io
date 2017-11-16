@@ -24,6 +24,10 @@ undefined
 
     > SICP describes conventional interfaces as a design principle for working with data structures. It is composed of a set of standard operators or combinators that connect the different steps required to implement computations in computer programs.
 
+-   [Haskell theory exploration](http://chriswarbo.net/git/haskell-te/)
+
+    > This repository provides commands for performing "theory exploration". Theory exploration describes the task of taking in some function definitions and outputting conjectures about those functions.
+
 ## Jobs
 
 undefined
