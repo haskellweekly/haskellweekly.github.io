@@ -20,6 +20,10 @@ undefined
 
     > By teaching the type system about possible states and state transitions in our program, it can verify that we follow our own business rules, both when we write new code, and when we modify existing code.
 
+-   [Conventional interfaces in functional programming](https://carlosmchica.github.io/conventional-interfaces/)
+
+    > SICP describes conventional interfaces as a design principle for working with data structures. It is composed of a set of standard operators or combinators that connect the different steps required to implement computations in computer programs.
+
 ## Jobs
 
 undefined
