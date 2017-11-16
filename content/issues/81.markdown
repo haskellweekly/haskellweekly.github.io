@@ -40,6 +40,10 @@ undefined
 
     > As a beginner, I've had many struggles learning Haskell, and a lot of that has been the lack of "reference" style documentation compared to "tutorial" style documentation.
 
+-   [Dependent types in Haskell](https://haskell-serbia.com/tutorial/4)
+
+    > Dependent types help to form a proof that the most critical features work the way we want them and all that in compile time. We can form specific set of types that will ensure all invariants program can have will work properly.
+
 ## Jobs
 
 undefined
