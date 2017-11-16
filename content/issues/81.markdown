@@ -12,6 +12,10 @@ undefined
 
     > Many thanks go to all the people that contributed to this report, both directly, by sending in descriptions, and indirectly, by doing all the interesting things that are reported.
 
+-   [GHC proposal: Linear types](https://github.com/ghc-proposals/ghc-proposals/pull/91)
+
+    > This proposal introduces a notion of linear function to GHC. Linear functions are regular functions that guarantee that they will use their argument exactly once. We propose a new language extension, `-XLinearTypes`.
+
 ## Jobs
 
 undefined
