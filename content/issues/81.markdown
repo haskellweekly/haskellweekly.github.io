@@ -8,6 +8,10 @@ undefined
 
     > I am excited to announce the results of the 2017 state of Haskell survey, published by Haskell Weekly! To the 1,335 people that responded to the survey: Thank you! I appreciate your feedback.
 
+-   [Haskell Communities and Activities Report: 33rd edition](https://mail.haskell.org/pipermail/haskell/2017-November/025300.html)
+
+    > Many thanks go to all the people that contributed to this report, both directly, by sending in descriptions, and indirectly, by doing all the interesting things that are reported.
+
 ## Jobs
 
 undefined
