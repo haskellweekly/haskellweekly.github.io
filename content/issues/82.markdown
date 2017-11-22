@@ -10,6 +10,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## Featured
 
+-   [GHC 8.2.2 is available](https://ghc.haskell.org/trac/ghc/blog/ghc-8.2.2-released)
+
+    > The GHC Team is pleased to announce a new minor release of GHC. This release builds on the performance and stability improvements of 8.2.1, fixing a variety of correctness bugs, improving error messages, and making the compiler more portable.
+
 -   [Finite-state machines part 2: Explicit typed state transitions](https://wickstrom.tech/finite-state-machines/2017/11/19/finite-state-machines-part-2.html)
 
     > Using a sort of extended MTL style, with conventions for state machine encodings, gives us more type safety in state transitions. Abstract state values, impossible to create outside the instance, are now passed explicitly in state transitions.
