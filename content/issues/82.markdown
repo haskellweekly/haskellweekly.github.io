@@ -24,7 +24,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Flow](https://www.stackage.org/haddock/lts-9.14/flow-1.0.9/Flow.html),
+a library for writing more understandable Haskell by using better operators.
 
 ## Call for participation
 
