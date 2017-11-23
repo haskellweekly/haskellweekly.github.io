@@ -77,7 +77,9 @@ a library for writing more understandable Haskell by using better operators.
 
 ## Call for participation
 
-undefined
+-   [Carp: Benchmarking examples](https://github.com/carp-lang/Carp/issues/101)
+-   [eta: `etlas exec` inside of a sandbox fails](https://github.com/typelead/eta/issues/565)
+-   [hledger: hledger-web doesn't show results for accounts with an apostrophe](https://github.com/simonmichael/hledger/issues/649)
 
 ## Events
 
