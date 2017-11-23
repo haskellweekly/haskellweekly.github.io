@@ -38,6 +38,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > To really get good performance, we need to simultaneously optimize along two orthogonal dimensions: get more done simultaneously, by parallelizing, but also make each sequential unit of work run faster.
 
+-   [Independent Redis query aggregation](https://identicalsnowflake.github.io/QueryAggregation.html)
+
+    > Instead of executing many independent `get` commands, Redis provides `mget key1 key2 ...`, which will perform all the lookups at once in a single command. Which brings me to the topic of this post: is there a way to systematically construct `mget` queries in a type-safe way?
+
 ## Jobs
 
 -   [Job openings with the Strats team at Standard Chartered bank](http://www.atzedijkstra.net/haskell/job-openings-with-the-strats-team-at-standard-chartered-bank/)
