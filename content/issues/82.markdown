@@ -30,6 +30,10 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > What did we really build in 34,000 lines of Haskell? Flexi-payment plugin, DelayedJob clone along with UI, SendGrid library, working clone of Inky to send bulletproof HTML emails, Opaleye boilerplate code-generator, and deep instrumentation wrappers over core libs.
 
+-   [`MonadBaseControl` in five minutes](http://www.parsonsmatt.org/2017/11/21/monadbasecontrol_in_five_minutes.html)
+
+    > The big idea behind `MonadIO` m is that you can perform a transformation `IO a -> m a`. The big idea behind `MonadBaseControl` is that you can perform a transformation `m a -> IO a`.
+
 ## Jobs
 
 -   [Job openings with the Strats team at Standard Chartered bank](http://www.atzedijkstra.net/haskell/job-openings-with-the-strats-team-at-standard-chartered-bank/)
