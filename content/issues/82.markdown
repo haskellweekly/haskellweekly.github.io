@@ -58,7 +58,17 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
 ## In brief
 
+-   [Anki deck: Haskell lens operators](https://ankiweb.net/shared/info/1994529308)
+-   [Announcing `fin` and `vec` packages](https://mail.haskell.org/pipermail/haskell-cafe/2017-November/128195.html)
+-   [Announcing MMark](https://markkarpov.com/post/announcing-mmark.html)
+-   [Continuous integration to continuous delivery Haskell project with GitLab](https://vadosware.io/post/continuous-integration-to-continous-delivery-haskell-project-with-gitlab/)
+-   [Hannah: A DSL for parsing and generating files and network traces](https://abau.org/hannah)
+-   [Haskell equality table](https://htmlpreview.github.io/?https://github.com/quchen/articles/blob/master/haskell-equality-table.html)
 -   [materialize-hakyll: a new theme for hakyll based on material design](https://futtetennismo.github.io/materialize-hakyll/)
+-   [`mega-sdist`: The mega repo helper](https://www.yesodweb.com/blog/2017/11/mega-sdist)
+-   [&#xd8;redev 2017: Ashic Mahtab: Actually Using Haskell](https://vimeo.com/242141635)
+-   [Type-directed code generation](http://reasonablypolymorphic.com/blog/type-directed-code-generation)
+-   [`tzimtsum`: A Presburger arithmetic proposition decider Haskell library](https://modalduality.org/tzimtsum/)
 
 ## Package of the week
 
