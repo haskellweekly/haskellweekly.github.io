@@ -1,7 +1,7 @@
 #!/usr/bin/env stack
 {-
   stack
-  --resolver lts-9.0
+  --resolver nightly-2017-11-25
   script
   --package directory
   --package filepath

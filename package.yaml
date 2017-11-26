@@ -3,10 +3,12 @@ version: 0.0.0
 
 category: Web
 description: Haskell Weekly is an email newsletter
-extra-source-files: content/**/*
+extra-source-files:
+  - content/**/*
+  - README.markdown
 github: haskellweekly/haskellweekly.github.io
-license-file: LICENSE.markdown
 license: MIT
+license-file: LICENSE.markdown
 maintainer: Taylor Fausak
 synopsis: An email newsletter.
 

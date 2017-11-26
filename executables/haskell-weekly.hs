@@ -1,10 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import Data.Function ((&))
 import Data.Text (Text)
 
 import qualified CMark
-import qualified Control.Monad as Monad
 import qualified Data.List as List
 import qualified Data.Maybe as Maybe
 import qualified Data.Ord as Ord
@@ -18,13 +16,9 @@ import qualified Text.Read as Read
 
 main :: IO ()
 main = do
-
-  -- Configure input and output directories.
   let
-    input :: FilePath
-    input = "content"
-    output :: FilePath
-    output = "_site"
+    input = "content" :: FilePath
+    output = "_site" :: FilePath
 
   -- Clean the output directory to avoid stale files.
   Directory.removePathForcibly output
@@ -75,23 +69,11 @@ main = do
 
   -- Read survey templates.
   surveyFiles <- listDirectoryAt [input, "surveys"]
-  surveysByYear <- surveyFiles
-    & filter (hasExtension "html")
-    & map FilePath.takeBaseName
-    & Maybe.mapMaybe Read.readMaybe
-    & mapM (\ year -> do
-      template <- readFileAt [input, "surveys", FilePath.addExtension (show year) "html"]
-      pure (year, template))
+  surveysByYear <- getSurveysByYear input surveyFiles
 
   -- Load issues.
   issueFiles <- listDirectoryAt [input, "issues"]
-  issuesByNumber <- issueFiles
-    & filter (hasExtension "markdown")
-    & map FilePath.takeBaseName
-    & Maybe.mapMaybe Read.readMaybe
-    & mapM (\ number -> do
-      contents <- readFileAt [input, "issues", FilePath.addExtension (show number) "markdown"]
-      pure (number, contents))
+  issuesByNumber <- getIssuesByNumber input issueFiles
 
   -- Parse issues.
   let
@@ -99,10 +81,7 @@ main = do
     recentIssues = take 7 issues
 
   -- Create issue pages.
-  Monad.forM_ issues (\ issue -> do
-    let number = show (issueNumber issue)
-    contents <- renderIssue baseTemplate issueTemplate context issue
-    writeFileAt [output, "issues", FilePath.addExtension number "html"] contents)
+  mapM_ (createIssue output baseTemplate issueTemplate context) issues
 
   -- Create feeds.
   do
@@ -118,19 +97,50 @@ main = do
     writeFileAt [output, "advertising.html"] contents
 
   -- Create survey pages.
-  Monad.forM_ surveysByYear (\ (year, template) -> do
-    contents <- renderSurvey baseTemplate surveyTemplate template context year
-    writeFileAt [output, "surveys", FilePath.addExtension (show year) "html"] contents)
+  mapM_ (createSurvey output baseTemplate surveyTemplate context) surveysByYear
 
   -- Create home page.
   do
     contents <- renderIndex baseTemplate indexTemplate snippetTemplate context issues
     writeFileAt [output, "index.html"] contents
 
+getSurveysByYear :: FilePath -> [FilePath] -> IO [(Integer, Text)]
+getSurveysByYear input =
+  mapM (getSurvey input) .
+  Maybe.mapMaybe (Read.readMaybe . FilePath.takeBaseName) .
+  filter (hasExtension "html")
+
+getSurvey :: FilePath -> Integer -> IO (Integer, Text)
+getSurvey input year = do
+  template <- readFileAt [input, "surveys", FilePath.addExtension (show year) "html"]
+  pure (year, template)
+
+getIssuesByNumber :: FilePath -> [FilePath] -> IO [(Integer, Text)]
+getIssuesByNumber input =
+  mapM (getIssue input) .
+  Maybe.mapMaybe (Read.readMaybe . FilePath.takeBaseName) .
+  filter (hasExtension "markdown")
+
+getIssue :: FilePath -> Integer -> IO (Integer, Text)
+getIssue input number = do
+  contents <- readFileAt [input, "issues", FilePath.addExtension (show number) "markdown"]
+  pure (number, contents)
+
+createIssue :: FilePath -> Text -> Text -> Context -> Issue -> IO ()
+createIssue output baseTemplate issueTemplate context issue = do
+  let number = show (issueNumber issue)
+  contents <- renderIssue baseTemplate issueTemplate context issue
+  writeFileAt [output, "issues", FilePath.addExtension number "html"] contents
+
+createSurvey :: FilePath -> Text -> Text -> Context -> (Integer, Text) -> IO ()
+createSurvey output baseTemplate surveyTemplate context (year, template) = do
+  contents <- renderSurvey baseTemplate surveyTemplate template context year
+  writeFileAt [output, "surveys", FilePath.addExtension (show year) "html"] contents
+
 -- Types
 
 data Issue = Issue
-  { issueNumber :: Word
+  { issueNumber :: Integer
   , issueDay :: Time.Day
   , issueContents :: Text
   }
@@ -144,14 +154,10 @@ data Piece
 -- Business helpers
 
 commonMark :: Text -> Text
-commonMark markdown =
-  CMark.commonmarkToHtml [CMark.optNormalize, CMark.optSmart] markdown
+commonMark = CMark.commonmarkToHtml [CMark.optNormalize, CMark.optSmart]
 
 escapeHtml :: Text -> Text
-escapeHtml html =
-  html
-  & Text.replace "&" "&amp;"
-  & Text.replace "<" "&lt;"
+escapeHtml = Text.replace "<" "&lt;" . Text.replace "&" "&amp;"
 
 getDay :: Text -> Maybe Time.Day
 getDay meta =
@@ -160,8 +166,7 @@ getDay meta =
     _ -> Nothing
 
 isoDay :: Time.Day -> Text
-isoDay day =
-  formatDay "%Y-%m-%dT00:00:00Z" day
+isoDay = formatDay "%Y-%m-%dT00:00:00Z"
 
 issueContext :: Issue -> Context
 issueContext issue =
@@ -169,60 +174,47 @@ issueContext issue =
   ]
 
 issueSummary :: Monad m => Issue -> m Text
-issueSummary issue =
+issueSummary =
   renderTemplate
     "Issue $number$ of Haskell Weekly, a free email newsletter about the \
-    \Haskell programming language."
-    (issueContext issue)
+    \Haskell programming language." .
+  issueContext
 
 issueTitle :: Monad m => Issue -> m Text
-issueTitle issue =
-  renderTemplate
-    "Issue $number$"
-    (issueContext issue)
+issueTitle = renderTemplate "Issue $number$" . issueContext
 
 issueUrl :: Monad m => Issue -> m Text
-issueUrl issue =
-  renderTemplate
-    "/issues/$number$.html"
-    (issueContext issue)
+issueUrl = renderTemplate "/issues/$number$.html" . issueContext
 
 lastUpdated :: [Issue] -> Time.Day
-lastUpdated issues =
-  issues
-  & map issueDay
-  & Maybe.listToMaybe
-  & Maybe.fromMaybe (Time.fromGregorian 1970 1 1)
+lastUpdated =
+  Maybe.fromMaybe (Time.fromGregorian 1970 1 1) .
+  Maybe.listToMaybe . map issueDay
 
 pageTitle :: Monad m => Maybe Text -> m Text
 pageTitle maybeTitle =
   case maybeTitle of
     Nothing -> pure "Haskell Weekly"
-    Just title -> renderTemplate
-      "$title$ :: Haskell Weekly"
-      [("title", title)]
+    Just title -> renderTemplate "$title$ :: Haskell Weekly"
+      [ ("title", title)
+      ]
 
-parseIssue :: (Word, Text) -> Maybe Issue
+parseIssue :: (Integer, Text) -> Maybe Issue
 parseIssue (number, contents) = do
   let (meta, body) = Text.breakOn "\n" contents
   day <- getDay meta
-  Just Issue
-    { issueNumber = number
-    , issueDay = day
-    , issueContents = commonMark body
-    }
+  Just
+    Issue
+    {issueNumber = number, issueDay = day, issueContents = commonMark body}
 
 prettyDay :: Time.Day -> Text
-prettyDay day =
-  formatDay "%B %e %Y" day
+prettyDay = formatDay "%B %e %Y"
 
 rfcDay :: Time.Day -> Text
-rfcDay day =
-  formatDay "%a, %d %b %Y 00:00:00 GMT" day
+rfcDay = formatDay "%a, %d %b %Y 00:00:00 GMT"
 
 sortIssues :: [Issue] -> [Issue]
-sortIssues issues =
-  List.sortBy (Ord.comparing (\ issue -> Ord.Down (issueDay issue))) issues
+sortIssues = List.sortBy (Ord.comparing (Ord.Down . issueDay))
 
 surveyContext :: Integer -> Context
 surveyContext year =
@@ -230,23 +222,17 @@ surveyContext year =
   ]
 
 surveySummary :: Monad m => Integer -> m Text
-surveySummary year =
+surveySummary =
   renderTemplate
     "The $year$ survey of Haskell users by Haskell Weekly, a free email \
-    \newsletter about the Haskell programming language."
-    (surveyContext year)
+    \newsletter about the Haskell programming language." .
+  surveyContext
 
 surveyTitle :: Monad m => Integer -> m Text
-surveyTitle year =
-  renderTemplate
-    "$year$ survey"
-    (surveyContext year)
+surveyTitle = renderTemplate "$year$ survey" . surveyContext
 
 surveyUrl :: Monad m => Integer -> m Text
-surveyUrl year =
-  renderTemplate
-    "/surveys/$year$.html"
-    (surveyContext year)
+surveyUrl = renderTemplate "/surveys/$year$.html" . surveyContext
 
 -- Rendering helpers
 
@@ -297,19 +283,19 @@ renderIndex baseTemplate template snippetTemplate context issues = do
 
 renderIssue :: Monad m => Text -> Text -> Context -> Issue -> m Text
 renderIssue baseTemplate issueTemplate context issue = do
-  title <- issueTitle issue
+  partialTitle <- issueTitle issue
   body <- renderTemplate issueTemplate (context ++
     [ ("body", issueContents issue)
     , ("date", prettyDay (issueDay issue))
-    , ("title", title)
+    , ("title", partialTitle)
     ])
   summary <- issueSummary issue
   url <- issueUrl issue
-  fullTitle <- pageTitle (Just title)
+  title <- pageTitle (Just partialTitle)
   renderTemplate baseTemplate (context ++
     [ ("body", body)
     , ("summary", summary)
-    , ("title", fullTitle)
+    , ("title", title)
     , ("url", url)
     ])
 
@@ -317,9 +303,10 @@ renderPiece :: Monad m => Context -> Piece -> m Text
 renderPiece context piece =
   case piece of
     Literal text -> pure text
-    Variable name -> case lookup name context of
-      Nothing -> fail ("unknown variable: " ++ show name)
-      Just value -> pure value
+    Variable name ->
+      case lookup name context of
+        Nothing -> fail ("unknown variable: " ++ show name)
+        Just value -> pure value
 
 renderPieces :: Monad m => Context -> [Piece] -> m Text
 renderPieces context pieces = do
@@ -371,17 +358,17 @@ renderSurvey baseTemplate surveyTemplate template context year = do
     ])
 
 renderTemplate :: Monad m => Text -> Context -> m Text
-renderTemplate template context =
-  renderPieces context (toPieces template)
+renderTemplate template context = renderPieces context (toPieces template)
 
 toPieces :: Text -> [Piece]
-toPieces template =
-  let
-    go chunks = case chunks of
-      [] -> []
-      [text] -> [Literal text]
-      text : name : rest -> Literal text : Variable name : go rest
-  in go (Text.splitOn "$" template)
+toPieces = textsToPieces . Text.splitOn "$"
+
+textsToPieces :: [Text] -> [Piece]
+textsToPieces chunks =
+  case chunks of
+    [] -> []
+    [text] -> [Literal text]
+    text:name:rest -> Literal text : Variable name : textsToPieces rest
 
 -- Generic helpers
 
@@ -392,24 +379,20 @@ copyFileAt input output path =
     (FilePath.joinPath (output : path))
 
 createDirectoryAt :: [FilePath] -> IO ()
-createDirectoryAt path =
-  Directory.createDirectoryIfMissing True (FilePath.joinPath path)
+createDirectoryAt = Directory.createDirectoryIfMissing True . FilePath.joinPath
 
 formatDay :: String -> Time.Day -> Text
-formatDay format day =
-  Text.pack (Time.formatTime Time.defaultTimeLocale format day)
+formatDay format = Text.pack . Time.formatTime Time.defaultTimeLocale format
 
 hasExtension :: String -> FilePath -> Bool
-hasExtension extension file =
-  FilePath.takeExtension file == '.' : extension
+hasExtension extension = (== '.' : extension) . FilePath.takeExtension
 
 listDirectoryAt :: [FilePath] -> IO [FilePath]
-listDirectoryAt path =
-  Directory.listDirectory (FilePath.joinPath path)
+listDirectoryAt = Directory.listDirectory . FilePath.joinPath
 
 parseDay :: String -> Text -> Maybe Time.Day
-parseDay format day =
-  Time.parseTimeM False Time.defaultTimeLocale format (Text.unpack day)
+parseDay format =
+  Time.parseTimeM False Time.defaultTimeLocale format . Text.unpack
 
 readFileAt :: [FilePath] -> IO Text
 readFileAt path = do
@@ -418,8 +401,7 @@ readFileAt path = do
   Text.hGetContents handle
 
 showText :: Show a => a -> Text
-showText x =
-  Text.pack (show x)
+showText = Text.pack . show
 
 writeFileAt :: [FilePath] -> Text -> IO ()
 writeFileAt path contents = do
