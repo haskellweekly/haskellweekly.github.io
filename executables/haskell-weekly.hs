@@ -168,22 +168,22 @@ issueContext issue =
   [ ("number", showText (issueNumber issue))
   ]
 
-issueSummary :: Issue -> Text
+issueSummary :: Monad m => Issue -> m Text
 issueSummary issue =
-  unsafeRenderTemplate
+  renderTemplate
     "Issue $number$ of Haskell Weekly, a free email newsletter about the \
     \Haskell programming language."
     (issueContext issue)
 
-issueTitle :: Issue -> Text
+issueTitle :: Monad m => Issue -> m Text
 issueTitle issue =
-  unsafeRenderTemplate
+  renderTemplate
     "Issue $number$"
     (issueContext issue)
 
-issueUrl :: Issue -> Text
+issueUrl :: Monad m => Issue -> m Text
 issueUrl issue =
-  unsafeRenderTemplate
+  renderTemplate
     "/issues/$number$.html"
     (issueContext issue)
 
@@ -194,11 +194,11 @@ lastUpdated issues =
   & Maybe.listToMaybe
   & Maybe.fromMaybe (Time.fromGregorian 1970 1 1)
 
-pageTitle :: Maybe Text -> Text
+pageTitle :: Monad m => Maybe Text -> m Text
 pageTitle maybeTitle =
   case maybeTitle of
-    Nothing -> "Haskell Weekly"
-    Just title -> unsafeRenderTemplate
+    Nothing -> pure "Haskell Weekly"
+    Just title -> renderTemplate
       "$title$ :: Haskell Weekly"
       [("title", title)]
 
@@ -253,10 +253,11 @@ surveyUrl year =
 renderAdvertising :: Monad m => Text -> Text -> Context -> m Text
 renderAdvertising template advertisingTemplate context = do
   body <- renderTemplate advertisingTemplate context
+  title <- pageTitle (Just "Advertising")
   renderTemplate template (context ++
     [ ("body", body)
     , ("summary", "Information about advertising with Haskell Weekly.")
-    , ("title", pageTitle (Just "Advertising"))
+    , ("title", title)
     , ("url", "/advertising.html")
     ])
 
@@ -286,26 +287,30 @@ renderIndex baseTemplate template snippetTemplate context issues = do
       "Haskell Weekly is a free email newsletter about the Haskell \
       \programming language. Each issue features several hand-picked links to \
       \interesting content about Haskell from around the web."
+  title <- pageTitle Nothing
   renderTemplate baseTemplate (context ++
     [ ("body", body)
     , ("summary", summary)
-    , ("title", pageTitle Nothing)
+    , ("title", title)
     , ("url", "")
     ])
 
 renderIssue :: Monad m => Text -> Text -> Context -> Issue -> m Text
 renderIssue baseTemplate issueTemplate context issue = do
-  let title = issueTitle issue
+  title <- issueTitle issue
   body <- renderTemplate issueTemplate (context ++
     [ ("body", issueContents issue)
     , ("date", prettyDay (issueDay issue))
     , ("title", title)
     ])
+  summary <- issueSummary issue
+  url <- issueUrl issue
+  fullTitle <- pageTitle (Just title)
   renderTemplate baseTemplate (context ++
     [ ("body", body)
-    , ("summary", issueSummary issue)
-    , ("title", pageTitle (Just title))
-    , ("url", issueUrl issue)
+    , ("summary", summary)
+    , ("title", fullTitle)
+    , ("url", url)
     ])
 
 renderPiece :: Monad m => Context -> Piece -> m Text
@@ -313,9 +318,7 @@ renderPiece context piece =
   case piece of
     Literal text -> pure text
     Variable name -> case lookup name context of
-      Nothing -> failText (unsafeRenderTemplate
-        "unknown variable: $name$"
-        [("name", showText name)])
+      Nothing -> fail ("unknown variable: " ++ show name)
       Just value -> pure value
 
 renderPieces :: Monad m => Context -> [Piece] -> m Text
@@ -329,20 +332,24 @@ renderRss template itemTemplate context issues = do
   renderTemplate template (("items", mconcat items) : context)
 
 renderRssItem :: Monad m => Text -> Context -> Issue -> m Text
-renderRssItem template context issue =
+renderRssItem template context issue = do
+  title <- issueTitle issue
+  url <- issueUrl issue
   renderTemplate template (context ++
     [ ("description", escapeHtml (issueContents issue))
     , ("pubDate", rfcDay (issueDay issue))
-    , ("title", issueTitle issue)
-    , ("url", issueUrl issue)
+    , ("title", title)
+    , ("url", url)
     ])
 
 renderSnippet :: Monad m => Text -> Context -> Issue -> m Text
-renderSnippet template context issue =
+renderSnippet template context issue = do
+  title <- issueTitle issue
+  url <- issueUrl issue
   renderTemplate template (context ++
     [ ("date", prettyDay (issueDay issue))
-    , ("title", issueTitle issue)
-    , ("url", issueUrl issue)
+    , ("title", title)
+    , ("url", url)
     ])
 
 renderSurvey :: Monad m => Text -> Text -> Text -> Context -> Integer -> m Text
@@ -354,7 +361,7 @@ renderSurvey baseTemplate surveyTemplate template context year = do
     , ("title", partialTitle)
     ])
   summary <- surveySummary year
-  let title = pageTitle (Just partialTitle)
+  title <- pageTitle (Just partialTitle)
   url <- surveyUrl year
   renderTemplate baseTemplate (context ++
     [ ("body", body)
@@ -376,12 +383,6 @@ toPieces template =
       text : name : rest -> Literal text : Variable name : go rest
   in go (Text.splitOn "$" template)
 
-unsafeRenderTemplate :: Text -> Context -> Text
-unsafeRenderTemplate template context =
-  case renderTemplate template context of
-    Left message -> error message
-    Right text -> text
-
 -- Generic helpers
 
 copyFileAt :: FilePath -> FilePath -> [FilePath] -> IO ()
@@ -393,10 +394,6 @@ copyFileAt input output path =
 createDirectoryAt :: [FilePath] -> IO ()
 createDirectoryAt path =
   Directory.createDirectoryIfMissing True (FilePath.joinPath path)
-
-failText :: Monad m => Text -> m a
-failText message =
-  fail (Text.unpack message)
 
 formatDay :: String -> Time.Day -> Text
 formatDay format day =
