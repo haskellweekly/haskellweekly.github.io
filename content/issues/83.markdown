@@ -12,7 +12,7 @@ undefined
 
 ## In brief
 
-undefined
+[Building slim Docker images for Haskell applications](https://futtetennismo.me/posts/docker/2017-11-24-docker-haskell-executables.html)
 
 ## Package of the week
 
