@@ -18,6 +18,10 @@ This is a weekly summary of what's going on in its community.
 
     > The Haskell FFI is incredibly powerful, allowing you to convert Haskell functions into C function pointers. In this post I'll give a quick example, then go into what happens if the Haskell function throws an exception.
 
+-   [Exception handling in Haskell jobs](https://medium.com/lazy-eval/exception-handling-in-haskell-jobs-383835fb73e6)
+
+    > I am using yesod-job-queue to define the `job`. The use-case was, that this was a scheduled job and we needed to log the failures. But on running this; there was an error, since `runJob` in yesod-job-queue does not have the `MonadCatch` constraint.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
