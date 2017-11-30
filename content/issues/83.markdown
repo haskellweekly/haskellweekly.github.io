@@ -26,6 +26,10 @@ This is a weekly summary of what's going on in its community.
 
     > In this post, we describe how we can use partially applied functions as a design building block though the study of a practical example: the `bracket` function.
 
+-   [Deciphering Haskell's applicative and monadic parsers](https://eli.thegreenplace.net/2017/deciphering-haskells-applicative-and-monadic-parsers/)
+
+    > This post follows the construction of parsers described in Graham Hutton's "Programming in Haskell". It's my attempt to work through chapter 13 in this book and understand the details of applicative and monadic combination of parsers presented therein.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
