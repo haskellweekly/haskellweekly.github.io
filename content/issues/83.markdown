@@ -34,6 +34,10 @@ This is a weekly summary of what's going on in its community.
 
     > In the effort to port GHC to WebAssembly, the biggest challenge has been the C toolchain. We have a compiler, a static linker, a libc, and Nix glue for all of this. But we don't have many syscalls.
 
+-   [How to unit test code that uses polymorphic interfaces?](https://www.reddit.com/r/haskell/comments/7gfw3v/how_to_unit_test_code_that_uses_polymorphic/)
+
+    > I've been largely happy with a lot of the solutions I've come up with, but there's one sort of problem I've always been unsatisfied with. It's quite easy to unit test code that uses plain old monomorphic functions, but it's comparatively difficult as soon as polymorphism is involved.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
