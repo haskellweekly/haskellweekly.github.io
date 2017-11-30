@@ -10,6 +10,10 @@ This is a weekly summary of what's going on in its community.
 
     > To complete the `Monad`-hierarchy refactoring started with AMP (& MFP) and unify `return`/`pure` & `>>`/`*>`, move `Monad(return)` and `Monad((>>))` methods out of the `Monad` class into top-level bindings aliasing `Applicative(pure)` and `Applicative((*>))` respectively.
 
+-   [Hamiltonian dynamics in Haskell](https://blog.jle.im/entry/hamiltonian-dynamics-in-haskell.html)
+
+    > At the end of this, we should be able to have Haskell automatically generate equations of motions for any arbitrary system described in arbitrary coordinate systems, and simulate that system.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
