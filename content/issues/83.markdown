@@ -8,7 +8,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
+
+    > We are looking for experienced developers to lead our tech growth in the Fintech space, expand into surrounding countries and develop new products on the platform.
 
 ## In brief
 
