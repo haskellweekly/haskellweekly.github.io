@@ -20,7 +20,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [dejafu: Add a testPropertyFor to {hunit,tasty}-dejafu](https://github.com/barrucadu/dejafu/issues/159)
+-   [persistent: Provide scripts to reproduce errors for each backend](https://github.com/yesodweb/persistent/issues/746)
 
 ## Events
 
