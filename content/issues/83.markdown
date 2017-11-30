@@ -16,7 +16,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Validity](https://hackage.haskell.org/package/validity-0.4.0.2),
+a library that makes invariants explicit by providing a function to check whether the invariants hold.
 
 ## Call for participation
 
