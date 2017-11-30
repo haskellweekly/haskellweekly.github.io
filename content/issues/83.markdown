@@ -30,6 +30,10 @@ This is a weekly summary of what's going on in its community.
 
     > This post follows the construction of parsers described in Graham Hutton's "Programming in Haskell". It's my attempt to work through chapter 13 in this book and understand the details of applicative and monadic combination of parsers presented therein.
 
+-   [WebAssembly call to action: Syscalls needed!](https://www.reddit.com/r/haskell/comments/7fu2vr/webassembly_call_to_action_syscalls_needed/)
+
+    > In the effort to port GHC to WebAssembly, the biggest challenge has been the C toolchain. We have a compiler, a static linker, a libc, and Nix glue for all of this. But we don't have many syscalls.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
