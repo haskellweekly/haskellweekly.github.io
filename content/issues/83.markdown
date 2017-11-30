@@ -23,6 +23,8 @@ undefined
 -   [dejafu: Add a testPropertyFor to {hunit,tasty}-dejafu](https://github.com/barrucadu/dejafu/issues/159)
 -   [persistent: Provide scripts to reproduce errors for each backend](https://github.com/yesodweb/persistent/issues/746)
 
+Check out [24 Pull Requests](https://24pullrequests.com/languages/haskell) for some additional Haskell projects to work on!
+
 ## Events
 
 undefined
