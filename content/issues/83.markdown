@@ -42,6 +42,10 @@ This is a weekly summary of what's going on in its community.
 
     > When you accidentally write something like `let x = .. x ...` it can take hours to realize where you made your mistake. This hits me once in a while, and my colleagues often.
 
+-   [Total Haskell is reasonable Coq](https://arxiv.org/abs/1711.09286)
+
+    > We would like to use the Coq proof assistant to mechanically verify properties of Haskell programs. To that end, we present a tool, named hs-to-coq, that translates total Haskell programs into Coq programs via a shallow embedding.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
