@@ -22,6 +22,10 @@ This is a weekly summary of what's going on in its community.
 
     > I am using yesod-job-queue to define the `job`. The use-case was, that this was a scheduled job and we needed to log the failures. But on running this; there was an error, since `runJob` in yesod-job-queue does not have the `MonadCatch` constraint.
 
+-   [Bracket: A tale of partially applied functions](https://alternativebit.fr/posts/haskell/bracket/)
+
+    > In this post, we describe how we can use partially applied functions as a design building block though the study of a practical example: the `bracket` function.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
