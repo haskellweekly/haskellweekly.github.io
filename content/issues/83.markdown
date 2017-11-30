@@ -38,6 +38,10 @@ This is a weekly summary of what's going on in its community.
 
     > I've been largely happy with a lot of the solutions I've come up with, but there's one sort of problem I've always been unsatisfied with. It's quite easy to unit test code that uses plain old monomorphic functions, but it's comparatively difficult as soon as polymorphism is involved.
 
+-   [GHC: Warn on recursive bindings](https://ghc.haskell.org/trac/ghc/ticket/14527)
+
+    > When you accidentally write something like `let x = .. x ...` it can take hours to realize where you made your mistake. This hits me once in a while, and my colleagues often.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
