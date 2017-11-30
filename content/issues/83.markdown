@@ -14,6 +14,10 @@ This is a weekly summary of what's going on in its community.
 
     > At the end of this, we should be able to have Haskell automatically generate equations of motions for any arbitrary system described in arbitrary coordinate systems, and simulate that system.
 
+-   [Haskell exceptions and FFI wrappers](https://neilmitchell.blogspot.com/2017/11/haskell-exceptions-and-ffi-wrappers.html)
+
+    > The Haskell FFI is incredibly powerful, allowing you to convert Haskell functions into C function pointers. In this post I'll give a quick example, then go into what happens if the Haskell function throws an exception.
+
 ## Jobs
 
 -   [Capital Match is seeking a Software Engineer in Singapore](https://functionaljobs.com/jobs/9053-software-engineer-haskell-full-stack-at-capital-match)
