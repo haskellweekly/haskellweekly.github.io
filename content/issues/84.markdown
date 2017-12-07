@@ -32,6 +32,10 @@ undefined
 
     > I love MOBAs, and I love Haskell. Since Paragon is my current go-to game, I wanted to determine the cards to buy to maximize my damage per second.
 
+-   [Req 1.0.0, HTTP client, and streaming](https://markkarpov.com/post/req-1.0.0-http-client-and-streaming.html)
+
+    > This post is about changes in `req-1.0.0`, some details of how `http-client` works, in particular how it streams response bodies. Even if you do not want to use `req` for some reason, I hope the post still may be interesting.
+
 ## Jobs
 
 undefined
