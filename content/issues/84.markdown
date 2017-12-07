@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [Stack 1.6.1](https://groups.google.com/d/msg/haskell-stack/pRZAMkBlx8U/LrDrGPB8AAAJ)
+
+    Stack, a cross-platform program for developing Haskell projects, released version 1.6.1.
 
 ## Jobs
 
