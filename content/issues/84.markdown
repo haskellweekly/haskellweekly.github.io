@@ -12,6 +12,10 @@ undefined
 
     > Haskell has had a great year and 2017 was defined by vast quantities of new code, including 14,000 new Haskell projects on Github. The amount of writing this year was voluminous and my list of interesting work is eight times as large as last year.
 
+-   [Stack and nightly breakage](https://www.snoyman.com/blog/2017/12/stack-and-nightly-breakage)
+
+    > I'm sure a number of readers have already seen something about the situation around Stack and Stackage Nightly/GHC 8.2. I tried to clarify how this happened on the relevant Github issue, plus the GHC Trac ticket, but thought I'd reshare as a blog post for others who are interested.
+
 ## Jobs
 
 undefined
