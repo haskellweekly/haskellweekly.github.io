@@ -28,6 +28,10 @@ undefined
 
     > When two garbaged-collected languages share references to the same values, each garbage collector (GC) needs to be careful to not collect these values while the other language has references to them.
 
+-   [MOBA item optimization in Haskell](http://deliberate-software.com/optimization/)
+
+    > I love MOBAs, and I love Haskell. Since Paragon is my current go-to game, I wanted to determine the cards to buy to maximize my damage per second.
+
 ## Jobs
 
 undefined
