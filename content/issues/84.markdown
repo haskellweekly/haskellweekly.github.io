@@ -74,4 +74,8 @@ undefined
 
 ## Events
 
-undefined
+-   December 7: Raleigh Haskell Meetup: [(hack . yack)](https://www.meetup.com/Raleigh-Haskell-Meetup/events/245546893/)
+-   December 11: Karlsruhe Haskell Lerngruppe: [Typen und Typklassen: Kapitel 6](https://www.meetup.com/Karlsruhe-Haskell-Lerngruppe/events/244433365/)
+-   December 12: FP AMS: [Second category theory study group meetup](https://www.meetup.com/fp-ams/events/244922609/)
+-   December 13: Sydney Haskell User Group: [Haskell Programming From First Principles Study Group](https://www.meetup.com/SydneyHaskell/events/245485224/)
+-   December 14: Las Vegas Functional Programming User Group: [Functional Programming Meetup](https://www.meetup.com/las-vegas-functional-programming/events/245590893/)
