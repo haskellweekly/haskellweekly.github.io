@@ -8,6 +8,10 @@ undefined
 
     Stack, a cross-platform program for developing Haskell projects, released version 1.6.1.
 
+-   [Reflecting on Haskell in 2017](http://www.stephendiehl.com/posts/haskell_2018.html)
+
+    > Haskell has had a great year and 2017 was defined by vast quantities of new code, including 14,000 new Haskell projects on Github. The amount of writing this year was voluminous and my list of interesting work is eight times as large as last year.
+
 ## Jobs
 
 undefined
