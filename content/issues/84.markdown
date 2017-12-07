@@ -1,6 +1,8 @@
 <!-- 2017-12-07 -->
 
-undefined
+Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
 
 ## Featured
 
@@ -46,7 +48,12 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Confer Health seeking Software Engineer in Boston](https://jobs.lever.co/lumiohealth.com/6c004fba-e034-4b5f-8c5c-dce928b46f24)
+
+    > We're a small, world-class team combining Silicon Valley urgency with East Coast science. We just closed a large Series A led by one of Silicon Valley's best investors and we're looking to add a third person to our software team, so come work with us!
+
+Are you looking to hire a Haskell developer?
+If so, [advertise with us](/advertising.html)!
 
 ## In brief
 
