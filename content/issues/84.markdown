@@ -20,7 +20,10 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [codeworld: Bookmarks in Guide](https://github.com/google/codeworld/issues/569)
+-   [duckling: Debugging tools for classifiers](https://github.com/facebook/duckling/issues/114)
+-   [idris-vimscript: Choose optimisations to enable based on command-line arguments](https://github.com/owickstrom/idris-vimscript/issues/7)
+-   [shakespeare: Many functions in shakespeare are undocumented](https://github.com/yesodweb/shakespeare/issues/213)
 
 ## Events
 
