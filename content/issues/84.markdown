@@ -16,6 +16,10 @@ undefined
 
     > I'm sure a number of readers have already seen something about the situation around Stack and Stackage Nightly/GHC 8.2. I tried to clarify how this happened on the relevant Github issue, plus the GHC Trac ticket, but thought I'd reshare as a blog post for others who are interested.
 
+-   [Pure functional validation in a nutshell](https://medium.com/blacklane-engineering/pure-functional-validation-64a7885d22ac)
+
+    > Why should you care about typed, functional programming? The data validation example sort of makes the point on its own: if you care about validating the data that users input into your forms, why shouldn't you care just as much about the data that gets input into your functions?
+
 ## Jobs
 
 undefined
