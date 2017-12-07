@@ -36,6 +36,10 @@ undefined
 
     > This post is about changes in `req-1.0.0`, some details of how `http-client` works, in particular how it streams response bodies. Even if you do not want to use `req` for some reason, I hope the post still may be interesting.
 
+-   [Receipts printer photo booth](https://trandi.wordpress.com/2017/11/29/receipts-printer-photo-booth/)
+
+    > Several days of struggle didn't yield much for capturing the video stream from a webcam. A few proof of concept libraries, not updated in years, are no match for the Python ones, which proves again that what matters is not really how "good" a programming language is, but its ecosystem!
+
 ## Jobs
 
 undefined
