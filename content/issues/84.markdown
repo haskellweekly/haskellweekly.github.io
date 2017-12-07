@@ -20,6 +20,10 @@ undefined
 
     > Why should you care about typed, functional programming? The data validation example sort of makes the point on its own: if you care about validating the data that users input into your forms, why shouldn't you care just as much about the data that gets input into your functions?
 
+-   [1 year of Haskell](https://mmhaskell.com/blog/2017/12/4/1-year-of-haskell)
+
+    > This week marks the one year anniversary of Monday Morning Haskell! I've written an awful lot in the past year.
+
 ## Jobs
 
 undefined
