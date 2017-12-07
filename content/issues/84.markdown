@@ -40,6 +40,10 @@ undefined
 
     > Several days of struggle didn't yield much for capturing the video stream from a webcam. A few proof of concept libraries, not updated in years, are no match for the Python ones, which proves again that what matters is not really how "good" a programming language is, but its ecosystem!
 
+-   [Finding bugs in Haskell code by proving it](https://www.joachim-breitner.de/blog/734-Finding_bugs_in_Haskell_code_by_proving_it)
+
+    > We have used `hs-to-coq` on various examples, as described in our CPP'18 paper, but it is high-time to use it for real.
+
 ## Jobs
 
 undefined
