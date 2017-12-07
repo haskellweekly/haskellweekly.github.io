@@ -50,7 +50,16 @@ undefined
 
 ## In brief
 
-undefined
+-   [Answering r/haskell: How to unit test code that uses polymorphic interfaces?](https://deque.blog/2017/12/01/answering-r-haskell-how-to-unit-test-code-that-uses-polymorphic-interfaces/)
+-   [Applicative functors and data validation](https://carlosmchica.github.io/applicatives-validation/)
+-   [Applicative functors in Haskell](https://medium.com/lazy-eval/applicative-functors-in-haskell-f509e1c764d3)
+-   [Book review: "Programming in Haskell" by Graham Hutton (2nd ed.)](https://eli.thegreenplace.net/2017/book-review-programming-in-haskell-by-graham-hutton-2nd-ed/)
+-   [Constructing dependent vectors](https://ipfs.io/ipfs/QmT9BRYANsGddN52eMsC3JGNwStbda5h8Zirm2gCmyjb8p/blog/constructing-vectors/)
+-   [Debugging Church numerals in Haskell](http://www.hansdieterhiep.nl/tutorials/debugging-church-numerals-in-haskell/)
+-   [Introduction to golden testing](https://ro-che.info/articles/2017-12-04-golden-tests)
+-   [Preprocessing](https://www.arcadianvisions.com/blog/2017/hpp.html)
+-   [Using Haskell on the frontend](http://blog.vmchale.com/article/haskell-frontend)
+-   [ZuriHac 2018: Registration now open](https://mail.haskell.org/pipermail/haskell/2017-December/025310.html)
 
 ## Package of the week
 
