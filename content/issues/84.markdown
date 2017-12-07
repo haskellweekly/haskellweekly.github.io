@@ -24,6 +24,10 @@ undefined
 
     > This week marks the one year anniversary of Monday Morning Haskell! I've written an awful lot in the past year.
 
+-   [Making two garbage collectors be good neighbors (using linear types)](https://www.tweag.io/posts/2017-11-29-linear-jvm.html)
+
+    > When two garbaged-collected languages share references to the same values, each garbage collector (GC) needs to be careful to not collect these values while the other language has references to them.
+
 ## Jobs
 
 undefined
