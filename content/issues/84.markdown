@@ -63,7 +63,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Warp](https://www.stackage.org/nightly-2017-12-07/package/warp-3.2.13),
+a fast, light-weight web server for WAI applications.
 
 ## Call for participation
 
