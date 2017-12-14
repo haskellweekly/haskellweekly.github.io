@@ -10,7 +10,9 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [A tour of Go in Haskell](https://a-tour-of-go-in-haskell.syocy.net/en_US/index.html)
+
+    > Welcome to a tour of Go in Haskell. This site will show how to write the concurrency section of "A Tour of Go" in Haskell. "A Tour of Go" is a famous tutorial of Go. Haskell has concurrency features similar to Go: lightweight thread, channel, etc..
 
 ## Jobs
 
