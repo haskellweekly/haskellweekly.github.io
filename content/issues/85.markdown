@@ -34,6 +34,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > There are two related C functions for finding the next character in a string: `strchr` which assumes the string has a NUL character at the end, and `memchr` which takes the string length as an argument. For strings where you have the size and a NUL terminator, which is fastest?
 
+-   [Haskell for greater Elm](http://jstoelm.com/episodes/16-haskell-for-greater-elm.html)
+
+    > We turn our attention back to Haskell to help us get the best possible foundation for really diggin' into functional programing. For me, only after doing piles of short examples does it sink in for me. It's the repetition and console output that is key.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
