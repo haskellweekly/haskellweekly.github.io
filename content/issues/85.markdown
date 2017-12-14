@@ -30,6 +30,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > This post will demonstrate a couple of techniques for using the GHCJS helper libraries: jsaddle and jsaddle-dom to: Create an ArrayBuffer for use with WebGL, and leverage the Notification API available in some browsers.
 
+-   [Benchmarking `strchr` vs `memchr`](https://neilmitchell.blogspot.com/2017/12/benchmarking-strchr-vs-memchr.html)
+
+    > There are two related C functions for finding the next character in a string: `strchr` which assumes the string has a NUL character at the end, and `memchr` which takes the string length as an argument. For strings where you have the size and a NUL terminator, which is fastest?
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
