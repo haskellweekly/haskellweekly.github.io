@@ -58,7 +58,12 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## In brief
 
-undefined
+-   [25th anniversary of GHC](https://mail.haskell.org/pipermail/haskell-cafe/2017-December/128289.html)
+-   [Announce: Cabal 2.0.1.1 / cabal-install 2.0.0.1](https://mail.haskell.org/pipermail/cabal-devel/2017-December/010409.html)
+-   [Announce: Haskell Platform 8.2.2](https://mail.haskell.org/pipermail/haskell-cafe/2017-December/128291.html)
+-   [Co finds a pairing](http://blog.functorial.com/posts/2017-12-10-Co-Finds-A-Pairing.html)
+-   [Continuation passing style free monads and direct style free monads](https://deque.blog/2017/12/08/continuation-passing-style-free-monads-and-direct-style-free-monads/)
+-   [Streaming arithmetic coding](https://patternsinfp.wordpress.com/2017/12/11/streaming-arithmetic-coding/)
 
 ## Package of the week
 
