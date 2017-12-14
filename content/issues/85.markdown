@@ -38,6 +38,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > We turn our attention back to Haskell to help us get the best possible foundation for really diggin' into functional programing. For me, only after doing piles of short examples does it sink in for me. It's the repetition and console output that is key.
 
+-   [Haskellaus: Haskell meets Nikolaus](http://techblog.holidaycheck.com/post/2017/12/09/haskellaus-haskell-meets-nikolaus)
+
+    > The lazily evaluated FP Saint Nicholas doesn't show up until you force him so he is a bit late, but this Friday is Haskellaus --- treats for the functionally inclined. Saint Nicholas has a bag full of challenges that we will try to solve.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
