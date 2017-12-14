@@ -20,7 +20,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [purebred: Simple version which build/version of purebred users are running](https://github.com/purebred-mua/purebred/issues/124)
+-   [universum: Change arguments order for foldl'](https://github.com/serokell/universum/issues/91)
 
 ## Events
 
