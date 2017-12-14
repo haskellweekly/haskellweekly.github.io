@@ -22,6 +22,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     This slideshow presents basic Haskell syntax and explains how to read and understand it.
 
+-   [Announcing generic-lens 0.5.0.0](http://kcsongor.github.io/generic-lens/)
+
+    > The generic-lens library provides utilities for deriving various optics for your datatypes, using `GHC.Generics`. In this post I'll go over some of the features and provide examples of using them.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
