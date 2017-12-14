@@ -8,7 +8,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
+
+    > As a key member of the development team, you will be responsible for designing and implementing solutions that analyze and process large data streams and populate our columnar analytics databases in AWS.
 
 ## In brief
 
