@@ -14,6 +14,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > Welcome to a tour of Go in Haskell. This site will show how to write the concurrency section of "A Tour of Go" in Haskell. "A Tour of Go" is a famous tutorial of Go. Haskell has concurrency features similar to Go: lightweight thread, channel, etc..
 
+-   [All about strictness analysis: Part 1](http://fixpt.de/blog/2017-12-04-strictness-analysis-part-1.html)
+
+    > Non-strict languages like Haskell often require the programmer to reason about strictness to achieve good performance. In this post, I want to offer a surgical approach to plugging space leaks that works hand in hand with optimizations carried out by the compiler.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
