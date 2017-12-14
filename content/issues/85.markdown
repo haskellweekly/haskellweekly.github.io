@@ -18,6 +18,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > Non-strict languages like Haskell often require the programmer to reason about strictness to achieve good performance. In this post, I want to offer a surgical approach to plugging space leaks that works hand in hand with optimizations carried out by the compiler.
 
+-   [Reading simple Haskell](https://soupi.github.io/rfc/reading_simple_haskell/)
+
+    This slideshow presents basic Haskell syntax and explains how to read and understand it.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
