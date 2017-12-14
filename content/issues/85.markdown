@@ -46,6 +46,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > I've been working on quickcheck-classes for a while now to test type class instances in various libraries and applications. It provides property tests to check the laws for several common typeclasses in base.
 
+-   [Encoding overlapping, extensible isomorphisms](https://gist.github.com/Icelandjack/ae22c42b01c9be7e8a82f80bc8ab3f1c/dc0093f4a69fd77c63e001ed43451529e497bcde)
+
+    > My initial motivation for `-XDerivingVia` was deriving across isomorphisms. Standard type-class encodings of isos turn out to be awkward due to overlap. There may be many different witnesses to an isomorphism between two types.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
