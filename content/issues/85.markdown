@@ -26,6 +26,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > The generic-lens library provides utilities for deriving various optics for your datatypes, using `GHC.Generics`. In this post I'll go over some of the features and provide examples of using them.
 
+-   [JSaddle: ArrayBuffers and notifications](https://qfpl.io/posts/working-with-jsaddle/)
+
+    > This post will demonstrate a couple of techniques for using the GHCJS helper libraries: jsaddle and jsaddle-dom to: Create an ArrayBuffer for use with WebGL, and leverage the Notification API available in some browsers.
+
 ## Jobs
 
 -   [TVision Insights seeking Software Engineer in Boston](https://stackoverflow.com/jobs/148122/backend-software-engineer-haskell-scala-clojure-tvision-insights)
