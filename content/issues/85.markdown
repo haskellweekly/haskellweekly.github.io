@@ -16,7 +16,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Brick](https://hackage.haskell.org/package/brick-0.30),
+a declarative terminal user interface library.
 
 ## Call for participation
 
