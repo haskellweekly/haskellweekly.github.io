@@ -56,6 +56,8 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > This is a fully remote job; the salary is okay-ish, but not quite Silicon Valley grade. I would say that it's a great first job for someone who doesn't consider themselves a beginner Haskeller anymore, but doesn't have enough work experience and doesn't know where to get some.
 
+-   [Biocad seeking Russian Haskell developer in Saint Petersburg](https://spb.hh.ru/vacancy/23792285)
+
 ## In brief
 
 -   [Adding naive email templating to my Servant-powered Haskell web application](https://vadosware.io/post/adding-email-templating-to-my-servant-app/)
