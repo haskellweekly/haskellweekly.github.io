@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [Allure: Add/improve cave description texts](https://github.com/AllureOfTheStars/Allure/issues/77)
+-   [dejafu: Use LTS-10 in travis](https://github.com/barrucadu/dejafu/issues/166)
+-   [stack: Show resolver being used when `stack ghci` is invoked outside of a project directory](https://github.com/commercialhaskell/stack/issues/365)
 
 ## Events
 
