@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [extensible-effects: Remove usage of deprecated `OverlappingInstances`](https://github.com/suhailshergill/extensible-effects/issues/77)
+-   [ghcid: Add timestamp to "All good" message](https://github.com/ndmitchell/ghcid/issues/124)
+-   [stack: `stack setup --verbose` should also cause verbose output of GHC configure process if possible](https://github.com/commercialhaskell/stack/issues/3716)
 
 ## Events
 
