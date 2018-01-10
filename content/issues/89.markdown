@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [eta: Put all the mem(cpy, cmp, set) utility functions in MemoryManager](https://github.com/typelead/eta/issues/604)
+-   [pretty-simple: Add pTraceOpt function in Debug.Pretty.Simple](https://github.com/cdepillabout/pretty-simple/issues/21)
+-   [rio: Rewrite export statements for nicer Haddocks](https://github.com/commercialhaskell/rio/issues/17)
 
 ## Events
 
