@@ -20,7 +20,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [brittany: end of line comment moves to next guard](https://github.com/lspitzner/brittany/issues/112)
+-   [hadolint: Warn on bad COPY last argument](https://github.com/hadolint/hadolint/issues/154)
+-   [Idris-dev: Library names in package files may not contain hyphens](https://github.com/idris-lang/Idris-dev/issues/4292)
 
 ## Events
 
