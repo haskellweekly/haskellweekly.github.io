@@ -65,7 +65,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 -   [Immutability: The less things change, the more you know](https://mmhaskell.com/blog/2018/1/8/immutability-the-less-things-change-the-more-you-know)
 -   [Monads are just monoids in the category of endofunctors](https://blog.merovius.de/2018/01/08/monads-are-just-monoids.html)
 -   [Optimizing tagless final](https://lukajcb.github.io/blog/functional/2018/01/03/optimizing-tagless-final.html)
--   [Parsing and tweeting](https://ibnuda.gitlab.io/2018-01-07-parsing-and-tweeting.html)
+-   [Parsing and tweeting](https://ibnuda.gitlab.io/2018-01-13-parsing-and-tweeting.html)
 -   [Request for comments on expanded `Data.Sequence` docs](https://np.reddit.com/r/haskell/comments/7p6eg2/request_for_comments_on_expanded_datasequence_docs/)
 -   [SQL database design with Yesod and Persistent](https://bensima.com/2018/01/sql-database-design-with-yesod-and-persistent/)
 -   [Unsafely inspecting monadic computations](https://rubenpieters.github.io/programming/purescript/2018/01/10/unsafely-inspecting-monadic-computations.html)
