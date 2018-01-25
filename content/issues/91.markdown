@@ -68,7 +68,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 -   [Professional Haskellers: What are your major pain points?](https://np.reddit.com/r/haskell/comments/7rwuxb/professional_haskellers_what_are_your_major_pain/)
 -   [Simon Peyton Jones: A small milestone](https://mail.haskell.org/pipermail/haskell-cafe/2018-January/128447.html)
 -   [Stackage nixpkgs overlays](https://blog.typeable.io/posts/2018-01-19-stackage-overlay.html)
--   [What makes my Haskell programs (almost) but free?](https://np.reddit.com/r/haskell/comments/7s0rvb/what_makes_my_haskell_programs_almost_bug_free/)
+-   [What makes my Haskell programs (almost) bug free?](https://np.reddit.com/r/haskell/comments/7s0rvb/what_makes_my_haskell_programs_almost_bug_free/)
 
 ## Package of the week
 
