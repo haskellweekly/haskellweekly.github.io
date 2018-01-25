@@ -20,7 +20,10 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [containers: Test sort stability](https://github.com/haskell/containers/issues/509)
+-   [dhall-to-cabal: Correct divergences from cabal field names](https://github.com/ocharles/dhall-to-cabal/issues/13)
+-   [hledger: Feature req: Add json as output format](https://github.com/simonmichael/hledger/issues/689)
+-   [stack: Allow unqualified component syntax](https://github.com/commercialhaskell/stack/issues/3790)
 
 ## Events
 
