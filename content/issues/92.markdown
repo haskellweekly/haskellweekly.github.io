@@ -24,4 +24,4 @@ undefined
 
 ## Events
 
-undefined
+-   February 5: [Vancouver's Haskell Peer Study Group](https://www.meetup.com/Vancouver-Functional-Programmers/events/247314298/)
