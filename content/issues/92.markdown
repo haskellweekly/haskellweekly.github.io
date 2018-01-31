@@ -4,7 +4,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [Haskell to MySQL via YeshQL](http://www.adomokos.com/2018/01/haskell-to-mysql-via-yeshql-part-3.html)
+
+    > A 3 part series with a step-by-step tutorial on setting up, using and testing Haskell with MySQL using YeshQL.
 
 ## Jobs
 
