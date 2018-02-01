@@ -22,7 +22,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [Idris-dev: :exec power 10 100000 prints 0 as the output](https://github.com/idris-lang/Idris-dev/issues/4311)
+-   [purescript: Functor deriving should support quantified arguments of a constructor](https://github.com/purescript/purescript/issues/3232)
+-   [stack: Use hpack executable from PATH if it is newer than what stack ships with?](https://github.com/commercialhaskell/stack/issues/3809)
 
 ## Events
 
