@@ -1,0 +1,28 @@
+<!-- 2018-02-08 -->
+
+undefined
+
+## Featured
+
+undefined
+
+## Jobs
+
+undefined
+
+## In brief
+
+undefined
+
+## Package of the week
+
+undefined
+
+## Call for participation
+
+-   [hledger: need to read scientific notation numbers in CSV](https://github.com/simonmichael/hledger/issues/704)
+-   [luna: Add `luna --version --verbose`](https://github.com/luna/luna/issues/118)
+
+## Events
+
+undefined
