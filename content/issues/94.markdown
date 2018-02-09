@@ -24,4 +24,5 @@ undefined
 
 ## Events
 
-undefined
+-   February 19: [Charlottesville Haskell Book Reading Club - Chapter 5](https://www.meetup.com/Charlottesville-Haskell-Book-Reading-Group/events/247634074/) in Charlottesville, Virginia, United States
+
