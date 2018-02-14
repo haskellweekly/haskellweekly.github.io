@@ -25,4 +25,4 @@ undefined
 ## Events
 
 -   February 19: [Charlottesville Haskell Book Reading Club - Chapter 5](https://www.meetup.com/Charlottesville-Haskell-Book-Reading-Group/events/247634074/) in Charlottesville, Virginia, United States
-
+-   February 27: [Auckland FP Meetup 3-topic event: Nix/NixOS; Haskell web dev; Lisp](https://www.meetup.com/Functional-Programming-Auckland/events/247729046/) in Auckland, New Zealand
