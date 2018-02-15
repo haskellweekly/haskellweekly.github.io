@@ -30,7 +30,11 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [bugsnag-reporter: Maybe fields should encode as omitted, not null](https://github.com/pbrisbin/bugsnag-reporter/issues/25)
+-   [dejafu: Remove use of head](https://github.com/barrucadu/dejafu/issues/196)
+-   [exercism/haskell: palindrome-products: Use Maybe, returning Nothing when there is no palindrome in the given range](https://github.com/exercism/haskell/issues/657)
+-   [log-warper: Remove 'MemoryQueue' feature](https://github.com/serokell/log-warper/issues/98)
+-   [stack: stack clean should be more thorough by default](https://github.com/commercialhaskell/stack/issues/3863)
 
 ## Events
 
