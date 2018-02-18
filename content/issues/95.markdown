@@ -16,7 +16,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [massiv](https://hackage.haskell.org/package/massiv),
+a library for multi-dimensional Arrays with fusion, stencils and parallel computation.
 
 ## Call for participation
 
