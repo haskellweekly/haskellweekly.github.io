@@ -25,10 +25,6 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > For certain hints HLint needs to determine if a Haskell expression is atomic. I wrote a generic method to generate expressions and test if they are atomic.
 
--   [The magic "Just do it" type class](https://www.joachim-breitner.de/blog/735-The_magic_&#x201c;Just_do_it&#x201d;_type_class)
-
-    > What matters is that once I wrote that type signature, I feel silly having to also write the code, because there isn't really anything interesting about that. Instead, I'd like to tell the compiler to just do it for me!
-
 -   [Applicative functors for fun and parsing](https://arunraghavan.net/2018/02/applicative-functors-for-fun-and-parsing/)
 
     > I am very excited by how elegantly Haskell allows us to express these ideas, using fundamental aspects of its type(class) system.
