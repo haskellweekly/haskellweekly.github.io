@@ -17,12 +17,10 @@ import qualified System.Process as Process
 main :: IO ()
 main = do
   token <- Environment.getEnv "GITHUB_TOKEN"
-  branch <- Environment.getEnv "TRAVIS_BRANCH"
   commit <- Environment.getEnv "TRAVIS_COMMIT"
-  isPullRequest <- Environment.getEnv "TRAVIS_PULL_REQUEST"
+  tag <- Environment.getEnv "TRAVIS_TAG"
 
-  Monad.guard (branch == "hakyll")
-  Monad.guard (isPullRequest == "false")
+  Monad.guard (not (null tag))
 
   Directory.setCurrentDirectory (FilePath.joinPath ["_site"])
   writeFile "CNAME" "haskellweekly.news"
