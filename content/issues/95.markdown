@@ -21,7 +21,9 @@ a library for multi-dimensional Arrays with fusion, stencils and parallel comput
 
 ## Call for participation
 
-undefined
+-   [graphql-api: How to throw an error from a handler?](https://github.com/haskell-graphql/graphql-api/issues/172)
+-   [purescript: :browse in REPL doesn't show re-exported names](https://github.com/purescript/purescript/issues/3247)
+-   [stack: Allow github shorthand for extra-deps](https://github.com/commercialhaskell/stack/issues/3873)
 
 ## Events
 
