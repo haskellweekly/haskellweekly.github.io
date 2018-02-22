@@ -15,7 +15,7 @@ install:
   - stack build --only-dependencies
 script:
   - stack build
-  - stack sdist --pvp-bounds both
+  - stack sdist
   - stack exec haskell-weekly
 after_success:
   - stack tools/deploy.hs
