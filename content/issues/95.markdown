@@ -27,4 +27,4 @@ a library for multi-dimensional Arrays with fusion, stencils and parallel comput
 
 ## Events
 
-undefined
+-   February 27: [Auckland FP Meetup 3-topic event: Nix/NixOS; Haskell web dev; Lisp](https://www.meetup.com/Functional-Programming-Auckland/events/247729046/) in Auckland, New Zealand
