@@ -1,6 +1,6 @@
-/_site/
-/.stack-work/
-/*.cabal
-/*.hp
-/*.prof
-/*.tix
+_site/
+.stack-work/
+*.cabal
+*.hp
+*.prof
+*.tix
