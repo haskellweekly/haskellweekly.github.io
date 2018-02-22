@@ -2,7 +2,7 @@ name: haskell-weekly
 version: 0.0.0
 
 category: Web
-description: Haskell Weekly is an email newsletter
+description: Haskell Weekly is an email newsletter.
 extra-source-files:
   - content/**/*
   - README.markdown
