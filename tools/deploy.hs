@@ -1,13 +1,3 @@
-#!/usr/bin/env stack
-{-
-  stack
-  --resolver lts-10.0
-  script
-  --package directory
-  --package filepath
-  --package process
--}
-
 import qualified Control.Monad as Monad
 import qualified System.Directory as Directory
 import qualified System.Environment as Environment

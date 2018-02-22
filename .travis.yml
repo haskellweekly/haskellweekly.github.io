@@ -18,4 +18,4 @@ script:
   - stack sdist
   - stack exec haskell-weekly
 after_success:
-  - stack tools/deploy.hs
+  - stack exec runghc tools/deploy.hs
