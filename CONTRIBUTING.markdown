@@ -6,12 +6,12 @@ project, you agree to abide by the [code of conduct][].
 
 If you want to bring our attention to something, please open an issue! This can
 be used for anything from typos to new content. For example, this has been used
-for events (#119), calls for participation (#138), jobs (#136), and bugs (#62).
+for [calls for participation][], [jobs][], and [bugs][].
 
 If you want to make a change yourself, please open a pull request! We encourage
 you to make changes when you can, and we'll work with you to get your changes
-merged quickly. For instance, this has been used for events (#160), packages of
-the week (#159), featured content (#148), and typos (#145).
+merged quickly. For instance, this has been used for [packages of the week][],
+[featured content][], and [typos][].
 
 ## Contributing code
 
@@ -27,8 +27,8 @@ code. In addition, there are a couple other things to keep in mind:
     pull request will be tested on Travis CI. The tests must pass before the
     pull request will be merged, but we can help you with any problems.
 
--   If you do need or want to run the generator locally, you can do so with
-    this command:
+-   If you want or need to run the generator locally, you can do so with this
+    command:
 
     ``` sh
     stack --install-ghc build --file-watch --exec haskell-weekly
@@ -45,4 +45,10 @@ code. In addition, there are a couple other things to keep in mind:
     ```
 
 [code of conduct]: ./CODE_OF_CONDUCT.markdown
+[calls for participation]: https://github.com/haskellweekly/haskellweekly.github.io/issues/138
+[jobs]: https://github.com/haskellweekly/haskellweekly.github.io/issues/136
+[bugs]: https://github.com/haskellweekly/haskellweekly.github.io/issues/62
+[packages of the week]: https://github.com/haskellweekly/haskellweekly.github.io/issues/159
+[featured content]: https://github.com/haskellweekly/haskellweekly.github.io/issues/148
+[typos]: https://github.com/haskellweekly/haskellweekly.github.io/issues/145
 [Stack]: https://docs.haskellstack.org/en/stable/README/
