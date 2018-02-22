@@ -4,7 +4,9 @@ version: 0.0.0
 category: Web
 description: Haskell Weekly is an email newsletter.
 extra-source-files:
+  - CODE_OF_CONDUCT.markdown
   - content/**/*
+  - CONTRIBUTING.markdown
   - README.markdown
 github: haskellweekly/haskellweekly.github.io
 license: MIT
