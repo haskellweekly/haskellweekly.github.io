@@ -381,18 +381,18 @@ copyFileAt input output path =
 createDirectoryAt :: [FilePath] -> IO ()
 createDirectoryAt = Directory.createDirectoryIfMissing True . FilePath.joinPath
 
-formatDay :: String -> Time.Day -> Text
-formatDay format = Text.pack . Time.formatTime Time.defaultTimeLocale format
+formatDay :: Text -> Time.Day -> Text
+formatDay format = Text.pack . Time.formatTime Time.defaultTimeLocale (Text.unpack format)
 
-hasExtension :: String -> FilePath -> Bool
-hasExtension extension = (== '.' : extension) . FilePath.takeExtension
+hasExtension :: Text -> FilePath -> Bool
+hasExtension extension = (== '.' : Text.unpack extension) . FilePath.takeExtension
 
 listDirectoryAt :: [FilePath] -> IO [FilePath]
 listDirectoryAt = Directory.listDirectory . FilePath.joinPath
 
-parseDay :: String -> Text -> Maybe Time.Day
+parseDay :: Text -> Text -> Maybe Time.Day
 parseDay format =
-  Time.parseTimeM False Time.defaultTimeLocale format . Text.unpack
+  Time.parseTimeM False Time.defaultTimeLocale (Text.unpack format) . Text.unpack
 
 readFileAt :: [FilePath] -> IO Text
 readFileAt path = do
