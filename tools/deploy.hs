@@ -26,12 +26,18 @@ main = do
 
   Directory.setCurrentDirectory (FilePath.joinPath ["_site"])
   writeFile "CNAME" "haskellweekly.news"
-  let git = Process.callProcess "git"
+  let
+    git = Process.callProcess "git"
+    email = "taylor@fausak.me"
+    name = "Taylor Fausak"
+    author = "Haskell Weekly <info@haskellweekly.news>"
+    message = "Automatic deploy of " ++ commit
+    origin = "https://" ++ token ++ "@github.com/haskellweekly/haskellweekly.github.io.git"
 
   git ["init"]
   git ["add", "."]
-  git ["config", "--global", "user.email", "taylor@fausak.me"]
-  git ["config", "--global", "user.name", "Taylor Fausak"]
-  git ["commit", "--author", "Haskell Weekly <info@haskellweekly.news>", "--message", "Automatic deploy of " ++ commit]
-  git ["remote", "add", "origin", "https://" ++ token ++ "@github.com/haskellweekly/haskellweekly.github.io.git"]
+  git ["config", "--global", "user.email", email]
+  git ["config", "--global", "user.name", name]
+  git ["commit", "--author", author, "--message", message]
+  git ["remote", "add", "origin", origin]
   git ["push", "--force", "--quiet", "origin", "master"]
