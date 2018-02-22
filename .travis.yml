@@ -17,5 +17,12 @@ script:
   - stack build
   - stack sdist
   - stack exec haskell-weekly
-after_success:
-  - stack exec runghc tools/deploy.hs
+deploy:
+  provider: pages
+  fqdn: haskellweekly.news
+  github-token: $GITHUB_TOKEN
+  local-dir: _site
+  skip-cleanup: true
+  target-branch: master
+  on:
+    tags: true
