@@ -27,7 +27,8 @@ code. In addition, there are a couple other things to keep in mind:
     pull request will be tested on Travis CI. The tests must pass before the
     pull request will be merged, but we can help you with any problems.
 
--   You can run the generator locally with this command:
+-   If you do need or want to run the generator locally, you can do so with
+    this command:
 
     ``` sh
     stack --install-ghc build --file-watch --exec haskell-weekly
