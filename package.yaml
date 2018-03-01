@@ -28,6 +28,7 @@ executables:
       - -threaded
       - -Weverything
       - -Wno-implicit-prelude
+      - -Wno-safe
       - -Wno-unsafe
     main: haskell-weekly.hs
     source-dirs: executables
