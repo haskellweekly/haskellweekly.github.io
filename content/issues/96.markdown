@@ -9,7 +9,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
--   [Build large polyglot projects with Bazel: Now with Haskell supporT](https://www.tweag.io/posts/2018-02-28-bazel-haskell.html)
+-   [Build large polyglot projects with Bazel: Now with Haskell support](https://www.tweag.io/posts/2018-02-28-bazel-haskell.html)
 
     > We have rules for building Haskell libraries (packages), binaries, tests and Haddock documentation. Libraries or binaries can freely provide C/C++ or Java targets as dependencies, or use preprocessors such as `hsc2hs`.
 
