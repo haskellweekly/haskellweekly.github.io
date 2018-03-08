@@ -33,7 +33,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > Last week I gave a talk at Off the Beaten Track 2018 about something that Richard Eisenberg, Harley Eades and I have been thinking about recently: namely, how to generate good interactive error explanations for programmers, especially for type errors.
 
--   [`LambdaCase` in the wild](https://storm-country.com/blog/LambdaCase)
+-   [`LambdaCase` in the wild](http://storm-country.com/blog/LambdaCase)
 
     > Of all the many, many Haskell language extensions supported by GHC, `LambdaCase` is one of my favorites. It has essentially no downside, does not conflict with any existing code, and introduces a single, simple, useful new construct to the language.
 
