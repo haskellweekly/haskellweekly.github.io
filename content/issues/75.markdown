@@ -20,7 +20,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > Much has been said about the benefits of `Free` monads. The idea of expressing computation as a data type is very powerful. Separating interpretation from representation gives us a lot of freedom, but what are its costs?
 
--   ["Category Theory for Programmers" PDF](https://www.reddit.com/r/haskell/comments/73e7l3/i_made_bartosz_milewskis_book_category_theory_for/)
+-   ["Category Theory for Programmers" PDF](https://np.reddit.com/r/haskell/comments/73e7l3/i_made_bartosz_milewskis_book_category_theory_for/)
 
     > I took it upon myself to try and convert this work into a PDF, and with his permission, so I have! I scraped the blog, converted it to LaTeX using Pandoc, and manually tweaked a whole bunch of things. The result is one beautifully-typeset PDF, if I say so myself.
 
@@ -56,7 +56,7 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 -   [Don't fear the profunctor optics](https://github.com/hablapps/DontFearTheProfunctorOptics/blob/8ad20e680f28ba630f42da30c53664810ca114dc/Optics.md)
 -   [Haxl: A big hammer for concurrency](https://www.youtube.com/watch?v=sT6VJkkhy0o)
 -   [How to compose streaming programs](https://www.tweag.io/posts/2017-10-05-streaming2.html)
--   [Simple text-based drawing DSL](https://www.reddit.com/r/haskell/comments/7337fi/simple_textbased_drawing_dsl/)
+-   [Simple text-based drawing DSL](https://np.reddit.com/r/haskell/comments/7337fi/simple_textbased_drawing_dsl/)
 -   [Switching [Reflex FRP tutorial]](https://blog.qfpl.io/posts/reflex/basics/switching/)
 -   [Trouble with databases? Persevere with Persistent](https://mmhaskell.com/blog/2017/10/2/trouble-with-databases-persevere-with-persistent)
 

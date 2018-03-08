@@ -42,7 +42,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 
     > This repository provides commands for performing "theory exploration". Theory exploration describes the task of taking in some function definitions and outputting conjectures about those functions.
 
--   [Expression of interest: MDN style documentation](https://www.reddit.com/r/haskell/comments/7d0pn0/expression_of_interest_mdn_style_documentation/)
+-   [Expression of interest: MDN style documentation](https://np.reddit.com/r/haskell/comments/7d0pn0/expression_of_interest_mdn_style_documentation/)
 
     > As a beginner, I've had many struggles learning Haskell, and a lot of that has been the lack of "reference" style documentation compared to "tutorial" style documentation.
 

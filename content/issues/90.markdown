@@ -64,7 +64,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 -   [Need to be faster? Be lazy!](https://mmhaskell.com/blog/2018/1/15/need-to-be-faster-be-lazy)
 -   [Upcoming Yesod breaking changes](https://www.yesodweb.com/blog/2018/01/upcoming-yesod-breaking-changes)
 -   [Versioning of libraries bundled with GHC pre-releases](https://mail.haskell.org/pipermail/ghc-devs/2018-January/015308.html)
--   [Why is `Option` a better monoid for `Maybe`?](https://www.reddit.com/r/haskell/comments/7qihrq/why_is_option_a_better_monoid_for_maybe/)
+-   [Why is `Option` a better monoid for `Maybe`?](https://np.reddit.com/r/haskell/comments/7qihrq/why_is_option_a_better_monoid_for_maybe/)
 
 ## Package of the week
 

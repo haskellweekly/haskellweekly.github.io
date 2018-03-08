@@ -63,8 +63,8 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 - [Formlets are biapplicative](https://pepeiborra.wordpress.com/2017/09/21/formlets-are-biapplicative/)
 - [Grenade! Dependently typed neural networks](https://mmhaskell.com/blog/2017/9/25/grenade-dependently-typed-neural-networks)
 - [nodejs-interop](https://github.com/TerrorJack/nodejs-interop/blob/346c2b4221a569974d9844d297c89cdf7877c584/README.md#readme)
-- [Rust has safety features, yet when we talk about safety in Haskell we're not talking about the same kind of safety](https://www.reddit.com/r/haskell/comments/72gc7n/rust_has_safety_features_less_room_for_bugs_yet/)
-- [What library do I use to do *X*?](https://www.reddit.com/r/haskell/comments/72smtp/what_library_do_i_use_to_do_x/)
+- [Rust has safety features, yet when we talk about safety in Haskell we're not talking about the same kind of safety](https://np.reddit.com/r/haskell/comments/72gc7n/rust_has_safety_features_less_room_for_bugs_yet/)
+- [What library do I use to do *X*?](https://np.reddit.com/r/haskell/comments/72smtp/what_library_do_i_use_to_do_x/)
 - [Why lenses work](http://blog.vmchale.com/article/why-lenses-work)
 - [Wire server code now 100% open source: The journey continues](https://medium.com/@wireapp/wire-server-code-now-100-open-source-the-journey-continues-88e24164309c)
 

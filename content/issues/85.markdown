@@ -42,7 +42,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > The lazily evaluated FP Saint Nicholas doesn't show up until you force him so he is a bit late, but this Friday is Haskellaus --- treats for the functionally inclined. Saint Nicholas has a bag full of challenges that we will try to solve.
 
--   [Announce: quickcheck-classes](https://www.reddit.com/r/haskell/comments/7j7fav/ann_quickcheckclasses/)
+-   [Announce: quickcheck-classes](https://np.reddit.com/r/haskell/comments/7j7fav/ann_quickcheckclasses/)
 
     > I've been working on quickcheck-classes for a while now to test type class instances in various libraries and applications. It provides property tests to check the laws for several common typeclasses in base.
 

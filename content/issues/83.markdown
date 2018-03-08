@@ -30,11 +30,11 @@ This is a weekly summary of what's going on in its community.
 
     > This post follows the construction of parsers described in Graham Hutton's "Programming in Haskell". It's my attempt to work through chapter 13 in this book and understand the details of applicative and monadic combination of parsers presented therein.
 
--   [WebAssembly call to action: Syscalls needed!](https://www.reddit.com/r/haskell/comments/7fu2vr/webassembly_call_to_action_syscalls_needed/)
+-   [WebAssembly call to action: Syscalls needed!](https://np.reddit.com/r/haskell/comments/7fu2vr/webassembly_call_to_action_syscalls_needed/)
 
     > In the effort to port GHC to WebAssembly, the biggest challenge has been the C toolchain. We have a compiler, a static linker, a libc, and Nix glue for all of this. But we don't have many syscalls.
 
--   [How to unit test code that uses polymorphic interfaces?](https://www.reddit.com/r/haskell/comments/7gfw3v/how_to_unit_test_code_that_uses_polymorphic/)
+-   [How to unit test code that uses polymorphic interfaces?](https://np.reddit.com/r/haskell/comments/7gfw3v/how_to_unit_test_code_that_uses_polymorphic/)
 
     > I've been largely happy with a lot of the solutions I've come up with, but there's one sort of problem I've always been unsatisfied with. It's quite easy to unit test code that uses plain old monomorphic functions, but it's comparatively difficult as soon as polymorphism is involved.
 

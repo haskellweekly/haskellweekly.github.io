@@ -67,9 +67,9 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 -   [Streaming programs without laziness: A short primer](https://www.tweag.io/posts/2017-07-27-streaming-programs.html)
 -   [The block in blockchain explained (Merkle trees)](http://haroldcarr.com/posts/2017-07-31-the-block-in-blockchain-merkle-trees.html)
 -   [The oracle-free subset of Lamping's abstract algorithm is Turing complete](https://github.com/MaiaVictor/articles/tree/306144e00c05e72121c5d6b7ad9315f46ce75700/0000-oracle-free-terms-are-turing-complete)
--   [Today's Stackage nightly snapshot uses GHC 8.2.1!](https://www.reddit.com/r/haskell/comments/6qoxgj/todays_stack_nightly_snapshot_uses_ghc_821/)
+-   [Today's Stackage nightly snapshot uses GHC 8.2.1!](https://np.reddit.com/r/haskell/comments/6qoxgj/todays_stack_nightly_snapshot_uses_ghc_821/)
 -   [What is new in cross compiling Haskell](https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-ffa8f6d90043)
--   [What's the next best big thing for Haskell after dependent types?](https://www.reddit.com/r/haskell/comments/6pqre3/whats_the_next_best_big_thing_for_haskell_after/)
+-   [What's the next best big thing for Haskell after dependent types?](https://np.reddit.com/r/haskell/comments/6pqre3/whats_the_next_best_big_thing_for_haskell_after/)
 -   [Yi modularization](https://yi-editor.github.io/posts/2017-07-29-modularization/)
 
 ## Package of the week

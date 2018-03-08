@@ -59,7 +59,7 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 ## In brief
 
 -   [A fully functional, fully functional webapp](http://www.nmattia.com/posts/2017-09-07-fully-functional-webapp.html)
--   [A media player in FLTKHS](https://www.reddit.com/r/haskell/comments/6z9up7/a_media_player_in_fltkhs/)
+-   [A media player in FLTKHS](https://np.reddit.com/r/haskell/comments/6z9up7/a_media_player_in_fltkhs/)
 -   [Debugging types: A stream of thought](http://www.parsonsmatt.org/2017/09/13/debugging_types_a_stream_of_thought.html)
 -   [Deep learning and deep types: Tensor flow and dependent types](https://mmhaskell.com/blog/2017/9/11/deep-learning-and-deep-types-tensor-flow-and-dependent-types)
 -   [Differentiating functional programs](http://languagengine.co/blog/differentiating-functional-programs/)

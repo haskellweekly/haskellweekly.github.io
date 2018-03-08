@@ -68,7 +68,7 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 -   [Traversing syntax trees](https://twanvl.nl/blog/haskell/traversing-syntax-trees)
 -   [Understanding asymmetric numeral systems](https://ro-che.info/articles/2017-08-20-understanding-ans)
 -   [Unifying OS installation and configuration management](https://joeyh.name/blog/entry/unifying_OS_installation_and_configuration_management/)
--   [Where are the simple "Let's build ___ with Haskell" posts?](https://www.reddit.com/r/haskell/comments/6uoys8/where_are_the_simple_lets_build_with_haskell_posts/)
+-   [Where are the simple "Let's build ___ with Haskell" posts?](https://np.reddit.com/r/haskell/comments/6uoys8/where_are_the_simple_lets_build_with_haskell_posts/)
 -   [Why I'm excited about Scalaz 8](http://degoes.net/articles/scalaz8-is-the-future)
 -   [Writing performant Haskell (6 of 6): Closing](https://jship.github.io/posts/2017-08-19-writing-performant-haskell-part-6.html)
 

@@ -63,7 +63,7 @@ Thanks!
 
 ## Jobs
 
--   [New fintech startup hiring 1-2 Haskell backend engineers](https://www.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
+-   [New fintech startup hiring 1-2 Haskell backend engineers](https://np.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/)
 
     > Mercury is hiring 1-2 backend engineers to join our stealth B2B fintech startup. Since we're a new startup, you'll be shaping our backend codebase.
 
