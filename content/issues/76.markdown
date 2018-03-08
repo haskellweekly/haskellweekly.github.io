@@ -61,7 +61,7 @@ Tweet us at [@HaskellWeekly](https://twitter.com/haskellweekly) or [open a pull 
 -   [`Monoidal` vs `Traversing`](http://oleg.fi/gists/posts/2017-10-05-monoidal-vs-traversing.html)
 -   [Call for contributions: Haskell Communities and Activities Report](https://mail.haskell.org/pipermail/haskell-cafe/2017-October/127970.html)
 -   [Edward Kmett: Monoidal parsing](https://www.youtube.com/watch?v=Txf7swrcLYs)
--   [Growing a date picker in Reflex: Part 1](https://blog.qfpl.io/posts/reflex/widgets/growing-a-date-picker-1/)
+-   [Growing a date picker in Reflex: Part 1](https://blog.qfpl.io/posts/reflex/widget/growing-a-date-picker-1/)
 -   [Higher-order abstract syntax for Cartesian closed categories](http://blog.functorial.com/posts/2017-10-08-HOAS-CCCs.html)
 -   [Making your brain tingle: Explaining monads](http://blogs.intevation.de/wilde/haskell/monads/)
 -   [micro-ci: A tiny CI server built around GitHub and Nix](https://github.com/ocharles/micro-ci)
