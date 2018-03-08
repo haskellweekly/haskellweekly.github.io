@@ -12,7 +12,7 @@
 
     > The pattern Identity element is all about defining the concept of emptiness, and is a good introduction to algebraically modeling programming concepts.
 
--   [The Unreasonable Effectiveness of Reasoning: Eliminating Bottom](http://typed.funops.co/tutorials/2016/05/25/unreasonable-effectiveness-of-reasoning-understanding-bottom.html)
+-   [The Unreasonable Effectiveness of Reasoning: Eliminating Bottom](https://github.com/typedops/funops/blob/f3a2983f655e2d920003ff3b802b3ad8e16f9d32/src/main/tut/2016-05-31-unreasonable-effectiveness-of-reasoning-understanding-bottom.md)
 
     > Any time your code or other dependencies return a bottom value from a function you have violated the contract that allows you to reason mathematically about your code.
 

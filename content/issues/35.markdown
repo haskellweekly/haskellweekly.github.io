@@ -10,7 +10,7 @@ these are the most-clicked links of 2016.
 4.  [Powerline-hs](https://github.com/rdnetto/powerline-hs/blob/be579f68840c1bb7709d169ea2453a62fafe62d6/README.md)
 5.  [HyperHaskell: the strongly hyped Haskell interpreter](https://mail.haskell.org/pipermail/haskell/2016-October/025010.html)
 6.  [Good way to convert between ad-hoc polymorphic functions and parametric polymorphic ones](http://stackoverflow.com/questions/38326420/good-way-to-convert-between-ad-hoc-polymorphic-functions-and-parametric-polymorp)
-7.  [The unreasonable effectiveness of reasoning: eliminating bottom](http://typed.funops.co/tutorials/2016/05/25/unreasonable-effectiveness-of-reasoning-understanding-bottom.html)
+7.  [The unreasonable effectiveness of reasoning: eliminating bottom](https://github.com/typedops/funops/blob/f3a2983f655e2d920003ff3b802b3ad8e16f9d32/src/main/tut/2016-05-31-unreasonable-effectiveness-of-reasoning-understanding-bottom.md)
 8.  [Modern function programming: part 2](http://degoes.net/articles/modern-fp-part-2)
 9.  [Thoughts on Haskell](http://get-finch.com/2016/09/26/thoughts_on_haskell.html)
 10. [ML modules versus Haskell type classes](http://stackoverflow.com/questions/36927169/ml-modules-vs-haskell-type-classes)
