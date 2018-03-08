@@ -9,10 +9,6 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
--   [GHC 8.4.1 is available](https://downloads.haskell.org/~ghc/8.4.1/)
-
-    > TODO
-
 -   [Queryparser, an open source tool for parsing and analyzing SQL](https://eng.uber.com/queryparser/)
 
     > Queryparser was originally conceived by an Uber engineer who was a Haskell enthusiast, and it quickly gained traction with several other engineers. In fact, many of us learned Haskell specifically to develop in it.
