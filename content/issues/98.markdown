@@ -32,6 +32,6 @@ undefined
 
 ## Events
 
-undefined
+-   March 27: [Auckland FP Meetup: Learn FP Hands-on](https://www.meetup.com/Functional-Programming-Auckland/events/248322238/) in Auckland, New Zealand
 -   March 28: [Haskell Study Group](https://www.meetup.com/haskell-dublin-meetup/events/248659838/) in Dublin, Ireland
 -   April 10: [Haskell Hangout: Getting Started with Yesod and Haskell Web Development](https://www.meetup.com/Haskell-Hangout/events/248547064/) in San Diego
