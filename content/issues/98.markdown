@@ -33,3 +33,4 @@ undefined
 ## Events
 
 undefined
+-   March 28: [Haskell Study Group](https://www.meetup.com/haskell-dublin-meetup/events/248659838/) in Dublin, Ireland
