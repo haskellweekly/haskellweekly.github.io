@@ -34,3 +34,4 @@ undefined
 
 undefined
 -   March 28: [Haskell Study Group](https://www.meetup.com/haskell-dublin-meetup/events/248659838/) in Dublin, Ireland
+-   April 10: [Haskell Hangout: Getting Started with Yesod and Haskell Web Development](https://www.meetup.com/Haskell-Hangout/events/248547064/) in San Diego
