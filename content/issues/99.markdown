@@ -25,7 +25,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [purescript: KindsDoNotUnify error is vague](https://github.com/purescript/purescript/issues/3281)
+-   [stack: Modify "recommended packages" output to include revision info](https://github.com/commercialhaskell/stack/issues/3925)
 
 ## Events
 
