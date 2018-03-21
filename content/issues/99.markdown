@@ -9,7 +9,9 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [FHPC 2018 Call for Papers](https://icfp18.sigplan.org/track/FHPC-2018-papers#FHPC-2018-Call-for-Papers)
+
+    > The 7th ACM SIGPLAN Workshop on Functional High-Performance Computing (FHPC'18) is being held as in previous years in conjunction with the International Conference on Functional Programming (ICFP'18) together with numerous other workshops/symposia, and as a first, colocated with Strange Loop, in St. Louis, MO, USA.
 
 ## Jobs
 
