@@ -30,4 +30,4 @@ undefined
 
 ## Events
 
-undefined
+-   March 27: [Auckland FP Meetup: Learn FP Hands-on](https://www.meetup.com/Functional-Programming-Auckland/events/248322238/) in Auckland, New Zealand
