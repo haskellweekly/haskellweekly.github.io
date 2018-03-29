@@ -1,4 +1,4 @@
-<!-- 2018-03-29 unpublished -->
+<!-- 2018-03-29 -->
 
 Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a safe, purely functional programming language with a fast, concurrent runtime.
@@ -12,6 +12,42 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 -   [Building blocks](https://icidasset.com/writings/building-blocks/)
 
     > You may be wondering why am I using the phrase "building blocks", it's because, to me, this really feels like putting blocks together and sometimes dismantling them.
+
+-   [Three layer Haskell cake](https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html)
+
+    > The question of “How do I design my application in Haskell?” comes up a lot. There’s a bunch of perspectives and choices, so it makes sense that it’s difficult to choose just one.
+
+-   [Generate type safe APIs with Fluid](http://jxv.io/blog/2018-03-23-Generate-Typesafe-APIs-with-Fluid-Pt1.html)
+
+    > Fluid is a web API generator. It offers far more than type safety, and its goals aren't limited to Haskell. First, let's dive into a Hello World and see how it works.
+
+-   [The `Task` abstraction](https://blogs.ncl.ac.uk/andreymokhov/the-task-abstraction/)
+
+    > Neil Mitchell, Simon Peyton Jones and I have just finished a paper describing a systematic and executable framework for developing and comparing build systems. In this blog post I would like to share one interesting abstraction that we came up with to describe build tasks.
+
+-   [Applied category theory: Online course](https://johncarlosbaez.wordpress.com/2018/03/26/seven-sketches-in-compositionality/)
+
+    > It just became a lot easier to learn about applied category theory, thanks to this free book. I think I’ll start a kind of informal online course or seminar based on this book on the Azimuth Forum.
+
+-   [The `Maybe` functor](http://blog.ploeh.dk/2018/03/26/the-maybe-functor/)
+
+    > One of the simplest, and easiest to understand, functors is `Maybe`. It's also sometimes known as the `Maybe` monad, but this is not a monad tutorial; it's a functor tutorial. `Maybe` is many things; one of them is a functor.
+
+-   [Haskell lens: Part 1](https://namc.in/2018-03-26-lenses-part-1)
+
+    > Lenses are one of the most popular, yet confusing aspect of Haskell. To be fair, I could never really understand how they work. This series of posts is going to be my attempt to understand lenses, the ideas and implementation details, and also the `lens` package.
+
+-   [Everyday Haskell](https://whatthefunctional.wordpress.com/2018/03/27/everyday-haskell/)
+
+    > Up to this point, we’ve been covering a subset of the Haskell language which would look unusual to an experienced Haskell programmer. In our quest to make side-effects, we’ve skipped over a lot of useful functionality which makes programming in Haskell more pleasant.
+
+-   [An old and a new library for generic deriving](https://blog.poisson.chat/posts/2018-03-28-generic-data.html)
+
+    > In this post, I want to talk about how it takes advantage of existing infrastructure in the `GHC.Generics` module to condense some of these generic implementations to one-liners.
+
+-   [`sv`: Introduction, status, and road map](https://blog.qfpl.io/posts/sv/status-roadmap/)
+
+    > `sv` is QFPL’s new CSV library for Haskell. The core data structure of `sv` is a syntax tree for CSV that preserves white-space, quoting information, newline style, and other data that is usually thrown away.
 
 ## Jobs
 
@@ -33,11 +69,16 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## In brief
 
-undefined
+-   [Achromatic lens](http://oleg.fi/gists/posts/2018-03-28-achromatic-lens.html)
+-   [Adding package lower bounds](https://neilmitchell.blogspot.com/2018/03/adding-package-lower-bounds.html)
+-   [Functional Geekery episode 121: Claudia Doppioslash](https://www.functionalgeekery.com/episode-121-claudia-doppioslash/)
+-   [LambdaConf Haskell Hackathon 2018](https://www.snoyman.com/blog/2018/03/lambdaconf-haskell-hackathon-2018)
+-   [Type-level unit testing in Haskell](https://jship.github.io/posts/2018-03-21-type-level-unit-testing-in-haskell.html)
 
 ## Package of the week
 
-This week's package of the week is [Herm's](https://github.com/JackKiefer/herms), a command-line manager for delicious kitchen recipes.
+This week's package of the week is [Herm's](https://github.com/JackKiefer/herms/tree/5898e8cbd2e304223c2dadcfb5b154ab7b57b10a),
+a command-line manager for delicious kitchen recipes.
 
 ## Call for participation
 
