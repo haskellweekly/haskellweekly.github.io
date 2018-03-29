@@ -25,7 +25,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [haddock: Quickjump menu should be reset/emptied upon close.](https://github.com/haskell/haddock/issues/781)
+-   [miso: Use jsverify on tests](https://github.com/dmjio/miso/issues/387)
+-   [stack: Warn when upgrading base](https://github.com/commercialhaskell/stack/issues/3940)
 
 ## Events
 
