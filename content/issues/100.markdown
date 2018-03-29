@@ -21,7 +21,7 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Herm's](https://github.com/JackKiefer/herms), a command-line manager for delicious kitchen recipes.
 
 ## Call for participation
 
