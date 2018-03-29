@@ -37,8 +37,7 @@ undefined
 
 ## Package of the week
 
-This week's package of the week is [shikensu](https://github.com/icidasset/shikensu/tree/fa547c18c90e73b4f1f85e34b7ac92bbb0e1014b),
-a tool for building static websites with ease, without conforming to a specific structure.
+This week's package of the week is [Herm's](https://github.com/JackKiefer/herms), a command-line manager for delicious kitchen recipes.
 
 ## Call for participation
 
