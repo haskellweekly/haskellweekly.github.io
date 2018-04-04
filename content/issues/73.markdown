@@ -61,7 +61,7 @@ If so, consider [advertising with us](https://haskellweekly.news/advertising.htm
 -   [Checking it's all in place: Placeholders and dependent types](https://mmhaskell.com/blog/2017/9/18/checking-its-all-in-place-placeholders-and-dependent-types)
 -   [Compose Conference 2017](https://www.youtube.com/watch?v=79zzgL75K8Q&list=PLNoHgLVTxtaoolkQo4hLy4ZsA1prUJ51m)
 -   [Functional programming in Haskell: Supercharge your coding](https://www.futurelearn.com/courses/functional-programming-haskell)
--   [Infernal types](https://goc.vivint.com/problems/hm)
+-   [Infernal types](http://goc.vivint.com/problems/hm)
 -   [Making Google tasks better: Part 2](https://haskell.fun/2017/09/17/making-google-tasks-better-part-2/)
 -   [Shake 0.16: Revised rule definitions](https://neilmitchell.blogspot.co.uk/2017/09/shake-016-revised-rule-definitions.html)
 

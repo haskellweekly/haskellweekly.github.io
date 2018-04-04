@@ -17,7 +17,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > In our previous post, we define a common problem around reproducible build plans. The solution we desired was some form of cryptographic hash based configuration and download system for packages, package metadata, and snapshot definitions.
 
--   [Design patterns in Haskell: The strategy pattern](https://storm-country.com/blog/gof-strategy)
+-   [Design patterns in Haskell: The strategy pattern](http://storm-country.com/blog/gof-strategy)
 
     > This is part one of a series of posts translating the Gang of Four design patterns for object-oriented languages into Haskell. It is intended to be an expansion of Edward Z. Yang's Design Patterns in Haskell, elaborating each pattern into its own post.
 
