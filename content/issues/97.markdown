@@ -25,7 +25,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > I decided to make a text adventure from scratch for my second Haskell project. Text adventures, which are one kind of interactive fiction, are games which are played entirely on a command-line terminal and are require only standard I/O.
 
--   [Deploying Haskell programs](http://fosskers.ca/blog/deploying-haskell-en.html)
+-   [Deploying Haskell programs](https://www.fosskers.ca/blog/deploying-haskell-en.html)
 
     > Heroku is the free and convenient solution for this. It is a hosting service that allows pushes to a Github master branch to trigger redeploys, and it also caches dependencies so that subsequent redeploys are fast.
 
