@@ -81,7 +81,8 @@ a library providing in-order, pre-order, post-order, level-order, and reversed l
 
 ## Call for participation
 
-undefined
+-   [purebred-email: Tab character in subject header shows as whitespace](https://github.com/purebred-mua/purebred-email/issues/13)
+-   [shake: Error message could contain stdin](https://github.com/ndmitchell/shake/issues/577)
 
 ## Events
 
