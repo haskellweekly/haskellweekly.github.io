@@ -15,7 +15,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 -   [Three layer Haskell cake](https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html)
 
-    > The question of “How do I design my application in Haskell?” comes up a lot. There’s a bunch of perspectives and choices, so it makes sense that it’s difficult to choose just one.
+    > The question of "How do I design my application in Haskell?" comes up a lot. There's a bunch of perspectives and choices, so it makes sense that it's difficult to choose just one.
 
 -   [Generate type safe APIs with Fluid](http://jxv.io/blog/2018-03-23-Generate-Typesafe-APIs-with-Fluid-Pt1.html)
 
@@ -27,7 +27,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 -   [Applied category theory: Online course](https://johncarlosbaez.wordpress.com/2018/03/26/seven-sketches-in-compositionality/)
 
-    > It just became a lot easier to learn about applied category theory, thanks to this free book. I think I’ll start a kind of informal online course or seminar based on this book on the Azimuth Forum.
+    > It just became a lot easier to learn about applied category theory, thanks to this free book. I think I'll start a kind of informal online course or seminar based on this book on the Azimuth Forum.
 
 -   [The `Maybe` functor](http://blog.ploeh.dk/2018/03/26/the-maybe-functor/)
 
@@ -39,7 +39,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 -   [Everyday Haskell](https://whatthefunctional.wordpress.com/2018/03/27/everyday-haskell/)
 
-    > Up to this point, we’ve been covering a subset of the Haskell language which would look unusual to an experienced Haskell programmer. In our quest to make side-effects, we’ve skipped over a lot of useful functionality which makes programming in Haskell more pleasant.
+    > Up to this point, we've been covering a subset of the Haskell language which would look unusual to an experienced Haskell programmer. In our quest to make side-effects, we've skipped over a lot of useful functionality which makes programming in Haskell more pleasant.
 
 -   [An old and a new library for generic deriving](https://blog.poisson.chat/posts/2018-03-28-generic-data.html)
 
@@ -47,7 +47,7 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 -   [`sv`: Introduction, status, and road map](https://blog.qfpl.io/posts/sv/status-roadmap/)
 
-    > `sv` is QFPL’s new CSV library for Haskell. The core data structure of `sv` is a syntax tree for CSV that preserves white-space, quoting information, newline style, and other data that is usually thrown away.
+    > `sv` is QFPL's new CSV library for Haskell. The core data structure of `sv` is a syntax tree for CSV that preserves white-space, quoting information, newline style, and other data that is usually thrown away.
 
 ## Jobs
 
