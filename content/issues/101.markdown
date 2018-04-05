@@ -1,0 +1,70 @@
+<!-- 2018-04-05 unpublished -->
+
+Welcome to another issue of Haskell Weekly!
+[Haskell](https://haskell-lang.org) is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+Want to see something featured in Haskell Weekly?
+Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io).
+
+## Featured
+
+undefined
+
+## Jobs
+
+-   [Senior Engineering Leader at GitHub in San Francisco](https://boards.greenhouse.io/github/jobs/1106071)
+
+    > The Semantic Code leader must have or quickly develop high level domain expertise within the fields of program analysis, programming language theory (PLT), parsing and computational semantics.
+
+-   [Senior Engineer at Betterpath in Brooklyn](https://www.betterpath.com/jobs)
+
+    > We are looking for a senior engineer who will work on building health and financial products to help patients.
+
+## In brief
+
+undefined
+
+<!-- TODO
+http://blog.ploeh.dk/2018/04/03/maybe-monoids/
+http://h2.jaguarpaw.co.uk/posts/mtl-style-for-free/
+http://jeremymikkola.com/posts/2018_04_02_cheatsheet_state_and_error.html
+http://reasonablypolymorphic.com//blog/hkd-not-terrible
+http://vaibhavsagar.com/blog/2018/03/31/ihaskell-mybinder/
+https://byorgey.wordpress.com/2018/03/30/parametricity-for-bifunctor/
+https://colourcoding.net/2018/03/29/marvellous-moeb/
+https://github.com/gonimo/gonimo/blob/3ba98fe57325073c64d43ec7945d32f0933d7a54/front/doc/Gonimo-Architecture.md
+https://github.com/hkgumbs/codec-beam/tree/fc17e13a2bd9aa17b4a418c191fcc5d8d0c95d92
+https://github.com/kuribas/aeson-diff-generic/tree/d9ba6a3848c73d8dcb35776fd4881359b5b447cf
+https://github.com/saschagrunert/nn/tree/fe9688176c2e2d509b5b5901164ba2538dabf367
+https://github.com/takenobu-hs/haskell-ethereum-assembly/tree/14eeeb6aeefc70a2e4c265ce4ea0568afb9aeeb8
+https://leonmergen.com/on-anonymous-networking-in-haskell-announcing-tor-and-i2p-for-haskell-f1e30f52294f
+https://mail.haskell.org/pipermail/ghc-devs/2018-April/015564.html
+https://mmhaskell.com/blog/2018/4/2/connecting-to-mailchimpfrom-scratch
+https://np.reddit.com/r/haskell/comments/88wcxv/ann_rowdy_the_web_routing_dsl/
+https://purelyfunctional.org/posts/2018-04-02-llvm-hs-jit-external-function.html
+https://robots.thoughtbot.com/gamedev-with-elm-types
+https://typeclasses.com/news/2018-03-typeclasses-born
+https://whatthefunctional.wordpress.com/2018/03/29/making-l-systems-with-haskell-and-logo/
+https://www.andrevdm.com/posts/2018-04-02-haskell-rogue-like.html
+https://www.fpcomplete.com/asynchronous-exception-handling-in-haskell
+-->
+
+## Package of the week
+
+This week's package of the week is [tree-traversals](https://hackage.haskell.org/package/tree-traversals-0.1.0.0),
+a library providing in-order, pre-order, post-order, level-order, and reversed level-order traversals for tree-like types.
+
+## Call for participation
+
+undefined
+
+## Events
+
+-   April 5: [April Meetup](https://www.meetup.com/HASKELL-SG/events/248176854/) in Singapore
+-   April 6: [Learn and Teach Coding for Mid / High school Aged Kids](https://www.meetup.com/Coding-in-Education-Bay-Area/events/248717027/) in Fremont, California, United States
+-   April 7: [First Official Weekly Functional Programming Meetup](https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/249373356/) in Cambridge, Massachusetts, United States
+-   April 9: [Mini-meetup: Type Classes in Scala and Haskell](https://www.meetup.com/Scala-Berlin-Brandenburg/events/248699720/) in Berlin, Germany
+-   April 10: [Haskell Hangout: Getting Started with Yesod and Haskell Web Development](https://www.meetup.com/Haskell-Hangout/events/248547064/) in San Diego, California, United States
+-   April 11: [Type Driven Development](https://www.meetup.com/Boulder-Haskell-Programmers/events/249090504/) in Boulder, Colorado, United States
+-   April 12: [Why do Functional Programmers always talk about Algebras?](https://www.meetup.com/Eastside-Fun-c-tional-Programming-Group/events/248722662/) in Bellevue, Washington, United States
