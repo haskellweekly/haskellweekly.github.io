@@ -13,6 +13,12 @@ undefined
 
 ## Jobs
 
+-   [Anduril Industires is Hiring in Orange County](https://www.anduril.com/)
+
+    > Come write Haskell, Rust, and Nix (and some C++ when necessary) to make autonomous robots and drones go! If you
+    > like FP, interfacing with hardware, and solving problems in detection, tracking, and autonomous vehicle control,
+    > send a note to <travis@anduril.com>
+
 undefined
 
 ## In brief
