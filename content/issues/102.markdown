@@ -35,4 +35,6 @@ undefined
 
 ## Events
 
+* April 27-29: [BayHac 2018](https://wiki.haskell.org/BayHac2018) in San Francisco, California, United States
+
 undefined
