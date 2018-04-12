@@ -1,0 +1,32 @@
+<!-- 2018-04-19 unpublished -->
+
+Welcome to another issue of Haskell Weekly!
+[Haskell](https://haskell-lang.org) is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+Want to see something featured in Haskell Weekly?
+Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io).
+
+## Featured
+
+undefined
+
+## Jobs
+
+undefined
+
+## In brief
+
+undefined
+
+## Package of the week
+
+undefined
+
+## Call for participation
+
+undefined
+
+## Events
+
+undefined
