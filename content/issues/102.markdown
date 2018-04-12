@@ -31,7 +31,9 @@ undefined
 
 ## Call for participation
 
-[Haskero: Support for case when root project dir is parent of the Stack project](https://gitlab.com/vannnns/haskero/issues/58)
+-   [haskanoid: Bump version constraint in dependency on Yampa](https://github.com/ivanperez-keera/haskanoid/issues/61)
+-   [Haskero: Support for case when root project dir is parent of the Stack project](https://gitlab.com/vannnns/haskero/issues/58)
+-   [hledger: Sorting by account codes isn't working with single-column balance report](https://github.com/simonmichael/hledger/issues/727)
 
 ## Events
 
