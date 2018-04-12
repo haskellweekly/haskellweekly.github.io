@@ -13,13 +13,9 @@ undefined
 
 ## Jobs
 
--   [Anduril Industires is Hiring in Orange County](https://www.anduril.com/)
+-   [Anduril Industries is hiring in Orange County](https://www.anduril.com)
 
-    > Come write Haskell, Rust, and Nix (and some C++ when necessary) to make autonomous robots and drones go! If you
-    > like FP, interfacing with hardware, and solving problems in detection, tracking, and autonomous vehicle control,
-    > send a note to <travis@anduril.com>
-
-undefined
+    > Come write Haskell, Rust, and Nix (and some C++ when necessary) to make autonomous robots and drones go! If you like FP, interfacing with hardware, and solving problems in detection, tracking, and autonomous vehicle control, send a note to <travis@anduril.com>
 
 ## In brief
 
@@ -37,6 +33,4 @@ undefined
 
 ## Events
 
-* April 27-29: [BayHac 2018](https://wiki.haskell.org/BayHac2018) in San Francisco, California, United States
-
-undefined
+-   April 27-29: [BayHac 2018](https://wiki.haskell.org/BayHac2018) in San Francisco, California, United States
