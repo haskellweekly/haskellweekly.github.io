@@ -9,25 +9,45 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [Using Cloud Haskell to write a type-safe distributed chat](https://www.stackbuilders.com/tutorials/haskell/cloud-haskell/)
 
-<!--
-https://www.stackbuilders.com/tutorials/haskell/cloud-haskell/
-https://typeclasses.com/news/2018-04-a-monoid-is
-https://argumatronic.com/posts/2018-04-07-monad-complaints.html
-https://www.schoolofhaskell.com/user/griba/lazy_lists_on_strict_purescript
-https://www.parsonsmatt.org/2018/04/10/transforming_transformers.html
-https://mmhaskell.com/blog/2018/4/9/next-up-on-mmh
-http://blog.ploeh.dk/2018/04/09/coalescing-composite-as-a-monoid/
-https://whatthefunctional.wordpress.com/2018/04/09/dynamic-programming-in-haskell/
-https://haskell-at-work.com/episodes/2018-04-09-your-first-web-application-with-spock.html
-https://medium.com/@fintan.halpenny/coffee-curries-and-monads-my-journey-through-haskell-5a199bab7a3f
-http://vaibhavsagar.com/blog/2018/04/08/ihaskell-cocalc/index.html
-https://functional.works-hub.com/learn/property-based-integration-testing-using-haskell-6c25c
-https://www.michaelpj.com/blog/2018/04/08/catamorphic-lc-interpreter.html
-https://github.com/Lemmih/lhc/blob/d398017ae52e8c830ed40bfd4a2e4cd2d5eb2903/PIPELINE.md
-https://blog.roman-gonzalez.ca/post/172746394387/lightning-fast-ci-for-haskell-projects
--->
+    > Cloud Haskell is a set of libraries that combines the power of Haskell's type system with Erlang's style of concurrency and distributed programming.
+
+-   [Strictness surprises in PureScript lazy lists](https://www.schoolofhaskell.com/user/griba/lazy_lists_on_strict_purescript)
+
+    > It seems that strictness is playing a dirty trick here, evaluating the second cons parameter beforehand against our interest, but strict evaluation is in the nature of PureScript.
+
+-   [Transforming transformers](https://www.parsonsmatt.org/2018/04/10/transforming_transformers.html)
+
+    > There's a kind fellow named lunaris on the FPChat slack channel that shares exceptionally good advice. Unfortunately, due to the ephemeral nature of Slack, a lot of this advice is lost to history.
+
+-   [Dynamic programming in Haskell](https://whatthefunctional.wordpress.com/2018/04/09/dynamic-programming-in-haskell/)
+
+    > Attempting to program a dynamic programming algorithm in Haskell has helped me understand the fundamental principles behind dynamic programming in a way that I wasn't able to when I learned it from an imperative programming perspective.
+
+-   [Your first web application with Spock](https://haskell-at-work.com/episodes/2018-04-09-your-first-web-application-with-spock.html)
+
+    > The Spock web framework for Haskell gives you a light but complete foundation to build web servers on, be it for traditional server-side rendered applications, or APIs for single-page applications.
+
+-   [Coffee, curries, and monads: My journey through Haskell](https://medium.com/@fintan.halpenny/coffee-curries-and-monads-my-journey-through-haskell-5a199bab7a3f)
+
+    > What I am going to do is tell you a little about myself, my programming journey, and why I enjoy programming in Haskell. Hopefully it will encourage you to try it out and witness your own joy with the language.
+
+-   [Property based integration testing using Haskell!](https://functional.works-hub.com/learn/property-based-integration-testing-using-haskell-6c25c)
+
+    > This article doesn't require any special functional programming techniques and can be replicated everywhere, but using a functional programming language makes this easier.
+
+-   [A catamorphic lambda-calculus interpreter](https://www.michaelpj.com/blog/2018/04/08/catamorphic-lc-interpreter.html)
+
+    > I was playing around with `recursion-schemes`, which is pretty cool. It's very nice to be able to define interpreters like this, so my immediate thought was: can we do this for the lambda-calculus?
+
+-   [The monad complaint pipeline](https://argumatronic.com/posts/2018-04-07-monad-complaints.html)
+
+    > We are a relatively small community, but we're maybe a little chatty, maybe have a little too much free time waiting for something to compile. Hence we are engaged in near constant internecine war over build tools and the like.
+
+-   [Lightning fast CI for Haskell projects](https://blog.roman-gonzalez.ca/post/172746394387/lightning-fast-ci-for-haskell-projects)
+
+    > I've been working in a few projects at a time in Haskell for the past year, and one point that has been dragging is how much time it takes for a CI job to finish, given this, I started to experiment with other solutions to improve my build feedback loop.
 
 ## Jobs
 
@@ -41,7 +61,11 @@ https://blog.roman-gonzalez.ca/post/172746394387/lightning-fast-ci-for-haskell-p
 
 ## In brief
 
-undefined
+-   [Coalescing composite as a monoid](http://blog.ploeh.dk/2018/04/09/coalescing-composite-as-a-monoid/)
+-   [Function pipeline monoid](https://typeclasses.com/news/2018-04-a-monoid-is)
+-   [How to compile Haskell to LLVM in 14 simple steps](https://github.com/Lemmih/lhc/blob/d398017ae52e8c830ed40bfd4a2e4cd2d5eb2903/PIPELINE.md)
+-   [IHaskell on CoCalc!](http://vaibhavsagar.com/blog/2018/04/08/ihaskell-cocalc/index.html)
+-   [Next up on MMH!](https://mmhaskell.com/blog/2018/4/9/next-up-on-mmh)
 
 ## Package of the week
 
