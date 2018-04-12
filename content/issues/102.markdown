@@ -11,7 +11,29 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 undefined
 
+<!--
+https://www.stackbuilders.com/tutorials/haskell/cloud-haskell/
+https://typeclasses.com/news/2018-04-a-monoid-is
+https://argumatronic.com/posts/2018-04-07-monad-complaints.html
+https://www.schoolofhaskell.com/user/griba/lazy_lists_on_strict_purescript
+https://www.parsonsmatt.org/2018/04/10/transforming_transformers.html
+https://mmhaskell.com/blog/2018/4/9/next-up-on-mmh
+http://blog.ploeh.dk/2018/04/09/coalescing-composite-as-a-monoid/
+https://whatthefunctional.wordpress.com/2018/04/09/dynamic-programming-in-haskell/
+https://haskell-at-work.com/episodes/2018-04-09-your-first-web-application-with-spock.html
+https://medium.com/@fintan.halpenny/coffee-curries-and-monads-my-journey-through-haskell-5a199bab7a3f
+http://vaibhavsagar.com/blog/2018/04/08/ihaskell-cocalc/index.html
+https://functional.works-hub.com/learn/property-based-integration-testing-using-haskell-6c25c
+https://www.michaelpj.com/blog/2018/04/08/catamorphic-lc-interpreter.html
+https://github.com/Lemmih/lhc/blob/d398017ae52e8c830ed40bfd4a2e4cd2d5eb2903/PIPELINE.md
+https://blog.roman-gonzalez.ca/post/172746394387/lightning-fast-ci-for-haskell-projects
+-->
+
 ## Jobs
+
+-   [ITProTV seeking Software Developer in Gainesville, Florida](https://functionaljobs.com/jobs/9080-software-engineer-developer-at-itprotv)
+
+    > ITPro.TV is a fast-growing digital media business that focuses on continuing education in technical domains. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.
 
 -   [Anduril Industries is hiring in Orange County](https://www.anduril.com)
 
@@ -23,7 +45,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [packcheck](https://hackage.haskell.org/package/packcheck-0.3.0),
+a script for universal build and CI testing of Haskell packages.
 
 ## Call for participation
 
@@ -33,4 +56,11 @@ undefined
 
 ## Events
 
+-   April 12: [Why do Functional Programmers always talk about Algebras?](https://www.meetup.com/Eastside-Fun-c-tional-Programming-Group/events/248722662/) in Bellevue, Washington, United States
+-   April 13: [Going through Software Foundations by Benjamin Pierce](https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/249172494/) in Austin, Texas, United States
+-   April 14: [Hang && (Maybe Hack)](https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/249414785/) in Cambridge, Massachusetts, United States
+-   April 15: [Tokyo Haskell April meetup](https://www.meetup.com/Tokyo-Haskell-Meetup/events/248833521/) in Tokyo, Japan
+-   April 16: [Type-driven Development with Idris](https://www.meetup.com/FP-North-East/events/xwwjfpyxgbvb/) in Newcastle Upon Tyne, United Kingdom
+-   April 17: [What is a Monad? Learning Monads Without Analogies](https://www.meetup.com/Indy-FP/events/249371555/) in Carmel, Indiana, United States
+-   April 25: [Getting started with testing in Haskell](https://www.meetup.com/Gainesville-Functional-Programming-Meetup/events/dhnnnpyxgbhc/) in Gainesville, Florida, United States
 -   April 27-29: [BayHac 2018](https://wiki.haskell.org/BayHac2018) in San Francisco, California, United States
