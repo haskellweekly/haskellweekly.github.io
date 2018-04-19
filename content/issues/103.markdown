@@ -25,7 +25,10 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [disco: Add Boolean as a synonym for Bool](https://github.com/disco-lang/disco/issues/83)
+-   [duckling: Issue with Datetime](https://github.com/facebook/duckling/issues/175)
+-   [servant: Make `Servant.Client.Ghcjs.runClientM` take in a `ClientEnv`](https://github.com/haskell-servant/servant/issues/945)
+-   [shake: tutorials: encourage the name “Shakefile.hs”](https://github.com/ndmitchell/shake/issues/582)
 
 ## Events
 
