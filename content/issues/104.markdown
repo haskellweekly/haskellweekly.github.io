@@ -25,7 +25,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [eta: Implement MonadFix for Java monad](https://github.com/typelead/eta/issues/739)
+-   [rhine: Add LIFO buffers](https://github.com/turion/rhine/issues/34)
 
 ## Events
 
