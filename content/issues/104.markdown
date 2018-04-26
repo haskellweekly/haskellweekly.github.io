@@ -30,4 +30,5 @@ undefined
 
 ## Events
 
-undefined
+-   May 7: [Auckland FP Meetup: Functional Reactive Programming in TypeScript; followed by Property testing made simple(r) in Clojure](https://www.meetup.com/Functional-Programming-Auckland/events/249958154/) in Auckland, New Zealand
+
