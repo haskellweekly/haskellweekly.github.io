@@ -19,7 +19,23 @@ undefined
 
 ## In brief
 
-undefined
+-   [A new Haskell library for talking to ODBC databases](https://www.fpcomplete.com/blog/2018/05/haskell-library-talking-odbc-databases)
+-   [Announcing Eta v0.7.2](https://blog.eta-lang.org/https-blog-eta-lang-org-announcing-eta-v0-7-2-c1f60e0ab068)
+-   [Announcing Stack v1.7.1](https://mail.haskell.org/pipermail/haskell-cafe/2018-April/128997.html)
+-   [Asynchronous exception handling in Haskell](https://www.fpcomplete.com/blog/2018/04/async-exception-handling-haskell)
+-   [Automatically generated directories for individual Tasty tests](http://nmattia.com/posts/2018-04-30-tasty-test-names.html)
+-   [Avoid the dilemma of the trailing comma](https://www.joachim-breitner.de/blog/739-Avoid_the_dilemma_of_the_trailing_comma)
+-   [Day 72: On Nixing](https://www.dabolivar.com/posts/day-72/)
+-   [Deprecating `data`](https://functionalstuff.svbtle.com/data-as-newtype)
+-   [Dockerizing our Haskell App](https://mmhaskell.com/blog/2018/4/25/dockerizing-our-haskell-app)
+-   [Explaining the recent Hackage downtime](https://blog.hackage.haskell.org/posts/2018-04-26-downtime.html)
+-   [Fishy documentation](https://medium.com/@fintan.halpenny/fishy-documentation-c1b47f43bf62)
+-   [GC-less Haskell: A trivial SDL2 demo](https://np.reddit.com/r/haskell/comments/8fdh8q/gcless_haskell_a_trivial_sdl2_demo/)
+-   [Let's create a comparison table of all the Haskell record variants, and let's find the best one(s) in the process!](https://np.reddit.com/r/haskell/comments/8g8ojm/lets_create_a_comparison_table_of_all_the_haskell/)
+-   [Monthly hask anything](https://np.reddit.com/r/haskell/comments/8g11kl/monthly_hask_anything_may_2018/)
+-   [Parametrized unit tests in Haskell](http://blog.ploeh.dk/2018/04/30/parametrised-unit-tests-in-haskell/)
+-   [PureScript v0.12.0-rc1](https://github.com/purescript/purescript/releases/tag/v0.12.0-rc1)
+-   [The mysterious incomposability of `Decidable`](http://h2.jaguarpaw.co.uk/posts/mysterious-incomposability-of-decidable/)
 
 ## Package of the week
 
