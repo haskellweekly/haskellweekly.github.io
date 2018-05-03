@@ -36,6 +36,7 @@ undefined
 -   [Parametrized unit tests in Haskell](http://blog.ploeh.dk/2018/04/30/parametrised-unit-tests-in-haskell/)
 -   [PureScript v0.12.0-rc1](https://github.com/purescript/purescript/releases/tag/v0.12.0-rc1)
 -   [The mysterious incomposability of `Decidable`](http://h2.jaguarpaw.co.uk/posts/mysterious-incomposability-of-decidable/)
+-   [Webinar: Practical property testing in Haskell](https://www.fpcomplete.com/practical_property_testing_in_haskell)
 
 ## Package of the week
 
