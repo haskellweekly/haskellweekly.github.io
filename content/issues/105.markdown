@@ -43,7 +43,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [hledger: vague amount parse error message](https://github.com/simonmichael/hledger/issues/747)
+-   [Lambency: Create more generalized transforms.](https://github.com/Mokosha/Lambency/issues/15)
 
 ## Events
 
