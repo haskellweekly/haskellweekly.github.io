@@ -29,4 +29,5 @@ undefined
 
 ## Events
 
+- May 23: [Self-paced Haskell Study Group in Dublin, Ireland](https://www.meetup.com/haskell-dublin-meetup/events/250343256/)
 - May 23: [Hamburg Haskell Meetup: "Probabilistisches Programmieren und Freie Monaden"](https://www.meetup.com/de-DE/Hamburg-Haskell-Meetup/events/250652358/?refund_policy=true&rv=ea1&_xtd=gatlbWFpbF9jbGlja9oAJGY2N2ZiZjQyLTNiNTUtNGQ5NS04Nzk3LWM3OTA4ZWZmNDJkNg&_af=event&_af_eid=250652358&response=3&action=rsvp&https=on) in Hamburg, Germany
