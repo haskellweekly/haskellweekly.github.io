@@ -9,7 +9,9 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [Typesafe, Polymorphic, Parallel Map Algebra in Haskell](https://www.fosskers.ca/blog/mapalgebra-en.html)
+
+    > Repeated, sequential operations over large imagery have been a thorn in the side of Raster processing systems for a long time. The new library `mapalgebra` leverages the Array library `massiv` to bring rigour and efficiency back to GIS, outperforming similar libraries in the field written in C and Scala.
 
 ## Jobs
 
