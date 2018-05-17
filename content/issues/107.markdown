@@ -13,15 +13,40 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Software engineer at ITProTV in Gainesville, Florida](https://functionaljobs.com/jobs/9080-software-engineer-developer-at-itprotv)
+
+    > ITPro.TV is a fast-growing digital media business that focuses on continuing education in technical domains. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.
+
+-   [Software engineer at Facebook in London](https://www.facebook.com/careers/jobs/a0I1H00000MoVjBUAV/)
+
+    > We are looking for candidates who share a interest for performance analysis, tuning, and optimizing the GHC compiler and runtime for our workload.
+
+-   [Strat at Standard Chartered](https://hauptwerk.blogspot.com/2018/05/job-openings-with-strats-team-at.html)
+
+    > You will work on the trading floor, directly with traders, building software to automate their work and improve their efficiency. The role is highly development focused and you will use Haskell for almost all tasks.
 
 ## In brief
 
-undefined
+-   [A basic introduction to Clash for FPGA Development: Part 2](https://bitlog.it/hardware/a-basic-introduction-to-clash-for-fpga-development-part-2/)
+-   [A purely functional typed approach to trainable models](https://blog.jle.im/entry/purely-functional-typed-models-1.html)
+-   [Advanced Github: Webhooks and automation](https://mmhaskell.com/blog/2018/5/14/advanced-github-webhooks-and-automation)
+-   [Announce: hasktags 0.70](https://np.reddit.com/r/haskell/comments/8j82od/ann_hasktags_070/)
+-   [Error handling in Haskell](https://singpolyma.net/2018/05/error-handling-in-haskell/)
+-   [Free monoidal functors, categorically!](https://bartoszmilewski.com/2018/05/16/free-monoidal-functors-categorically/)
+-   [Fun with stack: Haskell dependency management](https://jappieklooster.nl/fun-with-stack-haskell-dependency-management.html)
+-   [Grading students: HaskellRank #02](https://www.youtube.com/watch?v=-Wdatsf2ClE)
+-   [Haskell communities and activities report](https://www.haskell.org/communities/05-2018/html/report.html)
+-   [How to Flatpak a Haskell app into Flathub](https://medium.com/@lettier/how-to-flatpak-a-haskell-app-into-flathub-86ef6d69e94d)
+-   [Introduction to Cabal](https://haskell-at-work.com/episodes/2018-05-13-introduction-to-cabal.html)
+-   [Minimal effort build improvements and a GHC 8.2.2 upgrade](https://vadosware.io/post/least-effort-ghc-8-2-2-upgrade-for-my-servant-project/)
+-   [Objects with special collection routines in GHC's GC](https://well-typed.com/blog/2018/05/ghc-special-gc-objects/)
+-   [Project arbitraries with view patterns](http://blog.ploeh.dk/2018/05/14/project-arbitraries-with-view-patterns/)
+-   [Why did you decide to learn Haskell?](https://np.reddit.com/r/haskell/comments/8jmf5l/why_did_you_decide_to_learn_haskell/)
 
 ## Package of the week
 
-undefined
+This week's package of the week is [ghc-syntax-highlighter](https://hackage.haskell.org/package/ghc-syntax-highlighter-0.0.2.0),
+a syntax highlighter for Haskell using lexer of GHC itself.
 
 ## Call for participation
 
@@ -29,5 +54,11 @@ undefined
 
 ## Events
 
-- May 23: [Self-paced Haskell Study Group in Dublin, Ireland](https://www.meetup.com/haskell-dublin-meetup/events/250343256/)
-- May 23: [Hamburg Haskell Meetup: "Probabilistisches Programmieren und Freie Monaden"](https://www.meetup.com/de-DE/Hamburg-Haskell-Meetup/events/250652358/?refund_policy=true&rv=ea1&_xtd=gatlbWFpbF9jbGlja9oAJGY2N2ZiZjQyLTNiNTUtNGQ5NS04Nzk3LWM3OTA4ZWZmNDJkNg&_af=event&_af_eid=250652358&response=3&action=rsvp&https=on) in Hamburg, Germany
+-   May 17: [Functional Programming Meetup](https://www.meetup.com/las-vegas-functional-programming/events/250709766/) in Las Vegas, Nevada, United States
+-   May 18: [FP vs. OOP: Beyond the bikeshed](https://www.meetup.com/8th-light-university/events/249134336/) in Chicago, Illinois, United States
+-   May 19: [Domina Haskell con Katas de Codewars](https://www.meetup.com/Haskell-MAD/events/249769977/) in Madrid, Spain
+-   May 20: [Tokyo Haskell meetup](https://www.meetup.com/Tokyo-Haskell-Meetup/events/249792886/) in Tokyo, Japan
+-   May 21: [Utah Haskell meetup](https://www.meetup.com/utah-haskell/events/249854505/) in Lehi, Utah, United States
+-   May 22: [Deriving via](https://www.meetup.com/Regensburg-Haskell-Meetup/events/250418375/) in Regensburg, Germany
+-   May 23: [Self-paced Haskell Study Group](https://www.meetup.com/haskell-dublin-meetup/events/250343256/) in Dublin, Ireland
+-   May 23: [Hamburg Haskell Meetup: "Probabilistisches Programmieren und Freie Monaden"](https://www.meetup.com/Hamburg-Haskell-Meetup/events/250652358/) in Hamburg, Germany
