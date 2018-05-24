@@ -27,7 +27,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [dejafu: Highlight failures in tests](https://github.com/barrucadu/dejafu/issues/259)
+-   [psc-package: Dependencies field should be ordered in packages.json and psc-package.json](https://github.com/purescript/psc-package/issues/107)
+-   [echidna: Inconsistent test results in a simple contract](https://github.com/trailofbits/echidna/issues/51)
 
 ## Events
 
