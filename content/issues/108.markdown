@@ -13,6 +13,10 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > Repeated, sequential operations over large imagery have been a thorn in the side of Raster processing systems for a long time. The new library `mapalgebra` leverages the Array library `massiv` to bring rigour and efficiency back to GIS, outperforming similar libraries in the field written in C and Scala.
 
+-   [Cloning FluxBB](https://siskam.link/2018-04-14-cloning-fluxbb.html)
+
+    > Writing a forum software is one of a few things that I-wish-I-had-but-hadn't in the last of couple of years. For example, among a gazillion of abandoned repos on this GitLab account, `Forum` is one of them. If you take a glance of it, you will see that it's an unfinished forum software. So, I decided to take a different approach to finally do it, no matter what it takes.
+
 ## Jobs
 
 undefined
