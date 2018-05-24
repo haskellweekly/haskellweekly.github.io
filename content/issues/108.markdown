@@ -19,15 +19,40 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Jobs
 
-undefined
+-   [Software engineer at ITProTV in Gainesville, Florida](https://functionaljobs.com/jobs/9080-software-engineer-developer-at-itprotv)
+
+    > ITPro.TV is a fast-growing digital media business that focuses on continuing education in technical domains. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.
+
+-   [Weever Apps Is Hiring Haskell Developers](https://np.reddit.com/r/haskell/comments/8lk1hh/weever_apps_is_hiring_haskell_developers/)
+
+    > Weever Apps is a software company based in Hamilton, Ontario Canada. We build cloud-based software products that large enterprises use to capture data, manage workflows, and access actionable reports. We replace clipboards and filing cabinets with tablets and databases and provide alerts, analysis, and other features that make data useful.
 
 ## In brief
 
-undefined
+-   [BayHac 2018 videos](https://www.youtube.com/playlist?list=PL5lgjzYOvyYMvAEXok1tLpBBtOOlfBYIU)
+-   [Building packages outside snapshots](https://www.snoyman.com/blog/2018/05/building-packages-outside-snapshots)
+-   [Dear Haskell: It's not you, it's your tooling](https://avi-d-coder.github.io/post/dear_haskell/)
+-   [Extensible ADT (EADT)](http://hsyl20.fr/home/posts/2018-05-22-extensible-adt.html)
+-   [Fast Haskell coding with cushions](https://blog.roman-gonzalez.ca/post/174140457777/fast-haskell-coding-with-cushions)
+-   [Ghcid for the win!](https://www.parsonsmatt.org/2018/05/19/ghcid_for_the_win.html)
+-   [Haskell lens operator onboarding](https://medium.com/urbint-engineering/haskell-lens-operator-onboarding-a235481e8fac)
+-   [How I evaluate Haskell packages](http://www.haskellforall.com/2018/05/how-i-evaluate-haskell-packages.html)
+-   [The Hillelogram Verifier Rodeo I (LeftPad)](https://ucsd-progsys.github.io/liquidhaskell-blog/2018/05/17/hillel-verifier-rodeo-I-leftpad.lhs/)
+-   [Tintin: A softer alternative to Haddock](https://theam.github.io/tintin/)
+-   [Why I am not a fan of Cabal or Stack](http://www.rntz.net/post/2018-05-18-why-i-am-not-a-fan-of-stack.html)
+-   [Game of Life on a Raspberry Pi and a LED board in Haskell](https://trandi.wordpress.com/2018/05/22/game-of-life-on-a-raspberry-pi-and-a-led-board-in-haskell/)
+-   [Nix: Haskell concepts for package managment](https://mmhaskell.com/blog/2018/5/21/nix-haskell-concepts-for-package-managment)
+-   [Performance and feature case studies in Ecstasy](http://reasonablypolymorphic.com/blog/ecstasy-case-study/)
+-   [Church encoding](http://blog.ploeh.dk/2018/05/22/church-encoding/)
+-   [In Memory of Ertugrul S&#xf6;ylemez](https://blog.jle.im/entry/in-memory-of-ertugrul-soylemez.html)
+-   [require: Scrap your qualified import clutter](https://theam.github.io/require/)
+-   [Monadic profunctors for bidirectional programming](https://blog.poisson.chat/posts/2017-01-01-monadic-profunctors.html)
+-   [Cartography in Haskell](https://idontgetoutmuch.wordpress.com/2018/05/19/cartography-in-haskell/)
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Haxl](https://hackage.haskell.org/package/haxl-2.0.0.0),
+a library for efficient, concurrent, and concise data access.
 
 ## Call for participation
 
@@ -35,4 +60,9 @@ undefined
 
 ## Events
 
-undefined
+-   May 24: [Quality assurance and testing with Validity](https://www.meetup.com/Eindhoven-Haskell-Meetup/events/250768106/) in Eindhoven, Netherlands
+-   May 25: [LilleFP10: &#xc0; l'assaut des TypeClasses (Scala &#xe0; la rescousse)!](https://www.meetup.com/Lille-FP/events/250297947/) in Lille, France
+-   May 26: [May Day-Convoluted Weekend](https://www.meetup.com/LA-PureScript/events/250215566/) in Los Angeles, California, United States
+-   May 28: [Haskell peer study group](https://www.meetup.com/Vancouver-Functional-Programmers/events/250831132/) in Vancouver, British Columbia, Canada
+-   May 29: [Functional life cycles for state management during interactive development](https://www.meetup.com/got-lambda/events/250803906/) in G&#xf6;teborg, Sweden
+-   May 30: [Haskell web frameworks](https://www.meetup.com/Gainesville-Functional-Programming-Meetup/events/250556201/) in Gainesville, Florida, United States
