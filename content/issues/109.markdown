@@ -29,4 +29,4 @@ undefined
 
 ## Events
 
-undefined
+-   June 6: [Auckland FP Meetup: 3 Talks: Serverless Haskell; Prototyping for Radar; Pure TensorFlow Combinators](https://www.meetup.com/Functional-Programming-Auckland/events/250854233/) in Auckland, New Zealand
