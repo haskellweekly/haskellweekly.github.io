@@ -25,7 +25,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [rhine: Remove/refactor Count and FixedRate](https://github.com/turion/rhine/issues/66)
+-   [stack: no-run-tests in stack.yaml does nothing](https://github.com/commercialhaskell/stack/issues/4044)
 
 ## Events
 
