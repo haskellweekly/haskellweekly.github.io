@@ -72,7 +72,8 @@ a library that provides convenient access to high-resolution clock and timer fun
 
 ## Call for participation
 
-undefined
+-   [hledger: run doctests with fast flag](https://github.com/simonmichael/hledger/issues/802)
+-   [FuncMorph: Setup stack and stack.yaml](https://github.com/sam46/FuncMorph/issues/1)
 
 ## Events
 
