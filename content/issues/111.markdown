@@ -29,4 +29,4 @@ undefined
 
 ## Events
 
-undefined
+-   June 20: [Auckland FP Meetup: Learn Haskell Hands-on](https://www.meetup.com/Functional-Programming-Auckland/events/251540734/) in Auckland, New Zealand
