@@ -25,7 +25,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [arithmoi: Ramanujan tau-function](https://github.com/cartazio/arithmoi/issues/106)
+-   [boke-hs: Use Data.Colour as Colour representation](https://github.com/ahaym/boke-hs/issues/5)
+-   [dejafu: The unit testing docs refer to the (nonexistent) *IO functions](https://github.com/barrucadu/dejafu/issues/269)
 
 ## Events
 
