@@ -21,7 +21,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Summoner](https://github.com/kowainik/summoner/tree/7372d48449ff4362c3627bb21a1ee4d44d030750),
+a tool for creating completely configured production Haskell projects.
 
 ## Call for participation
 
