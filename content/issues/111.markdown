@@ -9,7 +9,16 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [Accessing Postgres in a dataframe in Haskell](https://www.gagandeepbhatia.com/blog/accessing-postgres-in-a-dataframe-in-haskell-early-steps-part-1/)
+-   [Codewars: An interactive online judge](https://np.reddit.com/r/haskell/comments/8qqihd/codewars_an_interactive_online_judge/)
+-   [Contributing to GHC 1: Preparation](https://mmhaskell.com/blog/2018/6/11/contributing-to-ghc-1-preparation)
+-   [GHC proposal: Remove the `*` kind syntax](https://github.com/int-index/ghc-proposals/blob/a0dd13465e0286171a153e3106291e19a88202f0/proposals/0000-remove-star-kind.rst)
+-   [Haskell REST API discussion](https://np.reddit.com/r/haskell/comments/8p9mm3/haskell_rest_api_discussion/)
+-   [I built a chess analytics web app in Haskell](https://np.reddit.com/r/haskell/comments/8qecdw/i_built_a_chess_analytics_web_app_in_haskell/)
+-   [Lenses embody products, prisms embody sums](https://blog.jle.im/entry/lenses-products-prisms-sums.html)
+-   [Motivation for monads](https://np.reddit.com/r/haskell/comments/8pym3x/motivation_for_monads/)
+-   [Source plugins: Four ways to build a type checked Haskell expression](https://mpickering.github.io/posts/2018-06-11-source-plugins.html)
+-   [Turning bottom-up into top-down with reverse state](https://blog.ielliott.io/topsy-turvy-reverse-state/)
 
 ## Jobs
 
@@ -19,7 +28,17 @@ undefined
 
 ## In brief
 
-undefined
+-   [Announce: Haskell Platform 8.4.3](https://mail.haskell.org/pipermail/haskell-cafe/2018-June/129256.html)
+-   [ascii-runner](https://github.com/smallhadroncollider/ascii-runner/tree/52d8b04fd875e2756645ac45167591ad41800a05)
+-   [Gamgee: Your sidekick for managing multi-factor authentication tokens](https://github.com/rkaippully/gamgee/tree/87ba29549bcd682cacf6d45346eb80e8110912a7)
+-   [servant-dhall](https://hackage.haskell.org/package/servant-dhall-0.1)
+-   [A promise checked is a promise kept: Inspection Testing](https://arxiv.org/pdf/1803.07130.pdf) [pdf]
+-   [Functional pearl: Ghosts of departed proofs](https://github.com/matt-noonan/gdp-paper/releases/download/june-2018-draft/gdp.pdf) [pdf]
+-   [Suggesting valid hole fits for typed holes](https://mpg.is/papers/gissurarson2018suggesting.pdf) [pdf]
+-   [Type variables in patterns](https://arxiv.org/pdf/1806.03476.pdf) [pdf]
+-   [Between two sets: HaskellRank #05](https://www.youtube.com/watch?v=40kpc90ZzDg) [video]
+-   [Monadic.Party 2018](https://www.youtube.com/playlist?list=PLcAu_kKy-krz3t2teYyCM0Lt4015DF-Zp) [video]
+-   [ZuriHac 2018 beginner track Friday](https://www.youtube.com/watch?v=4fNIhrDhaYA) [video]
 
 ## Package of the week
 
