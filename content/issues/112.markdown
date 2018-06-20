@@ -34,4 +34,4 @@ undefined
 
 ## Events
 
-undefined
+-   July 5 in Frankfurt, Germany: [Dhall: The functional configuration language](https://www.meetup.com/Frankfurt-Haskell-User-Group/events/251622624/)
