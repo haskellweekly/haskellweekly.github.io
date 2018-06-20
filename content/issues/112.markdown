@@ -9,7 +9,9 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [Transity: The future of plain text accounting](https://www.feram.io/blog/2018-06-05_transity_the_future_of_plain_text_accounting/)
+
+    > We found existing plain text accounting tools unsatisfactory, so we developed Transity. It models financial flows in terms of transactions and not debited / credited accounts.
 
 ## Jobs
 
