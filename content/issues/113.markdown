@@ -29,4 +29,5 @@ undefined
 
 ## Events
 
-July 4 in Dublin, Ireland: [Self-paced Haskell Study Group with Special Talk](https://www.meetup.com/haskell-dublin-meetup/events/252058824/)
+- July 4 in Dublin, Ireland: [Self-paced Haskell Study Group with Special Talk](https://www.meetup.com/haskell-dublin-meetup/events/252058824/)
+- July 16 in Auckland, New Zealand: [Two Talks: a) FP in JS-land; b) The unusual effectiveness of the Haskell type system](https://www.meetup.com/Functional-Programming-Auckland/events/252103853/)
