@@ -25,7 +25,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [nvim-hs: Make `Neovim.Debug` module useful again](https://github.com/neovimhaskell/nvim-hs/issues/66)
+-   [rhine: Silence all warnings](https://github.com/turion/rhine/issues/89)
+-   [stocks: Handle connection/404 errors](https://github.com/dabcoder/stocks/issues/37)
 
 ## Events
 
