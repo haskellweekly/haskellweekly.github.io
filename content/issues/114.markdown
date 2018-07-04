@@ -29,4 +29,4 @@ undefined
 
 ## Events
 
-undefined
+-   July 16 in Auckland, New Zealand: [Two Talks: FP in JS-land; and The unusual effectiveness of the Haskell type system](https://www.meetup.com/Functional-Programming-Auckland/events/252103853/)
