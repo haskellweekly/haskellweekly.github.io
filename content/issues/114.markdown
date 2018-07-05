@@ -25,7 +25,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [goat-guardian: add a logout handler](https://github.com/arow-oss/goat-guardian/issues/8)
+-   [hlint: Require specified prefix](https://github.com/ndmitchell/hlint/issues/508)
 
 ## Events
 
