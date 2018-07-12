@@ -44,7 +44,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [ngless: tar expansion should not use so much memory](https://github.com/ngless-toolkit/ngless/issues/77)
+-   [stack: Stack produces wrong terminal color codes for file paths](https://github.com/commercialhaskell/stack/issues/4139)
 
 ## Events
 
