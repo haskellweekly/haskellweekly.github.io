@@ -54,7 +54,7 @@ undefined
 -   July 13 in Austin, Texas: [Going through Software Foundations by Benjamin Pierce et al](https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/252485072/)
 -   July 14 in Norcross, Georgia: [Norcross Haskathon](https://www.meetup.com/Atlanta-Functional-Programming-Meetup/events/252467636/)
 -   July 15 in Bangalore, India: [Monoid and semigroup](https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/252365783/)
--   July 16 in Auckland, New Zealand: [Two Talks: FP in JS-land; and The unusual effectiveness of the Haskell type system](https://www.meetup.com/Functional-Programming-Auckland/events/252103853/)
+-   July 16 in Auckland, New Zealand: [The unusual effectiveness of the Haskell type system](https://www.meetup.com/Functional-Programming-Auckland/events/252103853/)
 -   July 17 in Carmel, Indiana: [Building a pattern matcher and query engine with unification](https://www.meetup.com/Indy-FP/events/252506502/)
 -   July 18 in London, England: [Comonads all the way down by Tom Harding](https://www.meetup.com/Papers-We-Love-London/events/252626633/)
 -   August 1 in Dublin, Ireland: [Self-paced Haskell study group with special talk](https://www.meetup.com/haskell-dublin-meetup/events/252468400/)
