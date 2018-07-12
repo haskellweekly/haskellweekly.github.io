@@ -9,7 +9,9 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
 ## Featured
 
-undefined
+-   [Thinkster's RealWorld backend](https://siskam.link/2018-07-02-thinkster-s-realworld---backend.html)
+
+    > My first try implement Thinkster's Conduit API can be found at RealWorldTM which I think should be fully functional. But, it doesn't feel right if I don't write it up. So, here we go again.
 
 ## Jobs
 
