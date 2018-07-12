@@ -1,4 +1,4 @@
-<!-- 2018-07-12 -->
+<!-- 2018-07-12 unpublished -->
 
 Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a safe, purely functional programming language with a fast, concurrent runtime.
@@ -29,4 +29,11 @@ undefined
 
 ## Events
 
--   August 1st in Dublin, Ireland: [Self-paced Haskell study group with special talk](https://www.meetup.com/haskell-dublin-meetup/events/252468400/)
+-   July 12 in Bellevue, Washington: [John De Goes: FP to the max](https://www.meetup.com/fun-c-group/events/251564565/)
+-   July 13 in Austin, Texas: [Going through Software Foundations by Benjamin Pierce et al](https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/252485072/)
+-   July 14 in Norcross, Georgia: [Norcross Haskathon](https://www.meetup.com/Atlanta-Functional-Programming-Meetup/events/252467636/)
+-   July 15 in Bangalore, India: [Monoid and semigroup](https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/252365783/)
+-   July 16 in Auckland, New Zealand: [Two Talks: FP in JS-land; and The unusual effectiveness of the Haskell type system](https://www.meetup.com/Functional-Programming-Auckland/events/252103853/)
+-   July 17 in Carmel, Indiana: [Building a pattern matcher and query engine with unification](https://www.meetup.com/Indy-FP/events/252506502/)
+-   July 18 in London, England: [Comonads all the way down by Tom Harding](https://www.meetup.com/Papers-We-Love-London/events/252626633/)
+-   August 1 in Dublin, Ireland: [Self-paced Haskell study group with special talk](https://www.meetup.com/haskell-dublin-meetup/events/252468400/)
