@@ -19,7 +19,24 @@ undefined
 
 ## In brief
 
-undefined
+-   [Announcing Stackage LTS 12.0 with GHC 8.4.3](https://www.stackage.org/blog/2018/07/announce-lts-12)
+-   [Benchmarking Haskell graph libraries](https://blog.nyarlathotep.one/2018/07/benchmarking-haskell-graph-libraries/)
+-   [Deriving instances with a twist](https://blog.poisson.chat/posts/2018-07-08-deriving-twist.html)
+-   [Fast Sudoku solver in Haskell: A 200x faster solution](https://abhinavsarkar.net/posts/fast-sudoku-solver-in-haskell-2/)
+-   [Funflow example: Emulating Make](https://www.tweag.io/posts/2018-07-10-funflow-make.html)
+-   [Gauging interest in a type-level programming book](https://np.reddit.com/r/haskell/comments/8x0gen/gauging_interest_in_a_typelevel_programming_book/)
+-   [Idiom brackets via source plugin](http://oleg.fi/gists/posts/2018-07-06-idiom-brackets-via-source-pluging.html)
+-   [Inside the paper: Build systems a la carte](https://neilmitchell.blogspot.com/2018/07/inside-paper-build-systems-la-carte.html)
+-   [Installing and running multiple GHC versions](https://qfpl.io/posts/multiple-ghcs/)
+-   [Lamping's abstract algorithm](https://github.com/MaiaVictor/absal-ex/tree/275d6a9567ce55aaf07396bd93edbff7f6ac6fb9)
+-   [Nix, Docker, and Haskell](https://cs-syd.eu/posts/2018-07-14-nix-docker-haskell)
+-   [Operators in JavaScript and Haskell](https://typeclasses.com/javascript/operators)
+-   [Parsing list comprehensions is hard](http://www.rntz.net/post/2018-07-10-parsing-list-comprehensions.html)
+-   [Scrap your `Nil`s](https://github.com/morphismtech/squeal/blob/390d6e9135fe18e4fdfab766cdf67be8625b324d/scrap-your-nils.md)
+-   [Static analysis of free monads](http://reasonablypolymorphic.com/blog/prospecting-free-monads/)
+-   [The curious time-traveling reverse state monad](https://tech-blog.capital-match.com/posts/5-the-reverse-state-monad.html)
+-   [`typerep-map` step by step](https://kowainik.github.io/posts/2018-07-11-typerep-map-step-by-step.html)
+-   [Video player improvements](https://typeclasses.com/news/2018-07-video-player-improvements)
 
 ## Package of the week
 
