@@ -1,1 +1,2 @@
-resolver: lts-11.0
+resolver: lts-12.0
+extra-deps: [ cmark-0.5.6 ]
