@@ -25,7 +25,7 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [codec-beam: Re-visit codegen from Erlang compiler files](https://github.com/hkgumbs/codec-beam/issues/48)
 
 ## Events
 
