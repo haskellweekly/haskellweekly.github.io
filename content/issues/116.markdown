@@ -29,4 +29,4 @@ undefined
 
 ## Events
 
-undefined
+-   August 1 in Dublin, Ireland: [Self-paced Haskell study group with special talk](https://www.meetup.com/haskell-dublin-meetup/events/252468400/)
