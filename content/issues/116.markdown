@@ -47,14 +47,25 @@ Open an issue or pull request [on GitHub](https://github.com/haskellweekly/haske
 
     > Target is looking for engineers and data scientists to work on supply chain optimization. This includes designing mathematical models, writing simulations, and engineering systems that operate on a national scale. You should apply if you are interested in some combination of functional programming, mathematical modeling and data science.
 
+-   [Senior Haskell developer at GetShop.TV in Moscow](http://getshop.tv/ourteam/sr-haskell-developer/)
+
+    > GetShop.TV is an interactive television platform that connects viewers with advertisers and content providers on both live TV and video-on-demand services. We are seeking a senior Haskell developer to help us build a stable, automated, typesafe service at scale.
+
+-   [Software test engineer at HERE Technologies](https://www.here.com/en/careers/jobs/21383/sr-software-test-engineerhaskell-over-air-technology-mf)
+
+    > We are currently looking for (senior) software test engineer for our over-the-Air division to support delivery of our products on high quality standards. Our unit works together with the car industry to bring the latest software updates and security fixes to vehicles in the field, using a peer-reviewed security framework to ensure the integral delivery of authorized updates.
+
 ## In brief
 
+-   [CodeWorld update](https://medium.com/@cdsmithus/codeworld-update-july-14-2018-9fa5a2c27102)
+-   [Finishing the first course](https://typeclasses.com/news/2018-07-finishing-course)
 -   [FPSheet: A spreadsheet program with Haskell as the scripting language](https://github.com/RKlompUU/fpsheet/tree/532a55c92b57ab8153b56fd006d69455a16739e7)
 -   [GHC 8.6.1-alpha1 available](https://mail.haskell.org/pipermail/ghc-devs/2018-July/016007.html)
 -   [GHC proposal: Binding type variables in lambda-expressions](https://github.com/goldfirere/ghc-proposals/blob/c4cc2501248cefc1ada63a21742a076dd57ae9dc/proposals/0000-type-lambda.rst)
 -   [Haskell ain't maths](https://danghica.blogspot.com/2018/07/haskell-aint-maths.html)
 -   [Introducing the Pact property checker](https://blog.monic.co/introducing-the-pact-property-checker/)
 -   [Request for nominations to the GHC steering committee](https://mail.haskell.org/pipermail/haskell/2018-July/025491.html)
+-   [Series spotlight: Liftoff series!](https://mmhaskell.com/blog/2018/7/16/series-spotlight-liftoff-series)
 -   [What makes Haskell unique, part 1](https://dzone.com/articles/what-makes-haskell-unique)
 
 ## Package of the week
