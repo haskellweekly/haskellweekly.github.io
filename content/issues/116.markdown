@@ -65,6 +65,9 @@ a library for beautiful streaming, concurrent and reactive composition.
 ## Call for participation
 
 -   [codec-beam: Re-visit codegen from Erlang compiler files](https://github.com/hkgumbs/codec-beam/issues/48)
+-   [curl-runnings: curl-runnings should be able to update itself](https://github.com/aviaviavi/curl-runnings/issues/28)
+-   [hledger: newlines in CSV data aren't handled right](https://github.com/simonmichael/hledger/issues/841)
+-   [nirum: TOML reading should be independent from locale settings](https://github.com/spoqa/nirum/issues/290)
 
 ## Events
 
