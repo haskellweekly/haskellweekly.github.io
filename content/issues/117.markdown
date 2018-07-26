@@ -32,12 +32,15 @@ undefined
 -   [Edward Kmett: Haskell live-coding: Session 6: CEK machines](https://www.twitch.tv/videos/287889784)
 -   [Forvis: A formal RISC-V ISA specification](https://github.com/rsnikhil/RISCV-ISA-Spec/tree/e226df0699bfb2fbe03950c589008746ec0060d6)
 -   [Haskell & AppVeyor Chocolatey introduction](https://hub.zhox.com/posts/chocolatey-introduction/)
+-   [Making the jump: Advancing past beginner Haskell](https://mmhaskell.com/blog/2018/7/23/making-the-jump-advancing-past-beginner-haskell)
+-   [Merge-free synchronisation with `mergeless`](https://cs-syd.eu/posts/2018-07-28-mergeless)
 -   [Pantry, part 2: Trees and keys](https://www.fpcomplete.com/blog/2018/07/pantry-part-2-trees-keys)
 -   [Popularity of Haskell extensions](https://gist.github.com/atondwal/ee869b951b5cf9b6653f7deda0b7dbd8/bc976ebf475857d0115822f1f470b61eb11c0cbb)
 -   [Silver Searcher: Useful regexes for a Haskell code base](https://alternativebit.fr/posts/haskell/ag/)
 -   [Simon Peyton Jones: Linear Haskell: Practical linearity in a higher-order polymorphic language](https://www.youtube.com/watch?v=t0mhvd3-60Y)
 -   [Smuggler: GHC source plugin to manage import section](https://np.reddit.com/r/haskell/comments/90xyb1/ann_smuggler_ghc_source_plugin_to_manage_import/)
 -   [Snack: Incremental Nix builds for Haskell](https://np.reddit.com/r/haskell/comments/91f5r7/snack_incremental_nix_builds_for_haskell/)
+-   [The problem of parsing large datasets](https://haskell-works.github.io/posts/2018-07-25-problem-of-parsing-large-datasets.html)
 -   [WebGL, Fragment Shader, GHCJS and `reflex-dom`](https://www.joachim-breitner.de/blog/742-WebGL%2C_Fragment_Shader%2C_GHCJS_and_reflex-dom)
 
 ## Package of the week
