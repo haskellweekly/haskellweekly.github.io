@@ -32,7 +32,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Slick](https://hackage.haskell.org/package/slick-0.1.0.2),
+a static site generator written and configured using Haskell.
 
 ## Call for participation
 
