@@ -10,7 +10,17 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Wire is hiring a Haskell developer in Berlin](https://medium.com/@neongreen/wire-is-hiring-a-haskell-developer-and-an-operations-engineer-berlin-51e7f3ed3050)
+
+    > The backend team is pretty small (just four people) and recently we've been overwhelmed with work, which is exciting --- but, admittedly, having a life is even more exciting, which is why we're looking for: an intermediate-level Haskeller to work with us on the backend
+
+-   [Here Technologies is hiring a Haskell developer in Berlin](https://np.reddit.com/r/haskell/comments/904029/job_haskell_developer_interested_in_formal/)
+
+    > We are looking for Haskell developers with an interest in testing and formal methods. The job involves further developing and making use of the quickcheck-state-machine library, to perform state machine based end-to-end testing.
+
+-   [Kadena is hiring a Haskell developer in New York](https://functional.works-hub.com/jobs/software-engineer-new-york-new-york-united-states-7fd34)
+
+    > Located in New York, Kadena is utilizing the power of blockchain, Haskell, and their own smart contract language to solve business problems. Love Haskell and love Blockchain? Helluva role for you!
 
 ## In brief
 
