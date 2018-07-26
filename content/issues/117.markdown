@@ -47,7 +47,8 @@ a static site generator written and configured using Haskell.
 
 ## Call for participation
 
-undefined
+-   [aeson: `{-# ANN otations #-}` cause interpreter to load.](https://github.com/bos/aeson/issues/654)
+-   [haskell-ide-engine: Get tests working on windows](https://github.com/haskell/haskell-ide-engine/issues/713)
 
 ## Events
 
