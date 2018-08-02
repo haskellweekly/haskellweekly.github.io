@@ -248,7 +248,7 @@ renderAdvertising template advertisingTemplate context = do
   title <- pageTitle (Just "Advertising")
   renderTemplate
     template
-    ( context
+    (context
     ++ [ ("body", body)
        , ("summary", "Information about advertising with Haskell Weekly.")
        , ("title", title)
@@ -261,7 +261,7 @@ renderAtom template entryTemplate context issues = do
   entries <- mapM (renderAtomEntry entryTemplate context) issues
   renderTemplate
     template
-    ( context
+    (context
     ++ [ ("entries", mconcat entries)
        , ("updated", isoDay (lastUpdated issues))
        ]
@@ -270,7 +270,7 @@ renderAtom template entryTemplate context issues = do
 renderAtomEntry :: Monad m => Text -> Context -> Issue -> m Text
 renderAtomEntry template context issue = renderTemplate
   template
-  ( context
+  (context
   ++ [ ("content", escapeHtml (issueContents issue))
      , ("number", showText (issueNumber issue))
      , ("updated", isoDay (issueDay issue))
@@ -290,7 +290,7 @@ renderIndex baseTemplate template snippetTemplate context issues = do
   title <- pageTitle Nothing
   renderTemplate
     baseTemplate
-    ( context
+    (context
     ++ [("body", body), ("summary", summary), ("title", title), ("url", "")]
     )
 
@@ -299,7 +299,7 @@ renderIssue baseTemplate issueTemplate context issue = do
   partialTitle <- issueTitle issue
   body <- renderTemplate
     issueTemplate
-    ( context
+    (context
     ++ [ ("body", issueContents issue)
        , ("date", prettyDay (issueDay issue))
        , ("title", partialTitle)
@@ -310,7 +310,7 @@ renderIssue baseTemplate issueTemplate context issue = do
   title <- pageTitle (Just partialTitle)
   renderTemplate
     baseTemplate
-    ( context
+    (context
     ++ [("body", body), ("summary", summary), ("title", title), ("url", url)]
     )
 
@@ -337,7 +337,7 @@ renderRssItem template context issue = do
   url <- issueUrl issue
   renderTemplate
     template
-    ( context
+    (context
     ++ [ ("description", escapeHtml (issueContents issue))
        , ("pubDate", rfcDay (issueDay issue))
        , ("title", title)
@@ -351,7 +351,7 @@ renderSnippet template context issue = do
   url <- issueUrl issue
   renderTemplate
     template
-    ( context
+    (context
     ++ [("date", prettyDay (issueDay issue)), ("title", title), ("url", url)]
     )
 
@@ -367,7 +367,7 @@ renderSurvey baseTemplate surveyTemplate template context year = do
   url <- surveyUrl year
   renderTemplate
     baseTemplate
-    ( context
+    (context
     ++ [("body", body), ("summary", summary), ("title", title), ("url", url)]
     )
 
@@ -381,7 +381,7 @@ textsToPieces :: [Text] -> [Piece]
 textsToPieces chunks = case chunks of
   [] -> []
   [text] -> [Literal text]
-  text:name:rest -> Literal text : Variable name : textsToPieces rest
+  text : name : rest -> Literal text : Variable name : textsToPieces rest
 
 -- Generic helpers
 
