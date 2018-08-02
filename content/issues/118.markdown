@@ -22,7 +22,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [disco: Test suite section for failures](https://github.com/disco-lang/disco/issues/131)
+-   [sv: Column-name-based decoding for sv-cassava](https://github.com/qfpl/sv/issues/19)
 
 ## Events
 
