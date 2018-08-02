@@ -24,7 +24,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Foundation](https://www.stackage.org/lts-12.4/package/foundation-0.0.21),
+an alternative prelude with batteries included and no dependencies.
 
 ## Call for participation
 
