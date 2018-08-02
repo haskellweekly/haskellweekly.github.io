@@ -20,6 +20,7 @@ Haskell Weekly reaches a highly engaged audience of almost 3,000 functional prog
 
 ## In brief
 
+-   [Beam: Database power without Template Haskell](https://mmhaskell.com/blog/2018/7/30/beam-database-power-without-template-haskell)
 -   [GHC, one compiler to `RULE` them all](https://blog.nyarlathotep.one/2018/07/ghc-one-compiler-to-rule-them-all/)
 -   [GHCinception: Running GHCi in GHCi](http://mgsloan.com/posts/ghcinception/)
 -   [Hash array mapped tries from scratch](https://vaibhavsagar.com/blog/2018/07/29/hamts-from-scratch/)
@@ -29,6 +30,7 @@ Haskell Weekly reaches a highly engaged audience of almost 3,000 functional prog
 -   [Introduction to the rank-select bit-string](https://haskell-works.github.io/posts/2018-08-01-introduction-to-rank-select-bit-string.html)
 -   [Making Haskell as fast as C: Imperative programming in Haskell](https://deliquus.com/posts/2018-07-30-imperative-programming-in-haskell.html)
 -   [Monthly Hask Anything: August 2018](https://np.reddit.com/r/haskell/comments/93gbdn/monthly_hask_anything_august_2018/)
+-   [Pantry, part 3: Specifying dependencies](https://www.fpcomplete.com/blog/2018/08/pantry-part-3/specifying-dependencies)
 -   [QuickSpec and the quest for good lemmas](https://dselsam.github.io/quickspec/)
 -   [Streaming UTF-8 in Haskell and Rust](https://www.fpcomplete.com/blog/2018/07/streaming-utf8-haskell-rust)
 -   [Suggesting valid hole fits for typed-holes](https://mpg.is/papers/gissurarson2018suggesting-xp.pdf)
