@@ -10,7 +10,13 @@ undefined
 
 ## Jobs
 
-undefined
+Are you looking to hire a Haskell developer?
+You should [advertise with us](/advertising.html)!
+Haskell Weekly reaches a highly engaged audience of almost 3,000 functional programming enthusiasts.
+
+-   [Full-stack engineer at Lumi in Los Angeles](https://www.lumi.com/jobs/full-stack-engineer)
+
+    > As a full-stack engineer at Lumi, you will be an important part of our small and dynamic team, working on a wide variety of projects, from customer-facing features to internal tools. We strive to write elegant code to solve real-world problems.
 
 ## In brief
 
