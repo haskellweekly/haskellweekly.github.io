@@ -22,7 +22,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [http-api-data: Add instances for Data.Fixed](https://github.com/fizruk/http-api-data/issues/77)
+-   [purebred: Showing raw e-mail body](https://github.com/purebred-mua/purebred/issues/195)
 
 ## Events
 
