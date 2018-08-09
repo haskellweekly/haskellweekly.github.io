@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
-{- stack --resolver lts-10.0 --install-ghc script
+{- stack --resolver lts-12.0 --install-ghc script
   --package bytestring
   --package cmark
   --package containers
@@ -11,7 +11,10 @@
   --package network-uri
   --package text -}
 {-# OPTIONS_GHC -Werror -Weverything -Wno-implicit-prelude -Wno-unsafe #-}
-module Main (main) where
+module Main
+  ( main
+  )
+where
 import qualified Control.Exception as Exception
 import qualified CMark as Markdown
 import qualified Data.ByteString as Bytes
@@ -86,9 +89,10 @@ extractIssueUrls directory issue = do
 extractNodeUrls :: Markdown.Node -> [Markdown.Url]
 extractNodeUrls (Markdown.Node _ nodeType nodes) =
   let links = concatMap extractNodeUrls nodes
-  in case extractNodeTypeUrl nodeType of
-    Nothing -> links
-    Just link -> link : links
+  in
+    case extractNodeTypeUrl nodeType of
+      Nothing -> links
+      Just link -> link : links
 
 extractNodeTypeUrl :: Markdown.NodeType -> Maybe Markdown.Url
 extractNodeTypeUrl nodeType = case nodeType of
@@ -119,18 +123,20 @@ checkLink manager uri = do
       Printf.printf
         "- %d %s\n"
         (Http.statusCode (Client.responseStatus response))
-        url)
-    (\ exception -> case exception of
-      Client.HttpExceptionRequest _ x -> Printf.printf "- 001 %s %s\n" url (show x)
-      Client.InvalidUrlException _ x -> Printf.printf "- 002 %s %s\n" url x)
+        url
+    )
+    (\exception -> case exception of
+      Client.HttpExceptionRequest _ x ->
+        Printf.printf "- 001 %s %s\n" url (show x)
+      Client.InvalidUrlException _ x -> Printf.printf "- 002 %s %s\n" url x
+    )
 
 displayUri :: Uri.URI -> String
 displayUri uri = Uri.uriToString id uri ""
 
 withUserAgent :: Client.Request -> Client.Request
-withUserAgent request = request
-  { Client.requestHeaders = [(Http.hUserAgent, userAgent)]
-  }
+withUserAgent request =
+  request { Client.requestHeaders = [(Http.hUserAgent, userAgent)] }
 
 userAgent :: Bytes.ByteString
 userAgent = Text.encodeUtf8 (Text.pack "haskell-weekly")
