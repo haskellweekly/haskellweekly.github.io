@@ -27,6 +27,11 @@ undefined
 
 ## Events
 
+We're doing things in this section a little differently starting with this issue.
+You may notice a lot more events!
+Hopefully that means you'll be able to find some local Haskellers to meet up with.
+Please let us know what you think about this change over [on GitHub](https://github.com/haskellweekly/haskellweekly.github.io/issues/207).
+
 - Thursday, August 9: [Morning Haskell coding session](https://www.meetup.com/Durham-Haskell-Meetup/events/253452186/) hosted by [Durham Haskell Meetup](https://www.meetup.com/Durham-Haskell-Meetup/) in [Durham, nc, USA](https://www.openstreetmap.org/?mlat=36.013916015625&mlon=-78.92152404785156)
 - Thursday, August 9: [(hack . yack)](https://www.meetup.com/Raleigh-Haskell-Meetup/events/253466952/) hosted by [Raleigh Haskell Meetup](https://www.meetup.com/Raleigh-Haskell-Meetup/) in [Raleigh, NC, USA](https://www.openstreetmap.org/?mlat=35.77825927734375&mlon=-78.63912963867188)
 - Thursday, August 9: [Functional Programming Meetup](https://www.meetup.com/las-vegas-functional-programming/events/253192401/) hosted by [Las Vegas Functional Programming User Group](https://www.meetup.com/las-vegas-functional-programming/) in [Las Vegas, NV, USA](https://www.openstreetmap.org/?mlat=36.0655517578125&mlon=-115.1436538696289)
