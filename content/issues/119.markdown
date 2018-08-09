@@ -1,4 +1,4 @@
-<!-- 2018-08-09 unpublished -->
+<!-- 2018-08-09 -->
 
 Welcome to another issue of Haskell Weekly!
 Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
