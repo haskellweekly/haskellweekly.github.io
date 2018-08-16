@@ -45,7 +45,9 @@ a library that provides various tools to deal with data versioning in a type-saf
 
 ## Call for participation
 
-undefined
+-   [exercism/haskell: Replace existing hello world and quicksort snippets](https://github.com/exercism/haskell/issues/708)
+-   [goat-guardian: make sure email-login verification emails actually expire](https://github.com/arow-oss/goat-guardian/issues/22)
+-   [hasktorch: reference to -1 Word should be `subtract 1`](https://github.com/hasktorch/hasktorch/issues/108)
 
 ## Events
 
