@@ -38,7 +38,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [`versioning`](https://hackage.haskell.org/package/versioning-0.2.0.0),
+a library that provides various tools to deal with data versioning in a type-safe way.
 
 ## Call for participation
 
