@@ -68,8 +68,9 @@ There are no fewer than 9 companies hiring Haskellers right now.
 
 ## Package of the week
 
-This week's package of the week is [`versioning`](https://hackage.haskell.org/package/versioning-0.2.0.0),
-a library that provides various tools to deal with data versioning in a type-safe way.
+This week's package of the week is [GRIFT](https://github.com/GaloisInc/grift/tree/757b5c2dc46f951fd44522a675790d51ee094125),
+the Galois RISC-V Formal Tools.
+It contains a concrete representation of the semantics of the RISC-V instruction set, along with an elegant encoding/decoding mechanism, and simulation and analysis front-ends.
 
 ## Call for participation
 
