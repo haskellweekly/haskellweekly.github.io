@@ -10,7 +10,9 @@ undefined
 
 ## Jobs
 
-undefined
+If you're interested in a Haskell job,
+look no futher than [the who's hiring thread](https://www.reddit.com/r/haskell/comments/972io6/whos_hiring/) from the Haskell subreddit!
+There are no fewer than 9 companies hiring Haskellers right now.
 
 ## In brief
 
