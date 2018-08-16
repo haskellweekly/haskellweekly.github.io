@@ -14,7 +14,27 @@ undefined
 
 ## In brief
 
-undefined
+-   [Approximating compiling to categories using type-level Haskell: Take 2](http://www.philipzucker.com/approximating-compiling-categories-using-typelevel-haskell-take-2/)
+-   [Breaking the space-time barrier with Haskell: Time-traveling and debugging in CodeWorld](https://medium.com/@krystal.maughan/breaking-the-space-time-barrier-with-haskell-time-traveling-and-debugging-in-codeworld-a-google-e87894dd43d7)
+-   [`curry` vs `uncurry` on Hackage](http://blog.vmchale.com/article/curry-uncurry)
+-   [Enable all the warnings](https://medium.com/mercury-bank/enable-all-the-warnings-a0517bc081c3)
+-   [Fast Sudoku solver in Haskell #3: Picking the right data structures](https://abhinavsarkar.net/posts/fast-sudoku-solver-in-haskell-3/)
+-   [Functor, Applicative, and why](https://functional.works-hub.com/learn/functor-applicative-and-why-3c5b3)
+-   [GHC 8.6.1-beta1 available](https://mail.haskell.org/pipermail/ghc-devs/2018-August/016098.html)
+-   [GHCanIUse](https://damianfral.github.io/ghcaniuse/)
+-   [GSoC 2018 wrap-up: Haskell dataframes, Postgres type providers and more](https://www.gagandeepbhatia.com/blog/gsoc-2018-wrap-up-haskell-dataframes-postgres-type-providers-and-more/)
+-   [Hi Haddock: Google Summer of Code is over](https://sjakobi.github.io/blog/2018/08/14/hi-haddock-3/)
+-   [`hlint-source-plugin`: Run HLint as part of normal compilation](https://github.com/ocharles/hlint-source-plugin/tree/d4cded0a7432dc2d5884b9bedd2c714ce510d3ce)
+-   [Image processing: GSoC'18 with Haskell](https://medium.com/@khilanravani/image-processing-gsoc18-with-haskell-84177cec618)
+-   [`lsp-test`: A functional test framework for LSP servers](https://lukelau.me/haskell/posts/lsp-test/)
+-   [My Haskell journey from C#](https://cvlad.info/haskell/)
+-   [RFC compliant data-parallel CSV parsing](https://haskell-works.github.io/posts/2018-08-15-data-parallel-rfc-compliant-csv-parsing.html)
+-   [Series spotlight: Haskell web skills](https://mmhaskell.com/blog/2018/8/13/series-spotlight-haskell-web-skills)
+-   [Specifying how a plugin affects recompilation](https://mpickering.github.io/posts/2018-08-10-plugins-recompilation.html)
+-   [Type Classes: Web servers course](https://typeclasses.com/news/2018-08-web-servers-course)
+-   [Typeclass induction and developing a QuickCheck-like library](https://mzabani.github.io/posts/2018-08-13.html)
+-   [Typesafe versioned APIs](https://chrispenner.ca/posts/typesafe-api-versioning)
+-   [What is new in cross compiling Haskell](https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-77c348f79ad5)
 
 ## Package of the week
 
