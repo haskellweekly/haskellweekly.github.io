@@ -10,7 +10,8 @@ undefined
 
 ## Jobs
 
-undefined
+Are you looking to hire a Haskell developer?
+You should [advertise with us](/advertising.html)!
 
 ## In brief
 
