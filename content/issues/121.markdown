@@ -42,7 +42,8 @@ a library that bins continuous values into discrete containers in an interval, u
 
 ## Call for participation
 
-undefined
+-   [ghcid: --verbose should print out the version number](https://github.com/ndmitchell/ghcid/issues/196)
+-   [stack: Update GUIDE.md doc](https://github.com/commercialhaskell/stack/issues/4252)
 
 ## Events
 
