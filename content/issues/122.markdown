@@ -16,9 +16,15 @@ undefined
 
 undefined
 
-## Package of the week
+## Packages of the week
 
-undefined
+-   [Abstract Calculus: A minimal programming language and model of computation](https://github.com/MaiaVictor/abstract-calculus/tree/1b7f25e529deb2fc3b1f2429a566c5c15eada0a8)
+-   [BuBBLE: A DSL/LISP dialect written](https://github.com/Ninjacop/BuBBLE/tree/52b1498f9e61299605c5aaee63f77a54b0f8661e)
+-   [`emacs-module`: A Haskell package for writing Emacs modules](https://github.com/sergv/emacs-module/tree/cee3dff20f6860904688fe90d8f897e9783f39b7)
+-   [`http2-client-grpc`: A native HTTP2 gRPC client library](https://github.com/lucasdicioccio/http2-client-grpc/tree/3f41c70a94f4d0c8aadd380c770f76b88bc1c1a3)
+-   [Kiwi: A B+ tree based persistent key-value store](https://github.com/shivansh/kiwi/tree/dbef19778ffaf26f3f2eb37c13f6896262aa4ede)
+-   [Termonad: A terminal emulator configurable](https://github.com/cdepillabout/termonad/tree/cb7ba74140ca2aeb5c3d78642ea27602cc86ee6f)
+-   [Yaar: An experimental type level framework for bulding type safe web applications](https://bitbucket.org/sras/yaar/src/cdb544b6c77f)
 
 ## Call for participation
 
