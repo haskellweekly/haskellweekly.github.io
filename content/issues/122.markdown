@@ -76,7 +76,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Call for participation
 
-undefined
+-   [goat-guardian: get rid of `--redir-after-login-url` command line flag and instead use a URL parameter](https://github.com/arow-oss/goat-guardian/issues/25)
+-   [stack: Make `snapshot:` a synonym for `resolver:`](https://github.com/commercialhaskell/stack/issues/4256)
+-   [termonad: Make sure that the example .config/termonad/termonad.hs file in the README actually compiles](https://github.com/cdepillabout/termonad/issues/14)
 
 ## Events
 
