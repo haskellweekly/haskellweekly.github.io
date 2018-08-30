@@ -14,7 +14,26 @@ undefined
 
 ## In brief
 
-undefined
+-   [3D projection in Haskell](https://henningtonko.github.io./3D-Projection-In-Haskell/)
+-   [Announcing `genvalidity-hspec-optics`](https://cs-syd.eu/posts/2018-08-28-genvalidity-hspec-optics)
+-   [Announcing Eta v0.8.6b2](https://blog.eta-lang.org/announcing-eta-v0-8-6b2-df0398272089)
+-   [Bit-manipulation operations for high-performance succinct data-structures and CSV parsing](https://haskell-works.github.io/posts/2018-08-22-pdep-and-pext-bit-manipulation-functions.html)
+-   [Eta GSoC 2018 wrap up](https://blog.eta-lang.org/eta-gsoc-2018-wrap-up-fe55426580c2)
+-   [Haskell development workflows 4 ways](https://www.fpcomplete.com/blog/2018/08/haskell-development-workflows-4-ways)
+-   [HaskellRank 7: Purely functional solutions to imperative problems](https://www.youtube.com/watch?v=NcUNN_tSmyE)
+-   [How functional programming can be awesome: Tail recursion elimination](https://towardsdatascience.com/what-is-tail-recursion-elimination-or-why-functional-programming-can-be-awesome-43091d76915e)
+-   [Kids coding: Part 3](https://www.snoyman.com/blog/2018/08/kids-coding-part-3)
+-   [Marrying Haskell and hyper-threading](https://qnikst.github.io/posts/2018-08-23-ht-no-more.html)
+-   [Megaparsec 7](https://markkarpov.com/post/megaparsec-7.html)
+-   [Notes from reading *Type Driven Development with Idris*](https://github.com/rpeszek/IdrisTddNotes/wiki/Home/f0bc51f3868dedee3d6cdbeee3a89f1e411d6711)
+-   [Notes on Agda's termination checker](http://oleg.fi/gists/posts/2018-08-29-agda-termination-checker.html)
+-   [Package environment files run counter to reproducibility](https://hexagoxel.de/postsforpublish/posts/2018-08-25-ghc-pkg-env-misfeature.html)
+-   [PureScript: Instance chains and overlapping Instances](https://liamgoodacre.github.io/purescript/instance/chain/2017/08/18/purescript-instance-chain.html)
+-   [Taking a look back: My mistakes in learning Haskell](https://mmhaskell.com/blog/2018/8/27/taking-a-look-back-my-mistakes-in-learning-haskell)
+-   [The abstract calculus](https://medium.com/@maiavictor/the-abstract-calculus-fe8c46bcf39c)
+-   [The great power of `newtype`s](https://speakerdeck.com/konn/the-great-power-of-newtypes)
+-   [What I've learned since quitting Elm](https://qiita.com/kimagure/items/93a42d67a8833f99fe2e)
+-   [What's the consensus on Unicode symbols these days?](https://np.reddit.com/r/haskell/comments/9abjn3/whats_the_consensus_on_unicode_symbols_these_days/)
 
 ## Packages of the week
 
