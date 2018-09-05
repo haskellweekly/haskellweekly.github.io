@@ -10,7 +10,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Senior Haskell developer at Mpowered](https://mpowered.co.za/jobs/)
+
+    > Join a small team of specialists working on refactoring an enterprise application from its Ruby on Rails origins to a future of type safety and extensibility built on Haskell.
 
 ## In brief
 
