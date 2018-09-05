@@ -26,4 +26,4 @@ undefined
 
 ## Events
 
-undefined
+- 2018-09-19 in Vancouver, Canada by VanFP: [Vancouver's Haskell Book Workshop](https://www.meetup.com/Vancouver-Functional-Programmers/events/pzvcfqyxmbqb/)
