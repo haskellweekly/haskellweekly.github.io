@@ -8,43 +8,43 @@ This is a weekly summary of what's going on in its community.
 
 -   [Compositional zooming for `StateT` and `ReaderT` using `lens`](https://www.well-typed.com/blog/2018/09/compositional-zooming/)
 
-    > todo
+    > Suppose we want to write an update that changes one of the fields in a particular address. If the address cannot be found, we want a precise error message that distinguishes between the address itself not being found, or one of its parents (the account, or the wallet) not being found.
 
 -   [Declarative GTK+ programming with Haskell](https://wickstrom.tech/programming/2018/09/04/declarative-gtk-programming-with-haskell.html)
 
-    > todo
+    > This post introduces a declarative GTK+ architecture for Haskell which I've been working on during the journey with FastCut, a video editor specialized for my own screencast editing workflow. It outlines the motivation, introduces the packages and their uses, and highlights parts of the implementation.
 
 -   [Dependent types in Haskell: Binomial heaps 101](https://jaspervdj.be/posts/2018-09-04-binomial-heaps-101.html)
 
-    > todo
+    > Who put binary numbers in my type system? This post makes a bit of a departure from the "practical Haskell" I usually try to write about, although --- believe it or not --- this blogpost actually originated from a very practical origin.
 
 -   [Haskell.org GSoC results for 2018](https://summer.haskell.org/news/2018-09-01-final-results.html)
 
-    > todo
+    > Google Summer of Code 2018 is officially over. The Haskell.org organisation had a very productive year with 17 accepted projects out of which 15 were successful. We would like to thank the students and mentors for the great summer, and, of course, Google for its generous support towards the open source community.
 
 -   [How can you work with a JSON value if you know nothing about it?](https://lispcast.com/how-can-you-work-with-a-json-value-if-you-know-nothing-about-it/)
 
-    > todo
+    > The question is rhetorical. Of course you can't do anything if you know nothing about it. But we do know a ton! We just can't (or it's very difficult to) encode what we know as a type.
 
 -   [Introduction to SIMD with line count](https://haskell-works.github.io/posts/2018-09-03-simd-with-linecount.html)
 
-    > todo
+    > In a previous post I talked about using broadword techniques to create a rank-select bit-string from text. This post will explore using Single Instruction, Multiple Data (SIMD) instructions to achieve the same thing.
 
 -   [Robust notes with embedded code](https://www.arcadianvisions.com/blog/2018/org-nix-direnv.html)
 
-    > todo
+    > Emacs's org-mode has great facilities for working with source code, often referred to by the name Org Babel. A simple use is having source code from various languages embedded in a single text file that is otherwise occupied with talking about that code.
 
 -   [Stackpak: Flatpak a Haskell Stack app into Flathub](https://szibele.com/stakpak-flatpak-a-haskell-stack-app-into-flathub/)
 
-    > todo
+    > After reading David Lettier's great post on how to Flatpak a Haskell app into Flathub, I thought about generalizing his approach for Haskell Stack projects and have written Stackpak.
 
 -   [The unreasonable effectiveness of metaphor](https://argumatronic.com/posts/2018-09-02-effective-metaphor.html)
 
-    > todo
+    > I often find myself very frustrated by the way programmers talk about metaphor, so I chose a topic that would let me give an entirely different view of metaphors --- metaphors the way linguists and cognitive scientists talk about them, metaphors as the crucial backbone of everyday thought and abstractions in mathematics and elsewhere.
 
 -   [The various forms of `Text` and `ByteString`](https://typeclasses.com/news/2018-09-text-and-bytestring)
 
-    > todo
+    > This topic isn't a tremendously complicated, but it can be difficult because it is rather tedious. I remember it as a source of endless frustration when I was first learning Haskell: Why so many strings?
 
 ## Jobs
 
