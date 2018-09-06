@@ -76,7 +76,9 @@ It is feature-rich and strikes a nice balance between speed, flexibility, and qu
 
 ## Call for participation
 
-undefined
+-   [Allure: Define more animals, especially aquatic](https://github.com/AllureOfTheStars/Allure/issues/84)
+-   [curl-runnings: Index previous test cases by name](https://github.com/aviaviavi/curl-runnings/issues/34)
+-   [moot: Conference organizers should be able to edit and preview their welcome message](https://github.com/lorepub/moot/issues/106)
 
 ## Events
 
