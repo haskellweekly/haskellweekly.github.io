@@ -10,7 +10,13 @@ undefined
 
 ## Jobs
 
-undefined
+[Senior Haskell Engineer at GitHub](https://boards.greenhouse.io/github/jobs/1262974)
+
+> Did you know GitHub uses Haskell in production? We are looking for experienced Haskell engineers to work on the task of parsing, analyzing, interpreting and drawing conclusions from the corpus of public code on GitHub. We are working on a multi-language interpreter (currently targeting Go, Python, Ruby, PHP, JavaScript, TypeScript, Haskell, and Java) aimed at extracting useful information from untrusted user code — import graphs, control flow graphs, and reports identifying code quality issues or security vulnerabilities.
+
+[Engineering Manager at GitHub](https://boards.greenhouse.io/github/jobs/1106071)
+
+> GitHub is seeking an experienced engineering manager to lead a team working in Haskell focused on applied Programming Language Theory (PLT), parsing, syntax representation, various program analysis techniques (including abstract interpretation), and unparsing / code refactoring. If you are excited about leading engineers, applying recent PLT research to help make software easier, faster, and safer to write please view our job listing for more details.
 
 ## In brief
 
