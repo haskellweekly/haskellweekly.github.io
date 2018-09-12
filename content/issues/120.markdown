@@ -49,7 +49,7 @@ This is a weekly summary of what's going on in its community.
 ## Jobs
 
 If you're interested in a Haskell job,
-look no futher than [the who's hiring thread](https://www.reddit.com/r/haskell/comments/972io6/whos_hiring/) from the Haskell subreddit!
+look no futher than [the who's hiring thread](https://np.reddit.com/r/haskell/comments/972io6/whos_hiring/) from the Haskell subreddit!
 There are no fewer than 9 companies hiring Haskellers right now.
 
 ## In brief

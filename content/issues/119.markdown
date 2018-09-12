@@ -51,14 +51,14 @@ This is a weekly summary of what's going on in its community.
 Are you looking to hire a Haskell developer?
 You should [advertise with us](/advertising.html)!
 
--   [Software engineer at Tesla in Palo Alto](https://www.reddit.com/r/haskell/comments/95osyd/fulltime_position_at_tesla_inc/)
+-   [Software engineer at Tesla in Palo Alto](https://np.reddit.com/r/haskell/comments/95osyd/fulltime_position_at_tesla_inc/)
 
     > This role provides a unique opportunity to leverage the strengths of Haskell in a production setting. A creative, well-rounded problem solver will be able to work on and invent a diverse array of high-visibility, interdisciplinary applications that directly improve Tesla products.
 
 ## In brief
 
 -   [A DSL for music](https://jeremydormitzer.com/blog/a-dsl-for-music/)
--   [`acid-world`: A potential replacement for `acid-state` focusing on flexibility and usability](https://www.reddit.com/r/haskell/comments/94rxip/feedback_request_on_poc_acidworld_a_potential/)
+-   [`acid-world`: A potential replacement for `acid-state` focusing on flexibility and usability](https://np.reddit.com/r/haskell/comments/94rxip/feedback_request_on_poc_acidworld_a_potential/)
 -   [Email message parsing in Haskell in 2018](https://gist.github.com/chrisdone/47a9e22672b54dedc87dec8b415e8127/b21e7f0e0dea6c641cae698173f12689e8507edb)
 -   [GHC proposal: Remove the `*` kind syntax](https://github.com/ghc-proposals/ghc-proposals/pull/143)
 -   [HyperHaskell: Release of version 0.2.1.0](https://apfelmus.nfshost.com/blog/2018/08/06-hyper-0-2.html)
