@@ -41,7 +41,9 @@ undefined
 
 ## Packages of the week
 
-undefined
+This week's package of the week is [Range](https://hackage.haskell.org/package/range-0.2.1.1),
+an efficient and versatile range library.
+It supports bounded and unbounded ranges, ranges in a nested manner (like library versions), an efficient algebra of range computation and even a simplified interface for ranges for the common cases.
 
 ## Call for participation
 
