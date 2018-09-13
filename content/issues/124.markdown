@@ -6,7 +6,45 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Bowl full of lentils](https://functional.works-hub.com/learn/bowl-full-of-lentils-fcbf3)
+
+    > undefined
+
+-   [Building a blog part 2: Creating an HTTP API with Scotty and Beam](https://gaumala.com/posts/2018-09-12-creating-an-http-api-with-scotty-and-beam.html)
+
+    > undefined
+
+-   [Common (but not so common) monads](https://mmhaskell.com/blog/2018/8/27/common-but-not-so-common-monads)
+
+    > undefined
+
+-   [Dhall to HLint: Using Dhall to generate HLint rules](https://kowainik.github.io/posts/2018-09-09-dhall-to-hlint.html)
+
+    > undefined
+
+-   [Forking and `ContT`](https://hexagoxel.de/postsforpublish/posts/2018-09-09-cont-part-one.html)
+
+    > undefined
+
+-   [Fun with typed type-level programming in PureScript](https://blog.wuct.me/fun-with-typed-type-level-programming-in-purescript-5f8af42cfec5)
+
+    > undefined
+
+-   [`uku`: A Haskell CLI tool to display Ukulele fingering charts](https://adriansieber.com/ukulele-fingering-chart-cli-tool-in-haskell/)
+
+    > undefined
+
+-   [Using Funflow to cache a Nix-based workflow](https://mpickering.github.io/posts/2018-09-12-funflow-nix.html)
+
+    > undefined
+
+-   [You need a novelty budget](http://www.shimweasel.com/2018/08/25/novelty-budgets)
+
+    > undefined
+
+-   [Zero to Quake 3](https://np.reddit.com/r/haskell/comments/9f1r8i/quake_3_in_haskell/)
+
+    > undefined
 
 ## Jobs
 
@@ -23,21 +61,12 @@ undefined
 -   [Announce: `do-notation`: generalized do-notation for using monads and indexed monads simultaneously](https://np.reddit.com/r/haskell/comments/9dvuw7/ann_donotation_generalized_donotation_for_using/)
 -   [Announce: `goat-guardian`: Reverse proxy that handles authentication](https://github.com/arow-oss/goat-guardian/tree/85e25fe8d618a0707b54e0e25858429158d96f75)
 -   [Announce: Squeal 0.4](https://np.reddit.com/r/haskell/comments/9dqp0h/announcing_squeal_04/)
--   [Bowl full of lentils](https://functional.works-hub.com/learn/bowl-full-of-lentils-fcbf3)
--   [Common (but not so common) monads](https://mmhaskell.com/blog/2018/8/27/common-but-not-so-common-monads)
 -   [Deploying Haskell apps with Kubernetes](https://www.fpcomplete.com/blog/deploying_haskell_apps_with_kubernetes)
--   [Dhall to HLint: Using Dhall to generate HLint rules](https://kowainik.github.io/posts/2018-09-09-dhall-to-hlint.html)
--   [Forking and `ContT`](https://hexagoxel.de/postsforpublish/posts/2018-09-09-cont-part-one.html)
--   [Fun with typed type-level programming in PureScript](https://blog.wuct.me/fun-with-typed-type-level-programming-in-purescript-5f8af42cfec5)
 -   [Getting started with Haskell workflow](https://np.reddit.com/r/haskell/comments/9elwjp/getting_started_with_haskell_workflow/)
 -   [Is learning how to use the Lens library worth it and in hindsight was taking this approach really the best direction for Haskell?](https://np.reddit.com/r/haskell/comments/9ded97/is_learning_how_to_use_the_lens_library_worth_it/)
 -   [Proposal: List instances for a type in GHCi](https://github.com/xldenis/ghc-proposals/blob/fede60ca45635e579be49b5fb8326cc989e67afb/proposals/0000-ghci-instances.rst)
 -   [Punching a big hole through a newtype](https://np.reddit.com/r/haskell/comments/9epupm/punching_a_big_hole_through_a_newtype/)
--   [`uku`: A Haskell CLI tool to display Ukulele fingering charts](https://adriansieber.com/ukulele-fingering-chart-cli-tool-in-haskell/)
--   [Using Funflow to cache a Nix-based workflow](https://mpickering.github.io/posts/2018-09-12-funflow-nix.html)
 -   [Why I never finish my Haskell programs: Part 2 of ∞](https://blog.plover.com/prog/haskell/what-goes-wrong-2.html)
--   [You need a novelty budget](http://www.shimweasel.com/2018/08/25/novelty-budgets)
--   [Zero to Quake 3](https://np.reddit.com/r/haskell/comments/9f1r8i/quake_3_in_haskell/)
 
 ## Packages of the week
 
