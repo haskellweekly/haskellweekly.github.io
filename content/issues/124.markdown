@@ -76,7 +76,8 @@ It supports bounded and unbounded ranges, ranges in a nested manner (like librar
 
 ## Call for participation
 
-undefined
+-   [haskell-capnp: Expose type IDs in the generated code somehow](https://github.com/zenhack/haskell-capnp/issues/47)
+-   [squeal: Add range types](https://github.com/morphismtech/squeal/issues/59)
 
 ## Events
 
