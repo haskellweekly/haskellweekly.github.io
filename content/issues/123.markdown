@@ -68,7 +68,7 @@ This is a weekly summary of what's going on in its community.
 -   [Which IDE are you using for Hakell?](https://np.reddit.com/r/haskell/comments/9bxbwp/which_ide_are_you_using_for_hakell/)
 -   [Why I never finish my Haskell programs (part 1 of ∞)](https://blog.plover.com/2018/09/03/)
 
-## Packages of the week
+## Package of the week
 
 This week's package of the week is [Megaparsec](https://hackage.haskell.org/package/megaparsec-7.0.0),
 an industrial-strength monadic parser combinator library.

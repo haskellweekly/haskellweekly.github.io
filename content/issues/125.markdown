@@ -44,7 +44,7 @@ This is a weekly summary of what's going on in its community.
 
     > In these next two articles, we'll examine Spock, another HTTP library. We'll compare it to Servant and see what the different design decisions are. We'll start this week by looking at the basics of routing.
 
-## Packages of the week
+## Package of the week
 
 This week's package of the week is [`simple-reflect`](https://hackage.haskell.org/package/simple-reflect-0.3.3),
 a library that allows reflection of expressions containing variables.

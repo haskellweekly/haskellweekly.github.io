@@ -68,7 +68,7 @@ This is a weekly summary of what's going on in its community.
 -   [Punching a big hole through a newtype](https://np.reddit.com/r/haskell/comments/9epupm/punching_a_big_hole_through_a_newtype/)
 -   [Why I never finish my Haskell programs: Part 2 of ∞](https://blog.plover.com/prog/haskell/what-goes-wrong-2.html)
 
-## Packages of the week
+## Package of the week
 
 This week's package of the week is [Range](https://hackage.haskell.org/package/range-0.2.1.1),
 an efficient and versatile range library.
