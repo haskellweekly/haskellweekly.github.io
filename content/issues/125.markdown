@@ -14,7 +14,16 @@ undefined
 
 ## In brief
 
-undefined
+-   [Abusing the continuation monad](https://julesh.com/2016/09/22/abusing-the-continuation-monad/)
+-   [Algebraic effects](https://mail.haskell.org/pipermail/haskell-cafe/2018-September/129992.html)
+-   [Announcing `exchangerates`](https://cs-syd.eu/posts/2018-09-14-exchangerates)
+-   [Deriving the state monad](https://medium.com/@narasimha.gm/deriving-the-state-monad-bb5730bf8848)
+-   [Haskell WebAssembly calling JavaScript and back again](https://www.tweag.io/posts/2018-09-12-asterius-ffi.html)
+-   [If you could change any single thing in the Haskell ecosystem, what would you change?](https://np.reddit.com/r/haskell/comments/9fefoe/if_you_had_the_ultimate_power_and_could_change/)
+-   [Packaging a Haskell library for artefact evaluation using Nix](https://mpickering.github.io/posts/2018-09-19-nix-artefacts.html)
+-   [Regular expression of types](http://oleg.fi/gists/posts/2018-09-13-regular-expressions-of-types.html)
+-   [Roll your own stack traces](https://www.michaelpj.com/blog/2018/09/16/roll-your-own-stacktraces.html)
+-   [Simple web routing with Spock](https://mmhaskell.com/blog/2018/9/17/simple-web-routing-with-spock)
 
 ## Packages of the week
 
