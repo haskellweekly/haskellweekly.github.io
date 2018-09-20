@@ -8,10 +8,6 @@ This is a weekly summary of what's going on in its community.
 
 undefined
 
-## Jobs
-
-undefined
-
 ## In brief
 
 -   [Abusing the continuation monad](https://julesh.com/2016/09/22/abusing-the-continuation-monad/)
