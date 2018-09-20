@@ -38,6 +38,10 @@ This is a weekly summary of what's going on in its community.
 
     > In these next two articles, we'll examine Spock, another HTTP library. We'll compare it to Servant and see what the different design decisions are. We'll start this week by looking at the basics of routing.
 
+-   [Your easy guide to monads, applicatives, & functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
+
+    > If you'd like to see what you can do with functors, applicatives, and monads, check out Movie Monad and Gifcurry ---  two desktop GUI apps created with Haskell, a purely functional programming language.
+
 ## In brief
 
 -   [If you could change any single thing in the Haskell ecosystem, what would you change?](https://np.reddit.com/r/haskell/comments/9fefoe/if_you_had_the_ultimate_power_and_could_change/)
