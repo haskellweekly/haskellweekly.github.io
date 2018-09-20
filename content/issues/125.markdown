@@ -52,7 +52,9 @@ Reflection here means that a Haskell expression is turned into a string.
 
 ## Call for participation
 
-undefined
+-   [hledger: twitter widget needs updating](https://github.com/simonmichael/hledger/issues/870)
+-   [selda: Null-coalescing set of operators](https://github.com/valderman/selda/issues/95)
+-   [squeal: Add monetary types](https://github.com/morphismtech/squeal/issues/60)
 
 ## Events
 
