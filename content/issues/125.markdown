@@ -18,7 +18,9 @@ undefined
 
 ## Packages of the week
 
-undefined
+This week's package of the week is [`simple-reflect`](https://hackage.haskell.org/package/simple-reflect-0.3.3),
+a library that allows reflection of expressions containing variables.
+Reflection here means that a Haskell expression is turned into a string.
 
 ## Call for participation
 
