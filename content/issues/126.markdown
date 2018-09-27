@@ -22,7 +22,9 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [co-log: Rename `cbind` to `cmapM`](https://github.com/kowainik/co-log/issues/38)
+-   [pure-c: Port the tail call optimizer](https://github.com/pure-c/pure-c/issues/10)
+-   [rhine: Support stack in travis build](https://github.com/turion/rhine/issues/110)
 
 ## Events
 
