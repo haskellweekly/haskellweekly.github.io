@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Komposition: The video editor built for screencasters (in Haskell!)](https://owickstrom.github.io/komposition/)
+
+    > Komposition is the video editor built for screencasters. It lets you focus on producing and publishing quality content, instead of spending all of your time in complicated video editors. Komposition automatically detects scenes in screen capture video, automatically detects sentences in voice-over audio recordings, and features a high-productivity editing workflow based on keyboard navigation.
 
 ## Jobs
 
