@@ -9,6 +9,10 @@ This is a weekly summary of what's going on in its community.
 -   [Komposition: The video editor built for screencasters (in Haskell!)](https://owickstrom.github.io/komposition/)
 
     > Komposition is the video editor built for screencasters. It lets you focus on producing and publishing quality content, instead of spending all of your time in complicated video editors. Komposition automatically detects scenes in screen capture video, automatically detects sentences in voice-over audio recordings, and features a high-productivity editing workflow based on keyboard navigation.
+    
+- [Testing Our Ruby and Haskell Implementations Side-By-Side](https://blog.mpowered.team/posts/2018-testing-ruby-haskell-implementations.html)
+    
+    > After almost ten years of continuous development, Mpowered's calculation engine has become a maintenance and innovation bottleneck. We decided to extract and replace the Empowerment component with a new solution built in Haskell. This posts describes how we are testing during the transition.
 
 ## Jobs
 
