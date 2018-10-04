@@ -47,6 +47,7 @@ This is a weekly summary of what's going on in its community.
 -   [GHC 8.6.1 is badly broken](https://np.reddit.com/r/haskell/comments/9ksch6/ghc_861_is_badly_broken/)
 -   [Hacktoberfest 2018: Call for participation](https://kowainik.github.io/posts/2018-10-01-hacktoberfest)
 -   [Haskell in production: A GHC upgrade success story](https://engineering.itpro.tv/2018/09/28/haskell-in-production-a-ghc-upgrade-success-story/)
+-   [Haskell study plan: An opinionated list of resources for learning Haskell](https://github.com/soupi/haskell-study-plan/tree/6490a5a89f24adae860ad0e2afe2a87c8bc58e0a)
 -   [Introducing Haskell to a company](https://alasconnect.github.io/blog/posts/2018-10-02-introducing-haskell-to-a-company.html)
 -   [Introduction to singletons: Part 3](https://blog.jle.im/entry/introduction-to-singletons-3.html)
 -   [Keep your types small and your bugs smaller](https://www.parsonsmatt.org/2018/10/02/small_types.html)
@@ -54,8 +55,10 @@ This is a weekly summary of what's going on in its community.
 -   [Mocking effects using constraints and phantom data kinds](https://chrispenner.ca/posts/mock-effects-with-data-kinds)
 -   [Monthly Hask Anything: October 2018](https://np.reddit.com/r/haskell/comments/9k803d/monthly_hask_anything_october_2018/)
 -   [Overloaded type families](https://blog.poisson.chat/posts/2018-09-29-overloaded-families.html)
+-   [Productive Haskell in enterprise](https://alasconnect.github.io/blog/posts/2018-10-04-productive-haskell-in-enterprise.html)
 -   [Rewrite rules and a specific fold: Use optimization techniques from `GHC.Base`](https://blog.nyarlathotep.one/2018/09/rewrite-rules-and-a-specific-fold/)
 -   [Stuck in the middle: Adding middleware to a Servant server](https://mmhaskell.com/blog/2018/10/8/stuck-in-the-middle-adding-middleware-to-a-servant-server)
+-   [Upcoming Haskell events: Haskell eXchange, Courses, MuniHac](https://www.well-typed.com/blog/2018/10/upcoming-haskell-events-haskell-exchange-courses-munihac/)
 
 ## Package of the week
 
