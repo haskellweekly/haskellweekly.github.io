@@ -1,4 +1,4 @@
-<!-- 2018-10-04 -->
+<!-- 2018-10-04 unpublished -->
 
 Welcome to another issue of Haskell Weekly!
 [Haskell](https://haskell-lang.org) is a safe, purely functional programming language with a fast, concurrent runtime.
@@ -42,6 +42,8 @@ This is a weekly summary of what's going on in its community.
 
 -   [Announcing Pure-C: A C backend for PureScript](https://medium.com/@felixschlitter/announcing-pure-c-a-c-backend-for-purescript-c6bc05562fde)
 -   [Announcing Stackage nightly snapshots with GHC 8.6.1](https://www.stackage.org/blog/2018/09/announce-ghc-8.6-on-nightlies)
+-   [Applicative functors](http://blog.ploeh.dk/2018/10/01/applicative-functors/)
+-   [Capability: The `ReaderT` pattern without boilerplate](https://www.tweag.io/posts/2018-10-04-capability.html)
 -   [GHC 8.6.1 is badly broken](https://np.reddit.com/r/haskell/comments/9ksch6/ghc_861_is_badly_broken/)
 -   [Hacktoberfest 2018: Call for participation](https://kowainik.github.io/posts/2018-10-01-hacktoberfest)
 -   [Haskell in production: A GHC upgrade success story](https://engineering.itpro.tv/2018/09/28/haskell-in-production-a-ghc-upgrade-success-story/)
@@ -51,6 +53,9 @@ This is a weekly summary of what's going on in its community.
 -   [Metric a Haskell application](https://qnikst.github.io/posts/2018-10-29-metrics-haskell.html)
 -   [Mocking effects using constraints and phantom data kinds](https://chrispenner.ca/posts/mock-effects-with-data-kinds)
 -   [Monthly Hask Anything: October 2018](https://np.reddit.com/r/haskell/comments/9k803d/monthly_hask_anything_october_2018/)
+-   [Overloaded type families](https://blog.poisson.chat/posts/2018-09-29-overloaded-families.html)
+-   [Rewrite rules and a specific fold: Use optimization techniques from `GHC.Base`](https://blog.nyarlathotep.one/2018/09/rewrite-rules-and-a-specific-fold/)
+-   [Stuck in the middle: Adding middleware to a Servant server](https://mmhaskell.com/blog/2018/10/8/stuck-in-the-middle-adding-middleware-to-a-servant-server)
 
 ## Package of the week
 
