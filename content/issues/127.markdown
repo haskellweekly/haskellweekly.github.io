@@ -63,6 +63,9 @@ It's mostly aimed at small-to-medium sites and personal blogs.
 Looking to participate in the fifth annual [Hacktoberfest](https://hacktoberfest.digitalocean.com)?
 Check out some of [these issues](https://github.com/issues?q=language%3Ahaskell+label%3Ahacktoberfest+is%3Aissue+is%3Aopen+archived%3Afalse) with the "Hacktoberfest" label from Haskell repositories on GitHub!
 
+-   [AutoBench: Visualising runtime results given as 3 dimensional co-ordinates](https://github.com/mathandley/AutoBench/issues/12)
+-   [spacchetti-cli: Provide some spacchetti package management commands](https://github.com/justinwoo/spacchetti-cli/issues/4)
+
 ## Events
 
 - 2018-10-04 in Durham, NC, USA by Durham Haskell Meetup: [Morning Haskell (and Rust!) coding session](https://www.meetup.com/Durham-Haskell-Meetup/events/255088697/)
