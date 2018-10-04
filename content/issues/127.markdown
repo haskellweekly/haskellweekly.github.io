@@ -14,6 +14,38 @@ This is a weekly summary of what's going on in its community.
 
     > After almost ten years of continuous development, Mpowered's calculation engine has become a maintenance and innovation bottleneck. We decided to extract and replace the Empowerment component with a new solution built in Haskell. This posts describes how we are testing during the transition.
 
+-   [Capability: The `ReaderT` pattern without boilerplate](https://www.tweag.io/posts/2018-10-04-capability.html)
+
+    > In this post, we'll argue why capabilities are important, why you should use them, and tell you about what it took to design a library of capabilities with good ergonomics. It turns out that a brand new language extension that shipped with GHC 8.6, `-XDerivingVia`, has a crucial role in this story.
+
+-   [Haskell in production: A GHC upgrade success story](https://engineering.itpro.tv/2018/09/28/haskell-in-production-a-ghc-upgrade-success-story/)
+
+    > Version upgrade nightmares are so common that they have become almost expected. Update the compiler one patch level, or a library version, and the work spirals into a much larger project. This is a story of going forward two versions in GHC, 8.0.2 to 8.4.3, and updating our libraries at the same time.
+
+-   [Introducing Haskell to a company](https://alasconnect.github.io/blog/posts/2018-10-02-introducing-haskell-to-a-company.html)
+
+    > This post makes the assumption that the reader understands why they themselves would want to use Haskell and what its benefits are, so instead focuses on how we've made it a successful part of our own company's development culture.
+
+-   [Keep your types small and your bugs smaller](https://www.parsonsmatt.org/2018/10/02/small_types.html)
+
+    > The more precisely our types describe our program, the fewer ways we have to go wrong. Ideally, we can provide a correct output for every input, and we use a type that tightly describes the properties of possible outputs.
+
+-   [Metric a Haskell application](https://qnikst.github.io/posts/2018-10-29-metrics-haskell.html)
+
+    > In one of my recent posts, I've mentioned gathering metrics for my Haskell application. Some people asked me about my setup, so I will try to describe how I configured and structured my application.
+
+-   [Rewrite rules and a specific fold: Use optimization techniques from `GHC.Base`](https://blog.nyarlathotep.one/2018/09/rewrite-rules-and-a-specific-fold/)
+
+    > Alga, a functional implementation of graphs, defines a foldable structure with a fold (named `foldg`) specialized for the graph data. Can we use the same tricks than `GHC.Base` to optimize compositions of `foldg` with `fmap`? Spoiler: Yes, and we can do it without any pain!
+
+-   [Announcing Pure-C: A C backend for PureScript](https://medium.com/@felixschlitter/announcing-pure-c-a-c-backend-for-purescript-c6bc05562fde)
+
+    > Pure-C is an alternative backend for PureScript, a strongly typed, purely functional programming language that compiles down to native code via the Clang compiler toolchain.
+
+-   [Haskell study plan: An opinionated list of resources for learning Haskell](https://github.com/soupi/haskell-study-plan/tree/6490a5a89f24adae860ad0e2afe2a87c8bc58e0a)
+
+    > This guide is an opinionated list of resources for learning Haskell. It is aimed at more experienced programmers that would like a denser Haskell tutorial.
+
 ## Jobs
 
 -   [Software engineer at Opolis in Denver](https://twitter.com/mattoflambda/status/1045784193953718272)
@@ -38,25 +70,19 @@ This is a weekly summary of what's going on in its community.
 
 -   [Developer at Zalando in Berlin](https://twitter.com/markeibes/status/1042457695767486465)
 
+-   [Engineers at Awake Security in Sunnyvale](https://jobs.lever.co/awake-security)
+
 ## In brief
 
--   [Announcing Pure-C: A C backend for PureScript](https://medium.com/@felixschlitter/announcing-pure-c-a-c-backend-for-purescript-c6bc05562fde)
 -   [Announcing Stackage nightly snapshots with GHC 8.6.1](https://www.stackage.org/blog/2018/09/announce-ghc-8.6-on-nightlies)
 -   [Applicative functors](http://blog.ploeh.dk/2018/10/01/applicative-functors/)
--   [Capability: The `ReaderT` pattern without boilerplate](https://www.tweag.io/posts/2018-10-04-capability.html)
 -   [GHC 8.6.1 is badly broken](https://np.reddit.com/r/haskell/comments/9ksch6/ghc_861_is_badly_broken/)
 -   [Hacktoberfest 2018: Call for participation](https://kowainik.github.io/posts/2018-10-01-hacktoberfest)
--   [Haskell in production: A GHC upgrade success story](https://engineering.itpro.tv/2018/09/28/haskell-in-production-a-ghc-upgrade-success-story/)
--   [Haskell study plan: An opinionated list of resources for learning Haskell](https://github.com/soupi/haskell-study-plan/tree/6490a5a89f24adae860ad0e2afe2a87c8bc58e0a)
--   [Introducing Haskell to a company](https://alasconnect.github.io/blog/posts/2018-10-02-introducing-haskell-to-a-company.html)
 -   [Introduction to singletons: Part 3](https://blog.jle.im/entry/introduction-to-singletons-3.html)
--   [Keep your types small and your bugs smaller](https://www.parsonsmatt.org/2018/10/02/small_types.html)
--   [Metric a Haskell application](https://qnikst.github.io/posts/2018-10-29-metrics-haskell.html)
 -   [Mocking effects using constraints and phantom data kinds](https://chrispenner.ca/posts/mock-effects-with-data-kinds)
 -   [Monthly Hask Anything: October 2018](https://np.reddit.com/r/haskell/comments/9k803d/monthly_hask_anything_october_2018/)
 -   [Overloaded type families](https://blog.poisson.chat/posts/2018-09-29-overloaded-families.html)
 -   [Productive Haskell in enterprise](https://alasconnect.github.io/blog/posts/2018-10-04-productive-haskell-in-enterprise.html)
--   [Rewrite rules and a specific fold: Use optimization techniques from `GHC.Base`](https://blog.nyarlathotep.one/2018/09/rewrite-rules-and-a-specific-fold/)
 -   [Stuck in the middle: Adding middleware to a Servant server](https://mmhaskell.com/blog/2018/10/8/stuck-in-the-middle-adding-middleware-to-a-servant-server)
 -   [Upcoming Haskell events: Haskell eXchange, Courses, MuniHac](https://www.well-typed.com/blog/2018/10/upcoming-haskell-events-haskell-exchange-courses-munihac/)
 
