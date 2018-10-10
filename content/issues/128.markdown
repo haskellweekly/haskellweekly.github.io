@@ -10,11 +10,26 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Developer at Capital Match in Singapore](https://np.reddit.com/r/haskell/comments/9lie3j/capital_match_is_hiring/)
+
+-   [Software Engineer at Digital Asset in Zurich](https://functional.works-hub.com/jobs/software-engineer-tools-and-infrastructure-in-zurich-switzerland-0a0e1)
 
 ## In brief
 
-undefined
+-   [2018 Haskell survey results](https://www.fpcomplete.com/blog/2018-haskell-survey-results)
+-   [An introduction to linear regression using Haskell](https://samcgardner.github.io/2018/10/06/linear-regression-in-haskell.html)
+-   [Announce: Haskell code explorer: Tool that helps understand Haskell codebases](https://np.reddit.com/r/haskell/comments/9layin/ann_haskell_code_explorer_tool_that_helps/)
+-   [Comprehending monoids with class](https://lptk.github.io/programming/2018/10/04/comprehending-monoids-with-class.html)
+-   [`Control.Dsl`: An alternative to monads](https://np.reddit.com/r/haskell/comments/9ljfw0/controldsl_an_alternative_to_monads/)
+-   [Detailed walkthrough for a beginner Haskell program](http://www.haskellforall.com/2018/10/detailed-walkthrough-for-beginner.html)
+-   [`ghci-hexcalc`: GHCi as a hex calculator](https://github.com/takenobu-hs/ghci-hexcalc/tree/7998ed7d0bad32772b75f0c62227399ae9873721)
+-   [Haskell Communities and Activities Report, November 2018 edition: Call for contributions](https://mail.haskell.org/pipermail/haskell-cafe/2018-October/130071.html)
+-   [Making a Haskell interface for the Rosie pattern language](https://whatthefunctional.wordpress.com/2018/10/10/making-a-haskell-interface-for-the-rosie-pattern-language/)
+-   [Penrose: Create beautiful mathematical diagrams](http://penrose.ink/)
+-   [RAII is better than the bracket pattern](https://www.snoyman.com/blog/2018/10/raii-better-than-bracket-pattern)
+-   [Requesting feedback on OpenADT package](https://np.reddit.com/r/haskell/comments/9loj5o/requesting_feedback_openadt/)
+-   [What is new in cross compiling Haskell: August & September edition](https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-ffed2a014be5)
+-   [Wrapping up Haskell Book](http://bitemyapp.com/posts/2018-10-03-wrapping-up-haskellbook.html)
 
 ## Package of the week
 
