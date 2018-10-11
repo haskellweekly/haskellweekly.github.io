@@ -71,7 +71,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Autoexporter](https://hackage.haskell.org/package/autoexporter-1.1.13),
+a tool for automatically writing modules that simply re-export other modules.
 
 ## Call for participation
 
