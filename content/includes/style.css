@@ -59,6 +59,13 @@ main h2 {
   margin: 1em 0;
 }
 
+main h3 {
+  font: inherit;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin: 0;
+}
+
 main time {
   display: block;
   font-style: italic;
