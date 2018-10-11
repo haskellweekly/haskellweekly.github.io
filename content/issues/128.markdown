@@ -10,6 +10,10 @@ undefined
 
 ## Jobs
 
+-   [Fullstack Developers at CitizenNet in Los Angeles](https://angel.co/citizennet/jobs/437899-front-end-fullstack-developer-purescript)
+
+    > CitizenNet is hiring PureScript engineers! Come work at the leading social advertising platform in entertainment, now a key part of Condè Nast's Spire data team managing one of the world's largest content networks. Contribute to open source, build polished interfaces in PureScript, and work with talented & friendly teammates in Los Angeles.
+
 -   [Developer at Capital Match in Singapore](https://np.reddit.com/r/haskell/comments/9lie3j/capital_match_is_hiring/)
 
 -   [Software Engineer at Digital Asset in Zurich](https://functional.works-hub.com/jobs/software-engineer-tools-and-infrastructure-in-zurich-switzerland-0a0e1)
