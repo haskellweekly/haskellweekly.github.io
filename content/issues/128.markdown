@@ -76,6 +76,7 @@ undefined
 - 2018-10-17 in Berlin, Germany by Berlin Haskell Users Group: [Haskell Wednesday](https://www.meetup.com/berlinhug/events/pvpwqpyxnbwb/)
 - 2018-10-17 in Amsterdam, Netherlands by FP AMS: [CT study group: Free Monoids](https://www.meetup.com/fp-ams/events/255136035/)
 - 2018-10-17 in Stuttgart, Germany by Lambda Stuttgart: [Lambda Stuttgart Meetup #9 (Introduction to Elm)](https://www.meetup.com/lambda-stuttgart/events/254372487/)
+- 2018-10-24 in Göteborg, Sweden by Got.λ - Göteborg Functional Programming Group: [Functional thinking: two refactoring exercises in Purescript and Haskell](https://www.meetup.com/got-lambda/events/255230485)
 
 ### Asia
 
