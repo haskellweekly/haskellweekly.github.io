@@ -24,6 +24,7 @@ undefined
 -   [Counting inversions with monoidal sparks](https://byorgey.wordpress.com/2018/10/06/counting-inversions-with-monoidal-sparks/)
 -   [Deeper Stack knowledge](https://mmhaskell.com/blog/2018/10/8/deeper-stack-knowledge)
 -   [Detailed walkthrough for a beginner Haskell program](http://www.haskellforall.com/2018/10/detailed-walkthrough-for-beginner.html)
+-   [`elm-beam`](https://kofi.sexy/blog/elm-beam)
 -   [Full deck](https://blog.ploeh.dk/2018/10/08/full-deck/)
 -   [Fullstack Haskell: Reflex and Servant](https://jappieklooster.nl/fullstack-haskell-reflex-and-servant.html)
 -   [`ghci-hexcalc`: GHCi as a hex calculator](https://github.com/takenobu-hs/ghci-hexcalc/tree/7998ed7d0bad32772b75f0c62227399ae9873721)
