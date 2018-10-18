@@ -1,8 +1,7 @@
 # Contributing
 
 Thanks for contributing to Haskell Weekly! We appreciate all contributions,
-from issues to pull requests. Nothing is too small! By participating with this
-project, you agree to abide by the [code of conduct][].
+from issues to pull requests. Nothing is too small!
 
 If you want to bring our attention to something, please open an issue! This can
 be used for anything from typos to new content. For example, this has been used
@@ -44,7 +43,6 @@ code. In addition, there are a couple other things to keep in mind:
     # Open http://localhost:8080 in your browser.
     ```
 
-[code of conduct]: ./CODE_OF_CONDUCT.markdown
 [calls for participation]: https://github.com/haskellweekly/haskellweekly.github.io/issues/138
 [jobs]: https://github.com/haskellweekly/haskellweekly.github.io/issues/136
 [bugs]: https://github.com/haskellweekly/haskellweekly.github.io/issues/62
