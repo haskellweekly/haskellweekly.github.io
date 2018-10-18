@@ -44,7 +44,8 @@ undefined
 
 ## Call for participation
 
-undefined
+Looking to participate in the fifth annual [Hacktoberfest](https://hacktoberfest.digitalocean.com)?
+Check out some of [these issues](https://github.com/issues?q=language%3Ahaskell+label%3Ahacktoberfest+is%3Aissue+is%3Aopen+archived%3Afalse) with the "Hacktoberfest" label from Haskell repositories on GitHub!
 
 ## Events
 
