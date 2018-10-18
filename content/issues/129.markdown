@@ -63,6 +63,7 @@ This is a weekly summary of what's going on in its community.
 -   [Notes on test coverage](https://jml.io/2018/10/notes-on-test-coverage.html)
 -   [Reverse mode differentiation is kind of like a lens](http://www.philipzucker.com/reverse-mode-differentiation-is-kind-of-like-a-lens-ii/)
 -   [Smos: Writing a purely functional semantic editor](https://cs-syd.eu/posts/2018-10-14-pfse-intro)
+-   [Stack 1.9.1 released](https://github.com/commercialhaskell/stack/releases/tag/v1.9.1)
 -   [Total combinations](https://doisinkidney.com/posts/2018-10-16-total-combinations.html)
 -   [Trading FunLists at a Bazaar with Yoneda](https://bartoszmilewski.com/2018/10/12/trading-funlists-at-a-bazaar-with-yoneda/)
 
