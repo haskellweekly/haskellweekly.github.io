@@ -40,7 +40,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Pipes](https://hackage.haskell.org/package/pipes-4.3.9),
+a clean and powerful stream processing library that lets you build and connect reusable streaming components.
 
 ## Call for participation
 
