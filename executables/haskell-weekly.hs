@@ -42,7 +42,6 @@ main = do
   -- Read includes and inject them into the context.
   form <- readFileAt [input, "includes", "form.html"]
   logo <- readFileAt [input, "includes", "logo.svg"]
-  script <- readFileAt [input, "includes", "script.js"]
   style <- readFileAt [input, "includes", "style.css"]
   let
     context :: Context
@@ -51,7 +50,6 @@ main = do
       , ("baseUrl", "https://haskellweekly.news")
       , ("form", form)
       , ("logo", logo)
-      , ("script", script)
       , ("style", style)
       ]
 
