@@ -10,7 +10,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Careers at Galois](https://galois.com/careers/)
+
+    > Galois is growing and hiring Technical Project Leads, Software Engineers/Researchers, and Principal Scientists for all three of our locations (Portland, OR/Arlington, VA/Dayton, OH). Galwegians apply cutting edge computer science and mathematics to advance the state of the art in software and hardware trustworthiness. Engineers work in small team settings and must successfully interact with clients, partners, and other employees in a highly cooperative and intellectually challenging environment. Creativity thrives in a work environment that respects employees' quality-of-life.
 
 ## In brief
 
