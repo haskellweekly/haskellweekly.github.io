@@ -46,9 +46,8 @@ code. In addition, there are a couple other things to keep in mind:
     you'll need to run a web server. Here is one way to do that:
 
     ``` sh
-    stack build wai-app-static
-    stack exec -- warp --docroot _site
-    # Open http://localhost:8080 in your browser.
+    stack exec --package wai-app-static -- warp --docroot _site
+    # Open http://localhost:3000 in your browser.
     ```
 
 [Build badge]: https://travis-ci.org/haskellweekly/haskellweekly.github.io.svg?branch=base
