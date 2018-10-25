@@ -22,7 +22,9 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Toodles](https://hackage.haskell.org/package/toodles-0.1.0.11),
+an application for managing `TODO` entries in your code.
+It scrapes your entire repository for TODO entries and organizes them so you can manage your project directly from the code.
 
 ## Call for participation
 
