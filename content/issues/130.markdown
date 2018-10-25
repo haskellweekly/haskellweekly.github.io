@@ -8,7 +8,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [Typed Functional Programming and Software Correctness](https://dimjasevic.net/marko/2018/10/23/typed-functional-programming-and-software-correctness/)
 
-    > In this post I’ll explain why functional programming and static type systems are important for software correctness.
+    > In this post I'll explain why functional programming and static type systems are important for software correctness.
 
 ## Jobs
 
