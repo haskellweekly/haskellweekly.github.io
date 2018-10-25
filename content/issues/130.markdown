@@ -18,7 +18,25 @@ This is a weekly summary of what's going on in its community.
 
 ## In brief
 
-undefined
+-   [Algebraic data types in four languages](https://blog.softwaremill.com/algebraic-data-types-in-four-languages-858788043d4e)
+-   [Announcing Profiterole: GHC profile viewer](https://neilmitchell.blogspot.com/2018/10/announcing-profiterole-ghc-profile.html)
+-   [Any Haskell or programming related podcasts you recommend?](https://np.reddit.com/r/haskell/comments/9qpgaw/any_haskell_or_programming_related_podcasts_you/)
+-   [Applicative combinations of functions](https://blog.ploeh.dk/2018/10/22/applicative-combinations-of-functions/)
+-   [Applicative WTF?](https://blog.plover.com/prog/haskell/applicative.html)
+-   [Benchmarking Formality vs GHC and Node!](https://np.reddit.com/r/haskell/comments/9r6n0y/benchmarking_formality_vs_ghc_and_node/)
+-   [*Category Theory for Programmers* by Bartosz Milewski is now available in hardcover!](https://np.reddit.com/r/haskell/comments/9q6edo/category_theory_for_programmers_by_bartosz/)
+-   [Elm: Functional frontend](https://mmhaskell.com/blog/2018/11/12/elm-more-functional-frontend)
+-   [Haskell community priorities for GHC](https://docs.google.com/forms/d/e/1FAIpQLSdh7sf2MqHoEmjt38r1cxCF-tV76OFCJqU6VabGzlOUKYqo-w/viewform)
+-   [Introducing the Rust crash course](https://www.snoyman.com/blog/2018/10/introducing-rust-crash-course)
+-   [Introduction to singletons: Part 4](https://blog.jle.im/entry/introduction-to-singletons-4.html)
+-   [Linear types proposal conditionally accepted by the committee](https://np.reddit.com/r/haskell/comments/9qhaxu/linear_types_proposal_conditionally_accepted_by/)
+-   [REST-ish services in Haskell: Part 1](https://vadosware.io/post/rest-ish-services-in-haskell-part-1/)
+-   [Running from the past](http://blog.sigfpe.com/2018/10/running-from-past.html)
+-   [`TChan` vs `TQueue`: What's the difference?](https://www.parsonsmatt.org/2018/10/12/tchan_vs_tqueue.html)
+-   [Type Classes: Restructuring](https://typeclasses.com/news/2018-10-restructuring)
+-   [What your favorite weird/exotic data type?](https://np.reddit.com/r/haskell/comments/9qx172/what_yous_favorite_weirdexotic_data_type/)
+-   [*What's the Difference?* video and slides](https://byorgey.wordpress.com/2018/10/20/whats-the-difference-video-and-slides/)
+-   [Your easy guide to functional reactive programming](https://medium.com/@lettier/functional-reactive-programming-a0c7b08f6b67)
 
 ## Package of the week
 
