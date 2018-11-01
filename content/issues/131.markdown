@@ -21,7 +21,13 @@ Thanks!
 
 ## Jobs
 
-undefined
+-   [Haskell developer at CollegeVine in Cambridge](https://jobs.lever.co/collegevine/0524ae1e-98a6-438a-92b7-8f1d30b8b9a3)
+
+    > CollegeVine is looking for a product-focused full-stack developer to help engineer the future of guidance, mentorship, and higher education attainment.
+
+-   [Looking for a technical writer](https://np.reddit.com/r/haskell/comments/9sjhn3/freelance_job_looking_for_a_technical_writer/)
+
+    > I'm looking for a freelance technical writer for Arrow! Our documentation website is around 66% complete, and we could use some help filling in the rest.
 
 ## In brief
 
