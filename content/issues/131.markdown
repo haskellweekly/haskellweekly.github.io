@@ -25,7 +25,19 @@ undefined
 
 ## In brief
 
-undefined
+-   [Announcing Variant and EADT 2.0](http://www.sylvain-henry.info/home/posts/2018-10-28-announcing-eadt.html)
+-   [Core Libraries Committee: Call for nominations](https://np.reddit.com/r/haskell/comments/9sif1x/core_libraries_committee_call_for_nominations/)
+-   [Creating a card game in Haskell: Part 4](https://ptival.github.io/card-game-04)
+-   [Cursors, part 1: Introduction with the list cursor](https://cs-syd.eu/posts/2018-10-28-cursor-list)
+-   [Elm 2: Making a todo list](https://mmhaskell.com/blog/2018/11/19/elm-ii-todo-list-redux)
+-   [Generics for GADTs and arbitrary kinds](https://np.reddit.com/r/haskell/comments/9smtbs/generics_for_gadts_and_arbitrary_kinds/)
+-   [Intro to Template Haskell](https://typeclasses.com/news/2018-10-intro-template-haskell)
+-   [Introduction to state machine testing: Part 1](http://qfpl.io/posts/intro-to-state-machine-testing-1/)
+-   [Major releases of `fltkhs-themes` and `fltkhs`](https://np.reddit.com/r/haskell/comments/9rvsg6/ann_major_releases_of_fltkhsthemes_for_nice/)
+-   [Monthly Hask Anything: November 2018](https://np.reddit.com/r/haskell/comments/9t0p5n/monthly_hask_anything_november_2018/)
+-   [The Maybe applicative functor](http://blog.ploeh.dk/2018/10/29/the-maybe-applicative-functor/)
+-   [Wise Man's Haskell](https://anchpop.github.io/wise_mans_haskell/)
+-   [Writing a screencast video editor in Haskell](https://wickstrom.tech/programming/2018/10/26/writing-a-screencast-video-editor-in-haskell.html)
 
 ## Package of the week
 
