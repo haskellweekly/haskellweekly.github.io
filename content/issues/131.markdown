@@ -15,7 +15,7 @@ Thanks!
 
 ## Featured
 
--   [God's programming language: An interview with Philip Wadler](https://corecursive.com/021-gods-programming-language-with-philip-wadler/?haskellweekly)
+-   [God's programming language: An interview with Philip Wadler](https://corecursive.com/021-gods-programming-language-with-philip-wadler/?haskellweekly) by Adam Gordon Bell
 
     > Wadler believes that typed lambda calculus was discovered not invented --- part of the underpinnings of the universe itself.
 
