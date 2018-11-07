@@ -10,7 +10,9 @@ undefined
 
 ## Featured
 
-undefined
+-   [Hakyll Pt. 1 – Setup & Initial Customization](https://robertwpearce.com/hakyll-pt-1-setup-and-initial-customization.html) by Robert Pearce
+
+    > First post in a series on making & customizing a static site with hakyll.
 
 ## Jobs
 
