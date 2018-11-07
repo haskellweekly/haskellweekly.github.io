@@ -1,4 +1,4 @@
-<!-- 2018-11-08 -->
+<!-- 2018-11-08 unpublished -->
 
 Welcome to another issue of Haskell Weekly!
 [Haskell](https://www.haskell.org) is a safe, purely functional programming language with a fast, concurrent runtime.
@@ -6,7 +6,15 @@ This is a weekly summary of what's going on in its community.
 
 ## Survey
 
-undefined
+The second annual [state of Haskell survey](https://airtable.com/shr8G4RBPD9T6tnDf)
+started last week on the 1st and continues until the 15th.
+More than 2,800 people filled out the survey already.
+If you already filled it out:
+Thank you!
+Please share it so we can get a good picture of the Haskell community.
+If you have not filled it out yet:
+We want to hear from you!
+Please take a few minutes to fill it out.
 
 ## Featured
 
