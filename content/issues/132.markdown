@@ -22,6 +22,10 @@ Please take a few minutes to fill it out.
 
     > First post in a series on making & customizing a static site with hakyll.
 
+-   [Exceptionally monadic error handling](https://arxiv.org/abs/1810.13430)
+
+    > We notice that the type of `catch :: c a -> (e -> c a) -> c a` operator is a special case of monadic bind operator `(>>=) :: m a -> (a -> m b) -> m b` and the semantic (surprisingly) matches.
+
 ## Jobs
 
 undefined
