@@ -18,15 +18,15 @@ Please take a few minutes to fill it out.
 
 ## Featured
 
--   [Hakyll Pt. 1 – Setup & Initial Customization](https://robertwpearce.com/hakyll-pt-1-setup-and-initial-customization.html) by Robert Pearce
+-   [Hakyll part 1: Setup & initial customization](https://robertwpearce.com/hakyll-pt-1-setup-and-initial-customization.html) by Robert Pearce
 
-    > First post in a series on making & customizing a static site with hakyll.
+    > First post in a series on making & customizing a static site with Hakyll.
 
--   [Exceptionally monadic error handling](https://arxiv.org/abs/1810.13430)
+-   [Exceptionally monadic error handling](https://arxiv.org/abs/1810.13430) by Jan Malakhovski
 
     > We notice that the type of `catch :: c a -> (e -> c a) -> c a` operator is a special case of monadic bind operator `(>>=) :: m a -> (a -> m b) -> m b` and the semantic (surprisingly) matches.
 
--   [Lambda the Ultimate pattern factory](https://github.com/thma/LtuPatternFactory/tree/1be9521591f8a7f06b35a7ae5929e7beaf0b8e43)
+-   [Lambda the Ultimate pattern factory](https://github.com/thma/LtuPatternFactory/tree/1be9521591f8a7f06b35a7ae5929e7beaf0b8e43) by Thomas Mahler
 
     > Recently, while re-reading through the Typeclassopedia I thought it would be a good exercise to map the structure of software design-patterns to the concepts found in the Haskell type class library and in functional programming in general.
 
