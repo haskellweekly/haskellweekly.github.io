@@ -112,6 +112,8 @@ a library for random testing of program properties.
 ## Call for participation
 
 -   [Amazonka and Gogol project status update](https://github.com/brendanhay/amazonka/issues/484)
+-   [hs-web3: Hashable instances for Solidity primitive types](https://github.com/airalab/hs-web3/issues/90)
+-   [stack: Simple commands should work without ghc installed](https://github.com/commercialhaskell/stack/issues/4390)
 
 ## Events
 
