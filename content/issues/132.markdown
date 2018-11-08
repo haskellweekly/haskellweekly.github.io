@@ -34,27 +34,27 @@ Please take a few minutes to fill it out.
 
     > Recently, while re-reading through the Typeclassopedia I thought it would be a good exercise to map the structure of software design-patterns to the concepts found in the Haskell type class library and in functional programming in general.
 
--   [Haskell at FINN.no](https://tech.finn.no/2018/10/18/haskell-at-finn-no/)
+-   [Haskell at FINN.no](https://tech.finn.no/2018/10/18/haskell-at-finn-no/) by Sjur Millidahl
 
     > Haskell is a purely functional programming language, with a powerful type system. The ability to express intent using types brings correctness, and the composition of a large program as small, independent building blocks makes it easy to reason about the code.
 
--   [Haskell by example: Utopian tree](https://dev.to/supermanitu/haskell-by-example---utopian-tree-1da2)
+-   [Haskell by example: Utopian tree](https://dev.to/supermanitu/haskell-by-example---utopian-tree-1da2) by Jan van Brügge
 
     > In this series we solve coding challenges from Hackerrank in Haskell in a proper, functional way. A Utopian Tree has two growth spurts every year, one in spring and one in summer.
 
--   [My experience upgrading GHC, build tools, and dev tools](https://np.reddit.com/r/haskell/comments/9tpfo2/my_experience_upgrading_ghc_build_tools_and_dev/)
+-   [My experience upgrading GHC, build tools, and dev tools](https://np.reddit.com/r/haskell/comments/9tpfo2/my_experience_upgrading_ghc_build_tools_and_dev/) by Matt Renaud
 
     > I went through the process of setting up my environment again and wanted to document my process and the pain points I ran into.
 
--   [Signal processing in Haskell](https://serokell.io/blog/2018/11/05/signal-processing)
+-   [Signal processing in Haskell](https://serokell.io/blog/2018/11/05/signal-processing) by Rinat Stryungis
 
     > Today I would like to tell you about my work in the laboratory of the Physics Department of Moscow State University, where I study for a Master's degree.
 
--   [The trouble with typed errors](https://www.parsonsmatt.org/2018/11/03/trouble_with_typed_errors.html)
+-   [The trouble with typed errors](https://www.parsonsmatt.org/2018/11/03/trouble_with_typed_errors.html) by Matt Parsons
 
     > What we really want is: Order independence, no boilerplate, easy composition, and easy decomposition.
 
--   [Waargonaut the JSONer](https://qfpl.io/posts/waargonaut-the-jsoner/)
+-   [Waargonaut the JSONer](https://qfpl.io/posts/waargonaut-the-jsoner/) by Sean Chalmers
 
     > Waargonaut is a Haskell library for encoding/decoding/manipulating JSON. The design and development of which has been driven by a dissatisfaction with the current status quo of JSON libraries in Haskell.
 
