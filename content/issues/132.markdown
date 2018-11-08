@@ -70,7 +70,7 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [Amazonka and Gogol project status update](https://github.com/brendanhay/amazonka/issues/484)
 
 ## Events
 
