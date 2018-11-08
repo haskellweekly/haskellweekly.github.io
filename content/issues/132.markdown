@@ -26,6 +26,10 @@ Please take a few minutes to fill it out.
 
     > We notice that the type of `catch :: c a -> (e -> c a) -> c a` operator is a special case of monadic bind operator `(>>=) :: m a -> (a -> m b) -> m b` and the semantic (surprisingly) matches.
 
+-   [Lambda the Ultimate pattern factory](https://github.com/thma/LtuPatternFactory/tree/1be9521591f8a7f06b35a7ae5929e7beaf0b8e43)
+
+    > Recently, while re-reading through the Typeclassopedia I thought it would be a good exercise to map the structure of software design-patterns to the concepts found in the Haskell type class library and in functional programming in general.
+
 ## Jobs
 
 undefined
