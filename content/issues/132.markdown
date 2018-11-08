@@ -28,7 +28,33 @@ undefined
 
 ## In brief
 
-undefined
+-   [A tale on semirings](https://lukajcb.github.io/blog/functional/2018/11/02/a-tale-of-semirings.html)
+-   [An answer to "The Trouble with Typed Errors"](http://www.sylvain-henry.info/home/posts/2018-11-04-trouble-with-typed-errors.html)
+-   [Announce: `strict-tuple`](https://np.reddit.com/r/haskell/comments/9ux72w/ann_stricttuple/)
+-   [Applicative validation](https://blog.ploeh.dk/2018/11/05/applicative-validation/)
+-   [Benchmarks for Haskell serialization libraries](https://github.com/haskell-perf/serialization/tree/4687e8b4d0a91498d9084965e46a0d6047905d6e)
+-   [Carnap.io: A formal logic framework for Haskell](https://carnap.io)
+-   [Darcs Hub future](https://mail.haskell.org/pipermail/libraries/2018-November/029201.html)
+-   [Eliminating run time errors in OCaml and Haskell](https://thealmarty.com/2018/11/06/eliminating-run-time-errors-in-ocaml-and-haskell/)
+-   [Elm part 3: Adding effects](https://mmhaskell.com/blog/2018/11/5/elm-iii-building-a-bridge-adding-effects)
+-   [GHC 8.6.2 released](https://ghc.haskell.org/trac/ghc/blog/ghc-8.6.2-released)
+-   [Hacktoberfest 2018 wrap-up](https://kowainik.github.io/posts/2018-11-01-hacktoberfest-wrap-up)
+-   [Haskell by example: Utopian tree](https://dev.to/supermanitu/haskell-by-example---utopian-tree-1da2)
+-   [Haskell implementations archive](https://github.com/haskell-implementations)
+-   [Haskell vs. Go vs. OCaml vs. ...](https://pl-rants.net/posts/haskell-vs-go-vs-ocaml-vs/)
+-   [Hasktorch v0.0.1](https://medium.com/@stites/hasktorch-v0-0-1-28d9ab270f3f)
+-   [How can I become comfortable with laziness in Haskell?](https://np.reddit.com/r/haskell/comments/9tm84m/how_can_i_become_comfortable_with_laziness_in/)
+-   [Journal of Functional Programming: Call for PhD abstracts](https://www.cs.nott.ac.uk/~pszgmh/jfp-phd-abstracts.html)
+-   [Moving towards dialogue](https://vaibhavsagar.com/blog/2018/11/03/moving-towards-dialogue/)
+-   [My experience upgrading GHC, build tools, and dev tools](https://np.reddit.com/r/haskell/comments/9tpfo2/my_experience_upgrading_ghc_build_tools_and_dev/)
+-   [Pandoc donation from Handshake](https://groups.google.com/d/msg/pandoc-discuss/9U8uzv5S_lw/2vHYlonzCAAJ)
+-   [Pandoc for Italy, exploratory post](https://np.reddit.com/r/haskell/comments/9uni95/pandoc_for_italy_exploratory_post/)
+-   [Proposal: Stack code of conduct](https://www.snoyman.com/blog/2018/11/proposal-stack-coc)
+-   [Proving monoids with Idris](https://bor0.wordpress.com/2018/11/06/proving-monoids-with-idris/)
+-   [Signal processing in Haskell](https://serokell.io/blog/2018/11/05/signal-processing)
+-   [The `EventHandlers` pattern](https://medium.com/@jonathangfischoff/the-eventhandlers-pattern-9d67c3472b59)
+-   [The trouble with typed errors](https://www.parsonsmatt.org/2018/11/03/trouble_with_typed_errors.html)
+-   [Waargonaut the JSONer](https://qfpl.io/posts/waargonaut-the-jsoner/)
 
 ## Package of the week
 
