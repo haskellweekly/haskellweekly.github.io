@@ -106,7 +106,8 @@ Please take a few minutes to fill it out.
 
 ## Package of the week
 
-undefined
+This week's package of the week is [QuickCheck](https://hackage.haskell.org/package/QuickCheck-2.12.6.1),
+a library for random testing of program properties.
 
 ## Call for participation
 
