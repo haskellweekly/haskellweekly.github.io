@@ -32,7 +32,25 @@ Please take a few minutes to fill it out.
 
 ## Jobs
 
-undefined
+-   [Engineer at Mercury in San Francisco](https://np.reddit.com/r/NixOS/comments/9teh5j/mercury_is_hiring_an_engineer_san_francisco/)
+
+    > Mercury is building a bank for businesses. We are currently 8 people and have raised $6m. We are close to alpha launch and are looking to grow our team.
+
+-   [Compiler engineer in Portland](https://functional.works-hub.com/jobs/compiler-engineer-in-portland-united-states-of-america-cdfa9)
+
+    > We are creating the next generation AI chip. Our software team is looking for exceptional compiler experts to help us create the software on the chip.
+
+-   [Compiler developer at Crowdstrike](https://www.crowdstrike.com/careers/?p=job%2Fo9yD8fwc)
+
+    > We're looking for a talented colleague to join our small language and data tools team.  The ontology team at Crowdstrike researches, develops, and maintains tooling central to the data model used throughout our engineering department, including custom languages and compiler environments.
+
+-   [Formal methods engineer in Zurich](https://functional.works-hub.com/jobs/FormalMethodsEngineer-May-2017-1d3d7)
+
+    > Work as part of the globally distributed engineering team, together with the product and design teams, to define, develop and deliver on products.
+
+-   [Senior software engineer at Bloomberg in New York](https://careers.bloomberg.com/job/detail/65482)
+
+    > You are passionate about build systems that can manage a large-scale, multi-language codebase. You are interested in building tools that can prevent complex bugs and keep our code clean.
 
 ## In brief
 
@@ -47,6 +65,7 @@ undefined
 -   [Elm part 3: Adding effects](https://mmhaskell.com/blog/2018/11/5/elm-iii-building-a-bridge-adding-effects)
 -   [GHC 8.6.2 released](https://ghc.haskell.org/trac/ghc/blog/ghc-8.6.2-released)
 -   [Hacktoberfest 2018 wrap-up](https://kowainik.github.io/posts/2018-11-01-hacktoberfest-wrap-up)
+-   [Haskell at Finn.no](https://tech.finn.no/2018/10/18/haskell-at-finn-no/)
 -   [Haskell by example: Utopian tree](https://dev.to/supermanitu/haskell-by-example---utopian-tree-1da2)
 -   [Haskell implementations archive](https://github.com/haskell-implementations)
 -   [Haskell vs. Go vs. OCaml vs. ...](https://pl-rants.net/posts/haskell-vs-go-vs-ocaml-vs/)
