@@ -28,7 +28,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Physics](https://hackage.haskell.org/package/physics-0.1.2.1),
+a library for working with quantities in a performant and type-safe manner.
 
 ## Call for participation
 
