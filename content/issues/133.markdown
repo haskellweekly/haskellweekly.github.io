@@ -10,7 +10,9 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Senior back-end engineer at CentralApp in Brussels](https://centralapp.workable.com/j/9AFEDD1C3C)
+
+    > If you're someone who likes functional programming, you get to work in Scala and Haskell in a fast-paced but perfectionist environment. We're a small team and we're growing fast, or at least that's the plan. We strongly believe in investing in the team and building a culture that is product and engineering focused.
 
 ## In brief
 
