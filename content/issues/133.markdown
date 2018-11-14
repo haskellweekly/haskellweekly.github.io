@@ -14,7 +14,17 @@ undefined
 
 ## In brief
 
-undefined
+-   [An answer to "The trouble with typed errors"](http://www.sylvain-henry.info/home/posts/2018-11-04-trouble-with-typed-errors.html)
+-   [Existential quantification](https://markkarpov.com/post/existential-quantification.html)
+-   [GHC proposal: Add row polymorphism to Haskell](https://github.com/jvanbruegge/ghc-proposals/blob/70b9ae054956bdf9b7cf337732fa4a1d8d848355/proposals/0000-row-polymorphism.rst)
+-   [GTK+ programming with Haskell](https://haskell-at-work.com/episodes/2018-11-13-gtk-programming-with-haskell.html)
+-   [Proposal: Stack code of conduct](https://www.snoyman.com/blog/2018/11/proposal-stack-coc)
+-   [Request for feedback: Haddock theme redesign](https://np.reddit.com/r/haskell/comments/9vf0i7/request_for_feedback_haddock_theme_redesign/)
+-   [REST-ish Services in Haskell: Part 2](https://vadosware.io/post/rest-ish-services-in-haskell-part-2/)
+-   [Thinking with Types: Type-Level Programming in Haskell](https://leanpub.com/thinking-with-types/)
+-   [Typed holes and valid hole fits](https://octopi.chalmers.se/2018/11/08/typed-holes/)
+-   [Why I never finish my Haskell programs: Part 3 of ∞](https://blog.plover.com/prog/haskell/what-goes-wrong-3.html)
+-   [Zippers for non-inductive types](https://danghica.blogspot.com/2018/11/zippers-for-non-inductive-types.html)
 
 ## Package of the week
 
