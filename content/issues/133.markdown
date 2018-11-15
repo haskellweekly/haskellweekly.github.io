@@ -39,7 +39,8 @@ a library for working with quantities in a performant and type-safe manner.
 
 ## Call for participation
 
-undefined
+-   [alga: Fix Show instances](https://github.com/snowleopard/alga/issues/140)
+-   [haskell-cgi: Network.CGI.Compat uses deprecated functions from "network" library](https://github.com/cheecheeo/haskell-cgi/issues/45)
 
 ## Events
 
