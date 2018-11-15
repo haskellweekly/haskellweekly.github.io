@@ -10,7 +10,7 @@ This is a weekly summary of what's going on in its community.
 
     > I'm going to try today to show a very simple prime sieve that (hopefully) rivals the simplicity of the definition above.
 
--   [Announcing Validity version 0.9.0.0: Validity of `Double`](https://cs-syd.eu/posts/2018-11-14-validity-double) by Tom Sydney Kerchove
+-   [Announcing Validity version 0.9.0.0: Validity of `Double`](https://cs-syd.eu/posts/2018-11-14-validity-double) by Tom Sydney Kerckhove
 
     > The `Validity` instance for `Double` has been highly controversial. The debate centers around whether `NaN` should be considered a valid value of type `Double`.
 
