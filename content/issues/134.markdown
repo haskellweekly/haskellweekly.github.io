@@ -14,7 +14,26 @@ undefined
 
 ## In brief
 
-undefined
+-   [2018 state of Haskell survey results](https://taylor.fausak.me/2018/11/18/2018-state-of-haskell-survey-results/)
+-   [A low-latency garbage collector for GHC](https://bgamari.github.io/posts/2018-11-18-nonmoving-gc-for-ghc.html)
+-   [A new course begins](https://typeclasses.com/news/2018-11-new-course-functortown)
+-   [Elm series + PureScript coming up!](https://mmhaskell.com/blog/2018/11/19/elm-series-purescript-coming-up)
+-   [Ex-Hack: A Haskell example-based documentation](https://alternativebit.fr/posts/haskell/ex-hack-alpha/)
+-   [Function totality: Abstraction tool in programming](https://dimjasevic.net/marko/2018/11/20/function-totality-abstraction-tool-in-programming/)
+-   [Functional architecture: A definition](https://blog.ploeh.dk/2018/11/19/functional-architecture-a-definition/)
+-   [Hakyll Part 2: Generating a sitemap XML file](https://robertwpearce.com/hakyll-pt-2-generating-a-sitemap-xml-file.html)
+-   [IHaskell on Windows!](https://blog.ramdoot.in/ihaskell-on-windows-c549e6442262)
+-   [Keeping formal verification in bounds](https://doisinkidney.com/posts/2018-11-20-fast-verified-structures.html)
+-   [Lambda World Seattle 2018](https://www.youtube.com/playlist?list=PL4yAk3UBuBSo8BMnuUPteqj-AJL26tdAs)
+-   [MuniHac 2018 keynotes](https://www.youtube.com/playlist?list=PLxxF72uPfQVQ0jz5faMjPbikBIyy1x0n7)
+-   [Some things about Yesod](https://siskam.link/2018-11-14-some-things-about-yesod.html)
+-   [Stack(age): History, philosophy, and future](https://www.snoyman.com/blog/2018/11/stackage-history-philosophy-future)
+-   [State monad comes to help sequential pattern matching](https://kowainik.github.io/posts/2018-11-18-state-pattern-matching)
+-   [Termonad: A terminal emulator configurable in Haskell](https://functor.tokyo/blog/2018-11-15-termonad)
+-   [The state of Haskell 2018 survey: Take 2](https://medium.com/barely-functional/the-state-of-haskell-2018-survey-60155f5c1b14)
+-   [Upcoming Stackage LTS 13 snapshot with GHC 8.6.2](https://www.stackage.org/blog/2018/11/upcoming-lts-13-ghc-8-6-2)
+-   [What is your least favorite thing about Haskell in 2018?](https://medium.com/@snoyjerk/least-favorite-thing-about-haskal-ef8f80f30733)
+-   [Why (I believe) Stackage succeeded](https://www.snoyman.com/blog/2018/11/why-i-believe-stackage-succeeded)
 
 ## Package of the week
 
