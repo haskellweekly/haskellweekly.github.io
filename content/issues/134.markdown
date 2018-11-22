@@ -22,7 +22,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [LambdaHack: Create the machinery to randomly generate human character backstories](https://github.com/LambdaHack/LambdaHack/issues/153)
+-   [purebred-email: add IsString instance for Mailbox](https://github.com/purebred-mua/purebred-email/issues/18)
 
 ## Events
 
