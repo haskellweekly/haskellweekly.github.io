@@ -10,7 +10,13 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Data engineer at Lumi in Los Angeles](https://www.lumi.com/jobs/data-engineer)
+
+    > Are you ready to build and maintain an extensive database for a high-growth startup? Lumi is looking for a Data Engineer who can manage the design and implementation of a highly structured database of information relating to every facet of our business.
+
+-   [Software engineer at AlasConnect in Anchorage](https://alasconnect.com/jobs.html)
+
+    > Act as a trusted software expert within the organization. Design and develop new software products and architectures, coordinate maintenance activities. Coaching and mentoring junior team members.
 
 ## In brief
 
