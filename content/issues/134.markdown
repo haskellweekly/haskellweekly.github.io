@@ -43,7 +43,9 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Clash](https://clash-lang.org),
+a functional hardware description language.
+The CλaSH compiler transforms these high-level descriptions to low-level synthesizable VHDL, Verilog, or SystemVerilog.
 
 ## Call for participation
 
