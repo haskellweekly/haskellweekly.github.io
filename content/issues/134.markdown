@@ -73,6 +73,7 @@ The CλaSH compiler transforms these high-level descriptions to low-level synthe
 - 2018-11-29 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: [Functional Programming Meetup](https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyxpbmc/)
 - 2018-11-29 in Chicago, IL, USA by The Project Euler Sprint: [Project Euler Sprint](https://www.meetup.com/Project-Euler-Sprint/events/ngwzxmyxpbmc/)
 - 2018-11-29 in Calgary, AB, Canada by Functional Programmers YYC: [Unconf (YYC.FP)](https://www.meetup.com/Functional-Programmers-YYC/events/jzwglpyxpblb/)
+- 2018-12-04 in Tempe, AZ, USA by Functional First Phoenix: [Go serverless with ReasonML and Amazon Lambda](https://www.meetup.com/Functional-First-Phoenix/events/256220538/)
 
 ### Europe
 
