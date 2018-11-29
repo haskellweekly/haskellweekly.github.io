@@ -68,7 +68,9 @@ a library for environmentally friendly environment variables.
 
 ## Call for participation
 
-undefined
+-   [alga: Implement custom `shrink` for non-algebraic graph data types](https://github.com/snowleopard/alga/issues/150)
+-   [servant: client streaming + http redirect result into runtime exception](https://github.com/haskell-servant/servant/issues/1091)
+-   [shake: Make rest of the website discoverable](https://github.com/ndmitchell/shake/issues/628)
 
 ## Events
 
