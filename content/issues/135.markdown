@@ -10,11 +10,34 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Haskell Developer at Cross Compass in Tokyo](https://np.reddit.com/r/haskell/comments/a0iq61/job_cross_compass_is_currently_hiring_haskell/)
+
+    > We currently have a small team of Haskellers working on a deep learning framework implemented in Haskell. We are hiring Haskell programmers to help create this framework.
+
+-   [Language Engineer at Conduent in Raleigh](https://blockchain.works-hub.com/jobs/software-engineer-programming-languages-in-raleigh-united-states-of-america-a2f83)
+
+    > We are looking for a software engineer with experience in Haskell or OCaml located in Raleigh, North Carolina. We are looking to implement our strategy of enabling our internal and external applications with a distributed ledger (a blockchain) to help deliver value to our customers.
 
 ## In brief
 
-undefined
+-   [Battleship game online written in Haskell](https://np.reddit.com/r/haskell/comments/a12hwp/battleship_game_online_written_in_haskell/)
+-   [Cloud Haskell: High level redesign proposal](https://github.com/haskell-distributed/distributed-process/wiki/High-Level-Redesign-Proposal/f0ac67e3061c61244fdc32c642ce721541a19b0a)
+-   [Counting the cost of colons in Haskell](https://www.fpcomplete.com/blog/2018/11/haskell-and-rust)
+-   [Cursors, part 2: The text cursor](https://cs-syd.eu/posts/2018-11-28-cursors-text)
+-   [Exploring Languages with Interpreters and Functional Programming](https://john.cs.olemiss.edu/~hcc/csci450/ELIFP/ExploringLanguages.html)
+-   [Formality is now able to fuse native datatypes](https://np.reddit.com/r/haskell/comments/a07sst/quick_update_formality_is_now_able_to_fuse_native/)
+-   [Haskell Bazaar: Explore Haskell and functional programming concepts](https://www.haskellbazaar.com)
+-   [Internal convention is a mistake](http://nikita-volkov.github.io/internal-convention-is-a-mistake/)
+-   [My favorite Haskell function](https://github.com/quchen/articles/blob/c8540f28bca2049b35f48d242988ca1ca248d0d8/2018-11-22_zipWith_const.md)
+-   [ozil: A help viewer for your terminal](https://np.reddit.com/r/haskell/comments/9zk41p/ozil_a_help_viewer_for_your_terminal/)
+-   [Parsing type-level strings in Haskell](https://kcsongor.github.io/symbol-parsing-haskell/)
+-   [The usefulness of maybe monad](https://www.youtube.com/watch?v=0F15o6_jGAs)
+-   [Tidal 1.0.0 refactor](https://slab.org/tidal-1-0-0-refactor/)
+-   [todo](https://neilmitchell.blogspot.com/2018/11/counting-cost-of-colons-in-haskell.html)
+-   [Type Classes: The lessons continue](https://typeclasses.com/news/2018-11-lessons-continue)
+-   [Type-driven program synthesis](https://www.youtube.com/watch?v=HnOix9TFy1A)
+-   [Yo, Yoneda!](https://functional.works-hub.com/learn/yo-yoneda-a2965)
+-   [Yoneda intuition from humble beginnings](https://gist.github.com/Icelandjack/02069708bc75f4284ac625cd0e2ec81f/6cb8f671d5bbc8592557e5c7a5a5c224a9663973)
 
 ## Package of the week
 
