@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+- [Monadic Party](https://monadic.party)
+
+  > It is a second edition of a Haskell summer school. This time we have three tracks and as usual great speakers. The CFP is open and we have a scholarship programme for people from disadvantaged backgrounds. 
 
 ## Jobs
 
