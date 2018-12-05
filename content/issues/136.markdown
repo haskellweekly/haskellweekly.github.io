@@ -20,7 +20,21 @@ undefined
 
 ## In brief
 
-undefined
+-   [Almost time](https://typeclasses.com/news/2018-12-almost-time)
+-   [Building terminal user interfaces in Haskell](https://www.fpcomplete.com/blog/building-tuis-in-haskell)
+-   [CFP: LambdaConf 2019](https://www.papercall.io/lambdaconf-2019)
+-   [Detecting the undetectable: Custom type errors for stuck type families](https://kcsongor.github.io/report-stuck-families/)
+-   [Idris 2: Type-driven development of Idris](https://www.youtube.com/watch?v=mOtKD7ml0NU)
+-   [Introduction to state machine testing: Part 3](https://qfpl.io/posts/intro-to-state-machine-testing-3/)
+-   [Laziness quiz](https://www.parsonsmatt.org/2018/12/04/laziness_quiz.html)
+-   [Lens by Example: Writing traversals](https://lens-by-example.chrispenner.ca/articles/traversals/writing-traversals)
+-   [Maybe Not by Rich Hickey](https://np.reddit.com/r/haskell/comments/a1ofh2/maybe_not_rich_hickey/)
+-   [MIRI's newest recruit: Edward Kmett!](https://intelligence.org/2018/11/28/miris-newest-recruit-edward-kmett/)
+-   [Monthly Hask Anything](https://np.reddit.com/r/haskell/comments/a1u9qj/monthly_hask_anything_december_2018/)
+-   [Moving to GitLab](https://mail.haskell.org/pipermail/ghc-devs/2018-December/016613.html)
+-   [Programming Language Foundations in Agda](https://wadler.blogspot.com/2018/12/programming-language-foundations-in-agda.html)
+-   [Simplicity: High-assurance smart contracting](https://blockstream.com/2018/11/28/simplicity-github/)
+-   [Summoner 1.2.0: TUI and better scaffolding](https://np.reddit.com/r/haskell/comments/a1skcb/ann_summoner120_tui_better_scaffolding/)
 
 ## Package of the week
 
