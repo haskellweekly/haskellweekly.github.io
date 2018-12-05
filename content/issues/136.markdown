@@ -9,6 +9,10 @@ This is a weekly summary of what's going on in its community.
 [The Little Typer Interview](https://corecursive.com/023-little-typer-and-pie-language/)
      > You can write more correct software and even rigorous mathematical proofs.  Let's learn about dependent types with Dan and David.
 
+- [Monadic Party](https://monadic.party)
+
+  > It is the second edition of a Haskell summer school in Poznań, Poland. This time we have three tracks and as usual great speakers. The CFP is open and we have a scholarship programme for people from disadvantaged backgrounds. 
+
 ## Jobs
 
 undefined
