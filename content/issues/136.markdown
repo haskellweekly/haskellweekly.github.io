@@ -16,7 +16,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Jobs
 
-undefined
+-   [Internship at Kiel University](https://np.reddit.com/r/haskell/comments/a1toop/haskellrelated_summer_internship_in_germany/)
+
+    > We'd be very happy to host a motivated student, who is keen to improve our compiler for the functional logic programming language Curry in terms of performance.
 
 ## In brief
 
