@@ -38,7 +38,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [`nonempty-containers`](https://hackage.haskell.org/package/nonempty-containers-0.1.0.0),
+a library that provides non-empty variants of `containers` data types.
 
 ## Call for participation
 
