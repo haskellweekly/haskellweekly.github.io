@@ -50,7 +50,8 @@ a library that provides non-empty variants of `containers` data types.
 
 ## Call for participation
 
-undefined
+-   [bugsnag-haskell: Integration testing](https://github.com/pbrisbin/bugsnag-haskell/issues/47)
+-   [hledger: print can show unbalanced transactions with a commodity directive](https://github.com/simonmichael/hledger/issues/931)
 
 ## Events
 
