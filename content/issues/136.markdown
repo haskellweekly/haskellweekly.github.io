@@ -16,6 +16,10 @@ This is a weekly summary of what's going on in its community.
 
 ## Jobs
 
+-   [Haskell Engineer at Mercury in San Francisco](https://np.reddit.com/r/haskell/comments/a33krh/mercury_is_hiring_a_haskell_engineer_sf_fulltime/)
+
+    > Mercury is a bank for tech startups. We're building a product that will power the future of American industry. This turns out to be pretty ambitious for a team of eight, so we're bringing one more product-minded engineer on board to help us achieve it.
+
 -   [Internship at Kiel University](https://np.reddit.com/r/haskell/comments/a1toop/haskellrelated_summer_internship_in_germany/)
 
     > We'd be very happy to host a motivated student, who is keen to improve our compiler for the functional logic programming language Curry in terms of performance.
