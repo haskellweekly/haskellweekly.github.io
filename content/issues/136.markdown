@@ -27,6 +27,7 @@ This is a weekly summary of what's going on in its community.
 ## In brief
 
 -   [Almost time](https://typeclasses.com/news/2018-12-almost-time)
+-   [Building network actors with Enecuum Node Framework](https://gist.github.com/graninas/9beb8df5d88dda5fa21c47ce9bcb0e16/2acd7bc46b4e088ce78f5f5408ece59849b2685d)
 -   [Building terminal user interfaces in Haskell](https://www.fpcomplete.com/blog/building-tuis-in-haskell)
 -   [CFP: LambdaConf 2019](https://www.papercall.io/lambdaconf-2019)
 -   [Detecting the undetectable: Custom type errors for stuck type families](https://kcsongor.github.io/report-stuck-families/)
