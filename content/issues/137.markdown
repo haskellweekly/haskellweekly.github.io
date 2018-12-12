@@ -10,6 +10,10 @@ This is a weekly summary of what's going on in its community.
 
     > This post shows how to implement a webcam server in Haskell. The implemented server is a classic web server that stores the current image in memory and sends it to any HTTP client that requests it.
 
+-   [Why Not Both?](https://medium.com/@fommil/why-not-both-8adadb71a5ed) by Sam Halliday
+
+    > Build Haskell projects with either `cabal` or `stack`. Truly, both excellent tools can live together and we can get on with the business of writing beautiful Haskell together!
+
 ## Jobs
 
 -   [Galois is Hiring!](https://galois.com/careers/) (ad)
