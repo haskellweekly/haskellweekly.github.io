@@ -16,7 +16,7 @@ undefined
 
 ## In brief
 
-undefined
+-   [A webcam server in 35 lines of Haskell](https://nokomprendo.frama.io/tuto_fonctionnel/posts/tuto_fonctionnel_25/2018-08-25-en-README.html)
 
 ## Package of the week
 
