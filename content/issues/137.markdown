@@ -75,7 +75,8 @@ a CSS preprocessor like Sass implemented as an embedded domain specific language
 
 ## Call for participation
 
-undefined
+-   [rhine: Add record fields to SN constructors](https://github.com/turion/rhine/issues/120)
+-   [stack: Exclude documentation from ghc installations](https://github.com/commercialhaskell/stack/issues/4438)
 
 ## Events
 
