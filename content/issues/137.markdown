@@ -46,7 +46,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Clay](https://hackage.haskell.org/package/clay-0.13.1),
+a CSS preprocessor like Sass implemented as an embedded domain specific language.
 
 ## Call for participation
 
