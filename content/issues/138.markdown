@@ -46,7 +46,16 @@ undefined
 
 ## Package of the week
 
-undefined
+Instead of picking a package this week,
+we're going to pick two interesting projects that were announced recently.
+
+-   [`thinking-with-types`](https://github.com/isovector/thinking-with-types/tree/d8cb64ee6e9cd082a8d81e27f91deb0bc1285576)
+
+    > This repository is all of the original source material for my book Thinking with Types: Type-Level Programming in Haskell.
+
+-   [`jhc-components`](https://github.com/csabahruska/jhc-components/tree/a7dace481d017f5a83fbfc062bdd2d099133adf1)
+
+    > This is a fork of JHC Haskell Compiler 0.8.2. The source code is split into reusable components and builds with Haskell Stack.
 
 ## Call for participation
 
