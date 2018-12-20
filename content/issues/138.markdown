@@ -24,7 +24,25 @@ undefined
 
 ## In brief
 
-undefined
+-   [Call for Haskell.org Committee Nominations](https://mail.haskell.org/pipermail/haskell-cafe/2018-December/130370.html)
+-   [Classical Logic in Haskell](https://cvlad.info/clasical-logic-in-haskell/)
+-   [Covariance and GUIs](https://typeclasses.com/news/2018-12-covariance-and-guis)
+-   [Down with `Show`! Part 3: A replacement for `Show`](https://harry.garrood.me/blog/down-with-show-part-3/)
+-   [Expressing `Arbitrary` and `NFData` constraints for function types](https://np.reddit.com/r/haskell/comments/a641hy/expressing_arbitrary_and_nfdata_constraints_for/)
+-   [GHC WebAssembly backend reaches TodoMVC](https://www.tweag.io/posts/2018-12-20-asterius-todomvc.html)
+-   [Haskell compilation benchmark](https://qbaylogic.github.io/benchmark-compilation/)
+-   [How to Create 3D Games with PureScript Native and C++](https://medium.com/@lettier/how-to-create-3d-games-with-purescript-and-cpp-faabf8f27fe6)
+-   [How to deal with the records problem when writing REST API clients?](https://np.reddit.com/r/haskell/comments/a7asi8/how_to_deal_with_the_records_problem_when_writing/)
+-   [Improving Commercial Haskell](https://www.snoyman.com/blog/2018/12/improving-commercial-haskell)
+-   [Juicy Draw](https://blog.rcook.org/blog/2018/juicy-draw/)
+-   [No thanks, `acid-state`](https://gist.github.com/parsonsmatt/6b747d3020c4a4ac43b6580b65392a23/e507b81dac2c90bff7e4dbd8e8fd10e75cfe54ff)
+-   [Picosmos: Writing a simple single-line text-editor with brick](https://cs-syd.eu/posts/2018-12-14-picosmos)
+-   [Prisms: Preview, Review, and how to write your own!](https://www.patreon.com/posts/23394721)
+-   [Pure & Lazy Breadth-First Traversals of Graphs in Haskell](https://doisinkidney.com/posts/2018-12-18-traversing-graphs.html)
+-   [Purescript IV: Routing and Navigation](https://mmhaskell.com/blog/2018/11/5/purescript-iv-building-a-bridge)
+-   [Struggling to get started with developing with Haskell](https://np.reddit.com/r/haskell/comments/a69ww2/struggling_to_get_started_with_developing_with/)
+-   [Thoughts on bootstrapping GHC](https://www.joachim-breitner.de/blog/748-Thoughts_on_bootstrapping_GHC)
+-   [Why Dependent Haskell is the Future of Software Development](https://serokell.io/blog/2018/12/17/why-dependent-haskell)
 
 ## Package of the week
 
