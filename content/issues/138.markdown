@@ -18,6 +18,10 @@ undefined
 
     > SimSpace is looking for a backend software developer to help shape the future of realistic environments used for cyber security development, testing, and training.
 
+-   [Senior Haskell Engineer at Hasura.io in Bangalore](https://np.reddit.com/r/haskell/comments/a7ldvj/hasuraio_is_hiring_senior_haskell_engineers/)
+
+    > Hasura.io is hiring senior Haskell developers. We build tools for developers to lessen the effort that goes into building backends for applications.
+
 ## In brief
 
 undefined
