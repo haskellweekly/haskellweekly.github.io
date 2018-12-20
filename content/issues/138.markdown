@@ -6,7 +6,45 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [How to Create 3D Games with PureScript Native and C++](https://medium.com/@lettier/how-to-create-3d-games-with-purescript-and-cpp-faabf8f27fe6) by David Lettier
+
+    > Hopefully others will use PureScript Native more and more. I'm very excited to turn the concept behind Lambda Lantern into a full featured game but I'm even more excited about using it to get the word out and build up the ecosystem around PSN.
+
+-   [GHC WebAssembly backend reaches TodoMVC](https://www.tweag.io/posts/2018-12-20-asterius-todomvc.html) by Shao Cheng
+
+    > Today we demonstrate that writing web apps in Haskell compiled to WebAssembly works well enough that TodoMVC, the more intricate "Hello World!" of web apps, works in your browser.
+
+-   [Covariance and GUIs](https://typeclasses.com/news/2018-12-covariance-and-guis) by Julie Moronuki
+
+    > This week, we've added more reference material and new lessons to two of our ongoing courses.
+
+-   [Picosmos: Writing a simple single-line text-editor with brick](https://cs-syd.eu/posts/2018-12-14-picosmos) by Tom Sydney Kerckhove
+
+    > In this post we will write a purely functional text editor for a single line of text using brick.
+
+-   [Prisms: Preview, Review, and how to write your own!](https://www.patreon.com/posts/23394721) by Chris Penner
+
+    > Hey folks! Just finished up a series of articles on using Prisms with the lens library! Hope you like it and learn something :D
+
+-   [Down with `Show`! Part 3: A replacement for `Show`](https://harry.garrood.me/blog/down-with-show-part-3/) by Harry Garrood
+
+    > This is part three of three in a series in which I will argue that it is time to consign the `Show` type class to the dustbin of history.
+
+-   [Pure & Lazy Breadth-First Traversals of Graphs in Haskell](https://doisinkidney.com/posts/2018-12-18-traversing-graphs.html) by Donnacha Oisín Kidney
+
+    > Today, I'm going to look at extending the previous breadth-first traversal algorithms to arbitrary graphs (rather than just trees).
+
+-   [Thoughts on bootstrapping GHC](https://www.joachim-breitner.de/blog/748-Thoughts_on_bootstrapping_GHC) by Joachim Breitner
+
+    > The problem is that contemporary Haskell has only one viable implementation, GHC. And GHC, written in contemporary Haskell, needs GHC to be build.
+
+-   [Why Dependent Haskell is the Future of Software Development](https://serokell.io/blog/2018/12/17/why-dependent-haskell) by Vladislav Zavialov
+
+    > There's a tension between writing code that is performant, code that is maintainable and easy to understand, and code that is correct by construction. With available technology, we are in a "pick two" situation.
+
+-   [Classical Logic in Haskell](https://cvlad.info/clasical-logic-in-haskell/) by Vladimir Ciobanu
+
+    > During a very pleasant conversation at a recent Bucharest FP meetup, somebody mentioned that `Cont` is, almost exactly, Peirce's law.
 
 ## Jobs
 
@@ -25,24 +63,14 @@ undefined
 ## In brief
 
 -   [Call for Haskell.org Committee Nominations](https://mail.haskell.org/pipermail/haskell-cafe/2018-December/130370.html)
--   [Classical Logic in Haskell](https://cvlad.info/clasical-logic-in-haskell/)
--   [Covariance and GUIs](https://typeclasses.com/news/2018-12-covariance-and-guis)
--   [Down with `Show`! Part 3: A replacement for `Show`](https://harry.garrood.me/blog/down-with-show-part-3/)
 -   [Expressing `Arbitrary` and `NFData` constraints for function types](https://np.reddit.com/r/haskell/comments/a641hy/expressing_arbitrary_and_nfdata_constraints_for/)
--   [GHC WebAssembly backend reaches TodoMVC](https://www.tweag.io/posts/2018-12-20-asterius-todomvc.html)
 -   [Haskell compilation benchmark](https://qbaylogic.github.io/benchmark-compilation/)
--   [How to Create 3D Games with PureScript Native and C++](https://medium.com/@lettier/how-to-create-3d-games-with-purescript-and-cpp-faabf8f27fe6)
 -   [How to deal with the records problem when writing REST API clients?](https://np.reddit.com/r/haskell/comments/a7asi8/how_to_deal_with_the_records_problem_when_writing/)
 -   [Improving Commercial Haskell](https://www.snoyman.com/blog/2018/12/improving-commercial-haskell)
 -   [Juicy Draw](https://blog.rcook.org/blog/2018/juicy-draw/)
 -   [No thanks, `acid-state`](https://gist.github.com/parsonsmatt/6b747d3020c4a4ac43b6580b65392a23/e507b81dac2c90bff7e4dbd8e8fd10e75cfe54ff)
--   [Picosmos: Writing a simple single-line text-editor with brick](https://cs-syd.eu/posts/2018-12-14-picosmos)
--   [Prisms: Preview, Review, and how to write your own!](https://www.patreon.com/posts/23394721)
--   [Pure & Lazy Breadth-First Traversals of Graphs in Haskell](https://doisinkidney.com/posts/2018-12-18-traversing-graphs.html)
 -   [Purescript IV: Routing and Navigation](https://mmhaskell.com/blog/2018/11/5/purescript-iv-building-a-bridge)
 -   [Struggling to get started with developing with Haskell](https://np.reddit.com/r/haskell/comments/a69ww2/struggling_to_get_started_with_developing_with/)
--   [Thoughts on bootstrapping GHC](https://www.joachim-breitner.de/blog/748-Thoughts_on_bootstrapping_GHC)
--   [Why Dependent Haskell is the Future of Software Development](https://serokell.io/blog/2018/12/17/why-dependent-haskell)
 
 ## Package of the week
 
