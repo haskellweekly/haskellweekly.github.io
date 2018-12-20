@@ -24,7 +24,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [first-class-families: Modularize](https://github.com/Lysxia/first-class-families/issues/7)
+-   [toodles: Dependency tracking](https://github.com/aviaviavi/toodles/issues/58)
 
 ## Events
 
