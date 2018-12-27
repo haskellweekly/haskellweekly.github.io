@@ -20,7 +20,8 @@ undefined
 
 ## Package of the week
 
-undefined
+-   [elm-format: Backslash prepended to underscores in comments](https://github.com/avh4/elm-format/issues/587)
+-   [spago: Build Windows binaries in CI](https://github.com/spacchetti/spago/issues/57)
 
 ## Call for participation
 
