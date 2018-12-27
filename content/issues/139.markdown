@@ -20,7 +20,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [`fgl`](https://hackage.haskell.org/package/fgl-5.7.0.1),
+a functional graph library.
 
 ## Call for participation
 
