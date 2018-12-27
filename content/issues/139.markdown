@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [The Essence of Datalog](https://dodisturb.me/posts/2018-12-25-The-Essence-of-Datalog.html) by Mistral Contrastin
+
+    > In which we implement a simple Datalog engine in not many lines of Haskell to understand its semantics.
 
 ## Jobs
 
