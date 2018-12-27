@@ -10,35 +10,35 @@ This is a weekly summary of what's going on in its community.
 
     > In which we implement a simple Datalog engine in not many lines of Haskell to understand its semantics.
 
--   [Welcome to GitLab!](https://mail.haskell.org/pipermail/ghc-devs/2018-December/016716.html)
+-   [Welcome to GitLab!](https://mail.haskell.org/pipermail/ghc-devs/2018-December/016716.html) by Ben Gamari
 
     > I am happy to announce that CI on GHC's GitLab instance is now stable. At this point GitLab is to be considered the official upstream repository of GHC.
 
--   [Stackage LTS 13 with ghc-8.6.3](https://www.stackage.org/blog/2018/12/announce-lts-13)
+-   [Stackage LTS 13 with ghc-8.6.3](https://www.stackage.org/blog/2018/12/announce-lts-13) by Dan Burton
 
     > We are pleased to announce the release of lts-13.0, the first in a new LTS Haskell snapshot series, using ghc-8.6.3.
 
--   [Abstraction levels in functional programming](https://tzemanovic.gitlab.io/posts/abstraction-levels-in-functional-programming/)
+-   [Abstraction levels in functional programming](https://tzemanovic.gitlab.io/posts/abstraction-levels-in-functional-programming/) by Tomáš Zemanovič
 
     > I am delighted to see more people learning functional programming and find the effort that goes into making it accessible to a wider audience encouraging.
 
--   [Advent of Haskell](https://medium.com/@mvaldesdeleon/advent-of-haskell-950d6408a729)
+-   [Advent of Haskell](https://medium.com/@mvaldesdeleon/advent-of-haskell-950d6408a729) by Martín Valdés de León
 
     > Thoughts and lessons learned after using Haskell consistently for 25 days in a row.
 
--   [Curses Pac-man game in Haskell](https://github.com/ajkavanagh/pacman/tree/b72468ed0519858288f35f1ae1b2cfb91516df4f)
+-   [Curses Pac-man game in Haskell](https://github.com/ajkavanagh/pacman/tree/b72468ed0519858288f35f1ae1b2cfb91516df4f) by Alex Kavanagh
 
     > I wrote this as an exercise in improving my Haskell, which I started this year and for learning how to use lenses for a presentation I'm going to do for my local functional programming group.
 
--   [Happy Haskell Programming for GHC 8.x](http://haskell.1045720.n5.nabble.com/Happy-Haskell-Programming-for-GHC-8-x-td5888460.html)
+-   [Happy Haskell Programming for GHC 8.x](http://haskell.1045720.n5.nabble.com/Happy-Haskell-Programming-for-GHC-8-x-td5888460.html) by Kazu Yamamoto
 
     > I'm happy to announce that Happy Haskell Programming (HHP) version 0.0.0 has been released. In short, HHP is a fork from ghc-mod 4.1.6 and re-written for all GHC 8.x.
 
--   [Rigid types and block arguments](https://typeclasses.com/news/2018-12-yearly-billing-regional-discounts)
+-   [Rigid types and block arguments](https://typeclasses.com/news/2018-12-yearly-billing-regional-discounts) by Chris Martin
 
     > Rigid type variables: Understanding that phrase that shows up in your compile errors can help you learn more about the type system. BlockArguments: The fun new GHC extension stealing everyone's dollars.
 
--   [Testing `distributed-process` apps using Hspec](https://filib.io/posts/2018-12-24-testing-distributed-process-apps-with-hspec.html)
+-   [Testing `distributed-process` apps using Hspec](https://filib.io/posts/2018-12-24-testing-distributed-process-apps-with-hspec.html) by Philip Cunningham
 
     > `distributed-process` is a Haskell library that brings Erlang-style concurrency to Haskell. Whilst developing an application at work that uses it, I found that there wasn't much material online describing how to test `distributed-process` applications.
 
