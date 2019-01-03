@@ -33,7 +33,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [hal](https://github.com/Nike-Inc/hal/tree/008d57626af9b2c917393c199c2cd956cb3b6ea9),
+a runtime environment for Haskell applications running on AWS Lambda.
 
 ## Call for participation
 
