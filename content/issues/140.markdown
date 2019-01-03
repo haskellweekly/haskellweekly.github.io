@@ -14,6 +14,10 @@ undefined
 
     > Galois is looking for Software Engineers/Researchers and Project Managers! We collaborate with organizations like NASA, DARPA, and Amazon Web Services to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, binary analysis, cryptographic algorithms, domain specific languages, programming languages theory, abstract interpretation, type theory, formal verification and software correctness, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome (see <https://lifeatgalois.com>).
 
+-   [Infrastructure Engineer at Arcesium in NYC](https://arcesium.com/careers.shtml#infrastructure-engineer)
+
+    > Join the infrastructure team of a fintech company using AWS, Kubernetes, Python and Haskell to build a declarative infrastructure. We’re looking for someone experienced in design, development, and systems engineering. Compensation is competitive.
+
 ## In brief
 
 undefined
