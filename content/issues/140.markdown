@@ -20,15 +20,20 @@ undefined
 
 ## In brief
 
+-   [A tale of servant clients](https://blog.clement.delafargue.name/posts/2018-12-27-a-tale-of-servant-clients.html)
 -   [All About Strictness Analysis (part 2)](http://fixpt.de/blog/2018-12-30-strictness-analysis-part-2.html)
 -   [Call for Ideas for 2019](https://summer.haskell.org/news/2018-12-28-call-for-ideas.html)
 -   [Compiling to Categories 3: A Bit Cuter](http://www.philipzucker.com/compiling-to-categories-3-a-bit-cuter/)
 -   [Cooper Storage and Type-Level Haskell](https://adrummond.net/posts/cooper)
+-   [Happy New Years from MMH!](https://mmhaskell.com/blog/2018/12/31/happy-new-years-from-mmh)
 -   [Lens into wrapped newtypes](https://jappieklooster.nl/lens-into-wrapped-newtypes.html)
 -   [liftAN](https://doisinkidney.com/snippets/nary-uncurry.html)
 -   [Monthly Hask Anything (January 2019)](https://np.reddit.com/r/haskell/comments/ab8ypl/monthly_hask_anything_january_2019/)
 -   [Parsing infinite streams with attoparsec](https://www.wjwh.eu/posts/2019-01-01-parsing-infinite-streams.html)
+-   [reviewN to review with multiple arguments!](http://oleg.fi/gists/posts/2018-12-29-reviewN.html)
+-   [Tuple bifunctor](https://blog.ploeh.dk/2018/12/31/tuple-bifunctor/)
 -   [Type annotations vs partial type signatures vs visible type applications](https://lin-techdet.blogspot.com/2018/12/type-annotations-vs-partial-type.html)
+-   [usethetypes.com](https://usethetypes.com)
 -   [Why I'm No Longer Taking Donations](https://wickstrom.tech/programming/2018/12/29/why-im-no-longer-taking-donations.html)
 
 ## Package of the week
