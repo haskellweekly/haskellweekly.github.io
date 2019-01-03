@@ -12,7 +12,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [All About Strictness Analysis (part 2)](http://fixpt.de/blog/2018-12-30-strictness-analysis-part-2.html) by Sebastian Graf
 
-    > At the end of part 1 from December 41, I made a promise to implement a strictness analysis à la GHC with you. Why would this be useful? In the last post, I argued that a rough understanding of how strictness analysis works helps to debug and identify the actual causes of missed unboxing opportunities and fix them with minimal effort. So here it is, enjoy!
+    > At the end of part 1 from December 4, I made a promise to implement a strictness analysis à la GHC with you. Why would this be useful? In the last post, I argued that a rough understanding of how strictness analysis works helps to debug and identify the actual causes of missed unboxing opportunities and fix them with minimal effort. So here it is, enjoy!
 
 -   [Call for Ideas for 2019](https://summer.haskell.org/news/2018-12-28-call-for-ideas.html) by Jasper Van der Jeugt
 
