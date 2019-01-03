@@ -38,7 +38,8 @@ a runtime environment for Haskell applications running on AWS Lambda.
 
 ## Call for participation
 
-undefined
+-   [dh-core: datasets: add unit tests](https://github.com/DataHaskell/dh-core/issues/32)
+-   [nvim-hs: Make plugins overrideable](https://github.com/neovimhaskell/nvim-hs/issues/69)
 
 ## Events
 
