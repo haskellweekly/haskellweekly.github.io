@@ -13,14 +13,23 @@ undefined
 -   [Galois is Hiring!](https://workforcenow.adp.com/jobs/apply/posting.html?client=galois&ccId=19000101_000001&type=MP&lang=en_US) (ad)
 
     > Galois is looking for Software Engineers/Researchers and Project Managers! We collaborate with organizations like NASA, DARPA, and Amazon Web Services to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, binary analysis, cryptographic algorithms, domain specific languages, programming languages theory, abstract interpretation, type theory, formal verification and software correctness, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome (see <https://lifeatgalois.com>).
-    
+
 -   [Infrastructure Engineer at Arcesium in NYC](https://arcesium.com/careers.shtml#infrastructure-engineer)
 
     > Join the infrastructure team of a fintech company using AWS, Kubernetes, Python and Haskell to build a declarative infrastructure. We’re looking for someone experienced in design, development, and systems engineering. Compensation is competitive.
 
 ## In brief
 
-undefined
+-   [All About Strictness Analysis (part 2)](http://fixpt.de/blog/2018-12-30-strictness-analysis-part-2.html)
+-   [Call for Ideas for 2019](https://summer.haskell.org/news/2018-12-28-call-for-ideas.html)
+-   [Compiling to Categories 3: A Bit Cuter](http://www.philipzucker.com/compiling-to-categories-3-a-bit-cuter/)
+-   [Cooper Storage and Type-Level Haskell](https://adrummond.net/posts/cooper)
+-   [Lens into wrapped newtypes](https://jappieklooster.nl/lens-into-wrapped-newtypes.html)
+-   [liftAN](https://doisinkidney.com/snippets/nary-uncurry.html)
+-   [Monthly Hask Anything (January 2019)](https://np.reddit.com/r/haskell/comments/ab8ypl/monthly_hask_anything_january_2019/)
+-   [Parsing infinite streams with attoparsec](https://www.wjwh.eu/posts/2019-01-01-parsing-infinite-streams.html)
+-   [Type annotations vs partial type signatures vs visible type applications](https://lin-techdet.blogspot.com/2018/12/type-annotations-vs-partial-type.html)
+-   [Why I'm No Longer Taking Donations](https://wickstrom.tech/programming/2018/12/29/why-im-no-longer-taking-donations.html)
 
 ## Package of the week
 
