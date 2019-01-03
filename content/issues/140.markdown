@@ -51,6 +51,7 @@ undefined
 - 2019-01-10 in Raleigh, NC, USA by Raleigh Haskell Meetup: [(hack . yack)](https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzcbnb/)
 - 2019-01-10 in Calgary, AB, Canada by Functional Programmers YYC: [Unconf (YYC.FP)](https://www.meetup.com/Functional-Programmers-YYC/events/jzwglpyzcbnb/)
 - 2019-01-10 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: [Functional Programming Meetup](https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzcbnb/)
+- 2019-01-12 in Chattanooga, TN, USA by Chattanooga Haskell Users Group (CHUG): [Haskathon](https://www.meetup.com/chaskell/events/257588255/)
 
 ### Europe
 
