@@ -20,6 +20,13 @@ you to make changes when you can, and we'll work with you to get your changes
 merged quickly. For instance, this has been used for [packages of the week][],
 [featured content][], and [typos][].
 
+### Job postings
+
+We are happy to include job postings for Haskell engineers! If you'd like a job
+posting to be included in more than one issue of Haskell Weekly, please consider
+advertising with us. This page explains all the details:
+<https://haskellweekly.news/advertising.html>.
+
 ## Contributing code
 
 The code that powers Haskell Weekly does not change that frequently. However we
