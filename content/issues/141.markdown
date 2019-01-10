@@ -6,7 +6,33 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Purely Functional GTK+, Part 1: Hello World](https://haskell-at-work.com/episodes/2019-01-10-purely-functional-gtk-part-1-hello-world.html) by Oskar Wickström
+
+    > In the last episode we explored gi-gtk, a package providing Haskell bindings to the GTK+ library, and noted in the end that the programming style was imperative and object-oriented. In this episode, we'll program in a more functional style using gi-gtk-declarative.
+
+-   [Advent of Schemes](https://functional.works-hub.com/learn/advent-of-schemes-f2821) by Fintan Halpenny
+
+    > On the lookout for the perfect opportunity to add some skill points to my recursion schemes knowledge I decided to tackle the Advent of Code challenges but force myself to use recursion schemes.
+
+-   [Cantor Pairing](https://identicalsnowflake.github.io/Cantor.html)
+
+    > Consider the following data type: `data TrafficLight = R | Y | G` It's straightforward enough to see that if I have a value of type `TrafficLight`, there's only 3 (moral) possibilities.
+
+-   [Parsing and generating ABIF files (DNA chromatograms)](https://www.andrevdm.com/posts/2019-01-09-abif-chromatograms.html) by Andre Van Der Merwe
+
+    > Hyrax ABIF is a Haskell package, that I created at HyraxBio to test our bioinformatics software pipeline. In this post I'll show how the package can be used as a standalone tool as well as looking at how the Haskell code works.
+
+-   [Post-Christmas Advent of Code In Haskell: Day 1](http://www.tpflug.me/2019/01/07/post-christmas-advent-pt1/) by Tobias Pflug
+
+    > Now that Advent Of Code 2018 is over I decided to return to the challenges but instead of just solving them I will try to also explain how I am solving them in Haskell.
+
+-   [Typeable: A long journey to type-safe dynamic type representation (Part 1)](https://medium.com/@hgiasac/typeable-a-long-journey-to-type-safe-dynamic-type-representation-9070eac2cf8b) by Toan Nguyen
+
+    > Typeable is a module in base package. Maybe you already know, the Typeable class is used to create runtime type information for arbitrary types. This post gives you a short story about the innovation of Typeable along with GHC extensions.
+
+-   [Validating Form Data via Applicative Functors](https://k-bx.github.io/articles/Validating-Form-Data-via-Applicative-Functors.html) by Kostiantyn Rybnikov
+
+    > I've had an interesting mini-journey while I was in search of a way to validate input data in Haskell recently, and ended up implementing one myself, and then got an interesting comment on reddit, which I will unwrap in this post.
 
 ## Jobs
 
@@ -28,19 +54,12 @@ undefined
 
 ## In brief
 
--   [Advent of Schemes](https://functional.works-hub.com/learn/advent-of-schemes-f2821)
 -   [Call for Participation: BOB 2019](https://bobkonf.de/2019/en/cfp.html)
--   [Cantor Pairing](https://identicalsnowflake.github.io/Cantor.html)
 -   [Ginger examples](https://blog.rcook.org/blog/2019/ginger-examples/)
 -   [Hakyll + TikZ](https://taeer.bar-yam.me/blog/posts/hakyll-tikz/)
 -   [Hiding code blocks in literate programming blogs](https://blog.poisson.chat/posts/2019-01-09-hiding-literate-haskell-blocks.html)
 -   [hypthon: Python language tools](https://np.reddit.com/r/haskell/comments/addzdp/ann_hypthon_python_language_tools/)
 -   [Onto syntax for exhaustive construction of a data type](https://gist.github.com/chrisdone/05c0b9ca80dfdae469ef23569663f3e5/4aaf7cce23a4e525767acc27c361a74a958de93f)
--   [Parsing and generating ABIF files (DNA chromatograms)](https://www.andrevdm.com/posts/2019-01-09-abif-chromatograms.html)
--   [Post-Christmas Advent of Code In Haskell: Day 1](http://www.tpflug.me/2019/01/07/post-christmas-advent-pt1/)
--   [Purely Functional GTK+, Part 1: Hello World](https://haskell-at-work.com/episodes/2019-01-10-purely-functional-gtk-part-1-hello-world.html)
--   [Typeable: A long journey to type-safe dynamic type representation (Part 1)](https://medium.com/@hgiasac/typeable-a-long-journey-to-type-safe-dynamic-type-representation-9070eac2cf8b)
--   [Validating Form Data via Applicative Functors](https://k-bx.github.io/articles/Validating-Form-Data-via-Applicative-Functors.html)
 -   [What library is the Haskell ecosystem missing?](https://np.reddit.com/r/haskell/comments/adnm7u/what_library_is_the_haskell_ecosystem_missing/)
 -   [Why Haskell I: Simple Data Types!](https://mmhaskell.com/blog/2019/1/7/why-haskell-i-simple-data-types)
 
@@ -69,7 +88,7 @@ an applicative functor capable of seamlessly talking to HTML elements.
 - 2019-01-15 in Chattanooga, TN, USA by Chattanooga Haskell Users Group (CHUG): [Curry in a Hurry](https://www.meetup.com/chaskell/events/257587940/)
 - 2019-01-15 in Minneapolis, USA by HaskellMN: [HaskellMN Monthly Meetup](https://www.meetup.com/HaskellMN/events/ndtxfpyzcbtb/)
 - 2019-01-16 in Berkeley, CA by Code Self Study: [Open Programming Session (Wednesday, Berkeley)](https://www.meetup.com/codeselfstudy/events/tzgvnqyzcbvb/)
-- 2019-01-16 in Vancouver, BC, Canada by Vancouver Functional Programmers: [Haskell Lunch Study Group • Spring '18 Cohort](https://www.meetup.com/Vancouver-Functional-Programmers/events/clglhqyzcbvb/)
+- 2019-01-16 in Vancouver, BC, Canada by Vancouver Functional Programmers: [Haskell Lunch Study Group • Spring '18 Cohort](https://www.meetup.com/Vancouver-Functional-Programmers/events/clglhqyzcbvb/)
 - 2019-01-16 in Austin, TX, USA by Austin Haskell Users Group: [Haskell Beginner-Friendly Lab](https://www.meetup.com/ATX-Haskell/events/brldppyzcbvb/)
 - 2019-01-16 in Houston, TX, USA by Houston Functional Programmers: [Strongly Typed Pure Functional Programming in Scala](https://www.meetup.com/Houston-Functional-Programmers/events/ptkxllyzcbvb/)
 - 2019-01-16 in Bellevue, WA, USA by SeaLang: [The Julia Programming Language](https://www.meetup.com/SeaLang/events/255872067/)
