@@ -42,7 +42,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [suavemente](https://github.com/isovector/suavemente/tree/67df8caa46f29c4e539895c76641014362c48d3e),
+an applicative functor capable of seamlessly talking to HTML elements.
 
 ## Call for participation
 
