@@ -38,6 +38,7 @@ undefined
 -   [Onto syntax for exhaustive construction of a data type](https://gist.github.com/chrisdone/05c0b9ca80dfdae469ef23569663f3e5/4aaf7cce23a4e525767acc27c361a74a958de93f)
 -   [Parsing and generating ABIF files (DNA chromatograms)](https://www.andrevdm.com/posts/2019-01-09-abif-chromatograms.html)
 -   [Post-Christmas Advent of Code In Haskell: Day 1](http://www.tpflug.me/2019/01/07/post-christmas-advent-pt1/)
+-   [Purely Functional GTK+, Part 1: Hello World](https://haskell-at-work.com/episodes/2019-01-10-purely-functional-gtk-part-1-hello-world.html)
 -   [Typeable: A long journey to type-safe dynamic type representation (Part 1)](https://medium.com/@hgiasac/typeable-a-long-journey-to-type-safe-dynamic-type-representation-9070eac2cf8b)
 -   [Validating Form Data via Applicative Functors](https://k-bx.github.io/articles/Validating-Form-Data-via-Applicative-Functors.html)
 -   [What library is the Haskell ecosystem missing?](https://np.reddit.com/r/haskell/comments/adnm7u/what_library_is_the_haskell_ecosystem_missing/)
