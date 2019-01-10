@@ -31,7 +31,9 @@ undefined
 -   [Advent of Schemes](https://functional.works-hub.com/learn/advent-of-schemes-f2821)
 -   [Call for Participation: BOB 2019](https://bobkonf.de/2019/en/cfp.html)
 -   [Cantor Pairing](https://identicalsnowflake.github.io/Cantor.html)
+-   [Ginger examples](https://blog.rcook.org/blog/2019/ginger-examples/)
 -   [Hakyll + TikZ](https://taeer.bar-yam.me/blog/posts/hakyll-tikz/)
+-   [Hiding code blocks in literate programming blogs](https://blog.poisson.chat/posts/2019-01-09-hiding-literate-haskell-blocks.html)
 -   [hypthon: Python language tools](https://np.reddit.com/r/haskell/comments/addzdp/ann_hypthon_python_language_tools/)
 -   [Onto syntax for exhaustive construction of a data type](https://gist.github.com/chrisdone/05c0b9ca80dfdae469ef23569663f3e5/4aaf7cce23a4e525767acc27c361a74a958de93f)
 -   [Parsing and generating ABIF files (DNA chromatograms)](https://www.andrevdm.com/posts/2019-01-09-abif-chromatograms.html)
@@ -39,6 +41,7 @@ undefined
 -   [Typeable: A long journey to type-safe dynamic type representation (Part 1)](https://medium.com/@hgiasac/typeable-a-long-journey-to-type-safe-dynamic-type-representation-9070eac2cf8b)
 -   [Validating Form Data via Applicative Functors](https://k-bx.github.io/articles/Validating-Form-Data-via-Applicative-Functors.html)
 -   [What library is the Haskell ecosystem missing?](https://np.reddit.com/r/haskell/comments/adnm7u/what_library_is_the_haskell_ecosystem_missing/)
+-   [Why Haskell I: Simple Data Types!](https://mmhaskell.com/blog/2019/1/7/why-haskell-i-simple-data-types)
 
 ## Package of the week
 
