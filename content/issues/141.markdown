@@ -22,7 +22,7 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [hledger: print-unique should support query arguments](https://github.com/simonmichael/hledger/issues/943)
 
 ## Events
 
