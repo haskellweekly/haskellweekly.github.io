@@ -14,6 +14,18 @@ undefined
 
     > Galois is looking for Software Engineers/Researchers and Project Managers! We collaborate with organizations like NASA, DARPA, and Amazon Web Services to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, binary analysis, cryptographic algorithms, domain specific languages, programming languages theory, abstract interpretation, type theory, formal verification and software correctness, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome (see <https://lifeatgalois.com>).
 
+-   [Senior Backend Engineer at Freckle in San Francisco](https://freckle.workable.com/j/463B843754)
+
+    > We're an agile and lean small team of engineers, teachers and product people working on solving important problems in education. We hyper-focus on speed, communication and prioritizing what matters to our millions of users.
+
+-   [Senior Haskell Engineer at Hasura in Bangalore](https://hasura.io/careers/haskell-developer)
+
+    > Hasura.io is hiring senior Haskell developers. We build tools for developers to lessen the effort that goes into building backends for applications. One of our core products is graphql-engine which gives the developer a realtime GraphQL backend on a Postgres database.
+
+-   [PhD Student at University of Nottingham](https://np.reddit.com/r/haskell/comments/adiuvt/functional_programming_phd_studentships_in/)
+
+    > I'm looking to recruit an excellent new PhD student to come and work with me in the Functional Programming Lab in Nottingham.
+
 ## In brief
 
 undefined
