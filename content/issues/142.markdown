@@ -6,6 +6,10 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
+-   [Real World Halogen](https://thomashoneyman.com/guides/real-world-halogen/)
+
+    > This guide demonstrates how to build a real world single-page application in PureScript and its most popular framework, Halogen. It comes with over 2,000 lines of commented code so you can see exactly how the ideas presented here translate to idiomatic PureScript.
+
 -   [f(by) 2019 conference](https://fby.by)
 
     > If you are in Eastern Europe, do not miss 5th annual f(by) conference on January 26 in Minsk. This year Haskell talks are given by Vitaly Bragilevskyi, Christoph Hegemann, Andrew Lelechenko. In addition the keynote by Venkat Subramaniam, and many other FP talks. Belarus is visa free for 87 countries. If you cannot make it to Belarus, submit your email to get videos, which are free.
