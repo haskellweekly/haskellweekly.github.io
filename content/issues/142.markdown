@@ -20,6 +20,30 @@ This is a weekly summary of what's going on in its community.
 
     > Galois is looking for Software Engineers/Researchers and Project Managers! We collaborate with organizations like NASA, DARPA, and Amazon Web Services to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, binary analysis, cryptographic algorithms, domain specific languages, programming languages theory, abstract interpretation, type theory, formal verification and software correctness, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome (see <https://lifeatgalois.com>).
 
+-   [DevOps Engineer at IOHK](https://iohk.io/careers/#op-291346-devops-engineer-nix-nixops-opensource-functional-languages)
+
+    > We are looking for an experienced DevOps Engineer to join our team. As part of our DevOps team, you will work with geographically diverse experts and work closely with the Research and Development teams to ensure high-quality, stable environments for our customers.
+
+-   [Software Engineer at Oscoin in Berlin](http://oscoin.io/jobs.html)
+
+    > At Monadic, the team behind oscoin, we're hiring our first engineers. We're looking for experienced candidates who are well versed in functional programming and distributed systems.
+
+-   [Haskell Platform Engineer at PieSync in Ghent](https://np.reddit.com/r/haskell/comments/agawzz/job_haskell_platform_engineer_at_piesync_ghent/)
+
+    > As Platform Engineer you are working on our platform, which powers a seamless, real-time 2-way sync solution. You will implement complex new features, improve the robustness and scalability of our platform and work on analysis and monitoring tools.
+
+-   [Haskell Programmer at MasterWorld in Houston](https://www.linkedin.com/jobs/view/haskell-freeswitch-programmer-at-masterword-services-1069891225/)
+
+    > Masterword is seeking an experienced Haskell programmer to help maintain and develop several of our inhouse systems. The main focus is on developing a service layer that will control freeswitch based telephony and video communication platform.
+
+-   [Haskell Developer at Soostone](https://soostone-inc.workable.com/jobs/678589)
+
+    > Soostone is looking to hire for engineering positions in our Haskell development and operations team.
+
+-   [Compiler Engineer at Groq in Portland](https://functional.works-hub.com/jobs/compiler-engineer-in-portland-united-states-of-america-cdfa9)
+
+    > Groq is creating the next generation AI chip. Our software team is looking for exceptional compiler experts to help us create the software on the chip.
+
 ## In brief
 
 undefined
