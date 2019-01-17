@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [f(by) 2019 conference](https://fby.by)
+
+    > If you are in Eastern Europe, do not miss 5th annual f(by) conference on January 26 in Minsk. This year Haskell talks are given by Vitaly Bragilevskyi, Christoph Hegemann, Andrew Lelechenko. In addition the keynote by Venkat Subramaniam, and many other FP talks. Belarus is visa free for 87 countries. If you cannot make it to Belarus, submit your email to get videos, which are free.
 
 ## Jobs
 
