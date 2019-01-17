@@ -64,7 +64,7 @@ This is a weekly summary of what's going on in its community.
 
     > As Platform Engineer you are working on our platform, which powers a seamless, real-time 2-way sync solution. You will implement complex new features, improve the robustness and scalability of our platform and work on analysis and monitoring tools.
 
--   [Haskell Programmer at MasterWorld in Houston](https://www.linkedin.com/jobs/view/haskell-freeswitch-programmer-at-masterword-services-1069891225/)
+-   [Haskell Programmer at Masterword in Houston](https://www.linkedin.com/jobs/view/haskell-freeswitch-programmer-at-masterword-services-1069891225/)
 
     > Masterword is seeking an experienced Haskell programmer to help maintain and develop several of our inhouse systems. The main focus is on developing a service layer that will control freeswitch based telephony and video communication platform.
 
