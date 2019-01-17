@@ -133,6 +133,7 @@ This is a weekly summary of what's going on in its community.
 
 - 2019-01-22 in EC2A 3JL, United Kingdom by London Type-Driven Development: [The Little Typer Study Group - Session 4](https://www.meetup.com/London-TyDD/events/258044354/)
 - 2019-01-22 in Bristol, United Kingdom by CodeHub Bristol: [Hack Night](https://www.meetup.com/CodeHub-Bristol/events/vnjrpqyzcbdc/)
+- 2019-01-23 in Bucharest, Romania by Bucharest FP: [The Curry-Howard-Lambek Correspondence](https://www.meetup.com/bucharestfp/events/257740386/)
 - 2019-01-23 in Berlin, Germany by Berlin Haskell Users Group: [Haskell Wednesday](https://www.meetup.com/berlinhug/events/pvpwqpyzcbfc/)
 - 2019-01-23 in Leeds, United Kingdom by Code & Coffee (Leeds): [Code & Coffee](https://www.meetup.com/Code-Coffee-Leeds/events/lbrrtlyzcbfc/)
 - 2019-01-23 in London EC2, United Kingdom by Skills Matter - X Matters Series - Developer Events: [Ops Matters with Gareth Rushgrove](https://www.meetup.com/skillsmatter/events/257655696/)
