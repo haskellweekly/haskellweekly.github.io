@@ -68,9 +68,12 @@ This is a weekly summary of what's going on in its community.
 -   [Underscores and request parsing](https://typeclasses.com/news/2019-01-parsing-and-holes)
 -   [Why Haskell II: Sum Types](https://mmhaskell.com/blog/2019/1/14/why-haskell-ii-sum-types)
 
-## Package of the week
+## Packages of the week
 
-undefined
+-   [fused-effects-lens: Lens combinators for fused-effects](https://github.com/patrickt/fused-effects-lens/tree/98c74db1dc2826677012b1d8b536655d025cec2a)
+-   [graph-seq: An EDSL for logical search over arbitrary spaces](https://github.com/JeffreyBenjaminBrown/rslt-haskell/tree/master/seq-prog)
+-   [Grids: Arbitrary dimension type-safe grids](https://github.com/ChrisPenner/grids/tree/ccb6040ad98ddc8d48a887c4bebd67ae84823fcb)
+-   [hedgehog-classes: Hedgehog will eat your typeclass bugs](https://github.com/chessai/hedgehog-classes/tree/266f4fc0f89ce979fd94d8d3a845522731442b99)
 
 ## Call for participation
 
