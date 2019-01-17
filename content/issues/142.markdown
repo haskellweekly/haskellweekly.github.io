@@ -84,6 +84,7 @@ This is a weekly summary of what's going on in its community.
 -   [Haskell I/O and XPath](https://blog.adamretter.org.uk/haskell-io-and-xpath/)
 -   [Haskell, Nix and Vim: Getting started](http://www.tpflug.me/2019/01/14/haskell-nix-vim/)
 -   [JavaScript to Elm: Getting Haskell I/O](https://jstoelm.com/episodes/haskell-io)
+-   [LeanCheck v0.9.0: Enumerative property testing](https://np.reddit.com/r/haskell/comments/agswxe/ann_leancheck_v090_enumerative_property_testing/)
 -   [Lux --- The perfect mix of Haskell and Clojure](https://jaxenter.com/lux-jvm-series-133693.html)
 -   [New Haskell.org Committee Member](https://mail.haskell.org/pipermail/haskell-cafe/2019-January/130587.html)
 -   [PureScript version 0.12.2](https://github.com/purescript/purescript/releases/tag/v0.12.2)
