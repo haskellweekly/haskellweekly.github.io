@@ -47,7 +47,8 @@ This week's package of the week is [Typograffiti](https://hackage.haskell.org/pa
 
 ## Call for participation
 
-undefined
+-   [gi-gtk-declarative: Document need for -threaded GHC option](https://github.com/owickstrom/gi-gtk-declarative/issues/40)
+-   [stack: (Code ?) improvement: always use verified downloads](https://github.com/commercialhaskell/stack/issues/4524)
 
 ## Events
 
