@@ -43,6 +43,7 @@ undefined
 - 2019-01-30 in Berkeley, CA by East Bay Functional Programming Study Group: [Open Programming Session (Wednesday)](https://www.meetup.com/eastbayfunctionalprogramming/events/wmzxpqyzcbnc/)
 - 2019-01-30 in Portland, OR, USA by Portland Functional Programming Study Group: [PDX Func Theory Track - Logic and Proof](https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/mpwwbqyzcbfc/)
 - 2019-01-31 in Chicago, IL, USA by The Project Euler Sprint: [Project Euler Sprint](https://www.meetup.com/Project-Euler-Sprint/events/ngwzxmyzcbpc/)
+- 2019-02-13 in Toronto, ON, Canada by Toronto Haskell Meetup: [Haskell Meetup: Lightning Talks and Hack Night](https://www.meetup.com/meetup-group-evRITRtT/events/258082340/)
 
 ### Europe
 
