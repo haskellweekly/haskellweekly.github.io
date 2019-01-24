@@ -109,7 +109,7 @@ This week's package of the week is [Typograffiti](https://hackage.haskell.org/pa
 - 2019-01-31 in Zürich, Switzerland by HaskellerZ: [Michal Terepeta - Implementing Immutable Vectors in Haskell](https://www.meetup.com/HaskellerZ/events/257937027/)
 - 2019-01-31 in Belgrade, Serbia by Elixir |> Belgrade: [Scaling Your Elixir Business logic with DDD](https://www.meetup.com/elixirbelgrade/events/257139789/)
 
-### Central America
+### South America
 
 - 2019-01-30 in Quito, Ecuador by Quito Lambda: [Introducción a ReasonML y Reason-React](https://www.meetup.com/Quito-Lambda-Meetup/events/mscxlpyzcbfc/)
 
