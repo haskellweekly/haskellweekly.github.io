@@ -18,7 +18,15 @@ This is a weekly summary of what's going on in its community.
 
 ## In brief
 
-undefined
+-   [A tutorial in record manipulation](https://gist.github.com/i-am-tom/479478d7ae163249b3092b9aaa668fc8/31490a3d84758f6a721823ad3972bff8c5094f12)
+-   [An in-depth look at `quickcheck-state-machine`](https://www.well-typed.com/blog/2019/01/qsm-in-depth/)
+-   [Building a Blog Part 5: Continuous integration with CircleCI](https://gaumala.com/posts/2019-01-22-continuous-integration-with-circle-ci.html)
+-   [Dhall 2018-2019 Survey](https://docs.google.com/forms/d/e/1FAIpQLSfQApsRF-lv6UXE1IHCLiABHrN9VN4NO6Tz4h61mKSiw76pBQ/viewform)
+-   [Post-Christmas Advent of Code In Haskell - Day 2](http://www.tpflug.me/2019/01/18/post-christmas-advent-pt2/)
+-   [Purely Functional GTK+, Part 2: TodoMVC](https://haskell-at-work.com/episodes/2019-01-19-purely-functional-gtk-part-2-todo-mvc.html)
+-   [State of WebGHC, January 2019](https://webghc.github.io/2019/01/18/state-of-webghc-january-2019.html)
+-   [Towards Interactive Data Science in Haskell: Haskell in JupyterLab](https://www.tweag.io/posts/2019-01-23-jupyterlab-ihaskell.html)
+-   [When Rust is safer than Haskell](https://www.fpcomplete.com/blog/when-rust-is-safer-than-haskell)
 
 ## Package of the week
 
