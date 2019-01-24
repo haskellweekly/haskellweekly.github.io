@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Hakyll Pt. 3 – Generating RSS and Atom XML Feeds](https://robertwpearce.com/hakyll-pt-3-generating-rss-and-atom-xml-feeds.html)
+
+    > We dove in to generating Atom & RSS XML feeds with hakyll, uncovered a nice refactor opportunity via `feedCompiler`, learned how to validate our feeds and ultimately learned about how a seemingly harmless `updated` date could prevent us from having a totally valid feed!
 
 ## Jobs
 
