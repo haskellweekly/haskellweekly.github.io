@@ -30,7 +30,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Typograffiti](https://hackage.haskell.org/package/typograffiti-0.1.0.2),
+ text rendering library that uses OpenGL and freetype2 to render TTF font strings quickly.
 
 ## Call for participation
 
