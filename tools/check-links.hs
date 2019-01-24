@@ -1,15 +1,5 @@
 #!/usr/bin/env stack
-{- stack --resolver lts-12.0 --install-ghc script
-  --package bytestring
-  --package cmark
-  --package containers
-  --package directory
-  --package filepath
-  --package http-client
-  --package http-client-tls
-  --package http-types
-  --package network-uri
-  --package text -}
+-- stack --resolver lts-13.0 script
 {-# OPTIONS_GHC -Werror -Weverything -Wno-implicit-prelude -Wno-unsafe #-}
 module Main
   ( main

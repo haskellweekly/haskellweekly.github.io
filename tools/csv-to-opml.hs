@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-12.0 script
+-- stack --resolver lts-13.0 script
 {-# OPTIONS_GHC -Weverything -Wno-implicit-prelude -Wno-missing-exported-signatures -Wno-safe #-}
 
 -- | This script is meant to convert a CSV file of Haskell Weekly authors into
