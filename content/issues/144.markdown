@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Hakyll Pt. 4 – Copying Static Files For Your Build](https://robertwpearce.com/hakyll-pt-4-copying-static-files-for-your-build.html)
+
+    > This short hakyll tutorial will show you a simple way to copy static files over to your build folder.
 
 ## Jobs
 
