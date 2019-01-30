@@ -24,7 +24,7 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [zlib: no non-internal way to catch exception from decompress?](https://github.com/haskell/zlib/issues/9)
 
 ## Events
 
