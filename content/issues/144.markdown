@@ -28,4 +28,6 @@ undefined
 
 ## Events
 
-undefined
+### Europe
+
+- 2019-02-04 in Zagreb, Croatia by the Lambda Zagreb Meetup Group: [Terminating and Productive Functions](https://www.meetup.com/lambdazagreb/events/257933910/)
