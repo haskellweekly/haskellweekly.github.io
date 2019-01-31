@@ -31,7 +31,7 @@ main = do
 
 toOutline :: String -> Maybe String
 toOutline line = case breakOn ',' line of
-  name : site : feed : _ -> if null feed
+  name : site : _ : feed : _ -> if null feed
     then Nothing
     else Just $ mconcat
       [ "<outline type=\"rss\" text=\""
