@@ -6,9 +6,29 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
--   [Hakyll Pt. 4 – Copying Static Files For Your Build](https://robertwpearce.com/hakyll-pt-4-copying-static-files-for-your-build.html)
+-   [Hakyll Pt. 4 --- Copying Static Files For Your Build](https://robertwpearce.com/hakyll-pt-4-copying-static-files-for-your-build.html) by Robert Pearce
 
     > This short hakyll tutorial will show you a simple way to copy static files over to your build folder.
+
+-   [Announcing Floskell](https://memfrob.de/posts/announcing-floskell/) by Enno Cramer
+
+    > Floskell is a new Haskell source code formatter. Floskell tries to be flexible, meaning that the user should be able to tune the output to match their personal style preference.
+
+-   [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell) by Chris Done
+
+    > Let's talk about exceptions. They're not perfect in Haskell. They're not perfect in any language, really. We're always making adjustments to what we think is the best way to handle exceptional circumstances.
+
+-   [Fractals and Monads --- Part 2](https://dkwise.wordpress.com/2019/01/30/fractals-and-monads-part-2/) by Derek Wise
+
+    > Last time I discussed the power set monad and how it shows up in certain methods of building fractals. This time I'll go a bit further, and also explain some Haskell code I actually use to generate fractal pictures.
+
+-   [HLint Unused Extension Hints](https://neilmitchell.blogspot.com/2019/01/hlint-unused-extension-hints.html) by Neil Nitchell
+
+    > HLint has detected unused `LANGUAGE` pragmas for a while - where you enable an extension (e.g. `{-# LANGUAGE EmptyDataDecls #-}`) but don't use it. HLint v2.1.13 includes some improvements from Yair and myself making these hints even more powerful.
+
+-   [Visualizing Prequel Meme Prefix Tries with Recursion Schemes](https://blog.jle.im/entry/tries-with-recursion-schemes.html) by Justin Le
+
+    > Not too long ago, I was browsing the prequel memes subreddit when I noticed that a fad was in progress constructing tries based on quotes as keys indexing stills from the movie corresponding to those quotes.
 
 ## Jobs
 
@@ -23,18 +43,13 @@ This is a weekly summary of what's going on in its community.
 ## In brief
 
 -   [About BusConf](https://www.tpflug.me/2019/01/28/about-busconf/)
--   [Announcing Floskell](https://memfrob.de/posts/announcing-floskell/)
 -   [Applicative Bidirectional Programming and Automatic Differentiation](http://www.philipzucker.com/bidirectional-applicative-programming-and-automatic-differentation/)
 -   [c-mix: Demo of C project with Haskell functions](https://github.com/begriffs/c-mix/tree/d509128d6d1a54d9c6a35b7baf8f52759ff42ad9)
 -   [Compositional Typing for ML](https://hydraz.semi.works/posts/2019-01-28.html)
--   [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell)
--   [Fractals and Monads – Part 2](https://dkwise.wordpress.com/2019/01/30/fractals-and-monads-part-2/)
 -   [Haskell training: 101 and 102](https://github.com/google/haskell-trainings/tree/a14f9f922b5cc46bc04b96203c688ddbe5ad1fc7)
 -   [hermetic: Strategy game](https://github.com/seagreen/hermetic/tree/727381714c956a385c3968ea2a84ce9ecbf8c2d9)
--   [HLint Unused Extension Hints](https://neilmitchell.blogspot.com/2019/01/hlint-unused-extension-hints.html)
 -   [Mismatched global packages](https://www.snoyman.com/blog/2019/01/mismatched-global-packages)
 -   [Towards a simple theorem prover](https://medium.com/@maiavictor/towards-a-simple-theorem-prover-5005a1e66a6f)
--   [Visualizing Prequel Meme Prefix Tries with Recursion Schemes](https://blog.jle.im/entry/tries-with-recursion-schemes.html)
 -   [Why Haskell IV: Typeclasses vs. Inheritance](https://mmhaskell.com/blog/2019/1/28/why-haskell-iv-typeclasses-vs-inheritance)
 -   [You should try Hadrian](https://blogs.ncl.ac.uk/andreymokhov/you-should-try-hadrian/)
 
