@@ -16,6 +16,10 @@ This is a weekly summary of what's going on in its community.
 
     > Galois is looking for Software Engineers/Researchers and Project Managers! We collaborate with organizations like NASA, DARPA, and Amazon Web Services to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, binary analysis, cryptographic algorithms, domain specific languages, programming languages theory, abstract interpretation, type theory, formal verification and software correctness, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome (see <https://lifeatgalois.com>).
 
+-   [Senior Haskell Engineer at Habito in London](https://functional.works-hub.com/jobs/senior-haskell-engineer-london-united-kingdom-98704)
+
+    > We are looking for a full-time senior engineer to join our team of full-stack engineers. Our core development values are strong, static typing and correctness, rigorous automation and everyone having a say.
+
 ## In brief
 
 -   [About BusConf](https://www.tpflug.me/2019/01/28/about-busconf/)
