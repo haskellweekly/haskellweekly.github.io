@@ -18,7 +18,21 @@ This is a weekly summary of what's going on in its community.
 
 ## In brief
 
-undefined
+-   [About BusConf](https://www.tpflug.me/2019/01/28/about-busconf/)
+-   [Announcing Floskell](https://memfrob.de/posts/announcing-floskell/)
+-   [Applicative Bidirectional Programming and Automatic Differentiation](http://www.philipzucker.com/bidirectional-applicative-programming-and-automatic-differentation/)
+-   [c-mix: Demo of C project with Haskell functions](https://github.com/begriffs/c-mix/tree/d509128d6d1a54d9c6a35b7baf8f52759ff42ad9)
+-   [Compositional Typing for ML](https://hydraz.semi.works/posts/2019-01-28.html)
+-   [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell)
+-   [Fractals and Monads – Part 2](https://dkwise.wordpress.com/2019/01/30/fractals-and-monads-part-2/)
+-   [Haskell training: 101 and 102](https://github.com/google/haskell-trainings/tree/a14f9f922b5cc46bc04b96203c688ddbe5ad1fc7)
+-   [hermetic: Strategy game](https://github.com/seagreen/hermetic/tree/727381714c956a385c3968ea2a84ce9ecbf8c2d9)
+-   [HLint Unused Extension Hints](https://neilmitchell.blogspot.com/2019/01/hlint-unused-extension-hints.html)
+-   [Mismatched global packages](https://www.snoyman.com/blog/2019/01/mismatched-global-packages)
+-   [Towards a simple theorem prover](https://medium.com/@maiavictor/towards-a-simple-theorem-prover-5005a1e66a6f)
+-   [Visualizing Prequel Meme Prefix Tries with Recursion Schemes](https://blog.jle.im/entry/tries-with-recursion-schemes.html)
+-   [Why Haskell IV: Typeclasses vs. Inheritance](https://mmhaskell.com/blog/2019/1/28/why-haskell-iv-typeclasses-vs-inheritance)
+-   [You should try Hadrian](https://blogs.ncl.ac.uk/andreymokhov/you-should-try-hadrian/)
 
 ## Package of the week
 
