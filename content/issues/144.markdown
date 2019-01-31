@@ -22,7 +22,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Silently](https://hackage.haskell.org/package/silently-1.2.5),
+a library that allows you to prevent of capture writing to STDOUT and other handles.
 
 ## Call for participation
 
