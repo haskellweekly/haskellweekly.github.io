@@ -45,6 +45,7 @@ a library that allows you to prevent of capture writing to STDOUT and other hand
 
 ## Call for participation
 
+-   [slack-web: Allow http-client 0.6](https://github.com/jpvillaisaza/slack-web/issues/72)
 -   [zlib: no non-internal way to catch exception from decompress?](https://github.com/haskell/zlib/issues/9)
 
 ## Events
