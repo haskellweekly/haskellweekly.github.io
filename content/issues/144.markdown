@@ -22,7 +22,7 @@ This is a weekly summary of what's going on in its community.
 
     > Last time I discussed the power set monad and how it shows up in certain methods of building fractals. This time I'll go a bit further, and also explain some Haskell code I actually use to generate fractal pictures.
 
--   [HLint Unused Extension Hints](https://neilmitchell.blogspot.com/2019/01/hlint-unused-extension-hints.html) by Neil Nitchell
+-   [HLint Unused Extension Hints](https://neilmitchell.blogspot.com/2019/01/hlint-unused-extension-hints.html) by Neil Mitchell
 
     > HLint has detected unused `LANGUAGE` pragmas for a while - where you enable an extension (e.g. `{-# LANGUAGE EmptyDataDecls #-}`) but don't use it. HLint v2.1.13 includes some improvements from Yair and myself making these hints even more powerful.
 
