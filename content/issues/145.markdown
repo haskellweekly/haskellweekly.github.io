@@ -15,6 +15,27 @@ undefined
 
 ## In brief
 
+-   [Alternative `newtype` wrappers for `oset`](https://blog.rcook.org/blog/2019/02-newtype-wrappers/)
+-   [Announcing `ghc-lib`](https://neilmitchell.blogspot.com/2019/02/announcing-ghc-lib.html)
+-   [Asterius: A Haskell to WebAssembly compiler](https://github.com/tweag/asterius/tree/43b66625330ce1d96797fe7bee045c9c3165b9ec)
+-   [Categories with Monadic Effects and State Machines](https://coot.me/posts/categories-with-monadic-effects.html)
+-   [CodeWorld Update — February, 2019](https://medium.com/@cdsmithus/codeworld-update-february-2019-450902b1cd4e)
+-   [Comparing nub implementations](https://andreaspk.github.io/posts/2019-02-01-nub-benchmarks.html)
+-   [Coupons for *Finding Success*](https://typeclasses.com/news/2019-02-finding-success-and-failure)
+-   [Curry-Howard Correspondence Example](https://cvlad.info/curry-howard/)
+-   [Expanded-Scope Calculus of Constructions](https://github.com/MaiaVictor/ESCoC/tree/fbd22beb7a55ebf685bdde33a7eef3105973168a)
+-   [Haskell bindings for the StarCraft II API](https://gitlab.com/spacekitteh/sc2hs/tree/377e5b3a52f8170f40afecbe8885ae454c302dd5#readme)
+-   [Haskell Weekly in 2018](https://taylor.fausak.me/2019/02/03/haskell-weekly-in-2018/)
+-   [Having your cake and eating it](https://medium.com/permutive/having-your-cake-and-eating-it-9f462bf3f908)
+-   [Implementing Nested Quotations](https://mpickering.github.io/posts/2019-01-31-nested-brackets.html)
+-   [Implementing Union in Esqueleto I](https://www.parsonsmatt.org/2019/01/31/esqueleto_union_i.html)
+-   [Monthly Hask Anything (February 2019)](https://www.reddit.com/r/haskell/comments/alrm5v/monthly_hask_anything_february_2019/)
+-   [Open Sourcing Haskell Bazaar](https://www.reddit.com/r/haskell/comments/an2slo/open_sourcing_haskell_bazaar_explore_haskell_and/)
+-   [Paramorphisms fusion for algebraic graphs](https://blog.nyarlathotep.one/2019/02/paramorphisms-fusion-for-algebraic-graphs/)
+-   [Proxy arguments in class methods: a comparative analysis](https://ryanglscott.github.io/2019/02/06/proxy-arguments-in-class-methods/)
+-   [Struggling With My Drinker's Problem](https://k-bx.github.io/articles/drinker.html)
+-   [Why Haskell V: Type Families](https://mmhaskell.com/blog/2019/2/4/why-haskell-v-type-families)
+
 undefined
 
 ## Package of the week
