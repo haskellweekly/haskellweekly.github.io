@@ -80,6 +80,7 @@ a wrapper around libtelnet, a C library for handling Telnet streams.
 - 2019-02-13 in Prague, Czech Republic by Prague Lambda Meetup: [Clojure Wednesday](https://www.meetup.com/Lambda-Meetup-Group/events/258696043/)
 - 2019-02-13 in Budapest, Hungary by Budapest Haskell User Group: [Haskell Book reading group (26th Ed.)](https://www.meetup.com/Bp-HUG/events/257920419/)
 - 2019-02-13 in cluj-napoca, Romania by Cluj.fp: [Cofree Comonads](https://www.meetup.com/Cluj-fp/events/258724870/)
+- 2019-02-26 in Copenhagen, Denmark by Mødegruppe for F#unktionelle Københavnere: ["Property-Based Testing The Ugly Parts" by Oskar Wickström](https://www.meetup.com/MoedegruppeFunktionelleKoebenhavnere/events/rqbcdlyzdbjc/)
 
 ### South America
 
