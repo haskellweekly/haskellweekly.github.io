@@ -18,7 +18,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [libtelnet](https://hackage.haskell.org/package/libtelnet-0.1.0.0),
+a wrapper around libtelnet, a C library for handling Telnet streams.
 
 ## Call for participation
 
