@@ -45,7 +45,9 @@ a wrapper around libtelnet, a C library for handling Telnet streams.
 
 ## Call for participation
 
-undefined
+-   [purebred: tests: Timing sensitive issue with 'manage tags on mails' test](https://github.com/purebred-mua/purebred/issues/251)
+-   [servant: Lenient combinator infers to "Either String"](https://github.com/haskell-servant/servant/issues/1118)
+-   [stack: Redirecting output of `--exec` command](https://github.com/commercialhaskell/stack/issues/4556)
 
 ## Events
 
