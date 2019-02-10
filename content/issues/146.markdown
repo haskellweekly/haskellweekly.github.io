@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Isomorphism and Embedding](https://dimjasevic.net/marko/2019/02/09/isomorphism-and-embedding/) by Marko Dimjašević
+
+    > To me as a programmer, to write mathematical proofs that are mechanically checked by a computer feels empowering. To have these proofs as executable programs feels even more empowering. Therefore, our proofs have a computational aspect and vice-versa: our programs have a logical aspect.
 
 ## Jobs
 
