@@ -17,7 +17,28 @@ This is a weekly summary of what's going on in its community.
     > like FP, interfacing with hardware, and solving problems in detection, tracking, and autonomous vehicle control,
     > send a note to <travis@anduril.com>
 
-undefined
+## In brief
+
+-   [Applied Category Theory 2019](https://johncarlosbaez.wordpress.com/2019/02/07/applied-category-theory-2019-2/)
+-   [Bank kata in Haskell - dealing with state](https://codurance.com/2019/02/11/bank-kata-in-haskell-state/)
+-   [Call for new Stack issue triager](https://www.snoyman.com/blog/2019/02/call-for-new-issue-triager)
+-   [Experiment: ghc bug bounty](https://np.reddit.com/r/haskell/comments/apavqf/experiment_ghc_bug_bounty/)
+-   [Finding roots of polynomials in Haskell?](https://byorgey.wordpress.com/2019/02/13/finding-roots-of-polynomials-in-haskell/)
+-   [Fixing GHC's graph register allocator](https://andreaspk.github.io/posts/2019-02-10-Fixing%20the%20the%20graph%20register%20allocator.html)
+-   [Freer Monads, More Better Programs](https://reasonablypolymorphic.com/blog/freer-monads/)
+-   [GoogleEmail2 Deprecation](https://pbrisbin.com/posts/googleemail2_deprecation/)
+-   [Haskell command-line utility using GHC generics](http://www.haskellforall.com/2019/02/haskell-command-line-utility-using-ghc.html)
+-   [Haskell Data Types Review!](https://mmhaskell.com/blog/2019/2/11/haskell-data-types-review)
+-   [Haskell network library version 3.0](https://kazu-yamamoto.hatenablog.jp/entry/2019/02/08/162027)
+-   [Lambdabot | Slack App Directory](https://slack.com/apps/ABZ6Y0XM4-lambdabot)
+-   [Masking async tasks in the wild](https://lin-techdet.blogspot.com/2019/02/masking-async-tasks-in-wild.html)
+-   [oset-0.4.0.1 released](https://blog.rcook.org/blog/2019/01-oset-0.4.0.1/)
+-   [Randomization Testing for an SQL Translator](https://www.fpcomplete.com/blog/randomization-testing-for-an-sql-translator)
+-   [Refactoring Haskell: A Case Study](https://vaibhavsagar.com/blog/2019/02/12/refactoring-haskell/index.html)
+-   [sexpr-parser-0.1.1.2 released](https://blog.rcook.org/blog/2019/02-sexpr-parser-0.1.1.2/)
+-   [The ReaderT design pattern or tagless final?](https://magnus.therning.org/posts/2019-02-02-000-the-readert-design-pattern-or-tagless-final-.html)
+-   [The types got you](https://www.tweag.io/posts/2019-02-13-types-got-you.html)
+-   [Type Classes: Deriving](https://typeclasses.com/news/2019-02-deriving-via)
 
 ## Package of the week
 
