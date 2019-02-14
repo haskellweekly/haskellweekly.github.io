@@ -57,11 +57,13 @@ This is a weekly summary of what's going on in its community.
 
 -   [Applied Category Theory 2019](https://johncarlosbaez.wordpress.com/2019/02/07/applied-category-theory-2019-2/)
 -   [Call for new Stack issue triager](https://www.snoyman.com/blog/2019/02/call-for-new-issue-triager)
+-   [Cursors, Part 4: The Textfield cursor](https://cs-syd.eu/posts/2019-02-14-cursors-textfield)
 -   [Experiment: ghc bug bounty](https://np.reddit.com/r/haskell/comments/apavqf/experiment_ghc_bug_bounty/)
 -   [Finding roots of polynomials in Haskell?](https://byorgey.wordpress.com/2019/02/13/finding-roots-of-polynomials-in-haskell/)
 -   [Fixing GHC's graph register allocator](https://andreaspk.github.io/posts/2019-02-10-Fixing%20the%20the%20graph%20register%20allocator.html)
 -   [GoogleEmail2 Deprecation](https://pbrisbin.com/posts/googleemail2_deprecation/)
 -   [Haskell network library version 3.0](https://kazu-yamamoto.hatenablog.jp/entry/2019/02/08/162027)
+-   [IntelliJ-Haskell 1.0.0-beta44](https://plugins.jetbrains.com/plugin/8258-intellij-haskell)
 -   [Lambdabot | Slack App Directory](https://slack.com/apps/ABZ6Y0XM4-lambdabot)
 -   [oset-0.4.0.1 released](https://blog.rcook.org/blog/2019/01-oset-0.4.0.1/)
 -   [sexpr-parser-0.1.1.2 released](https://blog.rcook.org/blog/2019/02-sexpr-parser-0.1.1.2/)
