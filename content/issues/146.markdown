@@ -21,7 +21,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Hadolint](https://github.com/hadolint/hadolint/tree/475ad73d333dee3d68410ceafb2a936ff2a79ba8),
+a smarter Dockerfile linter that helps you build best practice Docker images.
 
 ## Call for participation
 
