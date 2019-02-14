@@ -74,7 +74,7 @@ a smarter Dockerfile linter that helps you build best practice Docker images.
 
 ## Call for participation
 
-undefined
+-   [dunai: Doc: Link to Rhine paper and Rhine project from Readme](https://github.com/ivanperez-keera/dunai/issues/133)
 
 ## Events
 
