@@ -18,7 +18,8 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [`symbols`](https://hackage.haskell.org/package/symbols-0.2.0.1),
+a library that provides utilities for manipulating type-level strings.
 
 ## Call for participation
 
