@@ -10,7 +10,23 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Software engineer at ITProTV in Gainesville](https://www.linkedin.com/jobs/view/1104480045/)
+
+    > ITProTV is disrupting the eLearning world with engaging online training that people actually want to watch. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.
+
+    Taylor Fausak, the editor of Haskell Weekly, is the lead engineer at ITProTV.
+
+-   [Technical communicator at FP Complete](https://np.reddit.com/r/haskell/comments/as01d4/fp_complete_is_hiring_a_technical_communicator/)
+
+    > We hear the same from people trying to adopt DevOps and the other quality engineering techniques we advocate: people don’t know what’s available, whether it’s usable on their own projects, or how to get help. So I’m creating a new job at FP Complete for an articulate developer to focus on outreach and communication.
+
+-   [Haskell developer at Folq in Norway](https://hub.no/jobs/company/folq)
+
+    > We build a platform for matching consultants with customers without slow and expensive intermediates. We love statically typed functional programming, so our main technologies are Elm and Haskell. This enables us to move fast without breaking things.
+
+-   [GHC web backend developer at IOHK](https://iohk.io/careers/#op-302245-ghc-web-backend-developer)
+
+    > We are looking for a talented Haskell compiler engineer to join our growing in-house team.  In this full time, remote work opportunity the candidate will be responsible for designing, implementing, and maintaining existing and emerging backends for the Glasgow Haskell Compiler (GHC) targeting Web platforms, such as JavaScript and WebAssembly.
 
 ## In brief
 
