@@ -30,7 +30,27 @@ undefined
 
 ## In brief
 
-undefined
+-   [A Brief Introduction to the λ-Calculus (Part 1)](https://whatthefunctional.wordpress.com/2019/02/20/a-brief-introduction-to-the-%CE%BB-calculus-part-1/)
+-   [A pure function does no funny business](https://simplicial.io/2019/02/18/pure-function-no-funny-business/)
+-   [A three-stage program you definitely want to write](https://mpickering.github.io/posts/2019-02-14-stage-3.html)
+-   [A Touch of Topological Quantum Computation 3: Categorical Interlude](http://www.philipzucker.com/a-touch-of-topological-computation-3-categorical-interlude/)
+-   [Align, These, and HTTP headers](https://typeclasses.com/news/2019-02-align-these-and-http-headers)
+-   [Build Haskell stuff in your browser](https://2mol.github.io/posts/replit-haskell/)
+-   [C◦mp◦se NYC 2019 CFP](https://www.composeconference.org/2019/cfp/)
+-   [Embedding Haskell in AsciiDoc](https://jmtd.net/log/haskell_asciidoc/)
+-   [Freer doesn’t come for free](https://medium.com/barely-functional/freer-doesnt-come-for-free-c9fade793501)
+-   [Freer Monads: Too Fast, Too Free](https://reasonablypolymorphic.com/blog/too-fast-too-free/)
+-   [Haskell Symposium 2019 CFP](https://icfp19.sigplan.org/home/haskellsymp-2019#Call-for-Papers)
+-   [January Teardown: Bowling](https://badcode.rocks/2019/049/january-teardown-bowling/)
+-   [Kowainik's Haskell Style Guide](https://kowainik.github.io/posts/2019-02-06-style-guide)
+-   [Pirate Roguelike Dev Log #1](https://henningtonko.github.io/Pirate-Roguelike-1/)
+-   [Quadratic `deriving Generic` Compile Times](https://neilmitchell.blogspot.com/2019/02/quadratic-deriving-generic-compile-times.html)
+-   [Shower](https://monadfix.io/shower/)
+-   [Shutting down haskell-lang.org](https://www.snoyman.com/blog/2019/02/shutting-down-haskell-lang)
+-   [stdio - A simple and high-performance IO toolkit for Haskell](http://winterland.me/2019/02/17/stdio-A-simple-and-high-performance-IO%20toolkit-for-Haskell/)
+-   [Towards a better API for I/O](https://medium.com/permutive/towards-a-better-api-for-i-o-35d385060a5c)
+-   [Upgrading My Development Setup!](https://mmhaskell.com/blog/2019/2/18/my-ide-setup)
+-   [Worstsort](https://byorgey.wordpress.com/2019/02/16/worstsort/)
 
 ## Package of the week
 
