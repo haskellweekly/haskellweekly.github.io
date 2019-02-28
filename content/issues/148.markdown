@@ -77,7 +77,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Package of the week
 
-undefined
+This week's package of the week is [Waargonaut](https://hackage.haskell.org/package/waargonaut-0.6.1.0),
+a library for flexible, precise, and efficient JSON decoding/encoding.
 
 ## Call for participation
 
