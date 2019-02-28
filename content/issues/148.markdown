@@ -66,6 +66,7 @@ undefined
 - 2019-02-28 in Tōkyō-to, Japan by Tokyo Scala Developers: [Types, Scala & Haskell!](https://www.meetup.com/Tokyo-Scala-Developers/events/258586177/)
 - 2019-03-04 in Hong Kong Island, Hong Kong by Hong Kong Functional Programming: [Come and meet the IOHK Rust team!](https://www.meetup.com/HK-Functional-programming/events/259326860/)
 - 2019-03-06 in Singapore, Singapore by HASKELL.SG: [March Singapore Haskell Meetup](https://www.meetup.com/HASKELL-SG/events/258491197/)
+- 2019-03-06 in Singapore, Singapore by University of Glasgow: [Functional Programming Day 2019](https://www.facebook.com/UoGSingapore/photos/a.368638043207103/2523953804342172/)
 
 ### Oceania
 
