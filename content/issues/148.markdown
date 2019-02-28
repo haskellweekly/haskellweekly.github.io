@@ -22,7 +22,30 @@ undefined
 
 ## In brief
 
-undefined
+-   [A Brief Introduction to the λ-Calculus (Part 2)](https://whatthefunctional.wordpress.com/2019/02/21/a-brief-introduction-to-the-%CE%BB-calculus-part-2/)
+-   [A Case Study in Dhall for Package Configuration](http://blog.vmchale.com/article/cpkg-announce)
+-   [A Secret Weapon for Startups -- Functional Programming?](https://www.ramanan.com/personal-blog/2019/2/25/functional-programming-and-venture-capital)
+-   [Adding a GHC language extension](https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html)
+-   [An EDSL for hard working IT programmers](https://www.schoolofhaskell.com/user/agocorona/EDSL-for-hard-working-IT-programmers)
+-   [Announcing Aelve Codesearch, an online grep over package repositories](https://forum.aelve.com/t/announcing-aelve-codesearch-an-online-grep-over-package-repositories/44)
+-   [Another IDEa: Haskell and IntelliJ!](https://mmhaskell.com/blog/2019/2/25/another-idea-haskell-and-intellij)
+-   [Creating Blog with Hakyll, Nix and Deploying on Amazon EC2](https://deptype.com/posts/2019-02-21-create-blog-nix-hakyll-aws.html)
+-   [Dead simple Haskell Travis settings for cabal and stack](https://chshersh.github.io/posts/2019-02-25-haskell-travis)
+-   [Dhall Survey Results](http://www.haskellforall.com/2019/02/dhall-survey-results-2019-2019.html)
+-   [Gudni: A Haskell-centric Fast Accurate Rasterizer](https://np.reddit.com/r/haskell/comments/atsngn/gudni_a_haskellcentric_fast_accurate_rasterizer/)
+-   [Haskell Community Discourse](https://discourse.haskell.org)
+-   [Haskell.Org Participating in GSoC 2019](https://summer.haskell.org/news/2019-02-26-accepted-for-gsoc.html)
+-   [Idle Speculation on Lenses and Zippers](https://medium.com/@cdsmithus/idle-speculation-on-lenses-and-zippers-a5d2746678e4)
+-   [Is Haskell really the language of geniuses and academia?](https://habr.com/en/post/441350/)
+-   [Local Capabilities with MTL](https://discourse.haskell.org/t/local-capabilities-with-mtl/231?u=taylorfausak)
+-   [Megaparsec tutorial from IH book](https://markkarpov.com/megaparsec/megaparsec.html)
+-   [Practical Web Development with Haskell](https://www.apress.com/de/book/9781484237380)
+-   [PureScript compiler release v0.12.3](https://discourse.purescript.org/t/purescript-compiler-release-v0-12-3/654)
+-   [QuickCheck, Hedgehog, Validity](https://www.fpcomplete.com/blog/quickcheck-hedgehog-validity)
+-   [Return of the Clocks](https://typeclasses.com/news/2019-02-clocks-again)
+-   [The campaign for my book "Functional Design and Architecture" ](https://np.reddit.com/r/haskell/comments/avaxda/the_campaign_for_my_book_functional_design_and/)
+-   [What the heck is polymorphism?](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
+-   [What’s the right way to QuickCheck floating-point routines?](https://byorgey.wordpress.com/2019/02/24/whats-the-right-way-to-quickcheck-floating-point-routines/)
 
 ## Package of the week
 
