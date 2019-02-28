@@ -10,7 +10,15 @@ undefined
 
 ## Jobs
 
-undefined
+-   [Software engineer at ITProTV in Gainesville](https://www.linkedin.com/jobs/view/1104480045/)
+
+    > ITProTV is disrupting the eLearning world with engaging online training that people actually want to watch. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.
+
+    Taylor Fausak, the editor of Haskell Weekly, is the lead engineer at ITProTV.
+
+-   [Software Developer at VLC in Brisbane](https://vlc.bamboohr.com/jobs/view.php?id=41)
+
+    > VLC is looking for a Software Developer to join its Future Transport Lab. In this position, you will work with numerous technologies in supporting delivery of a wide range of Research and Development projects across the Transport Modelling and Analytics and Out of Home (OOH) media sectors.  
 
 ## In brief
 
