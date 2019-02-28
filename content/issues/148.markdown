@@ -43,6 +43,7 @@ undefined
 - 2019-03-06 in New York, NY, USA by New York Haskell Users Group: [Implementing In-memory Caches in Haskell with Jasper Van Der Jeugt](https://www.meetup.com/NY-Haskell/events/259189477/)
 - 2019-03-07 in Raleigh, NC, USA by Raleigh Haskell Meetup: [(hack . yack)](https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzfbkb/)
 - 2019-03-07 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: [Functional Programming Meetup](https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzfbkb/)
+- 2019-03-27 in Toronto, ON, Canada by Toronto Haskell Meetup: [Haskell Meetup: Lightning Talks and Hack Night 2](https://www.meetup.com/meetup-group-evRITRtT/events/259124679/)
 
 ### Europe
 
