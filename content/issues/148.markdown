@@ -53,7 +53,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [exercism/haskell: Bank Account: Hard to guess approach to exercise](https://github.com/exercism/haskell/issues/799)
+-   [purebred: Replace `selectedItemHelper` with over and L.listModify](https://github.com/purebred-mua/purebred/issues/258)
 
 ## Events
 
