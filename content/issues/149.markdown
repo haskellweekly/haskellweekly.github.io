@@ -39,7 +39,9 @@ a library for producing fake data such as names, addressess and phone numbers.
 
 ## Call for participation
 
-undefined
+-   [dh-core: Add test coverage](https://github.com/DataHaskell/dh-core/issues/46)
+-   [hledger: Regex aliases do not allow forward-slash '/' character](https://github.com/simonmichael/hledger/issues/982)
+-   [nvim-hs: Fix ci](https://github.com/neovimhaskell/nvim-hs/issues/78)
 
 ## Events
 
