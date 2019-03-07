@@ -19,6 +19,7 @@ import qualified Network.HTTP.Types as Http
 import qualified Network.URI as Uri
 import qualified System.Directory as Directory
 import qualified System.FilePath as Path
+import qualified System.IO as IO
 import qualified Text.Printf as Printf
 
 main :: IO ()
@@ -110,15 +111,15 @@ checkLink manager uri = do
   Exception.catch
     (do
       response <- Client.httpNoBody (withUserAgent request) manager
-      Printf.printf
-        "- %d %s\n"
-        (Http.statusCode (Client.responseStatus response))
-        url
+      case Http.statusCode (Client.responseStatus response) of
+        200 -> Printf.printf "- 200 %s\n" url
+        code -> IO.hPutStrLn IO.stderr (Printf.printf "- %d %s" code url)
     )
     (\exception -> case exception of
       Client.HttpExceptionRequest _ x ->
-        Printf.printf "- 001 %s %s\n" url (show x)
-      Client.InvalidUrlException _ x -> Printf.printf "- 002 %s %s\n" url x
+        IO.hPutStrLn IO.stderr (Printf.printf "- 001 %s %s" url (show x))
+      Client.InvalidUrlException _ x ->
+        IO.hPutStrLn IO.stderr (Printf.printf "- 002 %s %s" url x)
     )
 
 displayUri :: Uri.URI -> String
