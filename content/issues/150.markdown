@@ -75,7 +75,8 @@ This week's package of the week is [SBV](https://hackage.haskell.org/package/sbv
 
 ## Call for participation
 
-undefined
+-   [fused-effects: Carriers should INLINE their Applicative/Monad/etc. instances](https://github.com/fused-effects/fused-effects/issues/124)
+-   [spago: `spago run` command](https://github.com/spacchetti/spago/issues/131)
 
 ## Events
 
