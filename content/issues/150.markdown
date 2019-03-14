@@ -50,7 +50,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [Haskell Team Lead at Zoomin in Tel Aviv](https://functional.works-hub.com/jobs/haskell-team-lead-in-tel-aviv-israel-6fad4)
 -   [Haskell Developer at Relex in Helsinki](https://relex.recruiterbox.com/jobs/fk01gjr/)
--   [Functional Programmer at Chrodify in Utrecht](https://jobs.chordify.net/functional-programmer/en)
+-   [Functional Programmer at Chordify in Utrecht](https://jobs.chordify.net/functional-programmer/en)
 -   [Engineer at Groq in Menlo Park](https://np.reddit.com/r/haskell/comments/b00us9/groq_is_hiring/)
 -   [Cryptocurrency Software Engineer at Pyrofe in Utah](https://pyrofex.io/career/cryptocurrency-software-engineer/)
 -   [Tweag Internship Programme 2019](https://www.tweag.io/posts/2019-03-11-internships.html)
