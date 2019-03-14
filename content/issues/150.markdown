@@ -110,6 +110,7 @@ This week's package of the week is [SBV](https://hackage.haskell.org/package/sbv
 - 2019-03-20 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: [Ops Matters with Justin Davies! ](https://www.meetup.com/skillsmatter/events/259702614/)
 - 2019-03-20 in Prague, Czech Republic by Prague Lambda Meetup: [Quantum Lambda](https://www.meetup.com/Lambda-Meetup-Group/events/258696067/)
 - 2019-03-21 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: [Skills Matter - iOSCon 2019](https://www.meetup.com/skillsmatter/events/257029130/)
+- 2019-09-21 in London: [LambdaAle 2019](https://lambdale.org)
 
 ### Oceania
 
