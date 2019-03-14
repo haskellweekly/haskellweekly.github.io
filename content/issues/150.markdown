@@ -6,7 +6,7 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
--   [How we made Haskell search strings as fast as Rust](https://tech.channable.com/posts/2019-03-13-how-we-made-haskell-search-strings-as-fast-as-rust.html) by  by Ruud van Asseldonk
+-   [How we made Haskell search strings as fast as Rust](https://tech.channable.com/posts/2019-03-13-how-we-made-haskell-search-strings-as-fast-as-rust.html) by Ruud van Asseldonk
 
     > In this post, we will describe our quest to create Alfred-Margaret, the fastest Haskell implementation of the Aho-Corasick string searching algorithm, which powers string search in Channable.
 
