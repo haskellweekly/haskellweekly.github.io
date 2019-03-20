@@ -26,4 +26,6 @@ undefined
 
 ## Events
 
-undefined
+### Europe
+
+- 2019-03-26 in Zagreb, Croatia by Lambda Zagreb Meetup: [¬ sve za ∀ (no ∃ uvod u propozicije kao tipove)](https://www.meetup.com/lambdazagreb/events/259929136/)
