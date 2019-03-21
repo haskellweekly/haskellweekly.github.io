@@ -25,7 +25,23 @@ This is a weekly summary of what's going on in its community.
 
 ## In brief
 
-undefined
+-   [Capability is about free monads. It's a bird… It's a plane… It's a free monad!](https://www.tweag.io/posts/2019-03-20-capability-free-monad.html)
+-   [DARPA and Galois are Building a $10 Million, Open Source, Secure Voting System](https://motherboard.vice.com/en_us/article/yw84q7/darpa-is-building-a-dollar10-million-open-source-secure-voting-system)
+-   [Extending Haskell's Syntax!](https://mmhaskell.com/blog/2019/3/4/extending-haskells-syntax)
+-   [Featured functions](https://typeclasses.com/news/2019-03-featured-functions)
+-   [Fractals and Monads – Part 3](https://dkwise.wordpress.com/2019/02/19/fractals-and-monads-part-3/)
+-   [GHC Rebuild Times - Shake profiling](https://neilmitchell.blogspot.com/2019/03/ghc-rebuild-times-shake-profiling.html)
+-   [Hakyll Pt. 5 – Generating Custom Post Filenames From a Title Slug](https://robertwpearce.com/hakyll-pt-5-generating-custom-post-filenames-from-a-title-slug.html)
+-   [Higher-order type-level programming in Haskell](https://www.microsoft.com/en-us/research/publication/higher-order-type-level-programming-in-haskell/)
+-   [Simon Peyton Jones chosen to lead National Centre for Computing Education](https://www.gov.uk/government/news/top-computer-scientist-chosen-to-lead-national-centre-for-computing-education)
+-   [Sum Types In SQL](https://www.parsonsmatt.org/2019/03/19/sum_types_in_sql.html)
+-   [Tagless Final Encoding in Haskell](https://jproyo.github.io/posts/2019-03-17-tagless-final-haskell.html)
+-   [The 5 Ts of Industrial Haskell](https://tech.freckle.com/2019/03/14/the-five-ts-of-industrial-haskell/)
+-   [Trees that Melt: Use of AVL Tree in Blockchains](https://serokell.io/blog/2019/03/19/trees-that-melt:-use-of-avl-tree-in-blockchains)
+-   [Visible dependent quantification in Haskell](https://ryanglscott.github.io/2019/03/15/visible-dependent-quantification-in-haskell/)
+-   [When Shouldn't I Use Haskell?](https://np.reddit.com/r/haskell/comments/b1hocc/when_shouldnt_i_use_haskell/)
+-   [Write yourself a lens](https://vrom911.github.io/blog/write-yourself-a-lens)
+-   [Writing a lambda calculus evaluator in Haskell](https://bor0.wordpress.com/2019/03/19/writing-a-lambda-calculus-evaluator-in-haskell/)
 
 ## Package of the week
 
