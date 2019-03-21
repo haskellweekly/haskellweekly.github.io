@@ -14,6 +14,38 @@ This is a weekly summary of what's going on in its community.
 
     > I am going to show a small but pratical scenario for which DerivingVia, a language extension introduced in GHC 8.6, is a natural solution.
 
+-   [Fractals and Monads – Part 3](https://dkwise.wordpress.com/2019/02/19/fractals-and-monads-part-3/) by Derek Wise
+
+    > Today I’ll explain a simple method to draw lots of fractal pictures with minimal code, using the idea of Kleisli powers I introduced in the previous part.
+
+-   [GHC Rebuild Times - Shake profiling](https://neilmitchell.blogspot.com/2019/03/ghc-rebuild-times-shake-profiling.html) by Neil Mitchell
+
+    > Shake has had profiling for years, but in the recently-released Shake 0.17.7 I've overhauled it. The profile report is generated as a web page, and the generated output in the new version is smaller, loads faster and is more intuitive.
+
+-   [Hakyll Pt. 5 – Generating Custom Post Filenames From a Title Slug](https://robertwpearce.com/hakyll-pt-5-generating-custom-post-filenames-from-a-title-slug.html) by Robert Pearce
+
+    > Out of the box, hakyll takes filenames and dates and outputs nice routes for your webpages, but what if you want your routes to be based off of a metadata field like `title`?
+
+-   [Sum Types In SQL](https://www.parsonsmatt.org/2019/03/19/sum_types_in_sql.html) by Matt Parsons
+
+    > Most SQL databases support simple enumerations easily, but they lack the ability to talk about real sum types with fields. We can encode sum types in SQL in a few different ways, each of which has upsides and downsides.
+
+-   [Tagless Final Encoding in Haskell](https://jproyo.github.io/posts/2019-03-17-tagless-final-haskell.html) by Juan Pablo Royo
+
+    > In this post i am going to explore a simple technique for organizing our programs which is called Tagless Final Encoding to write testable programs in Haskell.
+
+-   [Visible dependent quantification in Haskell](https://ryanglscott.github.io/2019/03/15/visible-dependent-quantification-in-haskell/) by Ryan Scott
+
+    > `forall k ->` is a visible, dependent quantifier. What exactly do those words mean? What does this let you do that you couldn’t before? Does this have any relationship with the fabled “Dependent Haskell” we’ve heard so many rumors about?
+
+-   [Write yourself a lens](https://vrom911.github.io/blog/write-yourself-a-lens) by Veronika Romashkina
+
+    > Recently I have been working on implementing basic lens ideas in the `relude` custom prelude library. The process was very valuable for me and I feel that now I understand lens concepts better when I encountered their internals.
+
+-   [Writing a lambda calculus evaluator in Haskell](https://bor0.wordpress.com/2019/03/19/writing-a-lambda-calculus-evaluator-in-haskell/) by Boro Sitnikovski
+
+    > This post is more focused on building the lambda calculus from scratch. It provides an interesting overview of some design decisions particularly for the lambda calculus.
+
 ## Jobs
 
 -   [Lead Data Engineer at Target in Sunnyvale](https://jobs.target.com/job/sunnyvale/lead-data-engineer-data-science-optimization/1118/10952361)
@@ -29,19 +61,11 @@ This is a weekly summary of what's going on in its community.
 -   [DARPA and Galois are Building a $10 Million, Open Source, Secure Voting System](https://motherboard.vice.com/en_us/article/yw84q7/darpa-is-building-a-dollar10-million-open-source-secure-voting-system)
 -   [Extending Haskell's Syntax!](https://mmhaskell.com/blog/2019/3/4/extending-haskells-syntax)
 -   [Featured functions](https://typeclasses.com/news/2019-03-featured-functions)
--   [Fractals and Monads – Part 3](https://dkwise.wordpress.com/2019/02/19/fractals-and-monads-part-3/)
--   [GHC Rebuild Times - Shake profiling](https://neilmitchell.blogspot.com/2019/03/ghc-rebuild-times-shake-profiling.html)
--   [Hakyll Pt. 5 – Generating Custom Post Filenames From a Title Slug](https://robertwpearce.com/hakyll-pt-5-generating-custom-post-filenames-from-a-title-slug.html)
 -   [Higher-order type-level programming in Haskell](https://www.microsoft.com/en-us/research/publication/higher-order-type-level-programming-in-haskell/)
 -   [Simon Peyton Jones chosen to lead National Centre for Computing Education](https://www.gov.uk/government/news/top-computer-scientist-chosen-to-lead-national-centre-for-computing-education)
--   [Sum Types In SQL](https://www.parsonsmatt.org/2019/03/19/sum_types_in_sql.html)
--   [Tagless Final Encoding in Haskell](https://jproyo.github.io/posts/2019-03-17-tagless-final-haskell.html)
 -   [The 5 Ts of Industrial Haskell](https://tech.freckle.com/2019/03/14/the-five-ts-of-industrial-haskell/)
 -   [Trees that Melt: Use of AVL Tree in Blockchains](https://serokell.io/blog/2019/03/19/trees-that-melt:-use-of-avl-tree-in-blockchains)
--   [Visible dependent quantification in Haskell](https://ryanglscott.github.io/2019/03/15/visible-dependent-quantification-in-haskell/)
 -   [When Shouldn't I Use Haskell?](https://np.reddit.com/r/haskell/comments/b1hocc/when_shouldnt_i_use_haskell/)
--   [Write yourself a lens](https://vrom911.github.io/blog/write-yourself-a-lens)
--   [Writing a lambda calculus evaluator in Haskell](https://bor0.wordpress.com/2019/03/19/writing-a-lambda-calculus-evaluator-in-haskell/)
 
 ## Package of the week
 
