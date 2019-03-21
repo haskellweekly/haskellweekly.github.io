@@ -8,7 +8,11 @@ This is a weekly summary of what's going on in its community.
 
 -   [Abstraction and Learning with Runar Bjarnason](https://corecursive.com/027-abstraction-with-runar-bjarnason/)
 
-    > Runar explains how choosing the least powerful abstraction leads to better composition.  He also explains his strategy for learning nonconcrete concepts like category theory and discusses his haskell inspired programming language that is rethinking how programming languages are represented. 
+    > Runar explains how choosing the least powerful abstraction leads to better composition.  He also explains his strategy for learning nonconcrete concepts like category theory and discusses his haskell inspired programming language that is rethinking how programming languages are represented.
+
+-   [A small use case for Deriving Via](https://samtay.github.io/articles/deriving-via.html) by Sam Tay
+
+    > I am going to show a small but pratical scenario for which DerivingVia, a language extension introduced in GHC 8.6, is a natural solution.
 
 ## Jobs
 
