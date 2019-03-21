@@ -48,10 +48,13 @@ This is a weekly summary of what's going on in its community.
 
 ## Jobs
 
+-   [Haskell Developer in London](https://oxfordknight.co.uk/jobs/haskell-developer-haskell-javascript-typescript-london/)
+
+    > A London-based, cutting edge software company in the FinTech space are looking for a senior software engineer with commercial functional programming experience (Haskell preferred). The company are building complex, scalable software with the aim of disrupting and automating a heavily regulated industry in London.
+
 -   [Lead Data Engineer at Target in Sunnyvale](https://jobs.target.com/job/sunnyvale/lead-data-engineer-data-science-optimization/1118/10952361)
 -   [VP of Engineering at Banyan Infrastructure in San Francisco](https://angel.co/banyan-infrastructure/jobs/524748-vp-of-engineering)
 -   [Haskell developers at Typeable](https://blog.typeable.io/posts/2019-03-20-we-are-hiring-haskellers.html)
--   [Haskell Developer in London](https://oxfordknight.co.uk/jobs/haskell-developer-haskell-javascript-typescript-london/)
 -   [Backend Software Engineer at TVision Insights in Boston](https://www.tvisioninsights.com/job?gh_jid=4038050002)
 -   [Haskell Software Engineer at Channable in Utrecht](https://www.channable.com/career/haskell-software-engineer/)
 -   [Software Engineer at IOHK](https://iohk.io/careers/#op-311297-software-engineer-financial-contracts)
