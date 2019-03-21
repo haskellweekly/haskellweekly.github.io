@@ -24,7 +24,7 @@ undefined
 
 ## Package of the week
 
-undefined
+This week's package of the week is [WAI Lambda](https://github.com/deckgo/wai-lambda/tree/cd334a4128a705796ddc840601cfd37e0a54d2b1), a library that turns any WAI webapp into a handler for AWS Lambda and API Gateway requests.
 
 ## Call for participation
 
