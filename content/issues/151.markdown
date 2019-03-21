@@ -54,6 +54,7 @@ This is a weekly summary of what's going on in its community.
 -   [Haskell Developer in London](https://oxfordknight.co.uk/jobs/haskell-developer-haskell-javascript-typescript-london/)
 -   [Backend Software Engineer at TVision Insights in Boston](https://www.tvisioninsights.com/job?gh_jid=4038050002)
 -   [Haskell Software Engineer at Channable in Utrecht](https://www.channable.com/career/haskell-software-engineer/)
+-   [Software Engineer at IOHK](https://iohk.io/careers/#op-311297-software-engineer-financial-contracts)
 
 ## In brief
 
