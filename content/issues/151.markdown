@@ -73,7 +73,8 @@ This week's package of the week is [WAI Lambda](https://github.com/deckgo/wai-la
 
 ## Call for participation
 
-undefined
+-   [cardano-ledger: ProtocolParameterUpdate should be named ProtocolParametersUpdate](https://github.com/input-output-hk/cardano-ledger/issues/377)
+-   [duckling: Support intervals for Numeral and Ordinal](https://github.com/facebook/duckling/issues/352)
 
 ## Events
 
