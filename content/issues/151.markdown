@@ -8,21 +8,21 @@ This is a weekly summary of what's going on in its community.
 
 -   [Abstraction and Learning with Runar Bjarnason](https://corecursive.com/027-abstraction-with-runar-bjarnason/)
 
-    > Runar explains how choosing the least powerful abstraction leads to better composition.  He also explains his strategy for learning nonconcrete concepts like category theory and discusses his haskell inspired programming language that is rethinking how programming languages are represented.
+    > Runar explains how choosing the least powerful abstraction leads to better composition. He also explains his strategy for learning nonconcrete concepts like category theory and discusses his haskell inspired programming language that is rethinking how programming languages are represented.
 
 -   [A small use case for Deriving Via](https://samtay.github.io/articles/deriving-via.html) by Sam Tay
 
     > I am going to show a small but pratical scenario for which DerivingVia, a language extension introduced in GHC 8.6, is a natural solution.
 
--   [Fractals and Monads – Part 3](https://dkwise.wordpress.com/2019/02/19/fractals-and-monads-part-3/) by Derek Wise
+-   [Fractals and Monads --- Part 3](https://dkwise.wordpress.com/2019/02/19/fractals-and-monads-part-3/) by Derek Wise
 
-    > Today I’ll explain a simple method to draw lots of fractal pictures with minimal code, using the idea of Kleisli powers I introduced in the previous part.
+    > Today I'll explain a simple method to draw lots of fractal pictures with minimal code, using the idea of Kleisli powers I introduced in the previous part.
 
 -   [GHC Rebuild Times - Shake profiling](https://neilmitchell.blogspot.com/2019/03/ghc-rebuild-times-shake-profiling.html) by Neil Mitchell
 
     > Shake has had profiling for years, but in the recently-released Shake 0.17.7 I've overhauled it. The profile report is generated as a web page, and the generated output in the new version is smaller, loads faster and is more intuitive.
 
--   [Hakyll Pt. 5 – Generating Custom Post Filenames From a Title Slug](https://robertwpearce.com/hakyll-pt-5-generating-custom-post-filenames-from-a-title-slug.html) by Robert Pearce
+-   [Hakyll Pt. 5 --- Generating Custom Post Filenames From a Title Slug](https://robertwpearce.com/hakyll-pt-5-generating-custom-post-filenames-from-a-title-slug.html) by Robert Pearce
 
     > Out of the box, hakyll takes filenames and dates and outputs nice routes for your webpages, but what if you want your routes to be based off of a metadata field like `title`?
 
@@ -36,7 +36,7 @@ This is a weekly summary of what's going on in its community.
 
 -   [Visible dependent quantification in Haskell](https://ryanglscott.github.io/2019/03/15/visible-dependent-quantification-in-haskell/) by Ryan Scott
 
-    > `forall k ->` is a visible, dependent quantifier. What exactly do those words mean? What does this let you do that you couldn’t before? Does this have any relationship with the fabled “Dependent Haskell” we’ve heard so many rumors about?
+    > `forall k ->` is a visible, dependent quantifier. What exactly do those words mean? What does this let you do that you couldn't before? Does this have any relationship with the fabled "Dependent Haskell" we've heard so many rumors about?
 
 -   [Write yourself a lens](https://vrom911.github.io/blog/write-yourself-a-lens) by Veronika Romashkina
 
@@ -58,7 +58,7 @@ This is a weekly summary of what's going on in its community.
 
 ## In brief
 
--   [Capability is about free monads. It's a bird… It's a plane… It's a free monad!](https://www.tweag.io/posts/2019-03-20-capability-free-monad.html)
+-   [Capability is about free monads. It's a bird... It's a plane... It's a free monad!](https://www.tweag.io/posts/2019-03-20-capability-free-monad.html)
 -   [DARPA and Galois are Building a $10 Million, Open Source, Secure Voting System](https://motherboard.vice.com/en_us/article/yw84q7/darpa-is-building-a-dollar10-million-open-source-secure-voting-system)
 -   [Extending Haskell's Syntax!](https://mmhaskell.com/blog/2019/3/4/extending-haskells-syntax)
 -   [Featured functions](https://typeclasses.com/news/2019-03-featured-functions)
@@ -88,7 +88,7 @@ This week's package of the week is [WAI Lambda](https://github.com/deckgo/wai-la
 - 2019-03-23 in Boston, MA, USA by Weekly Functional Programming Meetup: [Hang out + short talk (by Josh Mitchell)](https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/vmhptqyzfbfc/)
 - 2019-03-25 in Irvine, CA by Orange Combinator - Functional Programming In OC: [Combinating - The Weekly Function](https://www.meetup.com/orange-combinator/events/lxvjrpyzfbhc/)
 - 2019-03-26 in Brooklyn, NY, USA by New York Haskell Users Group: [Parallel and Concurrent Haskell Reading Group](https://www.meetup.com/NY-Haskell/events/vxvdtqyzfbjc/)
-- 2019-03-27 in Vancouver, BC, Canada by Vancouver Functional Programmers: [Haskell Lunch Study Group • Spring '18 Cohort](https://www.meetup.com/Vancouver-Functional-Programmers/events/clglhqyzfbkc/)
+- 2019-03-27 in Vancouver, BC, Canada by Vancouver Functional Programmers: [Haskell Lunch Study Group • Spring '18 Cohort](https://www.meetup.com/Vancouver-Functional-Programmers/events/clglhqyzfbkc/)
 - 2019-03-27 in Portland, OR, USA by Portland Functional Programming Study Group: [PDX Func Theory Track - Logic and Proof](https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/mpwwbqyzfbkc/)
 - 2019-03-27 in Toronto, ON, Canada by Toronto Haskell Meetup: [Haskell Meetup: Lightning Talks and Hack Night 2](https://www.meetup.com/meetup-group-evRITRtT/events/259124679/)
 - 2019-03-27 in Chicago, IL, USA by Chicago Haskell: [Futures in Haskell and Rust](https://www.meetup.com/Chicago-Haskell/events/259362739/)
@@ -98,7 +98,7 @@ This week's package of the week is [WAI Lambda](https://github.com/deckgo/wai-la
 
 - 2019-03-21 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: [Skills Matter - iOSCon 2019](https://www.meetup.com/skillsmatter/events/257029130/)
 - 2019-03-25 in Karlsruhe, Germany by Karlsruhe Haskell Meetup: [Haskell Monday](https://www.meetup.com/Karlsruhe-Haskell-Meetup/events/twnxpqyzfbhc/)
-- 2019-03-25 in București, Romania by Bucharest FP: [Bucharest FP #46 — Haskell Book Study Group 07](https://www.meetup.com/bucharestfp/events/259909649/)
+- 2019-03-25 in București, Romania by Bucharest FP: [Bucharest FP #46 --- Haskell Book Study Group 07](https://www.meetup.com/bucharestfp/events/259909649/)
 - 2019-03-25 in London, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: [Skills Matter Open House March](https://www.meetup.com/skillsmatter/events/258762109/)
 - 2019-03-25 in London EC2, United Kingdom by Skills Matter - X Matters Keynote Series - Developer Events: [Diversity Matters with Jamie Knight and Mike Southgate](https://www.meetup.com/skillsmatter/events/259264450/)
 - 2019-03-25 in München, Germany by Munich Lambda: [March Meetup - Live music with Haskell](https://www.meetup.com/Munich-Lambda/events/259261769/)
