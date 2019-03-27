@@ -12,11 +12,13 @@ module Main
 where
 
 import qualified Data.Maybe as Maybe
+import qualified System.Environment as Environment
 
 main :: IO ()
 main = do
-  contents <- getContents
-  putStr . unlines $ mconcat
+  [input, output] <- Environment.getArgs
+  contents <- readFile input
+  writeFile output . unlines $ mconcat
     [ [ "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>"
       , "<opml version=\"1.0\">"
       , "<head>"
@@ -31,7 +33,7 @@ main = do
 
 toOutline :: String -> Maybe String
 toOutline line = case breakOn ',' line of
-  name : site : _ : feed : _ -> if null feed
+  name : site : feed : _ -> if null feed
     then Nothing
     else Just $ mconcat
       [ "<outline type=\"rss\" text=\""
