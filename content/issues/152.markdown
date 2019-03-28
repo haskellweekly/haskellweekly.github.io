@@ -63,7 +63,8 @@ This week's package of the week is [winery](https://hackage.haskell.org/package/
 
 ## Call for participation
 
-undefined
+-   [spago: Parse error when `packages.dhall` doesn't follow the template format](https://github.com/spacchetti/spago/issues/162)
+-   [stack: Enable copying test binaries to a canonical location](https://github.com/commercialhaskell/stack/issues/4654)
 
 ## Events
 
