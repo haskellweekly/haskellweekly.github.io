@@ -55,11 +55,12 @@ If you are looking to hire a Haskell developer, you should [advertise with us](h
 -   [A new scheduler library](https://np.reddit.com/r/haskell/comments/b63idy/a_new_scheduler_library/)
 -   [A terminal UI for Discourse using Brick](https://discourse.haskell.org/t/a-terminal-ui-for-discourse-using-brick/489?u=taylorfausak)
 -   [Newtype in base to hang generic-deriving instances off of for DerivingVia](https://np.reddit.com/r/haskell/comments/b5rrg6/newtype_in_base_to_hang_genericderiving_instances/)
+-   [winery: fast, compact and sustainable serialisation library](https://np.reddit.com/r/haskell/comments/b3opft/winery_fast_compact_and_sustainable_serialisation/)
 -   [Writing a lambda calculus type-checker in Haskell](https://bor0.wordpress.com/2019/03/21/writing-a-lambda-calculus-type-checker-in-haskell/)
 
 ## Package of the week
 
-This week's package of the week is [winery](https://hackage.haskell.org/package/winery-1.0.1), a serialization library focusing on performance, compactness and compatibility.
+This week's package of the week is [scheduler](https://np.reddit.com/r/haskell/comments/b63idy/a_new_scheduler_library/), a work stealing scheduler, which is very useful for tasks parallelization.
 
 ## Call for participation
 
