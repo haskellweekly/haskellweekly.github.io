@@ -6,6 +6,10 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
+-   [GHC Infrastructure Update](https://www.haskell.org/ghc/blog/20190403-infra-status.html) by Ben Gamari
+
+    > Since November we have been quietly working behind the scenes to make this new infrastructure a reality; this has been a massive project and however I'm happy to say we are now emerging on the other side and we are very happy with the result.
+
 -   [Extending the Persistent QuasiQuoter](https://www.parsonsmatt.org/2019/03/30/extending_the_persistent_quasiquoter.html) by Matt Parsons
 
     > The QuasiQuoter does a ton of stuff for you. In this post, we're going to learn how to make it work for you!
@@ -38,10 +42,6 @@ This is a weekly summary of what's going on in its community.
 
     > Sometimes a library wants you to produce a value of type `t`, but you'd like to have a value of type `e` available when you do that and the API doesn't offer a way to inject an `e` in the right place.
 
--   [Proving Addition is Commutative in Haskell using Singletons](http://www.philipzucker.com/proving-addition-is-commutative-in-haskell-using-singletons/) by Philip Zucker
-
-    > Yesterday morning, I was struck with awe at how amazingly cool the dependently typed approach to proving programs is. It is great that I can still feel that after tinkering around with it for a couple years.
-
 -   [The Compose Newtype and its Applicative Instance](https://fbrs.io/applicative-compose/) by Florian Beeres
 
     > This post will give you a quick overview of the `Compose` data type and then explain how the applicative instance for that type works.
@@ -58,6 +58,7 @@ This is a weekly summary of what's going on in its community.
 -   [*Finding Success (and Failure) in Haskell*](https://leanpub.com/finding-success-in-haskell)
 -   [Idiomatic monads in Rust](https://varkor.github.io/blog/2019/03/28/idiomatic-monads-in-rust.html)
 -   [Monthly Hask Anything (April 2019)](https://np.reddit.com/r/haskell/comments/b7pyqr/monthly_hask_anything_april_2019/)
+-   [Proving Addition is Commutative in Haskell using Singletons](http://www.philipzucker.com/proving-addition-is-commutative-in-haskell-using-singletons/)
 -   [`salak`: Configuration (re)loader in Haskell.](https://github.com/leptonyu/salak/tree/3ca1c233bb1311c15b3d42b6c2821db6cc9bf580)
 -   [You Don't Need to Be Brilliant to Do Brilliant Work](https://sandymaguire.me/blog/brilliance/)
 
