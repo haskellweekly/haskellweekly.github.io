@@ -67,7 +67,8 @@ This week's package of the week is [`slist`](https://hackage.haskell.org/package
 
 ## Call for participation
 
-undefined
+-   [password: split password-instances into multiple packages](https://github.com/cdepillabout/password/issues/1)
+-   [purebred: Query edit: ^W delete-word](https://github.com/purebred-mua/purebred/issues/280)
 
 ## Events
 
