@@ -2,6 +2,8 @@
 -- stack --resolver lts-13.0 script
 {-# OPTIONS_GHC -Weverything -Wno-implicit-prelude -Wno-unsafe #-}
 
+-- | This script gets Haskell events from the Meetup API and outputs them in
+-- Markdown.
 module Main
   ( main
   )

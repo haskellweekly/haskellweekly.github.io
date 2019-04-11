@@ -1,10 +1,14 @@
 #!/usr/bin/env stack
 -- stack --resolver lts-13.0 script
-{-# OPTIONS_GHC -Werror -Weverything -Wno-implicit-prelude -Wno-unsafe #-}
+{-# OPTIONS_GHC -Weverything -Wno-implicit-prelude -Wno-unsafe #-}
+
+-- | This script checks all of the links in every issue to make sure that they
+-- still exist.
 module Main
   ( main
   )
 where
+
 import qualified Control.Exception as Exception
 import qualified CMark as Markdown
 import qualified Data.ByteString as Bytes

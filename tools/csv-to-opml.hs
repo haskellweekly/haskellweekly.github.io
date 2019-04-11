@@ -1,6 +1,6 @@
 #!/usr/bin/env stack
 -- stack --resolver lts-13.0 script
-{-# OPTIONS_GHC -Weverything -Wno-implicit-prelude -Wno-missing-exported-signatures -Wno-safe #-}
+{-# OPTIONS_GHC -Weverything -Wno-implicit-prelude -Wno-safe #-}
 
 -- | This script is meant to convert a CSV file of Haskell Weekly authors into
 -- an OPML file. The OPML file can then be imported into your feed reader of
