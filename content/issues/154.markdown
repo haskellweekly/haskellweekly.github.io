@@ -1,0 +1,19 @@
+<!-- 2019-04-11 -->
+
+Welcome to another issue of Haskell Weekly!
+[Haskell](https://www.haskell.org) is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+## Featured
+
+-   [Become a Better Haskeller by Learning About Inductive Types](https://dimjasevic.net/marko/2019/04/08/become-a-better-haskeller-by-learning-about-inductive-types/) by Marko Dimjašević
+
+    > While we usually and easily see the benefits of having a static type system on simple types such as integers, we might fail to see the benefits of applying the same principles to user-defined data types.
+
+## Jobs
+
+## In brief
+
+## Package of the week
+
+## Events
