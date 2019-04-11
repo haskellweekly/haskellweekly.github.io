@@ -73,6 +73,11 @@ This is a weekly summary of what's going on in its community.
 
 This week's package of the week is [gitlab-haskell](https://hackage.haskell.org/package/gitlab-haskell-0.1.0.0), a library that queries and updates the database of a GitLab instance using the GitLab web API.
 
+## Call for participation
+
+-   [hledger-flow: Change the version subcommand into a --version option](https://github.com/apauley/hledger-flow/issues/15)
+-   [unison: Make file watching robust to emacs `.#` files](https://github.com/unisonweb/unison/issues/457)
+
 ## Events
 
 ### North America
