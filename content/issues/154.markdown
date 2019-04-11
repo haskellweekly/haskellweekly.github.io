@@ -57,6 +57,7 @@ This is a weekly summary of what's going on in its community.
 -   [Announcing DAML - a Haskell-based smart contract development language](https://np.reddit.com/r/haskell/comments/b9cja6/announcing_daml_a_haskellbased_smart_contract/)
 -   [Announcing ghc-lib 0.20190404](https://blog.shaynefletcher.org/2019/04/announcing-ghc-lib-020190404.html)
 -   [bitvec - memory-efficient bit vectors](https://np.reddit.com/r/haskell/comments/ba3n6k/bitvec_memoryefficient_bit_vectors/)
+-   [Call for Papers: Workshop on Functional High-Performance Computing 2019 at ICFP](https://icfp19.sigplan.org/home/FHPNC-2019#Call-for-Papers)
 -   [Code Review: Approve with Suggestions](https://neilmitchell.blogspot.com/2019/04/code-review-approve-with-suggestions.html)
 -   [Deli: A performance modeling tool](https://github.com/github/deli/tree/ceec4de9044563aa22ee56668aee89ad247e032e#readme)
 -   [Generating More Difficult Mazes!](https://mmhaskell.com/blog/2019/4/8/generating-more-difficult-mazes)
