@@ -42,7 +42,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [dataflow: Migrate from `hastache` to `mustache`](https://github.com/sonyxperiadev/dataflow/issues/8)
+-   [purescript: Improve documentation for instance chains](https://github.com/purescript/purescript/issues/3605)
 
 ## Events
 
