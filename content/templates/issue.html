@@ -1,26 +1,30 @@
 <article>
-  <h2>
+  <h1>
     $title$
-  </h2>
-
-  <time>
-    $date$
-  </time>
+    <small class="text-muted">
+      <time>
+        $date$
+      </time>
+    </small>
+  </h1>
 
   $body$
 </article>
 
-<aside>
-  <p>
-    Did you enjoy this issue?
-    Subscribe now to get more like it delivered to your inbox every Thursday.
-  </p>
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
 
-  $form$
-
-  <p>
-    It's easy to unsubscribe and we'll never send you spam.
-    If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
-    or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
-  </p>
+        $form$
+      </div>
+    </div>
+  </div>
 </aside>

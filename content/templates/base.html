@@ -16,34 +16,35 @@
 
     <title>$title$</title>
 
-    <style>$style$</style>
-
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
     <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
     <link href="/images/favicon.ico" rel="shortcut icon">
     <link href="$baseUrl$$url$" rel="canonical">
   </head>
 
   <body>
-    <header>
-      <h1>
-        <a href="/">
-          $logo$
-          <span>
-            Haskell Weekly
-          </span>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
         </a>
-      </h1>
-    </header>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          $logo$
+        </span>
+      </header>
 
-    <main>
-      $body$
-    </main>
+      <main>
+        $body$
+      </main>
 
-    <footer>
-      <p>
-        Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
-        The source code for this site is available <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
-      </p>
-    </footer>
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
