@@ -42,6 +42,10 @@ This is a weekly summary of what's going on in its community.
 
     > We're ramping up for the Stack 2 release, which contains a number of changes.
 
+-   [Magical Monoids](https://medium.com/@stackdoesnotwork/magical-monoids-50da92b069f4)
+
+    > Recently something caught my eye while hacking on a Haskell project. Pay attention to the `mempty` in the code fragment below: ... `either mempty pure` ...
+
 ## Jobs
 
 -   [Galois is hiring for a variety of roles](https://galois.com/careers/) ([ad](https://haskellweekly.news/advertising.html))
@@ -59,7 +63,6 @@ This is a weekly summary of what's going on in its community.
 -   [Applicative monoids](https://blog.ploeh.dk/2019/04/22/applicative-monoids/)
 -   [cabal-cache: Tool for caching packages](https://github.com/haskell-works/cabal-cache/tree/c3413633da073087bc2ddc94ff86fcbbba9eac9c)
 -   [Competitive Programming in Haskell: Basic Setup](https://byorgey.wordpress.com/2019/04/24/competitive-programming-in-haskell-basic-setup/)
--   [Magical Monoids](https://medium.com/@stackdoesnotwork/magical-monoids-50da92b069f4)
 -   [Serializing Mazes!](https://mmhaskell.com/blog/2019/4/15/gxv26jzw4n6989hbajhs2gos9b8utv)
 -   [Zero Bullshit Haskell](https://github.com/alpacaaa/zero-bullshit-haskell/tree/34f91546a452fb25958f81d47e56a825906c9329)
 
