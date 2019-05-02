@@ -35,7 +35,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Call for participation
 
-undefined
+-   [Allure: Go to allureofthestars.com when clicked in any menu](https://github.com/AllureOfTheStars/Allure/issues/98)
+-   [polysemy: Reimplement `runState` in terms of `hoistStateIntoStateT`](https://github.com/isovector/polysemy/issues/34)
+-   [spago: Port tests to Haskell](https://github.com/spacchetti/spago/issues/177)
 
 ## Events
 
