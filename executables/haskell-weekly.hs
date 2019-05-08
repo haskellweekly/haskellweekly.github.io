@@ -31,6 +31,7 @@ main = do
     [ [output]
     , [output, "images"]
     , [output, "issues"]
+    , [output, "styles"]
     , [output, "surveys"]
     ]
 
@@ -39,12 +40,12 @@ main = do
     (copyFileAt input output)
     [ ["images", "favicon.ico"]
     , ["images", "twitter-card.png"]
+    , ["styles", "bootstrap-4-3-1.css"]
     ]
 
   -- Read includes and inject them into the context.
   form <- readFileAt [input, "includes", "form.html"]
   logo <- readFileAt [input, "includes", "logo.svg"]
-  style <- readFileAt [input, "includes", "style.css"]
   let
     context :: Context
     context =
@@ -52,7 +53,6 @@ main = do
       , ("baseUrl", "https://haskellweekly.news")
       , ("form", form)
       , ("logo", logo)
-      , ("style", style)
       ]
 
   -- Read templates.
