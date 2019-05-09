@@ -45,7 +45,10 @@ This week's package of the week is [Haze](https://github.com/cronokirby/haze/tre
 
 ## Call for participation
 
-undefined
+-   [codeworld: Remember dark-mode setting in a cookie](https://github.com/google/codeworld/issues/922)
+-   [futhark: Rewrite cmp-bench-json.py in Haskell](https://github.com/diku-dk/futhark/issues/748)
+-   [hledger-flow: Add a README to the release tarball](https://github.com/apauley/hledger-flow/issues/45)
+-   [squeal: Defining indexes as part of the definition](https://github.com/morphismtech/squeal/issues/134)
 
 ## Events
 
