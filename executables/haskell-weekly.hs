@@ -6,6 +6,7 @@ import Data.Text (Text)
 
 import qualified CMark
 import qualified Data.List as List
+import qualified Data.Map as Map
 import qualified Data.Maybe as Maybe
 import qualified Data.Ord as Ord
 import qualified Data.Text as Text
@@ -80,10 +81,13 @@ main = do
   -- Parse issues.
   let
     issues = sortIssues (Maybe.mapMaybe parseIssue issuesByNumber)
+    issueMap = Map.fromListWith
+      (\ old new -> error ("duplicate issue numbers: " <> show (old, new)))
+      (map (\ issue -> (issueNumber issue, issue)) issues)
     recentIssues = take 7 issues
 
   -- Create issue pages.
-  mapM_ (createIssue output baseTemplate issueTemplate context) issues
+  mapM_ (createIssue output baseTemplate issueTemplate context issueMap) issues
 
   -- Create feeds.
   do
@@ -135,10 +139,13 @@ getIssue input number = do
     [input, "issues", FilePath.addExtension (show number) "markdown"]
   pure (number, contents)
 
-createIssue :: FilePath -> Text -> Text -> Context -> Issue -> IO ()
-createIssue output baseTemplate issueTemplate context issue = do
-  let number = show (issueNumber issue)
-  contents <- renderIssue baseTemplate issueTemplate context issue
+createIssue :: FilePath -> Text -> Text -> Context -> Map.Map Integer Issue -> Issue -> IO ()
+createIssue output baseTemplate issueTemplate context issueMap issue = do
+  let
+    number = show (issueNumber issue)
+    next = Map.lookup (issueNumber issue + 1) issueMap
+    previous = Map.lookup (issueNumber issue - 1) issueMap
+  contents <- renderIssue baseTemplate issueTemplate context issue next previous
   writeFileAt [output, "issues", FilePath.addExtension number "html"] contents
 
 createSurvey :: FilePath -> Text -> Text -> Context -> (Integer, Text) -> IO ()
@@ -154,7 +161,7 @@ data Issue = Issue
   { issueNumber :: Integer
   , issueDay :: Time.Day
   , issueContents :: Text
-  }
+  } deriving Show
 
 type Context = [(Text, Text)]
 
@@ -294,14 +301,19 @@ renderIndex baseTemplate template snippetTemplate context issues = do
     ++ [("body", body), ("summary", summary), ("title", title), ("url", "")]
     )
 
-renderIssue :: Monad m => Text -> Text -> Context -> Issue -> m Text
-renderIssue baseTemplate issueTemplate context issue = do
+renderIssue :: Monad m => Text -> Text -> Context -> Issue -> Maybe Issue -> Maybe Issue -> m Text
+renderIssue baseTemplate issueTemplate context issue next previous = do
   partialTitle <- issueTitle issue
   body <- renderTemplate
     issueTemplate
     (context
     ++ [ ("body", issueContents issue)
        , ("date", prettyDay (issueDay issue))
+       , ("nextClass", maybe "disabled" (const "") next)
+       , ("nextHref", maybe "#" (\ i -> "/issues/" <> showText (issueNumber i) <> ".html") next)
+       , ("number", showText (issueNumber issue))
+       , ("previousClass", maybe "disabled" (const "") previous)
+       , ("previousHref", maybe "#" (\ i -> "/issues/" <> showText (issueNumber i) <> ".html") previous)
        , ("title", partialTitle)
        ]
     )
