@@ -77,7 +77,8 @@ This week's package of the week is [dhall-to-cabal](https://github.com/dhall-lan
 
 ## Call for participation
 
-undefined
+-   [epub-tools: Switch from String to Text](https://github.com/dino-/epub-tools/issues/11)
+-   [LambdaHack: Use splitmix for random numbers instead of the standard random](https://github.com/LambdaHack/LambdaHack/issues/170)
 
 ## Events
 
