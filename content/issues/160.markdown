@@ -30,7 +30,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [nix-tools: `cabal-to-nix` doesn't support `--help`](https://github.com/input-output-hk/nix-tools/issues/53)
+-   [polysemy-zoo: .@! and .@@! have the wrong precedence](https://github.com/isovector/polysemy-zoo/issues/5)
 
 ## Events
 
