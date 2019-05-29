@@ -1,0 +1,37 @@
+<!-- 2019-06-06 unpublished -->
+
+Welcome to another issue of Haskell Weekly!
+[Haskell](https://www.haskell.org) is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what's going on in its community.
+
+## Featured
+
+undefined
+
+## Jobs
+
+<!-- keep through July 18 -->
+-   [Galois is hiring for a variety of roles](https://galois.com/careers/) (ad)
+
+    > Including but not limited to: Software Engineers/Researchers, Project Managers, Hardware Engineers, Red Team Lead, Software Integration Engineer.
+    >
+    > We collaborate with organizations like NASA, DARPA, and AWS to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, cryptographic algorithms, abstract interpretation, type theory, formal verification, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, and statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome; see [lifeatgalois.com](https://lifeatgalois.com).
+
+Trying to hire a Haskell developer?
+You should [advertise with us](https://haskellweekly.news/advertising.html)!
+
+## In brief
+
+undefined
+
+## Package of the week
+
+undefined
+
+## Call for participation
+
+undefined
+
+## Events
+
+undefined
