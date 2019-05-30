@@ -78,7 +78,7 @@ This week's package of the week is [`servant-elm`](https://hackage.haskell.org/p
 
 ## Call for participation
 
-undefined
+-   [spago: Untangle the testcases environments](https://github.com/spacchetti/spago/issues/214)
 
 ## Events
 
