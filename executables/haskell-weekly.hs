@@ -223,7 +223,7 @@ parseIssue (number, contents) = do
     }
 
 prettyDay :: Time.Day -> Text
-prettyDay = formatDay "%B %e %Y"
+prettyDay = formatDay "%Y-%m-%d"
 
 rfcDay :: Time.Day -> Text
 rfcDay = formatDay "%a, %d %b %Y 00:00:00 GMT"
