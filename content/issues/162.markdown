@@ -72,7 +72,7 @@ This week's package of the week is GitHub's [Semantic](https://github.com/github
 
 ## Call for participation
 
-undefined
+-   [semantic: Investigate performance consequences of enabling/disabling parallel GC](https://github.com/github/semantic/issues/55)
 
 ## Events
 
