@@ -6,7 +6,7 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
--   [GitHub's Semantic: Why Haskell?](https://github.com/github/semantic/blob/7364e164947116406850ff6f298d80ba77105229/docs/why-haskell.md) by Patrick Thomson
+-   [GitHub's Semantic: Why Haskell?](https://github.com/github/semantic/blob/7364e164947116406850ff6f298d80ba77105229/docs/why-haskell.md) by Timothy Clem
 
     > Semantic is written in Haskell and we expect newcomers to the code base to have one of two reactions: "That's so cool!" or "Why Haskell?". This document is primarily addressed to the latter inquiry.
 
