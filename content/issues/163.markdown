@@ -62,7 +62,8 @@ This week's package of the week is [lens-regex-pcre](https://hackage.haskell.org
 
 ## Call for participation
 
-undefined
+-   [semantic: Turn on warnings for tests](https://github.com/github/semantic/issues/55)
+-   [spago: Print warnings to stderr, not stdout](https://github.com/spacchetti/spago/issues/256)
 
 ## Events
 
