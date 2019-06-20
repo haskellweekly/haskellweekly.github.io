@@ -30,7 +30,8 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [brittany: Improve test suite](https://github.com/lspitzner/brittany/issues/239)
+-   [haskell-ide-engine: Migrate CI to use stack 2.1](https://github.com/haskell/haskell-ide-engine/issues/1298)
 
 ## Events
 
