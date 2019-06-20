@@ -6,3 +6,4 @@ _site/
 *.o
 *.prof
 *.tix
+stack.yaml.lock

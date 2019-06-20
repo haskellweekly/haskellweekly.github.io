@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-13.0 script
+-- stack --resolver lts-13.20 script
 {-# OPTIONS_GHC -Weverything -Wno-implicit-prelude -Wno-unsafe #-}
 
 -- | This script checks all of the links in every issue to make sure that they
