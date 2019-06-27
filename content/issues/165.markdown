@@ -49,7 +49,7 @@ This week's package of the week is [eventlog2html](https://mpickering.github.io/
 
 ## Call for participation
 
-undefined
+-   [termonad: termonad colors should be AlphaColour](https://github.com/cdepillabout/termonad/issues/112)
 
 ## Events
 
