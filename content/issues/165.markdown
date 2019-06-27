@@ -6,7 +6,9 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [How to Replace React Components With PureScript's React Libraries](https://thomashoneyman.com/articles/replace-react-components-with-purescript/) by Thomas Honeyman
+
+    >  PureScript helps reduce bugs and improve the stability of complex applications. Learn how to incrementally take over a small React application using Purescript's React and React Basic libraries while writing idiomatic code in both languages.
 
 ## Jobs
 
