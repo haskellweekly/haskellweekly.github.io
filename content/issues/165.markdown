@@ -49,6 +49,7 @@ This week's package of the week is [eventlog2html](https://mpickering.github.io/
 
 ## Call for participation
 
+-   [ormolu: Type operator output with fully qualified name](https://github.com/tweag/ormolu/issues/126)
 -   [termonad: termonad colors should be AlphaColour](https://github.com/cdepillabout/termonad/issues/112)
 
 ## Events
