@@ -30,7 +30,7 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [spago: Is it possible to turn off autoformatting?](https://github.com/spacchetti/spago/issues/300)
 
 ## Events
 
