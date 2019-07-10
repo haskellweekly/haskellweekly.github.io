@@ -17,16 +17,29 @@ undefined
     >
     > We collaborate with organizations like NASA, DARPA, and AWS to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, cryptographic algorithms, abstract interpretation, type theory, formal verification, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, and statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome; see [lifeatgalois.com](https://lifeatgalois.com).
 
+-   [Software Engineer at LeapYear in Berkeley](https://hire.withgoogle.com/public/jobs/leapyeario/view/P_AAAAAAEAAAMDbs__uVXOsM)
+
 Trying to hire a Haskell developer?
 You should [advertise with us](https://haskellweekly.news/advertising.html)!
 
 ## In brief
 
-undefined
+-   [Animation DSL With Effect Handlers](https://rubenpieters.github.io/programming/haskell/2019/07/09/animation-dsl-1.html)
+-   [Google Summer of Code: Chebyshev approximations in Haskell](https://www.cs.mcgill.ca/~dto4/projects/gsoc.html)
+-   [Haskell and GHC's primitive operations](https://www.patreon.com/posts/haskell-and-ghcs-28226784)
+-   [HSoC — Hadrian Optimisation: Update 3](https://medium.com/@ratherforky/hsoc-hadrian-optimisation-update-3-19e1647f3e10)
+-   [Idris 2 pre-alpha](https://github.com/edwinb/Idris2/tree/1cf9849a5552ecebde2f412abd8ef0e65a0e07ce)
+-   [Improvements in GHC's testsuite infrastructure](https://www.haskell.org/ghc/blog/20190708-testsuite-work.html)
+-   [Multi-stage docker build of Haskell webapp](https://oleg.fi/gists/posts/2019-07-04-docker-haskell-example.html)
+-   [Refine, fine, fine](https://danieljharvey.github.io/posts/2019-07-05-refined-types.html)
+-   [Simplifying typeclasses](http://h2.jaguarpaw.co.uk/posts/simplifying-typeclasses/)
+-   [th-test-utils v1.0.0 release: testing Quasiquoters / Template Haskell functions](https://np.reddit.com/r/haskell/comments/cbjt68/thtestutils_v100_release_testing_quasiquoters/)
+-   [Tracing User Requests in Yesod](https://jezenthomas.com/tracing-user-requests-in-yesod/)
+-   [Worldwide Haskell Collaboration](https://isovector.github.io/erdos/)
 
 ## Package of the week
 
-undefined
+This week's package of the week is [pandoc-markdown-ghci-filter](https://hackage.haskell.org/package/pandoc-markdown-ghci-filter-0.1.0.0), a Pandoc filter to evaluate Haskell code in Markdown and auto-embed the output.
 
 ## Call for participation
 
