@@ -6,6 +6,10 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
+-   [Haskell - An Experience Summary](https://holmusk.dev/blog/2019-03-29-experience-summary.html) by Holmusk
+
+    > Holmusk is a digital healthcare startup based in Singapore with a focus on mental health and chronic conditions. Approximately a year ago, we chose to begin the process of migrating our backend into Haskell. As of March 2019, Holmusk is now powered fully by Haskell and this post is a summary of our experiences so far.
+
 -   [Animation DSL With Effect Handlers](https://rubenpieters.github.io/programming/haskell/2019/07/09/animation-dsl-1.html) by Ruben Pieters
 
     > In this post we will take a look at a domain-specific language (DSL) for creating interactive and composable animations. At its core, the DSL is based on an effect handler (or free monad) approach with a slight twist.
