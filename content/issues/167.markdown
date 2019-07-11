@@ -72,7 +72,8 @@ This week's package of the week is [pandoc-markdown-ghci-filter](https://hackage
 
 ## Call for participation
 
-undefined
+-   [2048Term: Spacing of ascii art numbers.](https://github.com/MaurizioBruetsch/2048Term/issues/9)
+-   [hawk: include the stack version in the Travis logs](https://github.com/gelisam/hawk/issues/210)
 
 ## Events
 
