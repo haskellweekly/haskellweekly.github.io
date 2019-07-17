@@ -17,6 +17,10 @@ undefined
     >
     > We collaborate with organizations like NASA, DARPA, and AWS to explore blue sky ideas and turn them into usable technology. Some of the things we've worked on in the past: Formal methods, static analysis, cryptographic algorithms, abstract interpretation, type theory, formal verification, reinforcement learning, autonomous systems assurance, communication security, cyber-deception for network defense, DDoS defense, provable hardware security, and statistical anomaly detection for detecting advanced persistent threats. We think working here is awesome; see [lifeatgalois.com](https://lifeatgalois.com).
 
+-   [Full Stack Sr. Software Engineer (Haskell)](https://interos.applicantpro.com/jobs/986650.html)
+
+    > Interos is hiring. We are committed to building a world class product organization that leverages tools like Haskell to achieve outsized results. We're looking for engineers who relish solving the hard technical and analytics challenges and diving into the subtle details that make products amazing.
+
 Trying to hire a Haskell developer?
 You should [advertise with us](https://haskellweekly.news/advertising.html)!
 
