@@ -42,7 +42,7 @@ This is a weekly summary of what's going on in its community.
 
     > How do languages differ in their boilerplate content? Is it only the content of the boilerplate that changes, or also its quantity?
 
--   [Show and Tell: Game: Water-Wars](https://discourse.haskell.org/t/game-water-wars/785?u=taylorfausak) by undefined
+-   [Show and Tell: Game: Water-Wars](https://discourse.haskell.org/t/game-water-wars/785?u=taylorfausak) by FailWhaleBrigade
 
     > The game idea was to clone "Towerfall", a fast paced multiplayer shooting/platforming game.
 
