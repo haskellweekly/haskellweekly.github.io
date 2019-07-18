@@ -53,7 +53,7 @@ This week's package of the week is [`ghc-source-gen`](https://hackage.haskell.or
 
 ## Call for participation
 
-undefined
+-   [ormolu: Constructor ticks are removed from operator constructors, leading to warnings with -Wall](https://github.com/tweag/ormolu/issues/222)
 
 ## Events
 
