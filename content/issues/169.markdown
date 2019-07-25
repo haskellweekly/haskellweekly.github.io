@@ -39,7 +39,7 @@ undefined
 
 ## Call for participation
 
-undefined
+-   [pretty-simple: pPretty detected tty for whether to enable color or not](https://github.com/cdepillabout/pretty-simple/issues/46)
 
 ## Events
 
