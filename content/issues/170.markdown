@@ -76,7 +76,7 @@ This week's package of the week is [musikell](https://github.com/gvolpe/musikell
 
 ## Call for participation
 
-undefined
+-   [polysemy: Typo in outputToTrace documentation](https://github.com/polysemy-research/polysemy/issues/189)
 
 ## Events
 
