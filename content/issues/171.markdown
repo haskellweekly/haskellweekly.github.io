@@ -56,7 +56,8 @@ This week's package of the week is [monad-validate](https://hackage.haskell.org/
 
 ## Call for participation
 
-undefined
+-   [pretty-simple: change doctests to use `cabal-doctest`](https://github.com/cdepillabout/pretty-simple/issues/49)
+-   [servant: Verb with headers checks content type differently than Verb without headers in servant-client-core](https://github.com/haskell-servant/servant/issues/1200)
 
 ## Events
 
