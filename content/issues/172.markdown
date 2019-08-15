@@ -31,7 +31,7 @@ This is a weekly summary of what's going on in its community.
     > I have been using cabal-fmt for over a half year now for my own Haskell projects, and have been happy with this minimal, yet useful tool.
 
 -   [Who Authorized These Ghosts!?](https://ocharles.org.uk/blog/posts/2019-08-09-who-authorized-these-ghosts.html) by Ollie Charles
-    > While playing around with ideas, I was reminded of the wonderful paper “Ghosts of Departed Proofs”, and it got me thinking… can we use these techniques for authorization?
+    > While playing around with ideas, I was reminded of the wonderful paper "Ghosts of Departed Proofs", and it got me thinking... can we use these techniques for authorization?
 
 -   [Overriding Type Class Instances](http://caryrobbins.com/dev/overriding-type-class-instances/) by Cary Robbins
     > When you have an instance in scope, you are stuck with it. Is this a feature? Is this a bug?
@@ -57,6 +57,15 @@ You should [advertise with us](https://haskellweekly.news/advertising.html)!
 
 -   [Dependently typed Haskell in industry (experience report)](https://dl.acm.org/citation.cfm?id=3341704) by Galois
     > We describe our experiences using this "dependently typed Haskell" to construct a performance-critical library that is a key component in a number of verification tools.
+
+-   [Getting Unstuck with Elm JSON Decoders](https://thoughtbot.com/blog/getting-unstuck-with-elm-json-decoders) by Joël Quenneville
+    > Elm's JSON decoders can be tricky to wrap your head around. You're trying to decode a value and aren't coming up with anything useful. How do you get unstuck?
+
+-   [Partitions of a set](https://blog.shaynefletcher.org/2019/08/partitions-of-set.html) by Shayne Fletcher
+    > Having "solved" a bunch of these divide & conquer problems, I'm the first to admit to having being lulled into a false sense of security.
+
+-   [Explaining lambda calculus to a front-end web developer](https://boxbase.org/entries/2019/aug/12/explaining-lambda-calculus-to-developer/)
+    > How do you explain lambda calculus (or just calculus) to a Front-end web developer. How does calculus boost their productivity?
 
 -   [Debugging space leaks in haskell-ide-engine](https://www.youtube.com/watch?v=PL8Wjdt0cKo) by Matthew Pickering
     > This video demonstrates what we've been up to trying to find space leaks in haskell-ide-engine.
