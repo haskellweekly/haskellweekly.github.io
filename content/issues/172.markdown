@@ -93,7 +93,8 @@ Enjoy!
 
 ## Call for participation
 
-undefined
+-   [haskell-poker: GetProfile API Endpoint should also give some basic game stats for the user](https://github.com/therewillbecode/haskell-poker/issues/3)
+-   [spago: Install packages that have `purescript-` prefix](https://github.com/spacchetti/spago/issues/367)
 
 ## Events
 
