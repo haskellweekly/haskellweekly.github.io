@@ -72,4 +72,4 @@ This week's package of the week is [unipatterns](https://hackage.haskell.org/pac
 
 ## Call for participation
 
-undefined
+-   [morpheus-graphql: Migrate from Travis to CircleCi](https://github.com/morpheusgraphql/morpheus-graphql/issues/214)
