@@ -75,6 +75,11 @@ You should [advertise with us](https://haskellweekly.news/advertising.html)!
 -   [Can we call a function a googol times?](https://medium.com/@maiavictor/calling-a-function-a-googol-times-53933c072e3a) by Victor Maia
     > Yes, this is about optimal reductions!
 
+-   [Millismos: Writing a simple forest-editor with brick](https://cs-syd.eu/posts/2019-08-28-millismos) by Tom Sydney Kerckhove
+    > With the new cursor as defined in the previous poss about forest cursors we can take the next step towards making a Purely Functional Semantic Forests Editor like Smos.
+
+-   [Haskell zine: functions](https://alicja.dev/zines/haskell_functions.html) by Alicja Raszkowska
+
 ## Package of the week
 
 This week's package of the week is [sliceofpy](https://hackage.haskell.org/package/sliceofpy-1.0.0), a library that provides Python-ish slicing traversals for Haskell.
