@@ -86,4 +86,5 @@ This week's package of the week is [sliceofpy](https://hackage.haskell.org/packa
 
 ## Call for participation
 
-undefined
+-   [cabal: Add `--benchmark-options` option](https://github.com/haskell/cabal/issues/6209)
+-   [haskell-ide-engine: Hlint parser error on `pattern`](https://github.com/haskell/haskell-ide-engine/issues/1374)
