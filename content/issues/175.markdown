@@ -78,4 +78,4 @@ This week's package of the week is [optics](https://hackage.haskell.org/package/
 
 ## Call for participation
 
-undefined
+-   [exercism/haskell: Port test suite so it supports Data.Text](https://github.com/exercism/haskell/issues/841)
