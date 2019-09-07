@@ -6,7 +6,8 @@ This is a weekly summary of what's going on in its community.
 
 ## Featured
 
-undefined
+-   [Composite 0.6 Released](https://dfithian.github.io/2019/09/06/composite-0.6-released.html) by Dan Fithian
+    > I recently released version 0.6 of the composite library on GitHub! It’s been a few years since the last release, so the code had stagnated quite a bit.
 
 ## Jobs
 
