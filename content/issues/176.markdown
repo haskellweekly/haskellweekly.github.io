@@ -9,6 +9,9 @@ This is a weekly summary of what's going on in its community.
 -   [Composite 0.6 Released](https://dfithian.github.io/2019/09/06/composite-0.6-released.html) by Dan Fithian
     > I recently released version 0.6 of the composite library on GitHub! It’s been a few years since the last release, so the code had stagnated quite a bit.
 
+-   [GraphQL Haskell got a new maintainer](https://www.caraus.io/articles/graphql-haskell-new-maintainer) by Eugene Wissner
+    > Some years ago there was an unfinished GraphQL implementation. The project was on hold for the last few years. Recently I took over the maintenance to continue the development.
+
 ## Jobs
 
 undefined
