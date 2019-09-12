@@ -55,6 +55,9 @@ You should [advertise with us](https://haskellweekly.news/advertising.html)!
 -   [Why does a lot of learning material in Haskell have overly complex use of language?](https://np.reddit.com/r/haskell/comments/d0ek0x/why_does_a_lot_of_learning_material_in_haskell/)
     > I'm all for being terse to avoid confusion and Haskell community in general is really good at that. But am I right in feeling that this is a contributor towards Haskell renown steep learning curve?
 
+-   [A high-speed network driver written in C, Rust, Go, C#, Java, OCaml, Haskell, Swift, Javascript, and Python](https://github.com/ixy-languages/ixy-languages/tree/bafe485f69d659f19df18e185a7630f6726bda41)
+    > Yes, these drivers are really a full implementation of an actual PCIe driver in these languages; they handle everything from setting up DMA memory to receiving and transmitting packets in a high-level language.
+
 -   [Haskell Extensions cheat sheets](https://impurepics.com/posts/2019-08-01-haskell-extensions.html)
 
 -   [MuniHac 2019 Keynotes](https://www.youtube.com/playlist?list=PLxxF72uPfQVRdAsvj7THoys-nVj-oc4Ss)
