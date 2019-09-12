@@ -70,4 +70,5 @@ You should [advertise with us](https://haskellweekly.news/advertising.html)!
 
 ## Call for participation
 
-undefined
+-   [Howl: Custom port support](https://github.com/augustohdias/Howl/issues/6)
+-   [polysemy-zoo: Remove Polysemy.Alias and InterpreterOf](https://github.com/polysemy-research/polysemy-zoo/issues/52)
