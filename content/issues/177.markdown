@@ -82,4 +82,6 @@ This week's package of the week is [generic-constraints](https://hackage.haskell
 
 ## Call for participation
 
-undefined
+-   [ghcide: Code action: remove redundant constraints](https://github.com/digital-asset/ghcide/issues/60)
+-   [pact: Make `enforce` lazy in the error message argument](https://github.com/kadena-io/pact/issues/643)
+-   [web-api: Invalid JSON in Swagger Examples](https://github.com/fission-suite/web-api/issues/99)
