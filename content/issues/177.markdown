@@ -50,7 +50,7 @@ William Yao
 
 - [Haskell Developer at Standard Chartered in London](https://scb.taleo.net/careersection/ex/jobdetail.ftl?job=1900021764&lang=en)
 
-- [Principal Software Engineer in Boudler](https://functional.works-hub.com/jobs/remote-principal-software-engineer-f04)
+- [Principal Software Engineer in Boulder](https://functional.works-hub.com/jobs/remote-principal-software-engineer-f04)
 
 Trying to hire a Haskell developer?
 You should [advertise with us](https://haskellweekly.news/advertising.html)!
