@@ -76,7 +76,7 @@ You should [advertise with us](https://haskellweekly.news/advertising.html)!
 
 - [🎵 A is for Aeson, to talk with the net / B is for ByteString, lest String cause regret 🎵](https://twitter.com/rob_rix/status/1174110487128215557)
 
-## Packages of the week
+## Package of the week
 
 This week's package of the week is [generic-constraints](https://hackage.haskell.org/package/generic-constraints-1.1.1.1), a library that allows you to write standalone deriving without boiler-plate.
 
