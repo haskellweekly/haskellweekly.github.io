@@ -73,3 +73,6 @@ You should [advertise with us](https://haskellweekly.news/advertising.html)!
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com) starts on October 1!
 Browse [Haskell issues](https://github.com/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest+language%3Ahaskell) on GitHub.
+
+-   [differential-datalog: Allow the library path to be specified using a list of paths separated by :](https://github.com/vmware/differential-datalog/issues/378)
+-   [ron: Empty struct_set error](https://github.com/ff-notes/ron/issues/118)
