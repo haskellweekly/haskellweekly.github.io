@@ -77,3 +77,7 @@ This week's package of the week is [KMonad](https://github.com/david-janssen/kmo
 
 Looking for something to work on?
 Browse [Haskell Hacktoberfest issues](https://github.com/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest+language%3Ahaskell) on GitHub.
+
+-   [disco: Make left and right prims?](https://github.com/disco-lang/disco/issues/181)
+-   [homplexity: Display version again...](https://github.com/mgajda/homplexity/issues/19)
+-   [semantic: Finish migrating to `pathtype` library.](https://github.com/github/semantic/issues/288)
