@@ -53,3 +53,5 @@ This week's package of the week is [`bitvec`](https://hackage.haskell.org/packag
 
 Looking for something to work on?
 Browse [Haskell Hacktoberfest issues](https://github.com/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest+language%3Ahaskell) on GitHub.
+
+-   [LambdaHack: Validate TileKind content more](https://github.com/LambdaHack/LambdaHack/issues/186)
