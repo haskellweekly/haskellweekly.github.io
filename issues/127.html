@@ -1,0 +1,273 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 127 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 127 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 127 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/127.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 127
+    <small class="text-muted">
+      <time>
+        2018-10-04
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://owickstrom.github.io/komposition/">Komposition: The video editor built for screencasters (in Haskell!)</a></p>
+<blockquote>
+<p>Komposition is the video editor built for screencasters. It lets you focus on producing and publishing quality content, instead of spending all of your time in complicated video editors. Komposition automatically detects scenes in screen capture video, automatically detects sentences in voice-over audio recordings, and features a high-productivity editing workflow based on keyboard navigation.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://blog.mpowered.team/posts/2018-testing-ruby-haskell-implementations.html">Testing Our Ruby and Haskell Implementations Side-By-Side</a></p>
+<blockquote>
+<p>After almost ten years of continuous development, Mpowered’s calculation engine has become a maintenance and innovation bottleneck. We decided to extract and replace the Empowerment component with a new solution built in Haskell. This posts describes how we are testing during the transition.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.tweag.io/posts/2018-10-04-capability.html">Capability: The <code>ReaderT</code> pattern without boilerplate</a></p>
+<blockquote>
+<p>In this post, we’ll argue why capabilities are important, why you should use them, and tell you about what it took to design a library of capabilities with good ergonomics. It turns out that a brand new language extension that shipped with GHC 8.6, <code>-XDerivingVia</code>, has a crucial role in this story.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://engineering.itpro.tv/2018/09/28/haskell-in-production-a-ghc-upgrade-success-story/">Haskell in production: A GHC upgrade success story</a></p>
+<blockquote>
+<p>Version upgrade nightmares are so common that they have become almost expected. Update the compiler one patch level, or a library version, and the work spirals into a much larger project. This is a story of going forward two versions in GHC, 8.0.2 to 8.4.3, and updating our libraries at the same time.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://alasconnect.github.io/blog/posts/2018-10-02-introducing-haskell-to-a-company.html">Introducing Haskell to a company</a></p>
+<blockquote>
+<p>This post makes the assumption that the reader understands why they themselves would want to use Haskell and what its benefits are, so instead focuses on how we’ve made it a successful part of our own company’s development culture.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.parsonsmatt.org/2018/10/02/small_types.html">Keep your types small and your bugs smaller</a></p>
+<blockquote>
+<p>The more precisely our types describe our program, the fewer ways we have to go wrong. Ideally, we can provide a correct output for every input, and we use a type that tightly describes the properties of possible outputs.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://qnikst.github.io/posts/2018-10-29-metrics-haskell.html">Metric a Haskell application</a></p>
+<blockquote>
+<p>In one of my recent posts, I’ve mentioned gathering metrics for my Haskell application. Some people asked me about my setup, so I will try to describe how I configured and structured my application.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://blog.nyarlathotep.one/2018/09/rewrite-rules-and-a-specific-fold/">Rewrite rules and a specific fold: Use optimization techniques from <code>GHC.Base</code></a></p>
+<blockquote>
+<p>Alga, a functional implementation of graphs, defines a foldable structure with a fold (named <code>foldg</code>) specialized for the graph data. Can we use the same tricks than <code>GHC.Base</code> to optimize compositions of <code>foldg</code> with <code>fmap</code>? Spoiler: Yes, and we can do it without any pain!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/@felixschlitter/announcing-pure-c-a-c-backend-for-purescript-c6bc05562fde">Announcing Pure-C: A C backend for PureScript</a></p>
+<blockquote>
+<p>Pure-C is an alternative backend for PureScript, a strongly typed, purely functional programming language that compiles down to native code via the Clang compiler toolchain.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/soupi/haskell-study-plan/tree/6490a5a89f24adae860ad0e2afe2a87c8bc58e0a">Haskell study plan: An opinionated list of resources for learning Haskell</a></p>
+<blockquote>
+<p>This guide is an opinionated list of resources for learning Haskell. It is aimed at more experienced programmers that would like a denser Haskell tutorial.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://twitter.com/mattoflambda/status/1045784193953718272">Software engineer at Opolis in Denver</a></p>
+<blockquote>
+<p>Opolis is hiring for a full time mid-to-senior level software engineer. We’re located in the beautiful front range of Colorado, we have an office in Denver, and are very flexible with remote work.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://neilmitchell.blogspot.com/2018/10/full-time-haskell-jobs-in-zurichnew.html">Haskell programmers at Digital Asset in New York/Zurich</a></p>
+<blockquote>
+<p>I am currently working at Digital Asset, working on our DAML programming language. We’re seeking 3 additional Haskell programmers to join, 2 in New York and 1 in Zurich.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://twitter.com/pike7464/status/1044974652634718208">Developers at Groq in Portland</a></p>
+<blockquote>
+<p>Come work with us! Multiple roles in compilers, software testing + validation, drivers &amp; firmware. Doing most things in Haskell. Portland and Bay Area.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.tsurucapital.com/en/">Interns at Tsuru Capital in Tokyo</a></p>
+<blockquote>
+<p>Tsuru Capital is a proprietary trading fund focused on options market-making. In-house software is mainly developed in Haskell. We are hiring interns!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/9kiyqy/mercury_is_hiring_an_engineer_sf_fulltime/">Engineer at Mercury in San Francisco</a></p>
+<blockquote>
+<p>Mercury is building a bank for businesses. We are currently 8 people and have raised $6m from a tier A VC. We are close to alpha launch and are looking to grow our team.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://twitter.com/markeibes/status/1042457695767486465">Developer at Zalando in Berlin</a></p>
+</li>
+<li>
+<p><a href="https://jobs.lever.co/awake-security">Engineers at Awake Security in Sunnyvale</a></p>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://www.stackage.org/blog/2018/09/announce-ghc-8.6-on-nightlies">Announcing Stackage nightly snapshots with GHC 8.6.1</a></li>
+<li><a href="http://blog.ploeh.dk/2018/10/01/applicative-functors/">Applicative functors</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/9ksch6/ghc_861_is_badly_broken/">GHC 8.6.1 is badly broken</a></li>
+<li><a href="https://kowainik.github.io/posts/2018-10-01-hacktoberfest">Hacktoberfest 2018: Call for participation</a></li>
+<li><a href="https://blog.jle.im/entry/introduction-to-singletons-3.html">Introduction to singletons: Part 3</a></li>
+<li><a href="https://chrispenner.ca/posts/mock-effects-with-data-kinds">Mocking effects using constraints and phantom data kinds</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/9k803d/monthly_hask_anything_october_2018/">Monthly Hask Anything: October 2018</a></li>
+<li><a href="https://blog.poisson.chat/posts/2018-09-29-overloaded-families.html">Overloaded type families</a></li>
+<li><a href="https://alasconnect.github.io/blog/posts/2018-10-04-productive-haskell-in-enterprise.html">Productive Haskell in enterprise</a></li>
+<li><a href="https://mmhaskell.com/blog/2018/10/8/stuck-in-the-middle-adding-middleware-to-a-servant-server">Stuck in the middle: Adding middleware to a Servant server</a></li>
+<li><a href="https://www.well-typed.com/blog/2018/10/upcoming-haskell-events-haskell-exchange-courses-munihac/">Upcoming Haskell events: Haskell eXchange, Courses, MuniHac</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://jaspervdj.be/hakyll/">Hakyll</a>,
+a library for generating static sites.
+It’s mostly aimed at small-to-medium sites and personal blogs.</p>
+<h2>Call for participation</h2>
+<p>Looking to participate in the fifth annual <a href="https://hacktoberfest.digitalocean.com">Hacktoberfest</a>?
+Check out some of <a href="https://github.com/issues?q=language%3Ahaskell+label%3Ahacktoberfest+is%3Aissue+is%3Aopen+archived%3Afalse">these issues</a> with the “Hacktoberfest” label from Haskell repositories on GitHub!</p>
+<ul>
+<li><a href="https://github.com/mathandley/AutoBench/issues/12">AutoBench: Visualising runtime results given as 3 dimensional co-ordinates</a></li>
+<li><a href="https://github.com/justinwoo/spacchetti-cli/issues/4">spacchetti-cli: Provide some spacchetti package management commands</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>2018-10-04 in Durham, NC, USA by Durham Haskell Meetup: <a href="https://www.meetup.com/Durham-Haskell-Meetup/events/255088697/">Morning Haskell (and Rust!) coding session</a></li>
+<li>2018-10-04 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: <a href="https://www.meetup.com/las-vegas-functional-programming/events/255080695/">Functional Programming Meetup</a></li>
+<li>2018-10-04 in Santiago, Chile by Santiago Scala Meetup: <a href="https://www.meetup.com/Santiago-Scala-Meetup/events/254288512/">Santiago Scala Meetup</a></li>
+<li>2018-10-04 in Graz, Austria by Functional Programming Graz: <a href="https://www.meetup.com/Functional-Programming-Graz/events/253642458/">Functional Programming Graz: Akka Typed and other Type Systems for Actors</a></li>
+<li>2018-10-04 in Mumbai, India by DelhiNCR Haskell And Functional Programming Languages Group: <a href="https://www.meetup.com/DelhiNCR-Haskell-And-Functional-Programming-Languages-Group/events/254707913/">FPNCR Monthly meetup</a></li>
+<li>2018-10-04 in Taipei, Taiwan by Functional Thursday: <a href="https://www.meetup.com/Functional-Thursday/events/254877031/">Functional Thursday #68</a></li>
+<li>2018-10-04 in Brasov, Romania by PentaBAR Brasov // Tech Meetup by Pentalog: <a href="https://www.meetup.com/PentaBAR-Tech-Meetup-by-Pentalog/events/254959285/">PentaBAR #41 // Functional Programming – A Beginner’s Guide to Haskell</a></li>
+<li>2018-10-04 in Singapore, Singapore by HASKELL.SG: <a href="https://www.meetup.com/HASKELL-SG/events/254398860/">October Singapore Haskell Meetup</a></li>
+<li>2018-10-04 in 28046 Madrid, Spain by Madrid Haskell Users Group: <a href="https://www.meetup.com/Haskell-MAD/events/254067999/">Coq for Haskell programmers</a></li>
+<li>2018-10-06 in Chilliwack, BC, Canada by ChilliHask Haskell User Group: <a href="https://www.meetup.com/BC-HUG/events/254742881/">Weekly Haskell Coding Meetup</a></li>
+<li>2018-10-06 in Boston, MA, USA by Weekly Functional Programming Meetup: <a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/253684630/">Hang out, chat FP, work on some code</a></li>
+<li>2018-10-07 in Bangalore, India by Bangalore Functional Programmers Meetup: <a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/254931981/">Reader &amp; State in Haskell</a></li>
+<li>2018-10-08 in Charlottesville, VA, USA by Charlottesville Haskell Book Reading Group: <a href="https://www.meetup.com/Charlottesville-Haskell-Book-Reading-Group/events/255196350/">Chapters 20 &amp; 21 - Foldable &amp; Traversable</a></li>
+<li>2018-10-08 in Irvine, CA by Orange Combinator - Functional Programming In OC: <a href="https://www.meetup.com/orange-combinator/events/254825492/">Combinating - The Weekly Function</a></li>
+<li>2018-10-08 in Saint Louis, MO by STL Elm: <a href="https://www.meetup.com/STLElm/events/255009987/">Elm Code Night</a></li>
+<li>2018-10-08 in Sydney, Australia by Sydney Type Theory: <a href="https://www.meetup.com/Sydney-Type-Theory/events/254748533/">Homotopy Type Theory</a></li>
+<li>2018-10-08 in Pittsburgh, PA, USA by Pittsburgh Functional Programming Meetup: <a href="https://www.meetup.com/Pittsburgh-Functional-Programming-Meetup/events/254555001/">Shell Scripting in Haskell</a></li>
+<li>2018-10-08 in Johannesburg, South Africa by Lambda Luminaries: <a href="https://www.meetup.com/lambda-luminaries/events/251751461/">Functional Strategies in AI Game Bots - “One weird FP trick that made us rich!”</a></li>
+<li>2018-10-09 in Vancouver, BC, Canada by Vancouver Functional Programmers: <a href="https://www.meetup.com/Vancouver-Functional-Programmers/events/255206495/">Haskell Lunch Study Group • Fall ’18 Cohort (new group)</a></li>
+<li>2018-10-09 in Sofia, Bulgaria by Lambda Dojo Sofia: <a href="https://www.meetup.com/Lambda-Dojo-Sofia/events/254956726/">Conference Talk Preview #2: PHP CE &amp; ClojuTRE recap</a></li>
+<li>2018-10-09 in Vancouver, BC, Canada by Functional Programming Vancouver: <a href="https://www.meetup.com/Functional-Programming-Vancouver/events/255182237/">Our first ‘Functional Programming Vancouver’ meet and greet!</a></li>
+<li>2018-10-09 in Brisbane, Australia by Brisbane Functional Programming Group (BFPG): <a href="https://www.meetup.com/Brisbane-Functional-Programming-Group/events/252854883/">BFPG Monthly Meetup</a></li>
+<li>2018-10-10 in Fortaleza, Brazil by Programação Funcional em Fortaleza: <a href="https://www.meetup.com/FOR-Fun/events/255086328/">Programação Funcional em Fortaleza</a></li>
+<li>2018-10-10 in Tucson, AZ, USA by Tucson Functional Programmers: <a href="https://www.meetup.com/Tucson-Functional-Programmers/events/254803301/">Monthly Get Together</a></li>
+<li>2018-10-10 in Vancouver, BC, Canada by Vancouver Functional Programmers: <a href="https://www.meetup.com/Vancouver-Functional-Programmers/events/255206466/">Haskell Lunch Study Group • Spring ’18 Cohort</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/126.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      127
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/128.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

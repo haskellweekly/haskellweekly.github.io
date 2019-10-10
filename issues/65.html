@@ -1,0 +1,229 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 65 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 65 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 65 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/65.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 65
+    <small class="text-muted">
+      <time>
+        2017-07-27
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+Haskell is a purely functional programming language that focuses on correctness, productivity, and expressiveness.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://ghc.haskell.org/trac/ghc/blog/ghc-8.2.11-released">GHC 8.2.1 released</a></p>
+<blockquote>
+<p>The GHC developers are very happy to announce the long-awaited 8.2.1 release of Glasgow Haskell Compiler. This is the second release in the 8.0 series. As such, the focus of this release is performance, stability, and consolidation.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/eta-programming-language/announcing-eta-0-1-developer-preview-65b6c1838c6">Announcing Eta v0.1 developer preview</a></p>
+<blockquote>
+<p>Today, we’re excited to release the developer preview of Eta which features the first binary release. The focus for this series will be bug fixes, documentation updates, performance improvements, and standard library changes.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.fpcomplete.com/blog/2017/07/the-rio-monad">The <code>RIO</code> monad</a></p>
+<blockquote>
+<p>I’ve played with the idea of a <code>RIO</code> (<code>Reader</code> + <code>IO</code>) monad a number of times in the past, but never bit the bullet to do it. As I’ve been hashing out ideas with some people and working through cleanups on Stack, it became clear that the time was right to try this out.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://mazzo.li/posts/new-inline-c.html">Building inline-c projects just got a lot easier</a></p>
+<blockquote>
+<p>The latest version of inline-c, 0.6.0.0, does not require manual specification of generated C files. Moreover, GHCi now works, provided you use <code>-fobject-code</code>. The build process as a whole is much more reliable.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.mchaver.com/posts/2017-07-12-lens-tutorial-1.html">Lens tutorial: <code>SimpleLens</code></a></p>
+<blockquote>
+<p>We may not need all of the tools from the <code>lens</code> package. I believe the best way to start using lenses is Haskell is by implementing a simple subset.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://m0ar.github.io/safe-streaming/2017/07/20/homegrown-linear-monads.html">Homegrown linear monads with <code>RebindableSyntax</code></a></p>
+<blockquote>
+<p>A linear monad class would allow relying on the type system to ensure that a monadic value can only be used once by forcing the bind to consume its first argument (disallowing multiple uses of earlier stream references), effectively making the previously shown runtime errors impossible.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://markkarpov.com/post/evolution-of-error-messages.html">Evolution of error messages</a></p>
+<blockquote>
+<p>This is the second and final post about Megaparsec 6.0.0 development. This time we are going to walk through re-design of parse error messages.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://gitlab.com/vasanthaganeshk/hustlr-in/blob/9e8d8b23926165ddef9f11d22d2bc560f0f2cf08/posts/2017-07-19-midterm-eval.md">Haskell Summer of Code status update</a></p>
+<blockquote>
+<p>In this blog post I talk about my progress in haskell-interactive-mode (clone of haskell-mode). At this point, I’m not an elisp noob anymore. The most important thing that I had to do was, split haskell-interactive-mode from haskell-mode.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://jaredweakly.com/blog/halfway-there/">Halfway there, or “I want to say I know what I’m doing, but it’s a dangerous thing to say”</a></p>
+<blockquote>
+<p>Greetings and salutations! If you’re reading this, it means I haven’t died yet, which is pretty great. So, as my last blog post mentioned, I’ve been spending this summer working on a Haskell Summer of Code project: Bringing sanity to the GHC performance test-suite.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://ro-che.info/articles/2017-07-26-haskell-library-in-c-project">Haskell library in a C project</a></p>
+<blockquote>
+<p>Usually, people are more interested in calling C libraries from Haskell than vice versa. But at NStack, we are going in the opposite direction. We want to build a Haskell library that is going to be used by the programming languages that we support, such as Python.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://www.facebook.com/careers/jobs/a0I1200000LT8aAEAT/">Facebook: Software Engineer, Static Analysis</a></p>
+<blockquote>
+<p>Facebook’s Static Analysis team is seeking an experienced software engineer with expertise in C++ and typed functional programming to help build and improve our analysis tools. You will help design and extend Infer for C++, which is used to find bugs across all Facebook engineering.</p>
+</blockquote>
+</li>
+</ul>
+<p>Are you looking to hire a Haskell developer?
+Get in touch with <a href="mailto:info@haskellweekly.news">info@haskellweekly.news</a> for advertising opportunities!</p>
+<h2>In brief</h2>
+<ul>
+<li><a href="http://chrispenner.ca/posts/adjunction-battleship">Adjunctions and Battleship</a></li>
+<li><a href="https://www.stackbuilders.com/tutorials/functional-full-stack/purescript-bridge/">Connecting a Haskell backend to a PureScript frontend</a></li>
+<li><a href="https://jeltsch.wordpress.com/2016/02/22/generic-programming-in-haskell/">Generic programming in Haskell</a></li>
+<li><a href="https://mmhaskell.com/blog/2017/7/24/getting-the-users-opinion-options-in-haskell">Getting the user’s opinion: Options in Haskell</a></li>
+<li><a href="https://gist.github.com/anonymous/f005d8387382db8c474c6f8159d33e92/5d4dc3e44a9867b8abac07ed359d7a906af55dc6">I’ve briefly tried VCache, and here is how it was</a></li>
+<li><a href="https://stackoverflow.com/questions/45287954/is-having-a-a-b-b-equivalent-to-having-an-a">Is having a <code>(a -&gt; b) -&gt; b</code> equivalent to having an <code>a</code>?</a></li>
+<li><a href="https://github.com/chrisdone/jl/blob/3831a1285aa9a1005bbcce3fff10e484f7e2d6ac/README.md">jl: A tiny functional language for querying and manipulating JSON</a></li>
+<li><a href="https://disciple-devel.blogspot.com.au/2017/07/ray-tracer-demo.html">Ray tracer demo</a></li>
+<li><a href="https://github.com/commercialhaskell/stack/releases/tag/v1.5.0">Stack 1.5.0 released</a></li>
+<li><a href="https://www.stackage.org/lts-9.0">Stackage LTS 9.0 released</a></li>
+<li><a href="https://www.cs.purdue.edu/homes/bendy/Fiat/FiatByteString.pdf">Using Coq to write fast and correct Haskell</a></li>
+<li><a href="https://yi-editor.github.io/posts/2017-07-25-release-0.14/">Yi 0.14 released</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/una-2.1.0">una</a>,
+a universal un-archiving utility application.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/jaspervdj/blaze-markup/issues/28">blaze-markup: Add a Semigroup instance for AttributeValue</a></li>
+<li><a href="https://github.com/hspec/hspec/issues/304">hspec: <code>shouldFail</code> spectree</a></li>
+<li><a href="https://github.com/dmjio/miso/issues/198">miso: miso-from-html</a></li>
+</ul>
+<p>Do you have a beginner-friendly issue you want some help with?
+Email <a href="mailto:info@haskellweekly.news">info@haskellweekly.news</a> to get it included here!</p>
+<h2>Events</h2>
+<ul>
+<li>July 27: <a href="https://www.meetup.com/Buenos-Aires-Haskell-Meetup/events/241562308/">Buenos Aires Haskell Meetup: ¡Yo te elijo (en producción)!</a></li>
+<li>July 28: <a href="https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/241617089/">Austin Types, Theorems, and Programming Languages: Organizational Session, Installation of Coq</a></li>
+<li>July 29: <a href="https://www.meetup.com/Bp-HUG/events/240707746/">Budapest Haskell User Group: Haskell Hackathon 2017</a></li>
+<li>July 31: <a href="https://www.meetup.com/Beaverton-Haskell-Meetup/events/241822925/">Beaverton Haskell Meetup: Haskell Learning Exercises Continued</a></li>
+<li>August 1: <a href="https://www.meetup.com/Functional-First-Phoenix/events/241113125/">Functional First Phoenix: Elm REST request processing</a></li>
+<li>August 2: <a href="https://www.meetup.com/HASKELL-SG/events/241782361/">Haskell.SG: August Meetup</a></li>
+</ul>
+<p>Know of an event that Haskell users would enjoy?
+Let <a href="mailto:info@haskellweekly.news">info@haskellweekly.news</a> know about it!</p>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/64.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      65
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/66.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

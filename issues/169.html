@@ -1,0 +1,250 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 169 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 169 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 169 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/169.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 169
+    <small class="text-muted">
+      <time>
+        2019-07-25
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://github.com/bollu/blaze/blob/75c4ab5c17bda3b751f0d328b19064a2ce1eccfe/notebooks/tutorial.ipynb">A weekend replication of STOKE, a stochastic superoptimiser</a> by Siddharth Bhat</p>
+<blockquote>
+<p>STOKE is a superoptimizer that finds optimal instruction sequences to perform a particular task by using numerical techniques which rely on randomness (markov-chain-monte-carlo/MCMC) to explore the space of “all possible programs”.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mmhaskell.com/blog/2019/7/22/analyzing-our-parameters">Analyzing Our Parameters</a> by Monday Morning Haskell</p>
+<blockquote>
+<p>Our goal for this week will be to write some simple analysis functions. These will play through the game without needing to display anything on the screen. Then we’ll be able to play different versions in quick succession and compare results.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://serokell.io/blog/dimensions-haskell-singletons">Dimensions and Haskell: Singletons in Action</a> by Rinat Stryungis and Danya Rogozin</p>
+<blockquote>
+<p>In our previous blogpost, we introduced a reader to our subject matter and briefly observed several numeric libraries in Haskell. In this part, we describe our approach to the matrix data type that is parameterised via its numbers of columns and rows.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.haskell.org/ghc/blog/20190722-ghc-8.8.1-rc1-released.html">GHC 8.8.1-rc1 released</a> by Ben Gamari</p>
+<blockquote>
+<p>The GHC team is pleased to announce the second and likely last alpha release of GHC 8.8.1. This release is the culmination of over 3000 commits by over one hundred contributors and has several new features and numerous bug fixes relative to GHC 8.6.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://rashadg1030.github.io/rashad-blog/7.html">Guide to Implementing Custom Monadic Effects in Issue-Wanted</a> by Rashad Gover</p>
+<blockquote>
+<p>Over the past few weeks I’ve been making steady progress on the issue-wanted project I’m working on for Google Summer of Code 2019. Today I would like to present my work on adding a custom monad/effect to issue-wanted and what I learned during the process.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://kowainik.github.io/posts/membrain">Insane in the Membrain</a> by Veronika Romashkina</p>
+<blockquote>
+<p>Membrain is not about creating memes, it’s about a type-safe memory data type with units being on the type level, so all the computations are guaranteed to be trustworthy and some of them even performed during compile time.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/thma/LtuPatternFactory/tree/85656b63d1d2cf0a0694b45458b56dec37bd76ca">Lambda the Ultimate Pattern Factory</a> by Thomas Mahler</p>
+<blockquote>
+<p>Recently, while re-reading through the Typeclassopedia I thought it would be a good exercise to map the structure of software design-patterns to the concepts found in the Haskell type class library and in functional programming in general.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/lettier/parsing-with-haskell-parser-combinators/tree/bf97f8b41568e4a72b659f2af79d4dedd397e32d">Parsing With Haskell Parser Combinators</a> by David Lettier</p>
+<blockquote>
+<p>Need to parse to something? Never heard of a “parser combinator”? Looking to learn some Haskell? Awesome! Below is everything you’ll need to get up and parsing with Haskell parser combinators.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://interos.applicantpro.com/jobs/986650.html">Interos Solutions, Inc.- Full Stack Sr. Software Engineer (Haskell)</a> (ad)</p>
+<blockquote>
+<p>Interos Solutions, Inc Engineering is hiring. We are committed to building a world class product organization that leverages tools like Haskell and the latest machine learning techniques to achieve outsized results as individuals and as a team. We’re looking for engineers who relish solving the hard-technical and analytics challenges and diving into the subtle details that make products amazing.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/NixOS/comments/cf8ni3/job_offer_obsidian_systems_is_hiring_a_nix/">Operations Engineer at Obsidian Systems in Manhattan</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/rnons/c04acc1f4db94ffee890f425acfb3dc4/1ba762e6f2147be5c2b0025703e36d5b7ec57761">PureScript/Haskell Developer at Nonbili in Fujisawa</a></p>
+</li>
+<li>
+<p><a href="https://twitter.com/MikolajKonarski/status/1153189256959004672">Haskell Programmer at Standard Chartered in Warsaw</a></p>
+</li>
+</ul>
+<p>Trying to hire a Haskell developer?
+You should <a href="https://haskellweekly.news/advertising.html">advertise with us</a>!</p>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://medium.com/@edmundnoble/cabal-or-stack-25886c0ac74f">Cabal, or Stack? A dialogue</a></li>
+<li><a href="http://www.flatmap.io">flatmap.io: Discover new opportunity</a></li>
+<li><a href="https://haskellweekly.news/podcast/episodes/15.html">Haskell Weekly Podcast episode 15: Lazy sharing</a></li>
+<li><a href="https://github.com/Bodigrim/poly/tree/f5a81c2ff5177eda511ed500d62fb33d2b6b86b7"><code>poly</code>: Fast polynomial arithmetic in Haskell</a></li>
+<li><a href="https://github.com/Atidot/reflex-widgets/tree/baeb6dafb39ee2c2b1d0b2b917b9e87f8c8dadcd"><code>reflex-widgets</code>: Atidot Reflex FRP widgets</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/lucid-2.9.11">Lucid</a>, a library that provides a clear to write, read and edit DSL for HTML.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/cdepillabout/pretty-simple/issues/46">pretty-simple: pPretty detected tty for whether to enable color or not</a></li>
+</ul>
+<h2>Events</h2>
+<h3>North America</h3>
+<ul>
+<li>2019-07-25 in Raleigh, NC, USA by Raleigh Haskell Meetup: <a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzkbhc/">(hack . yack)</a></li>
+<li>2019-07-25 in Chicago, IL, USA by The Project Euler Sprint: <a href="https://www.meetup.com/Project-Euler-Sprint/events/zwdfdryzkbhc/">Project Euler Sprint</a></li>
+<li>2019-07-25 in Bellevue, WA, USA by Fun(c)tional Programming Group: <a href="https://www.meetup.com/fun-c-group/events/263130306/">Introduction to type classes in Scala with Rafa Paradela </a></li>
+<li>2019-07-26 in Austin, TX, USA by Austin Types, Theorems, and Programming Languages: <a href="https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/jfkqlnyzkbjc/">Going through Software Foundations by Benjamin Pierce et al</a></li>
+<li>2019-07-27 in San Diego, CA, USA by San Diego Software Development Deep Dive: <a href="https://www.meetup.com/San-Diego-Software-Development-Deep-Dive/events/qcjdcryzkbkc/">Diving deeper into software development discussions </a></li>
+<li>2019-07-27 in Boston, MA, USA by Weekly Functional Programming Meetup: <a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/cfgmcryzkbkc/">Hang out + short talk (Drafting a Haskell Curriculum by Ian Jeffries)</a></li>
+<li>2019-07-27 in Berkeley, CA by Code Self Study: <a href="https://www.meetup.com/codeselfstudy/events/dkwpzpyzkbkc/">Open Programming Session (Saturday Afternoon)</a></li>
+<li>2019-07-28 in Ankeny, IA, USA by Des Moines Haskell Study Group: <a href="https://www.meetup.com/Des-Moines-Haskell-Study-Group/events/nkqvzqyzkbcc/">(Ankeny) Week 9. Ch. 15 (Monoid and Semigroup)</a></li>
+<li>2019-07-29 in Irvine, CA by Orange Combinator - Functional Programming In OC: <a href="https://www.meetup.com/orange-combinator/events/bmxjdryzkbmc/">The Weekly Function</a></li>
+<li>2019-07-30 in Brooklyn, NY, USA by New York Haskell Users Group: <a href="https://www.meetup.com/NY-Haskell/events/shmktqyzkbnc/">Parallel and Concurrent Haskell Reading Group</a></li>
+<li>2019-07-30 in Poughkeepsie, NY by Hudson Valley Programmers: <a href="https://www.meetup.com/hvprogrammers/events/dgfpwpyzkbfc/">Networking over Dinner</a></li>
+<li>2019-07-31 in Berkeley, CA by Code Self Study: <a href="https://www.meetup.com/codeselfstudy/events/vpbnfryzkbpc/">Open Programming Session (Wednesday, Berkeley)</a></li>
+<li>2019-07-31 in Sandy, UT, USA by Utah Elm: <a href="https://www.meetup.com/utah-elm/events/vxpxcryzkbgc/">Project Night</a></li>
+<li>2019-08-01 in Raleigh, NC, USA by Raleigh Haskell Meetup: <a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/nsfsnqyzlbcb/">(hack . yack)</a></li>
+<li>2019-07-25 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: <a href="https://www.meetup.com/las-vegas-functional-programming/events/jkznkqyzkbhc/">Functional Programming Meetup</a></li>
+</ul>
+<h3>Europe</h3>
+<ul>
+<li>2019-07-25 in Karlsruhe, Germany by The Karlsruhe Functional Programmers Meetup Group: <a href="https://www.meetup.com/The-Karlsruhe-Functional-Programmers-Meetup-Group/events/wlkqmqyzkbhc/">Stammtisch (gemeinsam mit der C++ UG KA)</a></li>
+<li>2019-07-25 in München, Germany by Elm |&gt; Munich: <a href="https://www.meetup.com/Munich-Elm/events/262672999/">Monthly Elm Meeting #17</a></li>
+<li>2019-07-25 in Bucharest, Romania by Bucharest FP: <a href="https://www.meetup.com/bucharestfp/events/262983213/">Bucharest FP #59: A Simple HTTP Server in Haskell</a></li>
+<li>2019-07-25 in Zürich, Switzerland by HaskellerZ: <a href="https://www.meetup.com/HaskellerZ/events/262814143/">Mauro Bieg - pandoc: converting documents for fun and profit!</a></li>
+<li>2019-07-25 in London EC2, United Kingdom by Skills Matter - xMatters Keynote Series - Developer Events: <a href="https://www.meetup.com/skillsmatter/events/262612695/">Keynote by Angela Yu on Why I’m Building My Next App in Flutter</a></li>
+<li>2019-07-30 in Copenhagen, Denmark by Mødegruppe for F#unktionelle Københavnere: <a href="https://www.meetup.com/MoedegruppeFunktionelleKoebenhavnere/events/rqbcdlyzkbnc/">[Cancelled du to holiday] MF#K: Meetup last Tuesday of every month</a></li>
+<li>2019-07-30 in Madrid, Spain by Crypto Plaza: <a href="https://www.meetup.com/Crypto-Plaza/events/263355128/">BlockMad: “Breve introducción a Cardano para desarrolladores”</a></li>
+<li>2019-07-30 in Madrid, Spain by Madrid Haskell Users Group: <a href="https://www.meetup.com/Haskell-MAD/events/263418317/">“Breve introducción a Cardano para desarrolladores”</a></li>
+<li>2019-07-30 in Regensburg, Germany by Regensburg Haskell Meetup: <a href="https://www.meetup.com/Regensburg-Haskell-Meetup/events/263117275/">July meetup</a></li>
+<li>2019-07-31 in Leeds, United Kingdom by Code &amp; Coffee (Leeds): <a href="https://www.meetup.com/Code-Coffee-Leeds/events/lbrrtlyzkbpc/">Code &amp; Coffee</a></li>
+<li>2019-07-31 in Bristol, United Kingdom by Bristol Clojurians: <a href="https://www.meetup.com/Bristol-Clojurians/events/nwvqlqyzkbpc/">Clojure Study Group</a></li>
+</ul>
+<h3>Asia</h3>
+<ul>
+<li>2019-07-27 in Delhi, India by DelhiNCR Haskell And Functional Programming Languages Group: <a href="https://www.meetup.com/DelhiNCR-Haskell-And-Functional-Programming-Languages-Group/events/btlxsqyzkbkc/">FPNCR Unscripted Online meetup</a></li>
+<li>2019-07-27 in Bengaluru, India by Bangalore Functional Programmers Meetup: <a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/263022453/">Monads in Haskell</a></li>
+<li>2019-08-01 in Taipei, Taiwan by Functional Thursday: <a href="https://www.meetup.com/Functional-Thursday/events/263023892/">將單子用於程式推導 FunTh#75</a></li>
+</ul>
+<h3>Oceania</h3>
+<ul>
+<li>2019-07-25 in Melbourne, Australia by Melbourne Haskell Users Group: <a href="https://www.meetup.com/Melbourne-Haskell-Users-Group/events/qfptslyzkbhc/">Melbourne Haskell Users Group Meetup</a></li>
+</ul>
+<h3>South America</h3>
+<ul>
+<li>2019-07-31 in Quito, Ecuador by Quito Lambda: <a href="https://www.meetup.com/Quito-Lambda-Meetup/events/mscxlpyzkbgc/">GraphQL vs REST: El futuro de la web</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/168.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      169
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/170.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 117 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 117 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 117 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/117.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 117
+    <small class="text-muted">
+      <time>
+        2018-07-26
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://chrispenner.ca/posts/intro-to-finger-trees">A practical introduction to finger trees</a></p>
+<blockquote>
+<p>Finger trees are definitely the coolest data structure I was never taught in school. The gist of finger trees is that they represent sequences of elements where the elements also have a measurable “descriptor” of some kind.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://qfpl.io/posts/sv-1.0/">Announcing <code>sv</code> 1.0</a></p>
+<blockquote>
+<p><code>sv</code>, a CSV library for Haskell by the Queensland Functional Programming Lab, was released over four months ago. Since then, we’ve had feedback on what potential users want from the library, and we have altered the design to the point where we are now releasing a new version: <code>sv</code> 1.0.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://blog.clement.delafargue.name/posts/2018-07-19-bake-delicious-macaroon-burritos-with-servant.html">Bake delicious macaroon burritos with Servant</a></p>
+<blockquote>
+<p>I’ve had the pleasure to find a team already enjoying the use of macaroons. One of my first missions was to improve how they were used to authorize API calls, in the context of Servant applications. After a few iterations, we’ve settled on a design I’m quite happy with.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://litx.io/blog-instance-map.html">Dependent typing and existential (de)serialization</a></p>
+<blockquote>
+<p>One of Haskell’s present limitations is the lack of dependent types, meaning that the return type of a function cannot depend on the value of its inputs. This can be a frustrating restriction when dealing with serialized data or other untyped inputs.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://hub.zhox.com/posts/chocolatey-introduction/">Haskell &amp; AppVeyor Chocolatey introduction</a></p>
+<blockquote>
+<p>For those who are unaware, Windows has had quite a push lately to provide script-able ways to install packages. One such attempt that has gained quite a lot of traction is Chocolatey. Chocolatey also contains some of my own packages for installing GHC and Cabal.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://cs-syd.eu/posts/2018-07-28-mergeless">Merge-free synchronisation with <code>mergeless</code></a></p>
+<blockquote>
+<p>Synchronisation between a client and a server has been a problem that I have been brewing on in the back of my mind for a long time now. Today I am releasing a Haskell library that helps with exactly this problem.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.fpcomplete.com/blog/2018/07/pantry-part-2-trees-keys">Pantry, part 2: Trees and keys</a></p>
+<blockquote>
+<p>This is part two of a series of blog posts on Pantry, a new storage and download system for Haskell packages. In March of last year, there was a bug on Hackage. The problem was resolved, but this made me wonder: Is there any reason why checksums should depend on inconsequential artifacts of the tar format?</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/90xyb1/ann_smuggler_ghc_source_plugin_to_manage_import/">Smuggler: GHC source plugin to manage import section</a></p>
+<blockquote>
+<p>Hello everyone! We want to announce the first alpha version of <code>smuggler</code> — the compiler plugin which removes unused imports automatically. Though we’re planning to add more features to help you manage the import sections easily!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://haskell-works.github.io/posts/2018-07-25-problem-of-parsing-large-datasets.html">The problem of parsing large datasets</a></p>
+<blockquote>
+<p>In data processing, the volume of data can be so large that the amount of time it takes to process a file matters. In my work, I try to optimize such jobs so that it is more efficient, but surprisingly, it is often not the business logic that is the bottleneck, but the parsing of files itself that consumes large amounts of CPU and memory.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.joachim-breitner.de/blog/742-WebGL%2C_Fragment_Shader%2C_GHCJS_and_reflex-dom">WebGL, Fragment Shader, GHCJS and <code>reflex-dom</code></a></p>
+<blockquote>
+<p>On the side and very slowly I am working on a little game that involves breeding spherical patterns. I want to implement it in Haskell, but have it run in the browser, so I reached for GHCJS, the Haskell-to-JavaScript compiler.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://medium.com/@neongreen/wire-is-hiring-a-haskell-developer-and-an-operations-engineer-berlin-51e7f3ed3050">Wire is hiring a Haskell developer in Berlin</a></p>
+<blockquote>
+<p>The backend team is pretty small (just four people) and recently we’ve been overwhelmed with work, which is exciting — but, admittedly, having a life is even more exciting, which is why we’re looking for: an intermediate-level Haskeller to work with us on the backend</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/904029/job_haskell_developer_interested_in_formal/">Here Technologies is hiring a Haskell developer in Berlin</a></p>
+<blockquote>
+<p>We are looking for Haskell developers with an interest in testing and formal methods. The job involves further developing and making use of the quickcheck-state-machine library, to perform state machine based end-to-end testing.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://functional.works-hub.com/jobs/software-engineer-new-york-new-york-united-states-7fd34">Kadena is hiring a Haskell developer in New York</a></p>
+<blockquote>
+<p>Located in New York, Kadena is utilizing the power of blockchain, Haskell, and their own smart contract language to solve business problems. Love Haskell and love Blockchain? Helluva role for you!</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://adjoint-io.github.io">Adjoint open source</a></li>
+<li><a href="https://www.twitch.tv/videos/287889784">Edward Kmett: Haskell live-coding: Session 6: CEK machines</a></li>
+<li><a href="https://github.com/rsnikhil/RISCV-ISA-Spec/tree/e226df0699bfb2fbe03950c589008746ec0060d6">Forvis: A formal RISC-V ISA specification</a></li>
+<li><a href="https://mmhaskell.com/blog/2018/7/23/making-the-jump-advancing-past-beginner-haskell">Making the jump: Advancing past beginner Haskell</a></li>
+<li><a href="https://gist.github.com/atondwal/ee869b951b5cf9b6653f7deda0b7dbd8/bc976ebf475857d0115822f1f470b61eb11c0cbb">Popularity of Haskell extensions</a></li>
+<li><a href="https://alternativebit.fr/posts/haskell/ag/">Silver Searcher: Useful regexes for a Haskell code base</a></li>
+<li><a href="https://www.youtube.com/watch?v=t0mhvd3-60Y">Simon Peyton Jones: Linear Haskell: Practical linearity in a higher-order polymorphic language</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/91f5r7/snack_incremental_nix_builds_for_haskell/">Snack: Incremental Nix builds for Haskell</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/slick-0.1.0.2">Slick</a>,
+a static site generator written and configured using Haskell.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/bos/aeson/issues/654">aeson: <code>{-# ANN otations #-}</code> cause interpreter to load.</a></li>
+<li><a href="https://github.com/haskell/haskell-ide-engine/issues/713">haskell-ide-engine: Get tests working on windows</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>July 26 in Zürich, Switzerland: <a href="https://www.meetup.com/HaskellerZ/events/251632689/">Alex Silva: A tour of dependent types with Idris</a></li>
+<li>July 27 in Ahmedabad, India: <a href="https://www.meetup.com/Ahmedabad-Web-and-Mobile-Developers-Meetup/events/253092538/">GraphQL engine on Postgres</a></li>
+<li>July 28 in Boston, Massachusetts: <a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/253005360/">Hang out, chat FP, work on some code</a></li>
+<li>July 29 in Bangalore, India: <a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/252925681/">Functors</a></li>
+<li>July 30 in Portland, Oregon: <a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/253039606/">Chapter 2 of Parallel and Concurrent Programming in Haskell</a></li>
+<li>July 31 in Detroit, Michigan: <a href="https://www.meetup.com/Detroit-Functional-Developers/events/253127083/">Intro to Haskell types with drinks to follow</a></li>
+<li>August 1 in Dublin, Ireland: <a href="https://www.meetup.com/haskell-dublin-meetup/events/252468400/">Self-paced Haskell study group with special talk</a></li>
+<li>August 2 in Singapore: <a href="https://www.meetup.com/HASKELL-SG/events/252824929/">August Haskell meetup</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/116.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      117
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/118.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 95 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 95 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 95 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/95.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 95
+    <small class="text-muted">
+      <time>
+        2018-02-22
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+Open an issue or pull request <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://summer.haskell.org/ideas.html">GSoC 2018 ideas</a></p>
+<blockquote>
+<p>This is a list of ideas for students who are considering to apply to Google Summer of Code 2018 for Haskell.org.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.haskell.org/haskell-symposium/2018/">Haskell Symposium 2018</a></p>
+<blockquote>
+<p>The Haskell Symposium aims to present original research on Haskell, discuss practical experience and future development of the language, and to promote other forms of denotative programming.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.snoyman.com/blog/2018/02/haskell-ecosystem-requests">Haskell ecosystem requests</a></p>
+<blockquote>
+<p>A single comment in a mega-thread on GitHub is hardly a good place to write down these requests, however, and it seems like there’s no progress on them. I’m going to instead put down these ideas here, with a bit more explanation, and a few more ideas that have popped up since then.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://neilmitchell.blogspot.com/2018/02/atomic-expressions-generically.html">Atomic expressions generically</a></p>
+<blockquote>
+<p>For certain hints HLint needs to determine if a Haskell expression is atomic. I wrote a generic method to generate expressions and test if they are atomic.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://arunraghavan.net/2018/02/applicative-functors-for-fun-and-parsing/">Applicative functors for fun and parsing</a></p>
+<blockquote>
+<p>I am very excited by how elegantly Haskell allows us to express these ideas, using fundamental aspects of its type(class) system.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://blog.lahteenmaki.net/applicative-parsing.html">Applicative parsing</a></p>
+<blockquote>
+<p>I heard about Applicative Parsing, and learned that even the state of the art monadic parser combinator libraries in Haskell actually come with applicative interfaces. So, what’s going on?</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mmhaskell.com/blog/2018/2/19/applicative-parsing-ii-putting-the-pieces-together">Applicative parsing 2: Putting the pieces together</a></p>
+<blockquote>
+<p>This week, we’ll put these pieces together in an actual parser for our Gherkin syntax.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://blue-dinosaur.github.io/haskell/type-theory/programming/2018/02/19/result-types.html">Why are types so cool, Part 1: Result types</a></p>
+<blockquote>
+<p>Haskell is denser than Python code, and it is semantically richer. It can convey more precise and richer meanings about what the code does. And Haskell can type-check that code and guarantee that it makes sense. It won’t throw exceptions or errors.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://janmasrovira.gitlab.io/ascetic-slug/post/ascii-fractals/">ASCII fractals</a></p>
+<blockquote>
+<p>Getting hypnotized by the shape of a fractal is certainly fascinating. In this blog, we will write a Haskell program that creates fractals from a base pattern. The recursive nature of the fractals allow a simple implementation in Haskell.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/7ysft5/tsuru_is_hiring/duits8s/">Developer at Tsuru in Tokyo</a></p>
+<blockquote>
+<p>Tsuru Capital is hiring, full time and intern positions are available. Haskell knowledge is required, experience with pricing futures/options would be nice but not necessary. Located in Tokyo, company language is English.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://twitter.com/snoyberg/status/965969385755172869">Remote devops at FP Complete</a></p>
+<blockquote>
+<p>We’re continuing to expand our devops team at FP Complete. Remote work, awesome team, modern tooling, interesting projects.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="http://oleg.fi/gists/posts/2018-02-21-single-free.html">Free <code>Monad</code> and free <code>Applicative</code> using single <code>Free</code> type</a></li>
+<li><a href="https://bartoszmilewski.com/2018/02/20/free-monoidal-profunctors/">Free monoidal profunctors</a></li>
+<li><a href="http://www.hsyl20.fr/home/posts/2018-02-21-heterogeneous-collections.html">Heterogeneous collections</a></li>
+<li><a href="https://github.com/dbousamra/hnes/tree/02a1db57c4cc045af64892919c395f09d129f9fd">hnes: NES emulator written in Haskell</a></li>
+<li><a href="https://github.com/achirkin/vulkan/tree/cfb85bc7096abf6099b9253ac3da28d4ffd40ee4">Low-level, low-overhead Haskell bindings to Vulkan API</a></li>
+<li><a href="https://github.com/commercialhaskell/stack/releases/tag/v1.6.5">Stack 1.6.5 released</a></li>
+<li><a href="https://github.com/naushadh/hello-world/tree/3a4ecb3e49a7cd1624c385bdb808518182fd17cb#example-1-ultra-light-docker-image">Ultra light Haskell Docker image</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/massiv-0.1.0.0">massiv</a>,
+a library for multi-dimensional arrays with fusion, stencils and parallel computation.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/haskell-graphql/graphql-api/issues/172">graphql-api: How to throw an error from a handler?</a></li>
+<li><a href="https://github.com/purescript/purescript/issues/3247">purescript: <code>:browse</code> in REPL doesn’t show re-exported names</a></li>
+<li><a href="https://github.com/commercialhaskell/stack/issues/3873">stack: Allow GitHub shorthand for <code>extra-deps</code></a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>February 22: <a href="https://www.meetup.com/Berlin-Functional-Programming-Group/events/246441427/">PureScript happy hour with Justin Woo</a> in Berlin, Germany</li>
+<li>February 23: <a href="https://www.meetup.com/Austin-Types-Theorems-and-Programming-Languages/events/245115075/">Software Foundations by Benjamin Pierce</a> in Austin, Texas, United States</li>
+<li>February 24: <a href="https://www.meetup.com/Papers-we-love-Bangalore/events/247608496/">A note on distributed computing with Indradhanush Gupta</a> in Bangalore, India</li>
+<li>February 26: <a href="https://www.meetup.com/Vancouver-Functional-Programmers/events/247554893/">Haskell peer study group</a> in Vancouver, Canada</li>
+<li>February 27: <a href="https://www.meetup.com/Functional-Programming-Auckland/events/247729046/">Auckland FP Meetup 3-topic event: Nix/NixOS; Haskell web dev; Lisp</a> in Auckland, New Zealand</li>
+<li>February 28: <a href="https://www.meetup.com/London-Haskell/events/247767200/">Programs writing programs</a> in London, United Kingdom</li>
+<li>March 1: <a href="https://www.meetup.com/NY-Women-Who-Functional-Code/events/243905448/">Women who are functional programmers presentation, network and discussions</a> in New York City, New York, United States</li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/94.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      95
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/96.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

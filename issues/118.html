@@ -1,0 +1,224 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 118 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 118 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 118 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/118.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 118
+    <small class="text-muted">
+      <time>
+        2018-08-02
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://blog.nyarlathotep.one/2018/07/ghc-one-compiler-to-rule-them-all/">GHC, one compiler to <code>RULE</code> them all</a></p>
+<blockquote>
+<p>I am using some GHC pragmas to optimize Alga and I must admit that they are very powerful. On the wise counsel of one of my GSoC mentors, A. Mokhov, here is a little summary of what I discovered, as this can help others.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://mgsloan.com/posts/ghcinception/">GHCinception: Running GHCi in GHCi</a></p>
+<blockquote>
+<p>I’m happy to announce that you can now easily load GHC into GHCi! I’ve been using this for about a month now, and for me it makes GHC development far more pleasant than using make. This can often lead to iteration times of only 10-30 seconds to try out some modified behavior.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://vaibhavsagar.com/blog/2018/07/29/hamts-from-scratch/">Hash array mapped tries from scratch</a></p>
+<blockquote>
+<p>If you haven’t heard of them before, HAMTs are a way of efficiently representing a hashtable as a trie, and although they were first envisioned as a mutable data structure they are easily adapted to work as a persistent data structure.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://danghica.blogspot.com/2018/07/haskell-if-monads-are-solution-what-is.html">If monads are the solution, what is the problem?</a></p>
+<blockquote>
+<p>The lay interpretation is that monads are mathemagical constructs that allow you to add “computations” (also sometimes called “effects”) to a “pure” programming language. This lay interpretation is largely wrong and the Haskell monadic dogma is rather overblown.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://haskell-works.github.io/posts/2018-08-01-introduction-to-rank-select-bit-string.html">Introduction to the rank-select bit-string</a></p>
+<blockquote>
+<p>If we want to minimise memory usage, the first thing you should do is avoid duplicating data. All the data we want to access is already in the document. Copying that data into intermediate objects so that we can work with them is wasteful.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://deliquus.com/posts/2018-07-30-imperative-programming-in-haskell.html">Making Haskell as fast as C: Imperative programming in Haskell</a></p>
+<blockquote>
+<p>This blog post compares several implementations of a concrete and relatively simple abstract data type in terms of execution time. Ultimately, we develop an imperative data structure using native Haskell code that is as fast as its C equivalent.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://dselsam.github.io/quickspec/">QuickSpec and the quest for good lemmas</a></p>
+<blockquote>
+<p>Given a fixed set of proofs, it is natural to consider a lemma to be good to the extent it enables compression of the proofs. But how might we know if a lemma is good before we know how it will be used?</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.fpcomplete.com/blog/2018/07/streaming-utf8-haskell-rust">Streaming UTF-8 in Haskell and Rust</a></p>
+<blockquote>
+<p>Since I seem to be a one-trick pony, I decided to write yet again to compare streaming data in Haskell and Rust. This was inspired by a cool post I saw on Reddit about converting characters in the Latin alphabet into look-alikes in the Cyrilic alphabet.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://iokasimov.github.io/posts/2018/07/type-walk-with-me">Type walk with me</a></p>
+<blockquote>
+<p>I lost count of how many times I’ve seen types/functions/families and another first-class abstractions that shouldn’t exist if we want to use more universal constructions. A little bit of theory can reduce and beautify our production code, and now I will try to demonstrate that.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://doisinkidney.com/posts/2018-07-30-verified-avl.html">Verified AVL trees in Haskell and Agda</a></p>
+<blockquote>
+<p>I’ve been writing a lot of Agda recently, and had the occasion to write a Fenwick tree that did some rebalancing. I went with AVL-style rebalancing (rather than red-black or trees of bounded balance).</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<p>Are you looking to hire a Haskell developer?
+You should <a href="/advertising.html">advertise with us</a>!
+Haskell Weekly reaches a highly engaged audience of almost 3,000 functional programming enthusiasts.</p>
+<ul>
+<li>
+<p><a href="https://www.lumi.com/jobs/full-stack-engineer">Full-stack engineer at Lumi in Los Angeles</a></p>
+<blockquote>
+<p>As a full-stack engineer at Lumi, you will be an important part of our small and dynamic team, working on a wide variety of projects, from customer-facing features to internal tools. We strive to write elegant code to solve real-world problems.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://mmhaskell.com/blog/2018/7/30/beam-database-power-without-template-haskell">Beam: Database power without Template Haskell</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/92xzre/hexplore_a_more_powerful_way_to_search_for/">HExplore: A more powerful way to search for packages on Hackage</a></li>
+<li><a href="https://sulami.gitlab.io/posts/how-this-blog-is-made/">How to use Haskell to generate a blog in an unnecessarily convoluted way</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/93gbdn/monthly_hask_anything_august_2018/">Monthly Hask Anything: August 2018</a></li>
+<li><a href="https://www.fpcomplete.com/blog/2018/08/pantry-part-3/specifying-dependencies">Pantry, part 3: Specifying dependencies</a></li>
+<li><a href="https://mpg.is/papers/gissurarson2018suggesting-xp.pdf">Suggesting valid hole fits for typed-holes</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/92vvoe/work_in_progress_ebook_haskell_for_javascript/">Work in progress e-book: Haskell for JavaScript developers</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://www.stackage.org/lts-12.4/package/foundation-0.0.21">Foundation</a>,
+an alternative prelude with batteries included and no dependencies.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/disco-lang/disco/issues/131">disco: Test suite section for failures</a></li>
+<li><a href="https://github.com/qfpl/sv/issues/19">sv: Column-name-based decoding for sv-cassava</a></li>
+</ul>
+<h2>Events</h2>
+<p>We are considering removing this section.
+If you are interested in maintaining this section,
+or simply don’t want to see it go,
+please let us know <a href="https://github.com/haskellweekly/haskellweekly.github.io/issues/207">on GitHub</a>!</p>
+<ul>
+<li>August 2 in Singapore: <a href="https://www.meetup.com/HASKELL-SG/events/252824929/">August Haskell meetup</a></li>
+<li>August 4 in Boston, Massachusetts: <a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/253005369/">Hang out, chat FP, work on some code</a></li>
+<li>August 6 in Melbourne, Australia: <a href="https://www.meetup.com/Elm-Melbourne/events/250594838/">Elm hack night</a></li>
+<li>August 7 in Singapore: <a href="https://www.meetup.com/API-Craft-Singapore/events/253334006/">Building GraphQL APIs with Hasura</a></li>
+<li>August 8 in Boulder, Colorado: <a href="https://www.meetup.com/Boulder-Haskell-Programmers/events/253035578/">Bound for greatness</a></li>
+<li>August 9 in Hamburg, Germany: <a href="https://www.meetup.com/Lambda-Pi/events/252428689/">Lambda Pi’s initial meetup</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/117.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      118
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/119.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

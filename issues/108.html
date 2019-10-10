@@ -1,0 +1,230 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 108 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 108 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 108 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/108.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 108
+    <small class="text-muted">
+      <time>
+        2018-05-24
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+Open an issue or pull request <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://www.fosskers.ca/blog/mapalgebra-en.html">Typesafe, Polymorphic, Parallel Map Algebra in Haskell</a></p>
+<blockquote>
+<p>Repeated, sequential operations over large imagery have been a thorn in the side of Raster processing systems for a long time. The new library <code>mapalgebra</code> leverages the Array library <code>massiv</code> to bring rigour and efficiency back to GIS, outperforming similar libraries in the field written in C and Scala.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://siskam.link/2018-04-14-cloning-fluxbb.html">Cloning FluxBB</a></p>
+<blockquote>
+<p>Writing a forum software is one of a few things that I-wish-I-had-but-hadn’t in the last of couple of years. For example, among a gazillion of abandoned repos on this GitLab account, <code>Forum</code> is one of them. If you take a glance of it, you will see that it’s an unfinished forum software. So, I decided to take a different approach to finally do it, no matter what it takes.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://idontgetoutmuch.wordpress.com/2018/05/19/cartography-in-haskell/">Cartography in Haskell</a></p>
+<blockquote>
+<p>Suppose you want to analyze your local election results and visualize them using a choropleth but you’d like to use Haskell. You could try using the shapefile package but you will have to do a lot of the heavy lifting yourself.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://hsyl20.fr/home/posts/2018-05-22-extensible-adt.html">Extensible ADT (EADT)</a></p>
+<blockquote>
+<p>In basic Haskell it is straightforward to add new functions over a data type. We can independently add an evaluator function, potentially in another module. However if we want to add a new case to the data type, we have to modify both the data type definition and the functions using it.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://blog.roman-gonzalez.ca/post/174140457777/fast-haskell-coding-with-cushions">Fast Haskell coding with cushions</a></p>
+<blockquote>
+<p>I like to say ComponentM implements a Monad to avoid the usual pyramid of withResourceX functions at the beginning of your application. It composes them all together once, so you don’t need to worry about it.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.parsonsmatt.org/2018/05/19/ghcid_for_the_win.html">Ghcid for the win!</a></p>
+<blockquote>
+<p>Ghcid is — at the current moment — the most important tool for Haskell development environments. It is fast, reliable, works on all kinds of projects, and is remarkably versatile. You can use it with any editor workflow, primarily by not integrating your editor!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/urbint-engineering/haskell-lens-operator-onboarding-a235481e8fac">Haskell lens operator onboarding</a></p>
+<blockquote>
+<p>Lenses are immensely useful to the Haskell programmer, but suffer from a discovery problem — without enough exposure or experience, it’s hard to know which operator to use in a given situation. This post provides explanations for common lens operators as well as example-driven references for developers just getting started with lenses.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.haskellforall.com/2018/05/how-i-evaluate-haskell-packages.html">How I evaluate Haskell packages</a></p>
+<blockquote>
+<p>This post summarizes the rough heuristics that I use for evaluating Haskell packages. Usually I use these rules of thumb when choosing between multiple similar packages or deciding whether to depend on a package at all. Some of these guidelines work for other programming languages, too, but some of them are unique to Haskell.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://ucsd-progsys.github.io/liquidhaskell-blog/2018/05/17/hillel-verifier-rodeo-I-leftpad.lhs/">The Hillelogram Verifier Rodeo I (LeftPad)</a></p>
+<blockquote>
+<p>A month ago, Hillel Wayne posted a verification challenge comprising three problems that might <em>sound</em> frivolous, but which, in fact, hit the sweet spot of being easy to describe and yet interesting to implement and verify. I had a lot of fun hacking them up in LH, and learned some things doing so.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://theam.github.io/tintin/">Tintin: A softer alternative to Haddock</a></p>
+<blockquote>
+<p>People like to get things done, and to do so, they have to use awesome libraries like yours. And to do so, they consume lots of tutorials and guides, which are a kind of soft documentation.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://functionaljobs.com/jobs/9080-software-engineer-developer-at-itprotv">Software engineer at ITProTV in Gainesville, Florida</a></p>
+<blockquote>
+<p>ITPro.TV is a fast-growing digital media business that focuses on continuing education in technical domains. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/8lk1hh/weever_apps_is_hiring_haskell_developers/">Weever Apps Is Hiring Haskell Developers</a></p>
+<blockquote>
+<p>Weever Apps is a software company based in Hamilton, Ontario Canada. We build cloud-based software products that large enterprises use to capture data, manage workflows, and access actionable reports. We replace clipboards and filing cabinets with tablets and databases and provide alerts, analysis, and other features that make data useful.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL5lgjzYOvyYMvAEXok1tLpBBtOOlfBYIU">BayHac 2018 videos</a></li>
+<li><a href="https://www.snoyman.com/blog/2018/05/building-packages-outside-snapshots">Building packages outside snapshots</a></li>
+<li><a href="http://blog.ploeh.dk/2018/05/22/church-encoding/">Church encoding</a></li>
+<li><a href="https://avi-d-coder.github.io/post/dear_haskell/">Dear Haskell: It’s not you, it’s your tooling</a></li>
+<li><a href="https://trandi.wordpress.com/2018/05/22/game-of-life-on-a-raspberry-pi-and-a-led-board-in-haskell/">Game of Life on a Raspberry Pi and a LED board in Haskell</a></li>
+<li><a href="https://blog.jle.im/entry/in-memory-of-ertugrul-soylemez.html">In Memory of Ertugrul Söylemez</a></li>
+<li><a href="https://blog.poisson.chat/posts/2017-01-01-monadic-profunctors.html">Monadic profunctors for bidirectional programming</a></li>
+<li><a href="https://mmhaskell.com/blog/2018/5/21/nix-haskell-concepts-for-package-managment">Nix: Haskell concepts for package managment</a></li>
+<li><a href="http://reasonablypolymorphic.com/blog/ecstasy-case-study/">Performance and feature case studies in Ecstasy</a></li>
+<li><a href="https://theam.github.io/require/">require: Scrap your qualified import clutter</a></li>
+<li><a href="http://www.rntz.net/post/2018-05-18-why-i-am-not-a-fan-of-stack.html">Why I am not a fan of Cabal or Stack</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/haxl-2.0.0.0">Haxl</a>,
+a library for efficient, concurrent, and concise data access.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/barrucadu/dejafu/issues/259">dejafu: Highlight failures in tests</a></li>
+<li><a href="https://github.com/purescript/psc-package/issues/107">psc-package: Dependencies field should be ordered in packages.json and psc-package.json</a></li>
+<li><a href="https://github.com/trailofbits/echidna/issues/51">echidna: Inconsistent test results in a simple contract</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>May 24: <a href="https://www.meetup.com/Eindhoven-Haskell-Meetup/events/250768106/">Quality assurance and testing with Validity</a> in Eindhoven, Netherlands</li>
+<li>May 25: <a href="https://www.meetup.com/Lille-FP/events/250297947/">LilleFP10: À l’assaut des TypeClasses (Scala à la rescousse)!</a> in Lille, France</li>
+<li>May 26: <a href="https://www.meetup.com/LA-PureScript/events/250215566/">May Day-Convoluted Weekend</a> in Los Angeles, California, United States</li>
+<li>May 28: <a href="https://www.meetup.com/Vancouver-Functional-Programmers/events/250831132/">Haskell peer study group</a> in Vancouver, British Columbia, Canada</li>
+<li>May 29: <a href="https://www.meetup.com/got-lambda/events/250803906/">Functional life cycles for state management during interactive development</a> in Göteborg, Sweden</li>
+<li>May 30: <a href="https://www.meetup.com/Gainesville-Functional-Programming-Meetup/events/250556201/">Haskell web frameworks</a> in Gainesville, Florida, United States</li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/107.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      108
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/109.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

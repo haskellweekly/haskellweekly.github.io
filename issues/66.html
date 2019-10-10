@@ -1,0 +1,223 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 66 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 66 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 66 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/66.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 66
+    <small class="text-muted">
+      <time>
+        2017-08-03
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+Haskell is a purely functional programming language that focuses on correctness, productivity, and expressiveness.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at <a href="https://twitter.com/haskellweekly">@HaskellWeekly</a> or <a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://codygman.github.io/posts/2017-07-30-faster-command-line-tools-with-haskell.html">Faster command line tools with Haskell</a></p>
+<blockquote>
+<p>What I wish to be true: I write high level Haskell code as declaratively and naively as possible and sufficiently smart compiler optimizations make it as fast as hand tuned Go code. Let’s see if it works out that way!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.parsonsmatt.org/2017/07/29/using_ghc_callstacks.html">Using GHC <code>CallStack</code>s</a></p>
+<blockquote>
+<p>Haskell doesn’t really have a call stack. The evaluation strategy is more like a graph reduction. If you don’t understand that, that’s okay — I don’t either! All I know about it is that it makes questions like “What’s the stack trace for this error?” surprisingly difficult to answer.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable">GHC warnings you should use in addition to <code>-Wall</code></a></p>
+<blockquote>
+<p>There are some useful warnings that are not turned on by <code>-Wall</code>. This post will describe which additional warnings you should enable. It will also show examples of bad code that will trigger the warnings. Keep in mind that this bad code will <em>not</em> get caught by <code>-Wall</code>.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.fpcomplete.com/blog/2017/07/to-void-or-to-void">To <code>Void</code> or to <code>void</code></a></p>
+<blockquote>
+<p>Unfortunately, intuition and reasoning are not appearing in our types, and therefore we need to rely on our own inner reasoning checker instead of letting GHC enforce things for us. As things scale up, eventually it gets difficult to know what’s happening in the code.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://ghc.haskell.org/trac/ghc/blog/2017-release-schedule">Reflections on GHC’s release schedule</a></p>
+<blockquote>
+<p>With 8.2.1 at long last behind us, now is a good time to reflect on why these cycles are so long, what release schedule we would like to have, and what we can change to realize such a schedule.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mmhaskell.com/blog/2017/7/31/coping-with-code-failures">Coping with (code) failures</a></p>
+<blockquote>
+<p>Haskell’s error facilities are a lot better than most languages. This week we’ll look at some common error handling patterns. We’ll see a couple clear instances where Haskell has simpler and cleaner code.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://charukiewi.cz/posts/elm/">Elm in production: 25,000 lines later</a></p>
+<blockquote>
+<p>We have managed to take a set of functionality that would have been exceptionally difficult to build using our old methods, and using the strengths of the Elm language and architecture, successfully developed the largest feature in our entire software product to date.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.tweag.io/posts/2017-08-03-linear-typestates.html">Encode state transitions in types using linear types</a></p>
+<blockquote>
+<p>One has to be careful not to use <code>s</code> ever again to avoid ill effects: types have failed us once again. What we need is the ability to consume the old <code>s</code>, to make it inaccessible. Which, coincidentally, is exactly what linear types enable.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.joachim-breitner.de/blog/727-How_is_coinduction_the_dual_of_induction_">How is coinduction the dual of induction?</a></p>
+<blockquote>
+<p>The coinduction rule is not the direct dual of the induction rule, but both are specializations of more general, relational proof methods, where the duality is clearly present.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://chairnerd.seatgeek.com/faster-redeploys-with-docker-build-cacher/">Faster (re)deploys with docker-build-cacher</a></p>
+<blockquote>
+<p>We traced these shortcomings to a missing key feature: It is not possible to carry statically generated cache files from one build to another once certain source files in the project change.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://www.fpcomplete.com/blog/2017/07/hiring-devops-engineers">FP Complete hiring devops engineers</a></p>
+<blockquote>
+<p>We are currently seeking to fill multiple devops positions, focusing on rolling out new build, deploy, and monitoring infrastructure. We are looking to hire both remote workers, and at least one engineer in the Phoenix, Arizona area for on site customer work.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://github.com/hot-leaf-juice/gotta-go-fast">Gotta Go Fast: A command line utility for practicing typing</a></li>
+<li><a href="https://jeltsch.wordpress.com/2017/08/02/haskell-in-leipzig-2017-submission-deadline-shifted/">Haskell in Leipzig 2017 submission deadline shifted</a></li>
+<li><a href="https://www.tweag.io/posts/2017-08-01-chak-joins-tweag.html">I am a functional programming evangelist</a></li>
+<li><a href="http://www.parsonsmatt.org/2017/07/27/inverted_mocking.html">Invert your mocks!</a></li>
+<li><a href="https://ghc.haskell.org/trac/ghc/blog/jenkins-ci">Meet Jenkins: GHC’s new CI and build infrastructure</a></li>
+<li><a href="http://nwolverson.uk/devlog/2017/08/01/purerl-0.11.html">purerl updates for 0.11</a></li>
+<li><a href="https://www.tweag.io/posts/2017-07-27-streaming-programs.html">Streaming programs without laziness: A short primer</a></li>
+<li><a href="http://haroldcarr.com/posts/2017-07-31-the-block-in-blockchain-merkle-trees.html">The block in blockchain explained (Merkle trees)</a></li>
+<li><a href="https://github.com/MaiaVictor/articles/tree/306144e00c05e72121c5d6b7ad9315f46ce75700/0000-oracle-free-terms-are-turing-complete">The oracle-free subset of Lamping’s abstract algorithm is Turing complete</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/6qoxgj/todays_stack_nightly_snapshot_uses_ghc_821/">Today’s Stackage nightly snapshot uses GHC 8.2.1!</a></li>
+<li><a href="https://medium.com/@zw3rk/what-is-new-in-cross-compiling-haskell-ffa8f6d90043">What is new in cross compiling Haskell</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/6pqre3/whats_the_next_best_big_thing_for_haskell_after/">What’s the next best big thing for Haskell after dependent types?</a></li>
+<li><a href="https://yi-editor.github.io/posts/2017-07-29-modularization/">Yi modularization</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/justified-containers-0.1.2.0">justified-containers</a>,
+a library that provide guarantees about the presence of keys within containers.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/beijaflor-io/haskell-language-dockerfile/issues/8">haskell-language-dockerfile: Test suite compilation failure with GHC 8.2</a></li>
+<li><a href="https://github.com/chpatrick/solga/issues/9">solga: Build failure with GHC 8.2</a></li>
+<li><a href="https://github.com/jtdaugherty/vty/issues/132">vty: Test suite build failure (due to GHC 8.2 perhaps)</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>August 28: <a href="http://www.composeconference.org/2017-melbourne/">Compose :: Melbourne</a></li>
+<li>August 30: <a href="https://www.meetup.com/Quito-Lambda-Meetup/events/238781847/">Quito Lambda: La programación funcional</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/65.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      66
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/67.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

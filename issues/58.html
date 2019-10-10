@@ -1,0 +1,189 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 58 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 58 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 58 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/58.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 58
+    <small class="text-muted">
+      <time>
+        2017-06-08
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a purely functional programming language that focuses on robustness, concision, and correctness.
+This is a weekly summary of what’s going on in its community.</p>
+<ul>
+<li>
+<p><a href="https://medium.com/@zw3rk/a-haskell-cross-compiler-for-ios-7cc009abe208">A Haskell cross compiler for iOS</a></p>
+<blockquote>
+<p>So far we have built a Haskell cross compiler for Raspberry Pi, as well as a Haskell cross compiler for Android. To round this off, we will build a cross compiler for iOS as well. With the WWDC signaling the end of 32-bit devices, we will only build the 64-bit cross compiler.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://blog.akii.de/posts/2017-06-04-eventsourcing-in-haskell.html">Event sourced aggregates in Haskell</a></p>
+<blockquote>
+<p>In this first post I’ll be digging into event sourced aggregates in Haskell. It basically means that instead of persisting some state like “Johns account balance is $100”, you keep track of the changes to John’s account: “First he deposited $125, then withdrew $25”.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://teh.id.au/posts/2017/06/07/round-trip-property/index.html">The round-trip property</a></p>
+<blockquote>
+<p>We know that parsers and printers are supposed to be dual. We can simply treat this as a law, and write a property test to enforce it. This is both the simplest useful property test I can think of for a working engineer and the most likely to reliably identify bugs of consequence.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://vmob.me/DE3Q17Haskellweek">How well do you know your programming tools? Take the survey and test your skills!</a> (ad)</p>
+<blockquote>
+<p>“It is a good survey which, in addition to remembering what I already knew, gave me new tools to learn about and work with.” This is how developers feel about the Developer Economics survey. The survey also shows you how you compare to other developers in your country. Plus you may win an iPhone 7 or a Pixel 32GB phone.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://hackernoon.com/assume-it-worked-and-fix-later-8436d18b7ed3">Assume it worked and fix it later</a></p>
+<blockquote>
+<p>If your email service is down, it can be beneficial to have the signup succeed regardless. By decoupling the success of an email request from the success of account signup, you can improve the reliability of your application.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mmhaskell.com/blog/2017/6/5/flexible-data-with-aeson">Flexible data with Aeson</a></p>
+<blockquote>
+<p>At a certain point, our Haskell programs have to be compatible with other programs running on the web. This is especially useful given the growing usage of micro-services as an architecture. Regardless, it’s very common to be transferring data between applications on different stacks.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://wickstrom.tech/programming/2017/06/05/tagless-final-encoding-of-a-test-language.html">Tagless final encoding of a test language</a></p>
+<blockquote>
+<p>I have experimented with a test language encoded in tagless final style, instead of algebraic data types, to support the typed combinators <code>beforeEach</code> and <code>beforeAll</code>. I want to share the Haskell prototype I ended up with, and explain how I got there.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.gigamonkeys.com/trees/">Can’t see the four-est for the trees</a></p>
+<blockquote>
+<p>It’s a fun puzzle so you may want to take a crack at it yourself before reading on. But this isn’t really about that puzzle. This is about how sometimes when the mathematical insights aren’t flowing it’s good to be a programmer.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://byorgey.wordpress.com/2017/06/07/the-typeclassopedia-is-now-up-to-date/">The Typeclassopedia is now up to date</a></p>
+<blockquote>
+<p>The title pretty much says it all: I have finally finished (I hope) updating the Typeclassopedia to reflect various recent changes to the language and standard libraries (such as the AMP and BBP/FTP). Along the way I also added more links to related reading as well as more exercises.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://blog.ielliott.io/continuations-from-the-ground-up/">Continuations from the ground up</a></p>
+<blockquote>
+<p>It’s difficult to learn functional programming without hearing about continuations. Often they’re mentioned while talking about boosting the performance of pure functional code, sometimes there’s talk of control flow, and occasionally with “time-travel” thrown in there to make it all seem more obscure.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.snoyman.com/blog/2017/06/how-to-send-me-a-pull-request">How to send me a pull request</a></p>
+<blockquote>
+<p>I find myself repeating a lot of the same comments in pull requests, so I decided to put together a list of what I consider the most important features of a good pull request. Other people will have different feelings on some of these, but the points below are what apply to my projects.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://www.stackage.org/package/yesod">Yesod</a>,
+a web framework for productive development of type-safe, RESTful, high performance web applications.</p>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/57.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      58
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/59.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

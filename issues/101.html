@@ -1,0 +1,232 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 101 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 101 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 101 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/101.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 101
+    <small class="text-muted">
+      <time>
+        2018-04-05
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+Open an issue or pull request <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://robots.thoughtbot.com/gamedev-with-elm-types">Gamedev with Elm types</a></p>
+<blockquote>
+<p>February’s game jam set a theme of safety. Leveraging Elm’s type system helped make the experience of building a game much nicer.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://typeclasses.com/news/2018-03-typeclasses-born">Welcome to Type Classes!</a></p>
+<blockquote>
+<p>This site will give a home to all the things we wanted to do but couldn’t fit into <em>Joy</em>. The core of the site will be video courses on Haskell, Nix, and related subjects.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/88wcxv/ann_rowdy_the_web_routing_dsl/">Announcing <code>rowdy</code>, the web routing DSL</a></p>
+<blockquote>
+<p><code>rowdy</code> has the best of both worlds: you get compile-time guarantee by interpreting the DSL in a Template Haskell splice, so you can generate datatypes and functions.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://reasonablypolymorphic.com/blog/hkd-not-terrible">HKD: Less terrible than you might expect</a></p>
+<blockquote>
+<p>I thought I’d take some time to respond to some of the concerns raised about my recent higher-kinded data and free lenses for higher-kinded data posts.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mmhaskell.com/blog/2018/4/2/connecting-to-mailchimpfrom-scratch">Connecting to MailChimp … from scratch!</a></p>
+<blockquote>
+<p>There are a couple different Haskell libraries out there for MailChimp. But we’re not going to use them! Instead, we’ll learn how we can use Servant to connect directly to the API.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://vaibhavsagar.com/blog/2018/03/31/ihaskell-mybinder/">IHaskell on mybinder.org</a></p>
+<blockquote>
+<p>I’m pretty excited about what this means for the Jupyter ecosystem and IHaskell in particular, and I’m looking forward to seeing what other people do with this!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.andrevdm.com/posts/2018-04-02-haskell-rogue-like.html">Haskell roguelike</a></p>
+<blockquote>
+<p>In this series of posts I’m going to discuss some of the major design decisions that you will need to consider when making a Haskell roguelike game.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://leonmergen.com/on-anonymous-networking-in-haskell-announcing-tor-and-i2p-for-haskell-f1e30f52294f">On anonymous networking in Haskell: Announcing Tor and I2P for Haskell</a></p>
+<blockquote>
+<p>I have developed a Haskell API for both projects. In this post I will outline the differences between these projects and illustrate how to use them within Haskell.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://colourcoding.net/2018/03/29/marvellous-moeb/">Marvellous moeb</a></p>
+<blockquote>
+<p>Haskell can process flat files as though they were hierarchal with the help of lazy evaluation and one ridiculously clever one-line function.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/gonimo/gonimo/blob/3ba98fe57325073c64d43ec7945d32f0933d7a54/front/doc/Gonimo-Architecture.md">The Gonimo architecture, Part 1: The component</a></p>
+<blockquote>
+<p>The most important part is probably that we split up a component’s input into a model (its dependencies on other components) and a <code>Config</code> which is introduced by the component itself.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://boards.greenhouse.io/github/jobs/1106071">Senior Engineering Leader at GitHub in San Francisco</a></p>
+<blockquote>
+<p>The Semantic Code leader must have or quickly develop high level domain expertise within the fields of program analysis, programming language theory (PLT), parsing and computational semantics.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.betterpath.com/jobs">Senior Engineer at Betterpath in Brooklyn</a></p>
+<blockquote>
+<p>We are looking for a senior engineer who will work on building health and financial products to help patients.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://github.com/kuribas/aeson-diff-generic/tree/d9ba6a3848c73d8dcb35776fd4881359b5b447cf"><code>aeson-diff-generic</code>: Apply a JSON patch to Haskell datatypes</a></li>
+<li><a href="https://purelyfunctional.org/posts/2018-04-02-llvm-hs-jit-external-function.html">Calling external functions from JIT-compiled LLVM modules using <code>llvm-hs</code></a></li>
+<li><a href="http://jeremymikkola.com/posts/2018_04_02_cheatsheet_state_and_error.html">Cheatsheet: Stacking the <code>State</code> and <code>Either</code> monads</a></li>
+<li><a href="https://github.com/hkgumbs/codec-beam/tree/fc17e13a2bd9aa17b4a418c191fcc5d8d0c95d92"><code>codec-beam</code>: Generate Erlang VM byte code from Haskell</a></li>
+<li><a href="https://mail.haskell.org/pipermail/ghc-devs/2018-April/015564.html">GHC 8.4.2-rc1 now available</a></li>
+<li><a href="https://github.com/takenobu-hs/haskell-ethereum-assembly/tree/14eeeb6aeefc70a2e4c265ce4ea0568afb9aeeb8"><code>haskell-ethereum-assembly</code>: Ethereum virtual machine assembly on Haskell DSL</a></li>
+<li><a href="https://whatthefunctional.wordpress.com/2018/03/29/making-l-systems-with-haskell-and-logo/">Making L-systems with Haskell and Logo</a></li>
+<li><a href="http://blog.ploeh.dk/2018/04/03/maybe-monoids/">Maybe monoids</a></li>
+<li><a href="http://h2.jaguarpaw.co.uk/posts/mtl-style-for-free/">MTL style for free</a></li>
+<li><a href="https://github.com/saschagrunert/nn/tree/fe9688176c2e2d509b5b5901164ba2538dabf367"><code>nn</code>: A tiny neural network</a></li>
+<li><a href="https://byorgey.wordpress.com/2018/03/30/parametricity-for-bifunctor/">Parametricity for <code>Bifunctor</code></a></li>
+<li><a href="https://www.fpcomplete.com/asynchronous-exception-handling-in-haskell">Webinar: Asynchronous exception handling in Haskell</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/tree-traversals-0.1.0.0">tree-traversals</a>,
+a library providing in-order, pre-order, post-order, level-order, and reversed level-order traversals for tree-like types.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/purebred-mua/purebred-email/issues/13">purebred-email: Tab character in subject header shows as whitespace</a></li>
+<li><a href="https://github.com/ndmitchell/shake/issues/577">shake: Error message could contain stdin</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>April 5: <a href="https://www.meetup.com/HASKELL-SG/events/248176854/">April Meetup</a> in Singapore</li>
+<li>April 6: <a href="https://www.meetup.com/Coding-in-Education-Bay-Area/events/248717027/">Learn and Teach Coding for Mid / High school Aged Kids</a> in Fremont, California, United States</li>
+<li>April 7: <a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/249373356/">First Official Weekly Functional Programming Meetup</a> in Cambridge, Massachusetts, United States</li>
+<li>April 9: <a href="https://www.meetup.com/Scala-Berlin-Brandenburg/events/248699720/">Mini-meetup: Type Classes in Scala and Haskell</a> in Berlin, Germany</li>
+<li>April 10: <a href="https://www.meetup.com/Haskell-Hangout/events/248547064/">Haskell Hangout: Getting Started with Yesod and Haskell Web Development</a> in San Diego, California, United States</li>
+<li>April 11: <a href="https://www.meetup.com/Boulder-Haskell-Programmers/events/249090504/">Type Driven Development</a> in Boulder, Colorado, United States</li>
+<li>April 12: <a href="https://www.meetup.com/Eastside-Fun-c-tional-Programming-Group/events/248722662/">Why do Functional Programmers always talk about Algebras?</a> in Bellevue, Washington, United States</li>
+<li>April 18: <a href="https://www.meetup.com/haskell-dublin-meetup/events/249428074/">Self-paced Haskell Study Group</a> in Dublin, Ireland</li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/100.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      101
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/102.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

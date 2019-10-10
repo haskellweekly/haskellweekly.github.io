@@ -1,0 +1,266 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 174 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 174 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 174 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/174.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 174
+    <small class="text-muted">
+      <time>
+        2019-08-29
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://www.haskell.org/ghc/blog/20190825-ghc-8.8.1-released.html">GHC 8.8.1 released</a> by Ben Gamari</p>
+<blockquote>
+<p>The GHC team is very pleased to announce the reelease of GHC 8.8.1. This release is the culmination of over 3000 commits by over one hundred contributors and has several new features and numerous bug fixes relative to GHC 8.6.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/haskell/cabal/blob/cabal-install-v3.0.0.0/cabal-install/changelog#L3">cabal-install 3.0.0.0 released</a> by Mikhail Glushenkov</p>
+<blockquote>
+<p>Legacy commands are now only accessible with the <code>v1-</code> prefixes, and the <code>v2-</code> commands are the new default.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/@ratherforky/hsoc-hadrian-optimisation-final-report-7c6aa1132dcd">HSoC — Hadrian Optimisation: Final Report</a> by James Foster</p>
+<blockquote>
+<p>This project was all about trying to optimise Hadrian, the new build system for GHC which uses Shake instead of Make, with the hope being that faster build times helps GHC devs, which in turn helps everyone in the wider community that uses GHC.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/@rizary/haskell-y-ever-after-summer-tales-for-every-full-stack-developer-part-two-1a0b0c0b8879">Haskell-y Ever After: Summer Tales for Every Full-stack Developer (Part Two)</a> by Andika Demas Riyandi</p>
+<blockquote>
+<p>A Google Summer of Code’s student story about implementing Haskell on the Hackage Matrix Builder’s frontend application using Functional Reactive Programming approach.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://odone.io/posts/2019-08-26-building-a-blog-in-haskell-with-yesod%E2%80%93giving-back.html">Building a Blog in Haskell with Yesod–Giving Back</a> by Riccardo Odone</p>
+<blockquote>
+<p>This is a series about Yesod: a Haskell web framework that follows a similar philosophy to Rails. In fact, it is strongly opinionated and provides a lot of functionality out of the box.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://haskell-explained.gitlab.io/blog/posts/2019/08/27/pattern-synonyms/index.html">PatternSynonyms for expressive code</a> by Raghu Kaippully</p>
+<blockquote>
+<p>PatternSynonyms is a very handy GHC extension to abstract away some implementation details of your data types and present a cleaner interface to the rest of the code.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://gvolpe.github.io/blog/functional-dependencies-and-type-families/">Functional Dependencies &amp; Type Families</a> by Gabriel Volpe</p>
+<blockquote>
+<p>Probably the coolest stuff has been about Functional Dependencies and Type Families, so this is my attempt to explain it in order to gain a better understanding and hopefully help someone else out there as well.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/graninas/automatic-whitebox-testing-showcase/tree/af3b931b7751c2f9a03044ff79b3ba88d8d69c4e">Automatic White-Box Testing with Free Monads</a> by Alexander Granin</p>
+<blockquote>
+<p>Automatic creation of regression tests by designing a system that records the input, output and side-effects of a business application in production.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://free.cofree.io/2019/08/21/mu-nu/">Fixed Points and Non-Fixed Points of Haskell Functors</a> by Ziyang Liu</p>
+<blockquote>
+<p>I’ve been playing with fixed points of Haskell functors lately and thought it would be useful to write down some of my thoughts, both to solidify my understanding and for future reference.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mpardalos.xyz/posts/customizable_datatypes.html">Customizable Datatypes</a> by Michail Pardalos</p>
+<blockquote>
+<p>This pattern allows parameters to be added in an easy way without cluttering up type signatures and has helped clean up a lot of code.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<p>Trying to hire a Haskell developer?
+You should <a href="https://haskellweekly.news/advertising.html">advertise with us</a>!</p>
+<h2>In brief</h2>
+<ul>
+<li>
+<p><a href="https://github.com/EggBaconAndSpam/eggbaconandspam.github.io/blob/1fb172bb4f9407664854b905d882708b00d6b096/posts/2019-08-22-final-report.md">Final Report: Dhall Language Server</a> by Frederik Ramcke</p>
+<blockquote>
+<p>This is my final report as part of GSoC 2019, working on the Dhall language server.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://blog.vmchale.com/article/fzf-ghci">How to Use Fzf in GHCi</a> by Vanessa McHale</p>
+<blockquote>
+<p>I use fzf when I’m on the command-line. To configure GHCi to use fzf instead of haskeline’s built-in search …</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://serokell.io/blog/haskell-history">Haskell. History of a Community-Powered Language</a> by Denis Oleynikov and Gints Dreimanis</p>
+<blockquote>
+<p>Here, we focus on the history of Haskell, the main programming language at Serokell. We have decided to highlight only the most important milestones, so no lengthy paragraphs and descriptions this time.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://ghc.dev">The Glasgow Haskell Compiler: a contributor’s cheatsheet</a> by Serokell</p>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/cublk4/what_is_your_opinion_on_how_to_make_haskell_more/">What is your opinion on how to make Haskell more popular?</a> by Dmitrii Kovanikov</p>
+<blockquote>
+<p>I believe we all will be happy if the language would be more widespread, there would be more Haskell job opportunities, and more people would be working on improving the ecosystem.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/caotic123/Kei/tree/5b80116b997fae60ace770aca7733cdb468d4f4b">Kei Language</a> by Tiago Campos</p>
+<blockquote>
+<p>Kei is a dependently typed language with a small and expressive core based on λΠ-calculus modulo rewriting.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://monoid.xyz/posts/haskell_ghcjs_benchmarks">Comparing native GHC versus GHCJS performance on a roguelike field-of-view algorithm</a> by Mikko Juola</p>
+<blockquote>
+<p>I knew that GHCJS-produced code is slow, but how slow? Compared to native code? That’s what this post is about.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/fairy-tale-agi-solutions/haskell-editor-setup/tree/f4977f8ef5dec487ef1bcc930cf0c30f80661154">Haskell editor / IDE setup</a> by Răzvan Flavius Panda</p>
+<blockquote>
+<p>Instructions for setting up Haskell editors/IDE</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://andreaspk.github.io/posts/2019-08-25-Opinion%20piece%20on%20GHC%20backends.html">Opinion piece on GHC backends</a> by Andreas Klebinger</p>
+<blockquote>
+<p>There is a never ending discussion about using llvm vs the default backend. So here is a quick recap of what we are talking about and my opinions on the matter.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://chrisdone.com/posts/static-smart-constructors/">Static Smart Constructors with Double Splices</a> by Chris Done</p>
+<blockquote>
+<p>Sometimes you’re making a DSL and you need a way to make a smart constructor that is static.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/@maiavictor/calling-a-function-a-googol-times-53933c072e3a">Can we call a function a googol times?</a> by Victor Maia</p>
+<blockquote>
+<p>Yes, this is about optimal reductions!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://cs-syd.eu/posts/2019-08-28-millismos">Millismos: Writing a simple forest-editor with brick</a> by Tom Sydney Kerckhove</p>
+<blockquote>
+<p>With the new cursor as defined in the previous poss about forest cursors we can take the next step towards making a Purely Functional Semantic Forests Editor like Smos.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://alicja.dev/zines/haskell_functions.html">Haskell zine: functions</a> by Alicja Raszkowska</p>
+</li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/sliceofpy-1.0.0">sliceofpy</a>, a library that provides Python-ish slicing traversals for Haskell.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/haskell/cabal/issues/6209">cabal: Add <code>--benchmark-options</code> option</a></li>
+<li><a href="https://github.com/haskell/haskell-ide-engine/issues/1374">haskell-ide-engine: Hlint parser error on <code>pattern</code></a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/173.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      174
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/175.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

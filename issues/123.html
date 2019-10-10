@@ -1,0 +1,246 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 123 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 123 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 123 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/123.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 123
+    <small class="text-muted">
+      <time>
+        2018-09-06
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://www.well-typed.com/blog/2018/09/compositional-zooming/">Compositional zooming for <code>StateT</code> and <code>ReaderT</code> using <code>lens</code></a></p>
+<blockquote>
+<p>Suppose we want to write an update that changes one of the fields in a particular address. If the address cannot be found, we want a precise error message that distinguishes between the address itself not being found, or one of its parents (the account, or the wallet) not being found.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://wickstrom.tech/programming/2018/09/04/declarative-gtk-programming-with-haskell.html">Declarative GTK+ programming with Haskell</a></p>
+<blockquote>
+<p>This post introduces a declarative GTK+ architecture for Haskell which I’ve been working on during the journey with FastCut, a video editor specialized for my own screencast editing workflow. It outlines the motivation, introduces the packages and their uses, and highlights parts of the implementation.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://jaspervdj.be/posts/2018-09-04-binomial-heaps-101.html">Dependent types in Haskell: Binomial heaps 101</a></p>
+<blockquote>
+<p>Who put binary numbers in my type system? This post makes a bit of a departure from the “practical Haskell” I usually try to write about, although — believe it or not — this blogpost actually originated from a very practical origin.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://summer.haskell.org/news/2018-09-01-final-results.html">Haskell.org GSoC results for 2018</a></p>
+<blockquote>
+<p>Google Summer of Code 2018 is officially over. The Haskell.org organisation had a very productive year with 17 accepted projects out of which 15 were successful. We would like to thank the students and mentors for the great summer, and, of course, Google for its generous support towards the open source community.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://lispcast.com/how-can-you-work-with-a-json-value-if-you-know-nothing-about-it/">How can you work with a JSON value if you know nothing about it?</a></p>
+<blockquote>
+<p>The question is rhetorical. Of course you can’t do anything if you know nothing about it. But we do know a ton! We just can’t (or it’s very difficult to) encode what we know as a type.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://haskell-works.github.io/posts/2018-09-03-simd-with-linecount.html">Introduction to SIMD with line count</a></p>
+<blockquote>
+<p>In a previous post I talked about using broadword techniques to create a rank-select bit-string from text. This post will explore using Single Instruction, Multiple Data (SIMD) instructions to achieve the same thing.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.arcadianvisions.com/blog/2018/org-nix-direnv.html">Robust notes with embedded code</a></p>
+<blockquote>
+<p>Emacs’s org-mode has great facilities for working with source code, often referred to by the name Org Babel. A simple use is having source code from various languages embedded in a single text file that is otherwise occupied with talking about that code.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://szibele.com/stakpak-flatpak-a-haskell-stack-app-into-flathub/">Stackpak: Flatpak a Haskell Stack app into Flathub</a></p>
+<blockquote>
+<p>After reading David Lettier’s great post on how to Flatpak a Haskell app into Flathub, I thought about generalizing his approach for Haskell Stack projects and have written Stackpak.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://argumatronic.com/posts/2018-09-02-effective-metaphor.html">The unreasonable effectiveness of metaphor</a></p>
+<blockquote>
+<p>I often find myself very frustrated by the way programmers talk about metaphor, so I chose a topic that would let me give an entirely different view of metaphors — metaphors the way linguists and cognitive scientists talk about them, metaphors as the crucial backbone of everyday thought and abstractions in mathematics and elsewhere.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://typeclasses.com/news/2018-09-text-and-bytestring">The various forms of <code>Text</code> and <code>ByteString</code></a></p>
+<blockquote>
+<p>This topic isn’t a tremendously complicated, but it can be difficult because it is rather tedious. I remember it as a source of endless frustration when I was first learning Haskell: Why so many strings?</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://mpowered.co.za/jobs/">Senior Haskell developer at Mpowered</a></p>
+<blockquote>
+<p>Join a small team of specialists working on refactoring an enterprise application from its Ruby on Rails origins to a future of type safety and extensibility built on Haskell.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://github.com/dhall-lang/dhall-lang/blob/915a8fad25e94bb2d6dcaa020165366123d5138b/CHANGELOG.md#v200">Announce: Dhall 2</a></li>
+<li><a href="https://github.com/kowainik/summoner/blob/b47535a7473337fa736c8e206a06635cc83b0284/CHANGELOG.md#110">Announce: Summoner 1.1</a></li>
+<li><a href="https://github.com/stepchowfun/effects/tree/08460a8ef4ddfe5d8a6a94b4f01a70506850505b">Effects: A brief exploration of the various approaches to modeling side effects</a></li>
+<li><a href="https://mmhaskell.com/blog/2018/8/20/making-the-jump-ii-using-more-monads">Making the jump 2: Using more monads</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/9bveu0/monthly_hask_anything_september_2018/">Monthly Hask Anything</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/9cyzzb/must_readfavourite_functional_pearls/">Must read/favourite functional pearls</a></li>
+<li><a href="https://github.com/minad/paripari/tree/18069fe868a187dfac855f3316d95ade3e43779b">PariPari: Fast parser combinator library for Haskell</a></li>
+<li><a href="https://domenkozar.com/2018/09/04/recent-cachix-downtime/">Recent Cachix downtime</a></li>
+<li><a href="https://blog.ploeh.dk/2018/09/03/the-identity-functor/">The identity functor</a></li>
+<li><a href="https://github.com/typelead/eta/issues/869">Tool to convert Java code to Eta code</a></li>
+<li><a href="https://chrispenner.ca/posts/update-monad">Update monads: Variation on state monads</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/9bxbwp/which_ide_are_you_using_for_hakell/">Which IDE are you using for Hakell?</a></li>
+<li><a href="https://blog.plover.com/2018/09/03/">Why I never finish my Haskell programs (part 1 of ∞)</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/megaparsec-7.0.0">Megaparsec</a>,
+an industrial-strength monadic parser combinator library.
+It is feature-rich and strikes a nice balance between speed, flexibility, and quality of parse errors.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/AllureOfTheStars/Allure/issues/84">Allure: Define more animals, especially aquatic</a></li>
+<li><a href="https://github.com/aviaviavi/curl-runnings/issues/34">curl-runnings: Index previous test cases by name</a></li>
+<li><a href="https://github.com/lorepub/moot/issues/106">moot: Conference organizers should be able to edit and preview their welcome message</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>2018-09-05 in Austin, TX, USA by Austin Haskell Users Group: <a href="https://www.meetup.com/ATX-Haskell/events/253982973/">Haskell Beginner-Friendly Lab</a></li>
+<li>2018-09-05 in Gainesville, FL, USA by Gainesville functional programming: <a href="https://www.meetup.com/gnv-fp/events/254237304/">Elm &amp; CSS: Fun, bad decisions</a></li>
+<li>2018-09-06 in Raleigh, NC, USA by Raleigh Haskell Meetup: <a href="https://www.meetup.com/Raleigh-Haskell-Meetup/events/254285240/">(hack . yack)</a></li>
+<li>2018-09-06 in Durham, NC, USA by Durham Haskell Meetup: <a href="https://www.meetup.com/Durham-Haskell-Meetup/events/253871673/">Morning Haskell (and Rust!) coding session</a></li>
+<li>2018-09-06 in Manchester, United Kingdom by Manchester Haskell Group (MHG): <a href="https://www.meetup.com/meetup-group-tHZJZdOn/events/253446773/">Coding Session</a></li>
+<li>2018-09-06 in Graz, Austria by Functional Programming Graz: <a href="https://www.meetup.com/Functional-Programming-Graz/events/253642451/">Functional Programming Meetup</a></li>
+<li>2018-09-06 in Santiago, Chile by Santiago Scala Meetup: <a href="https://www.meetup.com/Santiago-Scala-Meetup/events/251529088/">Santiago Scala Meetup</a></li>
+<li>2018-09-06 in Las Vegas, NV, USA by Las Vegas Functional Programming User Group: <a href="https://www.meetup.com/las-vegas-functional-programming/events/254057505/">Functional Programming Meetup</a></li>
+<li>2018-09-06 in Singapore, Singapore by HASKELL.SG: <a href="https://www.meetup.com/HASKELL-SG/events/254343021/">September Haskell Meetup</a></li>
+<li>2018-09-06 in Hamburg, Germany by Lambda Pi: <a href="https://www.meetup.com/Lambda-Pi/events/253946839/">Theorems for Free @ Mesosphere</a></li>
+<li>2018-09-08 in Chilliwack, BC, Canada by ChilliHask Haskell User Group: <a href="https://www.meetup.com/BC-HUG/events/254336872/">Weekly Haskell Coding Meetup</a></li>
+<li>2018-09-08 in Norcross, GA, USA by Atlanta Functional Programming Meetup: <a href="https://www.meetup.com/Atlanta-Functional-Programming-Meetup/events/253503047/">Norcross Haskathon</a></li>
+<li>2018-09-08 in Boston, MA, USA by Weekly Functional Programming Meetup: <a href="https://www.meetup.com/Weekly-Functional-Programming-Meetup/events/253005378/">Hang out, chat FP, work on some code</a></li>
+<li>2018-09-09 in Bangalore, India by Bangalore Functional Programmers Meetup: <a href="https://www.meetup.com/Bangalore-Functional-Programmers-Meetup/events/253702838/">Monads in Haskell</a></li>
+<li>2018-09-10 in Irvine, CA by Orange Combinator - Functional Programming In OC: <a href="https://www.meetup.com/orange-combinator/events/254401625/">Combinating - The Weekly Function</a></li>
+<li>2018-09-10 in Portland, OR, USA by Portland Functional Programming Study Group: <a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/254031750/">PDX Func Practice Track - Parallel and Concurrent Programming in Haskell</a></li>
+<li>2018-09-10 in Pittsburgh, PA, USA by Pittsburgh Functional Programming Meetup: <a href="https://www.meetup.com/Pittsburgh-Functional-Programming-Meetup/events/253797618/">Shell Scripting in Haskell</a></li>
+<li>2018-09-10 in Sandton, South Africa by Lambda Luminaries: <a href="https://www.meetup.com/lambda-luminaries/events/251751343/">Purely Functional Personal Finance with hledger</a></li>
+<li>2018-09-11 in Santa Monica, CA, USA by Santa Monica Haskell Users Group: <a href="https://www.meetup.com/santa-monica-haskell/events/254419787/">Haskell Study Group: Typeclasses</a></li>
+<li>2018-09-11 in Amsterdam, Netherlands by FP AMS: <a href="https://www.meetup.com/fp-ams/events/253592494/">Haskell Study Group #3</a></li>
+<li>2018-09-12 in Berkeley, CA by East Bay Functional Programming Study Group: <a href="https://www.meetup.com/eastbayfunctionalprogramming/events/254338424/">Open Programming Session (Wednesday)</a></li>
+<li>2018-09-12 in Portland, OR, USA by Portland Functional Programming Study Group: <a href="https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/254031795/">PDX Func Theory Track - Logic and Proof</a></li>
+<li>2018-09-12 in Noida, India by Reactive Application Programmers in Delhi NCR: <a href="https://www.meetup.com/Reactive-Application-Programmers-in-Delhi-NCR/events/254302140/">The Rise Of Scanamo: Async Access For DynamoDB In Scala</a></li>
+<li>2018-09-12 in Cluj-Napoca, Romania by Cluj.fp: <a href="https://www.meetup.com/Cluj-fp/events/253973807/">Akka actors: typed vs. untyped</a></li>
+<li>2018-09-12 in Suite 1305, IL, USA by Chicago Haskell: <a href="https://www.meetup.com/Chicago-Haskell/events/254041321/">Hack Night</a></li>
+<li>2018-09-12 in Montréal, QC, Canada by Lambda Montreal: <a href="https://www.meetup.com/lambda-montreal/events/254173494/">Samuel Gélineau shows us how to “Write your own Functional Reactive Library”</a></li>
+<li>2018-09-19 in Vancouver, Canada by VanFP: <a href="https://www.meetup.com/Vancouver-Functional-Programmers/events/pzvcfqyxmbqb/">Vancouver’s Haskell Book Workshop</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/122.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      123
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/124.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

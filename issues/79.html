@@ -1,0 +1,236 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 79 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 79 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 79 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/79.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 79
+    <small class="text-muted">
+      <time>
+        2017-11-02
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Tweet us at <a href="https://twitter.com/haskellweekly">@HaskellWeekly</a> or <a href="https://github.com/haskellweekly/haskellweekly.github.io">open a pull request</a>.</p>
+<h2>Survey</h2>
+<p>We are excited to announce <a href="https://haskellweekly.news/surveys/2017.html">the first annual Haskell users survey</a>!
+It is inspired by Rust’s recent surveys and Johan Tibell’s state of Haskell surveys from a few years ago.
+The goal of the survey is to better understand how Haskell users feel about the language, ecosystem, and community.
+So please, if you’re reading this:
+Take 10 minutes and fill out the survey.
+Thanks!</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://mail.haskell.org/pipermail/ghc-devs/2017-October/014994.html">GHC 8.2.2 release candidate 2</a></p>
+<blockquote>
+<p>The GHC team is very pleased to announce the second candidate of the 8.2.2 release of the Glasgow Haskell Compiler. This is the second and hopefully last of two release candidates leading up the final 8.2.2 release.</p>
+</blockquote>
+<p>Editor’s note: Use <a href="https://gist.github.com/tfausak/e60fe3fa93344c747ac38891fa55a0db/413b18b84a78ee10b48bfbb4adf898ff56d7e55d">this <code>stack.yaml</code></a> to easily test GHC 8.2.2-rc2 with Stack.</p>
+</li>
+<li>
+<p><a href="https://abhiroop.github.io/Haskell-Red-Black-Tree/">Persistent red-black trees in Haskell</a></p>
+<blockquote>
+<p>While Haskell is steadily gaining mainstream adoption in the industry, it still remains one of the most viable languages used as a teaching medium. In this post we will be looking at the construction and operations of red-black trees. Of special interest here would be the deletion of nodes, as the operation of delete is inherently opposed to Haskell’s fundamentals of immutability.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://wickstrom.tech/programming/2017/10/27/motor-finite-state-machines-haskell.html">Motor: Finite-state machines in Haskell</a></p>
+<blockquote>
+<p>While writing my talk “Finite-state machines? Your compiler wants in!”, I have worked on porting the Idris ST library to Haskell. I call it Motor. Motor is an experimental Haskell library for building finite-state machines with type-safe transitions and effects.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/jgm/pandoc/releases/tag/2.0">Pandoc 2.0</a></p>
+<p>This is such a massive release to the universal markup converter that it’s hard to summarize. Tons of new features, changes, fixes, and improvements.</p>
+</li>
+<li>
+<p><a href="https://medium.com/@zw3rk/building-ghc-the-package-database-50c37cf6ce33">Building GHC: The package database</a></p>
+<blockquote>
+<p>While we usually build packages for use with GHC via <code>cabal</code>, the packages GHC knows about are those registered in the known package database. The global package database usually resides next to the <code>ghc</code> binary and is called <code>package.conf.d</code>.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.parsonsmatt.org/2017/10/29/contributing_to_ghc.html">Contributing to GHC</a></p>
+<blockquote>
+<p>This post serves as notes and explorations of my first patch to GHC. I’m going to start from the very beginning — so it might be kind of boring!</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://tech.frontrowed.com/2017/11/01/rhetoric-of-clojure-and-haskell/">Dueling rhetoric of Clojure and Haskell</a></p>
+<blockquote>
+<p>Recently Lispcast wrote a post interpreting Rich Hickey’s controversial statements on static types. This post had some very interesting perspectives and some unfortunate misinformation.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://markkarpov.com/post/short-bs-and-text.html">Short <code>ByteString</code> and <code>Text</code></a></p>
+<blockquote>
+<p>There are other under-appreciated types and libraries that complement <code>ByteString</code> and <code>Text</code>. These may be a better choice in some circumstances, but I believe many Haskellers are not aware of them. This post aims to rectify that.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.tweag.io/posts/2017-11-01-streaming-and-foldl.html">The exodus to Streamgard, an epic poem</a></p>
+<blockquote>
+<p>The Serpent will assemble its minions, Early-close and Strictness of effects, and unleash its wrath upon our world. Foldl, son of Haskell and brother of Foldr, would lead humanity to its last bastion, Streamgard, and organize the final fight…</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://dirtcheaphaskell.io">Dirt cheap Haskell consultancy</a></p>
+<blockquote>
+<p>TL;DR: Pay us $100 per month and we’ll be answering your questions about Haskell.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/79ri32/new_fintech_startup_hiring_12_haskell_backend/">New fintech startup hiring 1-2 Haskell backend engineers</a></p>
+<blockquote>
+<p>Mercury is hiring 1-2 backend engineers to join our stealth B2B fintech startup. Since we’re a new startup, you’ll be shaping our backend codebase.</p>
+</blockquote>
+</li>
+</ul>
+<p>Are you looking to hire a Haskell developer?
+If so, <a href="https://haskellweekly.news/advertising.html">advertise with us</a>!</p>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://lexi-lambda.github.io/blog/2017/10/27/a-space-of-their-own-adding-a-type-namespace-to-hackett/">A space of their own: adding a type namespace to Hackett</a></li>
+<li><a href="http://hexagoxel.de/postsforpublish/posts/2017-10-30-brick-plus-reflex.html">An introduction to Brick+Reflex</a></li>
+<li><a href="https://github.com/facebook/duckling/blob/f0a0c1e6b8233a810f86e36b3350ed4408a9da58/README.md#readme">Duckling: A Haskell library that parses text into structured data</a></li>
+<li><a href="https://www.functionalgeekery.com/episode-113-oskar-wickstrom/">Functional Geekery Episode 113: Oskar Wickström</a></li>
+<li><a href="https://superstrings.io/haskell-is-not-programming-3246779f2ef6">Haskell is not programming: Introduction to the “Haskell in Pictures”</a></li>
+<li><a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos">NixCon 2017 videos</a></li>
+<li><a href="http://www.andrevdm.com/posts/2017-10-31-refactor-away-io.html">Refactoring to pure code and dealing with exceptions</a></li>
+<li><a href="https://www.barrucadu.co.uk/posts/concurrency/2017-10-28-writing-a-concurrency-testing-library-02.html">Writing a concurrency testing library part 2: Exceptions</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://github.com/serokell/importify/blob/1bbdf99bf2f0f4990d7a4a1fedc7a53971d42707/README.md#readme">Importify</a>,
+a tool that helps you to manage the import section of your Haskell project modules.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/haskell-foundation/foundation/issues/433">foundation: Add terminal size (row+column) capability in Basement.Terminal</a></li>
+<li><a href="https://github.com/haskell-foundation/foundation/issues/271">foundation: Improve upper/lower</a></li>
+<li><a href="https://github.com/sol/hpack/issues/210">hpack: Wrong cabal-version when custom-setup is used</a></li>
+<li><a href="https://github.com/luispedro/ngless/issues/40">ngless: Update samtools</a></li>
+<li><a href="https://github.com/yesodweb/yesod/issues/1450">yesod: For all yesodweb projects: Adding an PR/issue template</a></li>
+</ul>
+<p>Do you have a beginner-friendly issue you want some help with?
+Email <a href="mailto:info@haskellweekly.news">info@haskellweekly.news</a> to get it included here!</p>
+<h2>Events</h2>
+<ul>
+<li>November 2: <a href="https://www.meetup.com/Regensburg-Haskell-Meetup/events/244377298/">Regensburg Haskell Meetup: Digesting past events</a></li>
+<li>November 5: <a href="https://www.meetup.com/Berlin-Functional-Programming-Group/events/244432243/">Berlin Functional Programming Group: Haskell Programming From First Principles Study Group</a></li>
+<li>November 6: <a href="https://www.meetup.com/Heidelberg-Lambda/events/244584584/">Heidelberg λ Meetup: How to have fun with type-level Haskell, and adventure to Coq</a></li>
+<li>November 7: <a href="https://www.meetup.com/Haskallywags/events/244117419/">Haskallywags: Chapter 3 &amp; 4 (“Strings”, “Basica Datatypes”)</a></li>
+<li>November 8: <a href="https://www.meetup.com/Haskell-DC/events/244173483/">Haskell DC: Functional Reactive Programming</a></li>
+<li>November 9: <a href="https://www.meetup.com/haskellhackers/events/244525354/">Haskell Hackers: The South SF Bay Haskell User Group: Jon Coens: Hotswapping Haskell</a></li>
+</ul>
+<p>Know of an event that Haskell users would enjoy?
+Let <a href="mailto:info@haskellweekly.news">info@haskellweekly.news</a> know about it!</p>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/78.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      79
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/80.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

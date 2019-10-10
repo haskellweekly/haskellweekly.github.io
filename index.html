@@ -1,0 +1,2631 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Haskell Weekly">
+    <meta name="twitter:description" content="Haskell Weekly is a free email newsletter about the Haskell programming language. Each issue features several hand-picked links to interesting content about Haskell from around the web.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <h1>
+  Haskell Weekly
+  <small class="text-muted">
+    Newsletter
+  </small>
+</h1>
+
+<p class="lead">
+  Haskell Weekly is a free email newsletter about
+  <a href="https://www.haskell.org">the Haskell programming language</a>.
+  Each issue features several hand-picked links to interesting content about
+  Haskell from around the web.
+</p>
+
+<div class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Subscribe now to get a newsletter delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="alert alert-primary mt-3">
+  Haskell Weekly is now also a podcast!
+  Check it out at
+  <a href="https://haskellweekly.news/podcast/">haskellweekly.news/podcast</a>.
+</div>
+
+<h2>
+  Issues
+</h2>
+
+<div class="row">
+  <div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/180.html">
+          Issue 180
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-10-10
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/179.html">
+          Issue 179
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-10-03
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/178.html">
+          Issue 178
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-09-26
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/177.html">
+          Issue 177
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-09-19
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/176.html">
+          Issue 176
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-09-12
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/175.html">
+          Issue 175
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-09-05
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/174.html">
+          Issue 174
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-08-29
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/173.html">
+          Issue 173
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-08-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/172.html">
+          Issue 172
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-08-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/171.html">
+          Issue 171
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-08-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/170.html">
+          Issue 170
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-08-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/169.html">
+          Issue 169
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-07-25
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/168.html">
+          Issue 168
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-07-18
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/167.html">
+          Issue 167
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-07-11
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/166.html">
+          Issue 166
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-07-04
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/165.html">
+          Issue 165
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-06-27
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/164.html">
+          Issue 164
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-06-20
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/163.html">
+          Issue 163
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-06-13
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/162.html">
+          Issue 162
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-06-06
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/161.html">
+          Issue 161
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-05-30
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/160.html">
+          Issue 160
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-05-23
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/159.html">
+          Issue 159
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-05-16
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/158.html">
+          Issue 158
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-05-09
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/157.html">
+          Issue 157
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-05-02
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/156.html">
+          Issue 156
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-04-25
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/155.html">
+          Issue 155
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-04-18
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/154.html">
+          Issue 154
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-04-11
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/153.html">
+          Issue 153
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-04-04
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/152.html">
+          Issue 152
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-03-28
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/151.html">
+          Issue 151
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-03-21
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/150.html">
+          Issue 150
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-03-14
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/149.html">
+          Issue 149
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-03-07
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/148.html">
+          Issue 148
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-02-28
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/147.html">
+          Issue 147
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-02-21
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/146.html">
+          Issue 146
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-02-14
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/145.html">
+          Issue 145
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-02-07
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/144.html">
+          Issue 144
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-01-31
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/143.html">
+          Issue 143
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-01-24
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/142.html">
+          Issue 142
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-01-17
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/141.html">
+          Issue 141
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-01-10
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/140.html">
+          Issue 140
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2019-01-03
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/139.html">
+          Issue 139
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-12-27
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/138.html">
+          Issue 138
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-12-20
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/137.html">
+          Issue 137
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-12-13
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/136.html">
+          Issue 136
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-12-06
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/135.html">
+          Issue 135
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-11-29
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/134.html">
+          Issue 134
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-11-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/133.html">
+          Issue 133
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-11-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/132.html">
+          Issue 132
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-11-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/131.html">
+          Issue 131
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-11-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/130.html">
+          Issue 130
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-10-25
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/129.html">
+          Issue 129
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-10-18
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/128.html">
+          Issue 128
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-10-11
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/127.html">
+          Issue 127
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-10-04
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/126.html">
+          Issue 126
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-09-27
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/125.html">
+          Issue 125
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-09-20
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/124.html">
+          Issue 124
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-09-13
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/123.html">
+          Issue 123
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-09-06
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/122.html">
+          Issue 122
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-08-30
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/121.html">
+          Issue 121
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-08-23
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/120.html">
+          Issue 120
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-08-16
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/119.html">
+          Issue 119
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-08-09
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/118.html">
+          Issue 118
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-08-02
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/117.html">
+          Issue 117
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-07-26
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/116.html">
+          Issue 116
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-07-19
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/115.html">
+          Issue 115
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-07-12
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/114.html">
+          Issue 114
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-07-05
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/113.html">
+          Issue 113
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-06-28
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/112.html">
+          Issue 112
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-06-21
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/111.html">
+          Issue 111
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-06-14
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/110.html">
+          Issue 110
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-06-07
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/109.html">
+          Issue 109
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-05-31
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/108.html">
+          Issue 108
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-05-24
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/107.html">
+          Issue 107
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-05-17
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/106.html">
+          Issue 106
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-05-10
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/105.html">
+          Issue 105
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-05-03
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/104.html">
+          Issue 104
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-04-26
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/103.html">
+          Issue 103
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-04-19
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/102.html">
+          Issue 102
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-04-12
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/101.html">
+          Issue 101
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-04-05
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/100.html">
+          Issue 100
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-03-29
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/99.html">
+          Issue 99
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-03-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/98.html">
+          Issue 98
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-03-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/97.html">
+          Issue 97
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-03-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/96.html">
+          Issue 96
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-03-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/95.html">
+          Issue 95
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-02-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/94.html">
+          Issue 94
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-02-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/93.html">
+          Issue 93
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-02-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/92.html">
+          Issue 92
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-02-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/91.html">
+          Issue 91
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-01-25
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/90.html">
+          Issue 90
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-01-18
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/89.html">
+          Issue 89
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-01-11
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/88.html">
+          Issue 88
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2018-01-04
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/87.html">
+          Issue 87
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-12-28
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/86.html">
+          Issue 86
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-12-21
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/85.html">
+          Issue 85
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-12-14
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/84.html">
+          Issue 84
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-12-07
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/83.html">
+          Issue 83
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-11-30
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/82.html">
+          Issue 82
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-11-23
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/81.html">
+          Issue 81
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-11-16
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/80.html">
+          Issue 80
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-11-09
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/79.html">
+          Issue 79
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-11-02
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/78.html">
+          Issue 78
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-10-26
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/77.html">
+          Issue 77
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-10-19
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/76.html">
+          Issue 76
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-10-12
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/75.html">
+          Issue 75
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-10-05
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/74.html">
+          Issue 74
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-09-28
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/73.html">
+          Issue 73
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-09-21
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/72.html">
+          Issue 72
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-09-14
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/71.html">
+          Issue 71
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-09-07
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/70.html">
+          Issue 70
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-08-31
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/69.html">
+          Issue 69
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-08-24
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/68.html">
+          Issue 68
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-08-17
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/67.html">
+          Issue 67
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-08-10
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/66.html">
+          Issue 66
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-08-03
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/65.html">
+          Issue 65
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-07-27
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/64.html">
+          Issue 64
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-07-20
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/63.html">
+          Issue 63
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-07-13
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/62.html">
+          Issue 62
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-07-06
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/61.html">
+          Issue 61
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-06-29
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/60.html">
+          Issue 60
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-06-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/59.html">
+          Issue 59
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-06-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/58.html">
+          Issue 58
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-06-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/57.html">
+          Issue 57
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-06-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/56.html">
+          Issue 56
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-05-25
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/55.html">
+          Issue 55
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-05-18
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/54.html">
+          Issue 54
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-05-11
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/53.html">
+          Issue 53
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-05-04
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/52.html">
+          Issue 52
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-04-27
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/51.html">
+          Issue 51
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-04-20
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/50.html">
+          Issue 50
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-04-13
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/49.html">
+          Issue 49
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-04-06
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/48.html">
+          Issue 48
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-03-30
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/47.html">
+          Issue 47
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-03-23
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/46.html">
+          Issue 46
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-03-16
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/45.html">
+          Issue 45
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-03-09
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/44.html">
+          Issue 44
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-03-02
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/43.html">
+          Issue 43
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-02-23
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/42.html">
+          Issue 42
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-02-16
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/41.html">
+          Issue 41
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-02-09
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/40.html">
+          Issue 40
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-02-02
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/39.html">
+          Issue 39
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-01-26
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/38.html">
+          Issue 38
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-01-19
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/37.html">
+          Issue 37
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-01-12
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/36.html">
+          Issue 36
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2017-01-05
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/35.html">
+          Issue 35
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-12-29
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/34.html">
+          Issue 34
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-12-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/33.html">
+          Issue 33
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-12-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/32.html">
+          Issue 32
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-12-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/31.html">
+          Issue 31
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-12-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/30.html">
+          Issue 30
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-11-24
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/29.html">
+          Issue 29
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-11-17
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/28.html">
+          Issue 28
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-11-10
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/27.html">
+          Issue 27
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-11-03
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/26.html">
+          Issue 26
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-10-27
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/25.html">
+          Issue 25
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-10-20
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/24.html">
+          Issue 24
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-10-13
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/23.html">
+          Issue 23
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-10-06
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/22.html">
+          Issue 22
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-09-29
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/21.html">
+          Issue 21
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-09-22
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/20.html">
+          Issue 20
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-09-15
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/19.html">
+          Issue 19
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-09-08
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/18.html">
+          Issue 18
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-09-01
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/17.html">
+          Issue 17
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-08-25
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/16.html">
+          Issue 16
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-08-18
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/15.html">
+          Issue 15
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-08-11
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/14.html">
+          Issue 14
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-08-04
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/13.html">
+          Issue 13
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-07-28
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/12.html">
+          Issue 12
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-07-21
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/11.html">
+          Issue 11
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-07-14
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/10.html">
+          Issue 10
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-07-07
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/9.html">
+          Issue 9
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-06-30
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/8.html">
+          Issue 8
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-06-23
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/7.html">
+          Issue 7
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-06-16
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/6.html">
+          Issue 6
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-06-09
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/5.html">
+          Issue 5
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-06-02
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/4.html">
+          Issue 4
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-05-26
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/3.html">
+          Issue 3
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-05-19
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/2.html">
+          Issue 2
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-05-12
+      </h6>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a class="stretched-link" href="/issues/1.html">
+          Issue 1
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted">
+        2016-05-05
+      </h6>
+    </div>
+  </div>
+</div>
+
+</div>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 112 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 112 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 112 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/112.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 112
+    <small class="text-muted">
+      <time>
+        2018-06-21
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+Open an issue or pull request <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://www.feram.io/blog/2018-06-05_transity_the_future_of_plain_text_accounting/">Transity: The future of plain text accounting</a></p>
+<blockquote>
+<p>We found existing plain text accounting tools unsatisfactory, so we developed Transity. It models financial flows in terms of transactions and not debited / credited accounts.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.tweag.io/posts/2018-06-21-linear-streams.html">Streaming with linear types</a></p>
+<blockquote>
+<p>In this post we delve further in that direction by considering linear types and uncover their potential to have the compiler enforce more properties statically.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.snoyman.com/blog/2018/06/deprecating-haskell-markdown-library">Deprecating the Haskell markdown library</a></p>
+<blockquote>
+<p>I ended up creating my own library called markdown (inventive name, I know). Today, I’m considering deprecating this library, for a number of reasons:</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://simonmar.github.io/posts/2018-06-20-Finding-fixing-space-leaks.html">Fixing 17 space leaks in GHCi, and keeping them fixed</a></p>
+<blockquote>
+<p>We recently noticed an interesting space leak in GHCi. If we loaded a set of modules, and then loaded the same set of modules again, GHCi would need twice as much memory as just loading the modules once.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/2mol/pboy/tree/a85329bf17557beae73ca9a97f9935a61f050432">Paperboy: A small PDF management utility</a></p>
+<blockquote>
+<p>I was frustrated that most PDFs have pretty useless file names. This tool helps renaming those files without too much fuss.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.fpcomplete.com/blog/2018/06/sed-a-debugging-story">Sed: A debugging story</a></p>
+<blockquote>
+<p>This blog post is a semi-complete retelling of my debugging adventures on a particularly crazy bug. Consider it a combination of fun story telling for the audience and catharsis for myself.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://markkarpov.com/post/smart-constructors-that-cannot-fail.html">Smart constructors that cannot fail</a></p>
+<blockquote>
+<p>In type theory, a refinement type is a type endowed with a predicate which is assumed to hold for any element of the refined type.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://vaibhavsagar.com/blog/2018/06/19/trees-that-shrink/">Trees that shrink</a></p>
+<blockquote>
+<p>We’d like to make sure the desugaring has been implemented correctly, perhaps by converting to some intermediate state where both the name and the correct de Bruijn index coexist peacefully.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.stackage.org/blog/2018/06/upcoming-lts-12-ghc-8-4-3">Upcoming Stackage LTS 12 snapshot with GHC 8.4.3</a></p>
+<blockquote>
+<p>We’d like to give everyone enough time to prepare, which is why the planned release date is two weeks from the date of this post.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mmhaskell.com/blog/2018/6/18/contributing-to-ghc-2-basic-hacking-and-organization">Contributing to GHC 2: Basic hacking and organization</a></p>
+<blockquote>
+<p>This week, we’ll establish our development cycle by looking at a very simple change we can make to the compiler.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://functionaljobs.com/jobs/9080-software-engineer-developer-at-itprotv">Software engineer at ITProTV in Gainesville, Florida</a></p>
+<blockquote>
+<p>ITPro.TV is a fast-growing digital media business that focuses on continuing education in technical domains. We are currently accepting applications for full-stack software professionals to join our small but talented multidisciplinary team.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://github.com/swift-nav/shake-before-make/blob/0a47f66015a1cf4f742f2c938b3d75c1ff070ac9/Shake.pdf">Shake before Make</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/semilattices-0.0.0.1">Semilattices</a>,
+a library that defines type classes for join- and meet-semilattices, and for upper and lower bounds, and a variety of instances for each.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/carp-lang/Carp/issues/252">Carp: Implement <code>sort</code> in Carp</a></li>
+<li><a href="https://github.com/simonmichael/hledger/issues/817">hledger: same-date transactions in different files are shown in wrong order</a></li>
+<li><a href="https://github.com/purescript/psc-package/issues/120">psc-package: Give warning on users attempting to prefix <code>purescript-</code></a></li>
+<li><a href="https://github.com/turion/rhine/issues/87">rhine: Generalise ScheduleT to a type class</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>June 21 in Regensburg, Germany: <a href="https://www.meetup.com/Regensburg-Haskell-Meetup/events/251477568/">Introduction to Idris</a></li>
+<li>June 25 in Bristol, England: <a href="https://www.meetup.com/CodeHub-Bristol/events/251443638/">Hack night &amp; Haskell study group</a></li>
+<li>June 26 in Madison, Wisconsin: <a href="https://www.meetup.com/Haskallywags/events/251686474/">How I’ve become more comfortable writing Haskell</a></li>
+<li>June 27 in Gainesville, Florida: <a href="https://www.meetup.com/gnv-fp/events/251306945/">Strong static types with Haskell</a></li>
+<li>June 28 in Melbourne, Australia: <a href="https://www.meetup.com/Melbourne-Haskell-Users-Group/events/250030739/">Melbourne Haskell users group meetup</a></li>
+<li>July 5 in Frankfurt, Germany: <a href="https://www.meetup.com/Frankfurt-Haskell-User-Group/events/251622624/">Dhall: The functional configuration language</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/111.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      112
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/113.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

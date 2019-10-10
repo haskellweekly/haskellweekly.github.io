@@ -1,0 +1,238 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 96 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 96 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 96 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/96.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 96
+    <small class="text-muted">
+      <time>
+        2018-03-01
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+<a href="https://www.haskell.org">Haskell</a> is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+Open an issue or pull request <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://www.tweag.io/posts/2018-02-28-bazel-haskell.html">Build large polyglot projects with Bazel: Now with Haskell support</a></p>
+<blockquote>
+<p>We have rules for building Haskell libraries (packages), binaries, tests and Haddock documentation. Libraries or binaries can freely provide C/C++ or Java targets as dependencies, or use preprocessors such as <code>hsc2hs</code>.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://jxv.io/blog/2018-02-28-A-Game-in-Haskell.html">A game in Haskell: Dino Rush</a></p>
+<blockquote>
+<p>Writing a game in Haskell appears to be an elusive, white-whale task. And with an existing handful of small and citable games, I wish more existed with documentation to ease the barrier of entry.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://haskell-at-work.com/episodes/2018-02-26-validation-with-smart-constructors.html">Validation with smart constructors</a></p>
+<blockquote>
+<p>There are multiple kinds of validation; checking that values have a certain structure, which is deterministic, and things like querying a database to see if a user name is already taken, which is effectful and indeterministic.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://chrispenner.ca/posts/asts-with-fix-and-free">ASTs with <code>Fix</code> and <code>Free</code></a></p>
+<blockquote>
+<p>I’ve been working on a toy compiler lately so I’ve been thinking about ASTs! It’s a new thing for me and I’ve gotten a bit obsessed with the idea of simplifying both the representation of the tree itself as well as the code to interpret it.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://ixmatus.net/articles/docker-without-docker.html">Hocker: I can’t believe it’s not Docker!</a></p>
+<blockquote>
+<p>We’ve pulled a Docker image from a registry without using the Docker client or going through the Docker daemon. We also fetched three other artifacts of the <code>hello-world</code> Docker image that the stock Docker tooling elides from you.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.sylvain-henry.info/home/posts/2018-02-21-heterogeneous-collections.html">Heterogeneous collections</a></p>
+<blockquote>
+<p>In my opinion, using the data type I’ve called <code>Variant</code> to handle heterogeneous collections is currently the best alternative. It is type-safe, efficient (both storage-wise and performance-wise) and easy to use.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://mzabani.wordpress.com/2018/02/27/investment-strategies-lazy-evaluation-and-memoization/">Investment strategies, lazy evaluation and memoization</a></p>
+<blockquote>
+<p>This article will cover an interesting problem: given a set of possible investments, each with different tax rates, yearly rates and minimum time until withdrawal, what is the best investment strategy for the next 10, 20 or n years?</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://dfordivam.github.io/posts/2018-02-27-introducing-tenjinreader-for-haskellers.html">Introducing tenjinreader.com for Haskellers</a></p>
+<blockquote>
+<p>The app is written end-to-end in Haskell. Moreover, I tried to use a bunch of new (experimental) stuff, so this blog post is about my experience.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://paulspontifications.blogspot.co.uk/2018/02/haskell-with-reactive-banana-and-gtk3.html">Haskell with Reactive Banana and GTK3</a></p>
+<blockquote>
+<p>I’ve been doing some GUI coding recently using a combination of Reactive Banana and GTK3. I started out with just GTK3, but I could see it wasn’t going to scale because everything GTK3 does is in the IO monad.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://blog.ielliott.io/comonad-transformers-in-the-wild/">Comonad transformers in the wild</a></p>
+<blockquote>
+<p>I’m still getting an intuition for comonads, but they seem to embody some kind of “environment”, and comonad transformers are like a “composition of environments”.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://www.linkedin.com/jobs/cap/view/558610746/">Functional Programming at Mood Media in Bucharest</a></p>
+<blockquote>
+<p>Mood Media is still looking for a junior/mid-level PureScript developer to work on our digital signage solution. PureScript experience is not required — any FP experience will do. The job is in Bucharest, Romania — no remote.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://oscoin.io/jobs.html">Software Engineer at Oscoin in Berlin</a></p>
+<blockquote>
+<p>At Monadic, the team behind oscoin, we’re hiring our first engineers. We’re looking for experienced candidates who are well versed in functional programming and distributed systems.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.atzedijkstra.net/haskell/new-york-job-openings-with-the-strats-team-at-standard-chartered-bank/">Strat at Standard Chartered in New York</a></p>
+<blockquote>
+<p>Strats are generalist software engineers. You will work on the trading floor, directly with traders, building software to automate their work and improve their efficiency.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://np.reddit.com/r/haskell/comments/7zti25/junior_haskell_developer_in_singapore/">Junior Developer at Holmusk in Singapore</a></p>
+<blockquote>
+<p>Holmusk is a digital healthcare company based in Singapore that is focused on helping people manage chronic disease. We are building a Haskell backend team in Singapore and looking for junior developers.</p>
+</blockquote>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://mmhaskell.com/blog/2018/2/26/attoparsec-the-clarity-of-do-syntax">Attoparsec: The clarity of do-syntax</a></li>
+<li><a href="https://mail.haskell.org/pipermail/haskell-cafe/2018-February/128656.html">GHC 8.4.1-rc1 available</a></li>
+<li><a href="https://np.reddit.com/r/haskell/comments/7zj83v/ann_hackage_account_registration_changes/">Hackage account registration changes</a></li>
+<li><a href="https://github.com/quchen/stackage-everything/tree/9a65fbc4503a04cf013ed8678a86744ebd3a1157">I want Stackage and I only have 3 minutes until takeoff</a></li>
+<li><a href="https://liquid.kosmikus.org">Liquid Haskell tutorial</a></li>
+<li><a href="https://namc.in/2018-02-22-currying">What is currying?</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://www.stackage.org/lts-10.0/package/sdl2-2.3.0">sdl2</a>,
+which provides both high and low level bindings to the SDL2 library.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/bos/aeson/issues/623">aeson: Export something similar to Yaml’s encodeFile/decodeFile</a></li>
+<li><a href="https://github.com/bitemyapp/esqueleto/issues/73">esqueleto: <code>update</code> seemingly isn’t compatible with <code>SqlWriteT</code></a></li>
+<li><a href="https://github.com/commercialhaskell/stack/issues/3850">stack: <code>stack new</code> requires network to work</a></li>
+<li><a href="https://github.com/taksuyu/tabletop/issues/1">tabletop: Documenting information to help new developers</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>Lambda Trondheim is hosting <a href="https://www.meetup.com/Lambda-Trondheim/events/248157099/">a concrete introduction to Haskell</a> on March 1 in Trondheim, Norway.</li>
+<li>Silicon Valley Deep Specification is covering <a href="https://www.meetup.com/Silicon-Valley-Deep-Specification/events/247443697/">chapter one of Software Foundations</a>, functional algorithms, on March 2 in Santa Clara, California, United States.</li>
+<li>The Belgian Scala User Group is explaining <a href="https://www.meetup.com/BeScala/events/245944882/">implicit functions and reader transformers</a> on March 5 in Mechelen, Belgium.</li>
+<li>The Milwaukee Functional Programming User Group is hosting <a href="https://www.meetup.com/Milwaukee-Functional-Programming-User-Group/events/248023597/">lightning talks</a> on March 6 in Milwaukee, Wisconsin, United States.</li>
+<li>Lambda Montreal is discussing <a href="https://www.meetup.com/lambda-montreal/events/247964281/">higher-order multidimensional programming</a> on March 7 in Montreal, Canada.</li>
+<li>Haskell.SG is hosting <a href="https://www.meetup.com/HASKELL-SG/events/246341985/">their March meetup</a> on March 8 in Singapore.</li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/95.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      96
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/97.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

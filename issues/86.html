@@ -1,0 +1,227 @@
+<!doctype html>
+
+<!-- \   Haskell
+    \/\/ Weekly -->
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1, width = device-width">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@haskellweekly">
+    <meta name="twitter:title" content="Issue 86 :: Haskell Weekly">
+    <meta name="twitter:description" content="Issue 86 of Haskell Weekly, a free email newsletter about the Haskell programming language.">
+    <meta name="twitter:image" content="https://haskellweekly.news/images/twitter-card.png">
+    <meta name="og:image" content="https://haskellweekly.news/images/twitter-card.png">
+
+    <title>Issue 86 :: Haskell Weekly</title>
+
+    <link href="/styles/bootstrap-4-3-1.css" rel="stylesheet">
+    <link href="/haskell-weekly.atom" rel="alternate" title="Haskell Weekly" type="application/atom+xml">
+    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="https://haskellweekly.news/issues/86.html" rel="canonical">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar navbar-dark my-3 rounded" style="background-color: #5e5086;">
+        <a class="navbar-brand" href="/">
+          Haskell Weekly
+        </a>
+        <span class="d-inline-block" style="fill: #ffffff; width: 3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 56.8">
+  <path d="M75.8 28.4l-19 28.4H71l19-28.4zm-61.6 0l19 28.4H19L0 28.4z" opacity="0.6"/>
+  <path d="M19 56.8l19-28.4L19 0h14.2l38 56.8H56.8L45 39 33.2 57H19zm0 0"/>
+</svg>
+
+        </span>
+      </header>
+
+      <main>
+        <article>
+  <h1>
+    Issue 86
+    <small class="text-muted">
+      <time>
+        2017-12-21
+      </time>
+    </small>
+  </h1>
+
+  <p>Welcome to another issue of Haskell Weekly!
+Haskell is a safe, purely functional programming language with a fast, concurrent runtime.
+This is a weekly summary of what’s going on in its community.</p>
+<p>Want to see something featured in Haskell Weekly?
+We love contributions!
+Open an issue or pull request <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.</p>
+<h2>Featured</h2>
+<ul>
+<li>
+<p><a href="https://mail.haskell.org/pipermail/ghc-devs/2017-December/015235.html">GHC 8.4.1-alpha1 available</a></p>
+<blockquote>
+<p>The 8.4.1 release marks the first release where GHC will be adhering to its new, higher-cadence release schedule. Under this new scheme, major releases will be made in 6-month intervals with interstitial minor releases as necessary.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="http://www.parsonsmatt.org/2017/12/18/haskell_performance_debugging.html">Haskell performance debugging</a></p>
+<blockquote>
+<p>Someone posted a treap implementation to Reddit that was slow. Let’s analyze it and determine what’s up.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://futtetennismo.me/posts/algorithms-and-data-structures/2017-12-08-functional-graphs.html">Functional programming with graphs</a></p>
+<blockquote>
+<p>Graphs are a fundamental data structure in computer science because a lot of problems can be modelled with them. This applies to imperative languages but is it the same for functional languages?</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://github.com/haskell-perf/checklist/blob/6afdd503247a490185312e61fac543e82f101bca/README.md">The Haskell performance checklist</a></p>
+<blockquote>
+<p>You have a Haskell program that’s not performing how you’d like. Use this list to check that you’ve done the usual steps to performance nirvana.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://medium.com/@zw3rk/relocatable-ghc-cross-compiler-binary-distributions-f55080b837b1">Relocatable GHC cross compiler binary distributions</a></p>
+<blockquote>
+<p>TLDR: Watch the videos at the end of this article and grab your cross compilers from hackage.mobilehaskell.org.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://monadic.party">Monadic Party: Haskell summer school</a></p>
+<blockquote>
+<p>Monadic Party is a five-days long Haskell summer school. Our vision is to teach in depth with each talk spanning multiple sessions. Because of the additional time at our disposal we can get deeper into each topic to show a larger part of the story behind the subject.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.tweag.io/posts/2017-12-21-reflection-tutorial.html">All about reflection: A tutorial</a></p>
+<blockquote>
+<p>An important device in the tool belt I carry around everyday is type class reflection. I don’t reach for it often, but it can be very useful. Reflection is a little known device. And for some reason it is often spoken of with a hint of fear.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://ren.zone/articles/safe-money">safe-money: Money in the type system where it belongs</a></p>
+<blockquote>
+<p>In this article we will explore how we can leverage types, functional programming, and in particular the safe-money Haskell library to ensure that our software deals with monetary values and world currencies as carefully as civilization requires.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://wickstrom.tech/programming/2017/12/18/fast-and-fearless-evolution-of-server-side-web-applications.html">Fast and fearless evolution of server-side web applications</a></p>
+<blockquote>
+<p>The fear of introducing errors while making the change, not delivering it on time, or taking on a huge workload that hurts the team, often leads to bad design decisions. Instead of making the change we want, scared of all the things that could go wrong, we hack our way around the risk.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://www.snoyman.com/blog/2017/12/what-makes-haskell-unique">What makes Haskell unique</a></p>
+<blockquote>
+<p>The intersection of purity, strong typing, and functional programming style, for instance, lends itself to a high level form of expression which is simultaneously easy to write, easy to read, easy to modify, and efficient.</p>
+</blockquote>
+</li>
+</ul>
+<h2>Jobs</h2>
+<ul>
+<li>
+<p><a href="https://gist.github.com/neongreen/98d40ea2b965166001bc20b15a26a6f9/6d962aa691bb9ef5b3ae7f3bc59953366e28afe1">Serokell seeking remote Haskell developer</a></p>
+<blockquote>
+<p>This is a fully remote job; the salary is okay-ish, but not quite Silicon Valley grade. I would say that it’s a great first job for someone who doesn’t consider themselves a beginner Haskeller anymore, but doesn’t have enough work experience and doesn’t know where to get some.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="https://spb.hh.ru/vacancy/23792285">Biocad seeking Russian Haskell developer in Saint Petersburg</a></p>
+</li>
+</ul>
+<h2>In brief</h2>
+<ul>
+<li><a href="https://vadosware.io/post/adding-email-templating-to-my-servant-app/">Adding naive email templating to my Servant-powered Haskell web application</a></li>
+<li><a href="https://neilmitchell.blogspot.com/2017/12/announcing-debug-package.html">Announcing the debug package</a></li>
+<li><a href="https://mendo.zone/fun/beginners-haskell-bitmap-images/">Beginner’s Haskell: Creating bitmap images</a></li>
+<li><a href="https://medium.com/@zw3rk/contributing-to-ghc-290653b63147">Contributing to GHC via Phabricator</a></li>
+<li><a href="https://www.benjamin.pizza/posts/2017-12-15-functor-functors.html">Functor functors</a></li>
+<li><a href="http://semantic.org/post/how-to-write-an-interpreter-for-a-lambda-calculus-based-language/">How to write an interpreter for a lambda-calculus-based language</a></li>
+<li><a href="https://blog.ramdoot.in/monadic-do-block-yet-again-a98cf0237b25">Monadic do block, yet again</a></li>
+<li><a href="https://qiita.com/kimagure/items/7c3521cfbf00ad173801">More <code>RowList</code> fun with records in Haskell</a></li>
+<li><a href="https://ucsd-progsys.github.io/liquidhaskell-blog/2017/12/15/splitting-and-splicing-intervals-I.lhs/">Splitting and splicing intervals: Part 1</a></li>
+<li><a href="https://www.stackage.org/lts-10.0">Stackage LTS 10.0 with GHC 8.2.2</a></li>
+<li><a href="https://mmhaskell.com/blog/2017/12/18/syntactic-implications-of-expressions">Syntactic implications of expressions</a></li>
+<li><a href="https://hackernoon.com/the-future-is-functional-haskell-and-the-ai-native-world-b55f2592865e">The Future is functional: Haskell and the AI native world</a></li>
+<li><a href="https://medium.com/@danrobinson/understanding-simplicity-implementing-a-smart-contract-language-in-30-lines-of-haskell-827521bfeb4d">Understanding Simplicity: Implementing a smart contract language in 30 lines of Haskell</a></li>
+</ul>
+<h2>Package of the week</h2>
+<p>This week’s package of the week is <a href="https://hackage.haskell.org/package/gauge-0.1.3">Gauge</a>,
+a clone of Criterion on a diet.</p>
+<h2>Call for participation</h2>
+<ul>
+<li><a href="https://github.com/AllureOfTheStars/Allure/issues/77">Allure: Add/improve cave description texts</a></li>
+<li><a href="https://github.com/barrucadu/dejafu/issues/166">dejafu: Use LTS-10 in travis</a></li>
+<li><a href="https://github.com/commercialhaskell/stack/issues/3651">stack: Show resolver being used when <code>stack ghci</code> is invoked outside of a project directory</a></li>
+</ul>
+<h2>Events</h2>
+<ul>
+<li>December 21: Formal Methods and Verified software meetup: <a href="https://www.meetup.com/Formal-Methods-and-Verified-software-meetup/events/245917235/">Presentation of Idris, a Programing language with dependent types</a></li>
+<li>December 26: Kyiv Haskell Learning Group: <a href="https://www.meetup.com/Kyiv-Haskell-Learning-Group/events/244284234/">Haskell Programming From First Principles Study Group</a></li>
+<li>December 27: Quito Lambda: <a href="https://www.meetup.com/Quito-Lambda-Meetup/events/238781827/">La programación funcional</a></li>
+</ul>
+
+</article>
+
+<ul class="justify-content-center pagination pagination-lg">
+  <li class="page-item ">
+    <a class="page-link" href="/issues/85.html">
+      Previous
+    </a>
+  </li>
+  <li class="disabled page-item">
+    <a class="page-link" href="#">
+      86
+    </a>
+  </li>
+  <li class="page-item ">
+    <a class="page-link" href="/issues/87.html">
+      Next
+    </a>
+  </li>
+</ul>
+
+<aside class="justify-content-center row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          Did you enjoy this issue?
+          Subscribe now to get more like it delivered to your inbox every Thursday.
+          It's easy to unsubscribe and we'll never send you spam.
+          If you'd prefer, you can follow us <a href="https://twitter.com/haskellweekly">on Twitter</a>
+          or subscribe to <a href="/haskell-weekly.atom">the feed</a>.
+        </p>
+
+        <form action="https://news.us10.list-manage.com/subscribe/post?u=49a6a2e17b12be2c5c4dcb232&amp;id=ffbbbbd930" class="subscribe" method="post">
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+    <input name="b_49a6a2e17b12be2c5c4dcb232_ffbbbbd930" tabindex="-1" type="text" value="">
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" name="EMAIL" placeholder="someone@monad.example" required type="email">
+  </div>
+
+  <button class="btn btn-primary" type="submit">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+      </main>
+
+      <footer class="bg-light card my-3">
+        <div class="card-body">
+          Content on this site is licensed under a
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
+          The source code for this site is available
+          <a href="https://github.com/haskellweekly/haskellweekly.github.io">on GitHub</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
